@@ -1,0 +1,12 @@
+= link_to call, class: "interpretation-call" do
+  %span.desc
+    %span.desc-body
+      %span.name= call.interpreter.name
+      %span.langs (#{call.your_language}-#{call.language}),
+      %span
+        - if call.scheduled_at
+          #{l(call.scheduled_at, format: t("time.formats.simple"))},
+        - else
+          #{l(call.created_at, format: t("time.formats.simple"))},
+      - klass = call.state == "awaiting_payment" ? "red" : ""
+      %span{class: klass} ##{call.id}, #{call.state}

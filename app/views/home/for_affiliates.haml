@@ -1,0 +1,70 @@
+- content_for :description do
+  .mobile-hide= t("for_affiliates_page.title")
+
+- content_for :title do
+  = t("for_affiliates_page.title")
+
+- content_for :meta_description do 
+  = t("meta_desc.for_affiliates")
+
+- content_for :intranet_button do
+  %a.intranet-button.mobile-hide{href: for_affiliates_path(anchor: "affiliate_form")}
+    = t("for_affiliates_page.signup_link")
+  %a.intranet-button.mobile-hide{href: ENV["BACKEND_URL"]}
+    = t("for_affiliates_page.login")
+
+- content_for :back_link do
+  = link_to t("help_menu.back_link"), root_path, class: 'back_link'
+
+- content_for :body do
+  .main_content
+    .about_sidebar
+      = render partial: 'home/help_menu'
+    .about_content
+      %h1.text-header= t("for_affiliates_page.page_title")
+      %p{style: 'font: 14px/17px "robotolight"'}= t("for_affiliates_page.description")
+      .about_article
+        %h2= t("for_affiliates_page.block1.title")
+        .step_wrapper
+          .step
+            .num
+              1
+            .text
+              = t("for_affiliates_page.block1.step1")
+            .clear
+          .step
+            .num
+              2
+            .text
+              = t("for_affiliates_page.block1.step2")
+            .clear
+          .step
+            .num
+              3
+            .text
+              = t("for_affiliates_page.block1.step3")
+            .clear
+        %h2= t("for_affiliates_page.block2.title")
+        %p= raw t("for_affiliates_page.block2.text")
+
+        %h2= t("for_affiliates_page.block3.title")
+        %p= raw t("for_affiliates_page.block3.text")
+
+        %h2= t("for_affiliates_page.block4.title")
+        %p{style: ("color: green; font-weight: bold;" if params[:partner])} 
+          = t("for_affiliates_page.block4.step1")
+          - if params[:partner]
+            %i.base-input-success-icon{style: "float:none; margin:0; display: inline-block"}
+        %p= t("for_affiliates_page.block4.step2")
+        %p= t("for_affiliates_page.block4.step3")
+        - if notice
+          %p#notice= notice
+
+        #affiliate_form{style: "margin-top: 40px;"}
+          - if params[:partner]
+            %div
+              %p= t("for_affiliates_page.after_reg.text")
+              = link_to t("for_affiliates_page.after_reg.link"), "#{ENV['BACKEND_URL']}/partner_accounts/#{params[:partner]}/edit", class: "intranet-button questionnaire-button"
+          - else 
+            .begin_form= render("partners/form")
+    .clear

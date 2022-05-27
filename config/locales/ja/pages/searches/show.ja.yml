@@ -1,0 +1,56 @@
+ja: 
+  # search_form: searches/_search_form
+  search_page: 
+    window_title: 
+      zero: "%{city}には通訳者はいません。"
+      one: "%{city}には通訳者は%{count}人います"
+      few: "%{city}には通訳者は%{count}人います"
+      other: "%{city}には通訳者は%{count}人います"
+    title: 
+      zero: "%{city}には通訳者はいません。"
+      one: "にいる通訳者 %{city}"
+      few: "にいる通訳者 %{city}"
+      other: "にいる通訳者 %{city}"
+    keywords: "%{city}にいる通訳者, %{city}にいる通訳者のサービス, %{city}にいる日本語の通訳者, %{city}にいる英語の通訳者, %{city}にいる私的な通訳者, %{city}にいる通訳者"
+    meta_description: "%{city}にいる商談・交渉、展示会、会議の専門家の通訳者。通訳者に連絡し、又はウェブサイトでは前払いや値上げなしでご予約下さい。"
+    free_cancellation: "予約は今、支払は後！予約キャンセル料は無料値上げなし！
+"
+    one_available_interpreter: "%{city}にいる通訳者は一人を予約できます"
+    one_from_few_available_interpreter: "%{city}にいる%{count}人通訳者の中、%{free}人を予約できます"
+    available_interpreters: 
+      zero: "お客様が入力された条件に当たる通訳者は%{city}にいません。"
+      one: "%{city}にいる%{count}人通訳者の中、%{free}人を予約できます"
+      few: "%{city}にいる%{count}人通訳者の中、%{free}人を予約できます"
+      other: "%{city}にいる%{count}人通訳者の中、%{free}人を予約できます"
+    duration_text: "%{duration}時間の値段(%{intervals})、割引を含む"
+    back_link: "ホームページへ"
+    price: "%{city}にいる通訳者の値段"
+    services: "%{city}にいる通訳者のサービス"
+    specializations: "通訳対応分野"
+    fold: 隠す
+    unfold: もっと見る 
+    city_desc: "%{city}にいる通訳者について"
+    sort: 
+      title: "Сортировка:"
+      price: "Цена"
+      updated_at: "Дата обновления"
+      level: "Оценка резюме"
+    change_date: "日時を変更しますか？"
+    learn_more: "もっと詳しく"
+    result: "結果"
+    filter: "フィルター"
+    search: "検索"
+    map_link: "地図で見る"
+    minimum_volume_message: "%{city}にいる通訳者の最短勤務時間は%{hours}です。ミーティング時間を増加してください。"
+    busy_interpreters_message: "%{count} недоступных переводчиков в выбранное время"
+    minimum_advance_message: "%{city}にいる通訳者はご予約を実行できるのはこれから%{advance}以降となります。日時を変更してください。"
+    time_in_past: "未来の日付を入力してください"
+    another_price_interpreters: 
+      one: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の値段間隔を選んでください"
+      few: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の値段間隔を選んでください"
+      other: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の値段間隔を選んでください"
+    busy_interpreters: 
+      one: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の期間を入力してください"
+      few: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の期間を入力してください"
+      other: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の期間を入力してください"
+    show_more: "もっと見る"

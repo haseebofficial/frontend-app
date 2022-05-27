@@ -1,0 +1,426 @@
+en:
+  locales:
+    ru: "Русский"
+    en: "English"
+    de: "Deutsch"
+    es: "Español"
+    fr: "Français"
+    it: "Italiano"
+    tr: "Türkçe"
+    pt: "Português"
+    vi: "Tiếng Việt"
+    ar: "العربية"
+    ja: "日本語"
+    zh: "中文"
+    ko: "한국의"
+
+  your_language_selector: "Select your language"
+  for: "for"
+  flash_messages:
+    new_interpreter: "You are successfully registered on interpretres.travel! Your account credentials were sent to %{email}."
+    new_partner: "You are successfully registered on interpretres.travel! Your account credentials were sent to %{email}."
+    ticket_created: "Thank you for contacting our support service. You will receive a response shortly"
+    interpreter_message_created: "Your message was successfully sent. You will receive an answer to your email soon."
+    paypal_payment_declined: "Your payment was declined by PayPal. Please contact support."
+    braintree_payment_declined: "Your payment was declined by Braintree. Please contact support."
+    payment_declined: "Your payment was declined by payment service provider. Please contact support."
+    payment_success: "Your order is registered!"
+    order_not_paid: "Pay attention! Payment for your order is not completed yet! You can select payment method at the bottom of this page. If you have paid for this order but still see this message, please contact support. Your order number:"
+    contacts_requested: "Interpreter's contacts will become available in a few minutes and you will receive a notification to your email address along with a voucher."
+    invalid_captcha: "Please confirm that you're not a robot."
+
+  forms:
+    email: "Email:"
+    name: "Your name:"
+    phone: "Phone number:"
+    message: "Your message:"
+    send_message_to_int: "Contact Interpreter"
+    send_button: "Send"
+    send_to_all: "Send message to all similar interpreters"
+    order_message: "Specify your event, venue, number of participants, subject, target languages, date and time needed, other features and requirements"
+  meta_desc:
+    phone: "Interpreters.travel provides international calls with interpreters and phone interpretation services. 24/7 access, 180 languages, 10000 professional interpreters"
+    main: "Interpreters worldwide. Why interpreters.travel? Verified interpreters and actual client reviews"
+    about: "Interpreters.travel OÜ founded in 2013 has full and exclusive ownership rights to Interpreters.travel – an interpreters search and online interpretation ordering service worldwide."
+    for_clients: "Interpreters.travel is an online service which allows finding professional interpreters easily and quickly and ordering interpretation services in many cities and countries worldwide!"
+    help_interpreter: "Interpreters.travel is a convenient and safe site for obtaining new orders for interpretation services. Easy in use functions allow to adjust service flexibly to my employment and receive orders only for that time which is convenient to me. Even having only several free hours in the working calendar, I receive orders at interpreters.travel and I use my working time most profitably"
+    info: "Interpreters.travel — is an easy, safe and reliable service which allows finding quickly a suitable interpreter and ordering interpretation services worldwide directly on the web site or by means of a mobile device."
+    for_affiliates: "Interpreters.travel Affiliate Program. You use a direct link or a simple search form to integrate our searches within your website. Any website user interested in interpretation services can find a suitable interpreter and place an order. You receive 5% payment for each successfully completed order."
+  top_menu:
+    login_link: "Login"
+    sign_up_link: "Sign up"
+    help_link: "Help"
+    logout_link: "Logout"
+    dashboard_link: "Personal account"
+    welcome: "Welcome, %{user}"
+    interpreter_login_link: "Login for interpreters"
+    calls: "Calls with interpreters"
+    calls_to_city: "Call to %{city} with interpreter"
+
+  card_checkout_form:
+    title: "Pay %{amount}"
+    name: "Name on Card"
+    submit: "Pay with card"
+    cnn_error: "Please enter a valid credit card number"
+    exp_error: "Please enter the expiration date (MM/YY)"
+    cvv_error: "Please enter the CVV/CVC of your card"
+    3ds_error: "3-D Secure Authentication failed. Please try again or select different payment method."
+    text: "We don't gain access to your personal payment information such as credit card number or CVV at any point of the checkout process."
+
+  interpretation_call:
+    completed_text: "Completed Interpretation Call:"
+    datetime: "Date, Time of request:"
+    language_pair: "Language pair:"
+    date_start: "Date and time of call start:"
+    duration: "Call duration:"
+    price_minute: "Price per minute:"
+    total_amount: "Total amount:"
+    paid: "Paid:"
+    state: "Status:"
+    pay_button: "Pay"
+    awaiting_payment: "Awaiting payment"
+    completed: "Completed"
+    my_calls: "My calls:"
+    request_sent: "Your request has been sent to the available interpreters."
+    no_interpreters: "No interpreters are available for call search"
+    submit: "Find interpreter"
+    add_time: "Add time"
+    language: "Language"
+    your_language: "Your Language"
+    immediate_call: "Call now"
+    choose_time: "Choose time"
+    new_text: "New call:"
+    scheduled_at: "Scheduled at:"
+    new: "New"
+    new_call_explanation: "You have successfully booked interpreter's services. We will remind you about the call 30 minutes prior to its start using a email notification. At the specified time, open this page and follow the instructions to complete this call."
+    help_link: "How it works"
+    about_service: "About the service"
+    app_store_link1: "interpreters.travel mobile app"
+    app_store_link2: "for calls with interpreters"
+
+  footer:
+    info: "About interpreters.travel"
+    support: "Support 24/7"
+    help_inter: For interpreters
+    help_inter_in_city: "For interpreters in %{city}"
+    for_affiliates: "For affiliates"
+    terms_conditions: "Terms and conditions"
+    privacy_policy: "Privacy policy"
+    copyright_html: "&copy; Copyright %{year}. interpreters.travel. All rights reserved."
+
+  description_index: "Interpreters worldwide"
+
+  slider:
+    slide1: "Interpreting a business meeting"
+    price_slide1: "in Los Angeles, the USA - 115 USD / 3 hours"
+    slide2: "Interpreting at a wine exhibition"
+    price_slide2: "in Barcelona, Spain - 160 EUR / 5 hours"
+    slide3: "Whisper interpretation at a seminar"
+    price_slide3: "in Hong Kong - 185 USD / 2 days"
+    slide4: "Interpreting  consultations in a clinic"
+    price_slide4: "of Cologne, Germany - 95 EUR / 2 hours"
+
+  search_form:
+    title: "Find interpreters"
+    where: "Where:"
+    when: "When:"
+    language: "What language:"
+    your_language: "Your language:"
+    button: "search"
+    city: "example: Berlin, Milan, New York"
+    date_time: "choose date, time"
+    timepicker:
+      title: "Meeting time(local):"
+      total: "General time of intervals"
+      from: "From"
+      till: "To"
+      buttons:
+        add_day: "add"
+        clear: "clear"
+        clear_intervals: "clear intervals"
+        choose: "choose"
+    language_selector:
+      no_result: "no interpreters available"
+      list_select: "choose from list"
+      blank_city: "Select the city first"
+    city_selector:
+      no_result: "No available interpreters In the specified city at the moment. Try to find an interpreter in this city later or choose another city"
+  partner_search_form:
+    title: "Interpreters in 100 counries!"
+    desc: "for meetings, conferences, trade fairs, clinics"
+    show: Find
+  contact_form:
+    name: "Name, Surname:"
+    phone: "Phone:"
+    email: "Email:"
+    content: "Your message:"
+    button: "Send"
+    city: "Your city:"
+
+  counts:
+    cities:
+      one: "%{count} city"
+      other: "%{count} cities"
+    countries:
+      one: "%{count} country"
+      other: "%{count} countries"
+
+  client_reviews:
+    leave_review: "Leave review"
+    score: "Overall score"
+    interpretation_score: "Translation speed and accurasy"
+    punctuality_score: "Punctuality and self-discipline"
+    consultation_score: "Help and consultation during the event"
+    comment: "Overall impression of interpreter's work, any other comments"
+    updated: "Your review was submitted. Thank you for your time and opinion"
+
+  main:
+    header: "Types of Interpretation service"
+    header_description: "You do not know what service to choose? Look at the description of interpretation services."
+    block_img1: "Interpretation at a business meeting"
+    block_img2: "Interpreting a presentation"
+    block_img3: "Protocol interpretation"
+
+    block_img4: "Interpretation at an exhibition"
+    block_img5: "Interpretation at a seminar or conference"
+    block_img6: "Delegations escort"
+    all_type: "All interpretation services"
+    client_reviews_title: "Verified interpreters and actual client reviews"
+    why_inter:
+      title: "Why interpreters.travel?"
+      block1:
+        link: "Easy and safe"
+        text_html: "Order now, pay later! <br/> FREE order cancellation. <br/> Guaranteed safety of payments."
+      block2:
+        link: "Low prices"
+        text_html: "All orders at the INTERPRETERS’ PRICES <br/> without agent’s markups <br/> DISCOUNTS ARE INCLUDED  in order calculations."
+      block3:
+        link: "Maximum choice"
+        text_html: "Interpreters in %{cities}, <br/> %{countries} worldwide"
+      block4:
+        link: "Convenient"
+        text_html: "Convenient payment: VISA, MasterCard, <br/> bank transfer, cash<br/>24/7 SUPPORT"
+  search_page:
+    window_title:
+      one: "%{count} interpreter in %{city}"
+      other: "%{count} interpreters in %{city}"
+    title:
+      zero: "No Interpreters in %{city}"
+      one: "Interpreter in %{city}"
+      other: "Interpreters in %{city}"
+    meta_description: "Professional interpreters in %{city} for meetings, exhibitions, conferences. Online prices. Contact interpreter or place an order on the website without agent’s markups."
+    keywords: "interpreters in %{city}, %{city} interpreters, translators in %{city}, %{city} translators, interpretation services in %{city}, trancslation services in %{city}, freelance interpreters in %{city}"
+    free_cancellation: "Order now, pay later with FREE order cancelation! No agent’s markups."
+    one_available_interpreter: "Interpreter in %{city} is available for order"
+    one_from_few_available_interpreter: "1 from %{count} interpreters in %{city} is available for order"
+    need_translation: "Need %{source_lang}-%{target_lang} professional translation?"
+    get_quote: "GET QUOTE"
+    available_interpreters:
+      zero: "No interpreters in %{city} are available for chosen parameters"
+      one: "1 from %{count} interpreters in %{city} is available for order"
+      other: "%{free} from %{count} interpreters in %{city} are available for order"
+    duration_text: "Price for %{duration} (%{intervals}), discounts are included"
+    back_link: "To main page"
+    price: "Interpreters prices in %{city}"
+    services: "Interpreters services in %{city}:"
+    specializations: "Interpretation specialization:"
+    fold: Hide
+    unfold: Show all
+    city_desc: "About interpreters in %{city}"
+    change_date: "Change date, time?"
+    sort:
+      title: "Sort by:"
+      price: "Price"
+      updated_at: "Updating date"
+      level: "Summary assessment"
+    learn_more: "details"
+    result: "Result"
+    filter: "Filter"
+    search: "Search"
+    map_link: "Look on the map"
+    minimum_volume_message: "%{hours} - the minimum volume of the order at interpreters in %{city}. Increase time of your meeting."
+    minimum_advance_message: "Not earlier than in %{advance} your order by interpreters from %{city} can be executed. Change date and time."
+    time_in_past: "Specify future date"
+    another_price_interpreters:
+      one: "%{count} more Interpreter in %{city} corresponding to your request, but available in other price range"
+      other: "%{count} more Interpreters in %{city} corresponding to your request, but available in other price range"
+    busy_interpreters:
+      one: "%{count} more Interpreter in %{city} corresponding to your request, but available in other time"
+      other: "%{count} more Interpreters in %{city} corresponding to your request, but available in other time"
+    show_more: "Show more"
+  interpreter:
+    diplomas: "Diplomas"
+    certificates: "Certificates"
+    experience: "Experience"
+    recommendations: "Recommendations"
+    level: "Level"
+    rating: "Rating"
+    reviews: "Reviews"
+    education: Education
+    reviews_text: "Only from clients with ordered and paid interpretation service"
+    rating_text: "The rating is made of more than 20 parameters: experience, education, customer reviews, recommendations, questionnaire quality and others"
+    events: "Events"
+    resume_level: "Summary <span class='mobile-hide'>level:</span>"
+    title: "Professional interpreter"
+    title_city: "Professional interpreter in %{city}"
+    verified_contacts: "Verified contacts"
+    verified_profile: "Verified profile"
+    in_city: "Interpreter in %{city} - %{name}"
+
+  show_interpreter:
+    translation: "Professional translation"
+    get_quote: "GET QUOTE"
+    title: "Interpreter in %{city} (%{langs}) - %{interpreter}"
+    meta_description: "Interpretation services in %{city} for meetings, exhibitions, conference"
+    desc_addition: "I am offering interpretation services (%{langs}) in %{city}."
+    keywords: "interpreter in %{city}, %{city} interpreter, translator in %{city}, %{city} translator, interpretation service in %{city}, translation service in %{city}, freelance interpreter in %{city}"
+    service_select: "Interpreter in %{city}"
+    similar_interpreters: "Similar interpreters"
+    experience: Experience
+    youtube_link: Video
+    verified_contacts_text: "Verified passport (id card, driver's license) and education documents."
+    ticket_text: 'Send a preliminary request to the interpreter or book now the chosen date and time by means of the "Order now" button opposite to services below.'
+    why_itravel_block: |
+      <h3> Why interpreters.travel:</h3>
+      <p>Interpreters' prices without agent’s markups</p>
+      <p> Online payment or cash to interpreter </p>
+      <p>Free order cancellation, guarantee of refund</p> 
+      <p>Order now without registration</p>
+      <p>Possibility to order as a company</p>
+      <p>Safety of online payments, data security</p>
+    learn_more: "Learn more"
+    back_link: "All interpreters in %{city}"
+    load_more: "Show more"
+    selected_period: "Chosen period: %{intervals}"
+    specializations: "Interpretation specialization:"
+    language_pairs: "Interpretation language pairs:"
+    unavailable: "Interpretation service isn't available for the selected order time,"
+    edit_search: ", choose another order time"
+    available_services: "Services are available for order, %{period}:"
+    price: "Price*"
+    order: "Order"
+    person_count: "(%{count} person)"
+    additional_services: "Additional services"
+    free_cancellation_text: "Free order cancellation is possible prior to the meeting no later than %{hours}. Order cancellation at a later time is possible only with payment for the first two hours of the interpretation service being deducted. "
+    free_cancellation: "Free cancelation"
+    discount: "Discount"
+    order_button: "order now"
+    star_text: "*Order price for chosen time, with discounts"
+    avg_response_time:
+      title: "Average response time"
+      hour: "Within an hour"
+      few_hours: "Within a few hours"
+      day: "Within a day"
+      few_days: "Within a few days"
+    response_rate: "Response rate"
+    how_to_order:
+      title: "How to order interpreter in %{city}:"
+      text: |
+        - click "Order now" opposite to the chosen service
+        <br>
+        - use a credit card or receive an invoice for payment to place the order. Also you can choose option of cash payment the interpreter.
+        <br>
+        - receive order confirmation and the Voucher with data for contact with the interpreter
+    confirm_modal:
+      date: "Booking date and time:"
+      service: "%{service} in %{city}"
+      languages: "Languages:"
+      price: "Price:"
+    reviews_from: Only from clients who ordered and paid interpretation service
+    dialogs:
+      checked_and_confirmed: "Checked and confirmed:"
+      email_full: "Email address: %{email}"
+      phone_full: "Mobile phone: %{phone}"
+      email_address: "Email address: ▒▒▒▒▒▒@▒▒▒▒.%{domain}"
+      phone: "Mobile phone: ▒▒▒▒▒▒%{last_two}"
+      contacts_available: "Contacts will become available after %{confirmation}"
+      order_confirmation: "order confirmation"
+      passport: "Passport/ID/Driver's license"
+      documents: Education documents
+      contacts_title: Contacts verification
+      profile_title: Profile verification
+      education_title: Education
+      youtube_title: Video
+    500_page:
+      title: Interpreter is not available
+      title_text: This interpreter is currently not available or his profile is not published
+      similar_ints_title: "Similar interpreters in %{city}"
+      to_search: "You can %{link} for another available interpreter in %{city}"
+      search: TRY TO SEARCH
+    viewers_count:
+      one: "This interpreter is currently being viewed by %{count} user"
+      other: "This interpreter is currently being viewed by %{count} users"
+
+  order_page:
+    description: "Order registration"
+    back_link: "To choice of services"
+    stage1: "Choice of the interpreter"
+    stage2: "Choice of service"
+    stage3: "Order registration"
+    order_info: "Information about the order"
+    services_info: "Interpretation services in: %{city}."
+    selected_period: "The chosen period:"
+    language_pairs: "Language pairs:"
+    selected_services: "The chosen services:"
+    additional_services: "Additional services:"
+    order_cancellation: "Free order cancellation:"
+    cancellation_possible: "is possible before %{date}"
+    no_cancellation: "not provided"
+    service_types: "Services:"
+    order_price: "Order price and currency:"
+    discount: "discounts are included."
+    personal_form_tab: "Order registration for an individual"
+    confirmation_code: "Enter the confirmation code sent on your mobile phone number:"
+    login_button: "Login, if you have an account"
+    login_password_info: "(password was sent to %{mail})"
+    login: "Login"
+    password: "Password:"
+    forgot_password_success: "В течение нескольких минут вы получите письмо с инструкциями по восстановлению вашего пароля."
+    forgot_password: "Forgot password?"
+    forgot_title: "Create new password"
+    new_password: "create new password"
+    client_currency: "Payment currency"
+    payment:
+      choice: "Following payment methods will be available to you:"
+      choice_paypal: "PayPal"
+      choice_invoice: "Bank transfer"
+      choice_cash: "Cash payment at the meeting"
+      choice_card: "VISA/MasterCard"
+      info: "To cancel cash payment order you will have to personally consult the interpreter about order cancellation conditions."
+      cash_text: "Cash payment directly to the interpreter. Amount paid is specified in the interpreter's currency(%{amount}). This amount will also be shown on your receipt."
+      invoice_text1: "A copy of the Invoice will be sent to you by e-mail as a pdf document."
+      invoice_text2: "You can pay the invoice in any bank via bank transfer not later than 3 bank days before the date of payment specified in the invoice."
+      invoice_text_eur: "Pay attention! The invoice's payment amount is specfied in one of the available currencies(EUR) which might not match the currency you selected."
+      paypal: 'You will be redirected to the PayPal payment provider page.  Click "PayPal" button'
+      select: "Payment method:"
+      invoice: "Invoice"
+      cash: "Cash"
+      order_button: "Complete your order"
+    personal_form:
+      title: "Information about the customer:"
+      surname: "Surname:"
+      name: "Name, Surname:"
+      sms_phone: "Phone number (+35733...)"
+      city: "City:"
+      address: "Address:"
+      email: "Email:"
+      info_for_interpreter: "Information for the interpreter (is not required and can be specified later):"
+      meeting_address: "Address for a meeting with the interpreter:"
+      map_link: "Show on map"
+      detail_information: "Describe the meeting subject or questions, copy the release text or other information (no more than 3000 symbols). It will allow the interpreter to prepare better for interpretation at the meeting or event"
+      file_field: "Add a file with information"
+      submit: "Choose payment method"
+      agreement_text: "By pressing «Choose payment meethod» you agree to %{policy} and our %{terms}."
+      policy: "the privacy policy"
+      terms: "terms and conditions"
+  order_complete:
+    title: "Order registration"
+    back_link: "To main page"
+    for_client: "Dear %{client}!"
+    order_registered: "Your order has been registered."
+    text: |
+      The order details and description of further actions have been sent to the specified email.
+      <br>
+      You also can
+    link: "look at the order details"
+    after_link: "on the website."

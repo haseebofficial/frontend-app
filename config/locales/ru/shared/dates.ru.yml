@@ -1,0 +1,18 @@
+ru:
+  js: 
+    time:  
+      since_word: "C"
+      to_word: "по"
+  time:
+    formats:
+      default:           "%m/%d/%Y %I:%M %P"
+      long:              "%A, %B %e of %Y at %I:%M %P"
+      short:             "%I:%M %P"
+      simple:            "%e %B %-k:%M"
+    since_word: "с"
+    to_word: "до"
+  date:
+    formats:
+      default:           "%m/%d/%Y"
+      month_day:         '%e %B'
+      long:              "%A, %B %e of %Y"

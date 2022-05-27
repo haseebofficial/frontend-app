@@ -1,0 +1,64 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+.order-page-navbar {
+  margin-bottom: 40px;
+  .nav-list {
+    display: flex;
+    justify-content: center;
+
+    & li:not(:first-child) {
+      margin-left: 45px;
+    }
+
+    li {
+      padding: 3px 0;
+      position: relative;
+    }
+
+    .order-nav-link:before {
+      content: "";
+      position: absolute;
+      bottom: -7px;
+      width: 0;
+      height: 4px;
+      background-color: c.$interpreters-yellow;
+      transition: width 0.8s ease;
+    }
+
+    .order-nav-link {
+      display: block;
+      height: 100%;
+    }
+
+    .order-nav-link.active {
+      font-weight: 700;
+
+      &:before {
+        width: 100%;
+      }
+    }
+
+    .order-nav-link:hover {
+      font-weight: 700;
+      text-decoration: none;
+
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@include r.touch {
+  .order-page-navbar {
+    margin-bottom: 0;
+    .nav-list {
+      font-size: 14px;
+    }
+  }
+}
+.lang-ar {
+  .order-page-navbar .nav-list li {
+    margin-left: 2em;
+  }
+}

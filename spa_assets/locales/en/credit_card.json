@@ -1,0 +1,29 @@
+{
+  "modal": {
+    "header": "Payment information",
+    "card_info": {
+      "remove_card": "Remove card"
+    },
+    "bluesnap_fields": {
+      "header": "Add credit or debit card",
+      "submit": "Save card",
+      "expiry_placeholder": "MM / YY",
+
+      "errors": {
+        "001": "Please enter a valid card number",
+        "002": "Please enter the CVV/CVC of your card",
+        "003": "Please enter valid expiration date in MM/YY format",
+        "22013": "Card type is not supported",
+        "internal_server_error": "Internal server error please try again later"
+      }
+    },
+    "errors": {
+      "unable_to_save_card": "Unable to authorize your card. Please try again or use different one.",
+      "unable_to_delete_card": "We were unable to remove your card at this moment. Please complete any active interpretation calls and try again or contact support."
+    }
+  },
+
+  "payment_information_link": {
+    "text": "Payment information"
+  }
+}

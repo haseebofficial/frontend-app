@@ -1,0 +1,4 @@
+{
+  "no_microphone_detected": "Unable to detect microphone on this device.",
+  "microphone_access_denied": "You must allow microphone access first. Please check your browser settings."
+}

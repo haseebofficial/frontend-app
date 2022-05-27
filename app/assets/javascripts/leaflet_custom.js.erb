@@ -1,0 +1,151 @@
+(function() {
+  var MAPBOX_TOKEN = "pk.eyJ1IjoiYWxleGV5ZHMiLCJhIjoiY2p0cHkwbWNlMDAzdzQ1cW5oNm9sOTdjYyJ9.XOGmLdeCvY84Fo6gKmWzjw";
+
+  $(document).on('ready page:load', function() {
+    var sidemapId = "leaflet-sidemap-block";
+    if (document.getElementById(sidemapId)) {
+      initSideMap(sidemapId);
+    }
+
+    var addressMapId = "leaflet-address-select-map";
+    if (document.getElementById(addressMapId)) {
+      initAddressMap(addressMapId);
+    }
+
+    var staticMaps = $(".leaflet-static-map");
+    if (staticMaps.length > 0) {
+      staticMaps.each(function(_i, elem) { initStaticMap(elem); });
+    }
+  });
+
+  function initSideMap(elementId) {
+    var latlong = getLatLong();
+    var map = initMap(elementId, { latlong: latlong, zoom: 9 });
+    
+    $(".rerender-sidemap-on-click").click(function() { map.invalidateSize(); });
+
+    var interpretersCount = translaters_count;
+    addCountMarker(map, latlong, interpretersCount);
+  }
+
+  function initAddressMap(elementId) {
+    initDialog(function() {    
+      var latlong = getLatLong();
+      var map = initMap(elementId, { latlong: latlong, zoom: 15 });
+      var icon;
+
+      map.on("click", function(e) {
+        var coords = e.latlng;
+
+        getAddress(coords.lat, coords.lng).then(function(result) {
+          if (result.success) {
+            var address = result.address;
+
+            document.getElementById("map_address").value = address;
+            $('.adr').val(address).addClass('act_inp').each(function() { ($(this).valid()) })
+          } else {
+            document.getElementById("map_address").value = "No results";
+          }
+        });
+
+        if (icon) { icon.removeFrom(map); }
+
+        icon = addStaticMarker(map, [coords.lat, coords.lng]);
+      });
+    });
+  }
+
+  function initStaticMap(elem) {
+    var $elem = $(elem);
+    var lat = $elem.data("lat");
+    var lng = $elem.data("lng");
+
+    var map = initMap(elem, { latlong: [lat, lng], zoom: 17 });
+    addStaticMarker(map, [lat, lng]);
+  }
+
+  function initMap(elementId, opts) {
+    var zoom = opts.zoom;
+    var latlong = opts.latlong;
+    var map = L.map(elementId).setView(latlong, zoom);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: getAttributionData(),
+      maxZoom: 18,
+      id: 'mapbox.streets',
+      accessToken: MAPBOX_TOKEN
+    }).addTo(map);
+
+    return map;
+  }
+
+  function addCountMarker(map, latlong, count) {
+    var html = "<div>" + count + "</div>";
+    var icon = L.divIcon({
+      html: html, 
+      className: "leaflet-count-marker", 
+      iconSize: [36, 36], 
+      iconAnchor: [18, 46]
+    });
+
+    L.marker(latlong, {icon: icon}).addTo(map);
+  }
+
+  function addStaticMarker(map, latlong) {
+    var iconObj = L.icon({
+      iconUrl: "<%= asset_url('leaflet/marker-icon.png') %>",
+      iconSize: [25, 41],
+      iconAnchor: [13, 45]
+    });
+
+    return L.marker(latlong, {icon: iconObj}).addTo(map);
+  }
+
+  function initDialog(onInit) {
+    $(".map_modal").dialog({
+      modal: true,
+      width: 700,
+      height: 600,
+      autoOpen: false
+    });
+
+    var isInitialized = false;
+
+    $(".open_map_link").click(function() {
+
+      $(".map_modal").dialog("open");
+      $(".map_modal").dialog({
+        buttons: [{ text: I18n.t("js.select"), click: function() { ($(this).dialog("close")); } }]
+      });
+      
+      if (!isInitialized) {
+        isInitialized = true;
+        onInit();
+      }
+    })
+  }
+
+  function getLatLong() {
+    return [google_marker_latitude, google_marker_longitude];
+  }
+
+  function getAttributionData() {
+    return 'Map data &copy ' +
+      '<a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+  }
+
+  function getAddress(lat, lon) {
+    return fetch(geocoderUrl(lat, lon)).then(
+      function(r) { 
+        return r.json().then(function(body) { 
+          return {success: true, address: body.display_name};
+        });
+      }, 
+      function() { return { success: false }; }
+    );
+  }
+
+  function geocoderUrl(lat, lon) {
+    return "https://nominatim.openstreetmap.org/reverse?lat=" + lat + "&lon=" + lon + "&format=json";
+  }
+})();

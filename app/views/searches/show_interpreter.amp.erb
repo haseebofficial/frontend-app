@@ -1,0 +1,79 @@
+<% @questionnaire = @interpreter %>
+<% city_name = l_object(:name, @search.city) %>
+<% @in_city = city_name_in_loct_case(@search.city, city_name) %>
+<% name = "#{l_questionnaire(:name)} #{shorten_surname(@questionnaire.surname)}" %>
+<% langs = "#{@search.language.locale}-#{@search.your_language.locale}" %>
+<% title = t("show_interpreter.title", city: @in_city, interpreter: name, langs: langs) %>
+<% content_for(:title){ title } %>
+<% content_for(:og_title) { title } %>
+<% content_for(:og_description){ title } %>
+<% @mobile_hide_description = true %>
+<% content_for :description do %>
+  <%= t("show_interpreter.service_select", city: @in_city) %>
+<% end %>
+
+<% content_for :meta_description do %>
+  <%= "#{t("show_interpreter.desc_addition", langs: langs, city: @in_city)} #{l_questionnaire(:short_summary)}" %>
+<% end %>
+
+<% content_for :keywords do %>
+  <%= t("show_interpreter.keywords", city: @in_city) %>
+<% end %>
+<% content_for :back_link do %>
+  <%= link_to t("show_interpreter.back_link", city: @in_city), search_path(@search.id, format: :amp), class: 'back_link', rel: "prev" %>
+<% end %>
+<% content_for :body do %>
+  <input id="search_id" type="hidden" value="<%= @search.id %>"></input>
+  <input id="interpreter_id" type="hidden" value="<%= @interpreter.id %>"></input>
+  <div class="green_line"></div>
+  <div class="main_content">
+    <div class="cart_content tab-toggle" data-tabindex="0">
+      <br/>
+      <div class="cart_country_wrapper">
+        <div class="country"><%= "#{@search.city.country}, #{l_object :name, @search.city}" %></div>
+        <%= "#{t("show_interpreter.selected_period", intervals: @search.intervals_text)}" %>
+      </div>
+      <%= render partial: 'interpreter_detail' %>
+      <div class="how-to-order-block">
+        <h3 class="title">
+          <%= t("show_interpreter.how_to_order.title", city: @in_city) %>
+        </h3>
+        <%= raw t("show_interpreter.how_to_order.text") %>
+      </div>
+      <div class="why-inter-wrapper">
+        <div class="why-interpreters">
+          <%= raw t("show_interpreter.why_itravel_block") %>
+          <%= link_to t("show_interpreter.learn_more"), for_clients_path, class: "more-info-link", target: "_blank" %>
+        </div>
+      </div>
+      <% @reviews = interpreters_api_url_with_json_response('client_reviews', questionnaire: @questionnaire.id) %>
+      <div class="show-reviews-block">
+        <div class="title-wrapper n-title-wrapper">
+          <div class="title">
+          Reviews:
+          </div>
+          <span class="n-review-block-desc">Only from clients who ordered and paid interpretation service</span>
+        </div>
+        <div class="client-reviews-list">
+        <% @reviews.each do |review| %>
+
+            <div class="review">
+              <div class='questionnaire-stars stars_<%=review["score"]%>'></div>
+
+                <div class="text">
+                  <div class="comment">
+                    <%= review["comment"]%>
+                  </div>
+                  <div class="client">
+                    <%= review["client"]%>
+                  </div>
+
+                </div>
+              </div>
+        <% end %>
+      </div>
+    </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+<% end %>

@@ -1,0 +1,1156 @@
+es:
+  service_types:
+    title: "Tipos de los servicios de la interpretación"
+    conversation: 'Interpretación en las negociaciones'
+    exhibition: 'Interpretación en una exposición'
+    seminar: 'Interpretación de un seminario o conferencia'
+    presentation: 'Interpretación en la presentación'
+    clinic: 'Interpretación en la clínica'
+    celebration: 'Interpretación en la celebraciones'
+    guide: 'Interpretación de las excursiones, servicios de guia'
+    delegations_escort: 'Acompañamiento de delegaciones'
+    individuals: 'Acompañamiento de las personas privadas'
+    phone_talking: 'Interpretacion de conversacion telefonica'
+    interview: 'Interpretación de entrevista'
+    press_conference: 'Interpretación de ruedas de prensa'
+    protocol_translation: 'Interpretación protocolaria'
+    judicial_translation: 'Interpretación judicial'
+  help_menu:
+    back_link: 'A la página principal'
+    info: 'Sobre interpreters.travel'
+    find_interpreter: Buscar a intérprete
+    for_clients: 'Para los clients'
+    for_interpreters: 'Para los intérpretes'
+    for_affiliates: 'Para los socios'
+    service_types: "Tipos de interpretación"
+    help: 'Centro de ayuda'
+    support: 'Sopporte 24/7'
+    terms: 'Términos y Condiciones'
+    privacy_policy: 'Política de privacidad'
+    about: 'Sobre nosotros'
+  info_page:
+    title: "Sobre interpreters.travel"
+    site_description: "— es un servicio simple, seguro y fiable que ayuda encontrar directamente en el sitio web o con su teléfono móvil a un intérprete adecuado y hacer encargo de los servicios de interpretación a nivel mundial."
+    main_content: "Si tiene cita de negocios con socios extranjeros o viaje turístico, visita a exposición sectorial, seminario o consulta en un hospital extranjera – Usted sin problemas encontrará un intérprete para su ocasión y el presupuesto en más de %{cities} y %{countries} de todo el mundo"
+  for_clients_page:
+    title: 'Para los clients'
+    quote: "«Interpreters.travel – es un servicio que ayuda econtrar a intérpretes profesionales y hacer encargos de interpretación en ciudades y paíces de todo el mundo»"
+    quote_author: "Oleg Kovalev, Kazán."
+    client_reviews: "Comentarios de los clientes"
+    description: "Buscar a intérprete y hacer encargp de los servicios – es más fácil que reservar una habitación en hotel o billete de avión. Si Usted planea"
+    link1:
+      text: 'reunión de negocios'
+      after_text:  "con socios extranjeros"
+    link2:
+      text: 'viaje turístico'
+      after_text: ", visita a exposición"
+    link3:
+      text: 'sectorial, seminario'
+      after_text:  "o"
+    link4:
+      text: 'consulta en un hospital extranjera'
+      after_text:  "– Usted sin problemas encontrará un intérprete que corresponde a su ocasión y presupuesto."
+    steps:
+      title: "¿Como eso funciona?"
+      step1: |
+        <b>Usted elije un intérprete y realiza un encargo.</b>
+        <br/>
+        En el ciudad necesario Usted selecciona un intérprete adecuado, por ejemplo, para las negociaciones con los socios extranjeros. Con su tarjeta crédito realice el encargo para la fecha preferida. El encargo también puede ser realizado a la empresa, recibiendo la factura.
+      step2: |
+        <b> Usted recibe correo electrónico con el encargo.</b>
+        <br/>
+        Recibe información con los detalles del encargo y la información para ponerse en contacto con el intérprete. Si es necesario, Usted puede conversar con el intérprete por teléfono o correo electrónico (asunto, lista de los participantes u otras características necesarias para la reunión)
+      step3: |
+        <b>Reúne con los socios extranjeros, y el intérprete ofrece el interpretación.</b>
+        <br>
+        Reúne con intérprete en la dirección elejido y avanza  juntos a la reunión. Negocia con éxito con los socios extranjeros, y el intérprete le ayudará a hablar fácilmente el mismo idioma.
+    why_inter:
+      title: "¿Porqué intérpreters.travel?"
+      block1:
+        title: "Es fácil buscar, es cómodo hacer encargo"
+        text:  "Búsqueda fácil y encargo de los servicios de interpretación con tarjeta crédito. Cancelación GRATUITA."
+      block2:
+        title: "Beneficioso"
+        text: "Todos encargos sin sobretasas de las agencias, por los precios de los intérpretes. Descuentos calculados en facturas. Sin tasas adicionales cobros."
+      block3:
+        title: "Amlio variedad"
+        text: "Intérpretes en %{cities}, %{countries} de todo el mundo"
+      block4:
+        title: "Seguro"
+        text: "Garantías de seguridad de los pagos, protección con el conexión SSL"
+      block5:
+        title: "Cambio de intérprete"
+        text: "En caso de fuerza mayor y la imposibilidad de intérprete de llegar a la reunión, buscamos rápidamente a otro intérprete."
+      block6:
+        title: "Pago fácil"
+        text: "El pago se puede realizar con una de las formas más conveniente para Usted: Visa, MasterCard, transferencia bancaria o en efectivo."
+      block7:
+        title: "Soporte 24/7"
+        text: "Usted recibe ayuda en cualquier momento, esté donde esté"
+  for_interpreters_page:
+    title: "Para los intérpretes"
+    signup_link: "Ir al registro"
+    quote: "«Interpreters.travel – es una página web simple y segura para obtener nuevas demandas de sevicios de interpretación. Las funciones fáciles del uso me ayudan configurar los servicios según mi nivel de ocupación y recibir órdenes sólo en el momento preferible. Aunque tengo pocas horas libres en mi horario de trabajo, recibo ordenes de interpreters.travel y utilizo mi tiempo libre de manera rentable.»"
+    quote_author: "Helen Wright, traductor. Londres."
+    interpreter_reviews: "Opiniones de traductores"
+    block1:
+      title: "¿Cómo funciona?"
+      step1: "En el pérfil de este página web se puede poner los servicios, las condiciones, los precios y el tiempo favorable"
+      step2: "Sus servicios estan en las solicitudes de los clientes y los nuevos pedidos se envian a su cuenta"
+      step3: "Usted provee la traducción de reunion del cliente de acuerdo con los parámetros de la orden"
+      step4: "Usted recibe el pago en efectivo en la reunión o por la transferencia"
+    block2:
+      title: "¿Cuanto cuesta esto?"
+      text: "La colocación de la información en esta web es <strong>¡absolutamente gratis!</strong> Sólo queda la comisión de las órdenes reales en favor de Interpreters.travel de tamaño que Usted elige."
+    why_inter:
+      title: "¿Porqué el interpreters.travel?"
+      block1:
+        title: "Calendario"
+        text: "Usted controla el horario de trabajo y obtiene las órdenes solamente del tiempo preferible"
+      block2:
+        title: "Precios flexibles"
+        text: "Sus precios se fijan según del tipo de servicio y la cantidad de la orden"
+      block3:
+        title: "Сolocación gratuito"
+        text: "Se puede publicar información de los servicios en cualquier momento sin pagar"
+      block4:
+        title: "Google & Яндекс & Yahoo"
+        text: "Miles de nuevos visitantes de la web están viendo sus servicios, porque trabajamos directamente con Google, Yandex y Yahoo"
+      block5:
+        title: "Formas de pago"
+        text: "Recibe el pago de la manera más cómoda para Usted: VISA, MasterCard, PayPal, transferencia bancaria, en efectivo"
+      block6:
+        title: "SMS - Usted recibe notificaciónes"
+        text: "instantáneas de las órdenes directamente en el teléfono, en el horario de trabajo"
+      block7:
+        title: "Su Protección"
+        text: "Usted garantizado recibe el pago por su tiempo dedicado, incluso si el cliente no llega o tarde a la reunión"
+      block8:
+        title: "Las transacciones monetarias"
+        text: "Usted recibe el pago al tiempo, Interpreters.travel se preocupa por Usted y asume todas las transacciones financieras"
+      block9:
+        title: "Certificado de seguridad SSL"
+        text: "Sus datos están protegidos una conexión por el protocolo de seguridad SSL"
+      block10:
+        title: "iMac/iPad/iPhone"
+        text: "Se puede controlar los servicios de un ordenador o un móvil"
+      block11:
+        title: "Soporte 24/7"
+        text: "Usted puedes conseguir el apoyo en cualquier momento"
+      block12:
+        title: "Opiniones"
+        text: "Usted recibe opiniones de los clientes satisfechos"
+    block3:
+      title: "¿Cómo empezar trabajar?"
+      step1: "Paso 1. Regístrese en la página"
+      step2: "Paso 2. Ponga sus datos personales en el formulario"
+      step3: "Paso 3. Crea y publique servicios de interpretación en la página web"
+    after_reg:
+      text: "Antes de empezar trabajar con interpreters.travel entra en el área de usuarios y ponga en el cuestionario sus datos personales. Después de la tramitación del cuestionario, Usted puedes publicar su anuncio de los servicios, las condiciones, los precios, configurar un calendario para los órdenes de tiempo favorable. A partir de ese momento su perfil y los servicios estarán disponibles en la página web."
+      link: "Entrar y llenar el cuestionario"
+    form:
+      name: "Nombre:"
+      surname: "Apellido:"
+      email: 'E-mail:'
+      phone: 'Numero de teléfono:'
+      russian: "Я говорю по-русски"
+      city: 'Ciudad:'
+      submit: 'INICIAR LA INSCRIPCIÓN'
+  for_affiliates_page:
+    title: "Para los socios"
+    page_title: "Programa afiliado Interpreters.travel"
+    signup_link: "Ir a registrarse"
+    login: "Entrar/Iniciar sesión"
+    description: "¿Usted tiene sitio web o blog de los viajes de negocios, portal sobre exposiciones internacionales, seminarios, conferencias o clínicas médicas, un foro o un portal regional sobre organización de viajes de negocios en el extranjero? Dé a los usuarios la oportunidad de encargar a intérpretes directamente en su sitio web y gane de cada encargo."
+    block1:
+      title: "¿Cómo funciona eso?"
+      step1: "Usted coloca un formulario de búsqueda de intérpretes o hiperenlace en su sitio web."
+      step2: "El usuario de su sitio web, interesado en los servicios de interpretación encuentra un intérprete adecuado y le formaliza un encargo."
+      step3: "Usted recibe una comisión de 5% del importe de cada encargo completado."
+    block2:
+      title: "¿Cómo se calculan los encargos?"
+      text: "Para calcular las reservas utilizamos identificadores afiliados y cookie. El cookie de los usuarios guardamos durante tres meses, por eso si el usuario no ha hecho un encargo inmediato, pero dentro de tres meses después del primero traspaso de su sitio web a interpreters.travel, contamos el encargo y Usted recibirá comisión."
+    block3:
+      title: "¿Cómo mirar la estadística de los encargos?"
+      text: "Estadística de traspasos y reservas de sus visitantes se puede ver en línea en una oficina privada de los socios. Usted tendrá posibiladad de analizar cantidad de búsquedas y reservas, estatus y importe de encargo."
+    block4:
+      title: "¿Cómo conectarse?"
+      step1: "Paso 1. Regístrase en interpreters.travel."
+      step2: "Paso 2. Escriba información sobre sí mismo en el formulario breve de socio."
+      step3: "Paso 3. Copie códico HTML y establiza la forma de búsqueda o hiperenlance en su sitio web."
+    after_reg:
+      text: "Antes de empezar el trabajo con interpreters.travel accede a su espacio privado y rellena el pérfil de socio. Despúes copie códico HTML o hiperenlance en su sitio web. Desde ahora búsquedas y encargos de los usuarios de su sitio web se muestran en la estadística."
+      link: "Acceder a espacio privado"
+    form:
+      name: "Nombre:"
+      surname: "Apellido:"
+      email: 'Correo electrónico:'
+      phone: 'Teléfono móvil:'
+      city: 'Your city:'
+      submit: 'Registrar al socio'
+  service_pages:
+    conversation:
+      title: "Interpretación en las negociaciones"
+      text: |
+        <p>
+          Usted tendrá unas negociaciones importantes con el socio extranjero, y por eso necesitará a un intérprete cualificado, porque no todos sus empleados de la empresa que van a participar en las negociaciones saben al idioma extranjero. De la elección correcta del intérprete y exactitud de la interpretación depende del éxito de las negociaciones planeadas.
+        </p>
+        <p>
+          Al elegir a intérprete es importante tener en cuenta al tipo de las negociaciones planeadas y a los conocimientos adicionales y las habilidades que el intérprete puede necesitar. Para que intérprete podría lograr con éxito la interpretación, es deseable de antemano orientarle, diciéndole el tema de las negociaciones y los materiales disponibles para prepararse. Preferiblemente, que intérprete tenga la presencia de la experiencia de la participación en las negociaciones sobre este tema, o el tiempo suficiente para prepararse. Mejor es las dos cosas.
+        </p>
+        <p>
+          <b>Negociaciones puede ser diferentes:</b>
+        </p>
+        <ul>
+          <li>negociaciones preliminares con discusión de posibles proyectos conjuntos u oferta de cualquier producto o servicio;</li>
+          <li>negociaciones con la afirmación de los documento (una carta de intención, un acuerdo sobre la cooperación, etc.);</li>
+          <li>negociaciones laborales sobre realización de los proyectos conjuntos;</li>
+          <li>negociaciones con el objetivo de la resolución preventiva de los conflictos y reclamos mutuos.</li>
+        </ul>
+        <p>
+          <b>Negociaciones pueden tener diferente longitud:</b>
+        </p>
+        <ul>
+          <li>negociaciones cortas que duran de 30 minutos a 1-2 horas</li>
+          <li>negociaciones largas que dura de uno a varios días</li>
+          <p>
+            <b>Negociaciones pueden variar en función del lugar:</b>
+          </p>
+          <li>en la oficina de uno de los participantes de las negociaciones;</li>
+          <li>en un hotel o en un aeropuerto;</li>
+          <li>En los pasillos de una conferencia o foro.</li>
+        </ul>
+        <p>
+          <b>Negociaciones también pueden diferirse por el país:</b>
+        </p>
+        <ul>
+          <li>negociaciones en el país de que su empresa está la parte acogida;</li>
+          <li>negociaciones durante un viaje de su delegación en el extranjero.</li>
+        </ul>
+        <p>
+          Interpretación de todos estos tipos de negociaciones tiene sus propias especialidades. Pero según de la vista de calidad de la interpretación es esencial que cómo está organizado el proceso de interpretación.
+          Normalmente en las negociaciones se utiliza una interpretación consecutiva (de las frases).
+        </p>
+        <p>
+          Eso está conectado con:
+          <ul>
+            <li>no todos los intérpretes cualificados tienen habilidades de la interpretación simultanea profesional;</li>
+            <li>para interpretación simultanea es necesario de antemano preparar el equipamiento estacionario o portátil apropiado;</li>
+            <li>las negociaciones a menudo se proceden en un rango estrecho, y en esta situación la interpretación consecutiva mejor promueve a la atmosfera de comunicación directa entre los participantes de las negociaciones.</li>
+          </ul>
+        </p>
+    exhibition:
+      title: "Interpretación en una exposición"
+      text: |
+        <p>Usted vuele a la exposición extranjera como un visitante y especialista y desea utilizar los servicios de un intérprete local.</p>
+        <p>Un viaje a la exposición internacional especializada en el extranjero es siempre una ocasión especial. Para que su visita está a la más eficaz posible, es importante superar la barrera de idiomas, encontrar un lenguaje común para la comunicación comercial. En este caso le ayudará un intérprete cualificado. La interpretación en la exposición tiene sus propias especificidades y no está parecido a ninguno otro tipo de interpretación. Por eso, para acompañar a un experto individual o grupo de expertos a la exposición de la especialización sectorial, es mejor elegir a un intérprete, que tiene:</p>
+        <ul>
+          <li>conocimiento de la terminología relevante en ambos idiomas;</li>
+          <li>buenas habilidades de interpretación bilateral;</li>
+          <li>voz fuerte y dicción clara;</li>
+          <li>capacidad de coger la idear e interpretar lo principal, a pesar de las distracciones y los factores de confusión;</li>
+          <li>capacidad de adaptarse rápidamente a un entorno desconocido;</li>
+          <li>sociabilidad y la capacidad de ganar la benevolencia de interlocutor desconocido;</li>
+          <li>gran movilidad y resistencia física.</li>
+        </ul>
+        <p>Una ventaja adicional del intérprete es dominio varios idiomas extranjeros. Por ejemplo, no sólo alemán, sino también inglés, cuando se trata de visitar la exposición internacional en Alemania. Es que entre los participantes de la exposición puede haber algunos que no hablan bien alemán.</p>
+        <p>La traducción en la exposición es interpretación pública, por eso los datos externas del intérprete tienen mucha importancia.</p>
+        <p>En la práctica, se suelen encargar a un intérprete por toda la duración de la estancia en país. Generalmente, cualquier intérprete profesional con experiencia está en capaz aparte de la interpretación en la exposición también proporcionar sus servicios en las visitas de negocios y reuniones fuera de la exposición, igual que la interpretación de programa cultural. Lo más importante es hablar sobre esto de antemano para que intérprete podría prepararse y correctamente contar sus fuerzas.</p>
+        <p>Otra cosa es cuando Usted está participando en la exposición en el extranjero, tiene organizado un stand y necesita un intérprete para 1-2 intérpretes locales para los empleados, que trabajan en el stand.</p>
+        <p>Trabajando en el stand, aparte de las habilidades de interpretación, necesita la disciplina, sociabilidad, la resistencia física. Durante todos los días de la exposición tiene que a ser amistoso y amable, dispuesto para ayudar en la superación de la barrera de idioma entre el personal de soporte y los visitantes del stand, igual que entre la administración de la exposición y el personal de soporte del stand.</p>
+        <p>
+          Es mejor de antemano proporcionar al intérprete (o intérpretes) con los materiales de la publicidad y promoción que se supone utilizar y discutir durante la exposición, para que él pueda prepararse mejor y aclarar la terminología.
+          La interpretación será más exitosa si desde el principio orientarle claramente al intérprete al ámbito de sus funciones y, si es posible, informarle de antemano sobre las horas de las reuniones y presentaciones de negocios más importantes, que están marcados en el stand.
+        </p>
+    seminar:
+      title: "Interpretación de un seminario o conferencia"
+      text: |
+        <p>
+          Si Usted va a participar en un seminario o conferencia extranjero. Y el idioma laboral, por ejemplo, es inglés, alemán o chino. Y Usted no sabe ninguno de esos tan bien para presentar sin asistencia de un intérprete.
+        </p>
+        <p>
+          <b>Primero variante es:</b>
+          Usted vuele a seminario o conferencia como oyente y necesita a un intérprete.
+          Si Usted no piensa en hacer a un informe de la tribuna y durante toda la conferencia, Usted va a sentarse y escuchar en la sala, entonces el intérprete invitado le traducirá a usted personalmente (con la excepción de aquellos casos en los que desea hacer una pregunta o hacer una pequeña réplica de su asiento).
+        </p>
+        <p>
+          Para no molestar a otros participantes de seminario o conferencia, el intérprete suavemente susurrará la interpretación a su oído. Este tipo se llama "Interpretación susurrada".
+        </p>
+        <p>
+          <b>Segunda opción es:</b>
+          Usted vuele a un seminario o conferencia como uno de los conferenciantes, que tiene un tiempo para pronunciar un discurso.
+        </p>
+        <p>
+          El intérprete invitado, igual como en Primera opción, mayoría del tiempo de seminario o conferencia susurrará la interpretación a su oído, usando "Interpretación susurrada".
+        </p>
+        <p>
+          Pero en este caso, la parte más importante es interpretar su informe a todos en la sala. Dependiendo del tamaño de la sala, acústica y la cantidad de los participantes, eso puede ser un discurso desde la tribuna con un micrófono o con gran voz sin ningún tipo de  aparatos de transmisión.
+        </p>
+        <p>
+          El intérprete, normalmente, está al lado de Usted durante la interpretación para tener oportunidad no sólo oír cada su palabra, pero también volver a preguntar si es necesario.
+          El variante ideal es cuando hay micrófonos. Incluso si la habitación no es demasiado grande. Entonces ni usted ni el intérprete no tendrá que forzar mucho la voz. Y los oyentes escucharán todo igual de bien, incluso en la última fila.
+        </p>
+        <p>
+          Para la interpretación éxito del seminario o conferencia le conviene un buen intérprete consecutivo. El intérprete que no tiene mucha experiencia va a tardar en interpretación por más tiempo. Y, generalmente, en las conferencias no hay mucho tiempo para tardar.
+        </p>
+        <p>
+          Al intérprete simultáneo que casi no traduce consecutivo, será más difícil de recordar y interpretar grandes partes del discurso.
+        </p>
+        <p>
+          En todos los casos, durante interpretación de un seminario o conferencia – particularmente de temas muy especializados – la interpretación éxito no es posible sin buen conocimiento de los temas y términos relevantes en ambas idiomas. Si el tema no es familiar para intérprete, puede ser que él necesitará más días para prepararse.
+        </p>
+        <p>
+          En la interpretación del discurso desde la tribuna también son muy importantes los datos externos del intérprete. Es muy parecido a la interpretación de la presentación.
+        </p>
+    presentation:
+      title: "Interpretación en la presentación"
+      text: |
+        <p>
+          Usted vuele a un ciudad extranjero para participar en una presentación, por ejemplo, de nuevo equipamiento como miembro ordinario o el oyente, y necesita un intérprete.
+        </p>
+        <p>
+          En este caso, la interpretación prensa tiene mucho en común con interpretación de cualquier otro evento (conferencia, reunión, mesa de tertulia). Necesita un intérprete sabio, que está en capaz de orientarse rápidamente en una situación desconocida y, por supuesto, que está bien informado y tiene experiencia en la interpretación de este ámbito de los conocimientos, que está conectada con el tema de la presentación.
+        </p>
+        <p>
+          Condiciones y calidad de la traducción dependerá en gran medida de su estatus en esta presentación y el lugar desde el que Usted va a participar en la presentación. Si Usted es uno de los invitados de honor y se sienta en el presídium, es una cosa. Si Usted es un visitante normal y se sienta en algún lugar que está bastante lejos de la escena, es una cosa diferente. Es difícil realizar y garantizar una interpretación perfecta sin un equipamiento especial. Por eso la mejor opción es interpretación susurrada, cuando intérprete va a susurrar la interpretación a su oído. Por eso es muy importante elegir un lugar de dónde todo se oye bastante bien, y al mismo tiempo que la interpretación no interfiere mucho a otros participantes de la presentación.
+        </p>
+        <p>
+          Si Usted participa como un organizador y orador principal, y planea hacer una presentación de su nuevo producto o servicio a los potenciales socios extranjeros (no importa si es en Rusia o en extranjero). Dependiendo de la sede, el número de participantes y el equipamiento técnico disponible en las presentaciones se utiliza interpretación consecutiva o simultánea.
+        </p>
+        <p>
+          Para las presentaciones con pocos participantes y solo dos idiomas de interpretación con más frecuencia se utiliza interpretación consecutiva.
+        </p>
+        <p>
+          Interpretación simultánea será mejor para presentaciones largas y oficiales con un gran número de participantes y la necesidad de interpretar a varios idiomas al mismo tiempo (por ejemplo, no sólo a español, sino también a alemán o chino).
+        </p>
+        <p>
+          A diferencia de otros tipos de la interpretación consecutiva, durante la interpretación de las presentaciones se presta especial atención a la apariencia, el estilo negocio de la ropa y gestos adecuados del intérprete, a veces incluso los factores tales como la edad y el sexo del intérprete. En última instancia, Usted elija qué tipo del intérprete le vale más para interpretación de la presentación.
+        </p>
+        <p>
+          A interpretar las presentaciones es muy importante claridad de las oraciones, interpretación exacta de los términos y acentos correctos. Por lo tanto, es deseable, que el intérprete no sólo está bien orientado en el sujeto, sino también tiene la oportunidad de familiarizarse con el texto completo de la presentación unos días antes de su realización.
+        </p>
+        <p>
+          Para que la interpretación tiene calidad alta es importante que intérprete tendrá una dicción clara y alta voz. Micrófonos adicionales de los intérpretes para preguntas de la audiencia ayudarán a los oyentes mejor entender la interpretación y harán la presentación más efectiva. De eso también es deseable preocuparse de antemano.
+        </p>
+    clinic:
+      title:  Interpretación en la clínica
+      text: |
+        <p>Usted viaja a clínica extranjera para consultarse o hacer tratamiento y Usted necesita a un intérprete local que sabe léxica medicina.</p>
+        <p>Interpretación médica es uno de los tipos difíciles de la interpretación. Es muy importante correctamente traducir la diagnosis, igual como los dispositivos médicos y las recomendaciones. Intérprete que confunde el hígado con el bazo, no vale bien para este caso.</p>
+        <p>Para obtener la interpretación correcta visitando a clínica extranjera o en la consultación con el médico extranjero, normalmente, se necesita no sólo intérprete que sabe medicina en general, pero un intérprete que conoce el ámbito particular de la medicina de la enfermedad. Intérprete que hace interpretaciones exitosas en la temática general de medicina no siempre está en capaces de interpretar bien la consulta de urología o ginecología. Entre los más tipos difíciles en la medicina también está la estomatología. En todos casos eligiendo al intérprete para visitar a los establecimientos médicos en el extranjero hay que tener en cuenta profundidad de la consulta. No depende de que vais a hablar - de detalles de diagnosis médico o métodos de tratamiento, de discutir algunos temas generales, tales como la posibilidad fundamental de la hospitalización.</p>
+        <p>Si Usted tiene algunos altas y conclusiones escritas relacionados a las consultas planeadas, es preferible traducirlas de antemano al idioma apropiado y, por supuesto, darle al intérprete oportunidad deponerse al corriente con los originales y traducciones. Si la traducción no ha sido realizada por alguna razón, el intérprete tendría que interpretar estos documentos durante las consultas médicas "a la vista", que puede ser bastante difícil y no da a conseguir el resultado deseado.</p>
+        <p>El aspecto importante aparte de interpretación correcta de la terminología médica, la capacidad del intérprete entender a la documentación financiera adicional de la empresa. A menudo, el paciente sólo con posterioridad se pone al corriente sobre el precio real de la asistencia hospitalaria recibida en el extranjero.</p>
+    celebration:
+      title: "Interpretación en la celebraciones"
+      text: |
+        <p>
+          Usted vuela a ciudad extranjero a un evento solemne, celebración de los socios de negocios, amigos, etc. - Y Usted necesita a un intérprete local que le ayudará a participar plenamente en la celebración planeada.
+        </p>
+        <p>
+          Celebraciones de tal tipo, donde necesitará servicios de intérprete, pueden ser diferentes: Día de la ciudad, aniversario de la empresa, fiesta corporativa, Año Nuevo, boda, etc.
+          Carácter de la interpretación y las habilidades necesarios del intérprete serán distintas según el formato y el lugar de celebración del evento solemne (oficina de la empresa, teatro, restaurante, zona de recreo), el cantidad de invitados, el nivel de formalidad, y de su función en el evento: si Usted es un participante ordinario o uno de los invitados de honor.
+        </p>
+        <p>
+          Durante acompañamiento e interpretación en el evento solemne, aparte de interpretación activa y alegre mucha importancia tienen habilidades de comunicación del intérprete, su capacidad de mantenerse de manera adecuada en un ambiente formal, su elegancia, apariencia presentable, el consumo moderado de bebidas alcohólicas.
+        </p>
+        <p>
+          De los habilidades de intérprete pueden ser útiles siguientes: capacidad de interpretar discursos solemnes, chistes y anécdotas, conocimiento de la léxica diaria, de proverbios y de refranes.
+        </p>
+        <p>
+          Si mientras el evento Usted quiere decir una oración larga y oficial, es deseable de antemano advertir (de 1-2 días antes) al intérprete y darle el texto completo para ponerse al corriente y para preparase. Es mejor asegurarse de que el texto de su oración escrito fue traducido a idioma extranjero.
+        </p>
+        <p>
+          Si Usted no tiene el texto preparado, trate, si es posible, advertir al intérprete, de que Usted va a hablar y explicale las palabras y frases que podrían causar dificultad adicional durante la interpretación espontánea.
+          Al seleccionar a un intérprete, es deseable desde el principio determinar si él antes tenía experiencia de interpretar en tales eventos, también es mejor hablar antes sobre la programa pensada y el papel del intérprete.
+        </p>
+    guide:
+      title: "Interpretación de las excursiones, servicios de guia"
+      text: |
+        <p>
+          Usted planea viaje a ciudad extranjera y quiere encontrar a un intérprete-guía local, que podría hacerle una excursión en español de lugares de interés.
+          ¿Cuáles son los requisitos para pedir a tal guía?
+        </p>
+        <p>
+          En primer lugar, es deseable que él sabe el idioma español: como principal nativo o extranjero. Por fortuna, en muchos países extranjeros, el español es uno de idiomas más comunes.
+        </p>
+        <p>
+          Sobre todo si estamos hablando de una ciudad famoso o centro turístico grande.
+          En segundo lugar, es deseable que el intérprete tenía la experiencia de viajes en español sobre temas interesantes para Usted.
+        </p>
+        <p>
+          También mucho depende de tipo si es una excursión ordinaria de lugares de interés locales o alguna temática: por ejemplo, de lugares musicales o literarios.
+        </p>
+        <p>En todos los casos es mejor de antemano indicar y aclarar todos deseos, incluyendo duración y profundidad de la excursión.</p>
+        <p>También otra situación puede pasar. Usted vuela a un ciudad extranjera, y quisiera ir a excursión, que está en el idioma que Usted no entiende. Por eso Usted necesita a un intérprete local de lo que dice el guía.</p>
+        <p>En plan de organización, durante realización de tal excursión para una persona o para pequeños grupos de turistas diferentes opciones están posibles, dependiendo de país, de orden y de la moral local.</p>
+        <p>Para guía, que realiza excursión, presencia del intérprete, por una parte, es un factor que produce interferencia. Por otra parte, es una oportunidad adicional al guía para descansar mientras que el intérprete está traduciendo.</p>
+        <p>Pero no todos los guías están acostumbrados a trabajar con intérpretes.</p>
+        <p>
+          Lo que pasa que en esta opción el intérprete no tiene que tener un conocimiento profundo de todas las detallas. Lo más importante es que él interpreta al ruso con claridad, sin distorsiones y con paradas mínimas todo lo que cuenta la guía.
+        </p>
+        <p>
+          Aparte de esto, hay que tener en cuenta que debido al tiempo dedicado a la interpretación (incluyendo preguntas y aclaraciones), la duración de la excursión puede aumentarse de media a dos veces más. Y si el tiempo asignado de la excursión está fijo, entonces el guía tendrá a la mitad o dos veces menos tiempo para informarle sobre todo. Incluso si le traducirá un súper-intérprete.
+        </p>
+    delegations:
+      title: "Acompañamiento de delegaciones"
+      text: |
+        <p>
+          Usted vuela con sus socios o compañeros de trabajo en cualquier ciudad exterior, y necesita un intérprete local que le acompaña durante toda su camino, empezando desde el hotel o directamente desde el aeropuerto.
+        </p>
+        <p>
+          Cuando las delegaciones salen al extranjero elección de intérprete depende mucho de nivel y la composición de la delegación, de programa planeada y objetivos del viaje.
+        </p>
+        <p>
+          En todos casos se supone que intérprete ya tiene la experiencia de interpretación exitosa de negocios para las delegaciones de nivel alto. Para este caso es mejor elegir al intérprete eficaz de perfil universal, que está bien familiarizado con los temas principales que se planean ser dichos durante el viaje, así como tiene que orientarse bien en sitios locales.
+        </p>
+        <p>
+          No es obligatorio que será un intérprete simultáneo, porque casi todo el tiempo tendrá que interpretar consecutivo.
+        </p>
+        <p>
+          Interpretación de las delegaciones es muy responsable. Intérprete no sólo interpreta, pero casi todo el tiempo pasa con la delegación durante toda su estancia en país. Así que buena forma física y disposición para trabajar durante 15-16 horas al día están muy importantes en esta obra.
+        </p>
+        <p>
+          En este caso es mejor elegir a una persona activa y sociable que está joven o de media edad, que aparte de la interpretación de reuniones y visitas oficiales siempre está dispuesto a ayudar no sólo a la cabeza de la delegación, pero a cualquier de sus miembros fuera del programa oficial para la solución de los problemas internos en el hotel y etc.
+        </p>
+        <p>
+          ¡La elección es suya! Elija a un intérprete de este tipo con el que Usted se sienta más cómodo en un viaje al extranjero.
+        </p>
+    individuals:
+      title: "Acompañamiento de las personas privadas"
+      text: |
+        <p>
+          Usted vuela a una ciudad extranjera, y se necesita un intérprete local para acompañarle durante su camino empezando desde el aeropuerto o el hotel.
+        </p>
+        <p>
+          Por supuesto, mucho depende de la duración del programa y de los objetivos del viaje. Es que esto será el acompañamiento individual, así que aparte de la calificación del intérprete, también hay mucha importancia en la compatibilidad personal entre el viajero de negocios y el intérprete que le acompañe.
+        </p>
+        <p>
+          Cuando Usted elige al intérprete, mucho depende de la programa planeada. Entender, que el intérprete seleccionado le conviene para el viaje extranjero de privado, le ayuda su curriculum vitae (CV), en particular, los temas de las interpretaciones indicadas. En algunas ocasiones preguntas adicionales pueden ser necesarios.
+        </p>
+        <p>
+          Si Usted desea la mayoría del tiempo visitar las tiendas, restaurantes, playas, salones de belleza y otros lugares de ocio y entretenimiento, el intérprete debe ser alegre fiestero, que está bien orientado en las tiendas, restaurantes y otros lugares populares. Normalmente, los intérpretes-guías poseen de esta información, por la razón de que originalmente están especializados en enseñar a los clientes tales lugares, que son necesariamente recomendados para visitar. Si Usted quiere visitar las instalaciones deportivas o hipódromo, entonces Usted necesita intérprete, que está interesado en mismos deportes y está dispuesto para darle alguna información adicional. Si en CV del intérprete está escrito que él traduce tema de "Deporte", entonces, quizá, es el intérprete que Usted necesita. Pero siempre es mejor preguntar para aclarar.
+        </p>
+        <p>
+          Si su programa individual consiste de visitas a los museos, entonces es mejor elegir a un intérprete, que está interesado en la historia, el arte, técnicas y está en capaz de actuar no sólo como un intérprete ordinario, sino también como una guía de las curiosidades locales más interesantes. Para el viaje que contiene este temática, es también mejor elegir a un intérprete-guía o un intérprete que indicó tema de “Arte” en su CV como una de sus asuntos.
+        </p>
+        <p>
+          En todos los casos, es mejor determinarse anteriormente y discutir con el intérprete su distribución del tiempo: si él tiene que acompañarle 24 horas al día, menos el tiempo para dormir y descansar, o Usted está pensando en usufructuar a los servicios del intérprete sólo a veces por unas horas al día (por ejemplo, para interpretar importantes reuniones de negocios o viajes a las curiosidades locales).
+    phone_talking:
+      title: "Interpretacion de conversacion telefonica"
+      text: |
+        <p>
+          Con la mejoracion de los medios de comunicación y la calidad de líneas de comunicación, la interpretacion de llamadas telefónica se convierte mas y  más popular entre los servicios de interpretacion.
+        </p>
+        <p>
+          Por ejemplo, Usted viaja a alguna ciudad extranjera, y tendra la conversacion a traves de telefono (de un hotel, de una sala de negocios de un centro comercial, de café, etc.). En este ocasion Usted necesitara a un interprete local.
+        </p>
+        <p>
+          Qué hay que tener en cuenta al seleccionar a un interprete para interpretar las conversaciones telefónicas?
+          Primero, los medios modernos de comunicación permiten hacer interpretacion remoto de llamadas teléfonos. Por este caso se puede utilizar el modo de teleconferencia con varios participantes de la conservacion al mismo tiempo. En este ocasion los tres (1 abonento, 2 abonento y interprete) pueden estar en difirentes lugares del mundo. El precio total de los servicios de la comunicacion durante una hora de tal conversaciones puede costar mucho.
+        </p>
+        <p>
+          Otro variante es el altavoz en cualquier teléfono fijo moderno, moderno teléfono móvil o un teléfono inteligente. En este caso, el intérprete esta al lado de la persona que llama, y interpreta en ambas lenguas, y si es necesario, pregunta otra vez, etc.
+          Los requisitos básicos para el interprete durante la interpretacion de las conversaciones telefónicas:
+        </p>
+        <ul>
+          <li>
+            Comprensión del objeto y el conocimiento de la terminología;
+            capacidad de entender bien discurso extranjero;
+          </li>
+          <li>
+            Capacidad de interpretar rápidamente informacion dicho en ambas idiomas (major interpreter con las frases claras y , no comlicadas);
+          </li>
+          <li>Diccion clara y pronunciación buenaen un idioma extranjero.</li>
+        </ul>
+        <p>
+          Para interpretacion de las negociaciones telefonicos esta igual bien un interprete simultaneo o consecutivo. Todo depende de la situacion concrecta y de como el proceso de interpretacion esta organizado. Es mejor de antemano poner al corriente al interprete con el tema y objetivo de llamada telefonica. Eso le ayudara interpretar mas efectivo.
+        </p>
+        <p>
+          En todos los casos hay que elegir bien el interprete para interpretacion de las llamadas telefonicas. Esto debería ser un buen interprete, que esta en capaz entender y enterpretar adecuedo en condiciones de poca audiencia los trozos de frases de lo que ha sido dicho en el otro extremo.
+        </p>
+        <p>
+          Cuando al interprete preguntan llegar a la hora designada a la oficina, hotel o centro de negocios para interpretar una llamada, hay que tener en cuenta que la persona a quien van a llamar puede no estar en su sitio (le pueden llamar a una reunión de emergencia, etc.). En este caso las negociaciones planeadas no se realizaran. Para evitar tal casos es mejor de antemano planear y discutir todo con el abonento de la llamada – la hora y  la duracion de la conservacion. Tambien hay que tener en cuenta si la interpretacion sera no simulantea, pero consecutive, porque en este caso Usted necesitara mas tiempo.
+        </p>
+    interview:
+      title: "Interpretación de entrevista"
+      text: |
+        <p>
+          Usted vuele al extranjero y en la programa de visita Usted tiene entrevista con prensa: aquí es necesario tener al intérprete profesional.
+        </p>
+        <p>
+          Mucho depende de la organización de la entrevista. Hay diferentes variantes:
+        </p>
+        <p>
+          <strong>1.</strong>
+          Intérprete en vivo "sobre la marcha" interpreta las preguntas y sus respuestas. Todo esto es registrado por el entrevistador en la grabadora y después en un rato, todo o en versión abreviada se transmite a televisión.
+        </p>
+        <p>
+          En este caso la cualificación del intérprete tiene requisitos aumentos. Hasta cierto punto, es aún más difícil que la interpretación simultánea.
+          Hacer la interpretación más exitosa de una entrevista "en vivo" podrá hacer un intérprete altamente cualificado, que está en capaz de memorizar grandes trozos de texto y, preferentemente, que sabe usar el método de escritura rápida.
+        </p>
+        <p>
+          Más complicado seria al intérprete simultaneo, porque tendrá que interpretar consecutivo. Pero eso no todos los simultáneos pueden hacerlo.
+        </p>
+        <p>
+          <strong>2.</strong>
+          Entrevista se realiza en vivo o (casi lo mismo) está registrado en la grabadora y después en un rato se transmite en vivo. En este caso para el intérprete hay muchos límites, que complican el trabajo del intérprete. Los entrevistadores dirán al intérprete donde tiene que ponerse (para estar o no estar en la camera), en que periodos de tiempo tiene que interpretar el texto y que altura de voz tiene que usar.
+        </p>
+        <p>
+          <strong>3.</strong>
+          Un variante más fácil, pero menos común: el intérprete invitado y pagado le traduce preguntas por turnos. Usted responda a cada pregunta por turnos. Preguntas, junto a sus respuestas, están grabadas en la grabadora. Y en unos días le enviaran a la aprobación la transcripción de la entrevista traducida a un idioma extranjero en la forma como se espera ser publicada en cualquier edición de impresa extranjera. Usted haga encargo a este u otro intérprete la traducción inversa del texto de la entrevista, para que lo traduce al español y, si es necesario, Usted puede corregirlo.
+        </p>
+        <p>
+          En todos los casos es deseable informar al intérprete sobre en qué formato será la entrevista para que el evalúa de manera realista sus fuerzas y capacidades. Por supuesto, en otras circunstancias parecidas, se prefiere el intérprete, que ya tiene experiencia en la interpretación de la entrevista. Gran importancia tiene alfabetización de las oraciones en un idioma extranjero, la claridad de la pronunciación y los datos externos del intérprete.
+        </p>
+        <p>
+          Interpretación será más exitosa si de antemano poner al corriente al intérprete con todas las preguntas y también hablar con él sobre la interpretación de los conceptos principales de la entrevista, títulos y organizaciones.
+        </p>
+    press_conference:
+      title: "Interpretación de ruedas de prensa"
+      text: |
+        <p>
+          Usted está participando en una conferencia de prensa para responder a las preguntas de los periodistas extranjeros.
+          La interpretación en la conferencia de prensa - es uno de los tipos más importantes e intensivos de interpretación, que demanda de intérprete una gran concentración y atención.
+        </p>
+        <p>
+          Interpretación de las ruedas de prensa tiene mucho en común con interpretación de las entrevistas, con solo una diferencia, que conferencia de prensa se realiza en ambiente más oficial y los representados de prensa hacen gran cantidad de preguntas, no solo uno o dos. Al mismo tiempo la distinción de la interpretación de entrevista es que las preguntas casi nunca concuerdan con los contestadores y pueden ser espontáneos, preguntados con cualquier persona en la conferencia.
+        </p>
+        <p>
+          Para interpretar la conferencia de prensa normalmente invitan al intérprete profesional, que posee, a lo mejor, la habilidad de interpretación consecutiva y simultánea. Al intérprete simultáneo será difícil, si durante la rueda de prensa tendrá que recordar y interpretar partes grandes y promiscuos de oraciones.
+        </p>
+        <p>
+          Intérprete tiene que ser apuesto, cierto y exacto durante la interpretación. Si el no oído claro un parte de la respuesta, es mejor preguntarlo otra vez para que no fantasear y desvirtuar la interpretación.
+        </p>
+        <p>
+          Mejor, si es posible, de antemano informar al intérprete sobre el tema de la rueda de prensa y los asuntos que pueden ser mencionados. En este caso el intérprete puede prepararse mejor para la interpretación, que será más exacto y cualificado. Si hay un texto preparado de un comunicado o nota de prensa, es también mejor informar al intérprete antes de la empieza de la conferencia. Y lo mejor es ordenar de antemano a un traductor profesional traducir estos textos al idioma extranjero.
+          Un apoyo grande para intérprete será la traducción a ambas idiomas de la lista de todos los participantes de la conferencia.
+        </p>
+
+    protocol_translation:
+      title: "Interpretación protocolaria"
+      text: |
+        <p>
+          La interpretación diplomática o protocolaria tiene mucho en común con la interpretación de las negociaciones. La única diferencia es que en este caso, las reuniones contienen el carácter más formal y legal.
+          Consecuentemente, aparte de la calidad de la interpretación, pata el intérprete es muy importante realizar y tener en cuenta los aspectos formales y reglas de la etiqueta diplomática y de negocios, que incluye traje estricto de negocios, corbata, etc.
+        </p>
+        <p>
+          Intérprete no tiene el derecho de revelar cualquier información de carácter interno, que recibe durante preparaciones y la participación de esta reunión oficial como un intérprete.
+        </p>
+        <p>
+          En las reuniones protocolarias estrictamente están regulados los asientos, incluyendo el asiento del intérprete. Generalmente, el intérprete se siente a la derecha o a la izquierda de la cabeza de la delegación, con quien vino a la reunión. Pero también hay excepciones.
+        </p>
+        <p>
+          Es importante que durante la presentación y la reunión el intérprete correctamente nomina a todos los nombres, ocupaciones, títulos e instituciones. Para evitar incidentes desagradables es mejor anteriormente instruir al intérprete, orientarle con los nombres, ocupaciones y conceptos que podrían causar más dificultades adicionales durante la interpretación.
+        </p>
+        <p>
+          En la interpretación diplomática o protocolaria, a la cabeza de la delegación, generalmente, le traduce "su" intérprete a lengua extranjera (por ejemplo, francés o alemán). Cuando el jefe de la delegación extranjera empieza a hablar, también le traduce "su" intérprete, normalmente a español que no es nativo para él.
+        </p>
+        <p>
+          Creen que "su" intérprete conoce más detalles del fondo de la cuestión y obtiene la información básica necesaria y - ¡Lo más importante! – no va a permitir a las distorsiones ideológicas en la transmisión de los pensamientos de su jefe a la idioma extranjera, y lo transmitirá a todos "como hay que". En este caso los pequeños detalles del estilo no importan mucho.
+        </p>
+        <p>
+          Además a su intérprete, siempre se puede regañar más estrictamente por inexactas o incompletas durante la interpretación. Es más fácil corregir o sugerir, si le resulta difícil transferir algunos detalles. Y eso no sería una violación del protocolo diplomático y la etiqueta de negocio.
+        </p>
+
+    judicial_translation:
+      title: "Interpretación judicial"
+      text: |
+        <p>
+          Por ejemplo, Usted como demandador o un representante viaja a una ciudad extranjera para audiencia del tribunal y necesita un intérprete jurado local.
+        </p>
+        <p>
+          En muchos países hay una categoría privilegiada especial de los "intérpretes público" que también a veces les llaman simplemente como "intérpretes jurados".
+        </p>
+        <p>
+          Si a un turista o un hombre de negocios detienen como a una persona privada en el territorio de, por ejemplo, Alemania o Francia, por infracción de leyes administrativas, y especialmente por la sospecha de haber cometido un delito común, en este caso, por supuesto, el cliente no tiene que buscar a un intérprete. Lo hará la policía local o las autoridades judiciales.
+          Pero si Usted es un demandador o un encartado en el procedimiento de tribunal arbitral o en una audiencia sobre algún juicio civil, se puede tratar a invitar y ofrecer a la corte la candidatura de un intérprete certificado independiente que Usted ha elegido. El derecho de aceptar o rechazar a intérprete tiene el tribunal de justicia.
+        </p>
+        <p>
+          Para interpretación exitosa en el tribunal, aparte de habilidades buenas de interpretación consecutiva, el intérprete necesita saber la terminología jurídica de ámbito del derecho de la acción judicial. Por ejemplo el derecho civil, derecho comercial o el derecho marítimo son muy diferentes áreas con términos específicos y matices judiciales.
+          En todos otros casos siempre es mejor elegir a un intérprete que tiene la experiencia de la interpretación exitosa de acciones litigiosas similares. Es importante que intérprete tendrá comprensión por cien porcientos de la lengua del procedimiento, igual como la capacidad de interpretar rápidamente y claro todas las preguntas, respuestas y declaraciones en el proceso judicial de cada parte.
+        </p>
+        <p>
+          Se supone que cualquier certificado "intérprete jurado" por definición corresponde a las exigencias cualificadas. Pero si en el país no existe una categoría legal de intérpretes jurados o públicos, es mejor preguntar de antemano cuáles son los requisitos formales de las autoridades judiciales del país tienen a los intérpretes para dar la admisión a la interpretación de las audiencias judiciales durante la entrevista de los testigos, etc.
+        </p>
+        <p>
+          En todos casos en primer lugar está la presencia de documento del intérprete que confirma sus habilidades de interpretación (título universitario de un intérprete o un certificado de aprobación del examen de la calificación correspondiente) y - como el segundo factor importante - (no para el tribunal, pero para el cliente de servicios de la interpretación) la presencia de experiencia de tal interpretación en la práctica del intérprete profesional en el tribunal.
+        </p>
+        <p>
+          No importa si se trata de un intérprete jurado oficial o simplemente un intérprete cualificado, que conoce formalidades legales, para la interpretación exitosa en el tribunal es deseable de antemano ponerle al corriente por lo menos con los términos generales, los materiales del caso y las posiciones de las partes en acción judicial.
+        </p>
+  help_page:
+    search:
+      title: "Búsqueda de los intérpretes"
+      block0: "Seleccione los parámetros de la búsqueda en la página de inicio. <br> En el campo 'DÓNDE', indique la ciudad en la que Usted necesita un intérprete. Ya de las primeras letras escritas el sistema le enseña los variantes de las ciudades apropiadas."
+      block1: |
+        Haga clic en el campo "CUÁNDO" y se abre la ventanilla para seleccionar la fecha y la hora.
+        <br>
+        Seleccione una fecha en la que le necesita el intérprete, después seleccione el período de tiempo para ese día. Añada la fecha y hora seleccionada, haciendo clic en "Añadir". Se puede especificar la cantidad de los días o períodos de tiempo.
+        <br>
+        Confirme la fecha y la hora, haciendo clic en "Seleccionar".
+      block2: "En el campo “QUE IDIOMA NECESITA” indique el idioma deseado de la interpretación de la lista, que los intérpretes proporcioan en la ciudad seleccionada."
+      block3: "Después de que todos los parámetros están establecidos, haga clic en 'BUSCAR'. Nuestro robot de búsqueda inmediatamente empezará a procesar la solicitud y en unos segundos se abre la página con los resultados de búsqueda."
+    filter:
+      title: 'Filtración y selección de los resultados de la búsqueda, selección del intérprete'
+      block0: 'La lista de los resultados en la ciudad seleccionada puede contener más que unas decenas de ofertas de los intérpretes. Elegir al intérprete apropiado Usted puede con ayuda de los filtros. <br> Usted puede filtrar las ofertas por el precio usando al filtro "El precio"'
+      block1: 'Para elegir al intérprete del servicio que le interesa, seleccione uno o varias opciones. Entre los intérpretes se quedarán solo los que proponen estos servicios.'
+      block2: 'Seleccione las áreas de especialización de la interpretación que son mas adecuados en su caso. Entre los variantes se quedarán sólo los intérpretes que proponen servicios de la especialización elegida.'
+      block3: 'Es cómodo clasificar los variantes proporcionados con la sistema eligiendo al factor principal para Usted. Si ante todo le interesa las ofertas de la interpretación con el precio más bajo, ponga la selección por el precio. Los primeros en la lista aparecen las ofertas más asequibles. Haga otro vez el clic en el botón de la selección por el precio y los primeros aparecen las ofertas más caros. Esto permite primero ver las ofertas de los mejores intérpretes, el precio de cuyos, normalmente, es más caro.'
+      block4: 'En caso de necesidad Usted puede formalizar la búsqueda nueva de los intérpretes. Para esto cambie los parámetros en la búsqueda de esta página y haga clic en " Buscar". La sistema le oferta variantes nuevos.'
+      block5: 'Para ver la información del intérprete seleccionado, detalles de su oferta y los servicios disponibles de la interpretación para hacer el encargo, haga clic en la foto o nombre del intérprete. Se abrirá la página para ver el intérprete seleccionado.'
+    view:
+      title: "Ver información sobre el intérprete, elegir el servicio"
+      block0: 'En la página aparece información sobre el intérprete: descripción general, idiomas de la interpretación y las áreas de la especialización del intérprete. Información sobre los Diplomas, Certificados, Experiencia, Recomendaciones y Eventos del intérprete se abren en diferentes pantallas cuando Usted haga clic a estos puntos.'
+      block1: 'En la sección "Intérpretes parecidos" están proporcionado resto de los intérpretes de los que han sido encontrados en la ciudad seleccionada. Usted puede ver la información de cualquier de ellos, haciendo clic en la foto o nombre.'
+      block2: 'De los intérpretes visionados los servicios disponibles para el encargo están indicados. Seleccione el servicio que le interesa haciendo clic en "Hacer encargo", que está puesto enfrente del servicio de interés.'
+      block3: 'Inmediatamente después de selección del servicio de la interpretación se abre la página de la formalización del encargo.'
+    order:
+      title: "Formalización del encargo"
+      block0: "Antes de la formalización del encargo, póngase al corriente de los parámetros del encargo, presentados en la página del encargo."
+      block1: "Si Usted ya ha sido registrado en la página web o antes ha hecho el encargo, en este caso Usted puede formalizar el encargo más rápido, rellenando a menos campos. Para hacerlo, inicie sesión indicando su nombre del usuario y contraseña. Si Usted no ha sido registrado, en este caso no es necesario hacerlo, la registración de su cuenta pasará automáticamente después de formalización del encargo."
+      block2: |
+        Para formalizar el encargo del servicio elegido, rellene el formulario del encargo:
+        <br>
+        <strong> 1.</strong> Indique sus datos en sesión " Información sobre el cliente"
+      block3: "<strong> 2.</strong> Indique el número del teléfono móvil para ponerse en contacto con Usted y para enviar las notificaciones de los encargos. Preste su atención a lo que el número indicado es el principal medio de la comunicación entre Usted y el intérprete, por eso es necesario indicar el número con el código internacional en formato '+34' (para los números de España). Por ejemplo, si su número de teléfono móvil es 34023150000, es necesario indicarlo en este formato de +34023150000."
+      block4: '<strong>3.</strong> Indique la dirección exacta de la reunión con el intérprete, usando al campo de la dirección o usando la mapa de la ciudad seleccionada.'
+      block5: "<strong> 4. </strong> Durante la formalización del encargo Usted puede indicar información para el intérprete que es necesaria para prepararse para la interpretación: el reglamento de la reunión planeada, descripción de los temas principales de la discusión, etc. También Usted puede añadir fichero con la descripción o presentación, que se enviará al intérprete junto a notificación del encargo."
+      block6: 'Durante la formalización del encargo Usted puede indicar información para el intérprete que es necesaria para prepararse para la interpretación: el reglamento de la reunión planeada, descripción de los temas principales de la discusión, etc. También Usted puede añadir fichero con la descripción o presentación, que se enviará al intérprete junto a notificación del encargo.'
+      block7: "Haga clic en 'Elegir tipo de pago' para conservar los datos del encargo y pasar al último paso de registración del encargo. Después de la conservación de los datos del encargo Usted podrá elegir el tipo del pago. Pasa el procedimiento de la formalización de pago para acabar la registración de encargo."
+    payment:
+      title: "Tipos de pago del encargo"
+      block0: |
+        <p>Usted puede elegir tipo de pago:</p>
+        <ul>
+          <li>Con la tarjeta crédito;</li>
+          <li>Con la transmisión bancaria;</li>
+          <li>En efectivo;</li>
+        </ul>
+      block1: |
+        <br>
+        Si Usted elija pagar con la tarjeta crédito, en este caso para terminar formalización y pagamiento del encargo hay que:
+        <br>
+        1. Indicar tipo de tarjeta: VISA o Master Card
+        <br>
+        2. Introducir el número de la tarjeta crédito (son 16 cifras en la frente)
+        <br>
+        3. Indicar la fecha del vencimiento de la tarjeta.
+        <br>
+        4. Indicar nombre y apellido del titular de la tarjeta igual como están escritos en la tarjeta
+        <br>
+        5. Introducir el código de la seguridad de la tarjeta (CVC/CVV) – el código triple adicional, que está en reverso de su tarjeta
+        <br>
+        6. Confirmar que Usted está puesto al corriente con las Reglas y Condiciones
+        <br>
+        7. Hacer clic en "Ordenar los servicios del interprete"
+      block2: |
+        <p>
+          Formalización del encargo y realización de pago tarda un minuto. Por favor no haga clic de actualización de la página y no cierre la pantalla hasta que se termine el procedimiento.
+          <br/>
+          Después de la formalización del encargo y realización del pago la suma se bloquea en su tarjeta crédito. Usted verá la página con los detalles y confirmación del encargo. Debitado de la tarjeta puede ocurrir inmediatamente o en unos días, depende de las condiciones de la cancelación gratis del encargo.
+        </p>
+        <p>En unos minutos después de la realización del pago a su correo electrónico vendrá un mensaje con los detalles del encargo y en los ficheros Usted podrá encontrar la carta y la factura de pago. Carta de pago - es el documento único que confirma la formalización y pagamiento del encargo de los servicios elegidos, por eso le recomendamos imprimirlo y llévelo con usted a la reunión, o guardarlo en su teléfono móvil.</p>
+        <p>
+          Si Usted no ha recibido mensaje con la carta de pago, factura y confirmación del encargo, por favor, compruebe las carpetas de "Spam" o "Basura". Debido a la clasificación de la configuración de correo electrónico puede ser que el mensaje llegó allí por un error. Si Usted no ha encontrado el mensaje, por favor, póngase en contacto con nuestro soporte gratuito que está disponible por 24/7.
+        </p>
+        <p>En caso de cancelación del encargo le devolveremos la suma a la misma tarjeta con la que ha sido pagado el encargo. En algunos casos, que eran fijados de antemano, el servicio tiene el derecho de retener una parte o suma total del encargo cancelado. Las reglas y condiciones de la cancelación se muestran junto a la información de los precios, en una columna especial, igual como en las Reglas Generales del uso del servicio interpreters.travel. Póngase el corriente con ellos antes de hacer encargo.</p>
+      block3: 'Si Usted quiere pagar por el encargo con transmisión bancaria, seleccione el punto “Cuenta”.'
+      block4: |
+        <p>
+          Factura de pago se puede ver directamente en esta página. Después de la formalización de encargo, le enviamos factura de pago a su correo electrónico junto a confirmación de la formalización de este encargo. Pagar por la factura se puede con la forma más cómoda para Usted: a través del internet-sistema de banco o en la oficina bancaria.
+          <br/>
+          Hay que hacer el pagamiento en el período especificado en la factura, para evitar cancelación automática de encargo. Es que transmisión de una cuenta a otra puede tardarse por 3 días laborales, le recomendamos realizar el pago por lo menos de tres días laborales antes del vencimiento del período indicado.
+          <br/>
+          Después de recibo de pago, le enviamos un mensaje a su correo electrónico con la confirmación de pagamiento del encargo, con la factura y la carta de pago del encargo. Carta de pago - es el documento único que confirma la formalización y pagamiento del encargo de los servicios elegidos, por eso le recomendamos imprimirlo y llévelo con usted a la reunión, o guardarlo en su teléfono móvil.
+        </p>
+        <p>
+          Si Usted no ha recibido un mensaje con la carta de pago y la confirmación de formalización del encargo, por favor, compruebe las carpetas de "Spam" o "Basura". Debido a la clasificación de la configuración de correo electrónico puede ser que el mensaje llegó allí por un error. Si Usted no ha encontrado el mensaje, por favor, póngase en contacto con nuestro soporte gratuito que está disponible por 24/7.
+        </p>
+        <p>En caso de cancelación del encargo le devolveremos la suma a la misma tarjeta con la que ha sido pagado el encargo. En algunos casos, que eran fijados de antemano, el servicio tiene el derecho de retener una parte o suma total del encargo cancelado. Las reglas y condiciones de la cancelación se muestran junto a la información de los precios, en una columna especial, igual como en las Reglas Generales del uso del servicio interpreters.travel. Póngase el corriente con ellos antes de hacer encargo.</p>
+      block5: ""
+      block6: |
+        <p>Al elegir el variante “En efectivo” Usted paga por el encargo con dinero efectivo directamente al intérprete, en la valuta de acuerdo con el cambio actual en el momento de encargo.</p>
+        <p>Usted recibirá la factura de pago en valuta del intérprete</p>
+    cabinet:
+      title: "Espacio privado"
+      block0: |
+        <p> En espacio privado Usted puede ver sus encargos y la historia de sus búsquedas. Para entrar a su espacio privado use su nombre de usuario y contraseña, que ha sido enviado a su correo electrónico indicado durante la registración. </p>
+        <p> En sección "Mis encargos" están disponibles todos sus encargos. Se puede mirar cualquier encargo haciendo clic, se abrirá la página de visualización del encargo. Si el encargo aún no ha sido realizado, Usted puede cancelarlo haciendo clic en el botón "Cancelar pedido". </p>
+      block1: "En sección de “Mis búsquedas” se muestra la historia de todas las búsquedas de intérpretes. Se puede ver cualquiera búsqueda haciendo clic, se abrirá la página de los resultados de búsqueda con variantes de intérpretes."
+      block2: ''
+  support_page:
+    title: "Soporte 24/7"
+    header_text: |
+      <h2> Nosotros trabajamos para Ustedes 24 horas, 7 días a semana.</h2>
+      <p> Usted puede dirigirse a nuestro soporte como intérprete o cliente. Estamos listos para ayudarle en cualquier momento, en cualquier lugar.</p>
+    help_link: "Centro de ayuda"
+    footer_text: |
+      <p></p>
+  terms_page:
+    title: "Términos y Condiciones"
+    text: |
+      <p>
+        Empresa Interpreters.travel OÜ (en adelante,
+        <strong>«Interpreters.travel»</strong>
+        ,
+        <strong>«nosotros»</strong>
+        ,
+        <strong>«nos»</strong>
+        o
+        <strong>«nuestro»</strong>
+        ), registrada de conformidad con la legislación de la República de Estonia, proporciona una plataforma online que conecta a los consumidores (en adelante,
+        <strong>«Cliente»</strong>
+        ) de los servicios de interpretación (en adelante,
+        <strong>«Servicios»</strong>
+        ) con un intérprete (en adelante,
+        <strong>«Intérprete»</strong>
+        ) y esos Servicios se ofrecen a través de anuncios del Intérprete (en adelante,
+        <strong>«Anuncios»</strong>
+        ) en la página
+        %{root_link}
+        (en adelante,
+        <strong>“Página web”</strong>
+        ).
+      </p>
+      <p>
+        Utilizando a la Página web Usted acepta atender a reglas y estar obligado por los términos y disposiciones de presentes términos y condiciones (en adelante,
+        <strong>«Términos y Condiciones»</strong>
+        ),
+        no depende de si Usted será un usuario registrado de la Página web o no.
+        Presentes Términos y Condiciones regulan su acceso y uso la Página web y todo el contenido (en adelante,
+        <strong>«Contenido»</strong>
+        ),
+        y están legalmente obligatorios entre Usted y la empresa Interpreters.travel.
+        Por favor, lea presentes Términos y Condiciones y la Política de privacidad, que se puede encontrar en la página:
+        %{privacy_policy_link}
+        y que se considera a una parte integral de presentes Términos y Condiciones a través de la referencia.
+      </p>
+      <p>
+        Usted reconoce y acepta que al tener el acceso, o utilizar la Página web, o descargando y publicando a cualquier Contenido a la o de la Página web, Usted declara que ha leído, entendido y aceptado los Términos y Condiciones, no depende de si Usted ha sido registrado de la Página web o no. Si Usted no está de acuerdo con estos Términos y Condiciones, Usted no podrá acceder o utilizar la Página web o el Contenido.
+      </p>
+      <p>
+        Si Usted confirma y acepta los Términos y Condiciones en nombre de empresa u otra persona jurídica, con eso Usted representa y garantiza que tiene derechos de ligar a dicha empresa u otra persona jurídica con estos Términos y Condiciones, y en este caso las palabras "Usted" y "Su" se referirá a esta empresa u otra persona jurídica.
+      </p>
+      <p>
+        <strong>Los términos claves</strong>
+      </p>
+      <p>
+        «Interpreters.travel» - la empresa Interpreters.travel OÜ, información de que está presentada en la página:
+        %{about_link}
+      </p>
+      <p>
+        <strong>«La Página web»</strong>
+        representa a una plataforma online que ayuda a los intérpretes publicar Anuncios de sus Servicios de la interpretación, y a los Clientes recibir información sobre los intérpretes y sus Servicios de interpretación, hacer encargos de Servicios de interpretación.
+      </p>
+      <p>
+        <strong>«Contenido»</strong>
+        presenta a texto, elementos gráficos, imágenes, información y otros materiales, que la empresa Interpreters.travel proporciona a través de la Página web, incluyendo cualquier Contenido, recibidos por licencia del tercero, incluso Contenido pasado a la empresa Interpreters.travel o colocado en la Página web con los Intérpretes y Clientes.
+      </p>
+      <p>
+        <strong>«Cliente»</strong>
+        presenta a un usuario registrado, que formaliza un encargo de los Servicios de interpretación a través de la Página web.
+      </p>
+      <p>
+        <strong>«Intérprete»</strong>
+        presenta a un usuario registrado que está creando Anuncio a través de la Página web y directamente realizando los servicios de interpretación.
+      </p>
+      <p>
+        <strong>«Anuncios»</strong>
+        presenta a colocación de la información sobre los Servicios de interpretación, que se ofrecen a través de la Página web.
+      </p>
+      <p>
+        <strong>«Carta de pago»</strong>
+        - el documento básico que confirma formalización y la confirmación del encargo.
+      </p>
+      <p>
+        <strong>«Pago total»</strong>
+        - la suma del encargo de los Servicios de interpretación por pagar con los clientes, con los descuentos establecidos por Intérprete, incluyendo las tasas, si están admisibles.
+      </p>
+      <p>
+        <strong>¿Cómo funciona la Página web?</strong>
+      </p>
+      <p>
+        La Página web puede ser utilizada para la publicación de los Anuncios de los Servicios o el encargo de los Servicios de interpretación. Estos servicios se especifican en el Anuncio con el intérprete en la Página web. Usted puede mirar los Anuncios como un visitante no registrado en la Página web. Sin embargo, si Usted quiere hacer un encargo de los Servicios de interpretación o crear un Anuncio, primero debe registrarse y crear una cuenta en la Página web (en adelante,
+        <strong>«Cuenta»</strong>
+        ), tal como se describe debajo en la sección "Registración de la Cuenta".
+      </p>
+      <p>
+        Como está indicado arriba, la empresa Interpreters.travel representa a una plataforma online, igual como las tecnologías necesarias para que los Clientes encuentran a un intérprete de idioma necesario en la ciudad seleccionada y encargan los Servicios de interpretación a la hora deseada, en el lugar indicado. La empresa Interpreters.travel no es ni un Intérprete, ni un representante autorizado de Intérprete, ni un empleador de Intérprete, ni la agencia de traducciones que proporciona los Servicios de interpretación y otros servicios mencionados en los Anuncios. La responsabilidad de la empresa Interpreters.travel está limitada con proporción de la disponibilidad de la Página web y actuación como un agente con autoridad limitada de cada Intérprete para recibir los pagos del cliente a favor de Intérprete.
+      </p>
+      <p>
+        Preste su atención a que la empresa Interpreters.travel no puede y no controla el Contenido de cada Anuncio, condición, legalidad o conformidad de cualquier de los Servicios de interpretación. Interpreters.travel no tiene responsabilidad de los Anuncios y Servicios de interpretación, y abdica de cualquier responsabilidad relacionada con el Anuncio, el Contenido del Intérprete y los Servicios de interpretación. En consecuencia, todas las operaciones relativas a los Servicios de interpretación van a realizarse en el riesgo del Cliente.
+      </p>
+      <p>
+        <strong>Registración de la Cuenta</strong>
+      </p>
+      <p>
+        Usted puede utilizar ciertas funciones de la Página web, para encontrar a Intérpretes y ver los Anuncios como un usuario no registrado, pero para encargar los Servicios de interpretación Usted tiene que registrar su Cuenta y ser un usuario registrado. Hemos proporcionado un procedimiento de registro simplificado para encargar los Servicios de interpretación. Registración y creación de la Cuenta se procede automáticamente durante el proceso de hacer encargo.
+      </p>
+      <p>
+        Si Usted quiere registrar su Cuenta como un Intérprete y luego publicar su Anuncio de los Servicios de interpretación, primero tiene que hacer una solicitud de creación de la Cuenta en la página
+        %{help_interpreter_link}
+        y luego seguir las instrucciones indicados en los mensajes. Nosotros creamos su Cuenta y su página de perfil para poder usar la Página web, según la información personala proporcionada por Usted.
+      </p>
+      <p>
+        <strong>Publicación de los anuncios</strong>
+      </p>
+      <p>
+        Todos los Anuncios de los Servicios de interpretación están publicados según estos Términos y Condiciones, y las reglas para Intérpretes (en adelante,
+        <strong>«Reglas para Intérpretes»</strong>
+        ). Reglas para intérpretes están publicados en sección “Centro de ayuda” de la Cuenta de Intérprete y están disponibles para Intérpretes, autorizados en su Cuenta en la Página web con nombre del usuario y contraseña.
+      </p>
+      <p>
+        Usted como un intérprete, registrado a su cuenta y recibido el acceso a la publicación de los Anuncios en la Página web, reconoce y acepta, que el permiso de publicación de Anuncios Usted tendrá después de leer y aceptar los Términos y Condiciones, y la Política de privacidad. Si las Reglas para Intérpretes, Términos y Condiciones, Política de Privacidad no serán aceptados por Usted, en este caso Usted no tendrá el derecho de publicar Anuncios en la Página web.
+      </p>
+      <p>
+        <strong>Formalización de encargo y las condiciones de pago adelantado para los Clientes</strong>
+      </p>
+      <p>
+        Como está indicado arriba, la Página web representa una plataforma online, y las tecnologías para búsqueda de intérprete de idioma necesario en la ciudad elegida. Para buscar a Intérprete y formalizar el encargo de los Servicios de interpretación se usan funciones de la Página web y tecnologías de la selección de Intérpretes adecuados, revista de sus Anuncios de Servicios de interpretación y formalización de encargo de los Servicios de interpretación a través de un formulario especial en la Página web.
+      </p>
+      <p>
+        Haciendo contrato con Intérprete, formalizando encargo de los Servicios de interpretación, usted está de acuerdo y entiendo que tendrá que realizar contrato con los intérpretes. Usted reconoce y acepta que la empresa Interpreters.travel no presenta la parte en tales acuerdos y que, a excepción de los pagos especificados en este documento, la empresa Interpreters.travel no comparte la responsabilidad aparecida del resultado de tales acuerdos o relacionada con ellos. Usted reconoce y acepta que, a pesar de que la empresa Interpreters.travel no presenta la parte en el acuerdo entre Usted y un Intérprete, la empresa Interpreters.travel participa como un agente de pago para el Intérprete con el propósito limitado de recibo de sus pagos por la parte de Intérprete. Después de recepción de su pago a favor del Intérprete con la empresa Interpreters.travel, sus obligaciones monetarias a la intérprete de este importe están amortizados y la empresa Interpreters.travel es responsable de la trasferencia de este pago al Intérprete después de realización del encargo los Servicios de interpretación. Si la empresa Interpreters.travel no hace transferencia del pago a Intérprete, en este caso el intérprete tiene derecho de demandar a este pago sólo de la empresa Interpreters.travel.
+        Usted acepta pagar a la empresa Interpreters.travel el Pago total del encargo de Servicios de interpretación, formalizado a través de la Página web y que la empresa Interpreters.travel, en nombre de Intérprete, reserva el derecho de:
+      </p>
+      <p>
+        <ul>
+          <li>
+            obtener permiso previamente para reintegro de dinero de su tarjeta crédito o cuenta de PayPal en el importe del Precio total del encargo, si en el momento de la realización del encargo para el Servicio de interpretación seleccionado no funciona la condición de la cancelación gratuita;
+          </li>
+          <li>
+            o de reintegro de su tarjeta crédito, un importe nominal que no excede a un euro (€ 1), en rublos, con el objetivo de verificar la autenticidad de su tarjeta crédito, si en el momento de la realización del encargo para el Servicio de interpretación seleccionado funciona la condición de la cancelación gratuita. Después de la expiración de la cancelación gratis, la empresa Interpreters.travel quitará el Precio total en el caso si el pago se proporciona por PayPal o Precio total, aparte de la suma nominal de la previamente cogida para autenticar su tarjeta - en el caso de pagamiento con la tarjeta crédito. <br/>
+            Preste su atención que la empresa Interpreters.travel no puede controlar las tarifas que pueden cobrarse del Cliente por su banco, conectadas con la colección de Pago total de la empresa Interpreters.travel, y la empresa Interpreters.travel se exime de tener cualquier responsabilidad en este caso. En relación con la formalización de su encargo, con el presente Usted permita el cobro de dichas sumas a través de reintegro de dinero de tarjeta crédito o cuenta de PayPal, facilitados al amparo de la formalización indirecta a través de la empresa independiente que procede los pagos. Si Usted pasa a la página de la impresa independiente que procede los pagos de la empresa Interpreters.travel, Usted puede caer bajo de los términos y condiciones que regulan el uso de los servicios de tal empresa, igual como la práctica de recoger información personal. Póngase al corriente con la política de Términos y Condiciones, también con la Política de privacidad antes de empezar a usar los servicios.<br/>
+            Después de que la operación de la formalización del encargo se ha completado, Usted recibirá un mensaje por correo electrónico:
+            <li>
+              o con la información del encargo con los datos personales dl Intérprete y Carta de pago, si en el momento de realización del encargo de la Servicio de interpretación seleccionado no funciona la condición de la cancelación gratuita y el encargo ha sido pagado.
+            </li>
+            <li>
+              o primero con la información sobre el encargo sin datos personales de Intérprete, si en el momento de realización del encargo de Servicio de la interpretación funciona la condición de la cancelación gratuita, que está bien reflejado en el Anuncio o si el encargo no ha sido pagado, y luego, después de la expiración de la cancelación gratis y el recibo del encargo, información sobre el encargo con los contactos del Intérprete y la Carta del pago.
+            </li>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <strong>Condiciones de pago del encargo en efectivo al Intérprete</strong>
+      </p>
+      <p>
+        En el caso de realización del encargo con el pago en efectivo directamente al intérprete, el Cliente paga por el encargo en efectivo directamente al intérprete. En este caso, la empresa de Interpreters.travel participa como un agente de pago para el Intérprete y no tiene responsabilidad por el pago de encargo al Intérprete por encargo realizado de Servicios de interpretación. Si el Cliente no realiza el pago de encargo realizado al Intérprete, el Intérprete tiene derecho a exigir el pago sólo del Cliente, y no de la empresa Interpreters.travel.
+      </p>
+      <p>
+        Usted reconoce y acepta que al actuar como el Cliente, formalizando a un encargo de los Servicios de interpretación a través de la Página web y seleccionando el tipo de pago de encargo con dinero en efectivo directamente al Intérprete, de acuerdo a pagar al Intérprete el Precio total del encargo realizado de Servicios de interpretación en valuta de intérprete y estar responsable de Intérprete por el pago de encargo realizado de Servicios de interpretación.
+      </p>
+      <p>
+        <strong>Reglas generales de cancelación de encargo y reembolsos <br/></strong>
+        Términos y período de cancelación gratis se determinan por el Intérprete y se indican en el Anuncio y en el encargo. Si usted, como cliente, cancela su encargo de Servicios de interpretación antes de la expiración de la cancelación gratis, la empresa Interpreters.travel producirá reembolso de 100% del Pago total del encargo. Si Usted desea cancelar encargo después de la expiración de la cancelación gratis y antes de la hora de la realización de los servicios, la empresa Interpreters.travel hará un reembolso del precio de Pago total menos el pago de 2 (dos) horas del Servicio, especificado en el encargo. En caso si la suma de las horas del Pago total de encargo no excede a 2 (dos) horas, el reembolso de Pago total del encargo no se realiza. Si Usted desea cancelar el encargo después de la hora de inicio de realización de Servicio, el reembolso de Pago total del encargo no se realiza. En caso de sustitución de un Intérprete cuando el encargo ya ha sido cancelado debido a la falta de cambio del Intérprete o si dicha sustitución no está confirmado por el Cliente, la empresa Interpreters.travel producirá un reembolso del 100% del Pago total del encargo.
+      </p>
+      <p>
+        <strong>Cancelación de encargo con el pago en efectivo al intérprete.</strong>
+      </p>
+      <p>
+        En el caso de formalización del encargo con el pago en efectivo directamente al Intérprete, la cancelación de encargo después de la expiración de la cancelación gratuita y antes de la hora de realización del Servicio, le compromete al cliente a devolver el importe de pago de 2 (dos) horas de servicio especificado en encargo. La cancelación después de la hora de inicio de realización de servicio, le compromete al cliente a reembolsar el 100% del Pago total del encargo. Cancelación del encargo con el pago en efectivo directamente al intérprete antes de la expiración de la cancelación gratis completamente condona de pago de Cliente.
+      </p>
+      <p>
+        En caso de sustitución de Intérprete cuando el encargo con el pago directamente al Intérprete está cancelado debido a la falta de cambio del Intérprete o si dicha sustitución no está confirmado por el Cliente, la empresa Interpreters.travel completamente condona de cualquier compensación o pago al Cliente y el Intérprete debido a este encargo y está responsable por cualquieras consecuencias de dicha cancelación.
+      </p>
+      <p>
+        <strong>Bloqueo y eliminación de la Cuenta</strong>
+      </p>
+      <p>
+        Tenemos derecho a nuestra discreción y sin estar ningún tipo de responsabilidad a Usted, con o sin causa, por notificación previamente o sin, en cualquier momento, cancelar presentes Términos y Condiciones o denegar su acceso a nuestra Página web, desactivar, bloquear o eliminar su Cuenta. A la terminación del contrato le inmediatamente pagaremos todas las sumas que vemos obligados a pagar a Usted en los marcos de los compromisos contractuales. Si la empresa Interpreters.travel cancela presentes Términos y Condiciones o prohíbe su acceso a nuestra Página web, desactiva o anula su Cuenta, Usted será responsable por todas las sumas de pago debidas del contrato.
+      </p>
+      <p>
+        Usted podrá borrar su Cuenta en cualquier tiempo enviándonos su solicitud apropiado a este correo electrónico:
+        <a href="mailto:support@interpreters.travel">support@interpreters.travel</a>. Preste su atención de que si su Cuenta ha sido borrado, no estamos obligatorios de borrar o devolverle el Contenido, que Usted ha sido publicado en la Página web, incluyendo los opiniones.
+      </p>
+      <p>
+        <strong>Comportamiento del Usuario</strong>
+      </p>
+      <p>
+        Usted entiende y acepta que es el único responsable del cumplimiento de todas las reglas, normas, reglamentos y obligaciones fiscales que pueden ser usados contra Usted por el uso de la Página web. En relación con el uso de la Página web, Usted no tiene derecho y acepta no hacer lo siguiente:
+      </p>
+      <p>
+        <ul>
+          <li>
+            utilizar las programas automatizadas, dispositivos, archivos de comando/robots de búsqueda, otros medios o procedimientos que permiten hacer acceso a las páginas web u otros servicios, contenidos en la Página web o del Contenido, utilizar contra ellos "scraper", "arañas" o "boto", utilizar la Página Web con fines comerciales o con otros objetivos que no están aceptados expresamente por presentes Términos y Condiciones;
+          </li>
+          <li>
+            interferir o dañar a nuestra Página web, incluyendo, aparte de todo, los daños en resulto del uso de los virus, los robots de agente, troyanos, ataques maliciosos de códigos como la denegación de servicio, spoofing del IP, falsa o enrutamiento de información acerca del correo electrónico y otros similares métodos o tecnologías;
+          </li>
+          <li>
+            utilizar nuestra Página web para transmisión, distribución, cesión o transferencia de la información relacionada con otra persona física o jurídica, incluyendo, aparte de todo, las fotografías de otras personas sin su permiso, información personal de contacto o de tarjeta crédito, débito, tarjeta de llamadas o números de cuentas;
+          </li>
+          <li>
+            utilizar nuestra Página web en relación con la distribución de correos electrónicos no solicitados de correos comerciales ("el spam");
+          </li>
+          <li>
+            “hacer persecución" o acosar y molestar a cualquier otro usuario nuestra Página web o recoger o  y guardar cualquier información que permite encontrar la identidad de otro usuario para fines distintos de los objetivos de las operaciones en vez de como un Cliente o Intérprete;
+          </li>
+          <li>
+            ofertar en vez de Intérprete a cualquieras servicios de interpretación que no está proporcionado;
+          </li>
+          <li>
+            registrar más de una Cuenta o registrar la Cuenta en nombre de otra persona;
+          </li>
+          <li>
+            comunicarse con el Intérprete en cualquieras objetivos, a excepción de las cuestiones relacionadas con el encargo de los Servicios de interpretación;
+          </li>
+          <li>
+            comunicarse con el Cliente para cualquieras propósitos, excepto de las cuestiones relacionadas con el encargo de los Servicios de interpretación;
+          </li>
+          <li>
+            actuando como un Cliente o de otra forma, ponerse en contacto con los Intérpretes u otros usuarios registrados con una solicitud de usar los servicios de tercero o de unirse a páginas web que compiten con la empresa Interpreters.travel, sin el permiso previamente escrito de la empresa Interpreters.travel;
+          </li>
+          <li>
+            actuar en nombre de otra persona física o jurídica, falsificar su identidad o presentar su información falsa sobre él propio o su contactos con otra persona física o jurídica;
+          </li>
+          <li>
+            usar las secuencias de comandos automatizados para recoger la información o comunicarse de otra forma con la Página web;
+          </li>
+          <li>
+            utilizar la Página web para buscar a un Intérprete o Cliente, y luego hacer un encargo de los Servicios de interpretación fuera de la Página web;
+          </li>
+          <li>
+            siendo un Intérprete, colocar los Anuncios con información falsa o engañosa sobre el precio o colocar los anuncios con el precio, que Usted no quiere realizar;
+          </li>
+          <li>
+            colocar, subir, publicar, enviar o transmitir cualquier Contenido que: conculca o se atribuye ilegalmente de cualquier derecho de patente, derecho de autor, razón comercial, secreto comercial, derecho moral u otros derechos de propiedad intelectual, derecho de publicidad, derecho de privacidad de la vida privada de terceros; conculca o disimula cualquieras acciones violados la ley  y los actos normativos, o que pueden llevar a la procedencia de responsabilidad civil; Es falsa o engañosa; Es difamatorio, obsceno, de carácter pornográfico, vulgar u ofensivo; promueve la discriminación, la intolerancia, el racismo, el odio, acoso o daño a cualquier persona o grupo de personas; Tiene carácter violento o amenaza a cualquier persona con sus acciones; promueva actividades o el uso de sustancias ilegales o perjudiciales;
+          </li>
+          <li>
+            sistemáticamente extraer la información u otro contenido de nuestra Página web para crear o compilar, directamente o indirectamente, a través del cargamento desechable o múltiple, colección, admisión, bases de datos, catálogos, etc., sea de forma manual o a través de un agente robots, agentes de búsqueda, "arañas "o etc.;
+          </li>
+          <li>
+            recibir acceso, manipular o utilizar partes no destinadas al uso público de la Página web, sistemas informáticos de la empresa Interpreters.travel o sistemas de transmisión de los datos de proveedores de la empresa Interpreters.travel;
+          </li>
+          <li>
+            intentar a enviar mensajes de prueba, escanear o probar la vulnerabilidad de las sistemas o redes de la empresa Interpreters.travel, o conculcar las medidas de seguridad o autenticación;
+          </li>
+          <li>
+            evitar, eludir, eliminar, desactivar, deteriorar, descifrar, o evitar las medidas técnicas de otra manera adoptadas por la empresa Interpreters.travel o  proveedores de la empresa Interpreters.travel o de otros terceros (incluyendo otro usuario) para la protección la Página web o el Contenido;
+          </li>
+          <li>
+            falsificar cualquier titular de paquete TCP / IP o cualquier parte de la información del titular en cualquier mensaje de correo electrónico o publicación de grupo, usar la Página web o el Contenido general para enviar información falsa, cambiada o contrahecho que pueda identificar al fuente;
+          </li>
+          <li>
+            intentar de descifrar, desmontar, desensamblar o realizar ingeniería inversa de cualquier software, utilizado para proporcionar la Página web o el Contenido;
+          </li>
+          <li>
+            ayudar, estimular o facilitar a los terceros en la ejecución de cualquiera de las acciones mencionadas anteriormente.
+          </li>
+        </ul>
+      </p>
+      <p>
+        <strong>Derecho de propiedad</strong>
+      </p>
+      <p>
+        Usted reconoce y acepta que la Página web y el Contenido, incluyendo todos los derechos de propiedad intelectual, están relacionados con propiedad exclusiva de Interpreters.travel.
+      </p>
+      <p>
+        <strong>Contenido</strong>
+      </p>
+      <p>
+        A nuestra discreción excepcional podemos permitir a los usuarios registrados publicar, cargar, publicar o transmitir el Contenido. Al proporcionar el Contenido en la Página web, a través de la Página web, con presente Usted provee a  Interpreters.travel una licencia mundial, irrevocable, perpetua, no exclusiva, de pago no transferible con derecho a sublicenciar, utilizar, ver, copiar, adaptar, modificar, distribuir, licenciar, vender, transmitir, poner en exposición pública, realizar públicamente, transmitir, difundir, acceder, ver y explotar el contenido en a través de la Página. La empresa Interpreters.travel no aboga ningunos derechos de propiedad sobre el dicho Contenido, y ninguna disposición de presentes Términos y Condiciones no restringirá los derechos que Usted puede tener sobre el uso y explotación de tal Contenido.
+      </p>
+      <p>
+        Usted reconoce y acepta que Usted es el único responsable por el contenido que proporciona a través de la Página web. En consecuencia, Usted representa y garantiza que:
+        <li>
+          Usted es el único y exclusivo propietario de todo el Contenido que Usted proporciona en la Página web, o Usted tiene todos los derechos, licencias, acuerdos y renuncias que se requieren, para proporcionar a la empresa Interpreters.travel los derechos de uso de dicho Contenido, como está conformado en presentes Términos y Condiciones
+        </li>
+        <li>
+          Ni Contenido, ni su disposición, descargo de publicaciones, colocación o distribución del Contenido, ni uso del Contenido (o su parte) con la empresa Interpreters.travel a través de la Página web, no da daño, no apropia y no viole los derechos de patentes, derechos de autor, razón comercial, secretos comerciales , derecho moral u otros derechos de propiedad intelectual o derechos de publicidad o la inviolabilidad de la vida privada de tercero y no violan las leyes y los actos normativos legales.
+        </li>
+      </p>
+      <p>
+        <strong>La licencia del Contenido</strong>
+      </p>
+      <p>
+        En vista de su cumplimiento con los presentes Términos y Condiciones de la empresa Interpreters.travel le concede una licencia limitada no exclusiva, que no está dispuesta a transferirla para acceder y ver el Contenido, de que el acceso está disponible. Usted no tiene derecho de sublicenciar los derechos de licencia, ofertados en presente sección. Usted no puede usar, copiar, adaptar, modificar, crear trabajos derivados, distribuir, licenciar, vender, transferir, ejecutar públicamente, transmitir, difundir o de otro modo explotar la Página web o el Contenido, excepto los casos , especialmente previstas en presentes Términos y Condiciones.
+      </p>
+      <p>
+        <strong>Derecho del uso</strong>
+      </p>
+      <p>
+        La Página está destinada para el uso únicamente para las personas que han cumplido 18 años. El acceso o uso de la Página por cualquier persona que no haya cumplido 18 años, están estrictamente prohibidos. Al acceder o utilizar la Página web Usted declara y garantiza que su edad no es menos que 18 años.
+      </p>
+      <p>
+        <strong>Ley sujetado y jurisdicción</strong>
+      </p>
+      <p>
+        Presentes Condiciones tienen que interpretarse de conformidad con las leyes de la República de Estonia. Con Usted estamos dando el acuerdo de someterse a la jurisdicción personal de los tribunales de la República de Estonia en cualquieras procedimientos, según cuales, las partes de contrato conservan el derecho de solicitar la aplicación de las medidas provisionales que impidan al carácter otros recursos en los tribunales de justicia por el ley de jurisdicción competente con la razón de prevenir violaciónes existentes o potenciales, apropiación indebida o la infracción de los derechos de autor, razón comercial, secretos comerciales, patentes u otros derechos de propiedad intelectual de las partes de contrato.
+      </p>
+      <p>
+        <strong>Condiciones generales</strong>
+      </p>
+      <p>
+        La falta de cumplimiento de cualquier derecho o disposición de presentes Términos y Condiciones de la empresa Interpreters.travel no significa su dimisión de ejecución de ese derecho o disposición en el futuro. Cualquier renuncia de tal derecho o disposición sólo sería válida en caso de formalización de tipo escrito y firmado por los representantes autorizados de la empresa Interpreters.travel. Salvo de los casos cuando se indique expresamente en presentes Términos y Condiciones, el uso de cualquiera de los medios con cualquiera de las partes de contrato para protegerlo de acuerdo con presentes Términos y Condiciones será realizado sin perjuicio de otros bienes de protección disponibles, de acuerdo con presentes Términos o con otra manera. Si por cualquier motivo un árbitro o un tribunal de competencia jurídica decretan que cualquier de presentes Condiciones no está válida o no tiene validez jurídica, dicha disposición se aplicará en la máxima medida permitida, y demás disposiciones de estas Condiciones se mantendrán en pleno vigor.
+      </p>
+      <p>
+        <strong>Rectificación.</strong>
+      </p>
+      <p>
+        La empresa Interpreters.travel reserva el derecho, por su discreción, a veces hacer cambios en la Página web o hacer cambios de presentes Términos y Condiciones sin aviso previamente. Si hacemos cambios a estos Términos y Condiciones, nos comprometemos a publicar los cambios en la Página web o proporcionar una notificación de cambios. También actualizamos la "fecha de la última actualización del documento" indicada debajo de presentes Términos y Condiciones. Tales cambios no se aplican a los adoptados hasta la publicación de los Términos y Condiciones al formalizar un encargo por Cliente o/y del Anuncio por el Intérprete. Al continuar utilizando a la Página web después de haber realizado cambios en en la Página, presentes Términos y Condiciones o haber proporcionado un aviso sobre los cambios, Usted declara que acepta a cumplir con los Términos y Condiciones cambiados.
+      </p>
+      <p>
+        <strong>¿Cómo ponerse en contacto com Interpreters.travel?</strong>
+      </p>
+      <p>
+        Si usted tiene alguna pregunta acerca de presentes Términos y Condiciones, por favor, póngase en contacto con Interpreters.travel en la dirección especificada en la sección de la Página web "Sobre nosotros"
+        %{about_link}.
+      </p>
+      <p>
+        <strong>Última actualización del documento:</strong>
+        Diciembre 9, 2014
+      </p>
+  privacy_policy_page:
+    title: "Política de privacidad"
+    text: |
+      <p>
+        <strong>Política de privacidad y de cookie-archivos.</strong>
+      </p>
+      <p>
+        Damos mucha importancia a privacidad de sus datos. Agradecemos su confianza y tomamos la obligación de proteger su información personal proporcionada. Esta Política de Privacidad regula la manera de como Interpreters.travel OÜ recoge, utiliza, guarda y divulga la información recibida de los usuarios (en adelante, "Usuario") de la página web interpreters.travel (en adelante, "Página web"). Esta política de privacidad se aplica a la Página web y todos los productos y servicios ofrecidos por Interpreters.travel OÜ. También proporcionamos la información de contactos para que Usted puede ponerse en contacto con nosotros si tiene alguna pregunta sobre su información personal.
+      </p>
+      <p>
+        <strong>Información personal usada por interpretes.travel</strong>
+      </p>
+      <p>
+        Podemos recoger información de identificación personal de los Usuarios en formas diferentes, incluyendo, pero no limitado a casos, cuando los Usuarios visitan nuestro sitio, se registran en la Página web, hacen un encargo, y a causa de otras actividades, servicios, posibilidades o recursos que nosotros hacemos y que se pueden encontrar en nuestra Página web. A los Usuarios en casos apropiados se pueden requerir nombre, correo electrónico, dirección postal, número de teléfono. Sin embargo, los Usuarios pueden visitar nuestra página web de forma anónima. Recogeremos información de identificación personal de los usuarios sólo si lo proporcionan voluntariamente a nosotros. Los usuarios siempre pueden negarse a proporcionar información de identificación personal, excepto caso cuando eso puede impedir hacer ciertas actividades en la Página web.
+      </p>
+      <p>
+        <strong>Información no personal</strong>
+      </p>
+      <p>
+        Podemos recoger información de identificación no personal sobre los Usuarios cuando trabajan con nuestra página web. Información de identificación no personal puede incluir nombre de navegador, tipo de ordenador e información técnica sobre los medios de comunicación de los Usuarios con nuestra Página web, tales como sistema operativo y los internet-proveedores utilizados y otra información similar.
+      </p>
+      <p>
+        <strong>Cookie-archivos usados por interpreters.travel</strong>
+      </p>
+      <p>
+        Nuestra Página web puede usar cookie-archivos para aumentar la experiencia del Usuario. El web-navegador del Usuario coloca cookie-archivos en su disco duro para propósitos de registro y a veces monitorea la información sobre ellos. El Usuario puede seleccionar en las configuraciones de su navegador web la denegación para de guardar los cookie-archivos o avisos, cuando se guardan. Si esto ocurre, preste su atención que algunas partes de la Página pueden no funcionar correctamente.
+      </p>
+      <p>
+        <strong>¿Cómo interpreters.travel utiliza la información recogida?</strong>
+      </p>
+      <p>
+        Interpreters.travel OÜ puede recoger y utilizar la información personal de los miembros en casos siguientes:
+      </p>
+      <ul>
+        <li>
+          <p>Para mejorar la atención al cliente</p>
+          <p>
+            La información que Usted proporcione nos ayuda a responder más eficazmente a sus necesidades, las solicitudes la atención del Soporte.
+          </p>
+        </li>
+        <li>
+          <p>Para personalización de la experiencia del usuario</p>
+          <p>
+            Podemos utilizar la información en conjunto para entender cómo nuestros usuarios como un grupo utilizan los servicios y recursos ofrecidos de nuestra Página web.
+          </p>
+        </li>
+        <li>
+          <p>Para mejorar nuestra Página web</p>
+          <p>
+            Podemos utilizar línea de retorno proporcionada por Usted para mejorar nuestros productos y servicios.
+          </p>
+        </li>
+        <li>
+          <p>Para el procesamiento de pagos</p>
+        </li>
+      </ul>
+      <p>
+        Podemos usar información que los Usuarios que nos proporcionan mientras hacen un encargo para proporcionar correctamente los servicios. Nosotros no compartimos esta información a terceros, excepto lo que es necesario para ofrecer los servicios.
+      </p>
+      <ul>
+        <li>
+          <p>Para hacer la promociones, concursos, investigaciones u otras funciones de la Página</p>
+          <p>
+            Para enviar información a los Usuarios que han aceptado recibir información de los temas que les interesan.
+          </p>
+        </li>
+        <li>
+          <p>Para periódicamente enviar correos electrónicos</p>
+        </li>
+      </ul>
+      <p>
+        Podemos usar dirección de correo electrónico para enviar información relacionada con solicitud de usuario. Dirección de correo electrónico también puede ser usado para contestar a preguntas, solicitudes y/u otros objetivos. Si Usuario decide estar en nuestra lista de envío, recibirá correos electrónicos que pueden incluir noticias sobre la empresa, actualizaciones, información relacionada con el producto o servicio, etc. Si en cualquier momento al Usuario le gustaría dejar de recibir mensajes de correo electrónico en futuro, cada mensaje incluye instrucciones detalladas sobre cómo darse de baja en la parte inferior de cada correo electrónico.
+      </p>
+      <p>
+        <strong>¿Cómo interpreters.travel protege su información?</strong>
+      </p>
+      <p>
+        Nosotros usamos las reglas apropiadas de captación de la información, elaboración y las medidas de seguridad para proteger contra el acceso no autorizado, cambio, divulgación o destrucción de su información personal, nombre del Usuario, contraseña, información de transacciones y los datos guardadas en nuestra Página web.
+      </p>
+      <p>
+        La comunicación entre la Página web y los Usuarios se transmite por el canal SSL de la conexión segura y en los datos protegidos con las firmas digitales.
+      </p>
+      <p>
+        <strong>Transferencia de información personal a terceros</strong>
+      </p>
+      <p>
+        Nosotros no vendemos, no comerciamos y no alquilamos la información de identificación personal de los Usuarios. Podemos proporcionar una información demográfica total que no está vinculada a ninguna información de identificación personal sobre los visitantes y Usuarios con nuestros socios comerciales, confiados a los filiales para los objetivos descritos anteriormente. Podemos usar proveedores terceros de servicios para ayudarnos a dirigir nuestro negocio y la Página web, también para administrar actividades en nombre de nosotros, como el envío de boletines o de investigaciones. Podemos compartir su información con estos terceros para los objetivos limitados, con tal que Usted nos ha dado el permiso.
+      </p>
+      <p>
+        <strong>Cambios en la política de privacidad</strong>
+      </p>
+      <p>
+        Interpreters.travel OÜ tiene derecho de libremente renovar este Política de Privacidad a cualquier momento. Cuando lo hacemos, renovamos la fecha debajo de la página y/o le enviamos mensaje a correo electrónico. Recomendamos a nuestros Usuarios regularmente visitar este página para ver cualquier cambio para mantenerse informados acerca de cómo recopilamos y protegimos la información personal. Usted acepta y acuerda que es su responsabilidad periódicamente revisar esta política de privacidad y entender de los cambios.
+      </p>
+      <p>
+        <strong>Su aceptación de esta Política</strong>
+      </p>
+      <p>
+        Al utilizar este Página web, usted expresa su aceptación de esta Política. Si Usted no está de acuerdo con esta política, por favor no utilice nuestro sitio web. Si Usted utiliza la Página web después de cualquier cambio de esta Política, se considerará que Usted está de acuerdo con estos cambios.
+      </p>
+      <p>
+        <strong>Cómo ponerse en contacto con nosotros</strong>
+      </p>
+      <p>
+        Si Usted tiene algunas preguntas acerca de esta Política de Privacidad, uso de la Página web o su interacción con nuestro sitio web, por favor, póngase en contacto con nosotros:
+        <p itemscope itemtype="http://schema.org/Organization">
+          <strong><span itemprop="name">Interpreters.travel OÜ</span></strong>
+          <br/>
+          <strong>interpreters.travel</strong>
+          <br/>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <strong><span itemprop="streetAddress">Vesivärava tn 50-201</span>, <span itemprop="postalCode">10152</span> - <span itemprop="addressLocality">Tallinn, Estonia</span></strong>
+          </span>
+          <br/>
+          <strong><span itemprop="email">info@interpreters.travel</span></strong>
+        </p>
+      </p>
+  about_page:
+    title: "Sobre nosotros"
+    text: |
+      <div itemscope itemtype="http://schema.org/Organization">
+      <p>
+        La empresa
+        <b><span itemprop="name">Interpreters.travel OÜ</span>,</b>
+        fundada en 2013, tiene todos los derechos exclusivas de Interpreters.travel - servicios de busqueda de intérpretes y online encargos de interpretación a nivel mundial.
+      </p>
+      <p>La empresa Interpreters.travel OÜ está registrada por el Departamento de Registro del Tribunal del Condado de Tartu de la República de Estonia bajo del número 16422855.</p>
+      <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Главный офис компании Interpreters.travel OÜ расположен по адресу:
+        <br/>
+        <b><span itemprop="streetAddress">Vesivärava tn 50-201</span>, <span itemprop="postalCode">10152</span> - <span itemprop="addressLocality">Tallinn, Estonia</span></b>
+      </p>
+      <p>
+        Телефон офиса:
+        <b><span itemprop="telephone">+357 22 008 050</span></b>
+        (на английском и русском) с 9:00 до 17:00 (GMT + 2 часа)
+        <br/>
+        Email:
+        <a href="mailto:office@interpreters.travel"><span itemprop="email">office@interpreters.travel</span></a>
+      </p>
+      </div>
+    addresses:
+      title: |
+        La empresa <b>Interpreters.travel OÜ</b>, fundada en 2013, tiene todos los derechos exclusivas de Interpreters.travel - servicios de busqueda de intérpretes y online encargos de interpretación a nivel mundial.
+        <br/>
+        La empresa Interpreters.travel OÜ está registrada por el Departamento de Registro del Tribunal del Condado de Tartu de la República de Estonia bajo del número 16422855.
+      estonia: |
+        <b>Casa matriz de la empresa Interpreters.travel OÜ está en Tallin (Estonia)</b>
+        <br/>
+        <b>Correo electrónico:</b> office@interpreters.travel
+        <br/>
+        <b>Teléfono:</b> +357 22 008 050 (en Inglés y ruso) de 9:00 a 17:00 (GMT + 2 horas)
+        <br/>
+        <b>Dirección:</b> Vesivärava tn 50-201, 10152 - Tallin, Estonia

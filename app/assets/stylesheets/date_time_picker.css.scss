@@ -1,0 +1,328 @@
+.data_cloud {
+  display: none;
+  position: absolute;
+  top: -126px;
+  left: 360px;
+  width: 550px;
+  background: #fff;
+  border: 1px solid #000;
+  box-shadow: -4px 4px 6px #302F1B;
+}
+
+.choose-call-date-tabs .data_cloud {
+  display: block;
+  position: static;
+  box-shadow: none;
+  width: 100%;
+  border: none;
+}
+
+.data_cloud .ui-datepicker {
+  width: 231px;
+  float: left;
+  margin: 17px 0px 0px 37px;
+  padding: 0px;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-header {
+  font: 14px 'HelveticaLTStdBold';
+  color: #fff;
+  background: #30480A;
+  padding: 3px 0px 5px 0px !important;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-header .ui-datepicker-prev {
+  background: asset_url('calendar_ar_prev.png') no-repeat center center;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-header .ui-datepicker-next {
+  background: asset_url('calendar_ar_next.png') no-repeat center center;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-calendar {
+  border-bottom: 1px solid #E2E2E2;
+  margin: 0px;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-calendar thead th {
+  font: 10px 'HelveticaLTStdRoman';
+  line-height: 10px;
+  padding: 5px 0px 4px 0px;
+  background: #4C5D17;
+  color: #fff;
+  border-right: 1px solid #818D5B;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-calendar tbody td {
+  border-right: 1px solid #EAEAEA;
+  border-top: 1px solid #EAEAEA;
+  font: 13px 'HelveticaLTStdBold';
+  line-height: 14px;
+  background: #FBFBFB;
+  height: 26px;
+  padding: 0px;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-calendar tbody .ui-datepicker-other-month {
+  background: #EEEEEE
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-calendar tbody .ui-datepicker-other-month .ui-state-default {
+  text-align: center;
+  color: #B8B9BD;
+  text-shadow: 1px 1px 2px #FFF;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-calendar tbody .ui-datepicker-week-end a {
+  color: #BE394C;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-calendar tbody td:first-child {
+  border-left: 1px solid #EAEAEA;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-calendar tbody td a {
+  color: #434446;
+  text-align: center;
+}
+
+.data_cloud .ui-datepicker .ui-datepicker-calendar .ui-datepicker-current-day {
+  background-color: #FFC702;
+
+  a {
+    color: #1F211E;
+  }
+}
+
+.data_cloud .timepicker {
+  width: 216px;
+  float: right;
+  margin: 23px 10px 0px 0px;
+}
+
+.data_cloud .timepicker .title {
+  font: 15px 'robotolight';
+  line-height: 18px;
+  color: #010101;
+  text-align: center;
+}
+
+.data_cloud .timepicker .from {
+  margin: 29px 0px 0px 0px;
+  padding: 0px 0px 0px 20px;
+}
+
+.data_cloud .timepicker .to {
+  margin: 27px 0px 0px 0px;
+  padding: 0px 0px 0px 20px;
+}
+
+.data_cloud .timepicker .text {
+  font: 18px 'robotolight';
+  line-height: 18px;
+  color: #020202;
+  float: left;
+  padding: 5px 20px 0px 0px;
+  width: 26px;
+  text-align: right;
+  margin: 0px 4px 0px 0px
+}
+
+#body.es .data_cloud .timepicker .text {
+  font-size: 15px;
+}
+
+.data_cloud .timepicker .text2 {
+  width: 12px;
+  margin: 0px 3px 0px 0px;
+  font: 14px 'robotobold';
+  line-height: 18px;
+}
+
+.data_cloud .timepicker .time {
+  float: left;
+  width: 50px;
+  height: 27px;
+  line-height: 100% !important;
+  vertical-align: middle !important;
+}
+
+.data_cloud .timepicker .time input {
+  width: 33px;
+  height: 27px;
+  background: #FFC702;
+  font: 14px 'robotobold';
+  color: #444549;
+  padding: 0px;
+  text-align: center;
+  float: left;
+  margin: 0px;
+  line-height: 100% !important;
+  vertical-align: middle !important;
+}
+
+.data_cloud .timepicker .time .ar {
+  width: 17px;
+  float: left;
+  background: #304908;
+}
+
+.data_cloud .timepicker .time .ar a {
+  display: block;
+  height: 13px;
+  line-height: 13px;
+}
+
+.data_cloud .timepicker .time .ar .minus {
+  margin-top: 1px;
+}
+
+.choose-call-date-tabs .data_cloud .timepicker {
+  margin: 10px 0;
+  width: 205px;
+
+  .time {
+    float: none;
+    height: auto;
+    width: auto;
+  }
+
+  .text {
+    padding-right: 0px;
+    width: 8px;
+  }
+}
+
+//.data_cloud .timepicker .add_time {
+//  //width: 182px;
+//  height: 25px;
+//  font: 15px;
+//  background: #304908;
+//  font: 15px 'robotomedium';
+//  line-height: 15px;
+//  border: 0px;
+//  color: #fff;
+//  text-transform: uppercase;
+//  text-align: center;
+//  margin: 46px auto 0px auto;
+//  padding: 10px;
+//}
+
+.data_cloud .result {
+  font: 11.7px 'robotolight';
+  line-height: 13px;
+  color: #010101;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin: 10px 10px 5px 30px;
+  background-color: #FFC702;
+  width: 230px;
+}
+
+.find_translator_wrapper .form_wrapper {
+  .data_cloud .timepicker .button.clear_intervals {
+    float: right;
+    margin-right: 8px;
+    margin-bottom: 10px;
+  }
+
+  .data_cloud .timepicker.border-wrapper {
+    margin-top: 0px;
+  }
+}
+
+
+
+.data_cloud .timepicker.border-wrapper {
+  width: 216px;
+  margin-top: 5px;
+  padding: 8px;
+  border: 1px solid #d0d0d0;
+}
+
+.find_translator_wrapper .form_wrapper, .green_line .content {
+  .data_cloud .timepicker .button.clear_intervals {
+    width: 216px;
+  }
+  .data_cloud .timepicker .buttons {
+    margin: 15px 0px 0px 0px;
+  }
+
+  .data_cloud .timepicker .button {
+    display: inline-block;
+    width: 80px;
+    height: 25px;
+    font-size: 15px;
+    background-color: #304908;
+    font: 15px 'robotomedium';
+    border: 0px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0px 0px 5px;
+    padding: 10px;
+  }
+
+  .data_cloud .timepicker .button.large {
+    // width: 189px;
+  }
+}
+
+#body.it {
+  .find_translator_wrapper .form_wrapper, .green_line .content {
+
+    .data_cloud .timepicker .button {
+      font-size: 14px;
+    }
+  }
+}
+
+.data_cloud .select_result_wrapper {
+  background: #EEEEEE;
+  padding: 8px 0px;
+}
+
+.data_cloud .select_result_wrapper .select_result {
+  display: block;
+  width: 230px;
+  height: 33px;
+  background: #2B4107;
+  border: 0px;
+  font: 26px 'robotomedium';
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  padding: 8px 0px 0px 0px;
+  margin: 0px auto;
+}
+
+//.find_translator_wrapper .form_wrapper .data_cloud {
+//  width: 251px;
+//  top: -184px;
+//}
+//.find_translator_wrapper .form_wrapper .data_cloud .ui-datepicker {
+//  margin: 10px 0px 0px 10px;
+//  float: none;
+//}
+//.find_translator_wrapper .form_wrapper .data_cloud .timepicker {
+//  float: none;
+//  margin: 10px;
+//  width: auto;
+//}
+//.find_translator_wrapper .form_wrapper .data_cloud .timepicker .from {
+//  margin: 10px 0px 0px 0px;
+//}
+//.find_translator_wrapper .form_wrapper .data_cloud .timepicker .to {
+//  margin: 10px 0px 0px 0px;
+//}
+//.find_translator_wrapper .form_wrapper .data_cloud .timepicker .add_time {
+//  margin: 10px auto 0px auto;
+//}
+//.find_translator_wrapper .form_wrapper .data_cloud .result {
+//  margin: 5px;
+//}
+//.find_translator_wrapper .form_wrapper .find_cloud_arrow {
+//  top: 187px;
+//}

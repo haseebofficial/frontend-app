@@ -1,0 +1,1 @@
+$("#new_ticket").prepend('<%= @ticket.errors.full_messages.join(", ") %>')

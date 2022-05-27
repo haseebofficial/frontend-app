@@ -1,0 +1,6 @@
+$(".is_cont").append("<%= j render partial: 'order', collection: @orders %>");
+<% if @orders.present? %>
+  $(".load-more").attr("href", "<%= personal_account_path(page: params[:page].to_i + 1) %>");
+<% else %>
+  $(".load-more").hide();
+<% end %>

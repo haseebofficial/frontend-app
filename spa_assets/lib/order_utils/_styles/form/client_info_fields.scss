@@ -1,0 +1,95 @@
+@use "app/_styles/utils/responsiveness" as r;
+
+.columns {
+  .column .is-one-third {
+    .field {
+      .input-disabled,
+      .input-disabled::placeholder {
+        color: #888787;
+      }
+      .input-disabled {
+        background: #fffcfc;
+        border: 1px solid #dbdbdb;
+      }
+      input[disabled],
+      textarea[disabled],
+      input:disabled,
+      textarea:disabled {
+        background: #fffcfc;
+        border: 1px solid #dbdbdb;
+        -webkit-text-fill-color: #888787;
+        opacity: 1 !important;
+        -webkit-opacity: 1 !important;
+      }
+      input[disabled],
+      input[disabled]::placeholder,
+      textarea[disabled],
+      textarea[disabled]::placeholder,
+      input:disabled,
+      textarea:disabled,
+      input:disabled::placeholder,
+      textarea:disabled::placeholder {
+        -webkit-text-fill-color: currentcolor;
+        opacity: 1 !important;
+        -webkit-opacity: 1 !important;
+      }
+    }
+  }
+}
+
+.client-info-fields {
+  @include r.touch {
+    .columns {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  }
+  .order-tabs {
+    padding-left: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    li {
+      padding-bottom: 5px;
+    }
+
+    .info-form-tab {
+      position: relative;
+      text-align: center;
+      font-weight: 700;
+      width: 270px;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        bottom: -7px;
+        width: 100%;
+        height: 4px;
+        background-color: #ffc700;
+      }
+    }
+
+    @include r.touch {
+      padding-left: 0;
+      margin-top: 10px;
+      margin-bottom: 20px;
+      .info-form-tab {
+        margin: 0 auto;
+      }
+      li {
+        font-size: 14px;
+        padding-bottom: 5px;
+      }
+      & li:not(:first-child) {
+        margin-left: 15px;
+      }
+    }
+  }
+}
+
+// changes
+.lang-ar {
+  .client-info-fields .order-tabs li {
+    margin-left: 1em;
+  }
+}

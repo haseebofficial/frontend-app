@@ -1,0 +1,35 @@
+@use "app/_styles/utils/responsiveness" as r;
+
+@include r.touch {
+  .translation-order-summary {
+    text-align: center;
+    margin-top: 25px;
+    font: 12px "robotoregular";
+
+    .order-info-avatar {
+      margin: 0 auto;
+      max-width: 100px;
+    }
+
+
+    .order-list {
+      font-size: 12px;
+      margin-top: -20px;
+    }
+
+    .order-price {
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 10px;
+
+      .label {
+        font: 12px "robotoregular";
+      }
+
+      select {
+        font-size: 12px;
+        padding-right: 40px;
+      }
+    }
+  }
+}

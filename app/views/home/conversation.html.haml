@@ -1,0 +1,22 @@
+- content_for :description do
+  .mobile-hide= t("service_types.title")
+
+- [:meta_description, :title].each do |n|
+  - content_for n do
+    = t("service_pages.conversation.title")
+
+- content_for :back_link do
+  = link_to t("help_menu.back_link"), root_path, class: 'back_link'
+
+- content_for :body do
+  .main_content
+    .about_sidebar
+      = render partial: 'home/help_menu'
+    .about_content
+      .about_type_img_wrapper
+        = image_tag 'help/peregovor.png', class: 'img', alt: ''
+        .text
+          .text_inner= t("service_pages.conversation.title")
+      .about_article= raw t("service_pages.conversation.text")
+      = render 'goto_search_button'
+    .clear

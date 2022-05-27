@@ -1,0 +1,1169 @@
+en:
+  service_types:
+    title: "Types of Interpretation service"
+    conversation: 'Interpretation at negotiations'
+    exhibition: 'Interpretation at an exhibition'
+    seminar: 'Interpretation at a seminar or conference'
+    presentation: 'Interpretation at presentation'
+    clinic: 'Interpretation of a consultation in a clinic'
+    celebration: 'Interpretation at celebrations'
+    guide: 'Interpretation of excursions, tour guide services'
+    delegations_escort: 'Escort of delegations'
+    individuals: 'Escort of individuals'
+    phone_talking: 'Interpretation of a phone conversation'
+    interview: 'Interview interpretation'
+    press_conference: 'Interpretation at press conferences'
+    protocol_translation: 'Protocol interpretation'
+    judicial_translation: 'Judicial interpretation'
+  help_menu:
+    back_link: 'To main page'
+    find_interpreter: "Find interpreter"
+    info: 'About interpreters.travel'
+    for_clients: 'For clients'
+    for_interpreters: 'For interpreters'
+    for_affiliates: "For affiliates"
+    service_types: "Types of Interpretation services"
+    help: 'Help'
+    support: 'Support 24/7'
+    terms: 'Terms and Conditions'
+    privacy_policy: 'Privacy policy'
+    about: 'About company'
+    calls: "Calls with interpreters"
+  info_page:
+    title: "About interpreters.travel"
+    site_description: "—  is an easy, safe and reliable service which allows finding quickly a suitable interpreter and ordering interpretation services worldwide directly on the web site or by means of a mobile device."
+    main_content: "Whatever event is scheduled - a business meeting with foreign partners or a tourist excursion, a visit to an industry exhibition, a seminar or a consultation in a foreign clinic, you will have no trouble  finding an interpreter to match your case and your budget in more than %{cities} and %{countries} worldwide."
+  for_phone_page:
+    title: 'International calls with interpreters'
+    keywords: "phone interpretation, phone interpreter, telephone interpretation , telephone interpreters, over the phone interpreters, interpreting , interpretation, interpretation service, remote interpreting, international calls, international calls, on-demand interpretation services"
+    welcome: "interpreters.travel is a provider of international calls with interpreters and phone interpretation services."
+    ul:
+      li_1: 'Thousands of professional interpreters'
+      li_2: 'Fluent in 180+ languages'
+      li_3: 'Availability 24 / 7 / 365'
+      li_4: 'No phone connection fees, worldwide calls'
+      li_5: 'Choose interpreters basing on their prices and rating'
+    how_to_start:
+      title: "How to use this service"
+      text: "Create an account or %{signin_link}. Connect with an interpreter and add any phone number to the conversation or get help directly from the interpreter."
+      signin_link: "log in"
+    begin_guide: |
+      Начните использовать interpreters.travel/phone<br>
+      Создайте аккаунт — и уже через несколько минут Вы сможете звонить с переводчиками на мобильные и стационарные телефоны в любую страну мира. Или получить помощь переводчика по телефону.
+    begin_steps:
+      one: 'Зарегистрируйте аккаунт или %{sign_in_link}'
+      two: 'Укажите данные профиля'
+      three: 'Выберите переводчика и позвоните с ним на любой номер телефона. Или получите помощь переводчика по телефону'
+      sign_in: войдите
+    form:
+      name: Name
+      surname: Surname
+      email: Email
+      city: City
+      phone: Phone
+      password: Password
+  for_clients_page:
+    title: 'For clients'
+    quote: "«Interpreters.travel is an online service which allows finding professional interpreters easily and quickly and ordering interpretation services in many cities and countries worldwide!»"
+    quote_author: "Oleg Kovalyov, Kazan."
+    client_reviews: "Client reviews"
+    description: "Searching for an interpreter and ordering interpretation services  is not any more difficult than booking a hotel room or a plane ticket. Whether you plan a"
+    link1:
+      text: 'business meeting'
+      after_text:  "with foreign partners or a"
+    link2:
+      text: 'tourist excursion'
+      after_text: ", a visit to an"
+    link3:
+      text: 'industry exhibition, a seminar'
+      after_text:  "or a"
+    link4:
+      text: 'consultation in a foreign clinic, '
+      after_text:  "you will have no trouble finding an interpreter to match your case and your budget."
+    steps:
+      title: "How it works"
+      step1: |
+        <b>You choose an interpreter and place your order.</b>
+        <br/>
+        You choose a suitable interpreter in the city of your choosing, for example, for negotiations with foreign partners. Using a credit card, place an  order for the desirable date.
+      step2: |
+        <b> You receive an email with your order Voucher. </b>
+        <br/>
+        You receive a Voucher with details of the order and the interpreter’s contact details. If necessary, you can discuss meeting details with the interpreter by phone or email (the subject, participants or other details relevant to the meeting)
+      step3: |
+        <b>You have a meeting with foreign partners, and the interpreter provides the interpreting.</b>
+        <br>
+        You meet with the interpreter at  the location you specified and  you go to the  meeting together. Make sure that your negotiations with your foreign partners go swimmingly, with the interpreter helping you to find a common language with ease.
+    why_inter:
+      title: "Why interpreters.travel?"
+      block1:
+        title: "Easy to search, convenient to order"
+        text:  "Easy interpreters search and order of interpretation services. FREE order cancellation."
+      block2:
+        title: "Cost-effective"
+        text: "All orders are at the interpreters' prices without agent’s markups. Discounts are included in order calculations. No additional commissions and payments."
+      block3:
+        title: "Wide choice"
+        text: "Interpreters in %{cities}, %{countries} worldwide"
+      block4:
+        title: "Safe"
+        text: "Guarantee of safety of payments. Data security is ensured by the SSL protocol."
+      block5:
+        title: "Interpreter replacement"
+        text: "If the interpreter cannot arrive at a meeting due to a contingency, we will quickly replace the interpreter."
+      block6:
+        title: "Convenient payment"
+        text: "Payment by one of the ways most convenient to you: VISA, MasterCard, bank transfer or a cash payment."
+      block8:
+        title: "Support 24/7"
+        text: "You get support at any time wherever you are"
+  for_interpreters_page:
+    title: "For interpreters"
+    signup_link: "Go to sign up"
+    quote: "«Interpreters.travel is a convenient and safe site for obtaining new orders for interpretation services. Easy in use functions  allow to adjust  service flexibly to my employment and receive orders only for that time which is convenient to me. Even having only several free hours in the working calendar, I receive orders at interpreters.travel and I use my working time most profitably»"
+    quote_author: "Elena Wright, interpreter. London."
+    interpreter_reviews: "Interpreter reviews"
+    block1:
+      title: "How does it work?"
+      step1: "You specify services, conditions, prices and desirable work time in a profile on the website"
+      step2: "Your services are considered in requests of clients and new orders are sent to you"
+      step3: "You provide interpretation at a meeting of the client, according to order parameters"
+      step4: "You receive payment for the order by cash at the meeting or by a wire transfer"
+    block2:
+      title: "How much does it cost?"
+      text: "Placing information on the website <strong>is absolutely free for you!</strong> Only from real orders there is the commission in favor of Interpreters.travel, which size you choose at your own discretion."
+    why_inter:
+      title: "Why interpreters.travel?"
+      block1:
+        title: "Calendar"
+        text: "You operate your working calendar and receive orders only for time convenient to you"
+      block2:
+        title: "Flexible prices"
+        text: "You set the price depending on type of service and order volume"
+      block3:
+        title: "Free placement"
+        text: "You  place information on your services for any time free of charge"
+      block4:
+        title: "Google & Yahoo & Yandex"
+        text: "Thousands of new visitors of the website see your services  because we work directly with Google, Yahoo and Yandex"
+      block5:
+        title: "Payment methods"
+        text: "You receive payment by one of the ways most convenient to you: VISA, MasterCard, PayPal, bank transfer, cash"
+      block6:
+        title: "SMS-notifications"
+        text: "You receive instant notices about orders directly on your phone during working hours"
+      block7:
+        title: "Your protection"
+        text: "You are guaranteed to receive payment for time spent even if the client doesn't come to a meeting or is late."
+      block8:
+        title: "Payment operations"
+        text: "You receive payment in time, Interpreters.travel takes care of it and assumes all monetary operations"
+      block9:
+        title: "Safety certificate SSL"
+        text: "Your data are protected by the safety protocol of SSL connection"
+      block10:
+        title: "iMac/iPad/iPhone"
+        text: "You operate services from the computer or mobile device"
+      block11:
+        title: "Support 24/7"
+        text: "You get support at any time wherever you are"
+      block12:
+        title: "Reviews"
+        text: "You receive reviews of satisfied clients"
+    block3:
+      title: "How to start work?"
+      step1: "Step 1. Sign up on the website"
+      step2: "Step 2. Specify personal information in the questionnaire"
+      step3: "Step 3. Create and publish interpretation services on the website"
+    after_reg:
+      text: "Before work with interpreters.travel log in to your account and specify personal information in the questionnaire. After questionnaire is processed, you will be able to publish the ad with your services, conditions, prices and adjust a calendar of time convenient for orders. From this moment your profile and services become available on the website."
+      link: "log in and fill questionnaire"
+    form:
+      name: "Name:"
+      surname: "Surname:"
+      email: 'Email:'
+      phone: 'Mobile phone:'
+      russian: "Я говорю по-русски"
+      city: 'Your city:'
+      submit: 'Sign up'
+  for_affiliates_page:
+    title: "For affiliates"
+    page_title: "Interpreters.travel Affiliate Program"
+    signup_link: "Go to sign up"
+    login: "Log in"
+    description: "Do you have a web portal about international trade fairs, international exhibitions, events, seminars, conferences, medical clinics? Or maybe a website/blog about business trips? With interpreters.travel you can improve your clients' experience by giving them a great possibility to order interpretation services directly from your website and even earn money for each order they place."
+    block1:
+      title: "How does it work?"
+      step1: "You use a direct link or a simple search form to integrate our searches within your website."
+      step2: "Any website user interested in interpretation services can find a suitable interpreter and place an order."
+      step3: "You receive 5% payment for each successfully completed order."
+    block2:
+      title: "How my links are tracked?"
+      text: "All Affiliate Links contain an unique Affiliate ID. When a visitor clicks on your Affiliate Link or uses search form, the Affiliate marker is stored in their browser's cookie. This cookie is actvive for up to 90 days (3 months). When client places an order, we use the Affiliate ID in this cookie to check that the purchase was made using an Affiliate Link and attribute the revenue to you."
+    block3:
+      title: "Which statistics are available?"
+      text: "As an Affiliate you can check statistics using your account on our site. Information provided includes searches, clicks, bookings and amount earned."
+    block4:
+      title: "How do I get started?"
+      step1: "Step 1. Sign up on the website"
+      step2: "Step 2. Specify partner information in the short questionnaire"
+      step3: "Step 3. Copy HTML code to add a search form or a text link to your website."
+    after_reg:
+      text: "Before work with interpreters.travel log in to your account and specify partner information in the questionnaire. Copy HTML code to add a search form or a text link to your website. From this moment all searches and orders from your clients will be displayed in the statistics."
+      link: "log in and fill questionnaire"
+    form:
+      name: "Name:"
+      surname: "Surname:"
+      email: 'Email:'
+      phone: 'Mobile phone:'
+      city: 'Your city:'
+      submit: 'Sign up'
+  service_pages:
+    conversation:
+      title: "Interpretation at negotiations"
+      text: |
+        <p>Important negotiations with the foreign business partner are coming, and the qualified interpreter is necessary, because not all staff of your company who will participate in negotiations, are fluent speakers of the corresponding foreign language. The success of the forthcoming negotiations can depend on a right choice of the interpreter and accuracy of the interpretation.</p>
+        <p>While choosing the interpreter it is important to consider type of the forthcoming negotiations as well as additional knowledge and skills which can be necessary for the interpreter. For Interpreter could render the service successfully, it is better to clue the interpreter in advance by telling him the theme of negotiations and providing with available materials for preparation. It is preferable for the Interpreter to have experience of participation in such negotiations or have enough time for preparation. Both are even better.</p>
+        <p>
+          <b>There are different kinds of negotiations:</b>
+        </p>
+        <ul>
+          <li>preliminary negotiations with discussion of possible joint projects or offer of any products or services;</li>
+          <li>negotiations with signing of documents (protocol of intentions, cooperation agreement, etc.);</li>
+          <li>work negotiations with discussion of joint projects implementation progress;</li>
+          <li>negotiations with the purpose of prejudicial settlement of arisen disputes and mutual claims.</li>
+        </ul>
+        <p>
+          <b>Duration of negotiations can be different:</b>
+        </p>
+        <ul>
+          <li>short negotiations lasting from 30 minutes to 1-2 hours</li>
+          <li>long negotiations lasting from one to several days</li>
+          <p>
+            <b>Place of negotiations can be different:</b>
+          </p>
+          <li>at one of negotiation parties office;</li>
+          <li>in hotel or airport;</li>
+          <li>in conference or forum lobby.</li>
+        </ul>
+        <p>
+          <b>Negotiations can also differ in country they are held in:</b>
+        </p>
+        <ul>
+          <li>negotiations within the country when your company acts as a host;</li>
+          <li>negotiations during abroad trip of your delegation.</li>
+        </ul>
+        <p>
+          Interpretation at all stated kinds of negotiations has its peculiarities. But from the point of view of ensuring interpretation quality, the way the process is organized is essential. Consecutive (sentence-for-sentence) interpretation is usually applied at negotiations.
+        </p>
+        <p>
+          It is connected with the fact that:
+          <ul>
+            <li>not all even skilled interpreters have skills of professional simultaneous interpretation;</li>
+            <li>for simultaneous interpretation it is necessary to think of the corresponding stationary or portable equipment in advance;</li>
+            <li>business negotiations are often held in private, and in this situation consecutive interpretation encourages the atmosphere of direct communication between participants of negotiations better.</li>
+          </ul>
+        </p>
+    exhibition:
+      title: "Interpretation at an exhibition"
+      text: |
+        <p>You fly to a foreign exhibition as a specialist-visitor and you want to use services of the local interpreter.</p>
+        <p>Trip to the international specialized exhibition abroad is always a special event. To make exhibition visit most effective, it is important to break a language barrier, to find a common language for business communication. Skilled interpreter will help you to do it. Interpretation at an exhibition has certain peculiarities and isn't similar to any other type of interpretation; therefore to escort individual expert or a  group of experts during exhibition visit, it is better to find the interpreter, who has:</p>
+        <ul>
+          <li>knowledge of the corresponding terminology in two languages;</li>
+          <li>good skills of oral bilingual interpretation;</li>
+          <li>loud voice and clear articulation;</li>
+          <li>ability to grasp and interpret the main thing, despite the mass of distracting and stirring factors;</li>
+          <li>ability to adapt quickly in unusual situation;</li>
+          <li>skill to communicate and ability to attach unknown interlocutor;</li>
+          <li>increased mobility and physical endurance.</li>
+        </ul>
+        <p>Knowing not one, but several foreign languages will be additional plus for the interpreter. Let’s say, not only German, but also English if it is a question of exhibition visit in Germany. After all among participants of an exhibition there can appear those who know German not well.</p>
+        <p>Interpretation at an exhibition is a public type of interpretation therefore appearance of the interpreter can play an important role.</p>
+        <p>In practice it is quite often when one interpreter is ordered for all the time of stay in the country. As a rule, any skilled professional interpreter is able to provide the interpretation of business visits and meetings out of an exhibition, besides the interpretation at an exhibition, as well as the interpretation of the cultural program. The main thing is to discuss it with the interpreter in advance so that he could prepare, set himself up and rate his strength correctly.</p>
+        <p>Another thing is when you participate in an exhibition abroad, you have the stand organized and you need 1-2 local interpreters for the employees working at the stand.</p>
+        <p>During the work at the exhibition stand, discipline, skill to communicate, physical endurance is required from the interpreter besides purely interpretation skills. During the whole period of exhibition work, Interpreter has to be even-tempered and friendly, readily help to overcome language barrier in communication between stand-assistants and visitors of the stand, as well as between administration of an exhibition and the stand personnel.</p>
+        <p>
+          It is desirable to provide the interpreter (or interpreters) with advertizing and information materials which are supposed to be used and discussed during an exhibition in advance so that he could prepare, specify the interpretation of necessary terminology. The interpretation will be more successful if from the very beginning you make interpreter’s duties clear and, if possible, inform him about time of the most important business meetings and presentations which are planned at the stand in advance.
+        </p>
+    seminar:
+      title: "Interpretation at a seminar or conference"
+      text: |
+        <p>
+          You are going to participate in a seminar or conference abroad. And working language of conference, let us say, English, German or French. And you don't know any of them well enough  to do without interpretation service.
+        </p>
+        <p>
+          <b>First variant:</b>
+          you fly to a seminar or conference as audience, and you need interpreter. You aren’t going to make report from a tribune and throughout all the conference you sit and listen in a hall, so the invited  interpreter will interpret only for you (unless you wish to ask a question or make a small remark from your place).
+        </p>
+        <p>
+          Not to disturb other participants of a seminar or conference, Interpreter will whisper the translation quietly in your ear.It is a certain kind of whisper interpreting.
+        </p>
+        <p>
+          <b>Second variant:</b>
+          you fly to a seminar or conference as one of speakers who have some time for report.
+        </p>
+        <p>
+          The invited interpreter, as in the first variant, most part of a seminar or conference will whisper the translation quietly in your ear.
+        </p>
+        <p>
+          But in this case the most responsible moment is the interpretation of your speech for all the audience in the hall. Depending on the size of the room, acoustics and number of participants, it can be performance from a tribune with use of a microphone or simply loud voice without any technical means.
+        </p>
+        <p>
+          During the interpretation the interpreter usually stands near for not only to hear each word told by you well, but also to have an opportunity to ask something again if necessary. It is ideal when there are microphones. Even if the room is not very big. Then neither you, nor the interpreter should force your voice. And audience will hear everything equally well even in the last row.
+        </p>
+        <p>
+          Strong consecutive interpreter will be suitable for the successful interpretation of a seminar or conference. Weaker and less skilled interpreter will need much more time for interpretation. And time at conferences is usually not enough.
+        </p>
+        <p>
+          It will be very difficult for simultaneous interpreter who seldom uses consecutive interpretation to memorise and interpret big extracts from memory.
+        </p>
+        <p>
+          Anyway, successful interpretation at the seminar or conference, especially on any highly specialized subjects, is, as a rule, impossible without good knowledge of the corresponding subject and terms in two languages. If the subject is unfamiliar for the interpreter, he will need more days to get ready.
+        </p>
+        <p>
+          Appearance of the interpreter is also very important when interpretation is made from tribune. Here is much in common with Interpretation of presentations.
+        </p>
+    presentation:
+      title: "Interpretation at presentation"
+      text: |
+        <p>
+          You fly to the city abroad to presentation, for example, of new equipment as ordinary participant and auditor and you need the interpreter.
+        </p>
+        <p>
+          In this case interpretation differs little from interpretation at any other mass event (conference, meeting, round table). You need strong interpreter able to adapt quickly to unusual situation and, certainly, understanding and having experience of interpretation in that field of knowledge, which the presentation subject belongs to.
+        </p>
+        <p>
+          Conditions and interpretation quality will depend on your status at this presentation and correspondingly the place you will watch the presentation from. If you are one of special guests and sit in presidium, it is one situation. If you are ordinary visitor and sit somewhere in a hall rather far from the stage, it is another situation. It is difficult to provide ideal interpretation without special equipment. Therefore interpretation by whisper will be the most suitable variant, i.e. the interpreter whisper to you in your ear. That’s why it is very important to choose such a place, where you can hear everything well and at the same time the interpretation would not disturbs other participants of presentation.
+        </p>
+        <p>
+          If you act as organizer and the main speaker and you plan to hold presentation of your new product or service for potential foreign partners (no matter in your country or abroad), depending on the venue, number of participants and technical equipment available at presentation, consecutive or simultaneous interpretation can be applied
+        </p>
+        <p>
+          Consecutive interpretation is more often at presentation with a small number of participants and one pair of working languages.
+        </p>
+        <p>
+          Simultaneous interpretation will be more suitable for official long presentations with a large number of participants and necessity to provide interpretation into several languages at once (for example, not only into English, but also into German or Chinese).
+        </p>
+        <p>
+          Unlike other kinds of consecutive interpretation, at  presentations  special attention is paid to appearance, official style of clothes and adequate gestures of the interpreter, and sometimes even to such factors, as age and sex of the interpreter. Eventually, you are to choose, which interpreter will suit you best for interpretation at presentation.
+        </p>
+        <p>
+          Clarity of presenting, exact interpretation of terms, correctly placed accents are very important for interpretation of presentations. Therefore it is desirable for interpreter not only to know the subject well, but also to have the opportunity to see the full text of presentation several days before its start.
+        </p>
+        <p>
+          Interpreter should have clear articulation and loud voice to provide high-quality interpretation at presentations. Anyway, additional microphones for interpreter and for questions from the audience will help to make presentation more effective and  to facilitate perception of the interpretation even in the small room. It is better to think about them in advance.
+        </p>
+    clinic:
+      title: "Interpretation of a consultation in a clinic"
+      text: |
+        <p>You go to foreign clinic for consultation or treatment, and you need local interpreter good at medicine.</p>
+        <p>Medical interpretation is one of the most difficult types of interpretation. In this case it is always very important to  interpret the diagnosis exactly, as well as medical appointments and recommendations. The interpreter who confuses liver and spleen, won't suit you.</p>
+        <p>To get competent interpretation at a visit of foreign clinic or at consultation with foreign doctor, as a rule, you need medical interpreter not just of general profile, but the interpreter with knowledge of certain area of medicine  which the disease belongs to. The interpreter who  copes successfully with interpretation on all-medical subjects, will not always  be able to interprets consultation on urology or gynecology the same successfully . It is necessary to mention stomatology among the sections of medicine that are most difficult for interpretation . Anyway while choosing the interpreter for visit of medical institutions abroad, it is necessary to consider how detailed the consultation will be; whether subtleties of medical diagnosis and methods of treatment will be discussed or you are going to discuss only some general questions, for example, possibility of hospitalization.</p>
+        <p>If you have some written extracts and  conclusions concerning planned consultation in hand, it is better to translate them  into corresponding language in written form in advance   and, certainly, to give the interpreter  chance to see originals and the translations. If, for any reason, translation  wasn't made, the interpreter will have to translate these medical documents at a consultation at sight,  it can be extremely difficult and won't allow you to get desirable result from consultation.</p>
+        <p>Interpreter’s ability to understand accompanying financial documentation is not less important aspect, than correct interpretation of medical terminology. Quite often the patient finds out very late about the real cost of hospital treatment received by him abroad.</p>
+    celebration:
+      title: "Interpretation at celebrations"
+      text: |
+        <p>
+          You fly to the city abroad to celebrations or business partners’, friends’, etc. festive event  - and you need local interpreter who will help you to participate in planned celebration.
+        </p>
+        <p>
+          Such events, where you need help of personal interpreter, can be very different: City Day, company anniversary, corporate party, New year, wedding, etc. Type of interpreting and corresponding skills, necessary for the interpreter, will differ a little depending on format and venue of festive event or celebration (company office, theater, restaurant, recreation area), number of invited guests, level of officiality and your role at the event, whether you present as ordinary participant or as one of special guests.
+        </p>
+        <p>
+          At escorting and interpreting at festive event, besides brisk and live interpretation, not of less importance is  interpreter’s skill to communicate, ability to behave in official situation, smartness, presentable appearance, moderate use of alcoholic beverages.
+        </p>
+        <p>
+          From purely interpretation skills, ability to interpret solemn speeches, jokes and anecdotes, knowledge of everyday language, proverbs and sayings can be useful.
+        </p>
+        <p>
+          If you are going to make a long official speech at the event, it is desirable  to give the full text to the interpreter in advance (in 1-2 days), for information and preparation. And it is even better to take care of translating the text of your speech into a foreign language.
+        </p>
+        <p>
+          If you don’t have prepared text of your speech, if possible, try to let the interpreter know what you are going to speak about, and discuss those words and expressions which can cause additional difficulty during spontaneous interpretation. While choosing the interpreter, from the very beginning it is desirable to find out  whether he happened to interpret at such events before, as well as to discuss with interpreter the  program planned and the part which he will have in it.
+        </p>
+    guide:
+      title: "Interpretation of excursions, tour guide services"
+      text: |
+        <p>
+          You plan a trip to the city abroad and you want to find local guide-interpreter who would arrange you a tour in English around local attractions. What requirements should be imposed to such guide?
+        </p>
+        <p>
+          First of all, it is desirable for such guide-interpreter to know English well as native or as main foreign language. Fortunately, in many foreign countries English is either the main or one of the main languages.
+        </p>
+        <p>
+          Especially, if it is a question of some famous city or large tourist center. Secondly, it is desirable that he had experience of conducting excursions in English on subject that is interesting  for you.
+        </p>
+        <p>
+          A lot of things depend on, whether we speak about usual sightseeing tour around local sights, or you wish to order some special theme excursion: for example, to musical or literary places.
+        </p>
+        <p>Anyway, it is  better to discuss all your wishes in advance, including duration of excursion and how profound it has to be.</p>
+        <p>There can be another situation. You fly to the city abroad, and you would like to visit tour which is conducted in the language you don't know. That’s why you need local interpreter for interpretation of the tour guide.</p>
+        <p>As for organization, when such excursion are conducted for one person or for small group of tourists, the most different variants are possible, depending on the country and local traditions and customs.</p>
+        <p>On the one hand, for the guide, who conducts this tour, presence of interpreter will be a stirring factor. On the other hand, it will be additional opportunity to take rest while the interpreter speaks.</p>
+        <p>But not all guides are used to work together with interpreter.</p>
+        <p>
+          As for interpreter, in this case he doesn’t need to know all details. The main thing for him is to interpret accurately everything tour guide will tell into your language, without distortions and with minimum admissions.
+        </p>
+        <p>
+          Besides, it is necessary to consider the fact that because of time spent for the interpretation (including inevitable questions and specifications), duration of excursion can increase from one and a half to two times. And if time, allowed for excursion, is fixed, the tour guide will tell you one and a half-two times less useful information. Even if he is interpreted by superinterpreter
+        </p>
+    delegations:
+      title: "Escort of delegations"
+      text: |
+        <p>
+          You fly with partners or colleagues to the city abroad, and you need local interpreter to accompany you all over the route, starting from hotel or directly from airport of destination.
+        </p>
+        <p>
+          When delegation goes abroad, the choice of the interpreter in many aspects depends on type and delegation structure,  planned program and purposes of visit.
+        </p>
+        <p>
+          Anyway it is  supposed that the interpreter  has already had experience of successful business interpreting for delegations of such kind. Strong interpreter of general profile who knows well main subjects, which are planned to be discussed during the trip, as well as local realities will be the best for this role.
+        </p>
+        <p>
+          It does not necessarily have to be the simultaneous interpreter, because here consecutive interpreting is needed.
+        </p>
+        <p>
+          Interpretation for delegation is especially responsible. The interpreter will not only interpret but also stay almost constantly with delegation during all the time of its stay in the country. That’s why not the last role is played by good physical form and readiness to work for 15-16 hours per day.
+        </p>
+        <p>
+          The best for this role is active and sociable person of young or middle age who, besides interpreting at official meetings and visits, will always willingly  help not only to the head of delegation, but also to any other member, to solve some questions with hotel, etc., which are out of the official program.
+        </p>
+        <p>
+          In a word, you are to choose! Choose the interpreter  who you will feel most comfortable with during a foreign trip.
+        </p>
+    individuals:
+      title: "Escort of individuals"
+      text: |
+        <p>
+          You fly to a city abroad, and you need local interpreter for accompanying you all over the route, starting from the airport or hotel.
+        </p>
+        <p>
+          Of course, a lot of things depend on duration, program and purposes of visit. As it will be escort of individual, besides interpretation qualification, personal compatibility between individual business tourist and the interpreter accompanying you is very important.
+        </p>
+        <p>
+          To choose the interpreter, a lot of things depend on the program planned. To what extent this interpreter will suit you at private foreign trip is possible to see according to CV, in particular, by the themes of interpreting specified by the interpreter. In certain cases additional specifying questions can be necessary.
+        </p>
+        <p>
+          If you are going to visit shops, restaurants, beaches, beauty salons or other places for rest and entertainment, the interpreter has to be sociable party-goer who knows shops, restaurants, and other haunts of vice well. Usually guide-interpreters know them well as they initially specialize on showing guests the places which should be visited by all means. If you are going to visit sports constructions or a hippodrome, you’d better choose the interpreter who is interested in the same sports, as you, and is able to give some additional information besides the interpretation. If the interpreter specified in the CV that he interprets "Sports", probably, he is just theinterpreter you need. But it is always better to check.
+        </p>
+        <p>
+          If you are going to visit shops, restaurants, beaches, beauty salons or other places for rest and entertainment, the interpreter has to be sociable party-goer who knows shops, restaurants, and other haunts of vice well. Usually guide-interpreters know them well as they initially specialize on showing guests the places which should be visited by all means. If you are going to visit sports constructions or a hippodrome, you’d better choose the interpreter who is interested in the same sports, as you, and is able to give some additional information besides the interpretation. If the interpreter specified in the CV that he interprets "Sports", probably, he is just theinterpreter you need. But it is always better to check.
+        </p>
+        <p>
+          If your individual program includes generally visiting of the museums, it is better to choose the interpreter who is interested in history, art, technics and is able to act not only as ordinary interpreter, but also as the guide to the most interesting noteworthy places. The local guide-interpreter or the interpreter who has specified "Art" as one of subjects for interpretation will suit you best for such a trip.
+        </p>
+        <p>
+          Anyway, it is important to decide and discuss with the interpreter the schedule of his work in advance: whether he has to accompany you 24 hours a day minus time for sleep and rest or you plan to use interpretation service only occasionally  for several hours a day (for example, for the interpretation of important business meetings or excursions to noteworthy places).
+        </p>
+    phone_talking:
+      title: "Interpretation of a phone conversation"
+      text: |
+        <p>
+          As means of communication are improving  and communication lines’ quality gets higher, interpretation by phone becomes more and more demanded interpretation service.
+        </p>
+        <p>
+          Let's say you go to a foreign city, and you are to have a phone conversation (for example, from hotel, meeting room of business center, cafe, etc.). And you need the local interpreter.
+        </p>
+        <p>
+          What is necessary to consider while choosing the interpreter for  phone talk interpretation? First of all, modern means of communication allow us to make a remote telephone interpretation. For this purpose it is possible to use teleconference mode with simultaneous dialing of several subscribers to certain number. In this case all three (the subscriber 1, the subscriber 2 and the interpreter) can be in three different places. The total cost of communication services for such remote negotiations lasting one hour can be rather high.
+        </p>
+        <p>
+          Another variant - usual Hands free on any stationary modern telephone set, modern mobile phone or smartphone. In this case, the interpreter is near you, interprets in turn to both parties, if necessary asks again, etc. The main requirements to the interpreter at interpretation of a phone conversation:
+        </p>
+        <ul>
+          <li>
+            understanding of the subject and knowledge of the corresponding terminology; ability to perceive foreign speech well;
+          </li>
+          <li>
+            ability  to interpret quickly to both parties (preferably in simple and clear phrases);
+          </li>
+          <li>clear articulation and good pronunciation in a foreign language.</li>
+        </ul>
+        <p>
+          For the interpretation of a phone conversation both simultaneous, and consecutive interpreter will be good. Everything depends on a certain situation and on the way how to organize interpretation process. It is desirable to discuss with the interpreter in advance what and how he has to interpret, tell him subject and purpose of phone call. It will allow him to interpret with more sense.
+        </p>
+        <p>
+          Anyway it is necessary to approach seriously to choosing interpreter for a phone talk interpretation. He has to be strong interpreter able to understand and interpret correctly what was told on the other end of the line, even in conditions of poor audibility or by sentence fragments.
+        </p>
+        <p>
+          When interpreter is asked to arrive specially in due time to office, hotel or business center for interpreting of phone conversation, it is necessary to consider that the called subscriber can be out (he can be at an urgent meeting, etc.). In this case planned telephone negotiations won't take place. In order to avoid similar problems it is desirable to coordinate  with the subscriber in advance time of a call and approximate duration of conversation. Also it is necessary to consider that in case of not simultaneous, but consecutive interpretation, you will need more time.
+        </p>
+    interview:
+      title: "Interview interpretation"
+      text: |
+        <p>
+          You fly to the city abroad, and you have an interview to mass media in the visit schedule: you can’t cope without the qualified interpreter.
+        </p>
+        <p>
+          A lot of things depend on how interview is organized. Different variants are possible:
+        </p>
+        <p>
+          <strong>1.</strong>
+          The interpreter interprets immediately not only questions, which you are asked, but also your answers . The interviewer records all this on a dictophone and after some time full or reduced variant goes to air.
+        </p>
+        <p>
+          In this case greater demand is made on interpreter’s qualification. At a certain extent it is even more difficult, than simultaneous interpretation. Consecutive interpreter of the high qualification, who is able to remember big pieces of the text and, preferably knows a method of interpreter’s shorthand, will cope with the interview interpretation most successfully.
+        </p>
+        <p>
+          It will be slightly more difficult for simultaneous interpreter as he should interpret consecutively. And not all simultaneous interpreters are able to do it.
+        </p>
+        <p>
+          <strong>2.</strong>
+          Interview goes on the air or (that’s almost same) records at once for air. In this case there are a lot of restrictions for the interpreter complicating his difficult work. Interviewers will tell the interpreter where he has to stand (to be or, on the contrary, not to be in a shot), at what time he can say interpreted text, with what loudness, etc.
+        </p>
+        <p>
+          <strong>3.</strong>
+          The simplest variant, but happening less often: the invited interpreter interprets you the questions. You answer separately each question. Questions together with your answers are recorded on a dictophone. And in several days interview shorthand report translated into foreign language as it is going to bepublished in foreign newspaper or magazineit is send to you for coordination. You order to this or other interpreter the return translation of the interview text  in English and, if necessary, you introduce corrections in it.
+        </p>
+        <p>
+          Anyway it is desirable to inform  the interpreter in advance what format an interview will be, so that he could gauge his strengths and opportunities. Certainly, in equal conditions, the preference should be given to the interpreter who  has already had experience of interview interpretation. Literary speech in foreign language, the clearness of a pronunciation and partly appearance of the interpreter are of great importance.
+        </p>
+        <p>
+          The interpretation of interview will be more successful if you show questions to interpreter in advance, as well as discuss correct translation of key concepts mentioned in interview, names of positions and organizations.
+        </p>
+    press_conference:
+      title: "Interpretation at press conferences"
+      text: |
+        <p>
+          You take part in press conference to answer questions of foreign journalists. Interpretation at press conferences – one of the most responsible and intensive types of interpretation which  demands great concentration and attentiveness from the interpreter.
+        </p>
+        <p>
+          The interpretation at press conferences has much in common with interview interpretation, but with difference that press conference takes place in more official atmosphere, and questions are asked not by one-two, but by a large number of representatives of mass media at once. And, unlike interview interpretation, questions are practically never  coordinated in advance with respondent and can be asked spontaneously by anyone who is present at press conference.
+        </p>
+        <p>
+          For interpetation at press conferences the skilled interpreter is usually invited, who has skills  of both consecutive and simultaneous interpretation. To only simultaneous interpreter it will be rather difficult to interpret from memory long and confused speeches during press conference.
+        </p>
+        <p>
+          The interpreter has to be trim, behave confidently, be very exact when interpreting. If he hasn't understood part of the answer, it is better to ask again once more, than fantasize and give out wrong interpretation.
+        </p>
+        <p>
+          It is desirable if possible,  to inform the interpreter in advance about subject of press conference and those questions which can be mentioned. Then the interpreter will be able to prepare better for the interpretation, and his interpretation will be more certain and qualitative. If there is a prepared text of communique or press release, it is desirable to show them to the interpreter before press conference. And it is even better – to charge beforehand the professional translator  to translate these texts in written form into foreign language. The written list of all participants of press conference in both languages will be big help for the interpreter.
+        </p>
+
+    protocol_translation:
+      title: "Protocol interpretation"
+      text: |
+        <p>
+          Diplomatic or protocol interpretation has much in common with interpretation at negotiations. With only difference that in this case meetings have more official, protocol character. Correspondingly, besides interpretation quality, observance and following a number of formal moments and rules, connected with diplomatic and business etiquette, including strict business suit, a tie, etc., by the interpreter is important.
+        </p>
+        <p>
+          The interpreter has no right to disclose any information of internal character which he finds out as a result of preparation and participation in such official meeting as the interpreter.
+        </p>
+        <p>
+          At protocol meetings seating chart, including place of the interpreter, is strictly regulated. Usually the interpreter sits on the right or on the left of the delegation head  who he came with. But there are exceptions.
+        </p>
+        <p>
+          It is important that at representation and during the meeting the interpreter  told all names, positions, titles and names of establishments correctly. In order to avoid unpleasant incidents it is better to instruct  the interpreter in advance, by providing him with information on names, positions and concepts which can cause additional difficulties for interpretation.
+        </p>
+        <p>
+          At the diplomatic or protocol interpretation when the head of delegation speaks, he is usually interpreted by "own" interpreter into a foreign language (for example, into Spanish or German). And when the head of foreign delegation takes the floor, he isalso  interpreted by "own" interpreter, usually into nonnative English.
+        </p>
+        <p>
+          It is considered that "own" interpreter knows a question matter in detail, possesses necessary background information and – the main thing! – won't allow ideological distortions when interprets his chief’s thoughts into a foreign language, will tell everything "as it is necessary". And small style abruptness isn't of great importance.
+        </p>
+        <p>
+          Besides it is always possible to hold own interpreter responsible for incorrect or incomplete interpretation. It is easier to correct him or even to give him a cue if he has difficulty with interpretation of some nuances. And it won't be breach of diplomatic protocol or business etiquette.
+        </p>
+
+    judicial_translation:
+      title: "Judicial interpretation"
+      text: |
+        <p>
+          Let's say you go to the city abroad at a court session as a claimant, respondent or representative  - and you need local judicial interpreter.
+        </p>
+        <p>
+          In many countries there is a special exclusive category of so-called "sworn interpreters". Sometimes they are called simply "judicial interpreters".
+        </p>
+        <p>
+          As a rule, the interpreter who is the employee of claimant’s or respondent’s company  has no right to act as interpreter at trial as in this case objectivity of interpretation can't be guaranteed.
+        </p>
+        <p>
+          If English-speaking tourist or businessman is detained as the individual for administrative offenses and furthermore on suspicion in commission of any criminal offenses on the territory, say, Germany or France, certainly, he won’t be engaged in search of the interpreter. It will be done by local police officers or judicial authorities. But if you act as a claimant or respondent at trial in arbitration court or at court hearing in a civil action, you can try to invite and offer court the candidate of the independent sworn interpreter of your choice. The right of court to accept or reject such interpreter.
+        </p>
+        <p>
+          For the successful interpretation at court, besides good skills of oral consecutive interpretation, the interpreter needs knowledge of legal language of that branch of the right which judicial proceedings belong to. For example, civil, commercial or marine law are very different areas with the specific terms and legal nuances. In equal conditions it is always better to choose the interpreter who  has already had experience of successful interpretation at similar trials.  First of all, interpreter’s absolute understanding of the language which legal proceedings are conducted in is important, as well as ability  to interpret quickly and correctly all questions, answers and legal statements of two parties. It is supposed that any certified "sworn interpreter" just by definition meets all these qualification requirements. But if in this certain country there is no legalized category of sworn or judicial interpreters, it is better to find out in advance, what formal requirements to interpreters are imposed by judicial authorities of this country to admit them to interpretation at judicial hearings, at poll of witnesses, etc.
+        </p>
+        <p>
+          Anyway, the first thing for the interpreter is to have document confirming his qualification (university diploma of interpreter or certificate on passing of corresponding exam) and - as the second important factor - (not for court, but for the customer of interpretation) if the interpreter has experience of professional interpretation at court.
+        </p>
+        <p>
+          Not depending on whether it will be official sworn interpreter or just strong interpreter who knows legal nuances, for successful interpretation at court it is desirable to acquaint the interpreter in advance at least in general with case papers and positions of the parties in judicial dispute.
+        </p>
+  help_page:
+    search:
+      title: "Find interpreter"
+      block0: 'Specify search parameters on the main page of the website. <br> In the field «WHERE» specify the city where you need the interpreter. By the first letters the system will prompt variants of possible cities.'
+      block1: |
+        Click the field «WHEN» and the window of date and time period choice will open.
+        <br>
+        Choose date when the interpreter is necessary, then specify time period for this day.  Add chosen date and time with the button “Add”.  You can specify several days or time periods.
+        <br>
+        Confirm the date and time choice with the button “Choose”.
+      block2: "In the field «WHAT LANGUAGE» specify the interpretation language you need from the list of languages which interpreters of the chosen city can speak."
+      block3: "After all parameters are set, click on the button SEARCH. Our search robot will immediately start processing your inquiry and in some seconds the page with search results will open."
+    filter:
+      title: 'Filtration and sorting of search results, choice of the interpreter'
+      block0: 'The list of results in the chosen city can reach up to several dozens of  interpreters’ proposals. You can choose the suitable interpreter from a list by means of filters. <br> You can filter out offers by price using the filter "Interpretation service price".'
+      block1: 'For a choice of interpreters according to  service you are interested in, choose one or several options in the filter "Interpretation services:". Only those who render chosen services will stay among interpreters.'
+      block2: 'Choose "Interpretation specialization" that is the most suitable for your case. Among possible interpreters there will only stay those who work in Interpretation specialization you need.'
+      block3: 'You can sort chosen variants of interpreters offered by system according to the main factor for you. If you are interested first of all in inexpensive offers of interpretation service, click on the  price sorting - offers with low price will be displayed first in the list. Click on the  price sorting once again and  the most expensive offers will be shown first. It will allow you to consider proposals of high quality interpreters whose price of services is, usually, higher. <br> Also you can sort offers taking into account level of interpreter’s summary or date of offer updating.'
+      block4: 'If you need, you can create new search of interpreters. To do this, change parameters in the search form on this page and click on "SEARCH". The system will offer new variants.'
+      block5: "To look through information of the chosen interpreter, details of his offer and interpretation services available for order, click on the interpreter's photo or name. The profile page of the chosen interpreter will open."
+    view:
+      title: "Viewing of interpreter’s information, service choice"
+      block0: "There is main description, pairs of interpretation languages and interpretation specialization of the interpreter on the viewing page. Information about Diplomas, Certificates, Experience, Recommendations and Events of the interpreter can be open in separate windows after clicking on these points."
+      block1: 'In the section "Similar interpreters" other interpreters in the chosen city are offered. You can have a look at information on any of them by clicking on photo or name.'
+      block2: 'Services available for order are specified at interpreters’ pages you are looking at. Choose service you are interested in by clicking “Order” opposite the corresponding service.'
+      block3: 'Right after a choice of interpretation service, the page of order registration will open.'
+    order:
+      title: "Order registration"
+      block0: "You have to examine parameters of order presented on the order registration page, before starting order registration."
+      block1: "If you are already registered on the website or made the order before, you can make the order quicker, filling in less number of fields. For this purpose authorize the account using login and password. If you are not registered, it’s not necessary to sign up, your account will be registered  automatically, just after order registration."
+      block2: |
+        To register order of the chosen service, fill in a form of order registration:
+        <br>
+        <strong> 1.</strong> Specify your data in the section "Information about the Customer of Services"
+      block3: '<strong> 2.</strong> Specify number of mobile phone for sending notices about the order. Pay attention that specified number is the main means of communication between you and the interpreter that’s why phone number needs to be specified with the international code in a format "+39... " (for Italian numbers). For example if your mobile phone number is 39023150000, it is necessary to specify +39023150000. To check correctness of the specified phone number, test code, which needs to be inserted in the appeared window, is sent to you.'
+      block4: '<strong>3.</strong> Specify the exact address of meeting with the interpreter, using the entry field of the address or using the map of the chosen city'
+      block5: "<strong> 4. </strong> You can specify information for the interpreter, which he can need for preparation: schedule of planned meeting, description of the main subjects for discussion at the meeting, etc. Also you can attach description file  or presentation which will be sent to the interpreter with rder notice."
+      block6: 'Confirm that you acknowledge and agree with Terms and conditions and сlick on "Choose payment method" to save order...'
+    payment:
+      title: "Methods of order payment"
+      block0: |
+        <p>After you have saved the order, choose method of order payment:</p>
+        <ul>
+          <li>Card;</li>
+          <li>Bank Transfer;</li>
+          <li>Cash;</li>
+        </ul>
+      block1: |
+        <br>
+        If you choose payment by card,  to complete registration  and pay the order, it is necessary to:
+        <br>
+        1. Specify card type:  VISA or Master Card
+        <br>
+        2. Enter card number (these are 16 figures on its face)
+        <br>
+        3. Specify expiration date of the card
+        <br>
+        4. Enter name and surname of the card holder as they are written on the card
+        <br>
+        5. Enter card safety code (CVC/CVV) – the additional three-digit code printed on back side of your card
+        <br>
+        6. Click on the button "Payment"
+      block2: |
+        <p>
+          Order registration and payment transfer will take about a minute.  Please, don't press the button of page refreshing and don't close browser window before procedure is completed.
+          <br/>
+          After order registration, the payment transfer, order cost sum will be blocked on your card. You will see the page with details of the order and its confirmation. Drawing of money from the card can happen immediately or in some days time depending on free order cancellation conditions.
+        </p>
+        <p>In a few minutes after payment making, letter with order details will come to your e-mail, and you will find the receipt on payment and order voucher in attached files. Order voucher is the document confirming registration and payment of the order for chosen interpretation service,  therefore we advise to print it or save on the mobile device which you will take on a trip.</p>
+        <p>
+          If you didn't receive the letter with voucher, receipt and confirmation of order registration, please, check Spam or Undesirable Mail folder. Because of mail sorting settings the letter can get there by mistake. If you can't find the letter, please, contact our free 24/7 support service.
+        </p>
+        <p>In case of order cancellation the sum will be returned to the same card by means of which it was paid. In certain cases, stipulated in advance, service has the right to hold part or an overall cost of the cancelled order. Terms and conditions of order cancellation are specified near price information, in a special column, as well as in General instructions for use of interpreters.travel service. Examine them before order registration.</p>
+      block3: 'If you want to pay the order by bank transfer, click on point "Invoice".'
+      block4: |
+        <p>
+          The payment bill  can be seen directly on this page.  After order registration, the bill will be sent  to your e-mail with confirmation of order registration.  It is possible to pay the bill by any means convenient for you:  by Internet bank system  or in bank offices.
+          <br/>
+          Payment needs to be made in time, specified in the bill, in order to avoid automatic order cancellation.  As money transfer from one account to another can take about three working days, we recommend you to make payment at least three working days before the expiration of the specified term.
+          <br/>
+          After having received money, we will send the letter to your e-mail, with order payment confirmation, receipt for order payment and order voucher. Order voucher is the document confirming registration and payment of the order for chosen interpretation service,  therefore we advise to print it or save on the mobile device which you will take on a trip.
+        </p>
+        <p>
+          If you didn't receive the letter with voucher, receipt and confirmation of order registration, please, check Spam or Undesirable Mail folder. Because of mail sorting settings the letter can get there by mistake. If you can't find the letter, please, contact our free 24/7 support service.
+        </p>
+        <p>In case of order cancellation the sum will be returned to the same account which it was paid from. In certain cases, stipulated in advance, service has the right to hold part or an overall cost of the cancelled order. Terms and conditions of order cancellation are specified near price information, in a special column, as well as in General instructions for use of interpreters.travel service. Examine them before order registration.</p>
+      block5: ""
+      block6: |
+        <p>You can pay an order directly to an interpreter, after executing of the order. Choose payment method "Cash" for this purpose. It is necessary to coordinate a currency of order payment with an interpreter in advance. At cash payment chose, value of order can change at depend on actual course operating at payment time.</p>
+    cabinet:
+      title: "Account"
+      block0: |
+        <p> You can see all orders and history of searches in your Account. To log in your Account, use login and password which was sent to email specified at registration procedure. </p>
+        <p> All your orders are reflected in the section "My Orders". it is possible to see any order by clicking on it, and the page of order viewing  will open. If the order isn’t fulfilled yet, you can cancel it by clicking on the button “Cancel Order”.</p>
+      block1: 'The history of all interpreters’ searches  is shown in the section "My Searches". It is possible to see any search by clicking on it, the page of search results with list of interpreters will open.'
+      block2: ''
+  support_page:
+    title: "Support 24/7"
+    header_text: |
+      <h2>We work for you. 24 hours a day, 7 days a week.</h2>
+      <p>You can contact our Support Service both as an interpreter and as a client. We are ready to help you at any time wherever you are.</p>
+    help_link: "Help section"
+    footer_text: |
+      <p>
+        If you have any questions about our services or need immediate assistance, please contact our support at
+        <strong>+357 22 008 050</strong>
+        (8:00 am - 12:00 pm, UTC+3)
+      </p>
+    login_to_call: "Log in to call for free without telephone connection"
+  terms_page:
+    title: "Terms and conditions"
+    text: |
+      <p>
+        The Interpreters.travel OÜ company (hereafter
+        <strong>«Interpreters.travel»</strong>
+        ,
+        <strong>«we»</strong>
+        ,
+        <strong>«us»</strong>
+        ,
+        <strong>to «us»</strong>
+        or
+        <strong>«our»</strong>
+        ), registered according to the Legislation of the Republic of Estonia, provides an online platform which connects consumer (hereafter
+        <strong>«Client»</strong>
+        )
+        of interpretation services (hereafter
+        <strong>«Services»</strong>
+        )
+        and interpreter (hereafter
+        <strong>«Interpreter»</strong>
+        )
+        and such Services are offered by ads of  Interpreter (hereafter
+        <strong>«Ads»</strong>
+        ) on the website
+        %{root_link}
+        (hereafter
+        <strong>the WebSite</strong>
+        ).
+      </p>
+      <p>
+        Using the Site, you agree to observe and be bounded by conditions and provisions of these terms and conditions (hereafter
+        <strong>«Terms and conditions»</strong>
+        ),
+        regardless of that you are registered user of WebSite or not. These Terms and conditions regulate your access and use of the WebSite and all content (hereafter
+        <strong>«Content»</strong>
+        ),
+        and are legally binding agreement between you and the Interpreters.travel company. Please, read attentively these Terms and conditions and our Privacy policy which can be found at the address:
+        %{privacy_policy_link}
+        and which is inseparable part of these Terms and conditions by means of the link.
+      </p>
+      <p>
+        You confirm and agree that getting access to or using the WebSite or loading or placing any Content from the WebSite or on the WebSite, you thereby declare that you have read, understood and agree to observe these Terms and conditions, regardless you are registered or not. If you don't agree with these Terms and conditions, you have no right to get access to or use the WebSite or Content.
+      </p>
+      <p>
+        If you accept or agree with these Terms and conditions on behalf of the company or other legal entity, you thereby declare and guarantee that you are entitled to bind such company or other legal entity with these Terms and conditions, and in that case the words "you" and "your" will refer to such company or other legal entity.
+      </p>
+      <p>
+        <strong>Key terms</strong>
+      </p>
+      <p>
+        <strong>«Interpreters.travel»</strong> - the Interpreters.travel OÜ company, information about which is provided on the page:
+        %{about_link}
+      </p>
+      <p>
+        <strong>«WebSite»</strong>
+        is an online platform by means of which Interpreters can publish Ads about interpretation Services and Clients can receive information about interpreters and their interpretation Services, order and get interpretation Services.
+      </p>
+      <p>
+        <strong>«Content»</strong>
+        means text, graphic elements, images, information and other materials, which the Interpreters.travel company provides through the Site, including any Content received under license from third party, as well as Content transferred to the Interpreters.travel company and published on the Website by Interpreters and Clients.
+      </p>
+      <p>
+        <strong>«Client»</strong>
+        means registered user who order and get interpretation Services through the WebSite.
+      </p>
+      <p>
+        <strong>«Interpreter»</strong>
+        means registered user who places the Ads through the WebSite and directly renders Interpretation services.
+      </p>
+      <p>
+        <strong>«Ads»</strong>
+        means information about interpretation Services which are offered through the WebSite, placed by Interpreter.
+      </p>
+      <p>
+        <strong>«The order voucher»</strong>
+        - the main document that confirms registration and order confirmation.
+      </p>
+      <p>
+        <strong>«Total cost»</strong>
+        -  price Client has to pay for interpretation Service, with discounts made by Interpreter and including additional fees and taxes if are applicable.
+      </p>
+      <p>
+        <strong>«Order»</strong>
+        means confirmation of the intention of the Client to use the Interpretation Service in a chosen city, specific time and date(s), confirmation of payment of the Total Cost and acceptance of the terms offered by the Interpreter in the Ad, and acceptance of these Terms and Conditions.
+      </p>
+      <p>
+        <strong>«Remote interpretation service»</strong>
+        means the use of the Interpretation Service under the conditions specified in the Interpreter's Ad, by means of a voice call of the Interpreter in the registered Account on the WebSite, as well as the Client's confirmation to pay the Total Cost of the Interpretation Service.
+      </p>
+      <p>
+        <strong>How the WebSite works</strong>
+      </p>
+      <p>
+        The WebSite can be used for publishing Ads about Interpreter Services or ordering and using Interpretation services. Such Services are specified by the Interpreter in Ads on the WebSite. You can see Ads as unregistered visitor of WebSite; however, if you want to order and get Interpretation service or to make Ads, you have to be registered and make an account on the WebSite (hereafter
+        <strong>«Account»</strong>
+        ) as it is described in the section "Account Registration" below.
+      </p>
+      <p>
+        As it is stated above, the Interpreters.travel company provides an online platform, as well as necessary technologies so that Clients can find the Interpreter of necessary language, in chosen city and order interpretation Services for desirable time, in specified place or to get Interpretation Services remotely. The Interpreters.travel company is not an Interpreter, authorized representative of Interpreter, the employer of Interpreters or interpretation agency which renders Interpretation Services and other services, specified in Ads. Responsibility of the Interpreters.travel company is limited to ensuring availability of the WebSite and performing as an agent with limited authority for each of Interpreters to receive payment from Client in favor of the Interpreter.
+      </p>
+      <p>
+        Pay attention that the Interpreters.travel company can't control and doesn't control the Content of each Ad, conditions, legality or compliance with any  Interpretation service. The Interpreters.travel company doesn't bear responsibility for Ads and Interpretation services and refuses to take any responsibility connected with Ads, Content of Interpreter and Interpretation services. Correspondingly, all procedures on the order of Interpretation services or remote Interpretation services will be carried out at Client’s risk.
+      </p>
+      <p>
+        <strong>Account registration</strong>
+      </p>
+      <p>
+        You can use certain functions of the WebSite - find Interpreter and look through Ads as unregistered user, however to order interpretation Services or get remote interpretation Services you have to sign up and become registered user. We provide the simplified procedure of registration at Interpretation services order placement. Registration and creation of Account are automatic at order placement.
+      </p>
+      <p>
+        If you want to sign up as Interpreter and publish  Ads of interpretation Services, first you have to apply for Account creation on the %{help_interpreter_link} page and then follow instructions in messages. We will create your Account and your profile page based on personal information you provided us with, for you to use the WebSite.
+      </p>
+      <p>
+        <strong>Ads publishing</strong>
+      </p>
+      <p>
+        All Ads about interpretation Services are published according to these Terms and conditions, as well as Terms for Interpreters (hereafter
+        <strong>«Terms for Interpreters»</strong>
+        ). Terms for Interpreters are published in "FAQ" section of Interpreter’s Account and are available to the Interpreter authorized in his/her Account on the WebSite by means of login and password.
+      </p>
+      <p>
+        You, being Interpreter who has registered Account and got access to Ads publication on the WebSite, confirm and agree that by getting access to Ads publication you thereby declare that you acknowledge and agree that you have  the right to publish Ads only after you have read and accepted Terms for Interpreters, as well as these Terms and conditions and Privacy policy. If you haven’t accepted Terms for Interpreters, these Terms and conditions and Privacy policy, in this case you have not right to publish Ads on the WebSite.
+      </p>
+      <p>
+        <strong>Placement of the order and terms of advance payment for Clients</strong>
+      </p>
+      <p>
+        As it is stated above, the WebSite is an online platform, as well as necessary technologies for search of Interpreter of the necessary language, in the chosen city, for searching of Interpreter, placement of interpretation Service order or using Remote interpretation services, WebSite functions and technologies for selection of suitable Interpreters, viewing their interpretation Services Ads and placing of interpretation Services order through a special form on the WebSite are used.
+      </p>
+      <p>
+        Concluding the deal with the Interpreter, placing the order for interpretation Service or using of Remote interpretation services, you acknowledge and agree that you will have to make the agreement with Interpreter. You confirm and agree that the Interpreters.travel company isn't one of the parties of such agreements and that, except for the payments stipulated in this document, the Interpreters.travel company doesn't share any responsibility coming as a result of similar agreements or connected with them. You confirm and agree that in spite of the fact that the Interpreters.travel company isn't one of the parties in agreement between you and Interpreter, the Interpreters.travel company acts as payment agent of Interpreter with limited purpose of receiving your payment on behalf of Interpreter. After receiving your payment in favor of the Interpreter by the Interpreters.travel company, your liabilities before Interpreter concerning this sum are satisfied, and the Interpreters.travel company bears responsibility for the transfer of this payment to Interpreter after interpretation Service order is fulfilled or after Remote interpretation service is completed. In case the Interpreters.travel company doesn't make a transfer of this payment to Interpreter, the Interpreter has the right to demand this payment only from the Interpreters.travel company. You agree to pay the Total cost of the order for the interpretation Services made through the Website to the Interpreters.travel company and the Interpreters.travel company, on behalf of the Interpreter, reserves the right:
+      </p>
+      <p>
+        <ul>
+          <li>
+            to get preliminary permission to withdraw money from your credit card in the amount of the Interpretation services total cost;
+          </li>
+          <li>
+            or to withdraw the nominal sum which doesn't exceed one euro (€1), from your credit card, to check authenticity of your credit card. After placing an order for the Interpretation Service or after using the Interpretation Service remotely the Interpreters.travel company will Total cost minus the nominal sum of the authenticity of your card withdrawn earlier for verification – in case of payment by credit card. Pay attention that the Interpreters.travel company can't control any charges which can be taken from the Client by his bank, connected with withdrawal of the Total cost by the Interpreters.travel company, and the Interpreters.travel company doesn’t bear any responsibility in this case. According to your order of Interpretation Services or using of the Interpreter Service remotely, you hereby give permission to withdraw such sums from a credit card through the independent payment processing company. If you go to the page of the independent payment processing company of the Interpreters.travel company, you can come under conditions and provisions that regulate use of such company’s services, as well as practice of personal information collecting. Examine conditions and provisions, as well as privacy policy before you start using services. <br/> After placing of Interpretation Service order or after getting of Remote interpretation service, you will be sent an e-mail message:
+            <li>
+              either with order information including  Interpreter’s contact details and the order Voucher if at the moment of order placement the condition of free order cancellation for the chosen interpretation Service doesn't work and the order is paid.
+            </li>
+            <li>
+              or at first with order information without Interpreter’s contact details if at the moment of order placement   the condition of free order cancellation for the chosen interpretation Service  works that is reflected in the Ad or if the order hasn't been paid yet, and then, after the period of free order cancellation is over and payment is received, order information with Interpreter’s  contact details and order Voucher.
+            </li>
+            <li>
+              or with information on the Remote interpretation service, payment information and a receipt for the Services payment.
+            </li>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <strong>Terms of cash payment of order to Interpreter</strong>
+      </p>
+      <p>
+        In case of order registration with cash payment directly to the Interpreter, the Client pays cash the order directly to the Interpreter. In this case the Interpreters.travel company does not act as the payment agent of Interpreter and does not bear responsibility for the payment of the executed order for interpretation Service to the Interpreter. In case the Client doesn't make payment of the executed order to the Interpreter, the Interpreter has the right to demand this payment only from the Client, but not from the Interpreters.travel company.
+      </p>
+      <p>
+        You confirm and agree that acting as the Client, placing the order for Interpretation Service through the Site and choosing an order payment method as cash directly to the Interpreter, you bear individual responsibility to pay to the Interpreter the Total cost of the executed order for interpretation Services in Currency of the interpreter and you bear responsibility for the payment of the executed order for interpretation Service to the Interpreter.
+      </p>
+      <p>
+        <strong>General terms of order cancellation and payment return<br/></strong>
+        Conditions and period of free order cancellation are defined by Interpreter and are specified in Ads and order. If you, being the Client, cancel the order for interpretation Service before the end of free order cancellation period, the Interpreters.travel company will return 100% of the order Total cost. If you want to cancel the order after the end of free order cancellation period but before the beginning of Service rendering, the Interpreters.travel company will return of the sum of the Total cost minus payment for 2 (two) hours of the Service specified in the order. In case when the total number of hours of the Order doesn't exceed 2 (two) hours, return of the Total cost isn't made. If you want to cancel the order after beginning of Service rendering, return of the Total cost isn't made. In case of Interpreter’s substitution when the order is cancelled because there is no Interpreter’s substitute or if such change isn't confirmed by the Client, the Interpreters.travel company will return 100% of order Total cost.
+      </p>
+      <p>
+        <strong>Cancellation of the order with cash payment to the Interpreter.</strong>
+      </p>
+      <p>
+        In case of registration of the order with cash payment directly to the Interpreter, cancellation ofter the end of free order cancellation period but before the beginning of Service rendering, obliges the Client to compensate the sum of payment for 2 (two) hours of the Service specified in the order. Cancellation of the order after the beginning of time of rendering Service, obliges the Client to compensate 100% of order Total cost. Cancellation of the order with cash payment directly to the Interpreter before the end of free order cancellation period completely exempts the Client from order payment.
+      </p>
+      <p>
+        In cases of Interpreter replacement when the order is cancelled because there is no Interpreter’s substitute or if such change isn't confirmed by the Client, the Interpreters.travel company is completely exempted from any compensation or payment to the Client and the Interpreter for this order and doesn't bear responsibility for consequences of such order cancellation.
+      </p>
+      <p>
+        <strong>Account blocking and removal </strong>
+      </p>
+      <p>
+        We have the right, at our discretion and, without having any responsibility before you, with reason or without, after providing the prior notice or not, at any time to terminate these Terms and conditions or to forbid your access to our WebSite, to deactivate, block or remove your Account. After contract cancellation we will immediately pay you all sums which we will be obliged to pay t you within our obligations. In case the Interpreters.travel company terminates the real Conditions or forbids your access to our WebSite, deactivates or cancels your Account, you will be responsible for all sums which are subject to payment on the contract.
+      </p>
+      <p>
+        You can remove the Account at any time by sending us the corresponding request at e-mail address:
+        <a href="mailto:support@interpreters.travel">support@interpreters.travel</a>. Pay attention that if your Account was removed, we aren't obliged to delete or return you any Content which you published on the WebSite, including, in addition, any comments.
+      </p>
+      <p>
+        <strong>User’s behavior </strong>
+      </p>
+      <p>
+        You acknowledge and agree that you bear full responsibility for observance of any and all laws, terms, resolutions and tax obligations which can be applied to you for use of the WebSite. According to WebSite use you have not right and you agree not to do the following:
+      </p>
+      <p>
+        <ul>
+          <li>
+            to use the manual or automated programs, devices, command files / search robots, other means or the processes, allowing to get access to any web pages or other services containing on the WebSite or the Content, to use "skreypers", "spiders" or "bots" in their relation, to use the WebSite for any commercial or other purposes which directly aren't permitted by these Terms and conditions;
+          </li>
+          <li>
+            to disturb work or to cause damage to our WebSite, including, in addition, damage as a result of use of viruses, the agent robots, Trojan viruses, malicious codes, attacks like refusal in service, spoofing of IP, false routing or information on the e-mail address and other similar methods or technologies;
+          </li>
+          <li>
+            to use our WebSite for transferring, distributing, placing or sending of information connected with other natural or legal entity, including, in addition, photos of other persons without their permission, personal contact information or numbers of  credit, debit, telephone cards or accounts numbers;
+          </li>
+          <li>
+            to use our WebSite in connection with distribution of not requested commercial electronic mailings ("spam");
+          </li>
+          <li>
+            "to pursue" or bother any other user of our WebSite with harassments or to collect or store any information that allows to identify the personality of any other user for the purposes different from those of conducting operations as Client or Interpreter;
+          </li>
+          <li>
+            to offer any interpretation Services which you don't render as Interpreter;
+          </li>
+          <li>
+            sign up more than one Account or sign up on behalf of other person;
+          </li>
+          <li>
+            to contact Interpreter with any purpose, except for the questions connected with the order of interpretation Services;
+          </li>
+          <li>
+            to contact Client with any purpose, except for the questions connected with the order of interpretation Services;
+          </li>
+          <li>
+            acting as the Client or otherwise, to appeal to Interpreters and other registered users to use services of the third party or to join the websites competing with the Interpreters.travel company, without preliminary written permission of the Interpreters.travel company;
+          </li>
+          <li>
+            to represent any personal or legal entity, to forge the personality or provide false information about yourself or your connection with other personal or legal entity;
+          </li>
+          <li>
+            to use the automated scripts to collect information or otherwise to interact with the WebSite;
+          </li>
+          <li>
+            to use the WebSite to find the Interpreter or the Client, and then to place the order of interpretation Service beyond the scope of the WebSite;
+          </li>
+          <li>
+            being Interpreter, to place Ads with false or misleading information on the price, or to place Ads with the price which you have no intention to observe;
+          </li>
+          <li>
+            to place, load,  publish,  send or  transfer any Content, which: breaks or illegally appropriates patent law, copyright, a trademark, a trade secret, the moral right and  other rights for intellectual property, either the right of publicity or the right for personal privacy of the third party; breaks, or indulges any actions violating the current legislation or regulations or which can cause emergence of  civil liability; is false or misleading; is disgracing, obscene, of pornographic character, vulgar or offensive; promotes discrimination, intolerance, racism, hatred, harassments or infliction of harm to any person or group of people; has violent character, or threatens with violence or actions menacing to any person; or promotes illegal or harmful activity or use of illegal substances;
+          </li>
+          <li>
+            to get access to, forge or use the sections of the WebSite that are not intended for public use, computer systems of the Interpreters.travel company or data transmission system of the Interpreters.travel company providers;
+          </li>
+          <li>
+            to make attempts of sending test messages, scannings or testings of vulnerability of systems or Interpreters.travel company networks, or to break any security measures or authentications;
+          </li>
+          <li>
+            to avoid, bypass, delete, deactivate, damage, decipher or otherwise to avoid the technical measures undertaken by the Interpreters.travel company or providers of the Interpreters.travel company or any other third parties (including other user) for protection of the WebSite or the Content;
+          </li>
+          <li>
+            to forge any heading of  TCP/IP package or any part of information of heading in any electronic message or group publication, or to use the WebSite or t General content for sending changed, false or counterfeit information, allowing to identify the source;
+          </li>
+          <li>
+            to make attempts to decipher, sort, dismantle or make the return engineering of any software used for granting the WebSite or the Content;
+          </li>
+          <li>
+            to help, stimulate or assist to any third party in implementation of any of the listed above actions.
+          </li>
+        </ul>
+      </p>
+      <p>
+        <strong>Property right</strong>
+      </p>
+      <p>
+        You confirm and agree that the WebSite and the Content, including all related intellectual property rights, are in a sole property of the Interpreters.travel company.
+      </p>
+      <p>
+        <strong>Content</strong>
+      </p>
+      <p>
+        We have the right to allow at our exclusive discretion to the registered users to place, load, publish, send or transfer the Content. Providing the Content on the Site, through the Site, you provide to the Interpreters.travel company with worldwide, irrevocable, termless, non-exclusive, subjected to transfer and not subjected to royalty payment  license with the right to sublicense, use, look through, copy, adapt, modify, extend, license, sell, transfer, expose on public display, carry out publicly, transfer, broadcast, get access, look through and otherwise to operate the Content on or through the WebSite. The Interpreters.travel company doesn't assert any property rights of such Content, and none of these Terms and conditions provisions will limit the rights which you can have for use and operation with any of such Content.
+      </p>
+      <p>
+        You confirm and agree that you bear individual responsibility for all Content which you provide through the WebSite. Correspondingly you declare and guarantee that:
+        <li>
+          you are the only and exclusive owner of all Content, which you provide on the WebSite, or you have all rights, licenses, consent and refusal of the rights which are required, to give the Interpreters.travel company the right to use such Content as it is considered by these Terms and conditions
+        </li>
+        <li>
+          neither Content, nor your placement, publication loading, giving or Content mailing, Content use (or its parts) by the Interpreters.travel company through the WebSite, doesn't do harm, doesn't appropriate or violate patent rights, copyright, the right of trademark, trade secret, moral right or other rights for intellectual property, or  rights for publicity or for personal privacy of the third party and doesn't break current laws and normative legal acts.
+        </li>
+      </p>
+      <p>
+        <strong>License for the Content</strong>
+      </p>
+      <p>
+        The Interpreters.travel company provides you with limited, non-exclusive, not subjected to transfer license for access and looking through Content, which you have permitted access to in case you observe  these Terms and conditions. You have no right to sublicense the license rights identified in the present section. You have no right to use, copy, adapt, modify, create derivative works, extend, license, sell, transfer, represent publicly, send, broadcast or otherwise to operate the WebSite or Content, except the cases which have been specially identified by these Terms and conditions.
+      </p>
+      <p>
+        <strong>Right of use</strong>
+      </p>
+      <p>
+        The Website is intended to be used exclusively by persons who have reached 18 years. Access or WebSite use by any person who hasn't reached 18 years  is strictly forbidden. Getting access or using the WebSite you declare and guarantee that your age is not under 18.
+      </p>
+      <p>
+        <strong>The regulating legislation and jurisdiction</strong>
+      </p>
+      <p>
+        The real Conditions have to be interpreted according to laws of the Republic of Estonia. We agree to submit to personal jurisdiction of court of the Republic of Estonia on any trials for which the parties keep the right to achieve application of interim measures of prohibitive character or other judicial remedies by the right of justice in appropriate judicial instance with the purpose to prevent  existing or potential violations, illegal assignment or violation of copyright, trademarks, trade secrets, patents or other intellectual property rights of one of the parties.
+      </p>
+      <p>
+        <strong>General provisions</strong>
+      </p>
+      <p>
+        Not executing of any right or provision of these Terms and conditions by the Interpreters.travel company doesn't mean it refuses to execute this right or provision in future. Refusal from any such right or provision will be valid only in case of its registration in written form and signing by authorized representative of the Interpreters.travel company. Except for the cases which have been directly specified in these Terms and conditions, application of any protection means according to these Terms and conditions by any of the parties will be made without harm to other available protection means according to these Terms and conditions or otherwise. If, for any reason, the arbitrator or the court of competent jurisdiction decides that some of provisions of these Terms and conditions are invalid or deprived of validity, such provision will be applied in the most admissible degree, and other provisions of these Terms and conditions will continue in full force.
+      </p>
+      <p>
+        <strong>Modification.eb</strong>
+      </p>
+      <p>
+        The Interpreters.travel company reserves the right, at the exclusive discretion, from time to time and without prior notice to make changes on the WebSite or  make changes to these Terms and conditions. If we make changes to these Terms and conditions, we are bound to publish changes on the WebSite or provide you with the notice of modification. We also will update "Date of document last update" stated below these Terms and conditions. Until changes are published, such changes aren't applicable to accepted  Terms and conditions for order placement by the Client and/or Ad publication by the Interpreter. Continuing to use the WebSite after we have made changes to the WebSite, these Terms and conditions and provided you with the notice of modification, you thereby declare that you agree to observe these Terms and conditions with changes made.
+      </p>
+      <p>
+        <strong>How to contact Interpreters.travel company</strong>
+      </p>
+      <p>
+        If you have questions on these Terms and conditions, apply to the Interpreters.travel company at the address specified in the section of the WebSite "About the Company" at
+        %{about_link}.
+      </p>
+      <p>
+        <strong>Date of document last update:</strong>
+        12 September 2018
+      </p>
+  privacy_policy_page:
+    title: "Privacy policy"
+    text: |
+      <p>
+        <strong>Privacy policy and Cookie-files.</strong>
+      </p>
+      <p>
+        We attach great importance to keeping your data confidential. We appreciate the rendered trust and we take the obligation to protect provided personal information. This Privacy policy regulates the way Interpreters.travel OÜ collects, uses, stores and opens information received from users (hereafter, "User") on the WebSite interpreters.travel (hereafter "WebSite"). This privacy policy belongs to the WebSite and all products and services offered by Interpreters.travel OÜ. Also we provide you with contact information so that you can contact us in case of questions concerning personal information.
+      </p>
+      <p>
+        <strong>Personal information used by interpreters.travel</strong>
+      </p>
+      <p>
+        We can collect personal identification information from Users in various forms, including, but without being limited, when Users visit our WebSite, register on the WebSite, place an order, and in connection with other kinds of activities, services, opportunities or resources which we do and which can be found on our WebSite. In corresponding cases, Users can be requested for a name, e-mail address, postal address, phone number. However, Users can visit our Site anonymously. We will collect personal identification information from Users, only if they provide us with such information voluntarily. Users can always refuse providing personal identification information, except the case when it can prevent them from doing certain activity on the WebSite.
+      </p>
+      <p>
+        <strong>Impersonal information</strong>
+      </p>
+      <p>
+        We can collect impersonal identification information about Users when they interact with our WebSite. Impersonal identification information can include browser name, type of computer and technical information about means of Users connection to our WebSite, for example, used operating system and Internet service providers and other similar information.
+      </p>
+      <p>
+        <strong>Cookie-files used by interpreters.travel</strong>
+      </p>
+      <p>
+        Our WebSite can use Cookie-files for accumulation of experience of Users. The User’s web browser  places Cookie-files on a hard disk for keeping records, and sometimes ittraces information about them. In web browser settings User can choose refusal to keep Cookie-files, or warnings when Cookie-files are saved. If it happens, pay attention that some parts of the WebSite can function not properly.
+      </p>
+      <p>
+        <strong>How does interpreters.travel use collected information?</strong>
+      </p>
+      <p>
+        Interpreters.travel OÜ can collect and use User’s personal information for the following purposes:
+      </p>
+      <ul>
+        <li>
+          <p>For improvement of customer sercice quality</p>
+          <p>
+            Information which you provide, helps us to meet your needs more effectively, answer your inquiries of service support.
+          </p>
+        </li>
+        <li>
+          <p>For personalisation of User experience</p>
+          <p>
+            We can use information in total to understand how our Users as a group use services and resources provided by our WebSite.
+          </p>
+        </li>
+        <li>
+          <p>For improvement of our WebSite</p>
+          <p>
+            We can use the feedback you have provided for improvement of our products and services.
+          </p>
+        </li>
+        <li>
+          <p>For processing of payments</p>
+        </li>
+      </ul>
+      <p>
+        We can use information which Users provide about themselves at order placement to render services properly. We don't transfer this information to third parties except that it is necessary for service.
+      </p>
+      <ul>
+        <li>
+          <p>For carrying out promotion, competitions, research or other WebSite functions</p>
+          <p>
+            To send information to Users who agreed to receive information on subjects which will be of interest for them.
+          </p>
+        </li>
+        <li>
+          <p>For sending periodic electronic messages</p>
+        </li>
+      </ul>
+      <p>
+        We can use e-mail address to send information to the User relating to his order. It can also be used to respond to the requests, questions, and/or other tasks. If the User decides to be in our list of mailing, he/she will receive e-mail messages which can include news of the company, updatings, connected product or service information, etc. At any time if  the User wants to refuse receiving further e-mail messages, each message includes detailed instructions on how to unsubscribe, in the bottom part of each message.
+      </p>
+      <p>
+        <strong>How does interpreters.travel protect your information?</strong>
+      </p>
+      <p>
+        We apply corresponding rules of collecting, storage and processing and security measures for protection against unauthorized access, change, disclosure or destruction of your personal information,  User’s name, password, information about transaction and the data which is stored on our WebSite.
+      </p>
+      <p>
+        Data exchange between WebSite and Users happens on secure communication link SSL and in encrypted form data is protected by digital signatures.
+      </p>
+      <p>
+        <strong>Transfer of personal information to third parties</strong>
+      </p>
+      <p>
+        We don't sell, we don't trade and we don't rent personal identification information of Users. We can provide general aggregated demographic information not connected with any personal identification information on visitors and Users to our business partners, entrusted branches for purposes, described above. We can use third-party service providers to help us to do our business and WebSite, as well as for administrating our activities, such as mailing of newsletters or research. We can share information with these third parties for those limited purposes provided that you have permitted it to us.
+      </p>
+      <p>
+        <strong>Privacy policy amendment</strong>
+      </p>
+      <p>
+        Interpreters.travel OÜ has the right at its discretion to update this Privacy policy at any time. When we do it, we will update date in the bottom part of this page and/or send you a letter. We recommend Users to check this page regularly for any amendments to learn how we collect and protect personal information. You acknowledge and agree that it is your responsibility to look through this Privacy policy periodically and to realize amendments.
+      </p>
+      <p>
+        <strong>Your agreement with this Policy</strong>
+      </p>
+      <p>
+        Using this WebSite, you express your agreement with this Policy. If you don't agree with this Policy, please, don't use our WebSite. If you use WebSite, after making amendments in this Policy, you will be considered to agree with these amendments.
+      </p>
+      <p>
+        <strong>How to contact us</strong>
+      </p>
+      <p>
+        If you have any questions concerning this Privacy policy, using of WebSite or your interaction with WebSite, please, contact us at the address:
+        <p>
+          <strong>Interpreters.travel OÜ</strong>
+          <br/>
+          <strong>interpreters.travel</strong>
+          <br/>
+          <strong>Harju maakond, Tallinn, Kesklinna linnaosa, Vesivärava tn 50-201, 10152</strong>
+          <br/>
+          <strong>info@interpreters.travel</strong>
+        </p>
+      </p>
+  about_page:
+    title: "About the company"
+    text: |
+      <p>
+        <b>Interpreters.travel OÜ</b> has full and exclusive ownership rights to Interpreters.travel founded in 2013 – an interpreters search and online interpretation ordering service worldwide.
+      </p>
+      <p>Interpreters.travel OÜ is registered by the Tartu County Court Registration Department of the Republic of Estonia as number 16422855.</p>
+      <p>
+        The head office of Interpreters.travel OÜ company is located at the follwoing address:
+        <br/>
+        <b>Vesivärava tn 50-201, 10152, Tallinn, Estonia</b>
+      </p>
+      <p>
+        Office phone:
+        <b>+357 22 008 050</b>
+        (in English and Russian) from 9:00 to 17:00 (GMT + 2 hours)
+        <br/>
+        Email:
+        <a href="mailto:office@interpreters.travel">office@interpreters.travel</a>
+      </p>
+    addresses:
+      title: |
+        <b>Interpreters.travel OÜ</b> has full and exclusive ownership rights to Interpreters.travel founded in 2013 – an interpreters search and online interpretation ordering service worldwide.
+        Interpreters.travel OÜ is registered by the Tartu County Court Registration Department of the Republic of Estonia as number 16422855.
+      estonia: |
+        <b>The head office of Interpreters.travel OÜ company in Tallinn (Estonia)</b>
+        <br/>
+        <b>Email:</b> office@interpreters.travel
+        <br/>
+        <b>Phone:</b> +357 22 008 050 (in English and Russian) from 9:00 to 17:00 (GMT + 2 hours)
+        <br/>
+        <b>Address:</b> Vesivärava tn 50-201, 10152, Tallinn, Estonia

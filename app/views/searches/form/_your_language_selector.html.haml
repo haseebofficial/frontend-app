@@ -1,0 +1,26 @@
+#your_language_selector
+  - lang = (@your_language || @search.your_language)
+  - if @your_available_languages.blank?
+    %span= lang.name
+    %input#search_your_language_id.hidden{name: "search[your_language_id]", type: "hidden", value: "#{lang.id}"}
+  - else 
+    - meth = localized_method(:name)
+    = select_tag 'search_your_language_id', options_from_collection_for_select(@your_available_languages, 'id',  meth, lang.id), name: 'search[your_language_id]'
+
+  :coffee
+    $(document).ready (e) ->
+      $("#your_language_selector select").styler()
+
+      $(".jq-selectbox__select").on 'click', (e) ->
+        unless $('input#search_city_id').attr('value') == ''
+          $(this).addClass('act')
+      $("#search_your_language_id").on("change", ->
+        $.get("#{searches_language_selector_path}",
+               {city_id: $("#search_city_id").val(), your_language_id: $("#search_your_language_id").val()},
+               (data)->
+                $('#language_selector').replaceWith(data)
+              ).done(->
+                  $(".jq-selectbox__select").addClass('act');
+            $(".jq-selectbox__select").addClass('act');
+        );
+      )

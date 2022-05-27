@@ -1,0 +1,9 @@
+zh:
+  simple_form:
+    "yes": '是'
+    "no": '否'
+    required:
+      text: '义务'
+      mark: '*'
+    error_notification:
+      default_message: "请修复错误︰"

@@ -1,0 +1,8 @@
+- content_for :head do
+  = render "layouts/react_app"
+- content_for :body do
+  .green-line
+  .c
+    .modal{style: "border: none;"}
+  #interpretation-call-container{data: {call_id: @call.id}}
+  #react-notifications-container

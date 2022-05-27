@@ -1,0 +1,15 @@
+ru:
+  help_menu: 
+    back_link: 'На главную страницу'
+    info: 'Об interpreters.travel'
+    find_interpreter: Найти переводчика
+    for_clients: 'Клиентам'
+    for_interpreters: 'Переводчикам'
+    for_affiliates: 'Партнерам'
+    service_types: "Виды услуг перевода"
+    help: 'Помощь'
+    support: 'Поддержка 24/7'
+    terms: 'Правила и условия'
+    privacy_policy: 'Политика конфиденциальности' 
+    about: 'О Компании'
+    calls: "Звонки с переводчиками"

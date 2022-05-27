@@ -1,0 +1,14 @@
+login_page:
+  page_slogan: "Iniciar sesión"
+  form:
+    email: "Correo electrónico:"
+    password: "Contraseña:"
+    remember_me: "Guardar contraseña"
+    submit: "Iniciar sesión"
+    error: "Correo electrónico o contraseña es incorrecto."
+  links:
+    sign_in_for_interpreters: "Iniciar sesión como intérprete"
+    sign_in: "Iniciar sesión"
+    sign_up: "Registrarse"
+    restore_password: "¿Olvidó su contraseña?"
+    sign_up_for_interpreters: "Registrarse como intérprete"

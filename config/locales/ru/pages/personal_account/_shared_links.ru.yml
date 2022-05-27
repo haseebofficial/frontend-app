@@ -1,0 +1,7 @@
+ru:
+  shared_links:
+    interpreters_login: "Вход для переводчиков" 
+    sign_in: "Вход"
+    sign_up: "Регистрация"
+    new_password: "Забыли пароль?"
+    interpreters_sign_up: "Регистрация для переводчиков"

@@ -1,0 +1,6 @@
+<% required ||= false %>
+<% interval = @search.intervals[number] %>
+<input name="search[simple_intervals][<%= number %>][date]" placeholder="<%= t('search_form.date_time') %>" type="date" min="<%= Date.today.strftime("%Y-%m-%d")%>" <%= 'required' if required %> value="<%= interval.date if interval %>"></input>
+
+<input name="search[simple_intervals][<%= number %>][since]" placeholder="10" type="number" min="0" max="24" class="timepicker-since" value="<%= interval.try(:since_hour) || 10 %>" <%= 'required' if required %>></input>
+<input name="search[simple_intervals][<%= number %>][to]" placeholder="18" type="number" min="0" max="24" class="timepicker-to" value="<%= interval.try(:to_hour) || 18 %>" <%= 'required' if required %>></input>

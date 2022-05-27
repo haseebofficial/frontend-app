@@ -1,0 +1,9 @@
+.show-reviews-block
+  .title-wrapper{style: "margin-bottom: 30px;"}
+    = image_tag "why_trans_img_12.png", style: "float: left;margin-top:-20px;margin-right: 14px;"
+    .title
+      #{t("interpreter.reviews")}:
+    %span{style: "font: 14px/17px 'robotomedium'; color: #939393; margin-left: 65px"}= t("show_interpreter.reviews_from")
+  .client-reviews-list= render reviews
+  - unless @all_shown
+    = link_to t("search_page.show_more"), client_reviews_path(page: 1, questionnaire_id: @questionnaire.id), class: "loading-bar show-more-reviews", "data-remote" => true

@@ -1,0 +1,76 @@
+@use "app/_styles/utils/responsiveness" as r;
+
+.new-call-page {
+  .button-wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+    .button:first-child {
+      margin-right: 30px;
+    }
+
+    .button {
+      display: flex;
+      align-items: center;
+      font: 16px "robotolight";
+      padding: 0 10px;
+      height: 50px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 10px;
+    }
+  }
+  .result-wrapper {
+    margin-top: 30px;
+    .result-title {
+      display: block;
+      margin-bottom: 15px;
+      font: 18px "robotoregular";
+      text-align: center;
+      color: #30480a;
+    }
+  }
+  .form-wrapper {
+    margin-top: 50px;
+  }
+}
+// changes
+.lang-ar {
+  .phone-page .phone-info-form .button-wrapper {
+    top: unset;
+    right: unset;
+  }
+}
+@include r.touch {
+  .new-call-page {
+    .button-form {
+      display: flex;
+      width: 100%;
+      margin-top: 20px;
+      justify-content: center;
+      align-items: center;
+      font: 16px "robotolight";
+      padding: 0 10px;
+      height: 50px;
+      color: #000000;
+      background-color: #fff;
+      border: 1px solid #000000;
+      border-radius: 10px;
+    }
+
+    .form-wrapper {
+      display: none;
+      margin-top: 0;
+      &.is-active {
+        display: block;
+      }
+    }
+    .result-wrapper {
+      margin-top: -20px;
+    }
+    .result-title {
+      margin-top: 15px;
+    }
+  }
+}

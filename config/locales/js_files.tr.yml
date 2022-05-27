@@ -1,0 +1,8 @@
+tr: 
+  js: 
+    validator: 
+      required: 'Bu alanı doldurmak zorunludur.'
+      email: 'Lütfen geçerli bir e-posta adresi girin.'
+      uniq_email: 'Bu e-mail kullanılmamaktadır, başka bir e-posta girin.'
+      phone_format: "bu şekilde belirtin +35724343118"
+      city_select: "Enter correct city name and select from list"

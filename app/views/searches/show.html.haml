@@ -1,0 +1,140 @@
+- city_name = l_object(:name, @search.city)
+- @city_name = city_name
+- @in_city = city_name_in_loct_case(@search.city, city_name)
+- content_for(:title){ t("search_page.window_title", city: @in_city, count: @all_interpreters_count) }
+- content_for(:delimiter) { "–" }
+- @add_h1_to_description = true
+- @mobile_hide_description= true
+- content_for :amp_link do
+  %link{rel: "amphtml", href: url_for(format: :amp, only_path: false)}
+
+- content_for :description do
+  = t("search_page.title", city: @in_city, count: @all_interpreters_count)
+- content_for :meta_description do
+  = t("search_page.meta_description", city: @in_city, count: @all_interpreters_count)
+- content_for :keywords do
+  = t("search_page.keywords", city: @in_city)
+
+- content_for :back_link do
+  = link_to t("search_page.back_link"), root_path, class: 'back_link'
+
+- content_for :body do
+  :javascript
+    var google_marker_latitude = #{@search.city.latitude};
+    var google_marker_longitude = #{@search.city.longitude};
+    var translaters_count = #{@free_interpreters_count};
+
+  %input{type: 'hidden', value: @company_order, id: 'company_order'}
+  %input{type: 'hidden', value: @search.id, id: 'search_id'}
+  .result_mob_menu
+    %ul
+      %li.act
+        %a{tabindex: 0}= t("search_page.result")
+      %li
+        %a.rerender-sidemap-on-click{tabindex: 1}= t("search_page.filter")
+      %li
+        %a{tabindex: 2}= t("search_page.search")
+    .clear
+  .green_line.tab-toggle{"data-tabindex" => 2}
+    .content
+      = render partial: 'searches/show/edit_form'
+  .main_content
+
+    .result_sidebar.tab-toggle{"data-tabindex" => 1}
+      #leaflet-sidemap-block
+      = render partial: 'searches/show/filters'
+    .result_content.tab-toggle{"data-tabindex" => 0}
+      %meta{:content => t("search_page.title", city: @in_city, count: @all_interpreters_count)}/
+      .result_info
+        .col
+          - all_interpreters_count = @all_interpreters_count
+          - all_interpreters_count = 0 if @free_interpreters_count == 0
+          %h3{style: "font: 18px/16px 'robotomedium'; margin: 0;"}
+            - if @free_interpreters_count == 1 and @all_interpreters_count > 1
+              = t("search_page.one_from_few_available_interpreter", free: @free_interpreters_count, count: all_interpreters_count, city: @in_city)
+            - elsif @free_interpreters_count == 1 and @all_interpreters_count == 1
+              = t("search_page.one_available_interpreter", free: @free_interpreters_count, count: all_interpreters_count, city: @in_city)
+            - else
+              = t("search_page.available_interpreters", free: @free_interpreters_count, count: all_interpreters_count, city: @in_city)
+        = t("search_page.duration_text", duration: @search.duration_text, intervals: helper_intervals_text(@search))
+        = link_to t("search_page.change_date"), "#", class: "change_search_datetime"
+      - unless @free_interpreters_count == 0
+        .free-cancellation-text= t("search_page.free_cancellation")
+      .map_view_mob
+        %a{href: "#"}= t("search_page.map_link")
+        / #leaflet-sidemap-block
+        .clear
+
+      .result_trans_wrapper
+        - if @minimum_volume
+          .more_results
+            = t("search_page.minimum_volume_message", hours: t("hours", count: @minimum_volume), city: city_name)
+        -# if @no_results && @results_count_without_busy_intervals_checking > 0
+          .more_results
+            = t("search_page.busy_interpreters_message", count: @results_count_without_busy_intervals_checking)
+
+        - if @minimum_advance
+          .more_results
+            = t("search_page.minimum_advance_message", advance: t("hours", count: @minimum_advance), city: city_name)
+
+        - if @time_in_past
+          .more_results
+            = t("search_page.time_in_past")
+
+        - if @free_interpreters
+          - @free_interpreters.each do |interpreter|
+            = render partial: 'searches/show/questionnaire', object: interpreter
+
+        - unless @another_price_interpreters.blank?
+          .more_results#another_price_interpreters
+            = t("search_page.another_price_interpreters", count: @another_price_interpreters.length, city: city_name)
+          - @another_price_interpreters.each do |interpreter|
+            = render partial: 'searches/show/questionnaire', object: interpreter
+
+        - unless @busy_interpreters.blank?
+          .more_results#busy_interpreters
+            = t("search_page.busy_interpreters", count: @busy_interpreters.length, city: city_name)
+          - @busy_interpreters.each do |interpreter|
+            = render partial: 'searches/show/questionnaire', object: interpreter
+
+        - if (@page_count.to_i > 0 or @busy_int.to_i > 0 or @another_int.to_i > 0) and @page_count > 1
+          .loading-bar.show-more{'data-page_count' => @page_count, 'data-busy_int' => @busy_int, 'data-another_int' => @another_int, 'data-current_page' => 1, 'data-url' => search_more_interpreters_path(@search.id)}
+            = t("search_page.show_more")
+
+
+        -#- @wrapper_class = 'accurate_results'
+        -#- @array_to_display.each do |interpreter_or_block|
+        -#  - if interpreter_or_block == 'time-block'
+        -#    - @wrapper_class = 'price_deviation_results'
+
+        -#  - unless interpreter_or_block.is_a? String
+        -#    %div{ class: @wrapper_class }
+        -#      = render partial: 'searches/show/questionnaire', object: interpreter_or_block
+    .clear
+  -#:javascript
+  -#  if (#{@all_results_count} == $('.search_result').length) {
+  -#    $('.show-more').hide()
+  -#  }
+  - if params[:clear_date]
+    :javascript
+      $(document).on('ready page:load', showDateWindow)
+
+  :javascript
+    $(document).on("ready page:load", function() {
+      if(!$('.mobile-show').is(':visible')) {
+        var maxWidth = Math.max.apply( null, $(".price").map( function () {
+          return $( this ).outerWidth( true );
+        }).get() ) + 12;
+
+        $(".price").css("width", maxWidth);
+      }
+    })
+  :css
+    @media screen and (max-width: 768px) {
+      #search_language_id-styler .jq-selectbox__select {
+        height: 50px !important;
+      }
+      #search_language_id-styler .jq-selectbox__select-text {
+        line-height: 40px !important;
+      }
+    }

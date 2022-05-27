@@ -1,0 +1,6 @@
+date_picker:
+  day_names: ["Domenica", "Lunedì", "Martedì", "Mercoledì", "Giovedì", "Venerdì", "Sabato"]
+  day_names_short: ['Do', 'Lun', 'Mar', 'Mer', 'Gio', 'Ven', 'Sab']
+  month_names: ["Gennai,", "Febbraio", "Marzo", "Aprile", "Maggio", "Giugno", "Luglio", "Agosto", "Settembre", "Ottobre", "Novembre", "Dicembre"]
+  prev_month: "Prec"
+  next_month: "Prossimo"

@@ -1,0 +1,1153 @@
+fr:
+  service_types:
+    title: "Types de services de traduction"
+    conversation: 'Traduction des entretiens'
+    exhibition: "Interprétariat lors d’une exposition"
+    seminar: "Interprétariat durant un séminaire ou une conférence"
+    presentation: 'Interprétariat durant une présentation'
+    clinic: 'Interprétariat lors d’une consultation clinique'
+    celebration: 'Traduction pendant les fêtes'
+    guide: 'Interprétations lors des excursions, services de guide'
+    delegations_escort: 'Accompagnement des délégations'
+    individuals: 'Accompagnement des particuliers'
+    phone_talking: 'Traduction de la conversation par appel téléphonique'
+    interview: "Traduction de l'entrevue"
+    press_conference: 'Interprétation pendant des conférences de presse'
+    protocol_translation: 'Traduction de protocole'
+    judicial_translation: 'Traduction judiciaire'
+  help_menu:
+    back_link: 'Page principale'
+    info: 'A propos d’Interpreters.travel'
+    find_interpreter: Trouver l’interprete
+    for_clients: 'Pour les clients'
+    for_interpreters: 'Pour les interprètes'
+    for_affiliates: 'Pour les partenaires'
+    service_types: "Types de services de traduction"
+    help: 'Assistance'
+    support: 'Assistance 24/7'
+    Finalisation: 'Termes et Conditions'
+    privacy_policy: 'Politique de confidentialité'
+    about: 'A propos de la société'
+  info_page:
+    title: "A propos d’Interpreters.travel"
+    site_description: "— est un service simple, sûr et fiable qui vous aide directement sur le site web ou à partir d'un appareil mobile trouver rapidement un traducteur approprié et réserver des services d'interprétation dans le monde entier."
+    main_content: "Vous prévoyez-vous une réunion d'affaires avec des partenaires étrangers ou un voyage touristique, la visite d’une usine, un séminaire ou une consultation dans une clinique étrangère - vous trouverez facilement un interprète pour votre occasion et votre budget dans plus de %{cities} et %{countries} à travers le monde"
+  for_clients_page:
+    title: 'Pour les clients'
+    quote: "« Interpreters.travel c’est un service en ligne pour trouver des traducteurs professionnels rapidement et facilement et de faire la réservation des services d'interprétation dans de nombreuses villes et pays à travers le monde ! »"
+    quote_author: "Oleg Kovalev, Kazan."
+    client_reviews: "Avis des clients"
+    description: "Recherche de traducteur et réservation pour les services d'interprétation - pas plus difficile que de  réserver une chambre d'hôtel ou un billet d'avion. Vous prévoyez une réunion d'affaires avec des partenaires étrangers ou un voyage touristique, la visite d’un commerce équitable, un séminaire ou une consultation dans une clinique étrangère - vous trouverez facilement un interprète pour votre occasion et le budget défini."
+    steps:
+      title: "Comment ça marche ?"
+      step1: |
+        <b>Choisissez un interprète et passez une commande.</b>
+        <br/>
+        Vous sélectionnez un interprète approprié dans la ville que vous voulez, par exemple, pour des négociations avec des partenaires étrangers. Vous passez votre commande à la date souhaitée à travers votre carte de crédit. Vous pouvez  aussi passer la commande au nom de la société, et vous recevrez  une facture après le paiement.
+      step2: |
+        <b> Vous recevez un email avec un bon de commande.</b>
+        <br/>
+        Vous recevez un bon avec les détails de la commande et les coordonnées de l’interprète. Si nécessaire, discutez des détails du rendez-vous avec l'interprète par téléphone ou par e-mail (la  thématique, le nom des participants ou autres informations nécessaires pour le rendez-vous)
+      step3: |
+        <b>Vous rencontrez des partenaires étrangers et l'interprète assure la traduction.</b>
+        <br>
+        Vous rencontrez avec le Interprète à l'adresse indiquée par vous et allez ensemble à la rencontre. Réussissez-vous  à négocier avec des partenaires étrangers, et l'interprète vous aidera à parler facilement la même langue.
+    why_inter:
+      title: "Pourquoi Interpreters.travel ?"
+      block1:
+        title: "Recherche simple, facile à passer la commande"
+        text:  "Recherche facile d’un  interprète et réservation des services d'interprétation par  carte de crédit. Annulation GRATUITE."
+      block2:
+        title: "Avantageux"
+        text: "Toutes les commandes sont sans frais d’agence, juste  le prix des interprètes. La comptabilisation de la  réduction se trouve dans la commande. Pas de frais et charges supplémentaires."
+      block3:
+        title: "Vaste choix"
+        text: "Les interprètes se trouvent dans %{cities}, %{countries} à travers le monde"
+      block4:
+        title: "Sécurisé"
+        text: "Garantie de sécurité des paiements. Les données sont protégées  par la connexion d’un serveur avec le protocole SSL"
+      block5:
+        title: "Remplacement du traducteur"
+        text: "En cas de force majeure et l'impossibilité par l’interprète d’assister au  rendez-vous, nous le  remplaçons rapidement."
+      block6:
+        title: "Paiement pratique"
+        text: "Paiement le plus pratique pour vous: VISA, MasterCard, virement bancaire, argent comptant.."
+      block8:
+        title: "Assistance 24/7"
+        text: "Vous obtenez un soutien à tout moment, où que vous soyez"
+  for_interpreters_page:
+    title: "Pour les interprètes"
+    signup_link: "ENREGISTREZ-VOUS"
+    quote: "«Interpreters.travel - c’est le site pratique et sûr pour la réception des nouvelles commandes pour des services d’interprétation. Des fonctions simples en utilisation permettent construire très flexible le service en accordant avec mon emploi et recevoir des commandes seulement pour quel temps, qu’est confortable pour moi. Même si j’ai seulement quelque heure libre dans mon agenda, je reçois des commandes du site « interpreters.travel » et j’utilise mon temps avec profit.»"
+    quote_author: "Elena Rite, traducteur, Londres"
+    interpreter_reviews: "Des avis des traducteurs"
+    block1:
+      title: "Comment cela fonctionne ?"
+      step1: "Dans votre profil vous décrivez vos services, vos conditions, vos prix et vos horaires de travail"
+      step2: "Les clients prennent en considération vos services à travers leurs commandes actuelles et celles qui viendront après"
+      step3: "Vous fournissez le service d’interprétation pendant le rendez-vous du client selon les paramètres établis dans la commande"
+      step4: "Vous obtenez votre paiement en espèces lors du rendez-vous ou par virement bancaire"
+    block2:
+      title: "Combien ça coûte ?"
+      text: "S’inscrire sur ce site est <strong>pour vous tout à fait gratuit !</strong> Seulement pour de vraies commandes, il faut payer à Interpreters.travel une commission,  le montant, vous la choisissez selon votre propre opinion."
+    why_inter:
+      title: "Pourquoi Interpreters.travel ?"
+      block1:
+        title: "L’agenda"
+        text: "Vous gérez votre temps de travail et vous recevez des commandes seulement pour les horaires qui sont les plus commodes pour vous."
+      block2:
+        title: "Tarification flexible"
+        text: "Vous définissez votre prix en fonction du type de service et du nombre d’heures prévues dans la commande"
+      block3:
+        title: "Inscription gratuite"
+        text: "Vous êtes libre de publier des informations sur vos services autant de fois que vous voulez."
+      block4:
+        title: "Google & Yandex & Yahoo"
+        text: "Vos services vont être vus par des milliers de nouveaux visiteurs du site, parce que nous travaillons directement avec Google, Yahoo et Yandex"
+      block5:
+        title: "Modes de paiement"
+        text: "Vous recevez le paiement de l'une des manières les plus pratiques pour vous : VISA, MasterCard, PayPal, virement bancaire, espèces"
+      block6:
+        title: "SMS – notifications"
+        text: "Vous obtenez des notifications instantanées provenant des commandes directement sur votre téléphone pendant vos heures de travail"
+      block7:
+        title: "Votre protection"
+        text: "Vous êtes assuré d'être payé pour les horaires prévus, même si le client ne vient pas au  rendez-vous ou s’il est en retard."
+      block8:
+        title: "Les transactions monétaires"
+        text: "Vous êtes payé à l'heure, Interpreters.travel se soucie de cela et prend  soin de toutes les transactions financières"
+      block9:
+        title: "Certificat de sécurité SSL"
+        text: "Vos données sont protégées par le protocole de sécurité SSL"
+      block10:
+        title: "iMac/iPad/iPhone"
+        text: "Vous avez accès au service à partir du PC ou de votre l'appareil mobile"
+      block11:
+        title: "Assistance 24/7"
+        text: "Notre service support est à votre disposition à tout moment, où que vous soyez"
+      block12:
+        title: "Avis"
+        text: "Vous pouvez obtenir des avis de la part de clients satisfaits"
+    block3:
+      title: "Comment commencer ?"
+      step1: "Étape 1. Inscrivez-vous sur le site"
+      step2: "Etape 2. Entrez vos  informations personnelles dans le questionnaire"
+      step3: "Étape 3 : Créez et publiez sur le site la description de vos services d’interprétation"
+    after_reg:
+      text: "Avant de commencer utiliser le site interpreters.travel entrez-vous dans le bureau privé et indiquez-vous dans le questionnaire l’information sur vous-mêmes. Après le traitement, le questionnaire, vous pouvez publier votre annonce en indiquant les services, les conditions, les prix, à mettre en place un calendrier pour les commandes en temps plus commode pour vous. De ce moment votre profil et les services seront disponibles sur le site."
+      link: "Connectez-vous à remplir le formulaire"
+    form:
+      name: "Prénom :"
+      surname: "Nom :"
+      email: 'Email:'
+      phone: 'Téléphone mobile :'
+      russian: "Я говорю по-русски"
+      city: 'Votre cité :'
+      submit: 'COMMENCEZ L’ENREGISTREMENT'
+  for_affiliates_page:
+    title: "Pour les partenaires"
+    page_title: "Programme d'affiliation sur le site Interpreters.travel"
+    signup_link: "ALLEZ À L'ENREGISTREMENT"
+    login: "ENTRER"
+    description: "Avez-vous un site web ou un blog sur les voyages d'affaire, un portail sur les expositions internationales, des séminaires, des conférences ou des cliniques médicales, un forum ou un portail régional pour organiser des visites d'affaires à l'étranger? Donnez aux utilisateurs la possibilité de réserver des interprètes directement sur votre site web et gagnez à chaque réservation."
+    block1:
+      title: "Comment ça marche?"
+      step1: "Vous placez un formulaire de recherche des traducteurs ou le lien hypertexte sur votre site."
+      step2: "L'utilisateur de votre site qui est intéressé par les services d'interprétation trouve un interprète compétent et passe une commande."
+      step3: "Vous recevez une commission de 5% du montant de chaque commande effectuée."
+    block2:
+      title: "Comment se calculent les commandes?"
+      text: "Pour tenir compte des réserves nous utilisons les identifiants des partenaires et de leurs cookies. Nous stockons les cookies des utilisateurs pendant trois mois, de sorte que si l'utilisateur n’a pas placé une commande immédiatement, mais dans les trois mois après la première inscription de votre site sur Interpreters.travel, nous aurons pris en compte la commande et vous obtiendrez une commission."
+    block3:
+      title: "Comment faire pour afficher les statistiques des commandes?"
+      text: "Concernant les statistiques des inscriptions et des réservations de vos visiteurs on peut les regarder en ligne dans un compte privé dédié aux partenaires. Vous serez en mesure d'analyser le nombre de recherches et les réservations, le statut et le montant de la commande."
+    block4:
+      title: "Comment se connecter?"
+      step1: "Étape 1. Inscrivez-vous sur Interpreters.travel."
+      step2: "Étape 2. Entrez vos informations dans un  petit questionnaire dédié aux partenaires."
+      step3: "Étape 3. Copiez le code HTML et définir la zone de recherche ou un lien hypertexte sur votre site."
+    after_reg:
+      text: "Avant de commencer collaborer avec l’interpreters.travel entrez-vous au votre compte personnel et remplissez-vous le profil de partenaire. Ensuite, copiez le code HTML pour ajouter un formulaire de recherche ou un lien hypertexte dans le site. Depuis lors, les recherches et les commandes des utilisateurs à partir de votre site apparaissent dans les statistiques."
+      link: "Se connecter au compte"
+    form:
+      name: "Prénom :"
+      surname: "Nom :"
+      email: 'E-mail :'
+      phone: 'Téléphone mobil :'
+      city: 'Votre cité :'
+      submit: 'ENREGISTRER LE PARTENAIRE'
+  service_pages:
+    conversation:
+      title: "Traduction en négociations"
+      text: |
+        <p>
+          Vous avez une importante négociation avec un partenaire étranger, et on a besoin d'un interprète qualifié, car pas tous les employés de votre entreprise qui participeront aux négociations, couramment possédent la langue étrangère. De bon choix de l'interprète et de la précision de traduction peut dépendre le succès des négociations à venir.
+        </p>
+        <p>
+          Lors du choix d'un traducteur est important de tenir compte de la nature des négociations à venir et les connaissances et les compétences supplémentaires qui pourraient avoir besoin au traducteur. Pour que le traducteur peut réussir à faire la traduction, il est souhaitable de le pré-orienter il, ayant fait savoire à lui  le thème des négociations et de fournir des matériaux disponibles pour la préparation. De préférence, la présence de l'expérience de l'interprète de la participation dans les négociations sur ce sujet, ou suffisamment de temps pour se préparer. Mieux encore - l'un et l'autre.
+        </p>
+        <p>
+          <b>Les négociations sont différentes :</b>
+        </p>
+        <ul>
+          <li>des négociations préliminaires avec une discussion sur d'éventuels projets communs ou proposition des produits ou services ;</li>
+          <li>négociations avec la signature du document (une lettre d'intention, un accord sur la coopération, etc.) ;</li>
+          <li>des entretiens avec une discussion sur la mise en œuvre de projets communs ;</li>
+          <li>des négociations afin de la résolution avant le procès juridique des différends et créances réciproques.</li>
+        </ul>
+        <p>
+          <b>Les négociations peuvent être différentes en longueur :</b>
+        </p>
+        <ul>
+          <li>entretiens de courte durée de 30 minutes à 1-2 heures</li>
+          <li>négociations durables d'une durée de un à plusieurs jours</li>
+          <p>
+            <b>Les négociations peuvent varier du lieu de tenue :</b>
+          </p>
+          <li>dans le bureau de l'une des parties aux négociations ;</li>
+          <li>dans un hôtel ou un aéroport ;</li>
+          <li>en marge d'une conférence ou un forum.</li>
+        </ul>
+        <p>
+          <b>Les négociations peuvent également varier selon le pays de tenue :</b>
+        </p>
+        <ul>
+          <li>négociations dans le pays où votre entreprise est la partie d'accueil ;</li>
+          <li>entretiens lors d'une visite de votre délégation à l'étranger.</li>
+        </ul>
+        <p>
+          Traduction de toutes ces sortes de négociations a ses propres caractéristiques. Mais en termes de qualité de la traduction est essentielle, comme vient organisé le procès de traduction lui-même.
+          Normalement dan cettes négociations utilisé la traduction consecutive ( phrase par phrase ).
+        </p>
+        <p>
+          Ceci est dû au fait que :
+          <ul>
+            <li>pas tous les traducteurs même trés expérimentés ont connu des compétences d'interprétation simultanée professionnelle;</li>
+            <li>pour la traduction simultanée est nécessaire de prendre soin d'avance de l'équipement fixe ou portable approprié;</li>
+            <li>négociations commerciales se déroulent souvent dans un milieu étroite, et dans cette situation, l'interprétation consécutive mieux favorise un climat de communication directe entre les négociateurs.</li>
+          </ul>
+        </p>
+    exhibition:
+      title: "Interprétation lors d’une exposition"
+      text: |
+        <p>Vous survolez à l'exposition à l’étrangère en tant que le visiteur spécialiste et souhaitez utiliser les services d'un traducteur local.</p>
+        <p>Un voyage à l'exposition internationale spécialisée à l'étranger est toujours une occasion spéciale. Pour rendre votre visite à l'expositionla plus efficace, il est important de surmonter la barrière de la langue, trouver un langage commun pour la communication d'entreprise. Dans ce cas vous aidera un traducteur expérimenté. Traduction à l'exposition a ses propres spécificités et ne ressemble pqs à aucun d’autre type de traduction ; c'est pourquoi, en accompagnant un expert individuel ou un groupe d'experts lors de leur visite à l’exposition commerciale, il est préférable de choisir un traducteur, possédant de :</p>
+        <ul>
+          <li>la connaissance de la terminologie pertinente dans les deux langues ;</li>
+          <li>bonnes compétences en traduction orale bilatérale ;</li>
+          <li>voix haute et diction claire ;</li>
+          <li>capacité de saisir et de traduire le principal, malgré les distractions de masse et les facteurs de confusion ;</li>
+          <li>la capacité à s’adapter rapidement à un environnement inconnu ;</li>
+          <li>compétences en communication et la capacité de gagner l'interlocuteur inconnu ;</li>
+          <li>une mobilité accrue et l'endurance physique.</li>
+        </ul>
+        <p>Un avantage supplémentaire pour un interprète sera la posséssion pas une langue, mais plusieurs des langues étrangères. Par exemple, non seulement d’allemand, mais aussi d’anglais, quand il vient à visiter l'exposition internationale en Allemagne. Il peut être que parmi des participants d’exposition se trouvent ceux qui ne sont pas suffisamment bonne maîtrise de l'allemand.</p>
+        <p>Interprétation lors d’une exposition est la vue public de la traduction, donc une grande importance joue aussi de l’aspect d’un traducteur.</p>
+        <p>Dans la pratique, souvent ils utilisent le service d’un interprète pour la durée du séjour dans le pays. En règle générale, chacun traducteur professionnel et expérimenté est en mesure de fournir pas seulement la interprétation lors d’une exposition, mais aussi la traduction des visites et réunions d'affaires en dehors de l'exposition, ainsi que la traduction du programme culturel. Il est important de parler-la à l'avance avec il, que l'interprète pourrait se préparer se régler et calculer correctement ses forces.</p>
+        <p>Une autre chose, quand vous participez à l'exposition à l'étranger, vous avez organisé un stand, et vous avez besoin de l’1 ou 2  interprètes locaux pour employés travaillant sur le stand.</p>
+        <p>Lorsqu'on travaille sur le stand, à part compétences purements en traduction est nécessaire que le traducteur possiéde la discipline, aptitudes à la communication, l'endurance physique. Il doit pour tous les jours de l'exposition être égal et accueillant, avec une volonté aider à surmonter la barrière de la langue lors de la communication entre le personnel de stand et les visiteurs sur le stand, aussi que entre l'administration d'exposition et le personnel de stand.</p>
+        <p>
+          Il est conseillé de fournir à l’avance à l’interprete (ou interprètes) pour avoir possibilité de pris connaissance avec des matériaux de publicité et de promotion, qui vont à être utilisé et examiné dans le cadre de l'exposition, de sorte qu'il peut en outre se préparer, clarifier la traduction correcte de la terminologie.
+          Traduction sera plus efficace, si dès le début le traducteur sera clairement orient relativement de les termes de ses responsabilités et, si possible à l'avance informer il concerne l’heure des réunions d'affaires et des présentations les plus importants, qui sont prévues dans le stand.
+        </p>
+    seminar:
+      title: "Traduction d'un séminaire ou d'une conférence"
+      text: |
+        <p>
+          Vous allez prendre part d’un séminaire ou d'une conférence à l'étranger. La langue de travail de la conférence, par exemple, anglais, allemand ou espagnol. Et vous aucun d'entre eux ne possédez pas assez bien pour le faire sans les services d'un interprète.
+        </p>
+        <p>
+          <b>1ère option :</b>
+          vous voyagez à un séminaire ou à une conférence comme un auditeur, et vous avez besoin d'un interprète.
+          Si vous ne voulez pas venir avec un rapport au podium et tout au long de la conférence, restez assis et écoutez dans la salle, dans ce cas, votre traducteur invité  ne fera que traduira à vous personnellement ( à l'exception des cas où vous souhaitez poser une question ou faire une petite réplique d'un lieu ).
+        </p>
+        <p>
+          Afin de ne pas déranger aux autres participants du séminaire ou de la conférence, l'interprète murmurera doucement à votre oreille en traduisant. Ce type de traduction est appelé " chuchotement ".
+        </p>
+        <p>
+          <b>2ème option :</b>
+          vous voyagez au séminaire ou à la conférence comme l'un des rapporteurs, qui est allouée pour un certain temps.
+        </p>
+        <p>
+          Le traducteur de vous invité, ainsi que dans le 1ère option, une grande partie du séminaire ou d'une conférence sera à murmure de la traduction à votre oreille, en utilisant " chuchotement ".
+        </p>
+        <p>
+          Mais dans ce cas, le moment le plus crucial, il est la traduction de votre discours pour toutes à la salle. En fonction de la taille de l'acoustique de la salle et le nombre de participants, il peut être un discours du podium avec un microphone ou d'une voix forte, sans aucun matériel.
+        </p>
+        <p>
+          Traducteur lors de la traduction généralement se trouve coûte pour, non seulement bon d'entendre chaque mot que vous dites, mais aussi être en mesure de demander quelque chose à nouveau si nécessaire.
+          La variante idéale quand il y a des microphones. Même si la salle est pas trop grand. Dans ce cas, ni vous, ni l'interprète ne devrez pas fatiguer votre voix beaucoup. Et les auditeurs entendront tout aussi bien, même dans la dernière rangée.
+        </p>
+        <p>
+          Pour la traduction réussie du séminaire ou d'une conférence conviendra avoir l’aide d’un fort traducteur consécutif. Le traducteur dans l'expérience moins et plus faible en traduction, ira à traduire par beaucoup plus de temps. Et le temps est généralement pas suffisant aux conférences.
+        </p>
+        <p>
+          À un nterprète simultané  qui rarement fait la traduction consequtive, il sera difficile de mémoriser et de traduire des grosses passages pour la mémoire.
+        </p>
+        <p>
+          Dans tous les cas, en faisant la traduction du séminaire ou la conférence - en particulier pour des sujets très spécifiques - une traduction réussie est généralement pas possible sans une bonne connaissance par traducteur des sujets et des termes pertinents dans les deux langues. Si le thème pour le traducteur n’est pas suffisant connu, il peut avoir besoin de plus de jours pour se préparer.
+        </p>
+        <p>
+          Pour la traduction du discours de la tribune sont également importants des données d’aspect du traducteur. Il y a beaucoup à voir avec la présentation de la traduction.
+        </p>
+    presentation:
+      title: "Traduction à la présentation"
+      text: |
+        <p>
+          Vous survolez à la ville à l'étranger à la présentation, par exemple des nouveaux équipements comme un membre ordinaire et l'auditeur, et vous avez besoin d'un interprète.
+        </p>
+        <p>
+          Dans ce cas, la traduction est pas très différente de la traduction sur tout autre événement ( conférences, réunions, tables rondes ). Il a besoin d'un interprète agile, qui est capable de s'orienter rapidement dans un environnement inconnu et, sans aucun doute, bien informé et ayant une expérience dans la traduction dans ce domaine de connaissances, dans laquelle la présentation concerne.
+        </p>
+        <p>
+          Conditions et qualité de la traduction dépendra en grande partie de votre statut dans cette présentation et, en conséquence, le lieu à partir duquel vous suivra la présentation. Si vous êtes l'un des invités d'honneur et assis dans la présidence, c'est une situation. Si vous êtes un visiteur ordinaire et assis quelque part dans la salle assez loin de la scène, c’est une situation différente. Garantir une traduction parfaite est difficile sans équipement spécial. Par conséquent, le plus approprié serait " chuchotement ", à savoir que le traducteur chuchotera la traduction dans votre oreille. C'est pourquoi, il est très important de choisir une place, où tout sera bien entendu et en même temps, la traduction ne soit pas grandement interférer aux autres participants de la présentation.
+        </p>
+        <p>
+          Si vous êtes l'organisateur et conférencier principal et vous prévoyez d'organiser une présentation de votre nouveau produit ou service pour les partenaires étrangers potentiels ( sans importance où en Russie ou à l'étranger ). Selon le lieu, le nombre de participants et de l'équipement technique utilisé à des présentations s’applique la traduction simultanée ou consécutive.
+        </p>
+        <p>
+          Pour la présentation d'un petit nombre des participants et une paire de langues, le plus souvent utilise la traduction consécutive ( phrase depuis phrase ).
+        </p>
+        <p>
+          L'interprétation simultanée est plus approprié pour les présentations officielles de plusieurs heures, avec un grand nombre des participants avec une nécessité d'assurer une traduction vers plusieurs langues ( par exemple, non seulement en le français, mais en allemand ou en chinois ).
+        </p>
+        <p>
+          Contrairement à d'autres types de traduction consécutive, lors de la traduction des présentations une attention particulière est accordée à l’apparence, à la tenue d'affaires et à gestes adéquats de l’interprete, et parfois même à des facteurs tels que l'âge et le sexe du traducteur. En fin de compte, vous seulement choisissez quel type de traducteur le mieux adapté pour traduire la présentation.
+        </p>
+        <p>
+          Lors de la traduction des présentations vient notamment importante la clarté de la formulation, la traduction exacte des termes, des accents correctement placés. C'est pourquoi, il est souhaitable que le traducteur non seulement bien oriente dans le sujet, mais aurait également eu l'occasion de se mettre au courant de la présentation complète quelques jours avant de sa mise en œuvre.
+        </p>
+        <p>
+          Pour la traduction des présentations à haute qualité est importante la présence à l'interprète, une diction claire et une voix forte. Pour autant, même dans une petite local, faciliter la perception de la traduction d'audience et de faire une présentation plus efficace aident les micros supplémentaires pour l'interprète et pour les questions de l'auditoire. Sur eux, il est également souhaitable de prendre soin à l'avance.
+        </p>
+    clinic:
+      title: Traduction de consultation à la clinique
+      text: |
+        <p>Vous voyagez à une clinique étrangère pour les consultations et le traitement, et vous avez besoin d'un traducteur local, versé dans la médecine.</p>
+        <p>La traduction médicale est l'un des types les plus difficiles de traduction. Ceci est toujours particulièrement important de traduire fidèlement le diagnostic, ainsi que des prescriptions médicales et les recommandations. Traducteur, qui confond le foie à la rate, ne convient pas.</p>
+        <p>Pour obtenir une traduction correcte lors de la visite de la clinique à l'étranger ou des consultations avec des médecins étrangers, en règle générale, vous devez avoir non seulement un traducteur général, mais le traducteur médical, versé dans le domaine particulier de la médecine, à laquelle est apartient la maladie. Le traducteur, qui fait bien de traductions sur des sujets médicaux généraux n’est pas toujours en mesure de traduire avec succès la même consultation en urologie ou la gynécologie. Parmi les plus difficiles sections de traduction ne pas faire à moins que mentionner la médecine dentaire. Dans tous les cas, à la sélection d'un traducteur pour visiter les installations médicales à l'étranger, doit être considérée comme une consultation sera approfondie. Ils discuteront les subtilités du diagnostic médical et de traitement, ou allez-vous simplement discuter de certaines questions générales, telles que la possibilité fondamentale de l'hospitalisation.</p>
+        <p>Si vous avez dans les mains un certain genre de déclarations et opinions écrites concernant aux consultations proposées, de préférence à l'avance les traduire par écrit à la langue appropriée et, bien sûr, permettre à l'interprète de lire-les soit les originaux soit les traductions. Si la traduction par écrit pour une raison quelconque n'a pas été faite, l'interprète devra traduire ces documents dans le cadre de consultations médicales " à vue ", qui peut être extrêmement difficile et ne permettra pas de recevoir des conseils le résultat souhaité.</p>
+        <p>Aspect pas moins important que la traduction correcte de la terminologie médicale, est la capacité de comprendre par l'interprète la documentation financière accompagnant. Souvent, le patient apprend seulement que rétrospectivement sur le coût réel des soins hospitaliers reçus à l'étranger.</p>
+    celebration:
+      title: "Traduction en célébrations"
+      text: |
+        <p>
+          Vous allez à la ville à l'étranger pour l’événement festif et solennel près des partenaires d'affaires, amis, etc., et dans ce cas vous avez besoin d'un traducteur local qui vous aidera à participer pleinement à la célébration prévue.
+        </p>
+        <p>
+          Ce genre d'événement où vous avez besoin de l'aide d'un interprète personnel peut être très différente : Journée de la ville, l'anniversaire de la société, partie d'entreprise, Nouvel An, mariages, etc.
+          La nature de la traduction et, par conséquent des compétences necessaires au interpréte se varient légèrement en fonction du format et lieu de l’événement solennel ou une soirée (bureau, théâtre, restaurant, aire de loisirs), du nombre d'invités, du degré de formalité, et sur la qualité dans laquelle vous êtes présent à l'événement: comme un participant ordinaire ou comme l'un des invités d'honneur.
+        </p>
+        <p>
+          Au accompagnement et à traduction, à la cérémonie, en plus de la traduction animée et vivante pas moins important sont des compétences de communication de traducteur, sa capacité à se maintenir de manière adéquate dans un cadre formel, avoir l’aspect soigné, l'apparence présentable, la consommation modérée de boissons alcoolisées.
+        </p>
+        <p>
+          Des compétences de traduction peut être utile la capacité de traduire les discours solennels, des blagues et des anecdotes, la connaissance de lexique de vie, proverbes et dictons.
+        </p>
+        <p>
+          Si, dans le cours d’événement vous voulez faire un long discours officiel, il est souhaitable de faire avancer (1-2 jours) pour donner au traducteur le texte intégral, afin de sa information et formation. Et mieux encore - faire en sorte que le texte de votre discours ait été traduit dans la langue étrangère.
+        </p>
+        <p>
+          Si vous ne disposez pas d'un texte de discours préparé, essayez autant que possible avertir à l'interprète, qu'est-ce que vous allez parler et traiter avec il ceux les mots et les phrases qui pourraient causer des difficultés supplémentaires dans la traduction spontanée.
+          Lors de la sélection d'un traducteur, il est souhaitable, dès le départ déterminer s'il avait jamais traduit à de tels événements, ainsi que de déterminer le programme prévu et le rôle qui lui est attribué comment au traducteur.
+        </p>
+    guide:
+      title: "Traduction des excursions, des services de guidage"
+      text: |
+        <p>
+          Vous envisagez un voyage à la ville à l'étranger et que vous voulez trouver un guide-interprète local qui aurait passé pour vous un voyage à la langue française sur les sites locaux remarquables.
+          Quelles sont les exigences d'être présent à un tel guide ?
+        </p>
+        <p>
+          Tout d'abord, il est souhaitable qu'il soit bien maîtrisé la langue française : comment la langue native ou une langue étrangère principale. Heureusement, dans de nombreux pays étrangers français est l'une des langues principaux.
+        </p>
+        <p>
+          Surtout s’on parle d'une ville célèbre ou centre touristique majeur.
+          Deuxièmement, il est souhaitable qu'il avait l'expérience des visites en français sur des sujets d'intérêt pour vous.
+        </p>
+        <p>
+          Tout dépend aussi de savoir s’on parle de la visite guidée habituelle sur les sites remarquables locales, ou si vous souhaitez commander l’excursion thématique particulière : par exemple, pour les sites musicaux ou littéraires.
+        </p>
+        <p>Dans tous les cas, il vaut mieux faire comprendre à toutes les demandes, y compris la durée de la visite et à quelle profondeur elle devrait être.</p>
+        <p>Il peut être une situation différente. Vous allez la ville à l'étranger, et souhaitez visiter l’excursion, qui se déroule dans une langue que vous ne possédez pas. Par conséquent, vous avez besoin d'un traducteur local qui traduira ce que dit le guide.</p>
+        <p>En termes d'organisation, lors d'une telle excursion pour l’une personne ou pour les petits groupes de touristes une variété d'options sont possibles, en fonction du pays de sa modalité et de la morale locale.</p>
+        <p>Pour un guide qui conduite de l’exercusion, la présence d'un interprète est d'une part, l'élément perturbateur. D'autre part, une occasion supplémentaire de se reposer pendant que l'interprète traduit.</p>
+        <p>Mais pas tous les guides sont habitués à travailler enamble avec un interprète.</p>
+        <p>
+          Quant à l'interprète dans ce mode de réalisation, il est pas nécessaire que il a une connaissance approfondie de toutes les parties. La chose principale est que il traduira clairement, sans distorsion et avec des omissions minimes, en russe tout ce que dira le guide.
+        </p>
+        <p>
+          En outre, il convient de noter que, en raison du temps passé pour la traduction ( y compris des questions inévitables et d’autres précisiones ), la durée de la visite peut être augmentée de un et demi à deux fois. Et si le temps imparti pour la excursion est fixée, alors le guide aura le temps de vous dire de en et demi à deux fois moins d'informations utiles. Même si cela se traduira un traducteur trés fort et agile.
+        </p>
+    delegations:
+      title: "Accompagnement des délégations"
+      text: |
+        <p>
+          Vous allez avec vos partenaires et collègues à une ville à l'étranger, et vous avez besoin d'un interprète local qui vous accompagnera le long de la totalité de l'itinéraire, à partir de l'hôtel ou directement à partir de l'aéroport d'arrivée.
+        </p>
+        <p>
+          A la sortie de délégation à l'étranger le choix du traducteur dépend du niveau et de la composition de la délégation, du programme prévu et les objectifs du voyage.
+        </p>
+        <p>
+          Dans tous les cas, il est supposé que le traducteur a l'expérience des traductions d'affaires réussies pour la délégation de ce niveau. Il est préférable que ce rôle conviendra à une forte interprète du profil universel est familier avec les thèmes principaux, qui sont prévues pour discuter lors de la visite, ainsi que s’oriente bien des sites d'intérêt dans les réalités locales.
+        </p>
+        <p>
+          Il n'a pas besoin d'être un interprète simultané, ainsi que de traduire est nécessaire principalement en mode consecutive.
+        </p>
+        <p>
+          Traduction pour la délégation est particulièrement difficile. Traducteur ne sera pas seulement de traduire, mais presque toujours être avec la délégation pendant toute la durée de son séjour dans le pays. Il est donc pas le dernier rôle d’une bonne forme physique et prêt à travailler pour 15-16 heures par jour.
+        </p>
+        <p>
+          Pour ce rôle, est mieux adapté la personne active et sociable d’âge jeune ou moyen, qui, en plus de traduire des réunions officielles et des visites, toujours prêts à aider, non seulement le chef de la délégation, mais n'importe quel de ses membres en dehors du programme officiel, pour le règlement de toutes les questions domestiques dans l'hôtel etc.
+        </p>
+        <p>
+          En bref, le choix est vôtre ! Choisissez-vous un tel traducteur avec qui vous vous sentez plus à l'aise dans un voyage à l'étranger.
+        </p>
+    individuals:
+      title: "Accompagnement personnel"
+      text: |
+        <p>
+          Vous allez dans une ville à l'étranger, et vous avez besoin d'un traducteur local pour votre accompagnement à partir de l'aéroport ou de l'hôtel.
+        </p>
+        <p>
+          Bien sûr, beaucoup dépend de la durée du programme et des objectifs du voyage. Comme il sera un soutien individuel, en plus de la qualification de traduction, est la compatibilité personnelle entre le voyageur d'affaires individuel et traducteur pour votre accompagnement a l’importance considérable.
+        </p>
+        <p>
+          Lors du choix d'un traducteur, beaucoup dépend de votre programme prévu. Comment le traducteur vous convient à un voyage à l'étranger privé, vous pouvez vous orienter sur son résumé, en particulier, sur le sujet des thématiques de traduction indiquées. Dans certains cas, peuvent avoir besoin des questions de clarification supplémentaires.
+        </p>
+        <p>
+          Si vous voulez assister à la plupart des magasins, des restaurants, des plages, des salons de beauté et d’autres lieux de loisirs et de divertissement, le traducteur doit être la personne sociable, qui est bien versé dans les magasins, les restaurants et d’autres lieux fréquentés par le divertissement. En general une telle information ont les guides - interprètes, comme-t-ils d'origine sont spécialisés dans la présentation aux visiteurs tels lieux, qu’ils vont absolument visités. Si vous allez visiter les installations sportives ou la hippodrome, alors à vous mieux convient le traducteur, qui lui-même a d’intérêt les mêmes sports que vous, et qui sera en mesure de fournir, en plus de la traduction, des informations supplémentaires. Si l’interprète dans le résumé a indiqué qu'il traduit " Sports ", alors peut-être cela est le traducteur de que vous avez besoin. Mais il est toujours préférable de clarifier.
+        </p>
+        <p>
+          Si votre programme individuel implique la plupart du temps les visites de musées, alors mieux choisir le traducteur ou la traductrice, qui sont intéressés par l'histoire, l'art, la technologie et sont capablés d'agir non seulement comme un traducteur ordinaire, mais aussi comme un guide pour les sites les plus intéressants. Pour voyager d’une telle orientation thématique à nouveau, le meilleur ajustement est non seulement un interprète, mais un guide-interprète ou traducteur local, qui a souligné " Art " comme l'un des sujets remises par lui.
+        </p>
+        <p>
+          Dans tous les cas, il est important de déterminer à l'avance et de préciser avec le traducteur la routine de son travail : qu'il devrait vous accompagner 24 heures par jour, moins le temps de dormir et de se reposer, ou que vous prévoyez d'utiliser les services de l’interprète de façon sporadique pendant plusieurs heures par jour (par exemple, pour traduire réunions d'affaires importantes ou des voyages à sites).
+    phone_talking:
+      title: "Traduction de la conversation par appel téléphonique"
+      text: |
+        <p>
+          Avec l'amélioration des moyens de communication et l'amélioration de la qualité des lignes de communication, la traduction par téléphone devient un service de traduction le plus populaire.
+        </p>
+        <p>
+          Admettons que vous voyagez à une ville étrangère, et vous devrez parler au téléphone ( par exemple, de l'hôtel, centre d'affaires, salle de réunion, café, etc. ). Et vous avez besoin d'un interprète local.
+        </p>
+        <p>
+          Qu'est-ce à considérer lors du choix d'un traducteur pour traduire les conversations téléphoniques?
+          Tout d'abord, les moyens modernes de communication permetent réaliser la traduction de conversation téléphonique à distance. Pour ce faire peut être utilisé le mode à téléconférence avec des appels simultanés des plusieurs abonnés à un certain nombre. Dans ce cas, tous les trois ( l'abonné 1, l’abonné 2 et traducteur ) peuvent être en trois points différents. Le coût total des services de communication, à durée d'une heure, de telles négociations à distance, peut être suffisamment élevée.
+        </p>
+        <p>
+          Un autre mode de réalisation est haut-parleur ordinaire sur certain téléphone fixe et moderne, téléphone mobile moderne ou d'un smartphone. Dans ce cas, le traducteur est situé à côté de l'appelant, traduit alternativement dans les deux directions, et si nécessaire fait les demandes etc.
+          Exigences de base pour le traducteur dans la traduction des conversations téléphoniques:
+        </p>
+        <ul>
+          <li>
+            compréhension du sujet et la connaissance de la terminologie pertinente ;
+            avoire une bonne compréhension de langue étrangère à l'audience ;
+          </li>
+          <li>
+            la capacité de transmettre rapidement un discours dans les deux sens ( il est souhaitable avec phrases simples
+            et compréhensibles ) ;
+          </li>
+          <li>diction claire et la bonne prononciation en une langue étrangère.</li>
+        </ul>
+        <p>
+          Pour la traduction des conversations téléphoniques est agille soit interprète simultanée soit consécutive. Tout dépend de la situation spécifique et de comment organiser le procès de traduction lui-même. il est désirable de décider avec le traducteur d’abord, comment et quoi il devrait se traduire, l'informer de l'objet et de le but de l'appel téléphonique. Cela lui permettra de traduire plus significatif.
+        </p>
+        <p>
+          Dans tous les cas, il est nécessaire de prendre au sérieux la sélection d'un traducteur pour la traduction des conversations téléphoniques. Cela devrait être un traducteur fort capable, même dans des conditions de mauvaise audition et des bouts de phrases démonter et de transmettre correctement le sens de ce qui a été dit à l'autre extrémité.
+        </p>
+        <p>
+          Lorsque l'interprète a demandé expressément de venir à l'heure fixée dans le bureau, hôtel ou un centre-entreprise pour traduire un appel, il est nécessaire de prendre en compte que la partie appelée ne peut pas être mis en place (il peut être dans une réunion d'urgence, etc.). Dans ce cas, les appels téléphoniques prévus ne seront pas avoir lieu. Pour éviter ces coûts, il est souhaitable de convenir à l'avance avec précision avec l'abonné le temps de l’appel et la durée approximative de l'appel. Vous devriez également considérer que, si la traduction ne soit pas simultanée mais consécutive, il est nécessaire de prévoir plus de temps.
+        </p>
+    interview:
+      title: "Traduction de l'entrevue"
+      text: |
+        <p>
+          Vous allez à la ville à l'étranger, et dans le programme de la visite que vous avez se trouve une entrevue avec les médias : il ne peut pas se passer sans un interprète qualifié.
+        </p>
+        <p>
+          Tout dépend aussi de la façon de comme est organisée l'entrevue. Il existe diverses options :
+        </p>
+        <p>
+          <strong>1.</strong>
+          Traducteur en direct " à la volée " traduit non seulement des questions à vous posés, mais aussi vos réponses. Tout cela vient enregistré par l'enquêteur sur l'enregistreur et après un certain temps, en tout ou en version abrégée vient diffusée.
+        </p>
+        <p>
+          Dans ce cas, à la qualification de traducteur viennent appliquées les exigences plus augmentées. Dans une certaine mesure, il est encore plus difficile que l'interprétation simultanée.
+          La traduction la plus réussie d'un entrevue " en direct " sera faite par un traducteur consécutif de haute qualifié, capable de mémoriser de gros morceaux de texte et, de préférence, qui gère la méthode de écriture cursive en traduction.
+        </p>
+        <p>
+          Un peu plus difficile sera pour interprète simultané, ainsi que il devra traduire en mode consécutif. Et il peuvent faire pas toutes les interprètes.
+        </p>
+        <p>
+          <strong>2.</strong>
+          L'entrevue va en direct, ou (ce qui est presque la même chose) vient enregistré immédiatement pour être transmis en direct. Dans ce cas, pour le traducteur existent plus des restrictions, qui compliquent son travail déjà difficile. Intervieweurs diront au traducteur, où il devrait être positionné (pour entrer, ou, au contraire, ne pas entrer dans le cadre), dans lesquelles périodes de temps, il peut prononcer le texte à dire, avec quel volume et etc.
+        </p>
+        <p>
+          <strong>3.</strong>
+          L'option la plus facile, mais que se produit plus rarement : il que le traducteur invité et payé votre par vous traduit alternativement vos questions. Vous réspondez pour chaque question individuellement. Questions, ainsi que vos réponses viennent enregistrées sur dictophone. Quelques jours plus tard à vous sera envoyé pour approbation la transcription de l'entervue traduite en une langue étrangère dans la forme, dans laquelle elle devrait être publiée dans une édition imprimée étrangère. Vous commandez, à ce ou un autre traducteur la traduction inverse du texte d'entervue en français et, si nécessaire, faites des ajustements.
+        </p>
+        <p>
+          Dans tous les cas, il est souhaitable d'informer le Interprète à l'avance sur quel format sera faite l’entervue qu'il pourrait évaluer de façon réaliste ses forces et capacités. Bien sûr, d'autres choses étant égales, la préférence doit être donnée au traducteur, qui a déjà une expérience dans la traduction de l'entervue. D'une grande importance est l’allocution alphabétisée dans une langue étrangère, la clarté de la prononciation et en partie des données d’aspect du traducteur.
+        </p>
+        <p>
+          Traduction de l'entervue sera plus efficace si l'interprète à l'avance vient à connaissance des questions, et aussi à comment traduire les concepts clés mentionnés dans l’entervue, et aussi les titres et les organisations.
+        </p>
+    press_conference:
+      title: "Traduction des conférences de presse"
+      text: |
+        <p>
+          Vous participez à une conférence de presse pour répondre aux questions des journalistes étrangers.
+          Traduction à la conférence de presse - l'un des types les plus critiques et intensifs de traduction et l’exige de l'interprète une grande concentration et d'attention.
+        </p>
+        <p>
+          Traduction des conférences de presse a beaucoup à voir avec la traduction d'un entretien avec la seule différence que la conférence de presse se déroule dans un cadre plus formel, et des questions se posent pas un ou deux, mais d’une fois un grand nombre de représentants des médias. En outre, contrairement à la traduction des questions d'entrevue, les questions ne coordonnent jamas à l'avance avec le parlant, et peuvent être données spontanément et aussi par tous ceux qui sont présents à la conférence de presse.
+        </p>
+        <p>
+          Pour traduire une conférence de presse invitent habituellement un interprète expérimenté, possédant, si est possible, des compétences, soit la traduction consécutive soit simultanée. À l’interprete simultané sera difficile, s'il aura au cours d'une conférence de presse à traduire de longs et confus passages à mémoire.
+        </p>
+        <p>
+          Le traducteur doit être de l’aspect m soigné, rester avec assurance, être aussi précis que possible dans la traduction. S'il n'a pas entendu une partie de la réponse, il est préférable de demander à nouveau une fois de plus que donner libre cours à son imagination et donner une interprétation décomposée.
+        </p>
+        <p>
+          Il est recommandé, si possible, d’informer à l'avance de l'interprète sur le sujet de la conférence de presse et les questions qui devraient être touchés par elle. Ensuite, le traducteur sera en mesure de mieux se préparer pour la traduction, et sa traduction sera plus sûre et de qualité. S'il y a un texte préparé d'une communication ou d’un communiqué de presse, il est souhaitable de les présenter aussi au traducteur avant la conférence de presse. Et mieux encore - à l'avance à demander au traducteur professionnel à traduire ces textes par écrit dans la langue étrangère.
+          Une grande aide pour l'interprète sera une liste écrite de tous les participants à la conférence de presse dans les deux langues.
+        </p>
+
+    protocol_translation:
+      title: "Traduction de protocole"
+      text: |
+        <p>
+          La traduction diplomatique ou protocole a beaucoup en commun avec la traduction dans les pourparlers. La seule différence est que dans ce cas, les réunions sont de caractère juridique et sont plus formel.
+          Par conséquent, en plus de la qualité de la traduction, a l'importance le respect et le contrôle par l'interprète des aspects et des règles formelles, liées à l'étiquette diplomatique et d'affaires, y compris costume strict, cravate, etc.
+        </p>
+        <p>
+          Traducteur n'a pas le droit de divulguer toute information à caractère interne, qui vient à sa connaissance à la suite de la préparation et la participation à cette réunion officielle en tant qu'interprète.
+        </p>
+        <p>
+          Dans les réunions de protocole sont strictement réglementés les sièges, y compris l'emplacement de l’interprète. Habituellement, l'interprète est assis à droite ou à gauche de le chef de la délégation avec laquelle il a été effectué. Mais il y a des exceptions.
+        </p>
+        <p>
+          Il est important que durant la présentation au cours de la réunion, le traducteur correctement appelé tous les noms, les postes, les titres et les noms des institutions. Afin d'éviter les incidents désagréables mieux instruire l'interprète d’abord, et orienter il par les noms, les positions et les concepts qui pourraient causer d'autres difficultés dans la traduction.
+        </p>
+        <p>
+          Dans la traduction diplomatique ou protocole, lorsque parle le chef de la délégation, généralement il vient traduit par “ son “ traducteur en langues étrangères (par exemple, espagnol ou allemand). En prenant la parole par le chef de la délégation étrangère, il vient traduit aussi par ” son “ traducteur habituellement sur non d’origine pour lui la langue française.
+        </p>
+        <p>
+          On croit que " son " traducteur sait l'essence de la question plus en détail, il dispose des informations de base nécessaires et, que - le plus important ! - ne commettra pas les distorsions idéologiques dans la traduction des pensées de son patron pour une langue étrangère, va traduire tout le " comment doit être". Une petite rugosité du style ne comptent pas beaucoup.
+        </p>
+        <p>
+          En plus de son interprète, on peut toujours strictement demander pour la traduction inexacte ou incomplète. Il est plus facile de corriger ou même lui dire, s'il vient embarrassé à traduire quelques subtilités. Et ce ne serait pas une violation du protocole diplomatique et l'étiquette des affaires.
+        </p>
+
+    judicial_translation:
+      title: "Traduction judiciaire"
+      text: |
+        <p>
+          Admettons que vous êtes le demandeur, le défendeur ou le représentant et allez à la ville à l'étranger à l'audience - et vous avez besoin d'un interprète judiciaire local.
+        </p>
+        <p>
+          Dans des nombreux pays il existe une classe privilégiée spéciale de soi-disant "traducteurs assermentés". Ils sont parfois appelés simplement «interprètes judiciaires».
+        </p>
+        <p>
+          Si du touriste ou l’homme d'affaires vient détenu en tant que personne privée sur le territoire de, disons, l'Allemagne ou l'Espagne, pour des infractions administratives, et encore plus il vient soupçonné d'avoir commis des infractions pénales, puis, bien sûr, à engager soi-même à la recherche d'un interprète il ne serait pas. Il faudra faire à la police locale et les autorités judiciaires.
+          Mais si vous êtes le demandeur ou le défendeur dans la procédure devant la Cour d'arbitrage ou lors de l'audience sur certains cas civil, vous pouvez essayer à inviter et proposer à le tribunal la candidature d'un traducteur agréé indépendant de votre choix. Il est le droit du tribunal d'accepter ou de rejeter un tel traducteur.
+        </p>
+        <p>
+          Pour la traduction réussie de la cour, en plus des bonnes compétences d'interprétation consécutive, à un interprète sera necessaire la connaissance pratique de la terminologie juridique de la branche du droit, à laquelle appartient l’audience. Par exemple, le droit civil, le droit commercial ou le droit de la mer sont des domaines très différents avec des termes spécifiques et des nuances juridiques.
+          Ayant toutes autres choses égales il est toujours préférable de choisir un traducteur, qui a déjà une expérience de traduction réussi à des audiences. Il est important de compréhension d’un traducteur par oreille tout entièrement, avant tout, la langue dans laquelle la procédure se déroule, ainsi que la capacité de convertir rapidement et avec précision à toutes les questions, réponses et déclarations au tribunal, vers l’un et l'autre sens.
+        </p>
+        <p>
+          On suppose que n'importe quel " traducteur assermenté " certifié, par définition, il répond à ces critères d'admissibilité. Mais si dans un pays donné, il n'y a pas institutionnalisé la catégorie des interprètes assermentés ou judiciaires, il est préférable de demander à l'avance, quelles sont les exigences formelles que les autorités judiciaires du pays appliquent aus traducteurs pour admettre à eux à la traduction aux audiences, lors des entretiens avec des témoins, etc.
+        </p>
+        <p>
+          Dans tous les cas, au premier place est habituellement la présence à un traducteur du document confirmant ses compétences en traduction ( Diplôme Universitaire du Traducteur ou Certificat de dépôt de l'examen de qualification pertinente ) et, comment le deuxième facteur important, ( Il est necessaire pas au tribunal, mais pour le Client du service de traduction ) de nouveau, si le traducteur posséde une expérience de traduction professionnelle dans le tribunal.
+        </p>
+        <p>
+          Indépendement, que ce soit un traducteur officiel assermenté ou seulement un interprète fort, versé dans les subtilités juridiques, pour la traduction réussi au tribunal il est désirable de mettre-t-il en avance au courant de matériaux de cas et les positions des parties en litige judiciaire, au moins en termes généraux.
+        </p>
+  help_page:
+    search:
+      title: "Recherche de traducteurs"
+      block0: |
+        Précisez vos paramètres de recherche sur la page d'accueil. <br> Dans le champ " OÙ ", entrer nom de la ville où vous avez besoin d'un interprète. Déjà sur les premières lettres tapées le système vous suggérera des variantes des villes convenables.
+      block1: |
+        Cliquez sur le champ « QUAND » et depuis s’ouvre la fenêntre de la sélection de la période de temps.
+        <br>
+        Choisissez la date pour la quelle est nécessaire un traducteur, ensuite précisez la période du temps pour cette journée. Ajoutez la date et l'heure sélectionnée, cliquez sur "Ajouter". Vous pouvez spécifier le nombre de jours ou de périodes de temps. Vous pouvez indiquer plusieurs des jours ou des périodes du temps.
+        <br>
+        Confirmez le choix de la date et de le temps avec le bouton “ Choisir ”.
+      block2: "Dans la chambre “ QUELLE LANGUE EST NÉCESSAIRE ” indiquez de la liste des langues, la langue de traduction que vous voulez et laquelles possédent les traducteurs de la ville choisi."
+      block3: "Depuis que tous les paramètres définis, presse le bouton “ CHERCHER ”. Notre robot d'exploration commencera immédiatement le traitement de la demande et après quelques secondes ouvre le page avec les résultats de recherche."
+    filter:
+      title: 'Filtrage et triage des résultats de recherche, le choix d’interprète'
+      block0: 'Liste des résultats dans la ville sélectionnée peut parvenir à plusieurs dizaines des offres des traducteurs. Choisir un traducteur approprié d’une pluralité vous pouvez en utilisant des filtres. <br> Filtrer les offres à un prix vous pouvez en utilisant le curseur de filtre " Prix ".'
+      block1: 'Pour sélectionner les traducteurs dans le service que vous intéresse, cocher une ou plusieurs des options. Parmi les interprètes ne laissant que ceux qui fournissent justement ces services.'
+      block2: 'Spécifiez les thèmes de spécialisation de l’interprétation, les mieux adaptées à votre cas. Parmi les options ne laissant que les interprètes qui travaillant dans la spécialisation de l’interprétation, que vous désiré.'
+      block3: 'Les options du système proposées est pratique trier dans le facteur de choix le plus essentiel pour vous. Si vous êtes surtout intéressé par des offres de services de l’interpretation de bon marché, insérez le triage dans le prix, et ainsi premiers dans la liste afficherent les offres les plus accessibles. Cliquez sur le bouton de triage du prix de nouveau et les propositions les plus chères seront affichées en premier. Cette action permettra vous examiner d’abord les offres des interprètes de haute qualité, le prix des services de lesquels sont généralement plus élevés.'
+      block4: 'Si nécessaire, vous pouvez créer une nouvelle recherche de traducteurs. Pour ce faire, modifiez les paramètres dans le formulaire de recherche sur cette page et cliquez sur " Rechercher ". Le système vous offrira de nouvelles options.'
+      block5: 'Pour afficher des informations sur l’interprète sélectionné, les détails de sa offre et les services d’interprètation acctssibles pour de réservation, cliquez sur la photo ou le nom de l’interprète.'
+    view:
+      title: "Visionnage de l’information sur l’interprète, choix du service"
+      block0: 'Sur la page est affichée l’information sur l’interprete : description de base, des paires des langues de la traduction et les thèmes de traduction de sa spécialisation. L’information sur les diplômes, certificats, expériences, recommandationes et manifestations de l’interprete, ouvrent dans des fenêtres séparées lorsque vous cliquez sur ces éléments.'
+      block1: 'Dans la section “ Interprètes similaires ” vous sont proposés des autres interprètes trouvés dans la ville sélectionnée. Vous pouvez regarder des informations sur tout des eux en cliquant sur la photo ou le nom.'
+      block2: 'Dans les profiles des interprètes visionneés sont énumérées des services disponibles pour la commande. Choisissez un service de votre intérêt en cliquant sur le bouton “ Réserver ” en regard du service correspondant.'
+      block3: "Immédiatement après de la sélection du service d'interprétation s’ouvre la page pour la formalisation de l’ordre."
+    order:
+      title: "Formalisation de l’ordre"
+      block0: "Avant de placer votre commande, mettez vous au courant des paramètres d'elle, représentés sur la page de sa formalisation."
+      block1: "Si vous êtes déjà inscrit sur le site ou faites une réservation autrefois, alors vous pouvez placer votre commande plus rapidement, remplissant moins de champs. Pour ce faire, autorisez-vous dans votre compte en utilisant le Votre  nom d'utilisateur et mot de passe. Si vous n’est pas inscrit, alors enregistrer est pas nécessairement, l’inscription de votre compte sera fait automatiquement, immédiatement après de la formalisation de la commande."
+      block2: |
+        Pour former la commande sur le service choisi, remplissez, s’il vous plaît, le formulaire de commande:
+        <br>
+        <strong> 1.</strong> Entrez vos coordonnées dans la section “ Information sur le client ”
+      block3: "<strong> 2.</strong> S'il vous plaît, entrer votre numéro de téléphone cellulaire pour communiquer avec vous et envoyer à vous des notifications à propos de l'ordre. S'il vous plaît noter, que ce nombre est le principal moyen de communication avec vous à l’interprète, donc nécessaire de préciser le numéro de téléphone avec le code international dans le format “ +33 ” ( pour les numéros de France ). Par example si votre numéro de téléphone mobile est 33023150000, alors devrait être indiquer +33023150000."
+      block4: "<strong>3.</strong> Indiquez l'adresse exacte de la rencontre avec l‘interprète, en utilisant le champ de l’entrée d'adresse ou en utilisant la carte de la ville choisi"
+      block5: "<strong> 4. </strong> Lors de la formalisation de la commande, vous pouvez indiquer l’information pour l’interprète necessaire à préparation pour la traduction : le règlement de la réunion planée, description des principaux sujets de discussion lors de la réunion, etc. Aussi vous pouvez joindre le fichier contenant de la description ou de la présentation, lequel sera envoyé au traducteur ensamble à l’avis de l’ordre."
+      block6: 'Appuyez sur “ Sélectionnez un mode de paiement ” pour enregistrer les données de la commande et passer vers le dernier étape de le registrement de la commande.'
+      block7: "Après avoir enregistré les données de commande à vous sera demandé de choisir un mode de paiement. Passez par la procédure d'enregistrement du paiement pour terminer l'enregistrement de la commande."
+    payment:
+      title: "Méthodes de Paiement de la commande"
+      block0: |
+        <p>Vous pouvez choisir comment payer pour l`ordre :</p>
+        <ul>
+          <li>Par carte de crédit ;</li>
+          <li>Par virement bancaire ;</li>
+          <li>En espèces ;</li>
+        </ul>
+      block1: |
+        <br>
+        Si vous choisissez de payer par carte de crédit, alors pour l'achèvement de l'enregistrement et le paiement de l'ordre devrait être:
+        <br>
+        1. Spécifiez le type de carte : VISA ou Master Card
+        <br>
+        2. Entrer le numéro de carte de crédit ( ceci est les 16 chiffres sur sa face avant )
+        <br>
+        3. Indiquez la date de la fin de validité de la carte
+        <br>
+        4. Indiquez le nom du titulaire de la carte comme ils sont écrits sur la carte
+        <br>
+        5. Entrez le code de sécurité de la carte ( CVC/CVV ) ceci est le code supplémentaire à trois chiffres imprimé sur le dos de votre carte
+        <br>
+        6. Confirmez que vous avez lu et accepté les Conditions Générales d'Utilisation
+        <br>
+        7. Appuyez sur le bouton " Commander des services de l’interprete "
+      block2: |
+        <p>
+          Commande et la réalisation de paiement prendra environ d’une minute. S’il vous plaît, ne appuyez pas sur le bouton de rafraîchissement de la page et ne fermez pas la fenêtre du navigateur jusqu'à ce que la procédure est terminée.
+          <br/>
+          Après la formalisation de la commande et l'exécution du paiement, montant de la commande sera bloqué sur votre carte. Vous verrez une page avec les détails de la commande et sa confirmation. Débitée de la carte peut se produire immédiatement ou depuis quelques jours, selon les conditions de l'annulation sans frais.
+        </p>
+        <p>Quelques minutes après le paiement sur votre e-mail viendra une lettre avec des détails de l'ordre, et dans les pièces attachées, vous trouverez le reçu de paiement et le bon de commande. Le bon de l’ordre est un document unique, confirmant l'enregistrement et le paiement de l'ordre pour le service de traduction choisi, et nous vous recommandons d'imprimer-le ou enregistrer-le sur votre appareil mobile, que vous prenez avec vous au votre voyage.</p>
+        <p>
+          Si vous ne recevez pas un courriel avec le bon, le reçu et la confirmation de formalisation de la commande, verifiez, s’il vous plaît, la dossier " Spam " et le " Courrier indésirable ". En raison des paramètres du triage de messagerie la lettre électronique peut y arriver par erreur. Si vous ne l'avez pas pu trouver, s’il vous plaît, dirigez-vous à la notre assistance pour clients autour de l'horloge.
+        </p>
+        <p>En cas d'annulation d’ordre le montant sera remboursé à la même carte, par lequel il a été payé. Dans certains cas, décrits par avance, le service a le droit de retenir une partie ou la totalité du coût de la commande annulée. Termes et conditions d'annulation de la commande sont énumérés à côté des informations de prix, dans une colonne spéciale, et aussi dans les Règles générales d'utilisation du service interpreters.travel. Ne oubliez pas de se mettre au courant avec eux avant de faire la commande.</p>
+      block3: 'Si vous souhaitez payer la commande par virement bancaire, cochez le pointe “ Facture “.'
+      block4: |
+        <p>
+          Facture de paiement peut être consulté directement sur cette page. Après la établissement de la commande, le compte vous sera envoyé par e-mail avec la confirmation de la commande. Payer la facture peut être en tout façon pratique pour vous : à l’aide du système banque électronique ou dans les agences bancaires.
+          <br/>
+          Le paiement doit être effectué dans le délai prévu dans la facture, afin d'éviter l'annulation automatique. Puisque transfert de fonds d'un compte à un autre pourrait prendre jusqu'à trois jours ouvrables, nous vous recommandons d'effectuer le paiement d'au moins trois jours ouvrables avant l'expiration de ladite période.
+          <br/>
+          Dès réception du paiement, nous vous enverrons une lettre à votre e-mail avec une confirmation de la commande, la réception du paiement de la commande et le bon de commande. Le bon de l’ordre est un document unique, confirmant l'enregistrement et le paiement de l'ordre pour le service de traduction choisi, et nous vous recommandons d'imprimer-le ou enregistrer-le sur votre appareil mobile, que vous prenez avec vous au votre voyage.
+        </p>
+        <p>
+          Si vous ne recevez pas un courriel avec le bon, le reçu et la confirmation de formalisation de la commande, verifiez, s’il vous plaît, la dossier " Spam " et le " Courrier indésirable ". En raison des paramètres du triage de messagerie la lettre électronique peut y arriver par erreur. Si vous ne l'avez pas pu trouver, s’il vous plaît, dirigez-vous à la notre assistance pour clients autour de l'horloge.
+        </p>
+        <p>En cas d'annulation d’ordre le montant sera remboursé à la même carte, par lequel il a été payé. Dans certains cas, décrits par avance, le service a le droit de retenir une partie ou la totalité du coût de la commande annulée. Termes et conditions d'annulation de la commande sont énumérés à côté des informations de prix, dans une colonne spéciale, et aussi dans les Règles générales d'utilisation du service interpreters.travel. Ne oubliez pas de se mettre au courant avec eux avant de faire la commande.</p>
+      block5: ""
+      block6: |
+        <p>Si vous sélectionnez " Argent comptant " vous payez en argent comptant directement au traducteur, dans la monnaie de pays de traducteur au taux de change en vigueur au moment d’exécution la commande. Vous recevrez un reçu de paiement dans la monnaie de pays de traducteur</p>
+        <strong>4.</strong>
+        </p>
+    cabinet:
+      title: "L’espace personnel"
+      block0: |
+        <p> Dans le votre espace personnel vous pouvez regarder toutes vos commandes et l’histoire de vos recherches. Pour entrer dans votre espace personnel, utilisez votre login et le mot de passe, que a été envoyé à l'adresse e-mail utilisée pour l'enregistrement. </p>
+        <p> Dans la section « Mes commandes » se trouvent toutes vos commandes. Vous pouvez afficher toutes commandes en cliquant dessus, et ainsi s’ouvrera la page de visualisation de la commande. Si la commande n'a pas encore été fait, vous pouvez l’annuler en cliquant le bouton “ Annulation de la commande ”. </p>
+      block1: "Dans la section “ Mes recherches ” se trouve l’histoire de la recherche des interprètes. Vous pouvez afficher toutes les recherches en cliquant dessus, et ainsi s’ouvrera la page des résultats de recherche avec la liste des interprètes."
+      block2: ''
+  support_page:
+    title: "Assistance 24/7"
+    header_text: |
+      <h2> Nous travaillons pour vous. 24 heures par jour, 7 jours par semaine.</h2>
+      <p> Vous pouvez contacter notre service clientèle et le support en tant qu’interprète et en tant que client. Nous sommes prêts à vous aider à tout moment, où que vous soyez.</p>
+    help_link: "Assistance"
+    footer_text: |
+      <p></p>
+    footer_text:
+  terms_page:
+    title: "Termes et Conditions"
+    text: |
+      <p>
+        La société Interpreters.travel OÜ ( ensuite
+        <strong>«Interpreters.travel»</strong>
+        ,
+        <strong>“ nous ”</strong>
+        ou
+        <strong>“ notre ”</strong>
+         ), constituée en vertu de la législation de la République de Estonie, Il fournit une plate-forme en ligne qui relie les consommateurs ( ensuite
+        <strong>“ Client ”</strong>
+        )
+        des services d'interprétation ( ensuite
+        <strong>“ Services ”</strong>
+        )
+        avec l’interprète ( ensuite
+        <strong>“ Interprète ”</strong>
+        )
+        et tels Services offrent par l'annonce de l’Interprète ( ensuite
+        <strong>“ Annonces ”</strong>
+        ) sur le site
+        %{root_link}
+        (ensuite
+        <strong>“ Site ”</strong>
+        ).
+      </p>
+      <p>
+        En utilisant le site, vous acceptez de respecter et d'être lié par les termes et dispositions de ces termes et conditions ( ensuite
+        <strong>“ Termes et Conditions ”</strong>
+        ),
+        indépendamment du fait que vous allez devenir un utilisateur enregistré du site ou non.
+        Les présentes Termes et conditions régissent votre accès et l'utilisation du Site et tout le contenu ( ensuite
+        <strong>“ Contenu ”</strong>
+        ),
+        et ils sont un accord juridiquement contraignant entre vous et la société Interpreters.travel.
+        S'il vous plaît, lissez  ces conditions d'utilisation et notre Politique de confidentialité, qui peut être trouvé à l'adresse :
+        %{privacy_policy_link}
+        intégrante des présentes Termes et conditions générales par référence.
+      </p>
+      <p>
+        Vous reconnaissez et acceptez qu'en accédant ou en utilisant le site web, ou téléchargement ou affichant tout contenu sur le Site ou de Site, vous déclarez que vous avez lu, compris et acceptez de respecter ces Règles et conditions, indépendamment du fait que vous êtes inscrit ou non. Si vous n'êtes pas d'accord à ces Termes et Conditions, vous n'avez pas le droit d'accéder ou utiliser le Site ou le Contenu.
+      </p>
+      <p>
+       Si vous acceptez ou acquiesciez les présentes Conditions générales pour le compte de la société ou une autre entité juridique, vous donc ainsi déclarez et garantissez, que vous avez le pouvoir de lier cette société ou une autre entité juridique avec ces Termes et Conditions, et alors les mots « vous » et « votre » seront réfèrants à une telle société ou une autre entité juridique.
+      </p>
+      <p>
+        <strong>Les termes principaux</strong>
+      </p>
+      <p>
+        « Interpreters.travel » - est la société Interpreters.travel OÜ, sur lequel l'information est présentée sur la page :
+        %{about_link}
+      </p>
+      <p>
+        <strong>« Site »</strong>
+        est une plate-forme en ligne à travers laquelle les traducteurs peuvent publier des annonces sur leurs services d'interprétation, et les clients peuvent obtenir des informations sur les interprètes et les services d'interprétation, de commander des services d'interprétation.
+      </p>
+      <p>
+        <strong>« Contenu »</strong>
+        signifie le texte, les éléments graphiques, les images, les informations et d’autres matériaux, lesquels la société Interpreters.travel offre à l’aide de le Site, y compris tout le contenu qui a été obtenu sous licence auprès d'une tierce partie, y compris le contenu donné à la société Interpreters.travel ou placé sur le Site web par des Traducteurs et des Clients.
+      </p>
+      <p>
+        Comment <strong>« Client »</strong>
+        désigne un utilisateur enregistré qui établit une commande sur les services d'interprétation à travers le Site.
+      </p>
+      <p>
+        Comment <strong>" Traducteur "</strong>
+        désigne un utilisateur enregistré, qui créé directement des annonces sur le Site et qui agit directement sur des services d'interprétation.
+      </p>
+      <p>
+        <strong>" Annonce "</strong>
+        signifie le placement de l'information sur les services d'interprétation interprète, qui sont offerts à travers le Site.
+      </p>
+      <p>
+        <strong>" Bon d’ordre "</strong>
+        est le document de base confirmant la confirmation et d'inscription de l'ordre.
+      </p>
+      <p>
+        <strong>" Coût total "</strong>
+        est le montant de l'ordre de services d'interprétation aux clients payants, avec des rabais établis par traducteurs et des taxes y compris, dans le cas échéant.
+      </p>
+      <p>
+        <strong>Comment fonctionne le Site</strong>
+      </p>
+      <p>
+        Le Site peut être utilisé pour publier des Annonces de Service ou pour faire la commande sur des services d'interprétation. Tels services sont spécifiés dans l'interpréteur à traves de l’annonce sur le site Web. Vous pouvez consulter les annonces comme un visiteur non enregistré sur le Site; toutefois, si vous souhaitez commander des services d'interprétation ou de créer une annonce, vous devez d'abord vous inscrire et créer un compte sur le site ( ensuite
+        <strong>“ Compte ”</strong>
+        ), comme décrit dans la section “ Register Compte “ ci-dessous.
+      </p>
+      <p>
+        Comme indiqué plus haut, la société Interpreters.travel fournit la plate-forme en ligne, ainsi que la technologie nécessaire, pour que le Clients trouvent un interprète de la langue souhaitée dans la ville choisi et ordonnent services d'interprétation au moment voulu, au endroit indiqué. La société Interpreters.travel elle n’est pas un interprète, ni représentant autorisé d’un traducteur, ni un employeur, ni un employeur de traducteurs ou d'agences de traduction, directement impliqué dans les services d'interprétation et d'autres services fournisses dans les annonces. La responsabilité de la société Interpreters.travel est limité à fournir l'accès au Site et à intervenir comme un agent de l'autorité limitée pour chacun des traducteurs et de recevoir des paiements de clients en faveur des traducteurs.
+      </p>
+      <p>
+        S'il vous plaît notez que la société Interpreters.travel ne peut pas contrôler et ne contrôle pas le contenu de chaque Annonce, condition, législation ou conformité des services d'interprétation. La Société Interprètes Worldwide n’est pas responsable des annonces et des services d'interprétation et décline toute responsabilité en relation avec les annonces, le contenu des traducteurs et des services d'interprétation. En conséquence, toutes les opérations sur la commande des services d'interprétation seront réalisées au risque du client.
+      </p>
+      <p>
+        <strong>Enregistrement le Compte personnel</strong>
+      </p>
+      <p>
+        Utiliser certaines fonctionnalités du site, trouver de l’interprète et consulter les annonces vous pouvez en tant qu'utilisateur non enregistré, mais pour commander les services d'interprétation dont vous avez besoin d’enregistrer votre Compte et devenir un utilisateur enregistré. Nous avons prévu une procédure d'enregistrement simplifiée pour faire la commande de services d'interprétation. L’inscription et création du Compte se font automatiquement lors du procédure de commande.
+      </p>
+      <p>
+        Si vous êtes un traducteur et vous souhaitez enregistrer votre Compte et puis publier votre annonce sur les services d'interprétation, vous devez d'abord demander de création de votre Compte sur la page
+        %{help_interpreter_link}
+        et puis suiver les instructions indiquées dans les messages. Nous allons créer votre compte et votre page de profil pour votre utilisation du Site, basé sur les informations personnelles que vous nous fournirez.
+      </p>
+      <p>
+        <strong>Publication des annonces</strong>
+      </p>
+      <p>
+        Toutes les annonces des services d'interprétation sont publiés en conformité avec les présentes Règles et Conditions générales, ainsi que des règles pour les traducteurs ( ensuite
+        <strong>“ Règles pour Traducteurs ”</strong>
+        ). Les règles pour traducteurs sont publiées dans le partage “ Help ” du Compte du Traducteur et sont accessibles Pour les interprètes autorisés dans son Compte sur le Site par moyen de nom et mot de passe.
+      </p>
+      <p>
+        Vous en tant d’être un traducteur, ayant enregistré en Compte et  ayant obtenu l’accès pour la publication des annonces sur le Site vous confirmez et vous acquiescez que en obtenant l’accès à la publication des annonces ainsi vous représentez que vous comprenez et confirmez que le droit de publication des Annonces vous avez seulement après de lecture et l’acceptation de Règles pour les Traducteurs, et aussi les Règles et conditions presentes et la Politique de confidentialité. Si les Règles pour les Traducteurs, les Termes et Conditions Générales présentes et Politique de confidentialité ne seront pas acceptés par vous, dans ce cas, vous ne aurez pas le droit de publier des annonces sur le site.
+      </p>
+      <p>
+        <strong>Registration de commande et le conditions de prèpaiement pour les Clients</strong>
+      </p>
+      <p>
+        Comme indiqué plus haut, le site est une plate-forme en ligne, ainsi que la technologie nécessaire à la recherche de l'interprète de la langue souhaitée dans la ville sélectionnée. Pour chercher des Interprètes et faire d’une commande pour des services d'interprétation s’utilisent des fonctions du Site et les technologies pour la sélection des Traducteurs appropriés, examiner ses Annonces des services d’interprétation et faire la commande pour les services d'interprétation par le moyen d'un formulaire spécial sur le site.
+      </p>
+      <p>
+        En concluant un accord avec un Traducteur, un passant une commande pour des Services d'interprétation, vous acceptez et comprenez que vous devrez conclure un accord avec le Traducteur. Vous reconnaissez et acceptez que la société Interpreters.travel n’est pas l'une des parties à ces accords et que, sauf pour les paiements spécifiées dans ce document, la société Interpreters.travel ne partage pas la responsabilité découlant de ces accords, ou en relation avec ceux-ci. Vous reconnaissez et acceptez que, cependant que la société Interpreters.travel n’est pas l'une des parties à ces accords entre vous et le Traducteur, la société Interpreters.travel agit comme un agent payeur de l'interprète à but restreint de recevoire vos paiements de partie de l’interprète. Dès moment de la réception de votre paiement en faveur du traducteur par la société Interpreters.travel vos obligations monétaires à l'interprète sur ce montant éteignent et dès ce moment la société Interpreters.travel est responsable du transfert du paiement à Traducteur après l'exécution de la commande pour ce service d'interprétation. Dans le cas où la société Interpreters.travel ne fait pas le paiement au Traducteur, alors Traducteur a le droit d'exiger ce paiement seulement de la société Interpreters.travel. Vous acceptez de payer à la société Interpreters.travel le coût total de la commande pour les Services d'interprétation, qui a été enregistrée à travers le Site et aussi que la société Interpreters.travel, au nom du traducteur, se réserve le droit de:
+      </p>
+      <p>
+        <ul>
+          <li>
+            obtenir l'autorisation préalable de retirer des fonds de votre carte de crédit ou le compte PayPal de la taille de la valeur totale de la commande, si au moment de la commande pour un service d’interprète la condition pour annulation sans frais n’est pas valable;
+          </li>
+          <li>
+            ou de débiter de votre carte de crédit, un montant nominal ne dépassant pas d’un euro (1 € ), en équivalent des roubles, afin de vérifier l'authenticité de vos cartes de crédit, si, au moment de la réservation pour les Services d'interprétation sélectionnés, opérant état d’annulation sans frais. Après l'expiration de délai de l'annulation de la commande sans frais, la société Interpreters.travel enleve le côut total, dans le cas du paiement à travers le PayPal ou le côut total avec la déduction faite du montant nominal préalablement retiré pour authentifier votre carte dans le cas du paiement à travers la carte de crédit. <br/>
+            S'il vous plaît noter, que la société Interpreters.travel ne peut pas contrôler les frais, qui peuvent être imputés au client par sa banque, associées à la perception par la société Interpreters.travel le côut total, et la société Interpreters.travel décline toute responsabilité à cet égard. Dans le cadre de l'enregistrement de votre commande, vous consentez à la perception de telles sommes par retrait d'espèces de la carte de crédit ou de le compte PayPal, données au sein de l’enregistrement de la commande indirectement, par une société indépendante de traitement des paiements. Si vous allez à la page de la société indépendante pour le traitement des paiements de la société Interpreters.travel, vous pouvez être soumis aux termes et conditions régissant l'utilisation des services d'une telle société, ainsi que à la pratique de la collecte de renseignements personnels. Mettez-vous au courant des termes et conditions ainsi que de la politique de confidentialité, avant de commencer à utiliser les services.<br/>
+            Après que l'opération d’enregistrement de commande est terminée, vous recevrez un message par e-mail:
+            <li>
+              ou les Informations sur la commande avec les coordonnées de Traducteur et le Bon de la commande, si au moment de l’enregistrement de la commande pour un service d’interprète choisi la condition pour l’annulation gratuite de la commande n’est pas valable et la commande est payée.
+            </li>
+            <li>
+              ou d'abord avec des informations sur la commande, sans le contact, d’interprète, si au moment de l’enregistrement de la commande pour un service d’interprète choisi la condition pour l’annulation gratuite de la commande est valable qui reflète de manière appropriée dans l'Annonce ou si la commande n'a pas encore été payée, et puis, après de l'expiration de le délai de l'annulation sans frais de la commande et la réception du paiement, les Informations sur la commande avec les coordonnées de Traducteur et le Bon de la commande,
+            </li>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <strong>Conditions de paiement de la commande avec espèces directement au Traducteur</strong>
+      </p>
+      <p>
+        Dans le cas d’enregistrement d’une commande avec la condition de paiement en espèces directement au Traducteur, Client paie pour la commande en espèces directement au Traducteur. Dans ce cas, la société Interpreters.travel ne fonctionne pas comme un agent de paiement de Traducteur et elle n’est pas responsable de paiement de commande à Traducteur pour la commande exécuté des services d'interprétation. Si le Client ne paie pas pour la commande exécuté à l’Interprète, alors le Traducteur a le droit d'exiger le paiement de la part de Client, au lieu de la société Interpreters.travel.
+      </p>
+      <p>
+        Vous reconnaissez et acceptez que étant de façon de Client et en plaçant de la commande pour des services d’interpretation à travers le Site et choisissant le moyen de payer pour la commande en espèces directement au Traducteur, vous acceptez de payer le coût total du traducteur a rendu d’une ordonnance pour des services d'interprétation en monnaie du Traducteur et vous êtes responsable envers le Transporteur pour le paiement de la commande exécutée des services d'interprétation.
+      </p>
+      <p>
+        <strong>Règles générales d'annulation et de remboursement <br/></strong>
+        Conditions et la période d’annulation de la commande sans frais se fixent par Traducteur et vont indiquées en manière correspondant dans l'annonce de la commande. Si vous, en tant que Client, allez d’annuler votre commande des services d'interprétation avant de la délai d’annulation sans frais de la commande, la société Interpreters.travel va à rembourser tous 100% du montant de la valeur totale de la commande. Si vous voulez d’annuler la commande après la période de l'expiration de l'annulation sans frais et avant le moment de la prestation de service, la société Interprètes Worldwide va à rembourser la valeur totale de la commande avec déduction de la somme du paiement de 2 ( deux ) heures du Service, qui a désigné dans la commande. Si le nombre total d'heures de la commande ne dépasse pas de 2 ( deux ) heures, le remboursement de la valeur total de la commande ne va pas effectuée. Si vous souhaitez d’annuler la commande après l'heure de début du service, le remboursement de la valeur total de la commande ne va pas effectuée. En cas de remplacement de l’Interprète quand la commande a été annulée en raison d'une absence de substitution d’un Traducteur ou si un tel remplacement n’est pas confirmée par le Client, la société Interpreters.travel va à rembourser tous 100% du montant de la valeur totale de la commande.
+      </p>
+      <p>
+        <strong>L’annulation de la commande avec le paiement en espèces au traducteur.</strong>
+      </p>
+      <p>
+        Dans le cas de l’enregistrement de la commande avec le paiement en espèces au Traducteur, l’annulation de la commande après la période de l'expiration de l'annulation sans frais et avant le moment de la prestation de Service, s’oblige au Cliente à indemniser le somme de paiement de 2 ( deux ) heures du Service, qui à été indiquée dans la commande. L’annulation de la commande après l'heure de début du service, oblige le client à rembourser 100% de la valeur totale de la commande. L’annulation de la commande avec paiement en espèces directement au Traducteur avant la date de limite d'annulation de la commande, libére totalement le client de paiement.
+      </p>
+      <p>
+        En cas de remplacement de l’Interprète, lorsque la commande avec le paiement directement au Traducteur vient annulé en raison du manque de remplacement du Traducteur ou si un tel remplacement n’est pas confirmée par le Client, la société Interpreters.travel est complètement délivrée de toute indemnisation ou de payer au Client et au Traducteur dans le cadre de cette commande et elle n’est pas responsable des conséquences d'une telle annulation.
+      </p>
+      <p>
+        <strong>Blocage et suppression de Compte</strong>
+      </p>
+      <p>
+        Nous sommes en droit, à votre discrétion et sans aucune responsabilité envers vous, avec ou sans motif, en fournissant un avis préalable ou sans, à tout moment, résilier les présentes Régles et Conditions Générales ou de refuser votre accès à notre site, désactiver, bloquer ou supprimer votre compte. En cas de résiliation du contrat, nous allons immédiatement vous payer les sommes de tout ce que nous sommes vous obligés à payer dans le cadre de notre engagement. Dans le cas si la société Interpreters.travel résiliera les présentes Conditions ou interdira votre accès à notre site, désactivera ou annulera votre Compte, vous serez responsable de tous les montants dus au titre du contrat.
+      </p>
+      <p>
+        Vous pouvez supprimer votre Compte à tout moment en envoyant à nous votre demande par e-mail:
+        <a href="mailto:support@interpreters.travel">support@interpreters.travel</a>. Notez que si votre Compte a été supprimé nous ne sommes pas obligés de supprimer ou de rendre à vous de tout Contenu, que vous avez placé sur le site, y compris, entre autres, tous les rappels.
+      </p>
+      <p>
+        <strong>Comportement de l'Utilisateur</strong>
+      </p>
+      <p>
+        Vous comprenez et acceptez que vous avez la pleine responsabilité pour le respect de toutes les lois, règles, règlements et obligations fiscales, lesquelles peuvent être appliquées à vous pour votre utilisation du Site. Dans le cadre de l`utilisation du Site, vous n`êtes pas autorisé, et acceptez de ne pas faire ce qui suit :
+      </p>
+      <p>
+        <ul>
+          <li>
+            ne pas utiliser des logiciels manuels ou automatisés, instalations, des fichiers de commandes / robots de recherche, d'autres moyens ou opérations, qui permettant d’obtenir l'accès à toutes les pages Web ou d'autres services, figurant sur le Site ou le Contenu, utilisé contre eux " scrapers ", " araignées " ou " bots ", utiliser le Site à des fins commerciales ou autres fins, qui ne sont pas expressément autorisée par les présentes Régles et Conditions générales ;
+          </li>
+          <li>
+            mettre obstacle à la fonctionnalité ou nuire à notre Site, y compris, entre autres, les dommages résultant de l'utilisation de virus, agent-robots, virus cheval de Troie, code malveillant, les attaques de type déni de service, usurpation d'adresse IP, faux routage ou информации об адресе электронной почты et d'autres techniques et technologies similaires ;
+          </li>
+          <li>
+            utiliser notre site pour transmission, distribution, placement ou éxpedition de l'information, associée à une autre personne physique ou entité juridique, y compris, entres autres, photos d'autres personnes sans leur autorisation, coorVos données personnelles ou le numéros des cartes de crédit, de débit et cartes téléphoniques ou numéros de compte ;
+          </li>
+          <li>
+            utiliser notre site dans le cadre de la distribution de courrier électronique commerciale non réclamés ( " spam " ) ;
+          </li>
+          <li>
+            " Obséder " ou harceler avec le harcèlement de tout autre utilisateur du Site ou collecter ou stocker des informations, qui permet de définir l'identité d'un autre utilisateur pour les fins d’autres que pour la conduite des opérations comme d’un Client ou d'un Interprète ;
+          </li>
+          <li>
+            offrir comme un Interprète des services d'interprétation que vous ne rendez pas ;
+          </li>
+          <li>
+            inscrire plus d'un compte ou inscrire compte au nom d'une autre personne ;
+          </li>
+          <li>
+            communiquer avec un Traducteur dans un objectif quelconque, sauf pour les questions liées à la commande présenté de services d'interprétation ;
+          </li>
+          <li>
+            communiquer avec un Client dans un objectif quelconque, sauf pour les questions liées à la commande présenté de services d'interprétation ;
+          </li>
+          <li>
+            en agissant en tant que client ou autrement, reporter Pour les interprètes et d’autres utilisateurs autorisés avec une demande d'utiliser un service tiers ou rejoindre aux sites concurrents avec la société Interpreters.travel, sans l'autorisation écrite préalable de la société Interpreters.travel ;
+          </li>
+          <li>
+            pesonnifier l'identité d'une autre personne ou entité, ou de falsifier votre identité ou autrement soumettre de fausses informations sur vous-même ou votre liaison avec une autre personne ou entité ;
+          </li>
+          <li>
+            utiliser des scripts automatisés pour collecter des informations ou communiquer au Site autrement;
+          </li>
+          <li>
+            utiliser le site pour trouver un Traducteur ou d'un Client, puis rendre une ordonnance des Services d'interprétation à l'extérieur du Site ;
+          </li>
+          <li>
+            étant en qualité d’Interprète placer des annonces avec des informations fausses ou trompeuses sur le prix ou soumettre des annonces au prix, que vous n'avez pas l'intention de respecter ;
+          </li>
+          <li>
+            poster, télécharger, afficher ou transmettre tout Contenu que: contrefait ou détourne des droits de brevet, le droit d'auteur, marque commerciale, secret commercial, autorité morale et d’autres droits de propriété intellectuelle, ou le droit de publicité ou droit à la vie privée d'un tiers; viole ou tolérer à telles actions, qui violent les lois en vigueur et règlements applicables ou qui peut conduire à l'émergence de la responsabilité civile ; Il est faux ou trompeur ; il est déshonorante, indécent ou de caractère pornographique, vulgaire ou insultant favorise la discrimination, intolérance, racisme, haine, brigue ou cause le dommage à une personne ou au groupe de personnes ; Il a un caractère violent, ou il menace de violence ou d’actions, menaçant à quelqu’un; ou il promeut des activités illégales ou nuisibles ou l'utilisation de substances illégales ;
+          </li>
+          <li>
+            récupérer systématiquement les données ou tout autre contenu du notre Site pour créer ou  compiler, directement ou indirectement, par téléchargement d’un fois seul ou plus d’un fois, collection, base de données, répertoire et d’autre, soit manuellement soit par un agent-robots, des moteurs de recherche, “ araignées ” et d’autres ;
+          </li>
+          <li>
+            obtenir l’accès, falsifier ou utiliser aux parties du Site que ne sont pas destinées à un usage public, les systèmes informatiques de la société Interpreters.travel ou systèmes de transmission de données des providers de la société Interpreters.travel ;
+          </li>
+          <li>
+            tenter d'envoyer des messages texte, scanner ou tester la vulnérabilité des systèmes ou des réseaux de la société Interpreters.travel, ou violer toute les mesures de sécurité et d'authentification ;
+          </li>
+          <li>
+            éviter, éluder, enlever, désactiver, endommager, déchiffrer ou autrement éviter les mesures techniques, entreprendrées par la société Interpreters.travel ou par providers de la société Interpreters.travel ou par des autres tiers (y compris un’autre utilisateur ) pour la proterction du Site ou du Contenu ;
+          </li>
+          <li>
+            falsifier les titres des paquets TCP/IP ou n’import laquelle partie d’information de titre dans n’import quel message électronique ou la publication de groupe, ou utiliser le Site ou le Contenu Commun pour envoyer l’information modifié, falsifié ou fausse, permettant l'identification de la source ;
+          </li>
+          <li>
+            tenter de déchiffrer, démonter, désassembler ou effectuer l'ingénierie inverse de tout logiciel, qui s’utilise pour attribution du Site ou du Contenu ;
+          </li>
+          <li>
+            assister, encourager ou faciliter une tierce partie dans la mise en œuvre de l'une des actions mentionnées ci-dessus.
+          </li>
+        </ul>
+      </p>
+      <p>
+        <strong>Droit de propriété</strong>
+      </p>
+      <p>
+        Vous reconnaissez et acceptez que le Site et le Contenu, y compris tous les droits de propriété intellectuelle associés, se trouvent dans la propriété exclusive de la société Interpreters.travel.
+      </p>
+      <p>
+        <strong>Contenu</strong>
+      </p>
+      <p>
+        Nous avons le droit à notre seule discrétion de permettre aux utilisateurs enregistrés de poster, télécharger, afficher, envoyer  ou transmettre le Contenu. En attribuant le Contenu sur le Site, pour moyen du Site, vous, pour le présente, attribuez à la société Interpreters.travel dans le monde entier, irrévocable, perpétuelle, non exclusive, transférable, et n’est pas payable licence libre de droits avec le droit de sous-licence, utiliser, afficher, copier, adapter, modifier, distribuer, mettre sus la licence, vendre, transférer, mettre sur l'affichage public, exercer publiquement, transmettre, diffuser, obtenir l’accés, visualiser et exploiter autrement le Contenu sur ou à travers le Site. La société Interpreters.travel ne préconise pas des droits de propriété sur un tel Contenu, et rien dans ces Termes et Conditions ne limitera pas les droits que vous pourriez avoir sur l'utilisation et le exploitation d'un tel contenu.
+      </p>
+      <p>
+        Vous reconnaissez et acceptez que vous êtes seul responsable d’entier Contenu, que vous attribuez à travers le Site. Par conséquent, vous déclarez et garantissez que:
+        <li>
+          vous êtes le seul et unique propriétaire de tous les Contenus, que vous fournissez sur le Site, ou si vous avez tous les droits, licences, consentements et renonciations,requis pour fournir à la société Interpreters.travel les droits pour l’utilisation tel Contenu, comme vient prévu dans les présentes Régles et Conditions
+        </li>
+        <li>
+          ni Contenu, ni votre placement, téléchargement de la publication, présentation ou diffusion du Contenu, ni utilisation du Contenu ( ou sa partie ) par la société Interpreters.travel à travers le Site, ne dommage pas, ne s’attribue pas et ne viole pas les droits de brevet, le droit d'auteur, marque commerciale, secret commercial, autorité morale et d’autres droits de propriété intellectuelle, ou le droit de publicité ou droit à la vie privée d'un tiers et ne violent pas les lois en vigueur et règlements applicables.
+        </li>
+      </p>
+      <p>
+        <strong>Licence pour Contenu</strong>
+      </p>
+      <p>
+        Compte tenu de votre respect de ces Termes et Conditions la société Interpreters.travel vous donnée un licence limité, non exclusive et non transférable pour votre accés et visionnage du Contenu auquel accés à vous vient permis. Vous ne pouvez pas donner à sous-licence les droits de licence, à vous attribués dans cette section. Vous n'êtes pas autorisé profiter, copier, adapter, modifier, créer des oeuvres dérivées, distribuer, donner la licence, vendre, transmettre, représenter publiquement, envoyer, proclamer ou d’autre moyen utiliser le Site ou Contenu, sauf dans les cas spécifiquement indiqués dans les présentes Régles et Conditions générales.
+      </p>
+      <p>
+        <strong>Concession d'utiliser</strong>
+      </p>
+      <p>
+        Le site est uniquement destiné à être utilisé par des personnes de plus de 18 ans. L'accès et l'utilisation du Site par toutes personnes qui n'ont pas atteint l'âge de 18 ans est strictement interdite. En accédant ou en utilisant le site Web, vous déclarez et garantissez, ce que votre âge est pas moins de 18 ans.
+      </p>
+      <p>
+        <strong>Droit régissant et juridiction</strong>
+      </p>
+      <p>
+        Les preséntes conditions doivent être interprétées conformément aux lois de la République de Estonie. Soit nous soit vous tous donnons le consentement à se soumettre à la compétence personnelle des tribunaux de la République de Estonie sur toutes procédures, sur lesquelles les parties conservent le droit de demander l'application de mesures provisoires prohibitifs ou d'autres voies de recours redressement équitable devant un tribunal compétent afin d'éviter existantes ou potentielles violations, appropriation illicite ou la violation du droit d'auteur, marques de commerce, secrets commerciaux, brevets ou des autres droits de propriété intellectuelle l'une des parties.
+      </p>
+      <p>
+        <strong>Dispositions générales</strong>
+      </p>
+      <p>
+        L'incapacité à appliquer n'importe quel droit ou disposition du présent Règlement et Conditions par la société Interpreters.travel ne signifie pas son refus de faire exécution à ce droit ou réglement à venir. Toute renonciation à un tel droit ou disposition ne serait valable que si elle est faite par écrit et sa signature par le représentant autorisé de la société Interpreters.travel. Sauf disposition exprimées directement dans les présentes Régles et Conditions Générales, l'application par de l'une des parties de tous les moyens pour protéger elle-même, en conformité avec les présentes Conditions générales sera effectuée sans préjudice pour des autres moyens à sa disposition pour protéger elle-même en conformité avec les présentes Conditions ou autrement. Si pour une raison quelconque, un arbitre ou un tribunal compétent décidera, que n’import quelle disposition de présentes Conditions est invalide ou sans effet juridique, cette disposition sera appliquée dans toute la mesure permise, et d'autres dispositions des présentes Conditions resteront pleinement en vigueur.
+      </p>
+      <p>
+        <strong>Introduction des modifications.</strong>
+      </p>
+      <p>
+        La société Interpreters.travel uniquement à se réserve le droit, à sa seule discrétion, de temps en temps et sans préavis apporter des modifications sur le Site ou apporter des modifications dans ces Termes et Conditions. Si nous allons à apporter des modifications à ces Termes et Conditions, nous nous engageons à publier les changements sur le Site ou à vous fournir un avis de changements. Nous allons à mettre également à jour “ La date de la dernière mise à jour du document ” qui vient indiqué ci-dessous de ces Termes et Conditions. Ces changements ne concernent pas auxquels adoptés, jusqu'à le moment de la publication des modifications, les Régles et Conditions lors de l’enregistrement de la commande du Client et / ou de la publication de l’Annonce par le Traducteur. En continuant à utiliser le Site après que nous avons apporté des modifications au Site, les preséntes Régles et Conditions ou à vous avons envoyé un avis de modification vous donc déclarez que vous acceptez de respecter les Régles et Conditions de cette version modifiée.
+      </p>
+      <p>
+        <strong>Comment contacter avec la société Interpreters.travel</strong>
+      </p>
+      <p>
+        Si vous avez des questions au sujet de ces Régles et Conditions, adressez-vous à la société Interpreters.travel à l'adresse indiquée dans la section du site " A propos de nous "
+        %{about_link}.
+      </p>
+      <p>
+        <strong> La date du dernière mise à jour du document :</strong>
+        9 avril 2016
+      </p>
+  privacy_policy_page:
+    title: "Politique de confidentialité"
+    text: |
+      <p>
+        <strong>Politique de confidentialité et fichiers Cookie.</strong>
+      </p>
+      <p>
+        Nous attachons une grande importance à la confidentialité de vos données. Nous apprécions votre confiance et nous prenons l'obligation de protéger les renseignements personnels à nous fournisses. Cette Politique de Confidentialité régit, de quel façon Interpreters.travel OÜ accumula, utilisa, conserva et ouvra l’information reçu dés utilisateurs ( ensuite “ Utilisateur ” ) passée sur le site interpreters.travel ( ensuite “ Site ” ). Cette politique de confidentialité concerne le Site et tous produits et services, qui ont offert Interpreters.travel OÜ.
+        Nous présentons également les informations de contact, de sorte que vous pourriez nous contacter en cas d’apparition des questions concernant les renseignements personnels.
+      </p>
+      <p>
+        <strong>Renseignements personnels, utilisant dans interpreters.travel</strong>
+      </p>
+      <p>
+        Nous pourrions collecter des informations personnelles identifiables des utilisateurs de formes différentes, y compris, mais sans s'y limiter, quand Utilisateurs visitent notre site, enregistrent sur le site, placent une commande, et en relation avec d'autres activités, services, possibilités ou ressources, que nous faisons et que vous pourriez trouver sur notre Site. L'utilisateur peut être demandé, dans le cas échéant, nom, adresse e-mail, adresse postale, numéro de téléphone. Cependant, les utilisateurs pourraient visiter notre site de façon anonyme. Nous allons recueillir des informations d'identification personnelle des l'utilisateurs seulement s’ils fournissent volontairement ces informations à nous. Les utilisateurs peuvent toujours refuser de fournir des informations d'identification personnelle, sauf dans le cas, quand il peut les empêcher d’exercer certaines activités sur le Site.
+      </p>
+      <p>
+        <strong>Informations non personnelles</strong>
+      </p>
+      <p>
+        Nous pouvons collecter des informations non personnelles sur les utilisateurs quand ils interagissent avec notre site. Les informations non personnellement identifiables peuvent inclure le nom du navigateur, le type d'ordinateur et des informations techniques sur des moyens de connexion des utilisateurs à notre site, par exemple, les systèmes d'exploitation et les fournisseurs de service Internet utilisés et d'autres informations similaires.
+      </p>
+      <p>
+        <strong>Cookie-fichiers utilisés par interpreters.travel</strong>
+      </p>
+      <p>
+        Notre site peut utiliser des cookie-fichiers pour améliorer de l'expérience d’utilisateur. Navigateur Web de l’utilisateur place les cookie-fichiers sur le disque dur pour des fins comptables, et suit occasionnellement des informations à leur sujet. L'utilisateur peut sélectionner dans les paramètres de votre navigateur Web de refuser d’enregistrement des cookie-fichiers ou des avertissements, si cookie-fichers se conservent. Si cela se produit, notez que certaines parties du site peuvent ne pas fonctionner correctement.
+      </p>
+      <p>
+        <strong>Comment interpreters.travel utilise l’information collectionnée ?</strong>
+      </p>
+      <p>
+        Interpreters.travel OÜ pourraient collectionner et utiliser de l’information personnelle d’Utilisateurs dans le cas suivants :
+      </p>
+      <ul>
+        <li>
+          <p>Pour améliorer le service à la clientèle</p>
+          <p>
+            Les informations que vous fournissez nous aidera à répondre plus efficacement
+            à vos besoins, demandes de service dans l’assistance.
+          </p>
+        </li>
+        <li>
+          <p>Pour personnaliser l'expérience d’Utilisateur</p>
+          <p>
+            Nous pouvons utiliser l'information dans l'ensemble, pour connaître, comment nos utilisateurs
+            en tant que groupe utilisent les services et les ressources, disponibles sur notre site Web.
+          </p>
+        </li>
+        <li>
+          <p>Afin d'améliorer notre Site</p>
+          <p>
+            Nous pouvons utiliser les commentaires que vous fournissez pour améliorer nos produits
+            et services.
+          </p>
+        </li>
+        <li>
+          <p>Pour le traitement des paiements</p>
+        </li>
+      </ul>
+      <p>
+        Nous pouvons utiliser les informations lesquelles utilisateurs fournissent sur eux-mêmes lors de la commande, de fournir les services correctement. Nous ne partageons pas ces informations à des tiers, sauf que nécessaire pour fournir des services.
+      </p>
+      <ul>
+        <li>
+          <p>Pour tenue de la promo, des concours, de recherche ou d'autres fonctions du Site</p>
+          <p>
+            Pour envoyer des informations aux utilisateurs qui ont accepté de recevoir des informations
+            sur des sujets qui sont d'intérêt pour eux.
+          </p>
+        </li>
+        <li>
+          <p>Pour envoyer des courriels électroniques périodiques</p>
+        </li>
+      </ul>
+      <p>
+        Nous pouvons utiliser l'adresse électronique pour envoyer à l'utilisateur des informations relatives à sa demande. Il peut également être utilisé pour répondre aux demandes, questions et / ou d'autres objectifs. Si l'utilisateur décidera d'être sur notre liste de diffusion, il recevra des messages électroniques qui peuvent inclure les nouvelles de la société, mises à jour, produit lié ou des informations de service, etc. Si à tout moment l’utilisateur aimera de refuser de recevoir les futurs messages électroniques, chaque message contient des instructions détaillées sur la façon de se désabonner au bas de chaque e-mail.
+      </p>
+      <p>
+        <strong>Comment interpreters.travel protége vos informations?</strong>
+      </p>
+      <p>
+        Nous appliquons des règles appropriées de collecte, stockage, traitement et des mesures de sécurité pour sauvegarde contre tout accès non autorisé, modification, révélation ou destruction de vos renseignements personnels, nom d'utilisateur, mot de passe, des informations sur les transactions et les données stockées sur notre Site.
+      </p>
+      <p>
+        La communication entre le site et l'utilisateur se effectue sur le canal de connexion sécurisée SSL et les données chiffrées sont protégées par des signatures numériques.
+      </p>
+      <p>
+        <strong>Transfert d'informations personnelles à des tiers</strong>
+      </p>
+      <p>
+        Nous ne vendons pas, ne commerçons pas et ne louons pas des informations personnellement identifiables de l'utilisateur. Nous pouvons fournir des informations démographiques, agrégées totales non associées à des informations personnellement identifiables sur des visiteurs et des Utilisateurs à nos partenaires d'affaires, filiales de confiance aux fins décrites ci-dessus. Nous pouvons utiliser des fournisseurs de services tiers, pour nous aider à gérer notre entreprise et le Site, ainsi que d'administrer les activités en notre nom, telles que l'envoi des bulletins d'information ou de recherche. Nous pouvons partager des informations avec ces tiers à ces fins limitées à condition que vous nous avez donné la permission.
+      </p>
+      <p>
+        <strong>Modifications dans la Politique de Confidentialité</strong>
+      </p>
+      <p>
+        Interpreters.travel OÜ a le pouvoir discrétionnaire de mettre à jour la présente Politique de Confidentialité à tout moment. Quand nous faisons cela, nous mettrons à jour la date au bas de cette page et / ou à vous enverons une lettre. Nous recommandons aux utilisateurs de vérifier régulièrement cette page à propos tout changement, pour apprendre davantage sur la façon dont nous recueillons et protégeons les renseignements personnels. Vous reconnaissez et acceptez qu'il est de votre responsabilité, de revoir périodiquement cette Politique de Confidentialité, et de se rendre compte des changements.
+      </p>
+      <p>
+        <strong>Votre acceptation de la présente Politique</strong>
+      </p>
+      <p>
+        En utilisant ce site, vous exprimez de votre acceptation de la présente Politique. Si vous n'êtes pas d'accord avec cette politique, s'il vous plaît ne utilisez pas notre site. Si vous utilisez le site, alors après toute modification apportée à cette politique sera considéré que vous êtes d'accord avec ces changements.
+      </p>
+      <p>
+        <strong>Comment nous contacter</strong>
+      </p>
+      <p>
+        Si vous avez des questions au sujet de cette Politique de Confidentialité, l'utilisation du Site ou de votre interaction avec le site, s’il vous plaît, nous contactez à l'adresse suivante:
+        <p itemscope itemtype="http://schema.org/Organization">
+          <strong><span itemprop="name">Interpreters.travel OÜ</span></strong>
+          <br/>
+          <strong>interpreters.travel</strong>
+          <br/>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <strong><span itemprop="streetAddress">Vesivärava tn 50-201</span>, <span itemprop="postalCode">10152</span> - <span itemprop="addressLocality">Tallinn, Estonia</span></strong>
+          </span>
+          <br/>
+          <strong><span itemprop="email">info@interpreters.travel</span></strong>
+        </p>
+      </p>
+  about_page:
+    title: "A propos de la société"
+    text: |
+      <div itemscope itemtype="http://schema.org/Organization">
+      <p>
+        La société
+        <b><span itemprop="name">Interpreters.travel OÜ</span>,</b>
+        fondée en 2013, possède pleinement les droits exclusifs pour Interpreters.travel - le service de recherche des traducteurs et de commande des services d'interprétation en ligne dans le monde entier.
+      </p>
+      <p>La société Interpreters.travel OÜ, enregistrée par le Département d'enregistrement du tribunal du comté de Tartu de Estonie sous le numéro NE 325917.</p>
+      <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Le siège principal de la société Interpreters.travel OÜ à Tallin (Estonie):
+        <br/>
+        <b><span itemprop="streetAddress">Vesivärava tn 50-201</span>, <span itemprop="postalCode">10152</span> - <span itemprop="addressLocality">Tallinn, Estonia</span></b>
+      </p>
+      <p>
+        Телефон офиса:
+        <b><span itemprop="Téléphone :">+357 22 008 050</span></b>
+        (на английском и русском) с 9:00 до 17:00 (GMT + 2 часа)
+        <br/>
+        Email:
+        <a href="mailto:office@interpreters.travel"><span itemprop="email">office@interpreters.travel</span></a>
+      </p>
+      </div>
+    addresses:
+      title: |
+        La société <b>Interpreters.travel OÜ,</b> fondée en 2013, possède pleinement les droits exclusifs pour Interpreters.travel - le service de recherche des traducteurs et de commande des services d'interprétation en ligne dans le monde entier.
+        <br/>
+        La société Interpreters.travel OÜ, enregistrée par le Département d'enregistrement du tribunal du comté de Tartu de Estonie sous le numéro NE 325917.
+      estonia: |
+        <b>Le siège principal de la société Interpreters.travel OÜ à Tallin (Estonie)</b>
+        <br/>
+        <b>Email:</b> office@interpreters.travel
+        <br/>
+        <b>Téléphone :</b> +357 22 008 050 ( en anglais et en russe ) de 9h00 à 17h00 ( GMT + 2 heures )
+        <br/>
+        <b>L’adresse : </b> Vesivärava tn 50-201, 10152, Tallinn, Estonia

@@ -1,0 +1,71 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.layout-footer {
+  background-color: c.$interpreters-green;
+  color: white;
+  text-align: center;
+
+  .footer-menu {
+    font: 16px 'robotolight';
+  }
+
+  .footer-item {
+    color: white;
+  }
+
+  .footer-copyright {
+    color: c.$interpreters-yellow;
+    font-size: 12px;
+    margin-right: 0.3rem;
+  }
+
+  .footer-social-media {
+    a {
+      color: white;
+      margin: 0.25rem;
+    }
+  }
+}
+
+@include r.desktop {
+  .layout-footer {
+    padding-bottom: 4px;
+    .footer-menu {
+      padding-top: 0.7rem;
+      padding-bottom: 0.5rem;
+
+      .footer-item {
+        padding: 0 0.45rem;
+      }
+    }
+  }
+}
+
+@include r.touch {
+  .layout-footer {
+    .footer-bottom{
+      padding-bottom: 10px;
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .footer-menu {
+      margin-bottom: 0.8rem;
+
+      .footer-item {      
+        width: 100%;
+        display: inline-block;
+        padding: 10px 0;
+
+      }
+    }
+
+    .footer-copyright, .footer-social-media {
+      display: block;
+    }
+
+    .footer-social-media {
+      font-size: 2rem;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+zh: 
+  js: 
+    time:  
+      since_word: "自"
+      to_word: "到"
+    select: "是"
+    cancel: "取消"
+    validator: 
+      required: '必须填写'
+      email: '请输入准确的电子邮箱'
+      uniq_email: '该 邮箱已使用过，请使用另一个邮 箱 登 录'
+      phone_format: "用以下的格式填写：+35724343118"
+      city_select: "Enter correct city name and select from list"
+    browser_outdated: "您的瀏覽器已經過時，一些網站的功能可能無法正常工作。請安裝更安全的瀏覽器，以及一個新的"
+    date_selector: 
+      dialog: 
+        title: "选择的日期"
+        confirm: "确认"
+        change: "取消"
+      errors: 
+        no_periods_selected: '选择日期，时间'
+        invalid_interval: '您选择的时间间隔不正确'
+        interval_exists: '这个日期已经被选中，请选择其他'
+      total_time: '总时间 - '
+      from: ' - 自 '
+      to: ' 到 '
+      select: "选择"
+    search: 
+      file_select: "选择..." 
+      errors: 
+        blank_city: '选择城市'
+        blank_intervals: '选择日期，时间'
+        blank_language: '选择语言'
+    buttons: 
+      change_order_date: "修改日期"
+      confirm_order_date: "确认"
+    titles: 
+      confirm_order_date: "确认当前预定"

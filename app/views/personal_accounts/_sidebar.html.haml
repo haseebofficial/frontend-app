@@ -1,0 +1,7 @@
+.cabinet_sidebar.mobile-hide
+  %a.mob_menu= t("order_pages_sidebar.menu")
+  %ul.cabinet_sidebar_menu
+    %li= link_to t("order_pages_sidebar.orders"), personal_account_path, class: "cabinet_sidebar_menu1"
+    %li= link_to t("order_pages_sidebar.searches"), searches_personal_account_path, class: "cabinet_sidebar_menu2"
+    %li= link_to t("order_pages_sidebar.calls"), interpretation_calls_path, class: "cabinet_sidebar_menu_calls"
+    %li= link_to t("order_pages_sidebar.logout"), destroy_user_session_path, class: "cabinet_sidebar_menu5", method: :delete

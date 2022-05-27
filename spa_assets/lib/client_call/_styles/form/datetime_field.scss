@@ -1,0 +1,244 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/z_index";
+@use "app/_styles/utils/text";
+@use "app/_styles/utils/responsiveness" as r;
+
+.call-form {
+  @include r.desktop {
+    .datetime-field-container .datetime-field-dropdown {
+      top: -135px;
+
+      .triangle-icon {
+        top: 170px;
+      }
+    }
+  }
+
+  .datetime-field-container {
+    position: relative;
+    .triangle {
+      position: absolute;
+      top: 177px;
+      left: -9px;
+      width: 18px;
+      height: 18px;
+      background-color: #fff;
+      filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+      transform: rotate(45deg);
+    }
+    .triangle-quadrat {
+      position: absolute;
+      top: 167px;
+      left: 0;
+      width: 20px;
+      height: 36px;
+      background-color: #fff;
+    }
+
+    .main-field {
+      margin-bottom: 0;
+
+      .icon {
+        top: 50%;
+        transform: translateY(-50%);
+        color: c.$interpreters-green;
+      }
+
+      input {
+        cursor: pointer;
+        @include text.unselectable;
+      }
+      input::placeholder {
+        font-size: 1.2em;
+        padding-left: 0.3em;
+        color: #4a4a4a;
+      }
+    }
+
+    .control-date {
+      display: flex;
+      padding: 0 10px;
+      background-color: #f4ede3;
+
+      .change-date {
+        margin-left: 10px;
+      }
+
+      span {
+        line-height: 60px;
+        height: 100%;
+        cursor: pointer;
+
+        span:first-child {
+          margin-right: 20px;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .datetime-field-dropdown {
+      background-color: white;
+      padding: 15px 15px 20px;
+      filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+      position: absolute;
+      left: 102%;
+      width: 100%;
+      z-index: 1000;
+
+      .triangle-icon {
+        position: absolute;
+        color: #fff;
+        left: -21px;
+        font-size: 30px !important;
+        filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+      }
+
+      .timepicker {
+        margin: 20px 15px 15px;
+      }
+
+      .datetime-control {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+        padding: 5px;
+        text-align: center;
+      }
+
+      .datetime-result {
+        margin: 10px 0;
+        padding: 5px;
+        background-color: c.$interpreters-yellow;
+        text-align: center;
+        font-size: 12px;
+
+        span {
+          display: block;
+        }
+      }
+
+      .time-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    .button-touch {
+      display: none;
+    }
+    .buttons {
+      .button {
+        font: 18px "robotolight";
+        font-weight: 300;
+        color: #30480a;
+        width: calc(100% - 30px);
+        height: 40px;
+        &:hover,
+        &:focus {
+          color: #30480a;
+        }
+      }
+    }
+  }
+}
+
+// Changes
+.lang-ar {
+  .call-form .datetime-field-container .datetime-field-dropdown {
+    left: -90%;
+  }
+  .search-form .datetime-field-container .datetime-field-dropdown {
+    left: -202%;
+  }
+  .call-form .datetime-field-container .datetime-field-dropdown .triangle {
+    right: -9px;
+    filter: none;
+    left: unset;
+  }
+}
+
+@include r.desktop {
+  .call-form {
+    .datetime-field-container {
+      .datetime-field-fon {
+        display: none;
+      }
+      .datetime-field-dropdown {
+        width: 300px;
+        .dropdown-close-me {
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+@include r.touch {
+  .call-form {
+    .datetime-field-container {
+      .triangle {
+        display: none;
+      }
+      .triangle-quadrat {
+        display: none;
+      }
+      .datetime-field-fon {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 120;
+      }
+      .control-date {
+        .change-date {
+          margin-left: 10px;
+        }
+
+        span {
+          line-height: 45px;
+        }
+      }
+
+      .datetime-field-dropdown {
+        // top: 60px;
+        // left: 0;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        .dropdown-close-me {
+          display: block;
+          position: absolute;
+          top: 6px;
+          right: 24px;
+          .close-me {
+            font-size: 36px;
+            text-decoration: none;
+          }
+        }
+
+        .datetime-control {
+          justify-content: center;
+          .timepicker {
+            margin-top: 0;
+            margin-bottom: 0;
+          }
+        }
+
+        .triangle-icon {
+          display: none;
+        }
+      }
+      .buttons {
+        // display: none;
+        padding-top: 22px;
+        border-top: 1px solid #dbdbdb;
+      }
+    }
+  }
+}

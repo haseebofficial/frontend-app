@@ -1,0 +1,69 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+es:
+  personal_account:
+    voucher_not_ready:
+      "Carta del pago estará disponible después de que intérprete confirma el encargo, pago del encargo y la expiración de cancelación gratis"
+    voucher_ready_after_confirmation: "Carta del pago estará disponible después de que intérprete confirma el encargo, pago del encargo"
+    receipt_not_ready: "Recibo del pago estará disponible después del recibo de su encargo pagado"
+  registration_notify_subject: "Вы зарегистрированы в interpreters.travel"
+  hello: "Hello world"
+  TrueClass: "Yes"
+  FalseClass: "No"
+  time:
+    formats:
+      default:           "%m/%d/%Y %I:%M %P"
+      long:              "%A, %B %e of %Y at %I:%M %P"
+      short:             "%I:%M %P"
+      simple:            "%e %B %-k:%M"
+    since_word: "de"
+    to_word: "a"
+  date:
+    formats:
+      default:           "%m/%d/%Y"
+      month_day:         '%e %B'
+      long:              "%A, %B %e of %Y"
+  errors:
+    messages:
+      wrong_size: "is the wrong size (should be %{file_size})"
+      size_too_small: "is too small (should be at least %{file_size})"
+      size_too_big: "is too big (should be at most %{file_size})"
+
+  years:
+    one: '%{count} año'
+    few: '%{count} años'
+    other: '%{count} años'
+  hours:
+    one: "%{count} hora"
+    few: "%{count} horas"
+    other: "%{count} horas"
+  minutes:
+    one: "%{count} minuta"
+    few: "%{count} minutos"
+    other: "%{count} minutos"
+  date:
+    month_names: [~, de enero, de febrero, de marzo, de abril, de mayo, de junio, de julio, de agosto, de septiembre, de octubre, de noviembre, de diciembre]
+  order:
+    cancellation_possible: "es posible antes de"
+    no_cancellation: 'no está propuesto'
+  translate: "traducir"
+  show_original: "ver original"

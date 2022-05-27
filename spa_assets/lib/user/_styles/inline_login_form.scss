@@ -1,0 +1,52 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+.inline-login-form {
+    .button:hover,
+    .button:focus {
+        color: c.$interpreters-green;
+    }
+    .restore-password-link {
+        display: block;
+        margin-top: 10px;
+        text-decoration-line: underline;
+        color: c.$bulma-black;
+        @include r.touch {
+            font-size: 14px;
+        }
+    }
+}
+
+.field {
+    .input.input-valid {
+        border-color: green;
+    }
+    .input.input-invalid {
+        border-color: red;
+    }
+    .restore-button {
+        display: flex;
+        justify-content: start;
+        //width: 100%;
+    }
+    .input-label-error {
+        color: red;
+    }
+}
+
+@include r.desktop {
+    .field {
+        position: relative;
+        .input-label-error {
+            position: absolute;
+            top: -24px;
+        }
+    }
+}
+
+.alert-success {
+    background-color: #DEF0DA;
+    color: #3A7846;
+    padding: 6px;
+    margin-bottom: 8px;
+    text-align: center;
+}

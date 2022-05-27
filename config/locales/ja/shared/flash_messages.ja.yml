@@ -1,0 +1,10 @@
+ja:
+  flash_messages: 
+    new_interpreter: "interpreters.travelの登録が完了しました!ログインのためのパスワードが%{email}へ送信されました。"
+    new_partner: "interpreters.travelのパートナー登録が完了しました!ログインのためのパスワードが%{email}へ送信されました。"
+    ticket_created: "お問い合わせありがとうございます。サポート・サービスの返事が届くまでしばらくお待ちください。"
+    interpreter_message_created: "お客様のメッセージが送信されました。お返事はお客様のメールアドレスに届くまでしばらくお待ちください。"
+    payment_success: "ご予約は登録されました。"
+    order_not_paid: "お知らせいたします!お客様の予約は支払い方法が選択されていません。支払い方法は予約内容の下に選択できます。支払い後もこのメッセージが残る場合はサポート・サービスにご連絡ください。予約番号%{id}."
+    contacts_requested: "通訳者の連絡先は数分後利用できるようになります。お知らせとバウチャーはお客様のメールアドレスにお送りいたします。"
+    payment_declined: "入力されたカードでお支払いできませ"

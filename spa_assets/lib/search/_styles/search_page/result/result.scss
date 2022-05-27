@@ -1,0 +1,156 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+@use "layout/_styles/utils/layout_properties";
+
+.result-header {
+  .touch-new-line{
+    display: none;
+  }
+  .result-subtitle-desktop {
+    margin-bottom: 0;
+  }
+  .result-subtitle-touch {
+    display: none;
+  }
+  .result-title {
+    margin-top: 10px;
+    font: 18px "robotomedium";
+    line-height: 18px;
+    padding-top: 20px;
+    color: c.$interpreters-green;
+  }
+
+  .result-subtitle {
+    //text-align: left;
+    line-height: 26px;
+  }
+
+  .has-grey-text {
+    color: c.$bulma-grey;
+  }
+  .result-header-button {
+    color: #0000ff;
+    font-weight: 700;
+  }
+
+  .button {
+    // display: block;
+    display: inline-block;
+    height: auto;
+    padding: 2px 4px;
+    font: 16px "robotoregular";
+    color: #383737;
+    // margin-left: 20px;
+
+    &:hover {
+      background-color: c.$interpreters-yellow-light;
+    }
+  }
+
+  .header-description {
+    display: block;
+    padding: 10px 10px;
+    background-color: #FFECA8;
+    font: 18px "robotomedium";
+    color: c.$interpreters-green;
+  }
+
+}
+
+.result-cards {
+  .result-block {
+    border-top: 1px solid #DBDBDB;
+    padding-top: 30px;
+  }
+  .result-block:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+  .result-cards-button {
+    margin-bottom: 20px;
+    border: none;
+    margin-top: 30px;
+    font: 18px "robotoregular";
+    background-color: c.$interpreters-yellow;
+    color: c.$interpreters-green;
+  }
+  .result-bottom {
+    margin-bottom: 30px;
+  }
+  .result-cards-button:hover {
+    color: c.$interpreters-green;
+  }
+}
+
+@include r.touch {
+  .result-header {
+    text-align: center;
+
+    .touch-new-line{
+      display: block;
+    }
+
+    // +++++++++++++++++++++++
+    .result-subtitle-desktop {
+      display: none;
+    }
+    .result-subtitle-touch {
+      display: block;
+    }
+
+    .result-title {
+      font: 16px "robotoregular";
+    }
+    .result-subtitle {
+      font-size: 0.78em;
+    }
+    .columns {
+      margin: 0;
+    }
+    .column{
+      padding: 5px 0;
+    }
+    .header-description {
+      font-size: 14px;
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+    }
+
+  }
+  .button {
+    width: 100%;
+    font: 16px "robotoregular";
+    color: c.$bulma-grey;
+  }
+  .result-cards {
+    .result-block {
+      border-top: none;
+      padding-top: 0;
+    }
+    .result-cards-button {
+      background: #FFFFFF;
+      border: 1px solid #888787;
+      color: #888787;
+    }
+  }
+}
+
+@media (max-width: 424px) {
+  .result-header {
+    .result-subtitle {
+      font-size: 0.68em;
+    }
+  }
+}
+
+@media (max-width: 374px) {
+  .result-header {
+    .result-subtitle {
+      font-size: 0.57em;
+    }
+  }
+}

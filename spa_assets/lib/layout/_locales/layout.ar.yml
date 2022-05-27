@@ -1,0 +1,45 @@
+layout:
+  header:
+    sign_in: 'الدخول'
+    help_link: 'مساعدة'
+    sign_out: 'خروج'
+    personal_account: 'حسابك الشخصي'
+    welcome: 'مرحبا%{user}'
+    interpreters_sign_in: 'الدخول للمترجمين'
+    interpretation_calls: "مكالمات دولية مع مترجمين"
+    calls_to_city: "مكالمات إلى %{city} برفقة مترجمين فوريين"
+    support: 'الدعم 24/7'
+    orders: "حجوزاتي"
+    calls: "مكالماتي"
+    searches: "البحث الخاصة بي"
+  footer:
+    about: 'عن interpreters.travel'
+    support: 'الدعم 24/7'
+    for_interpreters: للمترجمين
+    for_interpreters_in_city: 'مترجمون في %{city}'
+    for_affiliates: "للشركاء"
+    terms: 'الشروط والأحكام'
+    privacy_policy: 'سياسة الخصوصية'
+  tabs:
+    interpreter_in: "مترجم في"
+    interpreters_in: "المترجمين في"
+    countries: "%{country_count} بلدان"
+    international_calls_with_interpreters:
+      desktop: "مكالمات دولية مع مترجمين"
+      mobile: "مكالمات دولية <br/> مع مترجمين"
+      desktop_city_selected: "مكالمات إلى %{city} برفقة مترجمين فوريين"
+      mobile_city_selected: "مكالمات إلى %{city} <br/>  برفقة مترجمين فوريين"
+    texts_docs_translations:
+      desktop: "ترجمة النصوص والوثائق"
+      mobile: "ترجمة <br/> النصوص والوثائق"
+  search:
+    start_search: "ابدأ البحث"
+    button: "ابحث"
+    download_cv: "تنزيل السيرة الذاتية "
+  date:
+    hour: "ساعة"
+    hours: "ساعات"
+    minute: "دقيقة"
+    minutes: "دقائق"
+    from: "من"
+    to: "إلى"

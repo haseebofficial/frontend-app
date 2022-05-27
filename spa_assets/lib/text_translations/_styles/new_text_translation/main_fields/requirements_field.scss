@@ -1,0 +1,63 @@
+@use "text_translations/_styles/new_text_translation/utils/text_translation_form_properties";
+
+.translation-request-form .main-fields {
+  .requirements-field {
+    .file {
+      .file-cta {
+        border: none;
+        background-color: text_translation_form_properties.$input-background;
+        padding-left: 2px;
+
+        .file-label {
+          font-size: 0.8rem;
+
+          .or {
+            color: grey;
+            padding-left: 1rem;
+            border-left: 1px solid #C5C2BB;
+          }
+
+          .label-main-text {
+            padding-left: 0.7rem;
+            color: #555;
+          }
+        }
+      }
+    }
+
+    .control .field.has-addons .control:first-child {
+      flex: 1 1 auto;
+    }
+
+    .attachments-container {
+      margin-top: 5px;
+      display: flex;
+
+      .add-files-label {
+        color: white;
+        cursor: pointer;
+      }
+
+      .attachments-list {
+        flex: 1 0 auto;
+      }
+    }
+
+    .attachment-item {
+      color: white;
+      display: flex;
+      align-items: center;
+
+      .remove-attachment, .attachment-loading {
+        i {
+          margin-left: 5px;
+          font-size: 20px;
+        }
+      }
+
+      .remove-attachment {
+        cursor: pointer;
+      }
+    }
+  }
+}

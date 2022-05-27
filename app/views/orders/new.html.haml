@@ -1,0 +1,154 @@
+- @amounts_currencies = {}
+- ["EUR", "USD"].each {|curr| @amounts_currencies["#{convert_to(curr, @order_currency, @order_price.to_f.round)} #{curr}"] = curr}
+- content_for :head do
+  %link{href: "https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css", rel: "stylesheet"}
+  = javascript_include_tag "https://bluesnap.com/source/web-sdk/bluesnap.js"
+
+- content_for :description do
+  = t("order_page.description")
+
+- content_for :back_link do
+  = link_to t("order_page.back_link"), search_interpreter_path(@search.id, @interpreter.id), class: 'service_choice back_link'
+
+- content_for :body do
+  %input{name: "companyOrder", type: "hidden"}
+  %input{name: "sms_verification", type: "hidden"}
+  :javascript
+    jQuery.data($("input[name=companyOrder]")[0], "availableOrder", #{ @available_company_order })
+    jQuery.data($("input[name=companyOrder]")[0], "searchID", "#{ @search.id }")
+    jQuery.data($("input[name=companyOrder]")[0], "since", "#{ @available_company_period.first }")
+    jQuery.data($("input[name=companyOrder]")[0], "to", "#{ @available_company_period.last }")
+    jQuery.data($("input[name=companyOrder]")[0], "interval_text", "#{ @available_company_period_first_time_str }")
+    jQuery.data($("input[name=sms_verification]")[0], "confirmed", #{ !!session[:phone_confirmed] })
+    jQuery.data($("input[name=sms_verification]")[0], "phoneNumber", "#{ session[:phone_number] }")
+    var google_marker_latitude = #{@search.city.latitude};
+    var google_marker_longitude = #{@search.city.longitude};
+    var translaters_count = #{@search.city.interpreters_count};
+  .order
+    .green_line
+    .main_content
+      .order_stage_wrapper
+        %ul.order_stage
+          %li= t("order_page.stage1")
+          %li= t("order_page.stage2")
+          %li.act= t("order_page.stage3")
+        .clear
+      .translator_block_wrapper
+        .title
+          = t("order_page.order_info")
+        .photo-wrapper
+          = link_to (image_tag @questionnaire.photo_url, class: "photo cart_photo"), search_interpreter_path(@search.id, @interpreter.id)
+        .desc
+          .name
+            = link_to "#{l_questionnaire(:name)} #{shorten_surname(@questionnaire.surname)}", search_interpreter_path(@search.id, @interpreter.id), class: "interpreter-link"
+          .post
+            = t("interpreter.title")
+          .info
+            %span= t("order_page.services_info", city: "#{@search.city.to_str}")
+            %br
+            %span= t("order_page.selected_period")
+            %span.chosen-period 
+              #{@chosen_period}
+              = link_to t("search_page.change_date"), search_city_path(@search.url_city_name_escaped, @search.id, clear_date: true), data: {"no-turbolink" => true}
+            %br
+            %span= t("order_page.language_pairs")
+            = @order.language_pair_text
+            %br
+            %span= t("order_page.selected_services")
+            = l_object :name, @order.service.service_type
+            - unless @order.service.additional_cost.blank?
+              %br
+              %span= t("order_page.additional_services")
+              = @order.service.additional_cost
+            %br
+            - if (date = @order.service.cancellation)
+              %span.service-link.cancellation{"data-text" => t("show_interpreter.free_cancellation_text", hours: date)}= t('order_page.order_cancellation')
+              = t("order_page.cancellation_possible", date: date)
+            - else 
+              %span= t('order_page.order_cancellation')
+              = t("order_page.no_cancellation")
+          .price
+            %span= t("order_page.order_price")
+            %strong.converted-amounts 
+              = select_tag "", options_for_select(@amounts_currencies, session[:current_currency]), class: "currency-selector" 
+        .clear
+      #flash= render 'shared/flash_messages'
+      - if I18n.locale == :ru
+        %ul.order_type_tabs
+          %li{class: "#{ 'act' unless request.query_parameters[:company_order] && @available_company_order }"}
+            %a{tabindex: 0, class: "personal-order-tab"}= t("order_page.personal_form_tab")
+          %li{class: "#{ 'act' if request.query_parameters[:company_order] && @available_company_order }"}
+            #company_order_modal
+              %span Выполнение вашего заказа после #{@days_order_left} дней. Оформить заказ для компании не возможно позднее, чем за определенное количество дней.
+              %span #{@available_company_period_first_time_str} - самая ранняя дата, на которую вы можете разместить свои услуги для этого переводчика.
+            %a{tabindex: 1, class: "company-order-tab"} Оформить заказ на компанию
+      .clear
+      #code-confirmation-form
+        %label{for: "code", type: "text"}= t("order_page.confirmation_code")
+        %input{name: "code", type: "text"}
+      %ul.order_type_tabs_block
+        - if @user.nil?
+          - resource = User.new
+          = link_to t("order_page.login_button"), "#", class: "login-form-link"
+          .login_info.hide
+            .title
+              = t("order_page.login_button")
+            .success= t("order_page.forgot_password_success")
+            = simple_form_for(resource, :as => resource_name, :remote => true, :url => session_path(resource_name), html: {class: 'form-vertical' }) do |f|
+              = hidden_field_tag :redirect_url, request.original_url
+              = hidden_field_tag :locale, I18n.locale
+              .input-container
+                = f.error :password, id: 'user_name_error'
+                %input{name: "user[email]", placeholder: "Email:", type: "email"}
+              .input-container
+                %input{name: "user[password]", placeholder: t("order_page.password"), class:"required", type: "password"}
+              .forgot-password= t("order_page.forgot_password")
+              .input-container
+                %span.login-error
+                %input{name: "commit", value: t("order_page.login"), class: 'sub', type: "submit"}
+            .clear
+          .forgot_info.hide
+            .title
+              = t("order_page.forgot_title")
+            = form_for( :user, :url => user_password_path, remote: true, 
+                :html => { id: "forgot_password",:method => :post }) do |f|
+              = hidden_field_tag :locale, I18n.locale
+              .input-container
+                = f.text_field :email, placeholder: "Email:"
+              .input-container
+                = f.submit t("order_page.new_password"), class: "sub", style: 'display: inline;width: 100%;'
+            .clear
+        %li{class: "#{ 'vis' unless request.query_parameters[:company_order] && @available_company_order }"}
+          = render partial: 'orders/new/personal_form'
+        - if I18n.locale == :ru
+          %li{class: "#{ 'vis' if request.query_parameters[:company_order] && @available_company_order }"}
+            = render partial: 'orders/new/company_form'
+      .clear
+      #payment-block{style: "font-family:robotolight"} 
+        %p
+          = t("order_page.payment.choice")
+          - if @order.can_pay_with_invoice
+            %br
+            \- #{t("order_page.payment.choice_invoice")}
+          - if @order.service.can_pay_with_cash
+            %br 
+            \- #{t("order_page.payment.choice_cash")}
+          %br 
+          \- #{t("order_page.payment.choice_card")}
+        %p= raw t("order_page.payment.info")
+      .clear
+      #payment-container
+      .clear
+    
+  :coffee 
+    $(document).on("ready page:load", -> 
+
+      $input = $("input[name='order[client_attributes][email]']")
+      $input.trigger("change") if $input.val()
+
+      $(".order .personal_form").submit(->
+        unless $input.val() == $input.data("validated_email")
+          $(this).data("submit_after_validation", true)
+          return false 
+      )
+    )

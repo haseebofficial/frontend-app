@@ -1,0 +1,10 @@
+body.locale-ja { 
+  @media screen and (min-width: 768px) and (max-width: 1000px) { 
+    .cart_block .info_wrapper {
+      width: 350px;
+    }
+    .cart_block .info_wrapper .right {
+      margin: 0;
+    }
+  }
+}

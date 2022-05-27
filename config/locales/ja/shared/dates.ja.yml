@@ -1,0 +1,24 @@
+ja:
+  js: 
+    time:  
+      since_word: "から"
+      to_word: "まで"
+  time:
+    formats:
+      default:           "%m/%d/%Y %I:%M %P"
+      long:              "%A, %B %e of %Y at %I:%M %P"
+      short:             "%I:%M %P"
+      simple:            "%B%e日 %-k:%M"
+      hours_minutes:     "%H:%M"
+      since: "%H:%Mから"
+      to: "%H:%Mまで"
+    since_word: "から"
+    to_word: "まで"
+  date:
+    intervals:
+      year: "%{year}ー%{since}%{to}"
+      month_day: "%{date}、%{since}-%{to}"
+    formats:
+      default:           "%Y年%d月%m日"
+      month_day:         '%B%e日'
+      long:              "%A, %B %e of %Y"

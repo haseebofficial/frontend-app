@@ -1,0 +1,159 @@
+$("#payment-container").html("<%= j render(@partial, @partial_vars) %>")
+
+$('html, body').animate({
+    scrollTop: $("#payment-container").offset().top
+}, 1200);
+
+<% if @bluesnap_token %>
+  (function() {
+      function onFieldError(tagId, errorCode) { 
+        // Handle a change in validation
+        /* error codes:
+            "001" --> "Please enter a valid credit card number";            
+            "002" --> "Please enter the CVV/CVC of your card";          
+            "003" --> "Please enter your credit card's expiration date";            
+            "004" --> "Session expired please refresh page to continue";            
+            "005" --> "Internal server error please try again later";           
+        */
+        if (tagId == "ccn" && errorCode == "001") {
+          $( "#card-number" ).removeClass( "hosted-field-focus hosted-field-valid" ).addClass( "hosted-field-invalid" );
+          $( "#card-help" ).text('<%= t("card_checkout_form.cnn_error") %>');
+        } else if (tagId == "exp" && errorCode == "003") {
+          $( "#exp-date" ).removeClass( "hosted-field-focus hosted-field-valid" ).addClass( "hosted-field-invalid" ).next('span').text('<%= t("card_checkout_form.exp_error") %>'); 
+        } else if (tagId == "cvv" && errorCode == "002" ) {
+          $( "#cvv" ).removeClass( "hosted-field-focus hosted-field-valid" ).addClass( "hosted-field-invalid" ).next('span').text('<%= t("card_checkout_form.cvv_error") %>');
+        }
+
+        if (errorCode.startsWith("141")) {
+          $( "#card-number" ).removeClass( "hosted-field-focus hosted-field-valid" ).addClass( "hosted-field-invalid" );
+          $( "#card-help" ).text('<%= t("card_checkout_form.3ds_error") %>');
+        }
+      }
+
+    var bsObj = {
+      hostedPaymentFields: {
+        ccn: "ccn", // name cannot contain spaces or special characters 
+        cvv: "cvv", // name cannot contain spaces or special characters 
+        exp: "exp"  // name cannot contain spaces or special characters 
+      },
+      onFieldEventHandler: {
+        onFocus: function(tagId) { 
+          // Handle focus 
+          if (tagId == "ccn") {
+            $( "#card-number" ).addClass( "hosted-field-focus" );
+          } else if (tagId == "exp") {
+            $( "#exp-date" ).addClass( "hosted-field-focus" ); 
+          } else if (tagId == "cvv") {
+            $( "#cvv" ).addClass( "hosted-field-focus" );
+          }  
+        },
+        onBlur: function(tagId) {
+          // Handle blur  
+          if (tagId == "ccn") {
+            $( "#card-number" ).removeClass( "hosted-field-focus" );
+          } else if (tagId == "exp") {
+            $( "#exp-date" ).removeClass( "hosted-field-focus" ); 
+          } else if (tagId == "cvv") {
+            $( "#cvv" ).removeClass( "hosted-field-focus" );
+          }
+        },
+        onError: onFieldError,
+        onEmpty: function(tagId, errorCode) { 
+          // Handle a change in validation  
+          if (tagId == "ccn" && errorCode == "001") {
+            $( "#card-number" ).removeClass( "hosted-field-focus hosted-field-valid hosted-field-invalid" );
+            $( "#card-help" ).text('');
+          } else if (tagId == "exp" && errorCode == "003") {
+            $( "#exp-date" ).removeClass( "hosted-field-focus hosted-field-valid hosted-field-invalid" ).next('span').text('');
+          } else if (tagId == "cvv" && errorCode == "002" ) {
+            $( "#cvv" ).removeClass( "hosted-field-focus hosted-field-valid hosted-field-invalid" ).next('span').text('');
+          }
+        },
+        onValid: function(tagId) {
+          // Handle a change in validation
+          if (tagId == "ccn") {
+            $( "#card-number" ).removeClass( "hosted-field-focus hosted-field-invalid" ).addClass( "hosted-field-valid" )
+            $( "#card-help" ).text('');
+          } else if (tagId == "exp") {
+            $( "#exp-date" ).removeClass( "hosted-field-focus hosted-field-invalid" ).addClass( "hosted-field-valid" ).next('span').text(''); 
+          } else if (tagId == "cvv") {
+            $( "#cvv" ).removeClass( "hosted-field-focus hosted-field-invalid" ).addClass( "hosted-field-valid" ).next('span').text('');
+          }
+        },
+        onType: function() {}
+      },                                    
+      //styling is optional
+      style: {
+        "input": {
+          "font-size": "14px",
+          "font-family": "Helvetica Neue,Helvetica,Arial,sans-serif",
+          "line-height": "1.42857143",
+          "color": "#555"
+        },
+        ":focus": {
+            "color": "#555"
+        }
+      },
+      ccnPlaceHolder: '4111 2222 3333 4444', 
+      cvvPlaceHolder: 'CVV', 
+      expPlaceHolder: 'MM / YY',
+      '3DS': true
+    };
+
+    bluesnap.hostedPaymentFieldsCreation("<%= @bluesnap_token %>", bsObj);
+
+    enableBluesnapSubmit();
+
+    $('#bluesnap_checkout').submit(function (event) {
+      event.preventDefault();
+      $form = $(this);
+      $nameInput = $form.find("input.cardholder-name");
+      holderName = $nameInput.val();
+
+      if(!holderName) {
+        $nameInput.addClass("hosted-field-invalid");
+        return;
+      }
+
+      disableBluesnapSubmit();
+
+      let threeDSecureObj = {
+        amount: <%= @amount %>, 
+        currency: "<%= @currency %>",
+        email: "<%= @order.client.email %>"
+      };
+
+      function processSubmit(callback) {
+        if (callback.threeDSecure && callback.threeDSecure.authResult === "AUTHENTICATION_FAILED") {
+          enableBluesnapSubmit();
+          onFieldError("ccn", "14101");
+        } else if (callback.cardData === null) {
+          enableBluesnapSubmit();
+          let errorArray = callback.error;
+
+          for (i in errorArray) {
+            let error = errorArray[i];
+            onFieldError(error.tagId, error.errorCode);
+          }
+        } else {
+          $("#bluesnap_complete_sale").find("input.cardholder-name").val(holderName);
+          $("#bluesnap_complete_sale").submit();
+        }
+      }
+
+      bluesnap.submitCredentials(processSubmit, threeDSecureObj);
+
+      return false;
+    });
+
+    function disableBluesnapSubmit() {
+      $(".bluesnap-submit").addClass("disabled");
+      $(".bluesnap-submit").attr("disabled", true);
+    }
+
+    function enableBluesnapSubmit() {
+      $(".bluesnap-submit").removeClass("disabled");
+      $(".bluesnap-submit").attr("disabled", false);
+    }
+  })();
+<% end %>

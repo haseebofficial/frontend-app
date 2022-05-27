@@ -1,0 +1,79 @@
+.data_wrapper
+  .full_date_text
+    = t('search_form.date_time')
+    - unless @search.intervals.blank?
+      :coffee
+        ready = ->
+          window.date_bag.remove_intervals()
+          $('.full_date_text').text("#{@search.duration_search_text}").addClass 'act'
+          #{@search.intervals.map{|i| "window.date_bag.add_interval(#{i.since},#{i.to})"}.join('; ')}
+          return
+
+        $(document).ready(ready)
+        $(document).on('page:load', ready)
+  .data_cloud
+    %a.close-me &#xd7;
+    .datepicker
+    %input.datepicker_hidden{type: 'hidden'}
+    #intervals
+    .timepicker
+      .border-wrapper.timepicker
+        .title
+          = t('search_form.timepicker.title')
+        .from
+          %span.text.date-text-left= t('search_form.timepicker.from')
+          .hour.time
+            %input.h{type: 'text', value: '10'}
+            .ar
+              %a.plus
+                = image_tag 'timepicker_arrows_top.png'
+              %a.minus
+                = image_tag 'timepicker_arrows_bottom.png'
+          %span.text.text2 :
+          .minute.time
+            %input.min{type: 'text', value: '00'}
+            .ar
+              %a.plus
+                = image_tag 'timepicker_arrows_top.png'
+              %a.minus
+                = image_tag 'timepicker_arrows_bottom.png'
+          %span.text.date-text-right= t('search_form.timepicker.from')
+          .clear
+        .to
+          %span.text.date-text-left= t('search_form.timepicker.till')
+          .hour.time
+            %input.h{type: 'text', value: '18'}
+            .ar
+              %a.plus
+                = image_tag 'timepicker_arrows_top.png'
+              %a.minus
+                = image_tag 'timepicker_arrows_bottom.png'
+          %span.text.text2 :
+          .minute.time
+            %input.min{type: 'text', value: '00'}
+            .ar
+              %a.plus
+                = image_tag 'timepicker_arrows_top.png'
+              %a.minus
+                = image_tag 'timepicker_arrows_bottom.png'
+          %span.text.date-text-right= t('search_form.timepicker.till')
+          .clear
+        .buttons
+          %a.button#add_time= t('search_form.timepicker.buttons.add_day')
+          %a.button#clear_time= t('search_form.timepicker.buttons.clear')
+      - if @on_home_page
+        .buttons
+          %a.button.large.clear_intervals{'data-total-text' => t('search_form.timepicker.total'), 'data-input-text' => t('search_form.date_time')}
+            = t('search_form.timepicker.buttons.clear_intervals')
+      - else
+        %pre.result= t('search_form.timepicker.total')
+        .buttons
+          %a.button.large.clear_intervals{'data-total-text' => t('search_form.timepicker.total'), 'data-input-text' => t('search_form.date_time')}
+            = t('search_form.timepicker.buttons.clear_intervals')
+    - if @on_home_page
+      %pre.result= t('search_form.timepicker.total')
+    .clear
+    %input.result_hidden{type: 'hidden'}
+    .select_result_wrapper
+      %a.select_result= t('search_form.timepicker.buttons.choose')
+    = image_tag 'find_cloud_arrow.png', class: 'find_cloud_arrow'

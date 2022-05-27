@@ -1,0 +1,25 @@
+#call-search-form
+/ - search ||= nil 
+/ - immediate_call = search ? !search.scheduled_at : true
+/ - if @languages.empty?
+/   %br
+/   %span= t("interpretation_call.no_interpreters")
+/   %br
+/ - else
+/   .toggle-call-date
+/     %ul
+/       %li{class: ("act" if immediate_call)}
+/         %a{tabindex: :immediate}= t("interpretation_call.immediate_call")
+/       %li{class: ("act" unless immediate_call)}
+/         %a{tabindex: :set_time}= t("interpretation_call.choose_time")
+/   = simple_form_for :call_search, url: call_searches_path, html: {id: 'interpretation_call_search_form', class: "single-time-selector-form"}  do |f|
+/     = hidden_field_tag "call_search[user_agent]", "web"
+/     = render 'interpretation_call_searches/form/time_selector', immediate_call: immediate_call, scheduled_at: search && search.scheduled_at
+/     .clear
+/     = render 'interpretation_call_searches/form/languages', search: search
+
+/     = submit_tag t("interpretation_call.submit"), class: 'base-input-submit'
+= link_to t("interpretation_call.help_link"), "#", class: "show-call-info", style: "margin-right: 100px; text-decoration: none;"
+= link_to t("interpretation_call.about_service"), phone_path, target: "_blank", style: "text-decoration: none;"
+#call-info-popup
+%br

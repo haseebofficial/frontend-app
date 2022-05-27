@@ -1,0 +1,42 @@
+-#- @array_to_display.each do |interpreter_or_block|
+-#  - if interpreter_or_block == 'price-block'
+-#    $('.result_trans_wrapper').append("<div class='more_results price-block'>Еще #{@all_price_deviated_count} Переводчиков в #{@search.city.name} соответствующие Вашему запросу, но доступные в другом ценовом диапазоне</div>")
+-#    - next
+-#
+-#  - if interpreter_or_block == 'time-block'
+-#    $('.result_trans_wrapper').append("<div class='more_results time-block'>Еще #{@all_time_deviated_count} Переводчиков в #{@search.city.name} соответствующие Вашему запросу, но доступные в другое время</div>")
+-#    - next
+-#
+-#  wrapper_class = 'accurate_results';
+-#  if ( $('.price-block').length>0 ) { wrapper_class = 'price_deviation_results' };
+-#  if ( $('.time-block').length>0 ) { wrapper_class = 'time_deviation_results' };
+-#  console.log('wrapper_class:' + wrapper_class)
+-#  $('.result_trans_wrapper').append("<div class='" + wrapper_class + "'>#{ escape_javascript(render partial: 'searches/show/questionnaire', object: interpreter_or_block) }</div>")
+-#
+-#if (#{@all_results_count} == $('.search_result').length) {
+-#$('.show-more').hide()
+-#}
+-#
+-#- if @array_to_display.empty?
+-#  $('.show-more').hide()
+-#  console.log('Show more still displayed, oops')
+
+var text_html = '';
+- unless @interpreters.blank?
+  - @interpreters.each do |interpreter|
+    text_html += "#{escape_javascript(render(partial: 'searches/show/questionnaire', object: interpreter))}";
+- unless @another_interpreters.blank?
+  if($('.more_results#another_price_interpreters').length == 0){
+  text_html += '<div class="more_results" id="another_price_interpreters" >Еще #{@another_interpreters_count} Переводчиков в #{@search.city.name} соответствующие Вашему запросу, но доступные в другом ценовом диапазоне </div>';
+  }
+  - @another_interpreters.each do |interpreter|
+    text_html += "#{escape_javascript(render(partial: 'searches/show/questionnaire', object: interpreter))}";
+
+- unless @busy_interpreters.blank?
+  if($('.more_results#busy_interpreters').length == 0){
+  text_html += '<div class="more_results" id="busy_interpreters" >Еще #{@busy_interpreters_count} Переводчиков в #{@search.city.name} соответствующие Вашему запросу, но доступные в другое время</div>';
+  }
+  - @busy_interpreters.each do |interpreter|
+    text_html += "#{escape_javascript(render(partial: 'searches/show/questionnaire', object: interpreter))}";
+
+$('.loading-bar.show-more').before(text_html);

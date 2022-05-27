@@ -1,0 +1,30 @@
+.find_translator_wrapper
+  .title
+    = t('search_form.title')
+  .form_wrapper#search_form_wrapper
+    = simple_form_for :search, url: searches_path, html: {id: 'base_form_search'}  do |f|
+      = f.hidden_field :user_id, value: current_user.id if current_user.present?
+      .label
+        %span.lab
+          = t('search_form.where')
+        %span.error
+        = f.error :city
+        = render partial: 'searches/form/city_selector'
+      .label
+        %span.lab
+          = t('search_form.when')
+        %span.error
+        = f.error :intervals
+        = render partial: 'searches/form/date_selector'
+      .label
+        %span.lab
+          = t('search_form.language')
+        %span.error
+        = f.error :language_id
+        = render partial: 'searches/form/language_selector'
+      .your_lang
+        = t('search_form.your_language')
+        = render partial: 'searches/form/your_language_selector'
+
+      = f.submit t('search_form.button'), class: 'sub_bot'
+  .clear

@@ -1,0 +1,46 @@
+- content_for :description do
+  .mobile-hide= t('description_index')
+
+- content_for :amp_link do
+  %link{rel: "amphtml", href: url_for(format: :amp, only_path: false)}
+
+- content_for :meta_description do 
+  = t("main.meta_desc")
+-content_for :body do
+  .slider_wrapper
+    %ul#main_slider.bxslider
+      %li
+        = image_tag 'slider/slide_1.jpg', class: 'bg', alt: ''
+        .content
+          .text.slaid11
+            = t("slider.slide1")
+            %br
+            %span.slaid12= t("slider.price_slide1")
+      %li
+        = image_tag 'slider/slide_3.jpg', class: 'bg', alt: ''
+        .content
+          .text.slaid21
+            = t("slider.slide2")
+            %br
+            %span.slaid22= t("slider.price_slide2")
+      %li
+        = image_tag 'slider/slide_4.jpg', class: 'bg', alt: ''
+        .content
+          .text.slaid31
+            = t("slider.slide3")
+            %br
+            %span.slaid32= t("slider.price_slide3")
+      %li
+        = image_tag 'slider/slide_2.jpg', class: 'bg', alt: ''
+        .content
+          .text.slaid41
+            = t("slider.slide4")
+            %br
+            %span.slaid42= t("slider.price_slide4")
+    .content
+      = render partial: 'search_form'
+    .slider_arrows
+      %a.prev_arrow
+      %a.next_arrow
+
+  = render partial: 'searches/new/main_content'

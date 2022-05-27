@@ -1,0 +1,103 @@
+@use "text_translations/_styles/new_text_translation/utils/text_translation_form_properties";
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+@use "app/_styles/utils/text";
+@use "text_translations/_styles/new_text_translation/utils/utils" as form-utils;
+
+.translation-request-form .main-fields {
+
+  .main-field {
+    @include form-utils.field-height(60px);
+    .label {
+      color: c.$interpreters-yellow;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 1.2rem;
+      font-weight: normal;
+      margin-bottom: 0.2em;
+      font-family: "robotomedium", sans-serif;
+    }
+.file {
+.file-cta{
+  height: 60px;
+}
+}
+    .label-empty {
+      @include text.unselectable;
+      opacity: 0.0;
+    }
+
+    .control {
+      font-size: 1.2rem;
+
+      select, input {
+        width: 100%;
+        font-size: 1.2rem;
+        color: black;
+        padding-left: 0.3em;
+        border: none;
+        background-color: text_translation_form_properties.$input-background;
+      }
+
+      select, input, .button {
+        box-shadow: none;
+      }
+
+      .button {
+        padding: 5px;
+        font-family: "robotoregular", sans-serif;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+
+@include r.touch {
+  .translation-request-form .main-fields {
+
+    .main-field {
+      @include form-utils.field-height(45px);
+      .label {
+        color: c.$interpreters-yellow;
+        text-transform: uppercase;
+        font-size: 10px;
+        line-height: 1.2rem;
+        font-weight: normal;
+        margin-bottom: 0.2em;
+        font-family: "robotomedium", sans-serif;
+      }
+      .file {
+        .file-cta{
+          height: 45px;
+        }
+      }
+      .label-empty {
+        @include text.unselectable;
+        opacity: 0.0;
+      }
+
+      .control {
+        font-size: 1.2rem;
+
+        select, input {
+          width: 100%;
+          font-size: 1.2rem;
+          color: black;
+          padding-left: 0.3em;
+          border: none;
+          background-color: text_translation_form_properties.$input-background;
+        }
+
+        select, input, .button {
+          box-shadow: none;
+        }
+
+        .button {
+          padding: 5px;
+          font-family: "robotoregular", sans-serif;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+}

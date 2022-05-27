@@ -1,0 +1,398 @@
+es:
+  locales: 
+    ru: "Русский"
+    en: "English"
+    de: "Deutsch"
+    es: "Español"
+    fr: "Français"
+    it: "Italiano"
+    tr: "Türkçe"
+    pt: "Português"
+    vi: "Tiếng Việt"
+    ar: "العربية"
+    ja: "日本語"
+    zh: "中文"
+    ko: "한국의"
+  your_language_selector: "Seleccione la lengua"
+  for: "por"
+  flash_messages: 
+    new_interpreter: "¡Usted ha sido registrado exitosamente en interpretres.travel! Contraseña para acceder a espacio privado ha sido enviada a su correo electrónico especificado: %{email}"
+    new_partner: "¡Usted ha sido registrado exitosamente en interpretres.travel como el socio! Contraseña para acceder a espacio privado ha sido enviada a su correo electrónico especificado: %{email}."
+    ticket_created: "Gracias por dirigirse a nuestro Centro de ayuda. Usted recibirá respuesta en breve."
+    interpreter_message_created: "Su mensaje ha sido enviado. Usted en breves momentos recibirá una respuesta a su correo electrónico."
+    paypal_payment_declined: "PayPal ha rechazado su pago. Por favor, póngase en contacto con el Soporte"
+    braintree_payment_declined: "Braintree ha rechazado su pago. Por favor, póngase en contacto con el Soporte"
+    payment_success: "Su encargo ha sido registrado."
+    order_not_paid: "¡Preste su atención! ¡Su pago de encargo no ha sido realizado! Usted puede elegir otro tipo de pago debajo de la información del encargo. Si el encargo ya ha sido pagado, pero Usted aún ve este mensaje, por favor póngase en contacto con el soporte. Número del encargo: %{id}."
+    contacts_requested: "Los datos del intérprete serán disponibles en unos minutos. Usted recibirá notificación y carta de pago a su correo electrónico."
+    payment_declined: "Su pago ha sido rechazado.  Por favor, ponte en contacto con el soporte."
+
+  forms: 
+    email: "Correo electrónico:"
+    name: "Su nombre:"
+    phone: "Número de teléfono:"
+    message: "Сообщение:"
+    send_message_to_int: "Escribir al intérprete"
+    send_button: "Enviar"
+    send_to_all: "Enviar un mensaje a todos los intérpretes parecidos"
+    order_message: "Elija su evento, lugar, fecha, la hora, cantidad de participantes, el objeto, idiomas de interpretación, otras características y requisitos"
+  meta_desc: 
+    main: "Intérpretes. De todo el mundo. ¿Porqué el interpreters.travel? Intérpretes verificadas y las opiniones reales de los clientes"
+    about: "La empresa Interpreters.travel OÜ, fundada en 2013, tiene todos los derechos exclusivas de Interpreters.travel - servicios de busqueda de intérpretes y online encargos de interpretación a nivel mundial."
+    for_clients: "Interpreters.travel – es un servicio que ayuda econtrar a intérpretes profesionales y hacer encargos ciudades y paíces de todo el mundo!"
+    help_interpreter: "Interpreters.travel – es una página web simple y segura para obtener nuevas demandas de sevicios de interpretación. Las funciones fáciles del uso me ayudan configurar los servicios según mi nivel de ocupación y recibir órdenes sólo en el momento preferible. Aunque tengo pocas horas libres en mi horario de trabajo, recibo ordenes de interpreters.travel y utilizo mi tiempo libre de manera rentable."
+    info: "Interpreters.travel - es un servicio simple, seguro y fiable que ayuda encontrar directamente en el sitio web o con su teléfono móvil a un intérprete adecuado y hacer encargo de los servicios de interpretación a nivel mundial."
+    for_affiliates: "Партнёрская программа Interpreters.travel. Вы размещаете форму поиска переводчиков или гипперссылку у себя на сайте. Пользователь вашего сайта, заинтересованный в услугах устного перевода, находит подходящего переводчика и оформляет ему заказ. Вы получаете комиссию 5% с суммы каждого выполненного заказа."
+  top_menu:
+     login_link: 'Iniciar sesión'
+     sign_up_link: 'Registrarse'
+     help_link: 'Centro de ayuda'
+     logout_link: 'Salir'
+     dashboard_link: 'Área de usuarios'
+     welcome: 'Bienvenido, %{user}'
+     interpreter_login_link: 'Iniciar sesión como intérprete'
+
+  footer:
+    info: 'Sobre interpreters.travel'
+    support: 'Soporte 24/7'
+    help_inter: Para los intérpretes
+    help_inter_in_city: 'Para los intérpretes en %{city}'
+    for_affiliates: "Para los socios"
+    terms_conditions: 'Términos y Condiciones'
+    privacy_policy: 'Política dela  privacidad'
+    copyright_html: '&copy; Copyright 2013 - %{year}. interpreters.travel. All rights reserved.'
+
+  description_index: 'Intérpretes. De todo el mundo'
+
+  slider: 
+    slide1: "Intérprete en la reunión de negocios"
+    price_slide1: "en Los Angeles, EE.UU. - EUR135 / 3 h."
+    slide2: "Intérprete en una exposición de muebles"
+    price_slide2: "Milán, Italia - EUR100 / 5 horas"
+    slide3: "Interpretación con susurro en el seminario en"
+    price_slide3: "Hong Kong - EUR 280/2 días"
+    slide4: "Traducción en consultas en la clínica en"
+    price_slide4: "Colonia, Alemania - 75 euros / 3 horas"
+
+  card_checkout_form: 
+    title: "A pagar %{amount}"
+    name: "El titular de la tarjeta"
+    submit: "Pagar"
+    cnn_error: 'Número de tarjeta ha sido introducido incorrectamente'
+    exp_error: 'Ingresa la fecha futura en el formato MM / YY'
+    cvv_error: 'Ingresa el número CVV (esta en el otro lado de la tarjeta)'
+    text: "No tenemos acceso a tus datos personales de facturación, como la tarjeta de crédito o número CVV, en ningún momento durante el proceso de agregar o usar una tarjeta"
+
+  search_form:
+    title: 'Buscar a intérprete'
+    where: 'Dónde:'
+    when: 'Cuándo:'
+    language: 'Que idioma se necesita:'
+    your_language: 'Su idioma:'
+    button: 'BUSCAR'
+    city: 'Por ejemplo: Berlín, Milano, Nueva York'
+    date_time: 'Seleccione la fecha y la hora'
+    timepicker:
+      title: 'La hora de la reunión (local):'
+      total: 'El tiempo total de los períodos'
+      from: 'Desde:'
+      till: 'Hasta:'
+      buttons:
+        add_day: 'AÑADIR'
+        clear: 'BORRAR'
+        clear_intervals: 'BORRAR LOS PERÍODOS'
+        choose: 'ELEGIR'
+    language_selector: 
+      no_result: 'No hay intérpretes disponibles en este ciudad'
+      list_select: 'elejir de la lista'
+      blank_city: "Primero seleccione ciudad"
+    city_selector: 
+      no_result: "En esta ciudad no hay intérpretes disponibles. Trate buscar un intérprete en esta ciudad más tarde o elija otra ciudad"
+  partner_search_form:
+    title: '¡Intérpretes en 130 paíces!'
+    desc: 'Para los negocios, conferencias, exposiciónes, clinicas'
+    show: Ver más
+  contact_form:
+    name: "Nombre, Apellido:"
+    phone: "Teléfono:"
+    email: "Correo electrónico:"
+    content: "Si mensaje:"
+    button: "Enviar"
+    city: "SU ciudad:"
+
+  counts: 
+    cities: 
+      one: '%{count} ciudad'
+      few: '%{count} ciudades'
+      other: '%{count} ciudades'
+    countries: 
+      one: '%{count} país'
+      few: '%{count} países'
+      other: '%{count} países'
+
+  client_reviews: 
+    leave_review: Dejar un comentario
+    score: Valoración general
+    interpretation_score: La velocidad y la exactitud de la interpretación
+    punctuality_score: La puntualidad y la organización
+    consultation_score: "Asesoramiento y asistencia durante el acompañamiento"
+    comment: "Cuáles son sus impresiones del trabajo con el intérprete, evaluación de profesionalismo, organización y satisfacción de asistencia del intérprete"
+    updated: "El comentario se ha guardado. Gracias por su opinión y su tiempo dedicado."
+
+  main:
+    header: 'Tipos de servicios de interpretación'
+    header_description: 'Usted no sabe qué servicio elegir? Mire la descripción de los servicios de interpretación.'
+    block_img1: 'Interpretación en negociaciones'
+    block_img2: 'Interpretación en presentación'
+    block_img3: 'Interpretación de protocolo'
+
+    block_img4: 'Interpretación en la exposición'
+    block_img5: 'Interpretación de un seminario o conferencia'
+    block_img6: 'Acompañamiento de delegaciones'
+    all_type: 'Todos los servicios de interpretación'
+    client_reviews_title: "Intérpretes verificadas y las opiniones reales de los clientes"
+    why_inter:
+      title: '¿Porqué interpreters.travel?'
+      block1:
+        link: 'Es fácil y seguro'
+        text_html: '¡Haga encargo ahora, paga después! <br/> Cancelación de encargo es GRÁTIS <br/> La seguridad de los pagos.'
+      block2:
+        link: 'Los precios bajos'
+        text_html: 'Todos los encargos por PRECIOS DE INTÉRPRETES <br/> sin sobretasas de las agencias <br/> Con LOS DESCUENTOS CALCULADOS en la factura'
+      block3:
+        link: 'Gran variedad de opciones'
+        text_html: 'Intérpretes en %{cities}, <br/> %{countries} de todo el mundo'
+      block4:
+        link: 'Es cómodo'
+        text_html: 'Facilidades de pago: Visa, MasterCard,<br/> transferencia bancaria, en efectivo <br/>SOPORTE 24/7'
+  search_page: 
+    window_title: 
+      zero: "No hay intérpretes en %{city}"
+      one: "%{count} intérpete en %{city}"
+      few: "%{count} intérpetes en %{city}"
+      other: "%{count} intérpetes en %{city}"
+    title: 
+      zero: "No hay intérpretes en %{city}"
+      one: "Intérpete en %{city}"
+      few: "Intérpretes en %{city}"
+      other: "Intérpretes en %{city}"
+    keywords: "Intérpretes en %{city}, servicios de intérprete en %{city}, intérpretes español en %{city}, intérpretes independientes en %{city}, un intérprete en %{city}"
+    meta_description: "Servicios de intérprete profesional en %{city} para negociaciones, exposiciones, conferencias, acompañamiento. Por favor, póngase en contacto con el traductor o pedirlo en línea sin comisiones y pagos a cuenta."
+    free_cancellation: "Reserve ahora, pague después, cancelación ES GRATIS! Sin sobretasas."
+    one_available_interpreter: "Un intérprete en %{city} está disponible para el encargo"
+    one_from_few_available_interpreter: "%{free} de %{count} intérpretes en %{city} estan disponibles para el encargo"
+    available_interpreters: 
+      zero: "No hay intérpretes desponibles en %{city} de los parámetros elegidos"
+      one: "%{free} de %{count} intérpretes en %{city} estan disponibles para el encargo"
+      few: "%{free} de %{count} intérpretes en %{city} estan disponibles para el encargo"
+      other: "%{free} de %{count} intérpretes en %{city} estan disponibles para el encargo"
+    duration_text: "El precio por %{duration} (%{intervals}), con los descuentos."
+    back_link: "A la página principal"
+    price: "Precio de los intérpretes en %{city}"
+    services: "Serviocios de los intérpretes en %{city}:"
+    specializations: "La especialización de la interpretación:"
+    fold: Esconder
+    unfold: Ver más 
+    city_desc: "Sobre los intérpretes en %{city}"
+    sort: 
+      title: "Clasificación:"
+      price: "Precio"
+      updated_at: "Fecha de actualización"
+      level: "Resumen de evaluación"
+    change_date: "¿Cambiar la hora?"
+    learn_more: "VER MÁS"
+    result: "Resultado"
+    filter: "Filtro"
+    search: "Búsqueda"
+    map_link: "Ver en el mapa"
+    minimum_volume_message: "%{hours} es el encargo mínimo a los intérpretes en %{city}. Aumente el tiempo de su reunión."
+    busy_interpreters_message: "%{count} intérpretes no están disponibles en el periodo elegido"
+    minimum_advance_message: "Su encargo no se puede realizar con los intérpretes de %{city} antes de %{advance}. Cambie la fecha y la hora."
+    time_in_past: "Seleccione la fecha futura"
+    another_price_interpreters: 
+      one: "%{count} intérprete más en %{city} corresponde a su solicitud, pero está disponible con diferente escala de precios"
+      few: "%{count} intérpretes más en %{city} corresponde a su solicitud, pero está disponible con diferente escala de precios"
+      other: "%{count} intérpretes más en %{city} corresponde a su solicitud, pero está disponible con diferente escala de precios"
+    busy_interpreters: 
+      one: "%{count} intérprete más en %{city} corresponden a su solicitud, pero están disponibles a otra hora"
+      few: "%{count} intérpretes más en %{city} corresponden a su solicitud, pero están disponibles a otra hora"
+      other: "%{count} intérpretes más en %{city} corresponden a su solicitud, pero están disponibles a otra hora"
+    show_more: "Ver más"
+  interpreter: 
+    diplomas: "Diplomas"
+    certificates: "Certificaciones"
+    experience: "Experiencia"
+    level: "Nivel"
+    rating: "Ránking"
+    reviews: "Opiniónes y comentarios"
+    education: Educación
+    reviews_text: "Sólo de los clientes que han pedido y han pagado por los servicios de intérprete"
+    rating_text: "Ránking se ha componado de más de 20 parámetros: la experiencia de trabajo, la educación, opiniónes y comentarios de los clientes, recomendaciones y calidad del perfil y etc."
+    recommendations: "Recomendaciones"
+    events: "Eventos"
+    resume_level: "Curriculum vitae <span class='mobile-hide'> nivel:</span>"
+    title: "Intérprete profecional"
+    title_city: "Intérprete profesional en %{city}"
+    verified_contacts: "Contactos están verificados"
+    verified_profile: "Su perfil está confirmado"
+    in_city: "Intérprete en %{city} - %{name}"
+
+  show_interpreter: 
+    title: "Intérprete en %{city} (%{langs}) - %{interpreter}"
+    meta_description: "Servicios de intérprete profesional en %{city} para negociaciones, exposiciones, conferencias, acompañamiento"
+    desc_addition: "Ofrezco servicios de interpretación (%{langs}) en %{city}."
+    keywords: "Intérprete en %{city}, servicios de intérprete en %{city}, intérprete español en %{city}, intérprete independiente en %{city}, un intérprete en %{city}, servicios de intérpretación en %{city}"
+    service_select: "Intérprete en %{city}"
+    experience: "Experiencia"
+    youtube_link: Videoreferencia
+    similar_interpreters: "Intérpretes parecidos"
+    verified_contacts_text: "Проверены паспорт (удостоверение личности, водительское удостоверение) и документы об образовании."
+    ticket_text: 'Envie al intérprete una solicitud o reserva la fecha y la hora, utilizando el botón "Encargar", que está enfrente de los servicios abajo.'
+    why_itravel_block: |
+      <h3> Porqué el interpreters.travel: </h3>
+      <p> Los precios de los intérpretes sin sobretasas de las agencias </p>
+      <p> El pago en línea o en efectivo al intérprete </p>
+      <p> Cancelación gratuita, garantías de reembolso de los pagos</p> 
+      <p> Hacer encargo sin registrarse</p>
+      <p> Posibilidad de hacer encargo para la empresa </p>
+      <p> Seguridad de los pagos en línea, protección de los datos </p>
+    learn_more: "Saber más"
+    back_link: "Todos intérpretes en %{city}"
+    load_more: "Enseñar más"
+    selected_period: "El período seleccionado: %{intervals}"
+    specializations: "La especialización de la interpretación:"
+    language_pairs: "Idiomas de la interpretación:"
+    unavailable: "Los servicios del intérprete no están disponibles para el encargo a la hora seleccionada,"
+    edit_search: "cambie la hora del encargo"
+    available_services: "Los servicios disponibles para el encargo de %{period}:"
+    price: "El precio*"
+    order: "Encargo"
+    person_count:  '(%{count} personas)'
+    additional_services: "Servicios adicionales"
+    free_cancellation_text: "Cancelación gratuita está disponible, si no está más tarde del día %{hours} antes de comienzo de la reunión. Cancelación más tarde del tiempo puesto y antes de inicio de la reunión, es posible solamente con retención del pago de las dos primeras horas de servicios del intérprete."
+    free_cancellation: "Cancelación gratuita"
+    discount: "Descuento"
+    order_button: "Encargar"
+    star_text: "*El precio del encargo por el tiempo seleccionado, con los descuentos"
+    avg_response_time: 
+      title: "Tiempo de la respuesta"
+      hour: "Dentro de una hora"
+      few_hours: "Dentro de unas horas"
+      day: "Dentro del día"
+      few_days: "Dentro de unos días"
+    response_rate: "Frecuencia de las respuestas"
+    how_to_order: 
+      title: "Como reservar a un intérprete en %{city}:"
+      text: |
+        - Pulsar "Encargar", que está enfrente del servicio seleccionado
+        <br>
+        - Realizar su encargo con tarjeta crédito, o recibir una factura del pago por transferencia bancaria. También Usted puede elegir a pagar en efectivo al intérprete.
+        <br>
+        - Recibir una confirmación del encargo y los datos del intérprete para ponerse en contacto
+    confirm_modal:
+      date: "Fecha y hora de su reserva:" 
+      service: "%{service} en %{city}"
+      languages: "Idiomas de interpretación:"
+      price: "Suma del encargo:"
+    reviews_from: Sólo de los clientes que han pedido y han pagado por los servicios de intérprete
+    dialogs: 
+      checked_and_confirmed: 'Verificados y confirmados:'
+      email_full: "Correo electrónico: %{email}"
+      phone_full: "Número de teléfono: %{phone}"
+      email_address: "Correo electrónico: ▒▒▒▒▒▒@▒▒▒▒.%{domain}"
+      phone: "Número de teléfono: ▒▒▒▒▒▒%{last_two}"
+      contacts_available: "Los contactos estarán disponibles después de la %{confirmation}"
+      order_confirmation: "confirmación del encargo"
+      passport: 'Pasaporte/DNI/carnet de conducir'
+      documents: Documentos de educación
+      contacts_title: Contactos están verificados
+      profile_title: Confirmación del perfil
+      education_title: "Educación"
+      youtube_title: "Videoreferencia"
+    500_page: 
+      title: Intérprete no está encontrado
+      title_text: Este intérprete no está disponible ahora o ha parado la publicación de su perfil
+      similar_ints_title: "Ver intérpretes parecidos en %{city}"
+      to_search: "Trate elegir %{link} otros intérpretes disponibles en %{city}"
+      search: IR A LA BÚSQUEDA
+    viewers_count: 
+      one: "Ahora este intérprete estan mirando %{count} personas"
+      few: "Ahora este intérprete estan mirando %{count} personas"
+      other: "Ahora este intérprete estan mirando %{count} personas"
+
+  order_page: 
+    description: "Formalizar un encargo"
+    back_link: 'Ir a la elección de los servicios'
+    stage1: "Elegir al intérprete"
+    stage2: "Elegir al servicio"
+    stage3: "Formalización del encargo"
+    order_info: "Información sobre el encargo:"
+    services_info: "Servicios de la interpretación en la ciudad: %{city}."
+    selected_period: "El periodo seleccionado:"
+    language_pairs: "Idiomas de la interpretación:"
+    selected_services: "Servicios seleccionados:"
+    additional_services: "Servicios adicionales:"
+    order_cancellation: "Cancelación gratis del encargo:"
+    cancellation_possible: "es posible antes de %{date}"
+    no_cancellation: "no está propuesto"
+    service_types: "Servicios seleccionados:"
+    order_price: "Suma y valuta del encargo:"
+    discount: "Con los descuentos calculados."
+    personal_form_tab: "Hacer encargo para la persona privada"
+    confirmation_code: "Введите код подтверждения, высланный на ваш номер:"
+    login_button: "Iniciar sesión"
+    login_password_info: "(contraseña ha sido enviada al siguiente correo electrónico %{mail})"
+    login: "Entrar"
+    password: "Contraseña"
+    forgot_password_success: "Al cabo de unos minutos Usted recibirá un correo electrónico con instrucciones para recuperar su contraseña."
+    forgot_password: "¿Olvidó su contraseña?"
+    forgot_title: "Restablecer contraseña"
+    new_password: "Crear nueva contraseña"
+    client_currency: "Valuta de pago"
+    payment: 
+      choice: "Se le ofrecerá opciones de pago:"
+      choice_paypal: "PayPal"
+      choice_invoice: "cuenta para la transferencia bancaria"
+      choice_cash: "en effectivo"
+      choice_card: "VISA/MasterCard"
+      info: "Al elegir pago en efectivo las condiciones de cancelación del encargo concuerdan con el intérprete."
+      cash_text: 'Al elegir el variante “En efectivo” Usted paga por el encargo con dinero efectivo directamente al intérprete, en la valuta (%{amount}) de acuerdo con el cambio actual en el momento de encargo. Usted recibirá la factura de pago en valuta del intérprete'
+      invoice_text1: "Copia de la factura se enviará por correo electrónico en formato de pdf"
+      invoice_text2: "Pagar la factura, Usted puede en cualquier banco, formalizando la transferencia bancaria no más tarde que 3 días laborales antes de la fecha de pago, especificada en la factura."
+      paypal: 'Usted se dirigirá a la página de PayPal. Haga clic en el "PayPal"'
+      select: "Tipos de pago:"
+      invoice: "La cuenta"
+      cash: "En efectivo"
+      order_button: "ENCARGAR LOS SERVICIOS DEL INTÉRPRETE"
+
+    personal_form: 
+      title: "Información sobre el cliente:"
+      surname: "Apellido:"
+      name: "Nombre:"
+      sms_phone: "Teléfono móvil (+35733...)"
+      city: "Ciudad:"
+      address: "Dirección:"
+      email: "Correo electrónico:"
+      info_for_interpreter: "Información para el intérprete (es opcional y se puede ser proporcionada más tarde)"
+      meeting_address: "Dirección de la reunión con el intérprete:"
+      map_link: "Indicar en la mapa"
+      detail_information: "Describa el tema y las preguntas de la reunión, copie el texto del comunicado u otra información (no más que 1200 símbolos). Eso permite al intérprete prepararse mejor para la interpretación de la reunión o del evento." 
+      file_field: "Añada fichero con la información"
+      submit: "ELEGIR EL TIPO DE PAGO"
+      agreement_required: "Es necesario confirmar su consenso."
+      agreement_text: "Elegir el tipo de pago”, confirmo, que he leído y acepto la política de privacidad y los términos y condiciones"
+      policy: "la política de privacidad, "
+      terms: "términos y condiciones"
+  order_complete: 
+    title: "Registración del encargo"
+    back_link: "A la página principal"
+    for_client: "Estimado(da) %{client}!"
+    order_registered: "Su encargo ha sido registrado."
+    text: | 
+      En su correo electrónico ha sido enviado la descripción detallada del encargo
+      <br>
+      y próximos pasos.
+      <br> 
+      También se puede
+    link: "ver los detalles del encargo"
+    after_link: "en nuestro sitio web."

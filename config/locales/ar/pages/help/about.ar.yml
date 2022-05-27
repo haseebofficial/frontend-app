@@ -1,0 +1,36 @@
+ar:
+  about_page:
+    title: "عن الشركة"
+    text: |
+      <div itemscope itemtype="http://schema.org/Organization">
+      <p>
+        تأسست شركةInterpreters.travel OÜ, عام 2013، وتمتلك تماما حقوق حصرية ل Interpreters.travel  وهي خدمة البحث عن المترجمين وحجز خدمات الترجمة الفورية عبر الإنترنت في جميع أنحاء.
+      </p>
+      <p>شركة Interpreters.travel OÜ, مسجلة بوزارة التجارة والصناعة والسياحة في جمهورية إستونيا تحت رقم 16422855.</p>
+      <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Главный офис компании Interpreters.travel OÜ расположен по адресу:
+        <br/>
+        <b><span itemprop="streetAddress">Vesivärava tn 50-201</span>, <span itemprop="postalCode">10152</span> - <span itemprop="addressLocality">Tallinn, Estonia</span></b>
+      </p>
+      <p>
+        Телефон офиса:
+        <b><span itemprop="telephone">+357 22 008 050</span></b>
+        (на английском и русском) с 9:00 до 17:00 (GMT + 2 часа)
+        <br/>
+        Email:
+        <a href="mailto:office@interpreters.travel"><span itemprop="email">office@interpreters.travel</span></a>
+      </p>
+      </div>
+    addresses:
+      title: |
+        تأسست شركةInterpreters.travel OÜ, عام 2013، وتمتلك تماما حقوق حصرية ل Interpreters.travel  وهي خدمة البحث عن المترجمين وحجز خدمات الترجمة الفورية عبر الإنترنت في جميع أنحاء العالم.
+        <br/>
+        شركة Interpreters.travel OÜ, مسجلة بوزارة التجارة والصناعة والسياحة في جمهورية إستونيا تحت رقم 16422855
+      estonia: |
+        <b>يقع المكتب الرئيسي لشركة Interpreters.travel OÜ,  في تالين ( إستونيا)</b>
+        <br/>
+        <b>البريد الإلكتروني: </b> office@interpreters.travel
+        <br/>
+        <b>هاتف: </b>+357 22 008 050 (باللغتين الإنجليزية والروسية) من الساعة 9:00 صباحا وحتى الساعة 05:00 مساء (بتوقيت جرينتش + ساعتان)
+        <br/>
+        <b>العنوان:</b> Vesivärava tn 50-201, 10152, Tallinn, Estonia

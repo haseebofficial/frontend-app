@@ -1,0 +1,82 @@
+fr: 
+  sign_in_page: 
+    title: "Entrée"
+    form: 
+      email: "E-mail:"
+      password: "Mot de passe:"
+      remember_me: "Sauvegarder mes données"
+      submit: "Entrée"
+  shared_links:
+    interpreters_login: "Entrée pour les interprètes" 
+    sign_in: "Entrée"
+    sign_up: "Enregistrement"
+    new_password: "Vous avez oublié votre mot de passe?"
+    interpreters_sign_up: "Enregistrement pour les interprètes"
+  sign_up_page:
+    title: "Enregistrement"
+    interpreters_question: "Voulez-vous nous rejoindre en tant qu’interprète?"
+    yess: "Oui"
+    nno: "Non"
+    form:
+     name: "* Prénom"
+     surname: "* Nom"
+     email: "* E-mail"
+     password: "* Mot de passe"
+     password_confirmation: "* Confirmation de mot de passe"
+     submit: 'Enregistrement'
+  new_password_page:
+    title: "Réinitialiser le mot de passe"
+    form: 
+      email: 'E-mail'
+      submit: "Créer un nouveau mot de passe" 
+  orders_index_page: 
+    title: "Mes commandes"
+    load_more: "Afficher plus"
+    cancelled: "Commande est annulée"
+  order_pages_sidebar: 
+    menu: "Menu"
+    orders: "Mes commandes"
+    searches: "Mes recherches"
+    logout: "Sortie"
+    from: "de"
+  searches_index_page: 
+    title: "Mes recherches"
+    created_at: "Quand était la recherche"
+    city: "Ville"
+    languages: "Combinaison linguistique"
+    intervals: "La date, l'heure"
+  show_order_page: 
+    title: "Voir la commande"
+    details: "Détails de la commande :"
+    from: "de"
+    get_voucher: "recevoir le Bon de l'ordre"
+    cancelled: "Réservation annulée"
+    period: "Le période choisi :"
+    contact_details: "Les données relatives à un interprète"
+    email: "L’adresse électronique :"
+    phone: "Téléphone :"
+    service_info: "Des informations supplémentaires sur le service"
+    languages: "Paires des langues :"
+    address: "L’adresse de rencontre :"
+    additional_services: "Dans le service y compris :"
+    not_available: "est pas possible"
+    cancellation_conditions: "Conditions de l’annulation gratuite :"
+    payment_info: "Information sur le paiement"
+    payment: "Paiement :"
+    payment_date: "Date de paiement :"
+    get_receipt: "Obtenir le reçu"
+    pay_with_card: "Paiement à l’aide de l’carte (VISA/MasterCard)"
+    client_info: 
+      title: "Information du Client de service"
+      name: "Nom, Prénom :"
+      city: "Ville :"
+      phone: "Téléphone :"
+      email: "Email:"
+    confirm_order_changes: "Je suis d'accord avec les changements dans l'ordre"
+    cancel_order: "Annuler la commande"
+    cancel_warning: "Pour Annulé ne peut pas être restauré."
+    continue: "Continuer?"
+    details_available_after_confirmation: "Il sera disponible après la confirmation de la commande"
+    details_not_available: "Il sera disponible après la confirmation de la commande et l'expiration de la période de annulation GRATUITEe"
+    request_contacts: "Afficher les contacts maintenant"
+    request_contacts_text: "En obtenant des contactes de l'interprète à l'avance, vous modifiez les conditions d'annulation. L'annulation ne sera possible qu'avec la déduction / le paiement du coût de deux heures de services d'interprétation. Confirmer la réception anticipé des contacts et modifier les conditions de l'annulation"

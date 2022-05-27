@@ -1,0 +1,8 @@
+ar:
+  searches_index_page: 
+    title: "البحث الخاصة بي"
+    created_at: "متى كان بحث"
+    city: "المدينة"
+    languages: "أزواج اللغات"
+    intervals: "التاريخ والوقت"
+    show_search_form: "العثور على مترجم"

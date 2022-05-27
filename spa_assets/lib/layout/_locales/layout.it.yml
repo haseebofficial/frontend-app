@@ -1,0 +1,45 @@
+layout:
+  header:
+    sign_in: 'Accesso'
+    help_link: 'Aiuto'
+    sign_out: 'Uscita'
+    personal_account: 'Spazio personale'
+    welcome: 'Benvenuto, %{user}'
+    interpreters_sign_in: 'Accesso per gli interpreti'
+    interpretation_calls: "Chiamate con interpreti"
+    calls_to_city: "Chiamate a %{city} con interpreti"
+    support: 'Assistenza 24/7'
+    orders: "Ordini"
+    calls: "Chiamate"
+    searches: "Ricerche"
+  footer:
+    about: 'Su Interpreters.travel'
+    support: 'Assistenza 24/7'
+    for_interpreters: Agli interpreti
+    for_interpreters_in_city: 'Agli interpreti a %{city}'
+    for_affiliates: "Ai soci"
+    terms: 'Termini e condizioni'
+    privacy_policy: 'Politica di riservatezza'
+  tabs:
+    interpreter_in: "Interprete a"
+    interpreters_in: "Interpreti a"
+    countries: "%{country_count} paesi"
+    international_calls_with_interpreters:
+      desktop: "Chiamate internazionali con interpreti"
+      mobile: "Chiamate internazionali <br/> con interpreti"
+      desktop_city_selected: "Chiamate a %{city} con interpreti"
+      mobile_city_selected: "Chiamate a %{city} <br/> con interpreti"
+    texts_docs_translations:
+      desktop: "Traduzioni di testi/documenti"
+      mobile: "Traduzioni di <br/> testi/documenti"
+  search:
+    start_search: "Inizia la tua ricerca"
+    button: "Cerca"
+    download_cv: "Scarica il CV (curriculum)"
+  date:
+    hour: "ora"
+    hours: "ore"
+    minute: "minuto"
+    minutes: "minuti"
+    from: "dalle"
+    to: "alle"

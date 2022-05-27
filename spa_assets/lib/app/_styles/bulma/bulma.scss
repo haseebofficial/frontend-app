@@ -1,0 +1,30 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/bulma/utils" as bulma-utils;
+
+@use "bulma/bulma" with (
+  $desktop: 1024px,
+  $widescreen: 1170px,
+  $fullhd: 1170px,
+  $container-offset: 0px,
+
+  $body-overflow-y: auto,
+  $body-line-height: 1.3,
+  $modal-content-width: 840px,
+
+  $radius: 1px,
+  $primary: #6fb3e0,
+  $navbar-height: 1.6rem,
+  $custom-colors: ("interpreters-green": (c.$interpreters-green, c.$bulma-white), "interpreters-yellow": (c.$interpreters-yellow, c.$bulma-white)),
+  $link: c.$interpreters-green,
+
+  $family-primary: "robotolight",
+  $family-secondary: "robotomedium",
+  $button-family: "robotobold",
+
+  $input-icon-color: rgba(c.$interpreters-green-light, 0.5),
+  $input-icon-active-color: c.$interpreters-green,
+
+  $input-focus-border-color: c.$interpreters-yellow-light,
+  $input-focus-box-shadow-color: rgba(c.$interpreters-yellow-light, 0.25),
+  $input-placeholder-color: rgba(c.$bulma-grey-darker, 0.5),
+);

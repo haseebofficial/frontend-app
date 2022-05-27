@@ -1,0 +1,26 @@
+- content_for :description do
+  .mobile-hide= t("about_page.title")
+
+- content_for :title do
+  = t("about_page.title")
+
+- content_for :meta_description do
+  = t("meta_desc.about")
+
+- content_for :back_link do
+  = link_to t("help_menu.back_link"), root_path, class: 'back_link'
+
+- content_for :body do
+  .main_content
+    .about_sidebar
+      = render partial: 'home/help_menu'
+    .cabinet_content
+      .about_content
+        .about_article
+          %p
+            = raw t("about_page.addresses.title")
+          %p
+            = raw t("about_page.addresses.estonia")
+            .leaflet-static-map{"data-lat" => "59.43275361", "data-lng" => "24.7796325"}
+    .clear
+      .clear

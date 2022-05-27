@@ -1,0 +1,178 @@
+@charset "utf-8";
+* {
+  -webkit-appearance: none;
+  outline: none;
+}
+
+a img {
+  border: 0px;
+}
+
+.clear {
+  clear: both;
+}
+
+a {
+  cursor: pointer;
+}
+
+
+html, body, #site {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  background: #FFF;
+}
+
+#site {
+  margin-top: 38px;
+  height: auto;
+  min-height: 100%;
+  position: relative;
+}
+
+.caret {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid;
+  display: inline-block;
+  height: 0;
+  margin-left: 2px;
+  vertical-align: middle;
+  width: 0;
+}
+.content {
+  width: 980px;
+  margin: 0px auto;
+}
+
+.quote-content {
+  width: 100%;
+  margin: 0px auto; 
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 35px;
+  margin-right: 5px;
+}
+
+.logo {
+  float: left;
+  margin: 18px 0px 0px 18px;
+}
+
+.inner .logo {
+  margin: 26px 0px 0px 18px;
+}
+
+.slogon {
+  float: right;
+  font: 24px 'robotolight';
+  line-height: 24px;
+  color: #32480A;
+  margin: 19px 0px 0px 0px;
+}
+
+.inner  .slogon {
+  margin: 27px 0px 0px 0px;
+}
+
+/*BODY*/
+.inner #body {
+  border-top: 6px solid #30480A;
+}
+
+#body {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.main_content h2 {
+  font: 30px 'robotoblack';
+  line-height: 30px;
+  color: #FFC702;
+  padding: 0px 0px 0px 18px;
+  margin: 0px;
+}
+
+// 1000 PX screen
+
+.content {
+  width: 768px;
+}
+.slogon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.inner .slogon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.result_sidebar .map_block {
+  width: 240px;
+}
+
+.main_content {
+  z-index: 0;
+  width: 320px;
+  margin: 0 auto;
+}
+
+.info_link.cert {
+  display: none;
+}
+
+.type_trans_wrapper .type_trans {
+  padding: 0px 0px 0px 62px;
+}
+.type_trans_wrapper .type_trans .no_mrg {
+  margin-right: 28px
+}
+
+.main_content h2 {
+  padding: 0px;
+  text-align: center;
+  font-size: 19px;
+  line-height: 19px;
+}
+
+body.en {
+  .order_agreement_link {
+    font: 17px 'robotolight';
+  }
+} 
+
+body.de {
+  .order_agreement_link {
+    font: 13px 'robotolight';
+  }
+}
+
+.order_agreement_link a {
+  text-decoration: underline;
+  color: #304809;
+}
+.order_agreement_link a:hover {
+  text-decoration: none;
+}
+
+.green-text {
+  color: #30880a;
+}
+
+section {
+  .fold {display: none;}
+}
+
+section[expanded] {
+  .fold {display: inline;}
+  .unfold {display: none;}
+}
+
+.unfold-button {
+  padding: 5px;
+  color: #30880a;
+  font: 15px 'robotobold';
+}

@@ -1,0 +1,54 @@
+- defaults = default_languages_for_search(search, @languages)
+- lang_options = options_from_collection_for_select(@languages, "locale", "name", defaults[:language])
+.language-select-wrapper
+  .label-text #{t("interpretation_call.language")}:
+  = select_tag "call_search[language]", lang_options, class: "chosen-select language-selector", include_blank: !search
+
+- your_lang_options = options_from_collection_for_select(@languages, "locale", "name", defaults[:your_language])
+.language-select-wrapper
+  .label-text
+    #{t("interpretation_call.your_language")}:
+    = link_to t("common.languages.#{defaults[:your_language]}"), "#", class: "change-your-language"
+  = select_tag "call_search[your_language]", your_lang_options, class: "chosen-select chosen-your-lang your-language-selector", style: "display: none;"
+
+
+:javascript
+  $(document).on('ready page:load', function() {
+    let langSelect = $(".language-selector");
+    let yourLangSelect = $(".your-language-selector");
+
+    setPrevValue(langSelect);
+    setPrevValue(yourLangSelect);
+
+    $(".chosen-select:not(.chosen-your-lang)").chosen({width: "100%"});
+
+    $(".change-your-language").click(function(e) {
+      e.preventDefault();
+      $(".chosen-your-lang").chosen({width: "100%", allow_single_deselect: false});
+      $(this).remove();
+    });
+
+    $(".language-selector").on("change", function() {
+      if (langSelect.val() === yourLangSelect.val()) {
+        if ($(".change-your-language").length !== 0) {
+          $(".chosen-your-lang").chosen({width: "100%", allow_single_deselect: false});
+          $(".change-your-language").remove();
+        }
+        yourLangSelect.val(langSelect.data("prev-value")).trigger("change").trigger("chosen:updated");
+      }
+
+      setPrevValue(langSelect);
+    });
+
+    $(".your-language-selector").on("change", function() {
+      if (langSelect.val() === yourLangSelect.val()) {
+        langSelect.val(yourLangSelect.data("prev-value")).trigger("change").trigger("chosen:updated");
+      }
+
+      setPrevValue(yourLangSelect);
+    });
+
+    function setPrevValue(select) {
+      select.data("prev-value", select.val());
+    }
+  });

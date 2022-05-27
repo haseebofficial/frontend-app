@@ -1,0 +1,8 @@
+ru:
+  sign_in_page: 
+    title: "Вход"
+    form: 
+      email: "Email:"
+      password: "Пароль:"
+      remember_me: "Запомнить меня"
+      submit: "Вход"

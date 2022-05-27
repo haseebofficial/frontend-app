@@ -1,0 +1,62 @@
+= simple_form_for :order, :url => orders_path, multipart: true, html: { class: 'company_form order_form' }, remote: true  do |f|
+  %input{ id: :interpreter_id, type: :hidden, value: params[:order][:interpreter_id], name: 'order[interpreter_id]'}
+  %input{ id: :search_id, type: :hidden, value: params[:order][:search_id], name: 'order[search_id]'}
+  %input{ id: :service_id, type: :hidden, value: params[:order][:service_id], name: 'order[service_id]'}
+  %input{ id: :operator_id, type: :hidden, value: params[:order][:operator_id], name: "order[operator_id]"}
+
+  .contact_info
+    .title
+      Информация о компании:
+    .input-container
+      %input{name: 'order[legal_form]', placeholder: 'Административно правовая форма', type: :text}
+    .input-container
+      %input{name: 'order[name]', placeholder: 'Название:', type: :text}
+    .input-container
+      %input{name: 'order[company_address]', placeholder: 'Юридический адрес:', type: :text}
+    -#%label.other_field
+      .doc
+        = succeed "Получить оригиналы отчетных документов" do
+          %input{name: "order[reporting_documents]", type: "checkbox"}
+      %span.clear{style: "display:block;"}
+    .input-container
+      %input{name: 'order[phone]', placeholder: 'Телефон Компании:', type: :text}
+    .input-container
+      %input{name: 'order[inn]', placeholder: 'ИНН:', type: :text}
+
+    = select_tag 'order[company_activity]', options_from_collection_for_select(@specialization_select, :id, :name), prompt: 'Сфера деятельности Компании'
+    .clear
+  .user_info
+    .title
+      Информация о заказчике услуг:
+    .input-container
+      %input{name: 'order[client_attributes][surname]', placeholder: 'Фамилия:', type: :text, value: "#{@user.try(:surname).to_s}", class: "#{'act_inp' unless @user.blank?}"}
+    .input-container
+      %input{name: 'order[client_attributes][name]', placeholder: 'Имя:', type: :text, value: "#{@user.try(:name).to_s}", class: "#{'act_inp' unless @user.blank?}"}
+    .input-container
+      %input{name: 'order[client_attributes][phone]', placeholder: 'Телефон для СМС уведомлений:', type: :text, value: "#{session[:phone_number]}", class: "phone-for-sms #{'act_inp' unless @user.blank?}", "data-sms-url" => send_code_path, readonly: false ? true : false}
+    .input-container
+      %input{name: "order[city_name]", autocomplete: "off", "placeholder" => "Город:", type: "text"}
+    .input-container
+      %input{name: "client[address]", placeholder: "Адрес:", type: "text"}
+    - unless user_signed_in?
+      .input-container
+        %input.no_mrg{name: 'order[client_attributes][email]', placeholder: 'Email:', type: :text, value: "#{@user.try(:email).to_s}", class: "#{'act_inp' unless @user.blank?}"}
+    .clear
+  .translator_info.user_info
+    .title
+      Информация для переводчика:
+    .input-container.addr
+      %input.adr.google-address{name: 'order[meeting_address]', autocomplete: 'off', placeholder: 'Адрес встречи с переводчиком:', type: :text}
+      %div.custom-dropdown
+    .open_map_link.mobile-hide Указать на карте
+    %textarea{cols: 10, name: 'order[detail_information]', placeholder: 'Опишите тему или вопросы встречи, скопируйте текст релиза или другую информацию (не более 1200 символов). Это позволит переводчику лучше подготовится к переводу на встрече или мероприятии', rows: 10}
+    .mobile_hide
+      %p{style: "display: block;font: 15px 'robotolight'; float: left;"}Добавьте файл с информацией
+      = f.file_field :file
+    = hidden_field_tag "order[client_currency_code]", session[:current_currency], class: "currency-field"
+    .clear
+  = render partial: 'orders/new/order_agreement'
+  .text-center
+    %input.order_form_submit{type: :submit, value: "Выбрать способ оплаты заказа"}
+  .clear
+  %br

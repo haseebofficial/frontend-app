@@ -1,0 +1,45 @@
+.choose-call-date-tabs
+  .tab-toggle{"data-tabindex" => :immediate}
+    = hidden_field_tag "call_search[immediate_call]", !!immediate_call
+  .tab-toggle{"data-tabindex" => :set_time, style: (immediate_call ? "display: none;" : "")}
+    .data_wrapper
+      .data_cloud
+        .datepicker
+        %input.datepicker_hidden{type: 'hidden'}
+        = hidden_field_tag "call_search[scheduled_at]", scheduled_at
+        .clear
+        .timepicker-wrapper
+          .timepicker
+            .time
+              .hour.time
+                %input.h{type: 'text', value: '10'}
+                .ar
+                  %a.plus
+                    = image_tag 'timepicker_arrows_top.png'
+                  %a.minus
+                    = image_tag 'timepicker_arrows_bottom.png'
+              %span.text.text2 :
+              .minute.time
+                %input.min{type: 'text', value: '00'}
+                .ar
+                  %a.plus
+                    = image_tag 'timepicker_arrows_top.png'
+                  %a.minus
+                    = image_tag 'timepicker_arrows_bottom.png'
+
+          .btn.btn-success.select-time= t("interpretation_call.add_time")
+
+
+- if !immediate_call
+  :javascript
+    $(document).on('ready page:load', function() {
+      function parseISOString(s) {
+        var b = s.split(/\D+/);
+        return new Date(Date.UTC(b[0], --b[1], b[2], b[3], b[4], b[5], b[6]));
+      }
+      date = parseISOString("#{scheduled_at}")
+      $("a[tabindex=set_time]").html(date.toUTCString())
+      $('.datepicker').datepicker('setDate', date)
+      $("input[name='call_search[scheduled_at]']").data("current-date", date.toISOString())
+      $("input[name='call_search[scheduled_at]']").val(date.toISOString())
+    });

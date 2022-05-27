@@ -1,0 +1,21 @@
+common: &common
+  adapter:  postgresql
+  host:     <%= ENV['PGHOST'] %>
+  encoding: utf8
+  pool:     5
+  username: <%= ENV['PGUSER'] %>
+  password: <%= ENV['PGPASSWD'] %>
+  port: <%= ENV['PGPORT'] %>
+  template: template0
+
+development:
+  <<: *common
+  database: <%= ENV['PGDB'] %>
+
+test:
+  <<: *common
+  database: <%= ENV['PGDB'] %>
+
+production:
+  <<: *common
+  database: <%= ENV['PGDB'] %>

@@ -1,0 +1,23 @@
+- content_for :description do
+  = t("sign_up_page.title")
+- content_for :body do
+  .green_line
+  .main_content
+    .info_wrapper
+      - unless resource.errors.any?
+        .order_form.choice
+          %h3= t("sign_up_page.interpreters_question")
+          = link_to t("sign_up_page.yess"), help_interpreter_path( anchor: "create_new_interpreter"), class: "intranet-button", style: "text-decoration: none;"
+          = link_to t("sign_up_page.nno"), '', class: "intranet-button show-register-form", style: "text-decoration: none;"
+      .order_form#register-form{class: ("hidden" unless resource.errors.any?)}
+        = simple_form_for(resource, as: resource_name, url: registration_path(resource_name), html: { class: 'form-vertical' }) do |f|
+          = f.error_notification
+          = display_base_errors resource
+          = f.input :name, autofocus: true, label: false, placeholder: t("sign_up_page.form.name")
+          = f.input :surname, label: false, placeholder: t("sign_up_page.form.surname")
+          = f.input :email, required: true, label: false, placeholder: t("sign_up_page.form.email")
+          = f.input :password, required: true, label: false, placeholder: t("sign_up_page.form.password")
+          = f.input :password_confirmation, required: true, label: false, placeholder: t("sign_up_page.form.password_confirmation")
+          = f.button :submit, t("sign_up_page.form.submit"), class: 'sub', style: 'display: inline; width: 310px;'
+          .shared_links
+            = render "devise/shared/links"

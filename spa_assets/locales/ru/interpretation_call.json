@@ -1,0 +1,18 @@
+{
+  "template": {
+    "modal": {
+      "interpreter_role": "Переводчик",
+
+      "status_texts": {
+        "ringing": "Вызов...",
+        "connected": "Подключение установлено"
+      },
+
+      "finished_call": {
+        "question": "Звонок был завершен?",
+        "answer_yes": "Да",
+        "answer_no": "Нет, продолжить"
+      }
+    }
+  }
+}

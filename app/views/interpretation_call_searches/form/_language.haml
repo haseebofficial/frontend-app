@@ -1,0 +1,5 @@
+- default = search ? search.language : @languages.first.locale
+- options = options_from_collection_for_select(@languages, "locale", "name", default)
+.language-select-wrapper
+  .label-text #{t("interpretation_call.language")}:
+  = select_tag "call_search[language]", options, class: "chosen-select", include_blank: !search

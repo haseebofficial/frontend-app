@@ -1,0 +1,14 @@
+login_page:
+  page_slogan: "Accesso"
+  form:
+    email: "E-mail:"
+    password: "Password:"
+    remember_me: "Ricordati di me"
+    submit: "Accesso"
+    error: "Indirizzo e-mail o la Password e scorretto."
+  links:
+    sign_in_for_interpreters: "Accesso per gli interpreti"
+    sign_in: "Accesso"
+    sign_up: "Registrazione"
+    sign_up_for_interpreters: "Registrazione per gli interpreti"
+    restore_password: "Ha dimenticato la password?"

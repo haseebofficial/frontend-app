@@ -1,0 +1,123 @@
+@use "app/_styles/utils/responsiveness" as r;
+@use "search/_styles/form/utils" as form-utils;
+
+.profile-page {
+  margin-top: 20px;
+}
+
+.profile-page-form {
+  @include r.desktop {
+    .fullwidth-form-wrapper {
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      background-color: form-utils.$background-color;
+
+      margin-top: 12px;
+      margin-bottom: 20px;
+    }
+  }
+
+  .search-form {
+    .main-field {
+      margin-bottom: 0px;
+      @include form-utils.field-height(40px);
+
+      select {
+        font-size: 1rem;
+      }
+    }
+
+    @include r.desktop {
+      .datetime-field-container .datetime-field-dropdown {
+        top: -62px;
+        z-index: 999;
+
+        .triangle-icon {
+          top: 90px;
+        }
+        .triangle {
+          top: 96px;
+        }
+        .triangle-quadrat {
+          top: 80px;
+          width: 21px;
+        }
+      }
+    }
+  }
+
+  .search-map {
+    height: 190px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+    background-color: #434446;
+  }
+}
+
+@include r.touch {
+  .search-page {
+    .search-form {
+      margin-top: 30px;
+      padding-bottom: 20px;
+      .main-field {
+        @include form-utils.field-height(45px);
+      }
+    }
+  }
+}
+
+.previous-link-full {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  border-top: 1px solid #dbdbdb;
+  margin-top: 7px;
+  .previous-page-link {
+    padding-left: 150px;
+
+    .previous-link {
+      width: 250px;
+      color: #888787;
+      &:hover {
+        background-color: inherit;
+      }
+    }
+  }
+}
+
+@include r.touch {
+  .profile-page {
+    margin-top: 30px;
+    .column {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  .profile-page-form {
+    margin-top: 30px;
+  }
+}
+.lang-ar {
+  .call-form .datetime-field-container .datetime-field-dropdown {
+    left: -90%;
+  }
+  .search-form .datetime-field-container .datetime-field-dropdown {
+    left: -202%;
+  }
+  .search-form .datetime-field-container .datetime-field-dropdown .triangle {
+    right: -8px;
+    filter: unset;
+  }
+  .call-form .datetime-field-container .datetime-field-dropdown .triangle {
+    right: -9px;
+    filter: none;
+    left: unset;
+  }
+}

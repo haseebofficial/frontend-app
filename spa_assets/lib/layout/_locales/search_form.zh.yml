@@ -1,0 +1,63 @@
+search_form:
+  title: '寻找译员'
+  where: '地点'
+  when: '时间'
+  language: '需要的语言'
+  your_language: '您的语言：'
+  button: '搜索'
+  city: '例：柏林，米兰，纽约'
+  date_time: '选择日期，时间'
+  timepicker:
+    title: '见面时间（地点）'
+    total: '总时间'
+    from: '自'
+    till: '到'
+    buttons:
+      add_day: '增加'
+      clear: '清除'
+      clear_intervals: '清除间隔'
+      choose: '选择'
+  language_selector:
+    no_result: '该城市无翻译'
+    list_select: '从表格选择'
+    blank_city: "首先选择城市"
+  city_selector:
+    no_result: "在指定的城市没有可用的译员。请稍后再尝试寻找译员或者选择其他城市"
+  js:
+    time:
+      since_word: "自"
+      to_word: "到"
+    select: "是"
+    cancel: "取消"
+    browser_outdated: "您的瀏覽器已經過時，一些網站的功能可能無法正常工作。請安裝更安全的瀏覽器，以及一個新的"
+    date_selector:
+      dialog:
+        title: "选择的日期"
+        confirm: "确认"
+        change: "取消"
+      errors:
+        no_periods_selected: '选择日期，时间'
+        invalid_interval: '您选择的时间间隔不正确'
+        interval_exists: '这个日期已经被选中，请选择其他'
+        interval_passed: '選擇的時間間隔已經過去'
+      total_time: '总时间 - '
+      from: ' - 自 '
+      to: ' 到 '
+      select: "选择"
+    search:
+      file_select: "选择..."
+      errors:
+        blank_city: '选择城市'
+        blank_intervals: '选择日期，时间'
+        blank_language: '选择语言'
+    buttons:
+      change_order_date: "修改日期"
+      confirm_order_date: "确认"
+    titles:
+      confirm_order_date: "确认当前预定"
+  filter:
+    show_result: "继续浏览"
+    interpreters_are_not_available: "您选择的日期里在该城市没有找到合适的翻译。请选择其他城市"
+  now: "现在"
+  or_choose_a_time: "或者选择其他时间"
+  connect_an_interpreter: "链接翻译"

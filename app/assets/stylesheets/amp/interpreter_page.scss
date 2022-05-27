@@ -1,0 +1,295 @@
+.cart_content {
+  padding: 3px 10px;
+  width: 300px;
+  float: right;
+  margin: 0 0 3px;
+
+  .cart_country_wrapper {
+    font: 12px 'robotomedium';
+    line-height: 15px;
+    padding: 0px 0px 10px 0px;
+    color: #9C9C9C;
+    .country {
+      font: 16px 'robotomedium';
+      line-height: 16px;
+      color: #30480A;
+    }
+  }
+  .cart_block {
+    margin: 0 0 15px;
+    padding: 14px 0;
+    border-bottom: 1px solid #d0d0d0;
+    border-top: 1px solid #d0d0d0;
+
+    .interpreter-info-wrapper {
+      margin-bottom: 7px;
+
+      .cart_photo {
+        height: auto;
+        margin: 0 10px 5px 0;
+        float: left;
+      }
+    }
+
+    .desc {
+      font: 14px/17px "robotolight";
+      margin-top: 6px;
+      color: #000;
+    }
+
+    .unfold-button {
+      margin-top: 5px;
+    }
+
+    .info_wrapper {
+      height: auto;
+      margin-bottom: 10px;
+      width: auto;
+      height: 160px;
+      padding: 0;
+      color: #000000;
+      font: 14px/17px "robotolight";
+
+      .name {
+        color: #30480a;
+        font: 16px/12px "robotomedium";
+        margin-bottom: 6px;
+        text-decoration: none;
+      }
+
+      .prof {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        font: 12px/14px "robotomedium";
+        color: #939393;
+      }
+    }
+
+
+    .response-stats {
+      font: 14px/17px "robotomedium";
+      margin-bottom: 10px;
+      margin-right: 30px;
+      display: block;
+    }
+  }
+
+  .info_wrapper_no_cart {
+    margin-top: 20px;
+    border-bottom: 1px solid #d0d0d0;
+    padding-bottom: 15px;
+    text-align: center;
+    .intranet-button {
+      float: none;
+      margin: 0 auto;
+      background-color: #ffc602;
+      border: 0 none;
+      cursor: pointer;
+      font: 16px/28px "robotobold";
+      padding: 5px 10px;
+      a { color: #2e4807; text-transform: uppercase; text-decoration: none; }
+    }
+
+    .intranet-button:hover {
+      background: #2F4908;
+      a { color: #FFC602; }
+    }
+
+    .base-form {
+      text-align: left;
+      form.amp-form-submit-success > .form-fields {
+        display: none;
+      }
+      input.base-input {
+        border: 1px solid #c5c5c5;
+        color: #000000;
+        float: left;
+        font: 17px/23px "robotolight";
+        height: 19px;
+        margin-top: 25px;
+        padding: 9px 10px;
+        width: 278px;
+      }
+      textarea.base-input {
+        height: 130px;
+        width: 278px;
+        border: 1px solid #c5c5c5;
+        color: #000000;
+        float: left;
+        font: 16px/19px "robotolight";
+        margin-top: 25px;
+        overflow: auto;
+        padding: 9px 10px;
+        resize: none;
+      }
+      .checkbox-label {
+        margin-top: 30px;
+        input {
+          padding: 2px;
+        }
+      }
+      .base-input-submit {
+        background: #ffc602 none repeat scroll 0 0;
+        border: 0 none;
+        color: #2f4908;
+        cursor: pointer;
+        display: block;
+        font: 18px/20px "robotobold";
+        height: 38px;
+        margin: 20px auto 0;
+        text-transform: uppercase;
+        width: 100%;
+      }
+      .base-input-submit:hover {
+        background: #2F4908;
+        color: #FFC602;
+      }
+      .submit-success {
+        background-color: #dff0d8;
+        color: #3c763d;
+        padding: 8px;
+        font-family: "robotolight";
+      }
+    }
+  }
+
+
+  .info_block {
+    color: #000;
+    font: 13px/16px "robotomedium";
+    margin: 0 0 11px;
+    .title {
+      font: 16px/16px "robotomedium";
+      margin: 0 0 7px;
+      color: #2f4807;
+    }
+  }
+
+  .service_table {
+    margin: 17px -10px 0;
+    width: 320px;
+    border-collapse: collapse;
+
+    thead  {
+      td:first-child {
+        text-align: left;
+      }
+
+      td {
+        color: #000;
+        font: 13px/14px "robotolight";
+        background: #eeeeee none repeat scroll 0 0;
+        color: #000;
+        padding: 15px 10px;
+        padding-left: 13px;
+        text-align: center;
+
+        .change-date-link {
+          display: block;
+          margin-top: 10px;
+        }
+      }
+    }
+    tbody {
+      td:first-child {
+        border-left: 0 none;
+      }
+      td {
+        font: 13px/16px "robotolight";
+        padding: 5px 0 7px 13px;
+        border-bottom: 1px solid #eeeeee;
+        border-left: 1px solid #eeeeee;
+        color: #000;
+
+        span {
+          display: inline-block;
+          font-family: "robotobold";
+          text-decoration: none;
+          a { text-decoration: none; }
+        }
+
+        .service-links .service-link {
+          color: #2f4908;
+          margin-top: 6px;
+        }
+
+      }
+
+      td.pr {
+        padding: 5px 5px 7px;
+        width: auto;
+        text-align: center;
+        .price {
+          display: block;
+          font: 18px/18px "robotoblack";
+          color: #ffc501;
+        }
+        // .new-order-button {
+        //   background: #fec601 none repeat scroll 0 0;
+        //   color: #2f4a07;
+        //   display: block;
+        //   font: 14px/14px "robotobold";
+        //   height: 20px;
+        //   margin: 6px 0 0;
+        //   padding: 6px 0 0;
+        //   text-decoration: none;
+        //   text-transform: uppercase;
+        //   width: 94px;
+        // }
+      }
+    }
+  }
+
+  .star-text {
+    font: 14px/11px "robotolight";
+    margin: 0 -10px;
+    padding: 13px;
+    width: 300px;
+    background: #eeeeee none repeat scroll 0 0;
+    color: #000;
+  }
+
+  .how-to-order-block {
+    font: 14px/17px "robotomedium";
+    padding-left: 55px;
+    background: rgba(0, 0, 0, 0) url("/assets/how_order_bg.png") no-repeat scroll left top;
+    color: #000;
+    margin: 23px 0 0;
+    .title {
+      color: #fdc703;
+      font: 18px/17px "robotomedium";
+    }
+  }
+
+  .why-inter-wrapper {
+    margin-bottom: 15px;
+    padding: 8px 10px;
+    float: left;
+    width: 292px;
+    .why-interpreters {
+      background: LightGrey none repeat scroll 0 0;
+      font-family: "robotolight";
+      height: 420px;
+    }
+    h3 {
+      background-color: #ffc602;
+      color: #2f4908;
+      display: block;
+      font-family: robotobold;
+      height: 30px;
+      padding-left: 15px;
+      padding-top: 5px;
+    }
+    p {
+      background: rgba(0, 0, 0, 0) url("/assets/order_stage_list_bg.png") no-repeat scroll left top;
+      margin-left: 10px;
+      padding-left: 35px;
+    }
+    .more-info-link {
+      float: right;
+      padding-right: 5px;
+      text-decoration: none;
+    }
+  }
+}

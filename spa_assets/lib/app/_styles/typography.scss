@@ -1,0 +1,37 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.is-family-bold {
+  font-family: robotobold;
+}
+
+.is-family-black {
+  font-family: robotoblack;
+}
+
+.is-size-header-2 {
+  font-size: 1.85rem;
+}
+
+.page-title {
+  margin-top: 69px;
+  font: 36px "robotobold";
+  color: c.$interpreters-green;
+  text-align: center;
+  display: block;
+}
+
+a {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@include r.touch {
+  .page-title {
+    margin-top: 18px;
+    font: 22px "robotolight";
+    font-weight: 700;
+    color: c.$interpreters-black;
+  }
+}

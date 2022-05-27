@@ -1,0 +1,134 @@
+.search-form-container {
+  text-align: center;
+  width: 450px;
+}
+
+.search-form-link {
+  width: 300px;
+}
+
+.single-time-selector-form {
+  margin-bottom: 15px;
+  .base-input-submit {
+    width: 100%;
+  }
+}
+
+.interpretation-call-interpreter {
+  margin-bottom: 10px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  .call-button {
+    float: right;
+    width: 64px;
+    height: 64px;
+    margin-top: 13px;
+    margin-right: 10px;
+    .call-button-image {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background: asset-url("call.png") no-repeat right center;
+      background-size: cover;
+    }
+  }
+}
+
+.interpretation-call-interpreter .img {
+  float: left;
+  border-radius: 50%;
+}
+
+.interpretation-call-interpreter .desc {
+  float: right;
+  width: 545px;
+  padding: 0px 0px 0px 0px;
+  height: 100%;
+
+  .questionnaire-stars {
+    margin: 0
+  }
+
+  .info {
+    margin-top: 4px;
+  }
+}
+
+.interpretation-call-interpreter .price, .price-badge {
+  background: #ffc702 none repeat scroll 0 0;
+  color: #314707;
+  font: 15px "robotomedium";
+  text-align: center;
+  width: 105px;
+  margin-top: 5px;
+  padding: 3px;
+}
+
+.badge-round {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.interpretation-call-interpreter .desc .name {
+  font: 17px 'robotobold';
+  line-height: 15px;
+  color: #314707;
+  text-decoration: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.interpretation-call-interpreter .desc .mob_price {
+  display: none;
+}
+
+.interpretation-call-interpreter .desc .mob_level {
+  display: none;
+}
+
+.interpretation-call-interpreter .desc .text {
+  font: 12px 'robotolight';
+  line-height: 14px;
+  color: #000000;
+  margin: 12px 0px 0px 0px;
+  word-wrap: break-word;
+}
+
+.interpretation-call-interpreter .desc .links {
+  padding: 8px 0px 0px 0px;
+}
+
+.interpretation-call-interpreter .desc .rating {
+  font: 15px 'robotomedium';
+  line-height: 18px;
+  padding: 0px 34px 0px 20px;
+  background: asset_url('cabinet_link_bg_01.png') no-repeat left center;
+  color: #FFC702;
+  text-decoration: none;
+}
+
+.interpretation-call-interpreter .desc .comment {
+  font: 15px 'robotomedium';
+  line-height: 18px;
+  padding: 0px 36px 0px 20px;
+  background: asset_url('cabinet_link_bg_02.png') no-repeat left center;
+  color: #2C4909;
+  text-decoration: underline;
+}
+.interpretation-call-interpreter .desc .comment:hover {
+  text-decoration: none;
+}
+
+.interpretation-call-interpreter .desc a:hover {
+  text-decoration: underline;
+}
+
+.loading-container {
+  .loading-icon {
+    background: url(image_path('loading.gif')) center center no-repeat;
+    height: 150px;
+    margin: 0 auto;
+    width: 150px;
+  }
+}

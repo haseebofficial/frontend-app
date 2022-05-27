@@ -1,0 +1,23 @@
+<%= render "searches/form/datetime_interval", number: 0, required: true %>
+<div class="clear"></div>
+<amp-accordion>
+  <section class="interval-section">
+    <h5  class="interval-text">
+      <span>Add Interval</span>
+    </h5>
+    <div class="interval-container">
+      <%= render "searches/form/datetime_interval", number: 1 %> 
+      <div class="clear"></div>
+      <amp-accordion>
+        <section class="interval-section">
+          <h5 class="interval-text">
+            <span>Add Interval</span>
+          </h5>
+          <div class="interval-container">
+            <%= render "searches/form/datetime_interval", number: 2 %> 
+          </div>
+        </section>
+      </amp-accordion>
+    </div>
+  </section>
+</amp-accordion>

@@ -1,0 +1,96 @@
+- content_for :description do
+  %h1 Order registration
+- content_for :body do
+  .order
+    .green_line
+    .main_content
+      .translator_block_wrapper
+        .title
+          Information about the order
+        .photo-wrapper
+          %a{href: "#"}
+            %img.photo.cart_photo{src: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80"}
+        .desc
+          .info
+            %span Translator:
+            Full Name
+            %br
+            %span The chosen services:
+            Translation
+            %br
+            %span Language pairs:
+            English - Russian
+            %br
+            %span Word count:
+            %a{href: "#"} View file(s)
+            %br
+            %span Subject:
+            General
+            %br
+            %span Delivery date, time:
+            August 23, 10:00
+          .price
+            %span Order price and currency:
+            %strong.converted-amounts
+              %select.currency-selector{id: "", name: "", style: "position: absolute; left: -9999px;"}
+                %option{value: "EUR"} 303.0 EUR
+                %option{selected: "selected", value: "USD"} 324 USD
+                %option{value: "RUB"} 22219.0 RUB
+              %span.jq-selectbox.jqselect.currency-selector{style: "display: inline-block; position: relative; z-index:100"}
+                .jq-selectbox__select
+                  .jq-selectbox__select-text 324 USD
+                  .jq-selectbox__trigger
+                    .jq-selectbox__trigger-arrow
+                .jq-selectbox__dropdown{style: "position: absolute; overflow: hidden auto; display: none;"}
+                  %ul{style: "list-style: none"}
+                    %li 303.0 EUR
+                    %li.selected.sel 324 USD
+                    %li 22219.0 RUB
+        .clear
+      #flash
+        .flash
+      .clear
+      %ul.order_type_tabs_block
+        %a.login-form-link{href: "#"} Login, if you have an account
+        %li.vis
+          %form.simple_form.personal_form.order_form{"accept-charset": "UTF-8", action: "/en/orders", "data-remote": "true", enctype: "multipart/form-data", method: "post", novalidate: "novalidate"}
+            %div{style: "margin:0;padding:0;display:inline"}
+              %input{name: "utf8", type: "hidden", value: "✓"}
+            %input#interpreter_id{name: "order[interpreter_id]", type: "hidden", value: "7434"}
+            %input#search_id{name: "order[search_id]", type: "hidden", value: "328066"}
+            %input#service_id{name: "order[service_id]", type: "hidden", value: "4287"}
+            %input#operator_id{name: "order[operator_id]", type: "hidden"}
+            .contact_info
+              .title
+                Information about the customer:
+              .input-container
+                %input.name{name: "order[client_attributes][assigned_full_name]", placeholder: "Name, Surname:", type: "text", value: ""}
+              .input-container
+                %input.phone-for-sms{"data-sms-url": "/en/sms_service/send_code", name: "order[phone]", placeholder: "Phone number (+35733...)", type: "text"}
+              .input-container
+                %input.no_mrg{name: "order[client_attributes][email]", placeholder: "Email:", type: "email", value: ""}
+              .clear
+            .order_agreement_link
+              By pressing «Choose payment meethod» you agree to
+              %a{href: "/en/help/privacy_policy", target: "_blank"} the privacy policy
+              and our
+              = succeed "." do
+                %a{href: "/en/help/terms_conditions", target: "_blank"} terms and conditions
+            .text-center
+              %input.order_form_submit{type: "submit", value: "Choose payment method"}
+            .clear
+            %br/
+      .clear
+      #payment-block{style: "font-family:robotolight"}
+        %p
+          Following payment methods will be available to you:
+          %br/
+          \- VISA/MasterCard
+      .clear
+      #payment-container
+      .clear
+
+  :css
+    .order_type_tabs_block .contact_info {
+      border-bottom: 1px solid #D0D0D0 !important;
+    }

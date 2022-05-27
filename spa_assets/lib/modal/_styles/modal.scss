@@ -1,0 +1,33 @@
+@use "app/_styles/utils/colors" as c;
+
+.modal {
+  .modal-background {
+    background-color: #010101;
+    opacity: .5;
+  }
+
+  .modal-card-head {
+    padding: 5px 15px;
+    .modal-close-icon {
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  .modal-card-foot {
+    justify-content: flex-end;
+    padding: 10px 15px;
+  }
+
+  .modal-card-head, .modal-card-foot {
+    background-color: c.$interpreters-green;
+  }
+
+  .modal-card-head {
+    text-align: center;
+    .modal-card-title {
+      color: c.$interpreters-yellow;
+      font: 1.3rem robotobold;
+    }
+  }
+}

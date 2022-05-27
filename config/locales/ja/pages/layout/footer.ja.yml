@@ -1,0 +1,10 @@
+ja:
+  footer:
+    info: 'interpreters.travelとは'
+    support: '24/7のサポート・サービス'
+    help_inter: 通訳者へ
+    help_inter_in_city: '%{city}の通訳者へ'
+    for_affiliates: "パートナーへ"
+    terms_conditions: '条件'
+    privacy_policy: 'プライバシーポリシー'
+    copyright_html: '&copy; Copyright 2013 - %{year}. interpreters.travel. All rights reserved.'

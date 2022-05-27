@@ -1,0 +1,45 @@
+layout:
+  header:
+    sign_in: 'Anmelden'
+    help_link: 'Hilfe'
+    sign_out: 'Abmelden'
+    personal_account: 'Persönliches Konto'
+    welcome: 'Herzlich Wilkommen, %{user}'
+    interpreters_sign_in: 'Login für Dolmetscher'
+    interpretation_calls: "Anrufe mit Dolmetschern"
+    calls_to_city: "Anrufe nach %{city} mit Übersetzern"
+    support: 'Support 24/7'
+    orders: "Bestellungen"
+    calls: "Anrufe"
+    searches: "Suchen"
+  footer:
+    about: 'Über interpreters.travel'
+    support: 'Support 24/7'
+    for_interpreters: Für Dolmetscher
+    for_interpreters_in_city: 'Für Dolmetscher in %{city}'
+    for_affiliates: "Für Partner"
+    terms: 'Allgemeine Geschäftsbedienungen'
+    privacy_policy: 'Datenschutz'
+  tabs:
+    interpreter_in: "Dolmetscher in"
+    interpreters_in: "Dolmetscher in"
+    countries: "%{country_count} Länder"
+    international_calls_with_interpreters:
+      desktop: "Auslandsgespräche mit Dolmetschern"
+      mobile: "Auslandsgespräche <br/> mit Dolmetschern"
+      desktop_city_selected: "Anrufe nach %{city} mit Dolmetschern"
+      mobile_city_selected: "Anrufe nach %{city} <br/> mit Dolmetschern"
+    texts_docs_translations:
+      desktop: "Übersetzung von Texten und Dokumenten"
+      mobile: "Übersetzung <br/> Text / Dokument"
+  search:
+    start_search: "Die Suche beginnen"
+    button: "Suche"
+    download_cv: "Lebenslauf herunterladen"
+  date:
+    hour: "Stunde"
+    hours: "Std."
+    minute: "Minute"
+    minutes: "minutes"
+    from: "von"
+    to: "bis"

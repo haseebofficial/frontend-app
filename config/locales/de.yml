@@ -1,0 +1,45 @@
+de:
+  personal_account:
+    voucher_not_ready:
+      "Das Voucher über Ihre Bestellung erhalten Sie nachdem Ihre Bestellung vom Übersetzer/Dolmetscher angenommen und bestätigt wurde, und nach der Ablauf der gebührenfreien Bestellungwiederrufsfrist."
+    voucher_ready_after_confirmation: "Das Voucher über Ihre Bestellung erhalten Sie nachdem Ihre Bestellung vom Übersetzer/Dolmetscher angenommen und bestätigt wurde"
+    receipt_not_ready: "Ihre Quittung erhalten Sie nachdem Ihre Zahlung eingegangen ist."
+  registration_notify_subject: "Sie sind bei interpreters.travel registriert"
+  hello: "Hello world"
+  TrueClass: "Yes"
+  FalseClass: "No"
+  time:
+    formats:
+      default:           "%m/%d/%Y %I:%M %P"
+      long:              "%A, %B %e of %Y at %I:%M %P"
+      short:             "%I:%M %P"
+      simple:            "%e %B %-k:%M"
+    since_word: "von"
+    to_word: "bis"
+  date:
+    formats:
+      default:           "%m/%d/%Y"
+      month_day:         '%e %B'
+      long:              "%A, %B %e of %Y"
+  errors:
+    messages:
+      wrong_size: "ist falsche Grosse (sollte sein %{file_size})"
+      size_too_small: "ist zu klein (sollte mindesten sein %{file_size})"
+      size_too_big: "ist zu gross (sollte maximal sein %{file_size})"
+
+  years:
+    one: '%{count} Jahr'
+    other: '%{count} Jahre'
+  hours:
+    one: "%{count} Stunde"
+    other: "%{count} Stunden"
+  minutes:
+    one: "%{count} Minute"
+    other: "%{count} Minuten"
+  date:
+    month_names: [~, Januar, Februar, März, April, Mai, Juni, Juli, August, September, Oktober, November, Dezember]
+  order:
+    cancellation_possible: "ist möglich bis"
+    no_cancellation: 'ist nicht vorgesehen'
+  translate: "übersetzen"
+  show_original: "Original anzeigen"

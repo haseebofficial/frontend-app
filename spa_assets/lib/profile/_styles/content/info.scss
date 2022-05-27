@@ -1,0 +1,56 @@
+@use "app/_styles/utils/responsiveness" as r;
+
+.profile-info {
+  .info-section:first-child {
+    padding-top: 0;
+  }
+
+  .info-section {
+    padding: 25px 0;
+    border-bottom: 1px solid #DBDBDB;
+
+    .info-title {
+      display: block;
+      margin-bottom: 20px;
+      font: 18px "robotoregular";
+    }
+
+    .info-paragraph-item {
+      padding: 0 5px;
+    }
+
+    .info-paragraph-item:not(:last-child) {
+      border-right: 1px solid #DBDBDB;
+    }
+
+  }
+
+  .border-none {
+    padding-bottom: 0;
+    border: 0;
+  }
+}
+
+@include r.touch {
+  .profile-info {
+    .info-section:first-child {
+      padding-top: 15px;
+      border-top: 1px solid #DBDBDB;
+    }
+
+    .info-section {
+      padding: 15px 0;
+
+      .info-title {
+        text-align: center;
+        margin-bottom: 15px;
+        font: 14px "robotoregular";
+      }
+
+      .info-paragraph {
+        font-size: 12px;
+      }
+
+    }
+  }
+}

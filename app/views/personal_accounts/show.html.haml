@@ -1,0 +1,17 @@
+- provide :description, t("orders_index_page.title")
+- content_for :head do
+  = javascript_include_tag "https://bluesnap.com/source/web-sdk/bluesnap.js"
+- content_for :body do
+  .main_content
+    .main-page-sidebar= render "sidebar"
+    .cabinet_content
+      .mob_title
+        = t("orders_index_page.title")
+      .my_view_wrapper
+        - if @orders.present?
+          .is_cont
+            = render partial: "order", collection: @orders
+          - unless @orders.current_page >= @orders.total_pages
+            = link_to personal_account_path(page: @orders.current_page + 1), remote: true, class: "load-more" do
+              .loading-bar= t("orders_index_page.load_more")
+    .clear

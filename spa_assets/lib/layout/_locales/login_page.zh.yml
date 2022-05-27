@@ -1,0 +1,14 @@
+login_page:
+  page_slogan: "入口"
+  form:
+    email: "邮箱"
+    password: "密码"
+    remember_me: "记住我"
+    submit: "入口"
+    error: "無效的電子郵件或密碼"
+  links:
+    sign_in_for_interpreters: "译员入口"
+    sign_in: "入口"
+    sign_up: "注册"
+    restore_password: "忘记密码"
+    sign_up_for_interpreters: "译员注册"

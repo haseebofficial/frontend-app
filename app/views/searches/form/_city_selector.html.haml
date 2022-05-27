@@ -1,0 +1,82 @@
+%input.find_translator_city{type: 'text', placeholder: t('search_form.city'), name: 'city_name'}
+%input#search_city_id.hidden{name: 'search[city_id]', type: 'hidden', value: "#{@search.city.id unless @search.city.nil?}"}
+:javascript
+  var API_BASE_URL = "#{ENV['API_BASE_URL']}"
+  $(document).on('ready page:load', function(e) {
+      $('.find_translator_city').val("#{@search.city.nil? ? '' : "#{@search.city.to_str}"}").removeClass('act');
+      var cache = {};
+      function select(event, ui) {
+        $('.find_translator_city').disableInputFor(1000);
+        setTimeout(function() {$('.find_translator_city').val(ui.item.label)}, 500);
+        $('#search_city_id').val(ui.item.value);
+        // reconstruct lang selector
+        // Frontend redirects this request to backend API:
+        $.get("#{searches_language_selector_path}",
+               {city_id: ui.item.value, your_language_id: $("#search_your_language_id").val()},
+               function(data) {
+                $('#language_selector').replaceWith(data)
+              }).done(function() {
+                  $(".jq-selectbox__select").addClass('act');
+                  $.get("#{searches_your_language_selector_path}",
+                         {city_id: ui.item.value, language_id: $("#search_language_id").val(), your_language_id: $("#search_your_language_id").val()},
+                         function(data) {
+                          $('#your_language_selector').replaceWith(data)
+                        }).done(function() {
+                            $(".jq-selectbox__select").addClass('act');
+                        });
+              });
+        return false;
+      }
+      cityAjaxIsRunning = false
+      $('.find_translator_city').autocomplete({
+        minLength: 2,
+        delay: 0,
+        source: function(request, response){
+          if(cityAjaxIsRunning) {
+            return;
+          }
+          var term = request.term;
+          if (term in cache){
+            response(cache[term]);
+            return;
+          }
+          cityAjaxIsRunning = true;
+          $.ajax({
+                type: 'GET',
+                url: API_BASE_URL+'/cities?interpreters_search=true&locale=#{params[:locale]}',
+                dataType: 'jsonp',
+                crossDomain: true,
+                data: request,
+                success:function(data){
+                  cache[ term ] = data;
+                  item = data[0]
+                  if(item && term.length >= 5) {
+                    console.log("SELECT!")
+                    select('select', {item: item});
+                  }
+                  else if(item) {
+                    // $('.find_translator_city').val(item.label);
+                    // $('#search_city_id').val(item.value);
+                  }
+                  else {
+                    alert('#{t("search_form.city_selector.no_result")}');
+                    $('.find_translator_city').val(null);
+                    $('#search_city_id').val(null);
+                    $('#language_selector').html("#{j render('searches/form/language_selector', blank_languages: true)}");
+                  }
+                  cityAjaxIsRunning = false
+                  response( data );
+                },
+                error:function(jq, st, error){
+                  alert(error);
+                }
+          });
+
+        },
+        focus: function(event, ui){
+          $('.find_translator_city').val(ui.item.label);
+          return false;
+        },
+        select: select
+    });
+  });

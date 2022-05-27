@@ -1,0 +1,41 @@
+ja: 
+  # search_form: searches/_search_form
+  description_index: '世界のどこでも通訳者を見つけられます!'
+  
+  slider: 
+    slide1: "ロスアンゼルスでのビジネスミーティン"
+    price_slide1: "グの通訳ー3時間当たり150米ドル"
+    slide2: "スパインのバルセロナでのワイン展示会"
+    price_slide2: "の通訳ー5時間当たり87米ドル"
+    slide3: "香港でのセミナーのウィスパリング通"
+    price_slide3: "訳ー2日間当たり230米ドル"
+    slide4: "ドイツのケルンでの病院診察の通訳ー3時"
+    price_slide4: "間当たり75米ドル"
+    
+  main:
+    meta_desc: "世界のどこでも通訳者を見つけられます! interpreters.travelを使用する理由 保証された通訳者、本当のお客様の声"
+    header: '通訳形態'
+    header_description: '適当な通訳サービスが分からない場合 通訳サービスの説明をご覧ください'
+    block_img1: '商談・交渉の通訳'
+    block_img2: 'プレゼンテーションの通訳'
+    block_img3: '国際儀礼(プロトコール)の通訳'
+
+    block_img4: '展示会の通訳'
+    block_img5: 'セミナー・会議の通訳'
+    block_img6: '代表団の同行'
+    all_type: '全ての通訳サービスの一覧'
+    client_reviews_title: "保証された通訳者、本当のお客様の声"
+    why_inter:
+      title: 'interpreters.travelを使用する理由'
+      block1:
+        link: '簡単で、安全!'
+        text_html: '予約を今、支払いを後でします！ <br/> 予約キャンセル料は無料 <br/> 支払いの安全性が保障されます'
+      block2:
+        link: '値段が低い'
+        text_html: '代理店の値上げなく、予約のすべては通 <br/> 訳者の値段でします。 <br/> 予約値段の計算は割引も含みます'
+      block3:
+        link: 'たくさんの選択肢'
+        text_html: '世界の%{countries}ヶ国、%{cities}市に通訳者がいます'
+      block4:
+        link: '便利'
+        text_html: '支払いしやすい:VISA,MasterCard,<br/> 送金、通訳者へ直接に現金<br/>24/7のサポート・サービス'

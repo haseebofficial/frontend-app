@@ -1,0 +1,24 @@
+ja:
+  registration_notify_subject: "interpreters.travelに登録されています"
+  hello: "Hello world"
+  TrueClass: "Yes"
+  FalseClass: "No"
+
+  errors:
+    messages:
+      wrong_size: "is the wrong size (should be %{file_size})"
+      size_too_small: "is too small (should be at least %{file_size})"
+      size_too_big: "is too big (should be at most %{file_size})"
+
+  years: '%{count}年間'
+  hours: "%{count}時間当たり"
+  minutes: "%{count}分"
+  counts: 
+    cities: '%{count}市に'
+    countries: '%{count}に'
+
+  date:
+    month_names: [~, 1月, 2月, 3月, 4月, 5月, 6月, 7月, 8月, 9月, 10月, 11月, 12月]
+  order: 
+    cancellation_possible: "まで可能"
+    no_cancellation: '不可能'

@@ -1,0 +1,11 @@
+ja:
+  top_menu:
+     login_link: 'ログイン'
+     sign_up_link: '新登録'
+     help_link: 'Помощь'
+     logout_link: 'ログアウト'
+     dashboard_link: 'アカウント'
+     welcome: 'Добро пожаловать, %{user}'
+     interpreter_login_link: '通訳者のログイン'
+     my_calls: 'Мои звонки'
+     calls_with_interpreter_link: 'Звонки с переводчиком'

@@ -1,0 +1,18 @@
+- content_for :body do
+  .green_line
+  .main_content
+    = render 'shared/flash_messages'
+    = render "personal_accounts/sidebar"
+    .cart_content
+      .cart_country_wrapper
+        .pull-right.price-badge.badge-round
+          = convert_to_current_currency(@questionnaire.price_minute, @questionnaire.currency.code, precision: 1)
+          \/
+          min.
+        .country Interpretation Call
+        Scheduled at:
+        - if @search.immediate_call
+          Immediately
+        - else
+          #{l(@search.call_date, format: t("time.formats.simple"))}
+      = render 'interpreter_details'

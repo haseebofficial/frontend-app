@@ -1,0 +1,111 @@
+<% city_name = l_object(:name, @search.city) %>
+<% @in_city = city_name_in_loct_case(@search.city, city_name) %>
+
+<% content_for(:title){ t("search_page.window_title", city: @in_city, count: @all_interpreters_count) } %>
+<% content_for(:delimiter) { "–" } %>
+
+<% content_for :description do %>
+  <%= t("search_page.title", city: @in_city, count: @all_interpreters_count) %>
+<% end %>
+
+<% content_for :meta_description do %>
+  <%= t("search_page.meta_description", city: @in_city, count: @all_interpreters_count) %>
+<% end %>
+
+<% content_for :keywords do %>
+  <%= t("search_page.keywords", city: @in_city) %>
+<% end %>
+
+<% content_for :back_link do %>
+  <%= link_to t("search_page.back_link"), root_path(format: :amp), class: 'back_link', rel: "prev" %>
+<% end %>
+
+
+<% content_for :body do %>
+<% clear_date_path = search_city_path(@search.url_city_name_escaped, @search.id, clear_date: true) %>
+    <section class='green_line'>
+      <%= link_to clear_date_path do %>
+        <h4 class="show-search"><%= t("search_form.title")  %></h4>
+      <% end %>
+    </section>
+  <div class="main_content">
+    <div class="result_sidebar">
+    </div>
+    <div class="result_content">
+      <meta content="<%= t("search_page.title", city: @in_city, count: @all_interpreters_count) %>"/>
+      <div class="result_info">
+        <div class="col">
+          <% all_interpreters_count = @all_interpreters_count %>
+          <% all_interpreters_count = 0 if @free_interpreters_count == 0 %>
+          <h3>
+            <% if @free_interpreters_count == 1 and @all_interpreters_count > 1 %>
+              <%= t("search_page.one_from_few_available_interpreter", free: @free_interpreters_count, count: all_interpreters_count, city: @in_city) %>
+            <% elsif @free_interpreters_count == 1 and @all_interpreters_count == 1 %>
+              <%= t("search_page.one_available_interpreter", free: @free_interpreters_count, count: all_interpreters_count, city: @in_city) %>
+            <% else %>
+              <%= t("search_page.available_interpreters", free: @free_interpreters_count, count: all_interpreters_count, city: @in_city) %>
+            <% end %>
+          </h3>
+        </div>
+        <%= t("search_page.duration_text", duration: @search.duration_text, intervals: helper_intervals_text(@search)) %>
+        <%= link_to t("search_page.change_date"), clear_date_path, data: {"no-turbolink" => true}, class: "change-date-link", rel: "prev" %>
+      </div>
+      <% unless @free_interpreters_count == 0  %>
+        <div class="free-cancellation-text">
+          <%= t("search_page.free_cancellation") %>
+        </div>
+      <% end %>
+      <div class="result_trans_wrapper">
+        <% if @minimum_volume %>
+          <div class="more_results">
+            <%= t("search_page.minimum_volume_message", hours: t("hours", count: @minimum_volume), city: city_name) %>
+          </div>
+        <% end %>
+        <% if @no_results && @results_count_without_busy_intervals_checking > 0 %>
+          <div class="more_results">
+            <%= t("search_page.busy_interpreters_message", count: @results_count_without_busy_intervals_checking) %>
+          </div>
+        <% end %>
+        <% if @minimum_advance %>
+          <div class="more_results">
+            <%= t("search_page.minimum_advance_message", advance: t("hours", count: @minimum_advance), city: city_name) %>
+          </div>
+        <% end %>
+        <% if @time_in_past %>
+          <div class="more_results">
+            <%= t("search_page.time_in_past") %>
+          </div>
+        <% end %>
+        <% if @free_interpreters %>
+          <% @free_interpreters.each do |interpreter| %>
+            <%= render partial: 'searches/show/questionnaire', object: interpreter %>
+          <% end %>
+          <% if @page_count > 1 %>
+            pages:
+            <% @page_count.to_i.times do |page| %>
+              <%= link_to "#{page + 1}", params.merge(page: "#{page + 1}"), class: "n-pagination" %>
+            <% end %>
+          <% end %>
+        <% end %>
+        <% unless @another_price_interpreters.blank? %>
+          <div class="more_results" id="another_price_interpreters">
+            <%= t("search_page.another_price_interpreters", count: @another_price_interpreters.length, city: city_name) %>
+          </div>
+          <% @another_price_interpreters.each do |interpreter| %>
+            <%= render partial: 'searches/show/questionnaire', object: interpreter %>
+          <% end %>
+        <% end %>
+        <% unless @busy_interpreters.blank? %>
+          <div class="more_results" id="busy_interpreters">
+            <%= t("search_page.busy_interpreters", count: @busy_interpreters.length, city: city_name) %>
+          </div>
+          <% @busy_interpreters.each do |interpreter| %>
+            <%= render partial: 'searches/show/questionnaire', object: interpreter %>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+    <div class="clear"></div>
+
+  </div>
+<% end %>

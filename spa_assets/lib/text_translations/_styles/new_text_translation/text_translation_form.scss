@@ -1,0 +1,35 @@
+@use "layout/_styles/utils/layout_properties";
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+.translation-request-form-box {
+    padding: 25px 25px 30px 25px;
+    background-color: c.$interpreters-green;
+    color: c.$interpreters-yellow;
+    .form-box-footer {
+        font-size: 1.1rem;
+    }
+}
+
+.translation-created-box {
+    //   background-color: c.$interpreters-green;
+    color: c.$interpreters-yellow;
+    height: 300px;
+    text-align: center;
+    padding: 5rem;
+}
+
+@include r.touch {
+    .translation-request-form-box {
+        padding: 20px 10px 30px 10px;
+        margin: 0 (- layout_properties.$left-right-padding);
+        .column {
+            padding: 5px 0;
+        }
+    }
+    .translation-created-box {
+        padding: 2rem;
+        margin: 0 (- layout_properties.$left-right-padding);
+        height: 700px;
+        padding: 15rem 2rem;
+    }
+}

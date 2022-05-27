@@ -1,0 +1,21 @@
+= simple_form_for :search, :url => @search.form_action do |f|
+  .label
+    %span.lab Where:
+    = f.error :city
+    = render partial: 'searches/form/city_selector'
+
+  .label
+    %span.lab When:
+    = f.error :intervals
+    = render partial: 'searches/form/date_selector'
+
+  .label
+    %span.lab What language:
+    = f.error :language_id
+    = render partial: 'searches/form/language_selector'
+
+  .your_lang
+    Your language:
+    = render partial: 'searches/form/your_language_selector'
+
+  %input.sub_bot{type: "submit", value: "Search"}

@@ -1,0 +1,31 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.pagination {
+  margin-top: 60px;
+  margin-bottom: 20px;
+
+  .pagination-link {
+    color: #888787;
+  }
+
+  .is-current {
+    border: 0;
+    color: c.$interpreters-green;
+    background-color: c.$interpreters-yellow;
+  }
+}
+
+@include r.touch {
+  .pagination {
+    margin-top: 40px;
+
+    .pagination-link {
+      font-size: 14px;
+    }
+
+    .is-current {
+      font-size: 14px;
+    }
+  }
+}

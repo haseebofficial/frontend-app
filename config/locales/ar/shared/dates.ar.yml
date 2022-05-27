@@ -1,0 +1,18 @@
+ar:
+  js: 
+    time:  
+      since_word: "من"
+      to_word: "حتى"
+  time:
+    formats:
+      default:           "%m/%d/%Y %I:%M %P"
+      long:              "%A, %B %e of %Y at %I:%M %P"
+      short:             "%I:%M %P"
+      simple:            "%e %B %-k:%M"
+    since_word: "من"
+    to_word: "حتى"
+  date:
+    formats:
+      default:           "%m/%d/%Y"
+      month_day:         '%e %B'
+      long:              "%A, %B %e of %Y"

@@ -1,0 +1,20 @@
+.interpretation-call-interpreter
+  = puts "#{questionnaire.id} ------ #{I18n.locale}"
+  = link_to "#" do
+    = image_tag questionnaire.photo_url(:thumb), class: "img", width: "100px", height: "100px"
+    - #questionnaire.photo_url(:thumb)
+  .desc
+    .clearfix
+    .details
+      .call-button 
+        = link_to new_interpretation_call_path(search_id: @search.id, questionnaire_id: questionnaire.id) do
+          = image_tag 'call.png', width: "50px;"
+      .name= questionnaire.t(:name)
+      %span.questionnaire-stars{class: questionnaire_stars_class(questionnaire.score)}
+      - if questionnaire.client_reviews_count > 0
+        %span.client-reviews-count (#{questionnaire.client_reviews_count})
+      .price
+        = convert_to_current_currency(questionnaire.price_minute, questionnaire.currency.code, precision: 1)
+        \/
+        min.
+  .clear

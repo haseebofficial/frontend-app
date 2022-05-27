@@ -1,0 +1,2 @@
+<input class="find_translator_city" name="search[city_name]" placeholder="<%= t('search_form.city') %>" type="text" tabindex required value='<%= @search.city_name unless @search.city_name.blank? %>'></input>
+<input class="hidden" id="search_city_id" name="search[city_id]" type="hidden" value="<%= @search.city.id unless @search.city.nil? %>"></input>

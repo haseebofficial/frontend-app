@@ -1,0 +1,38 @@
+{
+  "offers_list": {
+    "offer": {
+      "price_minute": "%{price_minute} %{currency_code} / min."
+    },
+    "unpaid_calls_alert": "Cannot initiate new interpretation call because some of your previous calls are unpaid. Navigate to «My Calls» section to see the details."
+  },
+  "info_popup": {
+    "step1": "— Select languages and press «Find Interpreter»",
+    "step2": "— Interpreters ready to accept your call will be displayed on this page",
+    "step3": {
+      "before_button": "— Press",
+      "after_button": "to connect with the interpreter."
+    },
+    "step4": "— Explain your requirements and call details to the interpreter.",
+    "step5": "— Dial the phone number, wait for the answer and continue your conversation as a group conference call.",
+    "step6": "— The interpreter can hear and interpret your conversation in both directions.",
+    "step7": {
+      "before_button": "— Press",
+      "after_button": "under the dialed phone number to remove this phone number from the conference. The interpreter will stay in touch."
+    },
+    "step8": {
+      "before_button": "— Press",
+      "after_button": "to end the conversation with the interpreter."
+    },
+    "step9": "— Your balance will be automatically charged for the payment amount. A phone call is free and the payment amount is based entirely on the selected interpreter's fee.",
+    "terms_link": "Terms and conditions",
+    "close_button": "Close"
+  },
+
+  "form": {
+    "call_now": "Call Now",
+    "choose_date": "Choose time",
+    "language": "Language",
+    "your_language": "Your Language",
+    "submit_button": "FIND INTERPRETER"
+  }
+}

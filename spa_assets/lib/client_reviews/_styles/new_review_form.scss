@@ -1,0 +1,101 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.new-client-review-form {
+  .title {
+    font: 18px "robotoregular";
+    color: #484848;
+  }
+
+  .review-rating {
+    display: flex;
+    margin-top: 10px;
+    color: #484848;
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    i {
+      font-size: 16px;
+      color: #c0c0c0;
+      // color: #FFC602;
+      cursor: pointer;
+      transition: color 200ms;
+      &.active {
+        color: #ffc602;
+      }
+    }
+
+    .rating-item-title {
+      margin-left: 20px;
+    }
+  }
+
+  .is-yellow {
+    display: block;
+    height: 40px;
+    width: 100%;
+    border: none;
+    font: 18px "robotoregular";
+    background-color: c.$interpreters-yellow;
+    color: c.$interpreters-green;
+  }
+
+  .field {
+    margin: 30px 0;
+
+    .textarea {
+      min-height: 105px;
+    }
+  }
+
+  .button-yellow {
+    display: block;
+    height: 40px;
+    width: 100%;
+    border: none;
+    font: 18px "robotoregular";
+    background-color: c.$interpreters-yellow;
+    color: c.$interpreters-green;
+  }
+  .button-yellow:hover {
+    cursor: pointer;
+    background-color: #f4bd00;
+  }
+}
+
+@include r.touch {
+  .new-client-review-form {
+    .title {
+      font-size: 12px;
+    }
+
+    .review-rating {
+      font-size: 10px;
+
+      .rating-item-title {
+        margin-left: 10px;
+      }
+    }
+
+    .field {
+      margin: 20px 0;
+
+      .textarea {
+        font-size: 12px;
+        min-height: 100px;
+      }
+    }
+
+    .button {
+      font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+}
+.lang-ar {
+  .checkbox span {
+    margin-right: 0.7em;
+  }
+}

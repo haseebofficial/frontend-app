@@ -1,0 +1,23 @@
+isEmailValid = $(".vis input[name='order[client_attributes][email]']").valid() == true
+
+$input = $(".vis input[name='order[client_attributes][email]']")
+
+$input.data("validated_email", '<%= @email %>')
+
+<% if @exists_user %>
+  $(".order .personal_form").data("submit_after_validation", false)
+  $input.attr('placeholder', '<%= @email %>')
+  $input.val("")
+  $input.valid()
+  $input.next().html(jQuery.validator.messages.uniq_email)
+
+  $(".login-form-link").click()
+  $("#new_user").find("input[name='user[email]']").val('<%= @email %>')
+  if(!$(".login-password-info").length) {
+    $(".login_info .title").append('<span class="login-password-info"><%= t("order_page.login_password_info", mail: @email) %></span>')
+  }
+<% else %>
+  if($(".order .personal_form").data("submit_after_validation")) {
+    $(".order .personal_form").submit()
+  }
+<% end %>

@@ -1,0 +1,4 @@
+client_call:
+  tab:
+    my_calls: "Mis llamadas"
+    new_call: "Nueva llamada"

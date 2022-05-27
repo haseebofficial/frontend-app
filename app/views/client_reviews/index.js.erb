@@ -1,0 +1,15 @@
+<% if @client_reviews.any? %>
+  if($(".client-reviews-wrapper .client-reviews-list").length) {
+    $(".client-reviews-wrapper .client-reviews-list").append("<%= j render(@client_reviews) %>")
+  }
+  else {
+    $(".client-reviews-wrapper").html("<%= j render('reviews_block', reviews: @client_reviews) %>")
+  } 
+  <% if @client_reviews.current_page >= @client_reviews.total_pages %>
+    $(".show-more-reviews").remove()
+  <% else %>
+    $(".show-more-reviews").attr("href", '<%= client_reviews_path(page: @client_reviews.current_page + 1, questionnaire_id: @questionnaire.id) %>')
+  <% end %>
+<% else %>
+  $(".show-more-reviews").remove()
+<% end %>

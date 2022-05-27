@@ -1,0 +1,82 @@
+ja:
+  show_interpreter: 
+    title: "%{city}にいる通訳者(%{langs}) - %{interpreter}"
+    meta_description: "%{city}にいる商談・交渉、展示会、会議の専門家の通訳者のサービス"
+    desc_addition: "%{city}に%{langs}通訳サービスを提供します"
+    keywords: "%{city}にいる通訳者, %{city}にいる通訳者のサービス, %{city}にいる日本語の通訳者, %{city}にいる私的な通訳者, %{city}にいる通訳者, %{city}での通訳サービス"
+    service_select: "%{city}にいる通訳者"
+    experience: "経歴"
+    youtube_link: 自己紹介ビデオ
+    similar_interpreters: "似ている通訳者"
+    verified_contacts_text: "パスポート(又はI身分証明書や免許証)と教育証明書がチェックされました。"
+    ticket_text: '予約する前、事前リクエストを送信して又は、適当なサービスの「予約」ボタンを押して、選択された日付をすぐに予約してください。'
+    why_itravel_block: |
+      <h3> interpreters.travelを利用する理由 </h3>
+      <p> 値上げなく通訳者の値段でサービスを予約できる </p>
+      <p> オンライン支払いも現金の支払いも可能 </p>
+      <p> 予約キャンセル料は無料!支払い戻しが保証される</p> 
+      <p> 登録せずに予約できる</p>
+      <p> オンライン支払は安全で、個人データが保障される </p>
+    learn_more: "もっと詳しくこちら"
+    back_link: "%{city}にいる通訳者の全て"
+    load_more: "もっと見る"
+    selected_period: "選択された期間: %{intervals}"
+    specializations: "通訳対応分野"
+    language_pairs: "通訳の対応言語ペア"
+    unavailable: "通訳者のサービスを予約できません。"
+    edit_search: "予約の時間を変更してください。"
+    available_services: "%{period}予約可能なサービス"
+    price: "%{hours}の値段*"
+    order: "予約"
+    person_count:  '(%{count}人)'
+    additional_services: "追加サービス"
+    free_cancellation_text: "%{hours}で無料で予約をキャンセルできます。その後のキャンセルは可能ですが、通訳者の二時間代を払えなければならなくなります。"
+    free_cancellation: "無料のキャンセル"
+    discount: "割引"
+    order_button: "予約する"
+    star_text: "*割引を含む予約の合計額"
+    avg_response_time: 
+      title: "返事時間:"
+      hour: "一時間以内"
+      few_hours: "数時間以内"
+      day: "一日中"
+      few_days: "数日中"
+    response_rate: "返事頻繁さ:"
+    how_to_order: 
+      title: "%{city}にいる通訳者を予約するため:"
+      text: |
+        －選択されたサービスの「予約」ボタンを押す
+        <br>
+        －クレジットカードで予約を保証し、又は送金するため会計を受ける。通訳者に現金でもお支払いできます。
+        <br>
+        －予約の確認と通訳者の連絡先があるバウチャーを受ける
+    confirm_modal:
+      date: "予約の日時:" 
+      service: "%{city}に%{service}"
+      languages: "対応言語:"
+      price: "予約合計額:"
+    reviews_from: サービスを予約し、支払いしたお客様の声のみ
+    dialogs: 
+      checked_and_confirmed: 'チャックされ、確認されました:'
+      email_full: "メールアドレス%{email}"
+      phone_full: "携帯電話番号%{phone}"
+      email_address: "メールアドレス ▒▒▒▒▒▒@▒▒▒▒.%{domain}"
+      phone: "携帯電話番号: ▒▒▒▒▒▒%{last_two}"
+      contacts_available: "連絡先は%{confirmation}取得できます"
+      order_confirmation: "ご確認後"
+      passport: 'パスポート/身分証明書/免許証'
+      documents: 教育証明書
+      contacts_title: 連絡先が保証されました
+      profile_title: プロファイルが保証されました
+      education_title: "教育"
+      youtube_title: "自己紹介ビデオ"
+    500_page: 
+      title: 通訳者が見つけていません
+      title_text: 只今この通訳者は忙しく又はプロファイルを中止しました。
+      similar_ints_title: "%{city}にいる他の通訳者をご覧ください"
+      to_search: "予約できる%{city}にいる%{link}通訳者をご覧ください"
+      search: 検索へ
+    viewers_count: 
+      one: "只今子の通訳者のプロファイルは %{count}人が閲覧中です"
+      few: "只今子の通訳者のプロファイルは %{count}人が閲覧中です"
+      other: "只今子の通訳者のプロファイルは %{count}人が閲覧中です"

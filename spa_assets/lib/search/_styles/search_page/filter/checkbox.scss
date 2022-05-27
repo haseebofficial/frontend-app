@@ -1,0 +1,46 @@
+.label-checkbox {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font: 14px "robotolight";
+  user-select: none;
+  color: #484848;
+
+  input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background: #FFFDFD;
+    border: 1px solid #C0C0C0;
+
+    &:after {
+      content: "";
+      position: absolute;
+      display: none;
+      top: 0;
+      left: 2px;
+      bottom: 0;
+      margin: auto 0;
+      width: 9px;
+      height: 9px;
+      background: #C4C4C4;
+    }
+  }
+
+  input:checked ~ .checkmark:after {
+    display: block;
+  }
+}
+

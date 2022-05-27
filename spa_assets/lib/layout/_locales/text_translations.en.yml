@@ -1,0 +1,93 @@
+text_translations:
+  head:
+    title: "Get Translation Quotes from Best Vetted Translators directly"
+    description: "Fast, Affordable and Quality Translation Services in 180 languages. Get quote and hire your Best vetted professional translator directly"
+    keywords: "Translation, Professional Translations, Translators, Professional Translators, language translations services, Translation agency, Freelance translator, Translate"
+  header: "Text/docs translations by expert humans"
+  description: "20 000+ vetted native Translators located in 170+ countries provide fast, affordable and quality texts/docs translations in 180 languages"
+  why:
+    header: "Why interpreters.travel?"
+    quality: "Confirmed Quality"
+    quality_desc: "96% of customers give positive reviews and confirm high quality"
+    price: "Best Price"
+    price_desc: "You work with translators directly, without agent’s markups and any extra charges"
+    time: "On-Time Delivery"
+    time_desc: "Advanced system of translators recommendation and execution control system"
+  form:
+    languages:
+      sourceLanguage: "Source language"
+      targetLanguage: "Target language"
+    specialization: "Specialization"
+    word_count: "Word count"
+    attachments:
+      label: "Attachments"
+      or: "or"
+      upload: "Upload file"
+      dropzone_text: "Drop your files here"
+    due_date:
+      label: "Due date, time"
+      auto: "Auto (best price)"
+      select: "Choose"
+      reset: "Reset"
+    name: "Your name"
+    email: "Email (to receive quotes)"
+    phone: "Phone number"
+    description: "Add some notes for translators"
+    submit: "Get quotes"
+    privacy:
+      text: 'By clicking "Get quotes", I confirm that I have read and agree with the'
+      privacy_policy: "privacy policy"
+      terms_conditions: "terms and conditions."
+      and: "and"
+    add_contact_info: "Add your contact info"
+    footer: "You will receive quotes from most suitable translators, choose and hire the best"
+  show:
+    guest_description: "Your %{languages} text translation request has been successfully sent to our best translators. Soon you will receive a number of offers to choose from."
+    create_new: "Submit another request"
+  why_inter:
+    title: "Why interpreters.travel?"
+    block1:
+      link: "Easy and safe"
+      text_html: "Pay only for actually spent time. <br/> WITHOUT ADVANCE PAYMENT <br/> Payment security guarantee."
+    block2:
+      link: "Low prices"
+      text_html: "PER MINUTE PAYMENT for interpreter services <br/> WITHOUT ADDITIONAL COSTS for <br/> telephone connection and commissions"
+    block3:
+      link: "Maximum choice"
+      text_html: "20,000+ professional interpreters <br/> Over 180 languages. Calls to 150 countries <br/> Access 24/7"
+    block4:
+      link: "Convenient"
+      text_html: "CHOICE OF INTERPRETERS by rates and rating <br/> Instant connection of an interpreter <br/> Convenient payment VISA, MasterCard"
+  why_inter_spa:
+    title: "Why interpreters.travel?"
+    block1:
+      link: "Easy and safe"
+      text_html: "Order now, pay later! <br/> FREE order cancellation. <br/> Guaranteed safety of payments."
+    block2:
+      link: "Low prices"
+      text_html: "All orders at the INTERPRETERS’ PRICES <br/> without agent’s markups <br/> DISCOUNTS ARE INCLUDED in order calculations."
+    block3:
+      link: "Maximum choice"
+      text_html: "Interpreters in %{cities} cities, <br/> %{countries} countries worldwide"
+    block4:
+      link: "Convenient"
+      text_html: "Convenient payment: VISA, MasterCard,<br/> bank transfer, cash<br/>24/7 SUPPORT"
+  hero:
+    professional_interpreters: "Professional interpreters <br/> at exhibitions, conferences, negotiations"
+    vetted_interpreters: "20,000+ vetted interpreters in 170+ countries provide fast, affordable and high-quality interpretation in 180 languages"
+    international_calls: "International calls with interpreters <br/> or remote interpreting without phone connection fees"
+    thousands_of_professional: "Thousands of professional interpreters in 180 languages <br/> are available 24/7 and ready to interpret your phone conversation or interpret remotely"
+    connect_an_interpreter: "Connect an interpreter for remote interpreting or call online to any phone in 150 countries"
+  how_it_works:
+    title: "How it works"
+    text1: 'Choose a language and click "Connect an interpreter"'
+    text2: "Interpreters who are ready to interpret will be displayed on the page along with rates"
+    text3: "Press the green button to call the interpreter."
+    text4: "Explain to the interpreter what you need, where you are calling, with whom you are talking and why."
+    text5: "Dial the phone number, wait for an answer and continue the conversation in the group teleconference mode."
+    text6: "The interpreter will hear your conversation and interpret in both directions."
+    text7: "Payment will be debited automatically. You pay only the per-minute rate of the interpreter, the phone call is free."
+    press: "Press"
+    to_call_interpreter: "to call the interpreter."
+    to_end_the_phone_call: "below the phone number to end the phone call. The interpreter will stay in touch."
+    to_end_the_conversation: "to end the conversation with the interpreter"

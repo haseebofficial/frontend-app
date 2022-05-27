@@ -1,0 +1,47 @@
+<div class="main_content">
+  <div class="clear"></div>
+  <div class="type_trans_wrapper">
+    <h2>
+      <%= t('main.header') %>
+    </h2>
+    <div class="text">
+      <%= t('main.header_description') %>
+    </div>
+    <div class="type_trans">
+      <%= link_to conversation_path, class: 'type_trans_block' do %>
+        <%= amp_image_tag 'type_img_01.png', width: "308", height: "108" %>
+        <span class="link">
+          <%= t('main.block_img1') %>
+        </span>
+      <% end %>
+      <%= link_to presentation_path, class: 'type_trans_block' do %>
+        <%= amp_image_tag 'type_img_02.png', width: "308", height: "108" %>
+        <span class="link">
+          <%= t('main.block_img2') %>
+        </span>
+      <% end %>
+    </div>
+    <%= link_to t('main.all_type'), conversation_path, class: 'all_link' %>
+    <div class="clear"></div>
+  </div>
+  <div class="why_inter_wrapper">
+    <h2>
+      <%= t('main.why_inter.title') %>
+    </h2>
+    <div class="why_inter">
+      <div class="why_inter_block">
+        <%= link_to t('main.why_inter.block1.link'), for_clients_path, class: 'name' %>
+      </div>
+      <div class="why_inter_block no_mrg">
+        <%= link_to t('main.why_inter.block2.link'), for_clients_path, class: 'name' %>
+      </div>
+      <div class="why_inter_block">
+        <%= link_to t('main.why_inter.block3.link'), for_clients_path, class: 'name' %>
+      </div>
+      <div class="why_inter_block no_mrg">
+        <%= link_to t('main.why_inter.block4.link'), for_clients_path, class: 'name' %>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>

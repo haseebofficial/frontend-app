@@ -1,0 +1,10 @@
+ru:
+  footer:
+    info: 'Об interpreters.travel'
+    support: 'Поддержка 24/7'
+    help_inter: Переводчикам
+    help_inter_in_city: 'Переводчикам в %{city}'
+    for_affiliates: "Партнерам"
+    terms_conditions: 'Правила и условия'
+    privacy_policy: 'Политика конфиденциальности'
+    copyright_html: '&copy; Copyright 2013 - %{year}. interpreters.travel. All rights reserved.'

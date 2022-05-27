@@ -1,0 +1,21 @@
+ru:
+  interpreter:
+    diplomas: "Дипломы"
+    certificates: "Сертификаты"
+    experience: "Опыт"
+    level: "Уровень"
+    rating: "Рейтинг"
+    reviews: "Отзывы"
+    education: Образование
+    reviews_text: "Только клиентов заказавших и оплативших услугу переводчика"
+    rating_text: "Рейтинг составлен из более чем 20 параметров: опыта работы, образования, отзывов клиентов, рекомендаций, качествa анкеты и другиx"
+    recommendations: "Рекомендации"
+    events: "Мероприятия"
+    resume_level: "Уровень <span class='mobile-hide'> резюме:</span>"
+    title: "Профессиональный устный переводчик"
+    title_city: "Профессиональный устный переводчик в %{city}"
+    verified_contacts: "Контакты проверены"
+    verified_profile: "Профиль подтвержден"
+    in_city: "Переводчик в %{city} - %{name}"
+  translate: "перевести"
+  show_original: "показать оригинал"

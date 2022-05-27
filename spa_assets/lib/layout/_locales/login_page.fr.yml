@@ -1,0 +1,14 @@
+login_page:
+  page_slogan: "Entrée"
+  form:
+    email: "E-mail:"
+    password: "Mot de passe:"
+    remember_me: "Sauvegarder mes données"
+    submit: "Entrée"
+    error: "Adresse e-mail ou mot de passe non valides."
+  links:
+    sign_in_for_interpreters: "Entrée pour les interprètes"
+    sign_in: "Entrée"
+    sign_up: "Enregistrement"
+    restore_password: "Vous avez oublié votre mot de passe?"
+    sign_up_for_interpreters: "Enregistrement pour les interprètes"

@@ -1,0 +1,52 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+@use "search/_styles/form/utils" as form-utils;
+
+.client-search-page {
+  @include r.desktop {
+    .client-form {
+      .triangle {
+        top: 94px;
+      }
+      .triangle-quadrat {
+        top: 88px;
+      }
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      background-color: c.$interpreters-green;
+      margin-top: 20px;
+      margin-bottom: 40px;
+    }
+  }
+
+
+  .search-form {
+    .main-field {
+      margin-bottom: 0px;
+      @include form-utils.field-height(60px);
+
+      select {
+        font-size: 1rem;
+      }
+    }
+  }
+
+  @include r.touch {
+    .client-form {
+      margin-top: 20px;
+    }
+    .search-form {
+      .main-field {
+        @include form-utils.field-height(45px);
+
+        select {
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+}

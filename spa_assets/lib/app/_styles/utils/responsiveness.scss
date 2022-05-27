@@ -1,0 +1,14 @@
+@forward "app/_styles/bulma/utils" show 
+  from, 
+  until, 
+  mobile, 
+  tablet,
+  tablet-only,
+  touch,
+  desktop,
+  desktop-only,
+  until-widescreen,
+  widescreen,
+  widescreen-only,
+  until-fullhd,
+  fullhd;

@@ -1,0 +1,12 @@
+{
+  "top_up_text": "Платежная информация",
+  "balance_status": {
+    "status": {
+      "amount_eur": "Баланс: €%{amount}"
+    },
+    "popup": {
+      "no_funds_message": "Пополните баланс, чтобы продолжить.",
+      "topup_item_text": "€%{amount}"
+    }
+  }
+}

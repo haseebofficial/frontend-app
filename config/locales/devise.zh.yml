@@ -1,0 +1,30 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+zh:
+  devise:
+    confirmations:
+      confirmed_and_signed_in: "在若干分钟内您将收到重置密码的说明信"
+    failure:
+      already_authenticated: "您已进入系统"
+      invalid: "无效的电子邮件地址或密码"
+      locked: "您的帐户已锁定。"
+      not_found_in_database: "无效的电子邮件地址或密码。"
+      unauthenticated: "您需要登錄或註冊。"
+    mailer:
+      reset_password_instructions:
+        subject: "重设密码说明"
+        hello: "您好"
+        someone_has_requested: "我们收到了来自您重设密码的请求"
+        link: "改密码"
+        footer: "<p>如果请求不是您发送的，请忽略此邮件</p><p>您的密码不可改除非您进入链接更改。</p>"
+    passwords:
+      no_token: "本頁面只能從電子郵件轉換到重置您的密碼中。如果你遵循電子郵件中的鏈接，請確保您使用的整個URL。"
+      send_instructions: "在若干分钟内您将收到重置密码的说明信"
+      send_paranoid_instructions: "在若干分钟内您将收到重置密码的说明信"
+      updated: "您的密碼已更改。您現在已登錄。"
+    registrations:
+      signed_up: "您注册了interpreters.travel， 您的账号已成功激活"
+      updated: "您的帳戶已發生變化。"
+    sessions:
+      signed_in: "登录。"
+      signed_out: "注销"

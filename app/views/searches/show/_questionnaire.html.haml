@@ -1,0 +1,42 @@
+- @questionnaire = questionnaire
+- q_name = "#{questionnaire.name} #{shorten_surname(questionnaire.surname)}"
+.result_trans_block.search_result{'data-interpreter-id' => questionnaire.id}
+  = link_to search_interpreter_path(@search.id, questionnaire.user_id) do
+    .photo-wrapper
+      = image_tag questionnaire.photo_url, class: 'photo', alt: t("interpreter.in_city", city: @in_city, name: q_name)
+  .desc
+    = link_to q_name, search_interpreter_path(@search.id, questionnaire.user_id), class: 'name'
+    .price
+      = "#{convert_to_current_currency(questionnaire.price.to_i, questionnaire.currency_code, true, symbolize_currency: true)}"
+      %span.grey-light> /
+      %span.duration-hours-grey= t("hours", count: @search.duration_hours)
+
+    - if questionnaire.discount
+      .discount
+        = image_tag("discount_arrow.png") 
+        = @questionnaire.discount
+        \%
+    = link_to t("search_page.learn_more"), search_interpreter_path(@search.id, questionnaire.user_id), class: 'interpreter-button mobile-show'
+    .clear
+    .text= l_questionnaire(:short_summary)
+  .link.details-links-block
+    = link_to t("search_page.learn_more"), search_interpreter_path(@search.id, questionnaire.user_id), class: 'interpreter-button mobile-hide'
+    %span.info-link-wrapper.mobile-show
+      %span.level.info_link{href: "#", 'data-id' => @questionnaire.id}
+      %span.questionnaire-stars{class: questionnaire_stars_class(questionnaire.score)}
+    %span.info-link-wrapper 
+      %a.experience.info_link{href: '#', 'data-id' => questionnaire.id} 
+        #{t("interpreter.experience")} (#{t('years', count: questionnaire.experience_years)})
+        %i.sort-right-arrow
+    %span.info-link-wrapper 
+      %a.education-remote.info_link{href: '#', 'data-id' => questionnaire.id} 
+        #{t("interpreter.education")} (#{questionnaire.educations_count})
+        %i.sort-right-arrow
+    %span.info-link-wrapper 
+      %a.experience_event.info_link{href: '#', 'data-id' => questionnaire.id} 
+        #{t("interpreter.events")} (#{questionnaire.experience_event_count})
+        %i.sort-right-arrow
+    %span.info-link-wrapper.mobile-hide.stars-wrapper
+      %span.level.info_link{href: "#", 'data-id' => @questionnaire.id}
+      %span.questionnaire-stars{class: questionnaire_stars_class(questionnaire.score)}
+  .clear

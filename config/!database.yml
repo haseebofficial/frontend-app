@@ -1,0 +1,20 @@
+common: &common
+  adapter:  postgresql
+  host:     localhost
+  encoding: utf8
+  pool:     5
+  username: uch1
+  password: 1
+  template: template0
+
+development:
+  <<: *common
+  database: interpreters-travel-backend2
+
+test:
+  <<: *common
+  database: interpreters-travel_test
+
+production:
+  <<: *common
+  database: interpreters-travel_production

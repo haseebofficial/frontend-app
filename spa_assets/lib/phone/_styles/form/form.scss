@@ -1,0 +1,106 @@
+@use "app/_styles/utils/colors" as c;
+@use "layout/_styles/utils/layout_properties";
+@use "app/_styles/utils/responsiveness" as r;
+@use "app/_styles/utils/text";
+@use "phone/_styles/form/utils" as form-utils;
+
+.phone-form {
+  margin-top: 30px;
+  padding: 0 20px;
+  background-color: form-utils.$background-color;
+
+  .main-field {
+    .control {
+      font-size: 1.2rem;
+    }
+
+    @include form-utils.field-height(60px);
+
+    .label {
+      color: c.$interpreters-yellow;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 1.2rem;
+      margin-bottom: 0.2em;
+      font-weight: normal;
+      font-family: "robotomedium", sans-serif;
+    }
+
+    .label-empty {
+      @include text.unselectable;
+      opacity: 0.0;
+    }
+
+    select, input {
+      width: 100%;
+      color: black;
+      padding-left: 0.3em;
+      border: none;
+      background-color: #F4EDE3;
+    }
+
+    select, input, .button {
+      box-shadow: none;
+      font-family: "robotolight", sans-serif;
+    }
+
+    .button {
+      font: 18px 'robotolight';
+      font-weight: 300;
+      color: #30480A;
+      padding: 5px;
+
+    }
+  }
+
+  .your-lang {
+    color: #fff;
+
+    .your-lang-link {
+      font: 16px 'robotomedium';
+      text-decoration-line: underline;
+      color: #fff;
+    }
+  }
+}
+
+@include r.touch {
+  .phone-form {
+    margin: 30px (- layout_properties.$left-right-padding);
+    padding: 0 10px 20px 10px;
+
+    .column {
+      padding: 5px 0;
+
+    }
+
+    .your-lang {
+      margin-top: 10px;
+    }
+
+    .main-field {
+      @include form-utils.field-height(45px);
+
+      .control {
+        font-size: 1.2rem;
+
+        input, select {
+          padding-left: 15px;
+        }
+      }
+
+      // .label-empty {
+      //   display: none;
+      // }
+      .button {
+      margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .label-empty {
+    display: none;
+  }
+}

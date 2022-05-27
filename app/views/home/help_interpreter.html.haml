@@ -1,0 +1,99 @@
+- content_for :description do
+  .mobile-hide= t("for_interpreters_page.title")
+
+- content_for :title do
+  = t("for_interpreters_page.title")
+
+- content_for :meta_description do 
+  = t("meta_desc.help_interpreter")
+
+- content_for :intranet_button do
+  %a.intranet-button.mobile-hide{href: help_interpreter_path(anchor: "create_new_interpreter")}
+    = t("for_interpreters_page.signup_link")
+
+- content_for :back_link do
+  = link_to t("help_menu.back_link"), root_path, class: 'back_link'
+
+- content_for :body do
+  .main_content
+    .about_sidebar
+      = render partial: 'home/help_menu'
+    .about_content
+      .about_for_trans_img_wrapper
+        = image_tag 'help/about_for_trans_img.png', class: 'img', alt: ''
+        .text
+          .text_inner
+            = t("for_interpreters_page.quote")
+            .author= t("for_interpreters_page.quote_author")
+      .about_article
+        %h2= t("for_interpreters_page.interpreter_reviews")
+      .client_reviews_slider_wrapper{style: "position: relative;"}
+        %ul#client-reviews-slider.bxslider{style: "padding: 0; margin-top: 5px;"}
+          - @reviews.each do |r|
+            %li
+              = image_tag "quotes.png", style: "float: left;", alt: ''
+              .quote-content
+                .text{style: "font: italic 18px/18px 'robotobold'; color: #696a6e;margin-left: 120px;"}
+                  &laquo;#{r.comment}&raquo;
+              .clear
+              %br
+              %span{style: "color: #696a6e; float: right"}= r.interpreter
+              = image_tag r.thumb_photo, class: "img-circle", style: "float: right;"
+        .client-reviews-arrows
+          %a.prev_arrow{style: "float: left;"}
+          %a.next_arrow{style: "float: right;"}
+      .about_article
+        %h2= t("for_interpreters_page.block1.title")
+        .step_wrapper
+          .step
+            .num
+              1
+            .text
+              = t("for_interpreters_page.block1.step1")
+            .clear
+          .step
+            .num
+              2
+            .text
+              = t("for_interpreters_page.block1.step2")
+            .clear
+          .step
+            .num
+              3
+            .text
+              = t("for_interpreters_page.block1.step3")
+            .clear
+          .step
+            .num
+              4
+            .text
+              = t("for_interpreters_page.block1.step4")
+            .clear
+        %h2= t("for_interpreters_page.block2.title")
+        %p= raw t("for_interpreters_page.block2.text")
+        %h2= t("for_interpreters_page.why_inter.title")
+        .why_inter_wrapper
+          - (1..12).each do |i|
+            .why_inter_block{class: "why_inter_block#{i}"}
+              .name= t("for_interpreters_page.why_inter.block#{i}.title")
+              .text= t("for_interpreters_page.why_inter.block#{i}.text")
+          .clear
+        %h2= t("for_interpreters_page.block3.title")
+        %p{style: ("color: green; font-weight: bold;" if params[:questionnaire])} 
+          = t("for_interpreters_page.block3.step1")
+          - if params[:questionnaire]
+            %i.base-input-success-icon{style: "float:none; margin:0; display: inline-block"}
+        %p= t("for_interpreters_page.block3.step2")
+        %p= t("for_interpreters_page.block3.step3")
+        - if notice
+          %p#notice= notice
+
+        #interpreter_form{style: "margin-top: 40px;"}
+          - if params[:questionnaire]
+            - url = params[:token] ? "#{ENV['BACKEND_URL']}/questionnaires/#{params[:questionnaire]}/edit?email_ref=#{params[:token]}" : "#{ENV['BACKEND_URL']}/questionnaires/#{params[:questionnaire]}/edit"
+            %div
+              %p= t("for_interpreters_page.after_reg.text")
+              = link_to t("for_interpreters_page.after_reg.link"), url, class: "intranet-button questionnaire-button"
+          - else 
+            .begin_form= render partial: 'interpreter_inquiries/form'
+    .clear

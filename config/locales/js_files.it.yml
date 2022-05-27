@@ -1,0 +1,53 @@
+it: 
+  js: 
+    time:  
+      since_word: "dalle"
+      to_word: "alle"
+    select: "Consento"
+    cancel: "Negare"
+    validator: 
+      required: 'Questo campo deve essere riempito.'
+      remote: 'Пожалуйста, введите правильное значение.'
+      email: 'Per favore, digiti un indirizzo corretto di posta elettronica.'
+      url: 'Пожалуйста, введите корректный URL.'
+      date: 'Пожалуйста, введите корректную дату.'
+      dateISO: 'Пожалуйста, введите корректную дату в формате ISO.'
+      number: 'Пожалуйста, введите число.'
+      digits: 'Пожалуйста, вводите только цифры.'
+      creditcard: 'Пожалуйста, введите правильный номер кредитной карты.'
+      equalTo: 'Пожалуйста, введите такое же значение ещё раз.'
+      accept: 'Пожалуйста, выберите файл с правильным расширением.'
+      maxlength: 'Пожалуйста, введите не больше {0} символов.'
+      minlength: 'Пожалуйста, введите не меньше {0} символов.'
+      rangelength: 'Пожалуйста, введите значение длиной от {0} до {1} символов.'
+      range: 'Пожалуйста, введите число от {0} до {1}.'
+      max: 'Пожалуйста, введите число, меньшее или равное {0}.'
+      min: 'Пожалуйста, введите число, большее или равное {0}.'
+      uniq_email: 'Questo l’email è stato utilizzato prima, utilizi un altro o si autorizzi'
+      phone_format: "segni nel formato +35724343118"
+      city_select: "Indicate correttamente e scelga dalla lista"
+    browser_outdated: "Il Suo navigatore è venuto obsoleto ed alcuni funzionalità possono non andare più corretto. Per favore, mettasi un navigatore più moderno e sicuro."
+    date_selector: 
+      dialog: 
+        title: "Periodi scelti"
+        confirm: "Confermi"
+        change: "Cambi"
+      errors: 
+        no_periods_selected: 'Scelga ora e fare clic su "Aggiunga"'
+        invalid_interval: 'Non è corretto scelto l’intervallo del tempo'
+        interval_exists: 'Questo periodo è stato già assegnato, scelga un altro, per favore'
+      total_time: 'Durata totale - '
+      from: ' - Dalle '
+      to: ' Alle '
+      select: "Scelga"
+    search: 
+      file_select: "Scelga..." 
+      errors: 
+        blank_city: 'Scelga la città.'
+        blank_intervals: 'Scelga la data, ora.'
+        blank_language: 'Scelga la lingua.'
+    buttons: 
+      change_order_date: "Cambi la data"
+      confirm_order_date: "Confermi"
+    titles: 
+      confirm_order_date: "Confermi i dati della prenotazione"

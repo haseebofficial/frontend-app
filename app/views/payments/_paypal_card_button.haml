@@ -1,0 +1,5 @@
+.payment-wrapper.invoice
+  %br
+  = link_to(image_tag("paypal_order_buttons/card.png"), paypal_express_checkout_order_path(@order.id))
+  %br 
+  %h4= t("order_page.payment.paypal")

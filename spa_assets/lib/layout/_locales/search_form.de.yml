@@ -1,0 +1,57 @@
+search_form:
+  title: 'Dolmetscher finden'
+  where: 'Wo:'
+  when: 'Wann:'
+  language: 'Sprachkombinationen:'
+  your_language: 'Ihre Sprache:'
+  button: 'suchen'
+  city: 'z.B.: Milan, New York, HongKong'
+  date_time: 'Datum und Zeit auswählen'
+  timepicker:
+    title: 'Treffzeit (Ortszeit):'
+    total: 'Gesamtzeit alle Intervale'
+    from: 'Von'
+    till: 'Bis'
+    buttons:
+      add_day: 'Einsetzen'
+      clear: 'Löschen'
+      clear_intervals: 'Intervale Löschen'
+      choose: 'Auswählen'
+  language_selector:
+    no_result: 'keine Dolmetscher in diesem Stadt'
+    list_select: 'von Liste auswählen'
+    blank_city: "Erst den Stadt auswählen"
+  city_selector:
+    no_result: "In diesem Stadt gibt es momentan keine verfügbare Dolmetscher. Versuchen die Suche zum eine spätere Zeitpunkt oder wählen Sie einen anderen Stadt"
+  js:
+    select: "OK"
+    date_selector:
+      dialog:
+        title: "Ausgewählte Periode"
+        confirm: "Bestätigen"
+        change: "Ändern"
+      errors:
+        no_periods_selected: 'Wählen Sie die Zeit aus und drücken Sie "Hinzufügen"'
+        invalid_interval: 'Sie haben einen falschen Zeitinterval ausgewählt'
+        interval_exists: 'Diese Periode ist bereit ausgewählt, bitte wählen Sie anderen'
+        interval_passed: 'Das ausgewählte Zeitintervall ist bereits abgelaufen'
+      total_time: 'Gesate Zeit '
+      from: ' von '
+      to: ' bis '
+      select: "Auswählen"
+    search:
+      file_select: "Auswählen..."
+      errors:
+        blank_intervals: 'Datum und Zeit auswählen.'
+        blank_language: 'Sprache auswählen.'
+    buttons:
+      change_order_date: "Datum ändern"
+      confirm_order_date: "Bestätigen"
+    titles:
+      confirm_order_date: "Bestätigen Sie Ihre Buchungsdaten"
+  filter:
+    show_result: "Mehr Anzeigen"
+    interpreters_are_not_available: "Für das ausgewählte Datum und die ausgewählten Sprachen sind in dieser Stadt keine Dolmetscher verfügbar. Wählen Sie eine andere Stadt"
+  now: "jetzt"
+  or_choose_a_time: "oder wählen Sie die Zeit"
+  connect_an_interpreter: "Dolmetscher verbinden"

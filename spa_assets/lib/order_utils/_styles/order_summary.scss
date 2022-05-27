@@ -1,0 +1,65 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+.order-summary {
+  margin-top: 40px;
+  font: 16px "robotoregular";
+  color: #060606;
+
+  .order-title {
+    display: block;
+    font: 24px "robotomedium";
+  }
+
+  .is-grey {
+    color: #888787;
+  }
+
+  .order-link {
+    text-decoration-line: underline;
+    color: #3518E1;
+  }
+
+  .order-price {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+
+    .price {
+      color: c.$interpreters-yellow;
+      font-weight: bold;
+    }
+
+    .label {
+      color: #060606;
+      margin-right: 10px;
+      font: 16px "robotoregular";
+    }
+
+    select {
+      font-size: 16px;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+
+    .select, select {
+      height: 30px;
+    }
+  }
+}
+
+@include r.touch {
+  .order-summary {
+    .order-price {
+      margin-top: 10px;
+
+      .label {
+        font: 12px "robotoregular";
+      }
+
+      select {
+        font-size: 12px;
+        padding-right: 40px;
+      }
+    }
+  }
+}

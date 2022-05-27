@@ -1,0 +1,84 @@
+@use "app/_styles/utils/responsiveness" as r;
+
+.call-control {
+  display: flex;
+  margin-top: 40px;
+  margin-left: 96px;
+  .keyboard-control {
+    width: 300px;
+  }
+
+  .keyboard {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+    li:nth-child(3n) {
+      margin-right: 0;
+    }
+
+    li {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: calc(100% / 3 - 2px);
+      height: 60px;
+      margin: 2px 2px 0 0;
+      cursor: pointer;
+      font: 24px "robotoregular";
+      background-color: #f2f2f2;
+    }
+  }
+
+  .btn-call {
+    max-width: 76px;
+    margin-left: 20px;
+    margin-top: -20px;
+    &:hover {
+      filter: invert(46%) sepia(59%) saturate(466%) hue-rotate(71deg)
+        brightness(97%) contrast(88%);
+    }
+  }
+}
+
+@include r.touch {
+  .call-control {
+    justify-content: flex-end;
+    margin-left: 0;
+
+    .keyboard-control {
+      width: 200px;
+
+      .input {
+        height: 40px;
+        font-size: 12px;
+      }
+    }
+
+    .keyboard {
+      li {
+        font: 18px "robotoregular";
+      }
+    }
+
+    .btn-call {
+      max-width: 60px;
+      margin-left: 10px;
+      margin-top: -10px;
+    }
+    .btn-call:hover {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+.lang-ar {
+  .call-control .btn-call {
+    margin-top: 0px;
+    margin-right: 20px;
+  }
+  .call-control .keyboard li:nth-child(3n) {
+    margin-right: 2px;
+  }
+}

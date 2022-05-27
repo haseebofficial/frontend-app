@@ -1,0 +1,95 @@
+<table>
+    <tbody>
+        <tr>
+            <td>Здравствуйте, <%= @client.name + " " + @client.surname %></td>
+        </tr>
+        <tr>
+            <td>Детали заказа #<%= @order.id %>:</td>
+        </tr>
+        <tr>
+            <td><%= @interpreter.name + " " + @interpreter.surname + " (профессиональный устный переводчик)"%></td>
+        </tr>
+        <tr>
+            <td><img alt="Image" src="<%= "https://" + ENV["FRONTEND_DOMAIN"] + @questionnaire.photo_url %>"></td>
+        </tr>
+        <tr>
+            <td>Услуги устного перевода в городе: <%= @questionnaire.main_city.name %></td>
+        </tr>
+        <tr>
+            <td>Дата, время: <%= @order.selected_period_for_email %> (время в городе <%= @questionnaire.main_city.name %>)</td>
+        </tr>
+        <tr>
+            <td>Пары языков: <%= @interpreter.questionnaire.language_pairs_to_sentence %></td>
+        </tr>
+        <tr>
+            <td>Выбранные услуги: <%= @service.to_s + (" (до #{@service.additional_cost} человек)" if @service.additional_cost).to_s %><td>
+        </tr>
+        <tr>
+            <td>Общая стоимость заказа <%= "#{@order.amount} #{@order.currency.code.downcase}." %> (с учетом скидок)<td>
+        </tr>
+        <tr>
+            <td>Данные для контакта:<td>
+        </tr>
+        <tr>
+            <td>Фамилия: <%= @order.surname %><td>
+        </tr>
+        <tr>
+            <td>Имя: <%= @order.name %><td>
+        </tr>
+        <tr>
+            <td>Город: <%= @order.city_name %><td>
+        </tr>
+        <tr>
+            <td>Адрес: <%= @client.address.location %><td>
+        </tr>
+        <tr>
+            <td>Телефон: <%= @client.phone %><td>
+        </tr>
+        <tr>
+            <td>Электронный адрес: <%= @client.email %><td>
+        </tr>
+        <tr>
+            <td>Информация о пользователе услуг:<td>
+        </tr>
+        <tr>
+            <td>Фамилия, имя: <%= "#{@order.surname} #{@order.surname}" %><td>
+        </tr>
+        <tr>
+            <td>Телефон (для SMS уведомлений): <%= @order.phone %><td>
+        </tr>
+        <tr>
+            <td>Точный адрес встречи с переводчиком (указать на карте): <%= @order.meeting_address %><td>
+        </tr>
+        <% if @service.additional_cost %>
+            <tr>
+                <td>В услуги также входит:<td>
+            </tr>
+            <tr>
+                <td><%= @service.additional_cost %><td>
+            </tr>
+        <% end %>
+        <tr>
+            <td>Условия отмены заказа, установленные переводчиком:<td>
+        </tr>
+        <tr>
+            <td>Возможна БЕСПЛАТНАЯ отмена заказа не позднее, чем за 48 часов до начала встречи.
+Отмена заказа менее чем за 48 часов возможна только с удержанием оплаты первых двух часов услуг переводчика.<td>
+        </tr>
+        <tr>
+            <td>Обратите внимание! Сейчас Ваш заказ оформляется. В течение 3 часов Вы получите подтверждение оформления заказа. Вам также будет направлен индивидуальный "Ваучер" с подробным описанием заказа, контактными данными Вашего Переводчика.<td>
+        </tr>
+        <tr>
+            <td>С уважением,<td>
+        </tr>
+        <tr>
+            <td>команда interpreters.travel<td>
+        </tr>
+        <tr>
+            <td>Пожалуйста, не отвечайте на данное сообщение. 
+Если Вам необходима помощь или у Вас возникли вопросы, Вы можете обратиться в службу поддержки support@interpreters.travel или по телефону +44 65865865<td>
+        </tr>
+        <tr>
+            <td>© 2014 Interpreters.travel OÜ, Harju maakond, Tallinn, Kesklinna linnaosa, Vesivärava tn 50-201, 10152<td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,22 @@
+- content_for :description do
+  = t("sign_in_page.title")
+- content_for :body do
+  .green_line
+  .main_content
+    = render 'shared/flash_messages'
+    .info_wrapper
+      .order_form
+        = simple_form_for(resource, :as => resource_name, :url => session_path(resource_name), html: { class: 'form-vertical' }) do |f|
+          = hidden_field_tag :redirect_url, params[:redirect_url]
+          = f.input :email, autofocus: true, label: false, placeholder: t("sign_in_page.form.email")
+          = f.input :password, label: false, placeholder: t("sign_in_page.form.password")
+          -  if devise_mapping.rememberable?
+            %label
+              %input{ type: "checkbox", name: "user[remember_me]"}
+              = t("sign_in_page.form.remember_me")
+          .clear
+          = f.button :submit, t("sign_in_page.form.submit"), class: 'sub', style: 'display: inline; width: 310px;'
+        = link_to t("shared_links.interpreters_login"), ENV['BACKEND_URL']
+        %br
+        .shared_links
+          = render "devise/shared/links"

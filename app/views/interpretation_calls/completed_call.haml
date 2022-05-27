@@ -1,0 +1,78 @@
+- content_for :head do
+  = render "layouts/react_app"
+- content_for :description do
+  = render "interpretation_calls/app_store_link"
+- content_for :body do
+  .green_line
+  .main_content
+    = render 'shared/flash_messages'
+    = render "personal_accounts/sidebar"
+    
+    .cart_content
+      .cart_country_wrapper
+      .cart_block.interpreter-call-info-wrapper{style: "border: none;"}
+        .photo-wrapper
+          = image_tag @questionnaire.photo_url, class: 'cart_photo'
+        .info_wrapper
+          %span.n-row
+            = t("interpretation_call.completed_text")
+            %strong.stronger ##{@call.id}
+          %span.n-row
+            = t("interpretation_call.datetime")
+            %strong.stronger #{@call.created_at}
+          %span.n-row
+            = t("interpretation_call.language_pair")
+            %strong.stronger
+              #{t("common.languages.#{@call.your_language}")}
+              \-
+              #{t("common.languages.#{@call.language}")}
+          %span.n-row
+            = t("interpretation_call.date_start")
+            %strong.stronger #{@call.created_at}
+          %span.n-row
+            = t("interpretation_call.duration")
+            %strong.stronger #{Time.at(@call.duration).utc.strftime("%M:%S")}
+          %span.n-row
+            = t("interpretation_call.price_minute")
+            %strong.stronger #{@call.price_minute_with_expenses}€
+          %span.n-row
+            = t("interpretation_call.total_amount")
+            %strong.stronger #{@call.total_price_with_expenses_eur}€
+          - if @call.state != "awaiting_payment"
+            %span.n-row
+              = t("interpretation_call.paid")
+              %strong.stronger #{@call.total_price_with_expenses_eur}€
+          %span.n-row
+            = t("interpretation_call.state")
+            - if @call.state == "awaiting_payment"
+              %strong.stronger.red= t("interpretation_call.awaiting_payment")
+            - else
+              %strong.stronger= t("interpretation_call.completed")
+          - if @call.state == "awaiting_payment"
+            = link_to t("interpretation_call.pay_button"), process_payment_interpretation_call_path(@call), class: "btn btn-success", style: "text-decoration: none;"
+            #client-balance-container{style: "display: inline-block;"}
+            #client-balance-popup
+
+        
+    .clear
+    = render "interpretation_calls/app_store_footer"
+    
+  :css
+    .n-row {
+      display: block;
+      margin: 10px 0;
+    }
+    .stronger {
+      font-weight: 600 !important;
+    }
+    .info_wrapper {
+      height: auto !important
+    }
+    @media screen and (max-width: 767px) {
+      .photo-wrapper {
+        float: none !important;
+      }
+      .cart_content {
+        text-align: center!important;
+      }
+    }

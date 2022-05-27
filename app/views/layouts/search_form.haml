@@ -1,0 +1,10 @@
+!!! 5
+%html
+  %head
+    %meta{content: 'width=device-width, initial-scale=1.0', name: 'viewport'}
+      %link{href: "/favicon.ico", rel: "icon", type: "image/x-icon"}/
+      %link{href: "/favicon.ico", rel: "shortcut icon", type: "image/x-icon"}/
+      %meta{content: 'Interpreters Travel'}
+        = stylesheet_link_tag 'application', media: 'all', data: {turbolinks_track: true}, async: true
+        = javascript_include_tag 'application', data: {turbolinks_track: true}
+  %body{style: "width: 100%; height: auto;"}= yield

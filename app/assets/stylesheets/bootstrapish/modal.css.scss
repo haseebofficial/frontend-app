@@ -1,0 +1,28 @@
+.modal {
+  width: 600px;
+  margin: auto;
+  border: 1px solid black;
+  .modal-dialog{
+    width: 600px;
+
+    .modal-header {
+      min-height: 16.428571429px;
+      padding: 15px;
+      border-bottom: 1px solid #e5e5e5;
+    }
+
+    .modal-body {
+      position: relative;
+      padding: 20px;
+    }
+
+    .modal-footer {
+      padding-top: 12px;
+      padding-bottom: 14px;
+      border-top-color: #e4e9ee;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background-color: #eff3f8;
+    }
+  }
+}

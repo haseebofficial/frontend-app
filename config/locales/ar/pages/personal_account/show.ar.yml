@@ -1,0 +1,6 @@
+ar:
+  orders_index_page: 
+    title: "حجوزاتي"
+    load_more: "إظهار المزيد"
+    cancelled: "تم إلغاء الطلب"
+    from: "بتاريخ"

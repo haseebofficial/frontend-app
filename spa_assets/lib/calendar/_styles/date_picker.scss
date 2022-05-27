@@ -1,0 +1,112 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/text";
+
+body[dir="rtl"] {
+  .datepicker .datepicker-header {
+    .next-month, .prev-month {
+      i {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+.datepicker {
+  @include text.unselectable;
+  text-align: center;
+
+  .datepicker-header {
+    // background-color: c.$interpreters-green;
+    font-weight: bold;
+    display: flex;
+    color: #000000;
+    font-size: 0.9rem;
+    // font-size: 14px;
+    // line-height: 16px;
+
+    .next-month, .prev-month {
+      cursor: pointer;
+      padding: 0;
+
+      &.is-disabled {
+        cursor: auto;
+        opacity: 0;
+      }
+    }
+    .next-month {
+      margin-right: 40px;
+      padding: 10px;
+      padding-top: 0;
+    }
+    .prev-month {
+      margin-left: 40px;
+      padding: 10px;
+      padding-top: 0;
+    }
+
+    .month-year {
+      flex: 2;
+    }
+
+    .next-month, .prev-month, .month-year {
+      padding-bottom: 7px;
+      padding-top: 7px;
+    }
+  }
+
+  .datepicker-sheet {
+    .week-day-names {
+      display: flex;
+      color: white;
+      font: 10px "robotobold";
+      .week-day-name {
+        padding: 3px;
+        flex: 1;
+        // background-color: #4C5D17;
+        color: #888787;
+        font-weight: 300;
+        font-size: 1.3em;
+        line-height: 1.5em;
+        margin-bottom: 6px;
+        // &:not(:last-child) {
+          // border-right: 1px solid #818D5B;
+        // }
+      }
+    }
+
+    .sheet-body {
+      // background-color: #FBFBFB;
+      color: black;
+
+      .week {
+        display: flex;
+
+        .day {
+          // font: 13px HelveticaLTStdBold;
+          font-size: 0.8125em;
+          flex: 1;
+          padding: 3px;
+          // border: 1px solid #EAEAEA;
+          cursor: pointer;
+
+          &.is-weekend {
+            // color: #BE394C;
+          }
+
+          &.is-selected {
+            //border: 1px solid c.$interpreters-yellow;
+            background-color: c.$interpreters-yellow;
+          }
+
+          &.is-inactive {
+            // color: #B8B9BD;
+            color: #C0C0C0;
+            cursor: default;
+            // background-color: #EEEEEE;
+            // border: 1px solid #EAEAEA;
+          }
+        }
+      }
+    }
+  }
+}

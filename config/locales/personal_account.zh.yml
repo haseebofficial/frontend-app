@@ -1,0 +1,82 @@
+zh: 
+  sign_in_page: 
+    title: "入口"
+    form: 
+      email: "邮箱"
+      password: "密码"
+      remember_me: "记住我"
+      submit: "入口"
+  shared_links:
+    interpreters_login: "译员入口" 
+    sign_in: "入口"
+    sign_up: "注册"
+    new_password: "忘记密码"
+    interpreters_sign_up: "译员注册"
+  sign_up_page:
+    title: "注册"
+    interpreters_question: "您想作为译员注册？"
+    yess: "是"
+    nno: "否"
+    form:
+     name: "名"
+     surname: "姓"
+     email: "邮箱"
+     password: "密码"
+     password_confirmation: "密码确认"
+     submit: '注册'
+  new_password_page:
+    title: "重置密码"
+    form: 
+      email: '邮箱'
+      submit: "重置密码" 
+  orders_index_page: 
+    title: "我的订单"
+    load_more: "继续浏览"
+    cancelled: "订单取消"
+  order_pages_sidebar: 
+    menu: "菜單"
+    orders: "我的订单"
+    searches: "我的搜索"
+    logout: "出口"
+    from: "日期"
+  searches_index_page: 
+    title: "我的搜索"
+    created_at: "當搜索是"
+    city: "城市"
+    languages: "互译语言"
+    intervals: "日期，时间"
+  show_order_page: 
+    title: "订单浏览"
+    details: "订单详情:"
+    from: "日期"
+    get_voucher: "收到订单凭证"
+    cancelled: "订单取消"
+    period: "选择的期限:"
+    contact_details: "和译员联系的信息"
+    email: "邮箱地址:"
+    phone: "电话:"
+    service_info: "服务的补充信息"
+    languages: "互译语言:"
+    address: "会面地点:"
+    additional_services: "服务还包括:"
+    not_available: "不可行"
+    cancellation_conditions: "订单取消的条件:"
+    payment_info: "支付信息"
+    payment: "支付:"
+    payment_date: "支付日期:"
+    get_receipt: "收到支付收据"
+    pay_with_card: "使用借记卡或信用卡支付"
+    client_info: 
+      title: "预定人服务的信息"
+      name: "姓 名:"
+      city: "城市:"
+      phone: "电话:"
+      email: "邮箱:"
+    confirm_order_changes: "同意订单修改内容"
+    cancel_order: "订单取消"
+    cancel_warning: "确定要拒绝该订单？"
+    continue: "您确定？"
+    details_available_after_confirmation: 订单确认后可使用
+    details_not_available: "订单确认后可使用，免费取消订单的期限"
+    request_contacts: "现在显示联系人"
+    request_contacts_text: "获取联系人翻译提前，您如果取消。取消将只能返还保留或已支付的全数为两个小时的口译服务。请提前进行取消或者确认"

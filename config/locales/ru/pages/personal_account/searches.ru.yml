@@ -1,0 +1,8 @@
+ru:
+  searches_index_page: 
+    title: "Мои поиски"
+    created_at: "Когда был поиск"
+    city: "Город"
+    languages: "Пары языков"
+    intervals: "Дата, время"
+    show_search_form: "Искать переводчиков"

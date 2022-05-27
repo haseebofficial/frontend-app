@@ -1,0 +1,82 @@
+de: 
+  sign_in_page: 
+    title: "Anmelden"
+    form: 
+      email: "E-Mail:"
+      password: "Passwort:"
+      remember_me: "Angemeldet bleiben"
+      submit: "Anmelden"
+  shared_links:
+    interpreters_login: "Login für Dolmetscher" 
+    sign_in: "Anmelden"
+    sign_up: "Anmeldung"
+    new_password: "Passwort vergessen?"
+    interpreters_sign_up: "Anmeldung für Dolmetscher"
+  sign_up_page:
+    title: "Anmeldung"
+    interpreters_question: "Wollen Sie sich als Dolmetscher anmelden?"
+    yess: "Ja"
+    nno: "Nein"
+    form:
+     name: "* Vorname"
+     surname: "* Name"
+     email: "* E-Mail"
+     password: "* Passwort"
+     password_confirmation: "* Passwort bestätigen"
+     submit: 'Anmeldung'
+  new_password_page:
+    title: "Passwort verwerfen"
+    form: 
+      email: 'E-Mail'
+      submit: "Neues Passwort generieren" 
+  orders_index_page: 
+    title: "Meine Bestellungen"
+    load_more: "Mehr zeigen"
+    cancelled: "Ihre Bestellung ist storniert"
+  order_pages_sidebar: 
+    menu: "Menu"
+    orders: "Meine Bestellungen"
+    searches: "Meine Suche"
+    logout: "Abmelden"
+    from: "von" 
+  searches_index_page: 
+    title: "Meine Suche"
+    created_at: "Wann war die Suche"
+    city: "Stadt"
+    languages: "Sprachen"
+    intervals: "Datum, Uhrzeit"
+  show_order_page: 
+    title: "Bestellungsvorschau"
+    details: "Bestellungsdetails:"
+    from: "von"
+    get_voucher: "Bestellung Voucher erhalten"
+    cancelled: "Die Bestellung ist storniert"
+    period: "Ausgewählter Zeitraum:"
+    contact_details: "Kontaktdaten:"
+    email: "E-Mail Adresse:"
+    phone: "Telefon:"
+    service_info: "Zusätzliche Informationen über den benötigten Service"
+    languages: "Sprachenkombination:"
+    address: "Adresse des Treffpunkts:"
+    additional_services: "Im Service inbegriffen:"
+    not_available: "nicht vorgesehen"
+    cancellation_conditions: "Stornobedingungen:"
+    payment_info: "Zahlungsinformationen"
+    payment: "Zahlung:"
+    payment_date: "Zahlungsfrist:"
+    get_receipt: "Eine Quittung erhalten"
+    pay_with_card: "Bezahlen (VISA/MasterCard)"
+    client_info: 
+      title: "Informationen über den Besteller"
+      name: "Nachname, Name:"
+      city: "Stadt:"
+      phone: "Telefon:"
+      email: "E-Mail:"
+    confirm_order_changes: "Bestellungsänderungen bestätigen"
+    cancel_order: "Bestellung stornieren"
+    cancel_warning: "Stornierte Bestellung kann nicht wiederhergestellt werden."
+    continue: "Weiterfahren?"
+    details_available_after_confirmation: "Das Voucher über Ihre Bestellung erhalten Sie nachdem Ihre Bestellung vom Übersetzer/Dolmetscher angenommen und bestätigt wurde"
+    details_not_available: "Erhalten Sie nachdem Ihre Bestellung bestätigt wird, und die gebührenfreie Bestellungswiederrufsfrist abgelaufen ist."
+    request_contacts: "die Kontakte jetzt aufzeigen"
+    request_contacts_text: "Wenn Sie die Kontakte vom Dolmetscher vorzeitig bekommen, ändern Sie die  Abschaffungsbedingungen der Buchung. Die Abschaffung wird nur mit der Abrechnung/  Zahlung des 2-Stunden der Dienstleistungen des Dolmetschers Preises möglich. Bestätigen Sie die vorzeitige Datengewinnung und die Änderung der Abschaffungsbedingungen der Buchung."

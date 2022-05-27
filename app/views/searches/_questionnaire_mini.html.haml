@@ -1,0 +1,11 @@
+.alike_trans_block.search_result{'data-interpreter-id' => questionnaire_mini.id}
+  / .photo-wrapper
+  = image_tag questionnaire_mini.photo_url, class: 'img'
+  .desc
+    = link_to "#{l_questionnaire(:name, questionnaire_mini)} #{shorten_surname(questionnaire_mini.surname)}", search_interpreter_path(@search.id, questionnaire_mini.user_id), class: 'name'
+    %span
+      .price
+        = convert_to_current_currency(questionnaire_mini.price.to_i, questionnaire_mini.currency_code)
+    %a.experience.info_link{href: '#', 'data-id' => questionnaire_mini.id} #{t("interpreter.experience")} (#{t('years', count: questionnaire_mini.experience_years)})
+    %a.education-remote.info_link{href: '#', 'data-id' => questionnaire_mini.id} #{t("interpreter.education")} (#{questionnaire_mini.educations_count})
+  .clear

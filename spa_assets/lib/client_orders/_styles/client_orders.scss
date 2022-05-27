@@ -1,0 +1,149 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.client-orders {
+  .client-tabs {
+    margin-bottom: 30px;
+  }
+
+  .order-card {
+    display: flex;
+    align-items: center;
+    padding: 30px 0 20px 0;
+    border-bottom: 1px solid #dbdbdb;
+
+    .avatar {
+      .avatar-circle {
+        max-width: 80px;
+      }
+    }
+
+    .order-info {
+      margin-left: 20px;
+
+      .name {
+        display: block;
+        font: 24px "robotomedium";
+        color: c.$interpreters-green;
+      }
+
+      .order-number {
+        color: #000000;
+      }
+
+      .order-cancel {
+        color: #ff0e0e;
+        margin-left: 20px;
+      }
+
+      .order-date {
+        display: block;
+        margin-top: 10px;
+        font-family: "robotomedium", sans-serif;
+        color: #000000;
+      }
+    }
+
+    .button-wrapper {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+
+      .button {
+        text-decoration: none;
+        padding: 5px 70px;
+        font: 16px "robotoregular";
+        color: c.$interpreters-green;
+        background-color: c.$interpreters-yellow;
+        border: 0;
+      }
+      .button:hover {
+        background-color: #f4bd00;
+      }
+    }
+  }
+}
+
+@include r.touch {
+  .client-orders {
+    .order-card {
+      flex-wrap: wrap;
+      align-items: flex-start;
+      padding: 20px 0 10px 0;
+      font-size: 14px;
+
+      .avatar {
+        width: 30%;
+        order: 1;
+        text-align: center;
+
+        .avatar-circle {
+          max-width: 80px;
+        }
+      }
+
+      .order-info {
+        flex: 1;
+        order: 1;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+        .name {
+          display: flex;
+          flex-direction: column;
+          font: 18px "robotomedium";
+        }
+
+        .order-town {
+          margin-top: 5px;
+          font: 14px "robotolight";
+          color: #000000;
+        }
+
+        .order-number {
+          order: 2;
+          margin-top: 5px;
+          color: #000000;
+        }
+
+        .order-cancel {
+          order: 3;
+          margin-top: 5px;
+          margin-left: 0;
+        }
+
+        .order-date {
+          order: 1;
+          margin-top: 5px;
+          font-family: "robotolight", sans-serif;
+        }
+      }
+
+      .button-wrapper {
+        order: 4;
+        width: 100%;
+        margin-top: 20px;
+
+        .button {
+          padding: 0 70px;
+          font: 16px "robotoregular";
+          color: c.$interpreters-green;
+          background-color: c.$interpreters-yellow;
+          border: 0;
+        }
+      }
+    }
+  }
+}
+
+// changes
+.lang-ar {
+  .phone-page .phone-info-form .button-wrapper {
+    top: unset;
+    right: unset;
+  }
+  .client-orders .order-card .avatar .avatar-circle {
+    margin-left: 1em;
+  }
+}

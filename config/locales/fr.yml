@@ -1,0 +1,48 @@
+fr:
+  personal_account:
+    voucher_not_ready:
+      "Bon de commande viendra disponible après l'acceptation  de la commande par l’interprète et de paiement de la commande et l’expiration de la période de annulation GRATUITEe"
+    voucher_ready_after_confirmation: "Bon de commande viendra disponible après l'acceptation de la commande par l’interprète et de paiement de la commande"
+    receipt_not_ready: "Reçu de paiement sera disponible après la perception le paiement de votre partie"
+  registration_notify_subject: "Vous êtes inscrité dans interpreters.travel"
+  hello: "Bienvenue"
+  TrueClass: "Oui"
+  FalseClass: "Non"
+  time:
+    formats:
+      default:           "%m/%d/%Y %I:%M %P"
+      long:              "%A, %B %e of %Y at %I:%M %P"
+      short:             "%I:%M %P"
+      simple:            "%e %B %-k:%M"
+    since_word: "de"
+    to_word: "à"
+  date:
+    formats:
+      default:           "%m/%d/%Y"
+      month_day:         '%e %B'
+      long:              "%A, %B %e of %Y"
+  errors:
+    messages:
+      wrong_size: "is the wrong size (should be %{file_size})"
+      size_too_small: "is too small (should be at least %{file_size})"
+      size_too_big: "is too big (should be at most %{file_size})"
+
+  years:
+    one: '%{count} année'
+    few: '%{count} années'
+    other: '%{count} années'
+  hours:
+    one: "%{count} heure"
+    few: "%{count} heures"
+    other: "%{count} heures"
+  minutes:
+    one: "%{count} minute"
+    few: "%{count} minutes"
+    other: "%{count} minutes"
+  date:
+    month_names: [~, janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre]
+  order:
+    cancellation_possible: "est possible jusqu’au"
+    no_cancellation: 'n’est pas prévu'
+  translate: "traduire"
+  show_original: "afficher l'original"

@@ -1,0 +1,190 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+.payment-form {
+    margin-top: 30px;
+    color: #000000;
+    .payment-method {
+        margin-top: 30px;
+        display: flex;
+        & li:not(:first-child) {
+            margin-left: 20px;
+        }
+    }
+    .label-checkbox {
+        display: block;
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 12px;
+        cursor: pointer;
+        font-size: 16px;
+        user-select: none;
+        color: #000000;
+        input {
+            position: absolute;
+            opacity: 0;
+            cursor: pointer;
+            height: 0;
+            width: 0;
+        }
+        .checkmark {
+            position: absolute;
+            top: 2px;
+            left: 0;
+            height: 15px;
+            width: 15px;
+            border-radius: 50%;
+            background: #FFFDFD;
+            border: 1px solid #C0C0C0;
+            &:after {
+                content: "";
+                position: absolute;
+                display: none;
+                top: 0;
+                left: 2px;
+                bottom: 0;
+                margin: auto 0;
+                border-radius: 50%;
+                width: 9px;
+                height: 9px;
+                background: c.$interpreters-green;
+            }
+        }
+        input:checked~.checkmark:after {
+            display: block;
+        }
+    }
+    .button {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 40px;
+        border: none;
+        font: 18px "robotoregular";
+        background-color: c.$interpreters-yellow;
+        color: c.$interpreters-green;
+    }
+    .button:hover,
+    .button:focus {
+        color: c.$interpreters-green;
+    }
+    .payment-card,
+    .payment-bill,
+    .payment-cash {
+        font-size: 18px;
+        text-align: center;
+        margin: 0 auto;
+        span {
+            display: block;
+            // margin-bottom: 20px;
+        }
+    }
+    .payment-cash {
+        font-size: 16px;
+    }
+    .payment-card {
+        margin-bottom: 20px;
+    }
+    .payment-not-chosen {
+        margin-bottom: 75px;
+    }
+}
+
+.colored {
+    background: #FFC602;
+    border: 1px solid;
+    text-align: center;
+}
+
+.info {
+    float: right;
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 30px;
+    margin: 0 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+.header {
+    margin: 10px 0;
+}
+
+.header {
+    text-align: center;
+}
+
+.text {
+    margin: 10px 0;
+}
+
+.frame {
+    border: 1px solid black;
+    padding: 3px;
+}
+
+.address {
+    border-top: 1px solid;
+}
+
+.reg-num {
+    float: right;
+}
+
+.stamp {
+    position: absolute;
+    left: 50%;
+    top: -70px;
+}
+
+.footer-inv {
+    margin-top: 10px;
+    position: relative;
+    padding: 10px !important;
+}
+
+.price-table td {
+    width: 25%;
+    padding-left: 3px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-inv {
+    background-color: #F1F3F4;
+}
+
+@include r.touch {
+    .payment-form {
+        .payment-method {
+            flex-direction: column;
+            li {
+                margin-top: 10px;
+            }
+            & li:not(:first-child) {
+                margin-left: 0;
+            }
+        }
+        .label-checkbox {
+            margin-bottom: 0;
+            font-size: 14px;
+        }
+        .button {
+            margin-top: 20px;
+            font: 14px "robotoregular";
+        }
+        .payment-bill,
+        .payment-cash {
+            margin-top: 20px;
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+}

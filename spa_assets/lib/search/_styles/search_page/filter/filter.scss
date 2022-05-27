@@ -1,0 +1,41 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+.search-sidebar {
+  border: 1px solid #DBDBDB;
+  color: #484848;
+  font-size: 14px;
+
+  .section {
+    padding: 20px 20px;
+    position: relative;
+    border-top: 1px solid #DBDBDB;
+
+    .section-label {
+      display: block;
+      font-weight: normal;
+      font-family: "robotoregular", sans-serif;
+      margin-bottom: 16px;
+      color: #000;
+    }
+
+    .button {
+      display: block;
+      height: auto;
+      padding: 2px 4px;
+      font: 14px 'robotolight';
+      margin: 10px auto 0 auto;
+    }
+
+  }
+  .border-none{
+    border-top: none;
+  }
+
+}
+
+
+@include r.touch {
+  .search-sidebar {
+    border: none;
+  }
+}

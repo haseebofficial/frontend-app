@@ -1,0 +1,11 @@
+ru:
+  top_menu:
+     login_link: 'Вход'
+     sign_up_link: 'Регистрация'
+     help_link: 'Помощь'
+     logout_link: 'Выход'
+     dashboard_link: 'Личный кабинет'
+     welcome: 'Добро пожаловать, %{user}'
+     interpreter_login_link: 'Вход для переводчиков'
+     my_calls: 'Мои звонки'
+     calls: 'Звонки с переводчиками'

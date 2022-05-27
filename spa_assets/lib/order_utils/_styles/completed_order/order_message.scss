@@ -1,0 +1,56 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+.order-message {
+  margin: 60px 0;
+  padding: 30px 10px;
+  text-align: center;
+  color: #000000;
+  border: 1px solid #DBDBDB;
+
+  .message-title {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+
+  .message-description {
+    display: block;
+    margin-bottom: 24px;
+  }
+
+  .message-button {
+    padding: 10px;
+    // border: 1px solid #888787;
+    font: 16px "robotolight";
+    text-decoration: none;
+    color: c.$interpreters-green;
+  }
+  .message-button:hover, .message-button:focus {
+    color: c.$interpreters-green;
+  }
+}
+
+@include  r.touch {
+  .order-message {
+    margin: 20px 0;
+    padding: 0;
+    border: none;
+
+    .message-title {
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    .message-description {
+      display: block;
+      margin-bottom: 20px;
+    }
+
+    .message-button {
+      display: block;
+      font: 14px "robotolight";
+      // +++++++++++++
+      padding: 6px;
+    }
+  }
+}

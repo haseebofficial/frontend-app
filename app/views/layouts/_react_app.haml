@@ -1,0 +1,8 @@
+= stylesheet_link_tag "embedded_react_assets/app", :media => "all"
+= javascript_include_tag "https://bluesnap.com/source/web-sdk/bluesnap.js"
+= javascript_include_tag "https://media.twiliocdn.com/sdk/js/client/releases/1.9.7/twilio.min.js"
+
+- if I18n.locale.to_s == "ru"
+  = javascript_include_tag "embedded_react_assets/app.ru", media: 'all', data: {turbolinks_track: true}
+- else
+  = javascript_include_tag "embedded_react_assets/app.en", media: 'all', data: {turbolinks_track: true}

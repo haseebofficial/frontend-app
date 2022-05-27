@@ -1,0 +1,53 @@
+ja:
+  search_form:
+    title: '通訳者を探す'
+    where: '地域：'
+    when: 'いつ：'
+    language: 'サービスの言語：'
+    your_language: 'お客様の言語は：'
+    button: '検索'
+    city: '例 ： ベルリン、上海、ニューヨーク'
+    date_time: '日時を選んでください'
+    timepicker:
+      title: 'ミーティングの時間(現地の）'
+      total: '間隔の総合時間'
+      from: 'から'
+      till: 'まで'
+      buttons:
+        add_day: '追加する'
+        clear: '削除する'
+        clear_intervals: '間隔を削除する'
+        choose: '選択'
+    language_selector: 
+      no_result: '只今この都市には予約できる通訳者はいません'
+      list_select: 'リストから選択する'
+      blank_city: "先ず、市を選んでください"
+    city_selector: 
+      no_result: "只今この都市には予約できる通訳者はいませんこの都市にいる通訳者を後ほど/別の期間に予約して、又は、別の都市を選んでください"
+
+  js:
+    select: "選択"
+    date_selector: 
+      dialog: 
+        title: "選択された期間"
+        confirm: "確認する"
+        change: "変更する"
+      errors: 
+        no_periods_selected: 'Выберите время и нажмите "Добавить"'
+        invalid_interval: '選択された期間は間違っています'
+        interval_exists: 'この期間がもう入力され、別の期間を入力してください'
+      total_time: '合計時間:'
+      from: ' - から '
+      to: ' まで '
+      select: "選択"
+    search: 
+      file_select: "選択" 
+      errors: 
+        blank_city: '市を選んでください'
+        blank_intervals: '日時を選んでください'
+        blank_language: '言語を選んでください'
+    buttons: 
+      change_order_date: "日付を変更する"
+      confirm_order_date: "確認する"
+    titles: 
+      confirm_order_date: "予約の条件を確認してください"

@@ -1,0 +1,22 @@
+/ .title После оформления заказа вы будете перенаправлены на страницу партнера для совершения платежа
+.payment_tabs#payment-tabs
+  %span.text
+    = t("order_page.payment.select")
+  .tabs
+    = label_tag do 
+      = radio_button_tag 'payment_type', 'card'
+      Visa/MasterCard
+    - if @order.service.can_pay_with_cash
+      = label_tag do 
+        = radio_button_tag 'payment_type', 'cash'
+        = t("order_page.payment.cash")
+    - if @order.can_pay_with_invoice
+      = label_tag do 
+        = radio_button_tag 'payment_type', 'invoice'
+        = t("order_page.payment.invoice")
+
+:coffee 
+  $(".payment_tabs .tabs input").styler()
+  $(".payment_tabs .tabs input").on('change', ->
+    $.get('#{new_payment_path(order_id: @order.id)}', $(".payment_tabs .tabs input").serialize(), null, 'script')
+  )

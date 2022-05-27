@@ -1,0 +1,144 @@
+@use "app/_styles/utils/responsiveness" as r;
+
+.info-for-interpreter-fields {
+  .field-title {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .field-map {
+    margin-top: 10px;
+  }
+
+  .flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .map-link {
+    i {
+      margin-right: 5px;
+    }
+  }
+
+  .file {
+    display: flex;
+    flex-direction: column;
+
+    .file-title {
+      margin-bottom: 20px;
+    }
+
+    .file-label {
+      text-align: center;
+    }
+
+    .file-cta {
+      max-width: 100px;
+    }
+
+    .file-cta,
+    .file-name {
+      width: 100%;
+      white-space: normal;
+      overflow: hidden;
+    }
+  }
+  .field {
+    .input-disabled,
+    .input-disabled::placeholder {
+      color: #888787;
+    }
+    .input-disabled {
+      background: #fffcfc;
+      border: 1px solid #dbdbdb;
+    }
+    input[disabled],
+    textarea[disabled],
+    input:disabled,
+    textarea:disabled {
+      background: #fffcfc;
+      border: 1px solid #dbdbdb;
+      -webkit-text-fill-color: #888787;
+      opacity: 1 !important;
+      -webkit-opacity: 1 !important;
+    }
+    input[disabled],
+    input[disabled]::placeholder,
+    textarea[disabled],
+    textarea[disabled]::placeholder,
+    input:disabled,
+    textarea:disabled,
+    input:disabled::placeholder,
+    textarea:disabled::placeholder {
+      -webkit-text-fill-color: currentcolor;
+      opacity: 1 !important;
+      -webkit-opacity: 1 !important;
+    }
+  }
+  .file {
+    .file-label-disabled {
+      .file-name {
+        color: #888787;
+        background: #fffcfc;
+        border: 1px solid #dbdbdb;
+      }
+      .file-cta {
+        border: 1px solid #dbdbdb;
+        border-left: 0px;
+        background: #e5e5e5;
+        cursor: not-allowed;
+      }
+      .file-label {
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
+@include r.desktop {
+  .field-textarea {
+    margin-top: 30px;
+  }
+}
+
+@include r.touch {
+  .info-for-interpreter-fields {
+    .field-title {
+      font-size: 14px;
+      margin-bottom: 15px;
+    }
+
+    .field-map {
+      display: none;
+    }
+    .map-link {
+      font-size: 14px;
+    }
+
+    .file {
+      .file-title {
+        font-size: 14px;
+        margin-bottom: 10px;
+      }
+
+      .file-cta,
+      .file-name {
+        font-size: 14px;
+      }
+    }
+    .field.field-textarea {
+      margin-top: 20px;
+      .textarea {
+        margin-top: 0;
+      }
+    }
+  }
+}
+// changes
+.lang-ar {
+  .file-name {
+    border: 1px solid #dbdbdb;
+  }
+}

@@ -1,0 +1,29 @@
+%ul.about_sidebar_menu
+  = active_link_to t("help_menu.info"), info_path, 'info'
+  = active_link_to t("help_menu.for_clients"), for_clients_path, 'for_clients'
+  = active_link_to t("help_menu.for_interpreters"), help_interpreter_path, 'help_interpreter'
+  = active_link_to t("help_menu.for_affiliates"), for_affiliates_path, 'for_affiliates'
+
+  - all_service = %W(services_guide escort_delegations interview exhibition celebrations seminar_conference phone_talking judicial_translation clinic_consultation press_conferences support_individuals conversation presentation protocol_translation)
+  %li{class: "#{'current_parrent' if all_service.include? action_name }"}
+    %a{:href => '#'}= t("help_menu.service_types")
+    %ul
+      = active_link_to t("service_types.conversation"), conversation_path, 'conversation'
+      = active_link_to t("service_types.exhibition"), exhibition_path, 'exhibition'
+      = active_link_to t("service_types.seminar"), seminar_conference_path, 'seminar_conference'
+      = active_link_to t("service_types.presentation"), presentation_path, 'presentation'
+      = active_link_to t("service_types.clinic"), clinic_consultation_path, 'clinic_consultation'
+      = active_link_to t("service_types.celebration"), celebrations_path, 'celebrations'
+      = active_link_to t("service_types.guide"), services_guide_path, 'services_guide'
+      = active_link_to t("service_types.delegations_escort"), escort_delegations_path, 'escort_delegations'
+      = active_link_to t("service_types.individuals"), support_individuals_path, 'support_individuals'
+      = active_link_to t("service_types.phone_talking"), phone_talking_path, 'phone_talking'
+      = active_link_to t("service_types.interview"), interview_path, 'interview'
+      = active_link_to t("service_types.press_conference"), press_conferences_path, 'press_conferences'
+      = active_link_to t("service_types.protocol_translation"), protocol_translation_path, 'protocol_translation'
+      = active_link_to t("service_types.judicial_translation"), judicial_translation_path, 'judicial_translation'
+  = active_link_to t("help_menu.calls"), phone_path, "phone"
+  = active_link_to t("help_menu.support"), support_path, 'support'
+  = active_link_to t("help_menu.terms"), terms_conditions_path, 'terms_conditions'
+  = active_link_to t("help_menu.privacy_policy"), privacy_policy_path, 'privacy_policy'
+  = active_link_to t("help_menu.about"), about_path, 'about'

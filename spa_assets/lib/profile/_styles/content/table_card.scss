@@ -1,0 +1,72 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+@use "layout/_styles/utils/layout_properties";
+
+.modal-content-body {
+  .data-order {
+    .data-order-item {
+      font-size: 16px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-top: 1px solid #dbdbdb;
+      span {
+        font: 18px "robotobold";
+      }
+    }
+    .data-order-item:first-child {
+      border-top: none;
+    }
+  }
+}
+
+@include r.desktop {
+  .modal-content-footer {
+    .table-buttons {
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+      .button {
+        // padding: 25px;
+        // font-size: 10px;
+        // left: 0;
+      }
+      .button:first-child {
+        left: 0;
+        margin-left: 0;
+        margin-right: 50px;
+      }
+      .button:last-child {
+        right: 0;
+      }
+    }
+  }
+}
+
+@include r.touch {
+  .modal-content-header {
+    font-size: 0.9rem;
+  }
+  .modal-content-footer {
+    .table-buttons {
+      .button {
+        font-size: 0.9rem;
+        padding-left: 8px;
+        padding-right: 8px;
+        width: auto;
+      }
+      .button:first-child {
+        margin-right: 10px;
+      }
+      .button:last-child {
+        margin-left: 10px;
+      }
+    }
+  }
+}
+
+// changes
+.lang-ar {
+  .modal-contents .modal-content-body-wrapper .modal-content-body {
+    margin-right: 0;
+  }
+}

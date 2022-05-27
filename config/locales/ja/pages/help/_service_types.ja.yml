@@ -1,0 +1,17 @@
+ja:
+  service_types: 
+    title: "Виды услуг перевода"
+    conversation: 'Перевод на переговорах'
+    exhibition: 'Перевод на выставке'
+    seminar: 'Перевод на семинаре или конференции'
+    presentation: 'Перевод на презентации'
+    clinic: 'Перевод консультации в клинике'
+    celebration: 'Перевод на торжествах'
+    guide: 'Перевод экскурсий, услуги гида'
+    delegations_escort: 'Сопровождение делегаций'
+    individuals: 'Сопровождение частных лиц'
+    phone_talking: 'Перевод разговора по телефону'
+    interview: 'Перевод интервью'
+    press_conference: 'Перевод пресс-конференций'
+    protocol_translation: 'Протокольный перевод'
+    judicial_translation: 'Судебный перевод'

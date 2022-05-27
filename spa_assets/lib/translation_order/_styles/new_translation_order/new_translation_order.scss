@@ -1,0 +1,14 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.new-translation-order-page {
+  .order-form {
+    @include r.desktop {
+      padding: 10px 0;
+    }
+
+    @include r.touch {
+      margin-top: 10px;
+    }
+  }
+}

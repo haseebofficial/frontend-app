@@ -1,0 +1,8 @@
+ja:
+  sign_in_page: 
+    title: "ログイン"
+    form: 
+      email: "Eメールアドレス"
+      password: "パスワード"
+      remember_me: "ログインのままに"
+      submit: "ログイン"

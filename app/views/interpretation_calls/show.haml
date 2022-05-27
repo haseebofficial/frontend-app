@@ -1,0 +1,62 @@
+- content_for :description do
+  = render "interpretation_calls/app_store_link"
+- content_for :body do
+  .green_line
+  .main_content
+    = render 'shared/flash_messages'
+    = render "personal_accounts/sidebar"
+    
+    .cart_content
+      .cart_country_wrapper
+      .cart_block.interpreter-call-info-wrapper{style: "border: none;"}
+        .photo-wrapper
+          = image_tag @questionnaire.photo_url, class: 'cart_photo'
+        .info_wrapper
+          %span.n-row
+            = t("interpretation_call.new_text")
+            %strong.stronger ##{@call.id}
+          %span.n-row
+            = t("interpretation_call.datetime")
+            %strong.stronger #{@call.created_at}
+          %span.n-row
+            = t("interpretation_call.language_pair")
+            %strong.stronger
+              #{t("common.languages.#{@call.your_language}")}
+              \-
+              #{t("common.languages.#{@call.language}")}
+          %span.n-row
+            = t("interpretation_call.scheduled_at")
+            %strong.stronger #{@call.scheduled_at}
+          %span.n-row
+            = t("interpretation_call.price_minute")
+            %strong.stronger #{@call.price_minute_with_expenses}€
+          %span.n-row
+            = t("interpretation_call.state")
+            %strong.stronger= t("interpretation_call.new")
+        .clear
+        %span.explanation= t("interpretation_call.new_call_explanation")
+    .clear
+    = render "interpretation_calls/app_store_footer"
+  :css
+    .explanation {
+      font-size: 16px;
+      font-family: 'robotolight';
+    }
+    .n-row {
+      display: block;
+      margin: 10px 0;
+    }
+    .stronger {
+      font-weight: 600 !important;
+    }
+    .info_wrapper {
+      height: auto !important
+    }
+    @media screen and (max-width: 767px) {
+      .photo-wrapper {
+        float: none !important;
+      }
+      .cart_content {
+        text-align: center!important;
+      }
+    }

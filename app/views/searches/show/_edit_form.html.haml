@@ -1,0 +1,26 @@
+#search_form_wrapper{"data-submit-on-date-change" => params[:clear_date]}
+  = simple_form_for :search, :url => search_path(@search.id), :html => {class: 'edit_search', id: 'edit_search_'+ @search.id.to_s} do |f|
+    .label_block
+      %span.label= t('search_form.where')
+      %span.error
+      = f.error :city
+      = render partial: 'searches/form/city_selector'
+
+    .label_block
+      %span.label= t('search_form.when')
+      %span.error
+      = f.error :since
+      = render partial: 'searches/form/date_selector'
+
+    .label_block
+      %span.label= t('search_form.language')
+      %span.error
+      = f.error :language_id
+      = render partial: 'searches/form/language_selector'
+
+      .your_lang
+        = t('search_form.your_language')
+        = render partial: 'searches/form/your_language_selector'
+
+    = f.submit t('search_form.button'), class: 'sub_bot'
+    .clear

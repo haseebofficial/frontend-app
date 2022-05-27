@@ -1,0 +1,7 @@
+%br
+= t("order_page.payment.cash_text", amount: "#{@order.amount} #{@order.currency.code}")
+.text-center
+  = form_tag payments_path, method: :post do 
+    = hidden_field_tag :order_id, @order.id 
+    = hidden_field_tag :payment_type, "cash"
+    = submit_tag t("order_page.payment.order_button"), class: "intranet-button"

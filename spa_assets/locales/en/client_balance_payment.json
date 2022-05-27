@@ -1,0 +1,12 @@
+{
+  "top_up_text": "Payment information",
+  "balance_status": {
+    "status": {
+      "amount_eur": "Balance: €%{amount}"
+    },
+    "popup": {
+      "no_funds_message": "To continue, please top-up your balance.",
+      "topup_item_text": "€%{amount}"
+    }
+  }
+}

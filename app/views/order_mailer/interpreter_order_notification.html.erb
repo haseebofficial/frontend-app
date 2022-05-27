@@ -1,0 +1,65 @@
+<table>
+    <tbody>
+        <tr>
+            <td>Здравствуйте, <%= @interpreter.name + " " + @interpreter.surname %></td>
+        </tr>
+        <tr>
+            <td>Вам поступил заказ #<%= @order.id %> на услугу устного перевода. </td>
+        </tr>
+        <tr>
+            <td>Детали заказа #<%= @order.id %>:</td>
+        </tr>
+        <tr>
+            <td>Заказчик: <%= "#{@client.name}" %>, г. <%= @order.city_name %></td>
+        </tr>
+        <tr>
+            <td>Услуга устного перевода в городе: <%= @questionnaire.main_city.name %></td>
+        </tr>
+        <tr>
+            <td>Дата, время: <%= @order.selected_period_for_email %> (время в городе <%= @questionnaire.main_city.name %>)</td>
+        </tr>
+        <tr>
+            <td>Пары языков: <%= @interpreter.questionnaire.language_pairs_to_sentence %></td>
+        </tr>
+        <tr>
+            <td>Выбранная услуга: <%= @service.to_s + (" (до #{@service.additional_cost} человек)" if @service.additional_cost).to_s %></td>
+        </tr>
+        <tr>
+            <td>Общая стоимость заказа <%= "#{@order.amount} #{@order.currency.code.downcase}." %> (с учетом скидок)<td>
+        </tr>
+        <tr>
+            <td>Точный адрес встречи с переводчиком (указать на карте): <%= @order.meeting_address %><td>
+        </tr>
+        <% if @service.additional_cost %>
+            <tr>
+                <td>Информация о встрече:</td>
+            </tr>
+            <tr>
+                <td><%= @order.detail_information %></td>
+            </tr>
+        <% end %>
+        <tr>
+            <td>Во вложении дополнительная информация для встречи</td>
+        </tr>
+        <tr>
+            <td>Обратите внимание! Требуется Ваше подтверждение принятия заказа не позднее, чем до 11:43 am, 16.12.2013. Для этого войдите в личный кабинет, в раздел Заказы, откройте новый поступивший заказ и нажмите "Принять заказ". 
+Согласно условию, указанному Вами для этой услуги бесплатная отмена заказа клиентом возможна до 9:43 am, 23.12.2013. 
+По истечению этого срока Вам будут направлены телефон и электронный адрес клиента.</td>
+        </tr>
+        <tr>
+            <td>С уважением,</td>
+        </tr>
+        <tr>
+            <td>команда interpreters.travel</td>
+        </tr>
+        <tr>
+            <td>Пожалуйста, не отвечайте на данное сообщение. </td>
+        </tr>
+        <tr>
+            <td>Если Вам необходима помощь или у Вас возникли вопросы, Вы можете обратиться в службу поддержки support@interpreters.travel или по телефону +44 65865865</td>
+        </tr>
+        <tr>
+            <td>© 2014 Interpreters.travel OÜ, Harju maakond, Tallinn, Kesklinna linnaosa, Vesivärava tn 50-201, 10152</td>
+        </tr>
+    </tbody>
+</table>

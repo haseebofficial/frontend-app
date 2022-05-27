@@ -1,0 +1,120 @@
+- content_for :description do
+  .mobile-hide= t("for_clients_page.title")
+
+- content_for :title do
+  = t("for_clients_page.title")
+
+- content_for :meta_description do
+  = t("meta_desc.for_clients")
+
+- content_for :back_link do
+  = link_to t("help_menu.back_link"), root_path, class: 'back_link'
+
+- content_for :body do
+  .main_content
+    .about_sidebar
+      = render partial: 'home/help_menu'
+    .about_content
+      .about_for_trans_img_wrapper
+        = image_tag 'help/client.jpg', class: 'img', alt: ''
+        .text
+          .text_inner
+            = t("for_clients_page.quote")
+            .author= t("for_clients_page.quote_author")
+      .about_article
+        %h2= t("for_clients_page.client_reviews")
+      .client_reviews_slider_wrapper{style: "position: relative;"}
+        %ul#client-reviews-slider.bxslider{style: "padding: 0; margin-top: 5px;"}
+          - @reviews.each do |r|
+            %li
+              = image_tag "quotes.png", style: "float: left;", alt: ''
+              .quote-content
+                .text{style: "font: italic 18px/18px 'robotobold'; color: #696a6e;margin-left: 120px;"}
+                  &laquo;#{r.comment}&raquo;
+              .clear
+              %br
+              %span{style: "color: #696a6e; float: right"}= r.client
+        .client-reviews-arrows
+          %a.prev_arrow{style: "float: left;"}
+          %a.next_arrow{style: "float: right;"}
+      .about_article
+        %h2= t("for_clients_page.steps.title")
+        = t("for_clients_page.description")
+        %b
+          = link_to t("for_clients_page.link1.text"), conversation_path
+        = t("for_clients_page.link1.after_text")
+        %b
+          = link_to t("for_clients_page.link2.text"), services_guide_path
+        = t("for_clients_page.link2.after_text")
+        %b
+          = link_to t("for_clients_page.link3.text"), exhibition_path
+        = t("for_clients_page.link3.after_text")
+        %b
+          = link_to t("for_clients_page.link4.text"), clinic_consultation_path
+        = t("for_clients_page.link4.after_text")
+        .step_wrapper
+          .step
+            .num2
+              1
+            .text2
+              = raw t("for_clients_page.steps.step1")
+            .clear
+          .step
+            .num2
+              2
+            .text2
+              = raw t("for_clients_page.steps.step2")
+            .clear
+          .step
+            .num2
+              3
+            .text2
+              = raw t("for_clients_page.steps.step3")
+            .clear
+        %h2= t("for_clients_page.why_inter.title")
+        .why_inter_wrapper
+
+          .why_inter_block.why_inter_block14
+            .name
+              = t("for_clients_page.why_inter.block1.title")
+            .text
+              = t("for_clients_page.why_inter.block1.text")
+          .why_inter_block.why_inter_block15
+            .name
+              = t("for_clients_page.why_inter.block2.title")
+            .text
+              = t("for_clients_page.why_inter.block2.text")
+          .why_inter_block.why_inter_block13
+            .name
+              = t("for_clients_page.why_inter.block3.title")
+            .text
+              = t("for_clients_page.why_inter.block3.text", cities: t("counts.cities", count: @cities_count), countries: t("counts.countries", count: @countries_count))
+          .why_inter_block.why_inter_block16
+            .name
+              = t("for_clients_page.why_inter.block4.title")
+            .text
+              = t("for_clients_page.why_inter.block4.text")
+          .why_inter_block.why_inter_block17
+            .name
+              = t("for_clients_page.why_inter.block5.title")
+            .text
+              = t("for_clients_page.why_inter.block5.text")
+          .why_inter_block.why_inter_block18
+            .name
+              = t("for_clients_page.why_inter.block6.title")
+            .text
+              = t("for_clients_page.why_inter.block6.text")
+          - if I18n.locale == :ru
+            .why_inter_block.why_inter_block19
+              .name
+                = t("for_clients_page.why_inter.block7.title")
+              .text
+                = t("for_clients_page.why_inter.block7.text")
+          .why_inter_block.why_inter_block20
+            .name
+              = t("for_clients_page.why_inter.block8.title")
+            .text
+              = t("for_clients_page.why_inter.block8.text")
+          .clear
+      = render 'goto_search_button'
+    .clear

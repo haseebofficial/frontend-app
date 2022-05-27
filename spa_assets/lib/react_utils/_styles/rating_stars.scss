@@ -1,0 +1,34 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+@use "app/_styles/utils/text";
+
+.rating-new {
+  display: flex;
+  justify-content: center;
+  .rating-items {
+    .rating-item_wrapper {
+      position: relative;
+      display: inline-block;
+      .rating-item {
+        color: #c0c0c0;
+      }
+      .rating-item_active {
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        color: c.$interpreters-yellow;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+// Changes
+.lang-ar {
+  .rating-new .rating-items .rating-item_wrapper .rating-item_active {
+    left: unset;
+    right: 0;
+  }
+}

@@ -1,0 +1,93 @@
+text_translations:
+  head:
+    title: "専門家による文書・書類の翻訳"
+    description: "170ヶ国以上にいる承認された２万人以上の通訳者は、180の外国語に早期にお手頃で質の高い文書・書類の翻訳を提供できます"
+    keywords: "翻訳、プロの翻訳、翻訳者、プロの翻訳者、言語翻訳サービス、翻訳会社、フリーランス翻訳者、翻訳"
+  header: "専門家による文書・書類の翻訳"
+  description: "170ヶ国以上にいる承認された２万人以上の通訳者は、180の外国語に早期にお手頃で質の高い文書・書類の翻訳を提供できます。"
+  why:
+    header: "interpreters.travelを使用する理由"
+    quality: "承認された高質"
+    quality_desc: "96％のお客様は良好なレビューを出し、サービス高質を承認します。"
+    price: "最良価格"
+    price_desc: "アージェントの追加料金なし、直接に翻訳者とやり取りを行います。"
+    time: "時間通りの"
+    time_desc: "先端技術に基づいた翻訳者推薦及び予約実施管理のシステム"
+  form:
+    languages:
+      sourceLanguage: "起点言語"
+      targetLanguage: "目標言語"
+    specialization: "専門分野"
+    word_count: "単語数"
+    attachments:
+      label: "添付ファイル"
+      or: "又は"
+      upload: "「ファイルをアップロードする」"
+      dropzone_text: "ここにファイルをドロップします"
+    due_date:
+      label: "締め切りの日時"
+      auto: "通訳者との合意に基づき(最良価格)"
+      select: "選択"
+      reset: "削除する"
+    name: "氏名"
+    email: "メールアドレス(値段について情報を受けるため)"
+    phone: "電話番号"
+    description: "翻訳者のため予約の詳細"
+    submit: "値段に関する情報を受ける"
+    privacy:
+      text: '「値段に関する情報を受ける」ボタンをクリックして 読んで私は条件を認め、同意します。'
+      privacy_policy: "「プライバシーポリシー」"
+      terms_conditions: "「条件」"
+      and: "そして"
+    add_contact_info: "連絡先を入力する"
+    footer: "翻訳者からのオファーを受けるまで少々お待ちください。"
+  show:
+    guest_description: "お客様の英語→フランス語文書翻訳リクエストが翻訳者に送信されました。翻訳者からのオファーを受けるまで少々お待ちください。"
+    create_new: "新しいリクエストを送信する"
+  why_inter:
+    title: "interpreters.travelを使用する理由"
+    block1:
+      link: "簡単で、安全!"
+      text_html: "サービスを実際に利用時間のみを支払う <br/> 事前支払い不要 <br/> 支払いのセキュリティー確保"
+    block2:
+      link: "値段が低い"
+      text_html: "通話料やなどの追加料金なしで通訳のサービスを1分あたりのレートで支払う"
+    block3:
+      link: "たくさんの選択肢"
+      text_html: "2万人以上の専門家通訳者。 <br/> 180以上の外国語。150ヶ国への電話 <br/> 週7日24時間アクセス可能。"
+    block4:
+      link: "便利"
+      text_html: "値段とランキングに基づき通訳者の選択 <br/> 通訳者が直ぐに接続する <br/> VISA、MasterCardを通して簡単な支払い"
+  why_inter_spa:
+    title: "interpreters.travelを使用する理由"
+    block1:
+      link: "簡単で、安全!"
+      text_html: "予約を今、支払いを後でします！ <br/> 予約キャンセル料は無料 <br/> 支払いの安全性が保障されます"
+    block2:
+      link: "値段が低い"
+      text_html: "代理店の値上げなく、予約のすべては通 <br/> 訳者の値段でします。 <br/> 予約値段の計算は割引も含みます"
+    block3:
+      link: "たくさんの選択肢"
+      text_html: "世界の%{countries}ヶ国、%{cities}市に通訳者がいます"
+    block4:
+      link: "便利"
+      text_html: "支払いしやすい:VISA,MasterCard,<br/> 送金、通訳者へ直接に現金<br/>24/7のサポート・サービス"
+  hero:
+    professional_interpreters: "展示会、会議、商談会のための専門家通訳者"
+    vetted_interpreters: "承認された２万人以上の通訳者は、180の外国語に早期にお手頃で質の高い通訳を提供できます。"
+    international_calls: "遠隔通訳を通した又は通訳者との通話料金なしの国際電話"
+    thousands_of_professional: "180外国語を対応できる数千人の専門家通訳者が週7日、24時間、お通話をオンラインで通訳し又は遠隔通訳ができます。"
+    connect_an_interpreter: "150カ国のどの電話番号へでも、遠隔通訳のため通訳者を接続し、又はオンラインコールができます。"
+  how_it_works:
+    title: "使い方について"
+    text1: '言語を選んで、「通訳者を接続する」をクリックしてください。'
+    text2: "通訳できる通訳者とその値段が一覧としてページに見えます。"
+    text3: "通訳に電話するため緑色のボタンを押してください。"
+    text4: "何が必要、そしてどこへ、誰に、どの目的で電話をすることを通訳者に説明してください。"
+    text5: "電話番号をかけ、相手が接続してから、グループコールの形で通話を続けてください。"
+    text6: "通訳者はお話の流れを聞き、両側の通訳を行います。"
+    text7: "お支払いは自動的に行われます。通話料は無料で、通訳者の1分あたりのレートのみを支払います。"
+    press: "ボタンを押してください"
+    to_call_interpreter: "通訳に電話するため緑色のボタンを押してください。"
+    to_end_the_phone_call: "通訳を終了するため、電話番号の下にある赤いボタンを押してください。通訳者は、接続したままに残ります。"
+    to_end_the_conversation: "通訳者との通訳を終了するため、赤いボタンを押してください。"

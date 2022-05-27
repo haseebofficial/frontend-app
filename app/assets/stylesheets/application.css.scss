@@ -1,0 +1,304 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require font
+ *= require form_input
+ *= require jgrowl.min
+ *= require my/global_styles
+ *= require my/from1000
+ *= require my/768to1000
+ *= require my/767plus
+ *= require my/768plus
+ *= require my/767
+ *= require mobile_layout
+ *= require infiniteSlider
+ *= require jquery-ui-1.10.3.custom
+ *= require dialog
+ *= require jquery.bxslider
+ *= require jquery.formstyler
+ *= require jquery.dropdown.min
+ *= require info_link
+ *= require date_time_picker
+ *= require personal_accounts
+ *= require partner_search_form
+ *= require custom
+ *= require mobile_layout
+ *= require chosen
+ *= require interpretation_calls/call_modal
+ *= require fontello_icons
+ *= require locales/search_form
+ *= require locales/ar
+ *= require locales/ja
+ *= require bootstrapish/modal
+ *= require bootstrapish/modal_mobile
+ *= require bootstrapish/buttons
+
+ *= require order_page_credit_card_form
+
+ *= require interpretation_calls/search
+ *= require interpretation_calls/search_mobile
+ *= require interpretation_calls/index
+ *= require interpretation_calls/client_balance
+ *= require leaflet
+
+ *= require text_translation_service/get_quote
+ *= require translation
+ *= require embedded_react_assets/app
+
+*/
+
+.success {
+  font: 18px "robotolight";
+  color: #38bc22;
+  margin-bottom: 10px;
+  display: none;
+}
+
+// #search_language_id-styler {
+//   z-index: 1000 !important;
+// }
+
+.ui-button {
+  margin: 5px;
+}
+
+// .ui-dialog {
+//   width: 400px !important;
+//   height: 350px !important;
+// }
+
+.help-inline {
+  color: lightcoral;
+  font-weight: bold;
+}
+
+.green_line {
+  border-top: 6px solid #30480a;
+}
+
+#notice {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border: 2px #d6e9c6;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.shared_links {
+  margin-top: 20px;
+}
+
+.cart_content .service_table tbody td .link {
+  border: none;
+  cursor: pointer;
+  height: 33px !important;
+  padding: 8px 0px 8px 0px !important;
+}
+
+.begin_form {
+  a.sub {
+    text-decoration: none;
+    text-align: center;
+    line-height: 38px;
+  }
+
+  a.sub:hover {
+    line-height: 38px;
+  }
+}
+
+.ui-autocomplete.ui-front.ui-menu.ui-widget.ui-widget-content.ui-corner-all {
+  width: 351px !important;
+}
+
+.content
+  .find_translator_wrapper
+  .form_wrapper
+  .label
+  .jq-selectbox
+  .jq-selectbox__dropdown {
+  width: 351px;
+}
+
+.data_wrapper .data_cloud pre.result {
+  font-weight: bold !important;
+  min-height: 40px;
+  float: left;
+}
+
+.jq-selectbox__select-text.act {
+  color: #000000;
+}
+
+.simple_form.edit_search .sub_bot {
+  display: block;
+  float: left;
+  width: 188px;
+  height: 28px;
+  border: 0px;
+  color: #2e4807;
+  background-color: #ffc602;
+  font: 20px "robotomedium";
+  line-height: 28px;
+  text-transform: uppercase;
+  margin: 22px 0px 0px 0px;
+  cursor: pointer;
+}
+
+.simple_form.edit_search .sub_bot:hover {
+  background-color: #ffde25;
+}
+
+.intranet-button {
+  margin: 20px 0px 0px 30px;
+  padding: 5px 10px;
+  float: left;
+  border: 0px;
+  color: #2e4807;
+  background-color: #ffc602;
+  font: 16px "robotobold";
+  line-height: 28px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.intranet-button:hover {
+  background: #2f4908;
+  color: #ffc602;
+}
+
+.interpreter-button {
+  margin-left: 30px;
+  padding: 5px 10px;
+  border: 0px;
+  background-color: #2f4908;
+  color: #ffc602;
+  font: 16px "robotobold";
+  line-height: 28px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+.interpreter-button:hover {
+  color: #2e4807;
+  background-color: #ffc602;
+}
+
+.order_card {
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.order_card.visa {
+  background-image: url("base_input/visa_mc.jpg");
+}
+
+.order_card.master_card {
+  background-image: url("base_input/visa_mc.jpg");
+  background-position: 153px 0px;
+}
+
+.accordion_list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+.accordion_list li {
+  margin: 0px !important;
+  background: none !important;
+  padding: 0px !important;
+}
+
+.accordion_list li {
+}
+
+.accordion_list li .title {
+  padding: 8px 10px 8px 20px;
+  border: 1px solid #e9e9e9;
+  background: #f2f2f2;
+  font: 17px "robotolight";
+  line-height: 20px;
+  color: #696969;
+  cursor: pointer;
+}
+
+.accordion_list li .title span {
+  display: block;
+  background: asset-url("help/accordion_arrow.png") no-repeat right center;
+}
+
+.accordion_list .open .title span {
+  background: asset-url("help/accordion_arrow_open.png") no-repeat right center;
+}
+
+.accordion_list li .block {
+  font: 14px "robotolight";
+  line-height: 16px;
+  color: #010101;
+  display: none;
+}
+
+.accordion_list li .block p {
+  padding: 0px 0px 8px 0px;
+}
+
+.accordion_list li .block a {
+  color: #2f4908;
+}
+
+.accordion_list li .block a:hover {
+  text-decoration: none;
+}
+.edit_search .error {
+  color: white;
+  display: block;
+  width: 180px;
+}
+.error {
+  color: #890b0b;
+  font-size: 16px;
+  text-shadow: #620b0b;
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+  .intranet-button {
+    float: none;
+  }
+}
+
+.button-pretty {
+  width: 300px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.select-disabled {
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  -o-user-select: none;
+  user-select: none;
+}
+
+//.simple_form.edit_search .sub_bot:hover {
+//  background: #ffde25;
+//}
+//
+//.simple_form.new_interpreter_inquiry input {
+//  color: #000000 !important;
+//}

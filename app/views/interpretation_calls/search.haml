@@ -1,0 +1,11 @@
+- content_for :body do
+  .green_line
+  .main_content
+    = render 'shared/flash_messages'
+    = render "personal_accounts/sidebar"
+    .cabinet_content
+      .mob_title
+      .my_view_wrapper
+        .search-form-container
+          .call-search-form= render 'interpretation_call_searches/form', search: @search
+        .is_cont= render partial: 'questionnaire', collection: @questionnaires

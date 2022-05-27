@@ -1,0 +1,141 @@
+vi:
+  locales: 
+    ru: "Русский"
+    en: "English"
+    de: "Deutsch"
+    es: "Español"
+    fr: "Français"
+    it: "Italiano"
+    tr: "Türkçe"
+    pt: "Português"
+    vi: "Tiếng Việt"
+    ar: "العربية"
+    ja: "日本語"
+    zh: "中文"
+    ko: "한국의"
+
+  top_menu:
+     login_link: 'Login'
+     sign_up_link: 'Sign up'
+     help_link: 'Help'
+     logout_link: 'Logout'
+     dashboard_link: 'Personal account'
+     welcome: 'Welcome, %{user}'
+     interpreter_login_link: 'Login for interpreters'
+
+  service_types: 
+    title: "Types of Interpretation services"
+    conversation: 'Interpretation at negotiations'
+    exhibition: 'Interpretation at an exhibition'
+    seminar: 'Interpretation at a seminar or conference'
+    presentation: 'Interpretation at presentation'
+    clinic: 'Interpretation of a consultation in a clinic'
+    celebration: 'Interpretation at celebrations'
+    guide: 'Interpretation of excursions, tour guide services'
+    delegations_escort: 'Escort of delegations'
+    individuals: 'Escort of individuals'
+    phone_talking: 'Interpretation of a phone conversation'
+    interview: 'Interview interpretation'
+    press_conference: 'Interpretation at press conferences'
+    protocol_translation: 'Protocol interpretation'
+    judicial_translation: 'Judicial interpretation'
+
+  help_menu: 
+    back_link: 'To main page'
+    info: 'About interpreters.travel'
+    for_clients: 'For clients'
+    for_interpreters: 'Dành cho phiêndịch'
+    for_affiliates: 'For affiliates'
+    service_types: "Types of Interpretation services"
+    help: 'Help'
+    support: 'Support 24/7'
+    terms: 'Terms and conditions'
+    privacy_policy: 'Privacy policy' 
+    about: 'About the company'
+
+  meta_desc: 
+    help_interpreter: "Interpreters.travel -Là trang web  thuận tiện và an toàn cho các đơn đặt hàng dịch nói.  Việc sử dụng dễ dàng các tính năng của trang web cho phép tôi linh hoạt cài đặt cấu hình các dịch vụ phù hợp với việc làm của tôi và nhận đơn đặt hàng vào thời gian thích hợp . Ngay cả với chỉ một vài giờ rảnh rỗi trong lịch làm việc của mình, tôi nhận được đơn đặt hàng từ interpreters.travel và sử dụng thời gian của mình có lợi nhuận cao nhất."
+
+  for_interpreters_page:
+    title: "Dành cho phiêndịch"
+    signup_link: "Chuyển sang đăng ký"
+    quote: "«Interpreters.travel -Là trang web  thuận tiện và an toàn cho các đơn đặt hàng dịch nói.  Việc sử dụng dễ dàng các tính năng của trang web cho phép tôi linh hoạt cài đặt cấu hình các dịch vụ phù hợp với việc làm của tôi và nhận đơn đặt hàng vào thời gian thích hợp . Ngay cả với chỉ một vài giờ rảnh rỗi trong lịch làm việc của mình, tôi nhận được đơn đặt hàng từ interpreters.travel và sử dụng thời gian của mình có lợi nhuận cao nhất.»"
+    quote_author: "Helen Wright, người phiên dịch. London."
+    interpreter_reviews: "Nhận xét của thông dịch viên"
+    block1:
+      title: "Nó hoạt động thế nào?"
+      step1: "Trong Hồ sơ cá nhân trên trang web, bạn chỉ ra các dịch vụ của mình, điều kiện dịch vụ, giá cả và giờ làm việc"
+      step2: "Dịch vụ của bạn được đưa vào trong yêu cầu của khách hàng và bạn sẽ nhận được các đơn đặt hàng mới"
+      step3: "Bạn cung cấp dịch tại nơi gặp khách hàng theo như các thông số của đơn hàng"
+      step4: "Bạn được trả tiền mặt tại cuộc gặp hoặc bằng chuyển khoản"
+    block2: 
+      title: "Chi phí là bao nhiêu?"
+      text: "Đặng thông tin trên trang web này dành cho bạn hoàn toàn miễn phí! Chỉ với những đơn hàng thực tế thì Interpreters.travel mới nhân mức hoa hồng theo đề xuất của  bạn."
+    why_inter: 
+      title: "Tại sao dùng interpreters.travel?"
+      block1: 
+        title: "Lịch"
+        text: "Bạn kiểm soát tiến độ công việc và nhận được đơn đặt hàng vào thời gian thuận tiện cho bạn"
+      block2: 
+        title: "Giá cả linh hoạt"
+        text: "Bạn đặt giá dịch vụ tùy thuộc vào loại hình dịch vụ và số lượng đơn đặt hàng"
+      block3: 
+        title: "Đăng tin miễn phí"
+        text: "Bạn được tự do đăng thông tin miễn phí về các dịch vụ của mình trong bao lâu cũng được"
+      block4: 
+        title: "Google & Яндекс & Yahoo"
+        text: "Dịch vụ của bạn được hàng ngàn khách nhìn thấy, vì chúng tôi làm việc trực tiếp với Google, Yahoo và Yandex"
+      block5: 
+        title: "Phương thức thanh toán"
+        text: "Bạn nhận được thanh toán bằng một trong những cách thuận tiện nhất cho bạn: VISA, MasterCard, PayPal, chuyển khoản ngân hàng, tiền mặt"
+      block6: 
+        title: "SMS - thông báo"
+        text: "Bạn nhận được ngay lập tức thông báo về việc đặt hàng ngay trên điện thoại trong giờ làm việc"
+      block7: 
+        title: "Bảo vệ của bạn"
+        text: "Bạn được đảm bảo để được trả tiền cho thời gian của bạn, thậm chí cả khi nếu khách hàng không đến  hoặc đến muộn"
+      block8: 
+        title: "Giao dịch tiền tệ"
+        text: "Bạn được trả tiền đúng hạn, Interpreters.travel quan tâm đến nó và sẽ tự thực hiện tất cả các giao dịch tài chính"
+      block9: 
+        title: "Giấy chứng nhận SSL bảo mật"
+        text: "Dữ liệu của bạn được bảo vệ bằng SSL kết nối giao thức bảo mật"
+      block10: 
+        title: "iMac/iPad/iPhone"
+        text: "Bạn kiểm soát các dịch vụ từ một máy tính hoặc thiết bị di động"
+      block11: 
+        title: "Hỗ trợ 24/7"
+        text: "Bạn nhận được hỗ trợ bất cứ lúc nào, bất cứ nơi đâu"
+      block12: 
+        title: "Nhận xét"
+        text: "Bạn nhận được lời chứng thực từ các khách hàng hài lòng"
+    block3: 
+      title: "Làm thế nào để bắt đầu?"
+      step1: "Bước 1. Đăng ký trên web site"
+      step2: "Bước 2. Nhập các thông tin trong bảng câu hỏi về bản thân"
+      step3: "Bước 3: Tạo và đăng trên  trang web các dịch vụ  dịch nói"
+    after_reg: 
+      text: "Trước khi bạn bắt đầu với interpreters.travel hãy nhập vào tủ cá nhân và điền  bảng câu hỏi về bản thân mình. Sau đó bạn có thể đăng quảng cáo  các dịch vụ, điều kiện, giá cả, giờ làm việc để nhận đặt hàng. Từ lúc đó  hồ sơ và dịch vụ của bạn sẽ xuất hiện trên các trang web."
+      link: "Đăng nhập và  điền mẫu câu hỏi"
+    form: 
+      name: "Tên:"
+      surname: "Họ:"
+      email: 'Email:'
+      phone: 'Điện thoại di động:'
+      russian: "Я говорю по-русски"
+      city: 'Thành phố của bạn:'
+      submit: 'BắT ĐầU ĐĂNG KÝ'
+
+  flash_messages: 
+    new_interpreter: "Bạn đã đăng nhập thành công interpreters.travel! Mật khẩu để đăng nhập vào tủ cá nhân của bạn đã được  gửi đến địa chỉ email do bạn chỉ định: %{email}."
+
+  footer:
+    info: 'About interpreters.travel'
+    support: 'Support 24/7'
+    help_inter: 'Dành cho phiêndịch'
+    help_inter_in_city: 'For interpreters in %{city}'
+    for_affiliates: "For affiliates"
+    terms_conditions: 'Terms and conditions'
+    privacy_policy: 'Privacy policy'
+    copyright_html: '&copy; Copyright 2013 - %{year}. interpreters.travel. All rights reserved.'
+

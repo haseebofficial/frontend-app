@@ -1,0 +1,66 @@
+.slider_wrapper
+  %ul#main_slider.bxslider
+    %li
+      = image_tag "slide1.jpg", class: "bg"
+      .content
+        .text
+          Interpreter at a business meeting 
+          %br/
+          in Bostom, the USA
+          %span 3940 rub / 3 hours
+    %li
+      = image_tag "slide2.jpg", class: "bg"
+      .content
+        .text
+          Interpreter at a wine exhibition
+          %br/
+          in Torino, Italy
+          %span 7350 rub / 5 hours
+    %li
+      = image_tag "slide3.jpg", class: "bg"
+      .content
+        .text
+          Interpretation (whisper) at a seminar
+          %br/
+          in Singapore                   
+          %span 10270 rub / 8 hours
+    %li
+      = image_tag "slide4.jpg", class: "bg"
+      .content
+        .text
+          Interpretation at a consultation  in clinic
+          %br/
+          Munich, Germany 
+          %span 3870 rub / 2 hours
+  :javascript
+    $(document).ready(function(e) {
+      $("#main_slider .bg").each(function(index, element) {
+            var img = $(this).attr("src");
+          img = "background:url("+img+") no-repeat top center;";
+          $(this).parent("li").attr("style",img);
+          $(this).remove();
+        });
+        mainSlider = $("#main_slider").bxSlider({mode: 'fade',speed:400, pager:false,controls:false,auto:true, pause:7000});
+      $(".slider_arrows .prev_arrow").click(function(e) {
+            mainSlider.goToPrevSlide();
+        });
+      $(".slider_arrows .next_arrow").click(function(e) {
+            mainSlider.goToNextSlide();
+        });
+      $(".slider_wrapper").hover(function(){
+          $(".slider_wrapper .slider_arrows a").stop().fadeTo(200,1);
+      },function(){
+          $(".slider_wrapper .slider_arrows a").stop().fadeTo(200,0);
+      });
+    });
+
+  .content
+    .find_translator_wrapper
+      .title
+        Find interpreters
+      .form_wrapper
+        = render 'searches/new/form'
+
+  .slider_arrows
+    %a.prev_arrow
+    %a.next_arrow

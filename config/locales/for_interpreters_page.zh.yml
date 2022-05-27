@@ -1,0 +1,91 @@
+zh:
+  locales: 
+    ru: "Русский"
+    en: "English"
+    de: "Deutsch"
+    es: "Español"
+    fr: "Français"
+    it: "Italiano"
+    tr: "Türkçe"
+    pt: "Português"
+    vi: "Tiếng Việt"
+    ar: "العربية"
+    ja: "日本語"
+    zh: "中文"
+    ko: "한국의"
+
+  meta_desc: 
+    help_interpreter: "Interpreters  travel是专门提供各样口译订单的网上翻译平台，以方便易用和安全著称。提供的订单与我的时间配合，方便我只会收到对我来说时间方便的订单，即使我可工作的时间只有几个小时，也可以找到合适的订单，使得我的时间得到最高效的利用"
+
+  for_interpreters_page:
+    title: "翻译者"
+    signup_link: "注册"
+    quote: "«Interpreters  travel是专门提供各样口译订单的网上翻译平台，以方便易用和安全著称。提供的订单与我的时间配合，方便我只会收到对我来说时间方便的订单，即使我可工作的时间只有几个小时，也可以找到合适的订单，使得我的时间得到最高效的利用»"
+    quote_author: "Elena Right，翻译者，伦敦"
+    interpreter_reviews: "译员评论"
+    block1:
+      title: "这个网站是怎么运行的？"
+      step1: "您需要在该网站的个人信息栏里面要填写自己所提供的翻译服务的类型，要求，报价以及您优选的工作时间。"
+      step2: "资料完成后，关于您可以提供的服务有关的信息会在客户查询的时候给显示，下完订单后，您会收集到客户的相关资料。"
+      step3: "您为客户提供他所要求的翻译服务。"
+      step4: "客户付款方式；直接给您现金或者汇款。"
+    block2: 
+      title: "服务报价"
+      text: "把自己的信息放在网站上是免费的！ 只有在订单成功了的情况之下interpreters travel 才会收到佣金。"
+    why_inter: 
+      title: "interpreters travel 的优势"
+      block1: 
+        title: "工作时间"
+        text: "您可以选择只收到自己时间方便的订单"
+      block2: 
+        title: "灵活的价格"
+        text: "您可根据服务的类型及工作量而给客户报价。"
+      block3: 
+        title: "永久免费"
+        text: "您可以永久的把自己的信息存放在该网站上。"
+      block4: 
+        title: "Google & Яндекс & Yahoo"
+        text: "数以万计的新客户能够看到您所提供的服务的有关信息，因为我们直接跟Google&Yandex&Yahoo这三方搜索引擎合作。"
+      block5: 
+        title: "付款方式"
+        text: "您可以选择对您来说最优选的付款方式，如；VISA，MasterCard， PapPal， 汇款或现金。"
+      block6: 
+        title: "短信提示"
+        text: "当出现符合您条件的订单，您会在第一时间里收到短信通知。"
+      block7: 
+        title: "翻译者保障"
+        text: "即使客户没有来到或迟到，您也可以收到要求的佣金。"
+      block8: 
+        title: "汇款"
+        text: "您会准时获得汇款。interpreters travel 会为翻译者负所有汇款手续的责任"
+      block9: 
+        title: "SSL安全协议"
+        text: "您的信息受SSL安全协议保护"
+      block10: 
+        title: "电脑/平板电脑/手机"
+        text: "您可以用电脑、平板电脑、手机管理你的订单"
+      block11: 
+        title: "24小时服务"
+        text: "无论你在哪，我们都为您提供24小时的客户服务"
+      block12: 
+        title: "评价"
+        text: "如果客户满意您的服务，你会收到来自客户的好评。"
+    block3: 
+      title: "怎样开始工作？"
+      step1: "第一步：注册翻译者用户"
+      step2: "第二步：填写个人信息"
+      step3: "第三步：填写您提供的口译服务种类"
+    after_reg: 
+      text: "开始通过 interpreters travel 工作前，请登录您的账户并输入个人信息。输入完成后，您便可以提供您的服务有关的信息；包括要求、报价、优选时间。然后您的服务信息会在网站上公示。"
+      link: "进入并输入个人信息"
+    form: 
+      name: "名:"
+      surname: "姓:"
+      email: '电子邮箱:'
+      phone: '手机号码:'
+      russian: "Я говорю по-русски"
+      city: '您所在的城市:'
+      submit: '点击注册'
+
+  flash_messages: 
+    new_interpreter: "您通过了 interpreters travel 注册，您的用户的密码已发到您的邮箱: %{email}."

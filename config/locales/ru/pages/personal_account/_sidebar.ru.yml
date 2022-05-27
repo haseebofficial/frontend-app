@@ -1,0 +1,8 @@
+ru:
+  order_pages_sidebar: 
+    menu: "Меню"
+    orders: "Мои заказы"
+    calls: "Мои звонки"
+    searches: "Мои поиски"
+    logout: "Выход"
+    from: "от"

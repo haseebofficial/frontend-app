@@ -1,0 +1,4 @@
+client_call:
+  tab:
+    my_calls: "私の通話"
+    new_call: "新しい通話"

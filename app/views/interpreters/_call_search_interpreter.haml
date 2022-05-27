@@ -1,0 +1,23 @@
+.interpretation-call-interpreter
+  = link_to "#" do
+    .photo-wrapper
+      = image_tag interpreter.photo_url(:thumb), class: "img", width: "100px", height: "100px"
+  - #interpreter.photo_url(:thumb) # interpreter.photo_url
+  .desc
+    .call-button
+      = link_to new_interpretation_call_path(search_id: @search.id, questionnaire_id: interpreter.id) do
+        = image_tag 'call.png', width: "50px;"
+    .name= interpreter.name
+    %span.questionnaire-stars{class: questionnaire_stars_class(interpreter.score)}
+    - if interpreter.client_reviews_count > 0
+      %span.client-reviews-count (#{interpreter.client_reviews_count})
+    .price
+      = convert_to_current_currency(interpreter.price_minute, interpreter.currency_code, precision: 1)
+      \/
+      min.
+  .clear
+:css
+  .data_cloud .timepicker {
+    float: none !important;
+    margin: 10px 0 10px 37px !important;
+  }

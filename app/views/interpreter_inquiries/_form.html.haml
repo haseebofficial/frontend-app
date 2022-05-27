@@ -1,0 +1,13 @@
+%form#create_new_interpreter{action: interpreter_inquiries_url, method: :post}
+  .controls
+    = text_field_tag('user[name]', '', placeholder: t("for_interpreters_page.form.name"), class: "base-input")
+  .controls
+    %input{name: 'user[surname]', placeholder: t("for_interpreters_page.form.surname"), type: 'text', class: 'base-input'}
+  .controls
+    %input{name: 'user[email]', placeholder: t("for_interpreters_page.form.email"), type: 'text', class: 'base-input'}
+  .controls
+    %input{name: 'questionnaire[phone_for_staff]', placeholder: t("for_interpreters_page.form.phone"), type: 'text', class: 'base-input'}
+  = render partial: 'interpreter_inquiries/city_selector'
+
+  .clear
+  = submit_tag t("for_interpreters_page.form.submit"), class: 'base-input-submit'

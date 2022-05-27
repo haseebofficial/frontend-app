@@ -1,0 +1,53 @@
+.controls
+  %input.base-input#city_text{ placeholder: t("for_interpreters_page.form.city"), type: 'text', value: '', name: 'user[city]'}
+
+%input#city_id.hidden{ name: 'questionnaire[main_city_id]', type: 'hidden'}
+:javascript
+  var API_BASE_URL = "#{ENV['API_BASE_URL']}"
+
+  $(document).ready(function(e) {
+      var cache = {};
+      $( "#city_text" ).autocomplete({
+        minLength: 2,
+        source: function( request, response ) {
+          var term = request.term;
+          if ( term in cache ) {
+            response( cache[ term ] );
+            return;
+          }
+
+          $.ajax({
+            type: 'GET',
+            url: API_BASE_URL+"/cities",
+            dataType: 'jsonp',
+            crossDomain: true,
+            data: request,
+            success:function(data){
+              cache[ term ] = data;
+              response( data );
+            },
+            error:function(jq, st, error){
+              alert(error);
+            }
+          });
+        },
+        focus: function( event, ui ) {
+          $( "#city_text" ).val( ui.item.label );
+          return false;
+        },
+        select: function( event, ui ) {
+          $( "#city_text" ).val( ui.item.label );
+          $( "#city_id" ).val( ui.item.value );
+
+          // reconstruct lang selector
+          // Frontend redirects this request to backend API:
+          $.get("#{searches_language_selector_path}",
+                 {city_id: ui.item.value},
+                 function( data ) {
+                  $("#language_selector").html(data)
+                });
+          return false;
+        }
+    });
+  });
+

@@ -1,0 +1,77 @@
+.main_content
+  .clear
+  .type_trans_wrapper
+    %h2= t('main.header')
+    .text= t('main.header_description')
+    .type_trans
+      = link_to conversation_path, class: 'type_trans_block' do
+        = image_tag 'type_img_01.png', class: 'grayscale', alt: ''
+        %span.link= t('main.block_img1')
+
+      = link_to presentation_path, class: 'type_trans_block' do
+        = image_tag 'type_img_02.png', class: 'grayscale', alt: ''
+        %span.link= t('main.block_img2')
+
+      = link_to protocol_translation_path, class: 'type_trans_block no_mrg' do
+        = image_tag 'type_img_03.png', class: 'grayscale', alt: ''
+        %span.link= t('main.block_img3')
+
+      = link_to exhibition_path, class: 'type_trans_block' do
+        = image_tag 'type_img_04.png', class: 'grayscale', alt: ''
+        %span.link= t('main.block_img4')
+
+      = link_to seminar_conference_path, class: 'type_trans_block' do
+        = image_tag 'type_img_05.png', class: 'grayscale', alt: ''
+        %span.link= t('main.block_img5')
+
+      = link_to escort_delegations_path, class: 'type_trans_block no_mrg' do
+        = image_tag 'type_img_06.png', class: 'grayscale', alt: ''
+        %span.link= t('main.block_img6')
+      .clear
+
+    = link_to t('main.all_type'), conversation_path, class: 'all_link'
+    .clear
+
+  .why_inter_wrapper
+    %h2= t('main.why_inter.title')
+    .why_inter
+      .why_inter_block
+        = image_tag 'why_img_01.png', class: 'img', alt: ''
+        = link_to t('main.why_inter.block1.link'), for_clients_path, class: 'name'
+        .text
+          = t('main.why_inter.block1.text_html')
+          -#%a.link{href: "#{help_path}"} Узнать больше
+      .why_inter_block.no_mrg
+        = image_tag 'why_img_02.png', class: 'img', alt: ''
+        = link_to t('main.why_inter.block2.link'), for_clients_path, class: 'name'
+        .text
+          = t('main.why_inter.block2.text_html')
+          -#%a.link{href: "#{help_path}"} Узнать больше
+      .why_inter_block
+        = image_tag 'why_img_03.png', class: 'img', alt: ''
+        = link_to t('main.why_inter.block3.link'), for_clients_path, class: 'name'
+        .text
+          = t('main.why_inter.block3.text_html', cities: t("counts.cities", count: @cities_count), countries: t("counts.countries", count: @countries_count))
+          -#%a.link{href: "#{help_path}"} Узнать больше
+      .why_inter_block.no_mrg
+        = image_tag 'why_img_04.png', class: 'img', alt: ''
+        = link_to t('main.why_inter.block4.link'), for_clients_path, class: 'name'
+        .text
+          = t('main.why_inter.block4.text_html')
+          -#%a.link{href: "#{help_path}"} Узнать больше
+      .clear
+  %p{style: "color: #696a6e; font: 25px/25px 'robotolight'"}= t("main.client_reviews_title")
+  .client_reviews_slider_wrapper{style: "position: relative;"}
+    %ul#client-reviews-slider.bxslider{style: "padding: 0; margin-top: 5px;"}
+      - @client_reviews.each do |r|
+        %li
+          = image_tag "quotes.png", style: "float: left;", alt: ''
+          .content
+            .text{style: "font: italic 18px/18px 'robotobold'; color: #696a6e;margin-left: 120px;"}
+              &laquo;#{r.comment}&raquo;
+          .clear
+          %br
+          %span{style: "color: #696a6e; float: right"}= r.client
+    .client-reviews-arrows
+      %a.prev_arrow{style: "float: left;"}
+      %a.next_arrow{style: "float: right;"}

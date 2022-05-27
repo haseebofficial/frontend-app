@@ -1,0 +1,34 @@
+.modal_rating {
+    display: flex;
+    flex-direction: column;
+    .rating_body {
+        margin-top: 18px;
+        padding-bottom: 5px;
+        .rating_body-title {
+            font: 1.25em "robotobold";
+        }
+        .rating_body-subtitle {
+
+        }
+    }
+    .rating_review {
+        padding: 12px 6px 12px 6px;
+        border-top: 1px solid #d0d0d0;
+        .rating_review-title {
+            display: flex;
+            .rating {
+                margin-top: 0;
+            }
+            .rating_review-client {
+                font: 1em "robotobold";
+                padding-left: 12px;
+            }
+        }
+        .rating_review-comment {
+            padding-top: 12px;
+        }
+    }
+    .rating_review:last-child {
+        padding-bottom: 15px;
+    }
+}

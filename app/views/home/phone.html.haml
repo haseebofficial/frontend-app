@@ -1,0 +1,53 @@
+- content_for :description do
+  .mobile-hide= t("for_phone_page.title")
+
+- content_for :title do
+  = t("for_phone_page.title")
+
+- content_for :keywords do
+  = t("for_phone_page.keywords")
+
+- content_for :meta_description do 
+  = t("meta_desc.phone")
+
+- content_for :back_link do
+  = link_to t("help_menu.back_link"), root_path, class: 'back_link'
+
+- content_for :body do
+  .main_content
+    .about_sidebar.mobile-hide
+      = render partial: 'home/help_menu'
+    .about_content
+      .about_for_trans_img_wrapper
+        = image_tag 'help/phone.png', class: 'img', alt: ''
+      .about_article
+        %h2= t("for_phone_page.welcome")
+        %ul
+          %li= t("for_phone_page.ul.li_1")
+          %li= t("for_phone_page.ul.li_2")
+          %li= t("for_phone_page.ul.li_3")
+          %li= t("for_phone_page.ul.li_4")
+          %li= t("for_phone_page.ul.li_5")
+
+        %h2= t("for_phone_page.how_to_start.title")
+        %p= raw t('for_phone_page.how_to_start.text', signin_link: link_to(t('for_phone_page.how_to_start.signin_link'), interpretation_calls_path))
+        #user_form{style: "margin-bottom: 40px;"}
+          %form#create_new_user{action: user_registration_path, method: :post, class: 'begin_form'}
+            %input{name: "is_phone_signup", value: true, type: :hidden}
+            .controls
+              %input{name: 'user[name]', placeholder: t("for_phone_page.form.name"), type: 'text', class: 'base-input'}
+            .controls
+              %input{name: 'user[surname]', placeholder: t("for_phone_page.form.surname"), type: 'text', class: 'base-input'}
+            .controls
+              %input{name: 'user[email]', placeholder: t("for_phone_page.form.email"), type: 'text', class: 'base-input'}
+            .controls
+              %input{name: 'user[password]', placeholder: t("for_phone_page.form.password"), type: 'password', class: 'base-input'}
+            .controls
+              %input{name: 'user[phone]', placeholder: t("for_phone_page.form.phone"), type: 'text', class: 'base-input'}
+            .controls
+              = render partial: 'phone/city_selector'
+            .clear
+            = submit_tag t("for_interpreters_page.form.submit"), class: 'base-input-submit'
+      = render "interpretation_calls/app_store_link"
+    .clear
+    = render "interpretation_calls/app_store_footer"

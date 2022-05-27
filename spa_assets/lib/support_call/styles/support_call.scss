@@ -1,0 +1,123 @@
+.support-call-container {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  .operator-image {
+    background: asset_url("user_image.png") no-repeat right center;
+    background-size: cover;
+    width: 164px;
+    height: 164px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  .call-button {
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+  .connect-button {
+    background: asset_url("call.png") no-repeat right center;
+  }
+
+  .disconnect-button {
+    background: asset_url("finish_call.png") no-repeat right center;
+  }
+}
+
+#support-call-modal-container {
+  .call-participant {
+    margin-top: 30px;
+    width: 190px; 
+    display: inline-block;
+    vertical-align: top;
+    .default-photo {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      border-radius: 50%;
+      background: asset-url("default.png") no-repeat right center;
+      background-size: cover;
+    }
+
+    .photo {
+      width: 100px;
+      height: 100px;
+      display: inline-block;
+      border-radius: 50%;
+    }
+
+
+    .photo-squared {
+      border-radius: 0;
+    }
+
+    .name {
+      display: block;
+      color: #30480a;
+      font-size: 20px;
+      font-family: "robotomedium";
+      text-decoration: none;
+    }
+  }
+
+  .connection-display {
+    margin: 10px auto;
+    background: asset-url("loading.gif") no-repeat right center;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+  }
+
+  .modal-footer {
+    margin-top: 5px;
+  }
+
+  .call-actions {
+    // width: 100%;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    
+    .btn {
+      padding: 1px 8px;
+      border-radius: 10px;
+    }
+
+    .call-connected, .call-ringing {
+      i {
+        font-size: 30px;
+        cursor: pointer
+      }
+
+      .disconnect, .connect {
+        float: right;
+      }
+
+      .disconnect {
+        color: #d15b47;
+      }
+
+      .connect {
+        color: #30480A;
+      }
+    }
+  }
+
+  .call-button {
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+
+  .connect-button {
+    background: asset_url("call.png") no-repeat right center;
+  }
+
+  .disconnect-button {
+    background: asset_url("finish_call.png") no-repeat right center;
+  }
+}

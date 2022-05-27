@@ -1,0 +1,23 @@
+- content_for :head do
+  = render "layouts/react_app"
+- content_for :description do
+  = render "interpretation_calls/app_store_link"
+- content_for :body do
+  .green_line
+  .main_content
+    = render 'shared/flash_messages'
+    = render "personal_accounts/sidebar"
+    .cart_content
+      .cart_country_wrapper
+      .search-form-container
+        .call-search-form= render 'interpretation_call_searches/form'
+        %br
+        %span.mycalls{style: "font-family: robotolight;"}= t("interpretation_call.my_calls")
+        %br
+        %br
+        .calls-list
+          - @calls.each do |call|
+            = render "call", call: call
+    #client-balance-popup
+    .clear
+    = render "interpretation_calls/app_store_footer"

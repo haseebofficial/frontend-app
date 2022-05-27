@@ -1,0 +1,30 @@
+@use "app/_styles/utils/responsiveness" as r;
+
+.login-box {
+  .interpreters-login-link, .session-links {
+    font-size: 14px;
+  }
+
+  .session-links {
+    margin-top: 20px;
+  }
+}
+
+@include r.touch {
+  .login-box {  
+    .interpreters-login-link {
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .session-links {
+      margin-top: 10px;
+      .signup-links {
+        margin-bottom: 10px;
+        .links-divider {
+          margin: 0 2px;
+        }
+      }
+    }
+  }
+}

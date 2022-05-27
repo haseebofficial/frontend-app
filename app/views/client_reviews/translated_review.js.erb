@@ -1,0 +1,2 @@
+$("#review-id-<%= @review_id %>").html("<%= @translated_review %>");
+$("#translate-review-<%= @review_id %>").html("<%= escape_javascript(render 'original_review_link') %>");

@@ -1,0 +1,26 @@
+.call-search-info {
+  text-align: left;
+
+  .small-connect-button {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+    background: asset-url("call.png") no-repeat right center;
+    background-size: cover;
+  }
+
+  .small-hangup-button {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin: 0 5px;
+    background: asset-url("finish_call.png") no-repeat right center;
+    background-size: cover;
+  }
+
+  .terms-link {
+    float: right;
+    text-decoration: none;
+  }
+}

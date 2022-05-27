@@ -1,0 +1,237 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+@use "layout/_styles/utils/layout_properties";
+.profile-table {
+  margin-top: 40px;
+  .table {
+    margin-bottom: 0;
+  }
+  td,
+  tr,
+  th {
+    vertical-align: middle;
+  }
+
+  .is-family-regular {
+    font: 16px "robotoregular";
+  }
+
+  .table-header {
+    background: #e5e5e5;
+
+    .table-header-price {
+      vertical-align: top;
+      .thead-link-br {
+        display: none;
+      }
+      .thead-link-price {
+        margin-top: 0;
+        display: none;
+        margin-bottom: 10px;
+        border: 1px solid #888787;
+        color: #888787;
+        background-color: transparent;
+      }
+      .thead-link-price:hover {
+        color: c.$interpreters-green;
+      }
+    }
+
+    th {
+      font: 16px "robotolight";
+      color: #060606;
+      vertical-align: center;
+    }
+
+    .thead-link {
+      margin-top: 10px;
+      border: 1px solid #888787;
+      color: #888787;
+      background-color: transparent;
+    }
+    .thead-link:hover {
+      background-color: c.$interpreters-yellow-light;
+    }
+  }
+
+  .table-cancellation {
+    cursor: pointer;
+  }
+
+  .table-service {
+    text-decoration: none;
+  }
+
+  .table-price {
+    font: 18px "robotobold";
+    color: c.$interpreters-yellow;
+  }
+
+  .table-btn {
+    width: 100%;
+    height: 40px;
+    font: 18px "robotoregular";
+    border: none;
+    background-color: c.$interpreters-yellow;
+    color: c.$interpreters-green;
+  }
+  .table-btn:hover {
+    color: c.$interpreters-green;
+  }
+
+  .table-row:last-child {
+    border: none;
+  }
+
+  .table-row {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbdbdb;
+
+    td {
+      padding: 20px 10px;
+    }
+  }
+
+  .table-footer {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 14px;
+    background: #e5e5e5;
+  }
+
+  .table-info {
+    margin: 20px 0 40px 0;
+    display: flex;
+
+    i {
+      font-size: 50px;
+      color: #e5e5e5;
+    }
+
+    .table-info-content {
+      margin-left: 20px;
+    }
+
+    .table-info-title {
+      font: 18px "robotomedium";
+      color: c.$interpreters-yellow;
+    }
+
+    .table-list {
+      li {
+        padding-left: 5px;
+        position: relative;
+
+        &:before {
+          content: "";
+          width: 3px;
+          height: 1px;
+          background-color: #484848;
+          position: absolute;
+          left: 0;
+          top: 10px;
+        }
+      }
+    }
+  }
+}
+
+@include r.touch {
+  .profile-table {
+    .is-family-regular {
+      font: 12px "robotoregular";
+    }
+    .thead-link {
+      display: none;
+    }
+
+    th {
+      padding-left: 6px;
+      padding-right: 7px;
+    }
+
+    .table-header {
+      .table-header-price {
+        vertical-align: middle;
+        //vertical-align: center;
+        padding-left: 4px;
+        padding-right: 4px;
+        .thead-link-br {
+          display: block;
+        }
+        .thead-link-price {
+          display: block;
+          font-size: 1.05em;
+          margin-top: 0;
+          margin-right: 0;
+          padding-right: 3px;
+          padding-left: 3px;
+        }
+      }
+      th {
+        font: 12px "robotolight";
+      }
+    }
+
+    .table-price {
+      font: 14px "robotobold";
+    }
+
+    .table-btn {
+      height: 35px;
+      font: 14px "robotoregular";
+    }
+
+    .table-row {
+      font-size: 12px;
+
+      td {
+        padding: 10px 5px;
+      }
+    }
+
+    .table-footer {
+      font-size: 12px;
+    }
+
+    .table-info {
+      i {
+        font-size: 30px;
+      }
+
+      .table-info-content {
+        margin-left: 10px;
+      }
+
+      .table-info-title {
+        font: 12px "robotomedium";
+        color: #484848;
+      }
+
+      .table-list {
+        li {
+          font-size: 12px;
+          padding-left: 5px;
+          position: relative;
+
+          &:before {
+            content: "";
+            width: 3px;
+            height: 1px;
+            background-color: #484848;
+            position: absolute;
+            left: 0;
+            top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.lang-ar {
+  .profile-table .table-info .table-info-content {
+    margin-right: 20px;
+  }
+}

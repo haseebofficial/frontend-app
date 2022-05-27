@@ -1,0 +1,258 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+@use "search/_styles/form/utils" as form-utils;
+
+.phone-page {
+  // +++++++++++++++++++++++++++++++++++++++++++++
+  .phone-info-form {
+    .client-info-fields {
+      margin-top: 52px;
+      @include r.touch {
+        .order-tabs {
+          .tab-name {
+            font-size: 0.8em;
+            line-height: 0.9em;
+          }
+        }
+      }
+    }
+    @include r.desktop {
+      position: relative;
+      //min-height: 500px;
+      .button-wrapper {
+        position: absolute;
+        top: -55px;
+        right: 56px;
+        .button {
+          text-align: center;
+        }
+      }
+      .button-wrapper.button-no-click {
+        position: absolute;
+        top: -3px;
+        right: 56px;
+      }
+    }
+  }
+  .title {
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+    font: 36px "robotobold";
+    color: c.$interpreters-green;
+  }
+
+  .description {
+    display: block;
+    text-align: center;
+    color: #000000;
+  }
+
+  .description:first-child {
+    margin-bottom: 20px;
+  }
+
+  .button-wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+
+    .button {
+      display: flex;
+      align-items: center;
+      font: 16px "robotolight";
+      padding: 0 10px;
+      height: 50px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 10px;
+    }
+
+    .btn-apple {
+      margin-left: 10px;
+      height: 50px;
+
+      img {
+        max-width: 150px;
+      }
+    }
+  }
+
+  .mb-is-desktop {
+    padding-bottom: 60px;
+  }
+
+  .description-container {
+    margin-top: 266px;
+  }
+
+  .why-header {
+    margin-bottom: 76px;
+    font: 30px "robotobold";
+    text-align: center;
+    color: c.$interpreters-yellow;
+  }
+
+  .root-description {
+    max-width: 1040px;
+    margin: 150px auto 0 auto;
+
+    .description-title {
+      display: block;
+      margin-bottom: 75px;
+    }
+  }
+
+  .description-indent {
+    padding-left: 70px;
+  }
+
+  .reviews-container {
+    margin: 70px 0 50px 0;
+  }
+
+  .why-block {
+    color: #888787;
+    display: flex;
+    justify-content: space-between;
+
+    .why-block-text {
+      .root-description {
+        max-width: 987px;
+      }
+
+      h4 {
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: c.$interpreters-black;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+      }
+    }
+
+    .why-block-media {
+      margin-left: 20px;
+      min-width: 90px;
+
+      i {
+        font-size: 100px;
+      }
+    }
+  }
+
+  @include r.touch {
+    .phone-info-form {
+      .button-wrapper {
+        .button {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  @include r.tablet-only {
+    .why-block-media {
+      display: none;
+    }
+    .description-indent {
+      padding-left: 0;
+    }
+    .why-block {
+      justify-content: center;
+      text-align: center;
+
+      .why-block-text {
+        margin-right: 0;
+        max-width: 400px;
+      }
+    }
+    .mb-is-desktop {
+      padding-bottom: 0;
+    }
+  }
+
+  @include r.mobile {
+    .button-wrapper {
+      margin-top: 30px;
+      display: flex;
+      justify-content: space-between;
+      font-size: 14px;
+
+      .button {
+        width: 50%;
+      }
+
+      .btn-apple {
+        display: flex;
+        margin-left: 10px;
+        height: 50px;
+        width: 50%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+
+    .title {
+      margin-top: 18px;
+      font: 22px "robotolight";
+      font-weight: 700;
+      color: c.$interpreters-black;
+    }
+
+    .description {
+      font-size: 14px;
+      margin-top: 0;
+    }
+    .description:first-child {
+      margin-bottom: 10px;
+    }
+
+    .root-description {
+      width: 100%;
+      margin: 31px auto 0 auto;
+
+      .description-title {
+        display: block;
+        font: 28px "robotoblack";
+        margin-bottom: 10px;
+      }
+
+      .description-indent {
+        padding-left: 0;
+      }
+    }
+    .why-block {
+      justify-content: center;
+      text-align: center;
+
+      .why-block-text {
+        margin-right: 0;
+        max-width: 300px;
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .why-block-media {
+        display: none;
+      }
+    }
+    .mb-is-desktop {
+      padding-bottom: 0;
+    }
+  }
+}
+
+// changes
+.lang-ar {
+  .client-info-fields .order-tabs li {
+    margin-left: 1em;
+  }
+}

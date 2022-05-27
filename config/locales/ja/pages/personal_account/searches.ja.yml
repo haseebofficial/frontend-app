@@ -1,0 +1,8 @@
+ja:
+  searches_index_page: 
+    title: "お客様のサーチ"
+    created_at: "サーチ日付"
+    city: "都市"
+    languages: "対応言語ペア"
+    intervals: "日時"
+    show_search_form: "通訳者を見つける"

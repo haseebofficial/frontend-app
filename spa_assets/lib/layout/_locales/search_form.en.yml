@@ -1,0 +1,57 @@
+search_form:
+  title: 'Find interpreters'
+  where: 'Where:'
+  when: 'When:'
+  language: 'What language:'
+  your_language: 'Your language:'
+  button: 'search'
+  city: 'example: Berlin, Milan, New York'
+  date_time: 'choose date, time'
+  timepicker:
+    title: 'Meeting time(local):'
+    total: 'General time of intervals'
+    from: 'From'
+    till: 'To'
+    buttons:
+      add_day: 'add'
+      clear: 'clear'
+      clear_intervals: 'clear intervals'
+      choose: 'choose'
+  language_selector: 
+    no_result: 'no interpreters available'
+    list_select: 'choose from list'
+    blank_city: "Select the city first"
+  city_selector: 
+    no_result: "No available interpreters In the specified city at the moment. Try to find an interpreter in this city later or choose another city"
+  js:
+    select: "OK"
+    date_selector:
+      dialog:
+        title: "Selected Periods"
+        confirm: "Confirm"
+        change: "Change"
+      errors:
+        no_periods_selected: "Select a time and click 'Add'"
+        invalid_interval: 'You have chosen the wrong time interval'
+        interval_exists: 'This period is already set, please select another'
+        interval_passed: 'The selected time interval has already passed'
+      total_time: 'Total time - '
+      from: ' - from '
+      to: ' to '
+      select: "Select"
+    search:
+      file_select: "Choose..."
+      errors:
+        blank_intervals: 'Select date and time.'
+        blank_language: 'Select a language.'
+    buttons:
+      change_order_date: "Change date"
+      confirm_order_date: "Confirm"
+    titles:
+      confirm_order_date: "Confirm booking details"
+  filter:
+    show_result: "Show more"
+    interpreters_are_not_available: "Interpreters are not available in this city for the chosen date and languages. Choose another city"
+  now: "now"
+  or_choose_a_time: "or choose a time"
+  connect_an_interpreter: "Connect an interpreter"

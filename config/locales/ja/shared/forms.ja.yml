@@ -1,0 +1,10 @@
+ja:
+  forms: 
+    email: "メールアドレス:"
+    name: "お名前:"
+    phone: "電話番号:"
+    message: "メッセージ："
+    send_message_to_int: "通訳者に連絡する"
+    send_button: "送信する"
+    send_to_all: "似ている通訳者のすべてにこのメッセージを送信する"
+    order_message: "お客様のイベント、場所、日時、参加者数、対応分野、対応言語、他の特徴や条件を書いてください。"

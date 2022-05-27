@@ -1,0 +1,133 @@
+!!! 5
+%html
+  %head(prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#")
+    %meta{charset: "utf-8"}
+    %meta{property: "fb:admins", content: "100008790183428"}
+    %meta{property: "og:site_name", content: "Interpreters Travel"}
+    %meta{property: "og:title", content: full_title(yield(content_name(:og_title, default: :title))) }
+    %meta{property: "og:description", content: full_title(yield(content_name(:og_description, default: :description))) }
+    - if content_for?(:keywords)
+      %meta{name: "keywords", content: yield(:keywords)}
+    - url_en = current_url_with_locale(:en, nil, absolute_url: true)
+    - if content_for?(:amp_link)
+      = yield(:amp_link)
+    %link{rel: "alternate", hreflang: "en", href: url_en}
+    %link{rel: "alternate", hreflang: "ru", href: current_url_with_locale(:ru, nil, absolute_url: true)}
+    %link{rel: "alternate", hreflang: "de", href: current_url_with_locale(:de, nil, absolute_url: true)}
+    %link{rel: "alternate", hreflang: "x-default", href: url_en}
+    %meta{content: 'width=device-width, initial-scale=1.0', name: 'viewport'}
+    %meta{content: 'bb3a81fb3d', name: 'Petal-Search-site-verification'}
+    %meta{content: 'xKAjRicGHfjBlUQw28eS0fKTkagME4WEXDzTabSrwpU', name: 'google-site-verification'}
+    %title= full_title(yield(:title), yield(:delimiter))
+    %link{href: "/favicon.ico", rel: "icon", type: "image/x-icon"}/
+    %link{href: "/favicon.ico", rel: "shortcut icon", type: "image/x-icon"}/
+    %meta{content: content_for?(:meta_description) ? yield(:meta_description) : 'Interpreters Travel', name: 'description'}
+
+
+    = stylesheet_link_tag 'application', media: 'all', data: {turbolinks_track: true}, async: true
+
+    = javascript_include_tag 'application', data: {turbolinks_track: true}
+    = csrf_meta_tags
+    = yield(:head)
+    
+    %script
+      !function(f,b,e,v,n,t,s)
+      {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+      fbq('init', '880184659014223');
+      fbq('track', 'PageView');
+
+    %script
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-MKXTKHB');
+    %noscript
+      %img{height: "1", width: "1", style: "display:none", src: "https://www.facebook.com/tr?id=880184659014223&ev=PageView&noscript=1"}
+
+  %body{:class => "#{controller_name} #{action_name} #{'inner' if ['home', 'personal_accounts', 'client_support_tickets'].include?(controller_name) } locale-#{I18n.locale}", dir: ("rtl" if I18n.locale == :ar)}
+    %noscript
+      %iframe{src: "https://www.googletagmanager.com/ns.html?id=GTM-MKXTKHB", width: 0, height: 0, style: "display:none;visibility:hidden"}
+    #site
+      :coffee
+        I18n.defaultLocale = "#{I18n.default_locale}";
+        I18n.locale = "#{I18n.locale}";
+      / TOP
+      #top
+        .content
+          = link_to root_path, class: "mobile-show logo-white" do
+            .mobile-show= image_tag "white_logo.png", alt: ""
+          .top-menu-trigger.mobile-show Menu
+          .mobile-hide= render partial: 'layouts/top_menu'
+      / HEAD
+      #head
+        .content
+          = link_to root_path, :itemprop => 'url', class: "mobile-hide" do
+            = image_tag 'logo.png', class: 'logo' , :itemprop => 'logo', alt: ''
+            %meta{content: "Interpreters Travel", :itemprop => 'name'}
+          = yield :intranet_button
+          .slogon_about{class: ("mobile-hide" if @mobile_hide_description) }
+            - if @mobile_hide_description
+              - if @add_h1_to_description
+                %h1= yield :description
+              - else
+                = yield :description
+            - else
+              - if @add_h1_to_description
+                %h1= yield :description
+              - else
+                = yield :description
+          .clear
+      / Body
+      #body{class: I18n.locale}
+        = yield :body
+
+    #footer
+      .content
+        %ul.footer_menu
+          %li
+            = link_to t('footer.info'), info_path
+          %li.mobile-hide
+            = link_to t('footer.support'), support_path
+          %li
+            - if @in_city
+              = link_to t('footer.help_inter_in_city', city: @in_city), help_interpreter_path
+            - else
+              = link_to t('footer.help_inter'), help_interpreter_path
+          %li= link_to t("footer.for_affiliates"), for_affiliates_path
+          %li
+            = link_to t('footer.terms_conditions'), terms_conditions_path
+          %li
+            = link_to t('footer.privacy_policy'), privacy_policy_path
+        .copy
+          %span.mobile-copy= t('footer.copyright_html', year: Date.today.year)
+
+          - facebook_url = I18n.locale == :ru ? "https://www.facebook.com/interpreters.travel/" : "test"
+          = link_to facebook_url, class: "social-link", target: "_blank" do
+            %i.icon-facebook-official.icon-social
+
+          = link_to "https://www.linkedin.com/company/interpreters-travel/", class: "social-link", target: "_blank" do
+            %i.icon-linkedin-squared.icon-social
+
+          = link_to "https://www.youtube.com/channel/UCHdC6jw6SHFbuRXhOjSpLDw", class: "social-link", target: "_blank" do
+            %i.icon-youtube-play.icon-social
+
+    / Yandex.Metrika counter
+    :javascript
+      window.localStorage.setItem("locale", '#{I18n.locale}')
+
+      var current_user_id = #{current_user ? current_user.id : 'null'};
+
+      if (current_user_id) {
+        window.localStorage.setItem("current_user_id", current_user_id);
+      } else {
+        window.localStorage.removeItem("current_user_id");
+      }
+      
+      (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter22175668 = new Ya.Metrika({id:22175668, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true, trackHash:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");

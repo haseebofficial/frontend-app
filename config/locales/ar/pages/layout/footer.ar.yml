@@ -1,0 +1,10 @@
+ar:
+  footer:
+    info: 'عن interpreters.travel'
+    support: 'الدعم 24/7'
+    help_inter: للمترجمين
+    help_inter_in_city: 'مترجمون في %{city}'
+    for_affiliates: "للشركاء"
+    terms_conditions: 'الشروط والأحكام'
+    privacy_policy: 'سياسة الخصوصية'
+    copyright_html: '&copy; Copyright 2013 - %{year}. interpreters.travel. All rights reserved.'

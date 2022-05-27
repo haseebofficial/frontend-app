@@ -1,0 +1,13 @@
+.rating {
+  display: flex;
+
+  li i {
+    color: #C0C0C0;
+  }
+
+  li.active {
+    i {
+      color: #FFC700
+    }
+  }
+}

@@ -1,0 +1,8 @@
+vi: 
+  js: 
+    validator: 
+      required: 'Bắt buộc điền đầy đủ.'
+      email: 'Xin vui lòng nhập một địa chỉ email hợp lệ.'
+      uniq_email: 'Email này không đã bận, hãy sử dụng cái  khác.'
+      phone_format: "Hãy ghi trong  định dạng số này+35724343118"
+      city_select: "Enter correct city name and select from list"

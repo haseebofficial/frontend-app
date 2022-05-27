@@ -1,0 +1,14 @@
+.review
+  .questionnaire-stars{class: "stars_#{client_review.score}"}
+  .text
+    - if client_review.locale == I18n.locale.to_s
+      .comment &laquo;#{client_review.comment}&raquo;
+    - else
+      .comment{id: "review-id-#{client_review.id}"} &laquo;#{client_review.comment}&raquo;
+      = link_to t('translate'), translated_review_path(review_id: client_review.id), id: "translate-review-#{client_review.id}", remote: true, method: :put
+    .client= client_review.client
+
+:css
+  .comment {
+    display: inline-block;
+  }

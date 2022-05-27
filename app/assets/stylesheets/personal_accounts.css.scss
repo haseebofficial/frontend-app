@@ -1,0 +1,121 @@
+// Place all the styles related to the personal_accounts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#voucher_not_ready_modal, #receipt_not_ready_modal{
+  display: none;
+  p{
+    text-align: center;
+  }
+}
+#order_cancel_modal{
+  display: none;
+  p{
+    text-align: center;
+  }
+  .btn{
+    background: #FFC602;
+    font: 16px 'robotobold';
+    color: #2F4709;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px;
+    width: 93%;
+    display: block;
+    text-align: center;
+  }
+}
+.cabinet_content{
+  .searches{
+    border-collapse: collapse;
+    margin-top: 25px;
+    thead{
+      background: #FFC602;
+      border: 1px solid;
+      text-align: center;
+    }
+    tr{
+      cursor: pointer;
+      border-bottom: 1px solid;
+    }
+    td{
+      text-align: center;
+      padding: 10px 0;
+    }
+    .created_at{
+      width: 150px;
+    }
+    .city{
+      width: 150px;
+    }
+    .language_pair{
+      width: 150px;
+    }
+  }
+  .order_info{
+    float: right;
+    .price{
+      background: #FFC702;
+      font: 18px 'robotomedium';
+      color: #314707;
+      padding: 0 20px;
+      margin-bottom: 10px;
+      width: 100px;
+      text-align: center;
+      float: right;
+    }
+    .number{
+      display: inline;
+      font: 12px 'robotolight';
+      margin-right: 40px;
+      color: #999999;
+    }
+    .from{
+      display: inline;
+      font: 12px 'robotolight';
+      color: #999999;
+    }
+  }
+
+  .name{
+    margin-bottom: 15px;
+    display: block;
+  }
+  .details{
+    font: 13px 'robotobold';
+    .info{ margin-bottom: 5px; }
+  }
+}
+.red {color: red;}
+
+.personal_accounts,
+.translation_requests {
+  .load-more{
+    text-decoration: none;
+  }
+  .order_details{
+    font: 14px 'robotomedium';
+    background: #FFC602;
+    width: 100%;
+    margin: 8px 0;
+    .first{ width: 25%; }
+    td{
+      border-right: 1px solid #999999;
+      padding: 0 15px;
+    }
+    div { display: inline-block; }
+    .red{ color: #f00; }
+    .id{ margin-right: 5%; }
+    .from{ margin-right: 25%; }
+    a{ color: #32480A; }
+  }
+  .info_block tr td{
+    &:first-child{
+      white-space: nowrap;
+      vertical-align: top;
+      padding-right: 20px;
+    }
+    &:last-child{
+      font-family: 'robotolight';
+    }
+  }
+}

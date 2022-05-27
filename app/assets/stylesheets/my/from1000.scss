@@ -1,0 +1,66 @@
+@media only screen and (min-width: 1000px){
+  .slider_wrapper {
+    .find_translator_wrapper .form_wrapper .label input.find_translator_city,
+    .full_date_text {
+      width: 351px !important;
+      height: 38px !important;
+      box-sizing: border-box;
+      line-height: 38px !important;
+    }
+    #language_selector {
+    .jq-selectbox__select {
+      width: 351px !important;
+      height: 38px !important;
+      box-sizing: border-box;
+      padding: 0 10px !important;
+        .jq-selectbox__select-text {
+          line-height: 38px;
+        }
+      }
+      .jq-selectbox__trigger {
+        height: 38px !important;
+      }
+    }
+  }
+
+  .green_line {
+    .jq-selectbox__select {
+      height: 26px !important;
+    }
+    .jq-selectbox__dropdown {
+      top: 26px !important;
+    }
+    .ui-datepicker-inline {
+      display: block !important;
+      margin: 10px auto !important;
+    }
+    .data_cloud .timepicker {
+      width: 250px !important;
+      .buttons {
+        text-align: center;
+      }
+      .border-wrapper {
+        width: 233px;
+        box-sizing: border-box;
+      }
+    }
+    .result {
+      width: 240px !important;
+      margin-top: 0;
+    }
+    .clear_intervals {
+      width: 210px !important;
+      margin: 0 !important;
+    }
+  }
+  #order_company_activity-styler {
+    .jq-selectbox__select {
+      height: 39px;
+      line-height: 39px!important;
+      width: 280px!important;
+    }
+    .jq-selectbox__trigger-arrow {
+      top: 18px !important;
+    }
+  }
+}

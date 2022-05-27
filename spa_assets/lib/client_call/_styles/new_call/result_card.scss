@@ -1,0 +1,87 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+svg path {
+  stroke:inherit;
+  stroke-width:inherit;
+  fill:inherit;
+}
+
+.new-call-page{
+  .result-info{
+    display: flex;
+  }
+  .result-card{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .avatar {
+      margin-right: 20px;
+      img{
+        max-width: 126px;
+      }
+    }
+    .user-name {
+      display: block;
+      margin-bottom: 15px;
+      font: 24px "robotomedium";
+      color: #484848;
+    }
+    .user-price{
+      margin-top: 30px;
+      padding: 5px 20px;
+      font: 18px "robotomedium";
+      color: c.$interpreters-green;
+      background-color: c.$interpreters-yellow;
+      .is-grey {
+        font-family: "robotolight", sans-serif;
+        color: #888787;
+      }
+    }
+
+    .result-call {
+      max-width: 76px;
+      .call-btn:hover {
+        // filter: invert(31%) sepia(99%) saturate(6348%) hue-rotate(119deg) brightness(96%) contrast(86%);
+        filter: invert(46%) sepia(59%) saturate(466%) hue-rotate(71deg) brightness(97%) contrast(88%);
+        // filter: invert(43%) sepia(88%) saturate(3064%) hue-rotate(93deg) brightness(92%) contrast(63%);
+      }
+    }
+  }
+
+  .preloader{
+    margin: 50px 0;
+  }
+}
+
+@include r.touch {
+  .new-call-page{
+    .result-card{
+      .avatar {
+        img{
+          max-width: 100px;
+        }
+      }
+      .user-name {
+        font: 18px "robotomedium";
+      }
+      .user-price{
+        margin-top: 20px;
+        padding: 3px 10px;
+        font: 14px "robotomedium";
+      }
+      .result-call{
+        max-width: 50px;
+      }
+    }
+
+    .preloader{
+      margin: 50px 0;
+      .sk-fading-circle{
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+}

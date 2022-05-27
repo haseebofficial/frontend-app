@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html amp lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <script async src='https://cdn.ampproject.org/v0.js'></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <script async custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-list" src="https://cdn.ampproject.org/v0/amp-list-0.1.js"></script>
+    <script async custom-template="amp-mustache" src="https://cdn.ampproject.org/v0/amp-mustache-0.2.js"></script>
+    <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
+    <meta content='100008790183428' property='fb:admins'>
+    <meta content="Interpreters Travel" property='og:site_name'>
+    <meta content="<%= full_title(yield(content_name(:og_title, default: :title))) %>" property='og:title'>
+    <meta content="<%= full_title(yield(content_name(:og_description, default: :description))) %>" property='og:description'>
+    <% if content_for?(:keywords) %>
+      <meta name='keywords' content="<%= yield(:keywords) %>">
+    <% end %>
+    <% url_en = current_url_with_locale(:en, nil, absolute_url: true) %>
+    <link rel="canonical" href="<%= url_for(only_path: false) %>" >
+    <link href="<%= url_en %>" hreflang='en' rel='alternate'>
+    <link href='<%= current_url_with_locale(:ru, nil, absolute_url: true) %>' hreflang='ru' rel='alternate'>
+    <link href='<%= current_url_with_locale(:de, nil, absolute_url: true) %>' hreflang='de' rel='alternate'>
+    <link href='<%= url_en %>' hreflang='x-default' rel='alternate'>
+    <meta content="width=device-width,minimum-scale=1" name='viewport'>
+    <meta content='xKAjRicGHfjBlUQw28eS0fKTkagME4WEXDzTabSrwpU' name='google-site-verification'>
+      <title><%= full_title(yield(:title), yield(:delimiter)) %></title>
+      <link href='/favicon.ico' rel='icon' type='image/x-icon'>
+      <link href='/favicon.ico' rel='shortcut icon' type='image/x-icon'>
+      <meta content='<%= content_for?(:meta_description) ? yield(:meta_description) : 'Interpreters Travel' %>' name='description'>
+    </meta>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <% if Rails.application.assets && Rails.application.assets['amp/application'] %>
+      <style amp-custom><%= Rails.application.assets['amp/application'].to_s.html_safe %></style>
+    <% else %>
+      <style amp-custom><%= File.read "#{Rails.root}/public#{stylesheet_path('amp/application', host: nil)}" %></style>
+    <% end %>
+  </head>
+  <body class="<%= controller_name %> <%= action_name %> <%= 'inner' if ['home', 'personal_accounts'].include?(controller_name)  %>">
+    <amp-sidebar id='top-menu-content' layout='nodisplay'><%= render "layouts/top_menu" %></amp-sidebar>
+
+    <div id="site">
+      <div id="top">
+        <div class="content">
+          <%= link_to root_path(format: :amp), class: "mobile-show logo-white" do %>
+            <%= amp_image_tag "white_logo.png", alt: "", width: "200", height: "23" %>
+          <% end %>
+          <div class="top-menu-trigger" on='tap:top-menu-content.toggle' role="button" tabindex="">Menu</div>
+        </div>
+      </div>
+      <div id="head">
+        <div class="content">
+          <%= yield :intranet_button %>
+          <div class="clear"></div>
+        </div>
+      </div>
+      <!-- Body
+      -->
+      <div class="<%= I18n.locale %>" id="body">
+        <%= yield :body %>
+      </div>
+    </div>
+    <div id="footer">
+      <div class="content">
+        <ul class="footer_menu">
+          <li>
+            <%= link_to t('footer.info'), info_path %>
+          </li>
+          <li>
+            <% if @in_city %>
+              <%= link_to t('footer.help_inter_in_city', city: @in_city), help_interpreter_path %>
+            <% else  %>
+              <%= link_to t('footer.help_inter'), help_interpreter_path %>
+            <% end %>
+          </li>
+          <li>
+            <%= link_to t("footer.for_affiliates"), for_affiliates_path %>
+          </li>
+          <li>
+            <%= link_to t('footer.terms_conditions'), terms_conditions_path %>
+          </li>
+          <li>
+            <%= link_to t('footer.privacy_policy'), privacy_policy_path %>
+          </li>
+        </ul>
+        <div class="copy">
+          <%= t('footer.copyright_html', year: Date.today.year) %>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

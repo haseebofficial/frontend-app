@@ -1,0 +1,76 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+.profile-comments{
+  margin-top: 25px;
+
+  .comments-header {
+    font: 18px "robotoregular";
+  }
+  .comment{
+    margin-top: 30px;
+  }
+  .comment-title{
+    font: 16px "robotoregular";
+  }
+  .comment-paragraph{
+    margin-top: 15px;
+    font: italic 16px "robotolight";
+  }
+  .rating {
+    display: flex;
+
+    .rating-item i {
+      color: #C0C0C0;
+    }
+
+    .rating-item.active i {
+      color: c.$interpreters-yellow;
+    }
+  }
+  .comments-btn{
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    color: #363636;
+    font: 18px "robotoregular";
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    cursor: pointer;
+    border-radius: 1px;
+    font-weight: 700;
+  }
+  .comments-btn:hover {
+    border-color: #b5b5b5;
+  }
+}
+
+
+@include  r.touch{
+  .profile-comments{
+    text-align: center;
+    margin-top: 25px;
+    .comments-header {
+      font-size: 14px;
+    }
+    .comment{
+
+      margin-top: 20px;
+    }
+    .comment-title{
+     font-size: 12px;
+      padding-top: 10px;
+    }
+    .comment-paragraph{
+      margin-top: 10px;
+      font: italic 12px "robotolight";
+    }
+    .rating {
+      display: flex;
+      justify-content: center;
+    }
+    .comments-btn{
+      margin-top: 25px;
+     font-size: 14px;
+    }
+  }
+}

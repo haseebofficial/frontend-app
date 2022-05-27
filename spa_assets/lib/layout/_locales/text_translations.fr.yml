@@ -1,0 +1,93 @@
+text_translations:
+  head:
+    title: "Traduction professionnelle de textes et documents"
+    description: "Services de traduction rapides, abordables et de qualité dans 180 langues. Obtenez un devis et embauchez directement votre meilleur traducteur professionnel approuvé"
+    keywords: "Traduction, Traductions professionnelles, Traducteurs, Traducteurs professionnels, services de traduction linguistique, Agence de traduction, Traducteur indépendant, Traduire"
+  header: "Traduction professionnelle de textes et documents"
+  description: "20 000+ traducteurs fiables dans 170+ pays fourniront une traduction rapide, abordable et de haute qualité de 180 langues"
+  why:
+    header: "Pourquoi interpreters.travel?"
+    quality: "Qualité"
+    quality_desc: "96% d’avis positifs de nos clients sont la preuve de la haute qualité de nos services"
+    price: "Prix"
+    price_desc: "Établissez un contact direct avec vos traducteurs sans frais d’agence et paiements excessifs"
+    time: "Respect des délais"
+    time_desc: "Le système avancé des recommandations des traducteurs et le système du contrôle de l’exécution de la commande"
+  form:
+    languages:
+      sourceLanguage: "LANGUE SOURCE"
+      targetLanguage: "LANGUE CIBLE"
+    specialization: "SPÉCIALISATION"
+    word_count: "NOMBRE DE MOTS"
+    attachments:
+      label: "Pièces jointes"
+      or: "Ou"
+      upload: "Téléverser un fichie"
+      dropzone_text: "Déposez vos fichiers ici"
+    due_date:
+      label: "DATE D'ÉCHÉANCE, HEURE"
+      auto: "Par accord (meilleur prix)"
+      select: "CHOISIR"
+      reset: "VIDER"
+    name: "Votre nom :"
+    email: "E-mail (pour recevoir des offres)"
+    phone: "Téléphone :"
+    description: "Notes sur la commande pour le traducteur"
+    submit: "Obtenir les tarifs"
+    privacy:
+      text: "En appuyant sur 'Obtenir les tarifs', je confirme que j'ai lu et accepté"
+      privacy_policy: "la politique"
+      terms_conditions: "les conditions de confidentialité."
+      and: "et"
+    add_contact_info: "Entrez vos coordonnées"
+    footer: "Vous recevrez des devis des traducteurs les plus appropriés, choisissez et embauchez les meilleurs"
+  show:
+    guest_description: "Votre demande de la traduction du texte a été envoyée aux traducteurs avec succès. Les traducteurs vous enverront sous peu leurs offres"
+    create_new: "Envoyer une nouvelle demande"
+  why_inter:
+    title: "Pourquoi interpreters.travel?"
+    block1:
+      link: "Simple et sûr"
+      text_html: "Vous ne payez que pour le temps que vous avez <br/> effectivement utilisé. SANS PRÉPAIEMENT <br/> Garantie de la sécurité des paiements."
+    block2:
+      link: "Des prix bas"
+      text_html: "PAIEMENT À LA MINUTE pour le service <br/> d’interprétation SANS FRAIS SUPPLÉMENTAIRES <br/> de communication téléphonique et commissions"
+    block3:
+      link: "Beaucoup de choix"
+      text_html: "20 000+ interprètes professionnels <br/> Plus de 180 langues. Appels dans 150 pays <br/> Accès 24/7"
+    block4:
+      link: "Pratique"
+      text_html: "CHOIX DES INTERPRÈTES par prix et par rating <br/>Connexion rapide de l’interprète <br/>Paiement facile VISA, Mastercard"
+  why_inter_spa:
+    title: "Pourquoi interpreters.travel?"
+    block1:
+      link: "Simple et sûr"
+      text_html: "Réservez maintenant, payez plus tard! <br/> Annulation de la commande GRATUITE. <br/> Garantie de la sécurité des paiements."
+    block2:
+      link: "Des prix bas"
+      text_html: "les PRIX DES INTERPRETES sur toutes les commandes sans frais d'agence. <br/> CALCUL DES ESCOMPTES au moment du calcul de la commande."
+    block3:
+      link: "Beaucoup de choix"
+      text_html: "Les interprètes se trouvent dans %{cities} villes, <br/> %{countries} pays à travers le monde"
+    block4:
+      link: "Pratique"
+      text_html: "Facilité de paiement : VISA, MasterCard, virement bancaire, paiement en espèces <br/>ASSISTANCE 24/7"
+  hero:
+    professional_interpreters: "Interprètes professionnels <br/> pour des salons, conférences, négociations"
+    vetted_interpreters: "20 000+ interprètes fiables dans 170+ pays fourniront des services d’interprétation rapides, abordables et de haute qualité dans 180 langues"
+    international_calls: "Interprétation par téléphone sans frais complémentaires <br/> de communication téléphonique"
+    thousands_of_professional: "Des milliers des interprètes professionnels dans 180 langues <br/> sont disponibles 24/7 et prêts à traduire votre conversation téléphonique ou à distance"
+    connect_an_interpreter: "Faites connecter un interprète pour une interprétation à distance ou appelez en ligne n’importe quel téléphone dans 150 pays"
+  how_it_works:
+    title: "Comment ça marche"
+    text1: 'Choisissez la langue et cliquez sur “Faire connecter un interprète”'
+    text2: "Les interprètes disponibles seront affichés sur la page avec les tarifs"
+    text3: "Cliquez sur le bouton vert pour contacter l’interprète"
+    text4: "Expliquez à l’interprète de quoi il s’agit, où vous appelez, qui vous appelez et pourquoi"
+    text5: "Composez le numéro de téléphone, attendez la réponse et poursuivez la conversation en mode de téléconférence"
+    text6: "L’interprète va entendre votre conversation et traduire bilatéralement"
+    text7: "Le paiement sera prélevé automatiquement. Vous ne payez que le tarif à la minute de l’interprète, l’appel est gratuit."
+    press: "Cliquez sur"
+    to_call_interpreter: "pour contacter l’interprète"
+    to_end_the_phone_call: "sous le numéro de téléphone pour terminer l’appel. L’interprète restera toujours connecté"
+    to_end_the_conversation: "pour terminer la conversation avec l’interprète"

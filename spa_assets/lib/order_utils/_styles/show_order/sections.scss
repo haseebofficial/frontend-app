@@ -1,0 +1,127 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.show-order-sections {
+  .section-info:first-child {
+    padding: 0;
+    border: 0;
+  }
+
+  .is-mobile-section {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #dbdbdb;
+  }
+
+  .section-link {
+    text-decoration-line: underline;
+    color: #3518e1;
+  }
+
+  .section-info {
+    padding: 30px 0;
+    border-top: 1px solid #dbdbdb;
+
+    .is-yellow {
+      margin-bottom: 10px;
+      display: block;
+      height: 40px;
+      width: 100%;
+      border: none;
+      font: 18px "robotoregular";
+      background-color: c.$interpreters-yellow;
+      color: c.$interpreters-green;
+    }
+
+    .title {
+      display: block;
+      font: 18px "robotoregular";
+      color: #484848;
+    }
+
+    .button {
+      display: block;
+      margin: 30px 0;
+      font: 16px "robotoregular";
+      color: #484848;
+    }
+
+    .section-list {
+      font: 16px "robotoregular";
+      color: #484848;
+
+      li {
+        margin-top: 10px;
+      }
+
+      .is-grey {
+        font: 16px "robotolight";
+      }
+    }
+  }
+}
+@include r.touch {
+  .show-order-sections {
+    .is-mobile-border-none {
+      border: 0;
+      padding: 0;
+    }
+
+    .section-info:first-child {
+      padding: 0;
+      border: 0;
+    }
+
+    .mobile-order-info {
+      margin-top: 20px;
+    }
+
+    .is-yellow {
+      margin-top: 0;
+      display: block;
+      height: 40px;
+      width: 100%;
+      border: none;
+      font: 18px "robotoregular";
+      background-color: c.$interpreters-yellow;
+      color: c.$interpreters-green;
+    }
+
+    .section-info {
+      padding: 20px 0;
+      font-size: 12px;
+
+      .title {
+        font-size: 12px;
+        margin-bottom: 5px;
+      }
+
+      .button {
+        display: block;
+        margin: 20px 0;
+        font: 14px "robotoregular";
+        color: #484848;
+      }
+
+      .section-list {
+        font-size: 14px;
+        color: #484848;
+
+        li {
+          margin-top: 5px;
+        }
+
+        .is-grey {
+          font: 12px "robotolight";
+        }
+      }
+    }
+  }
+}
+
+.lang-ar {
+  .search-info .section-info .section-info-list li i {
+    margin-right: 0;
+    margin-left: 12px;
+  }
+}

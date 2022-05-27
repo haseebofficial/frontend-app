@@ -1,0 +1,8 @@
+ar:
+  sign_in_page: 
+    title: "الدخول"
+    form: 
+      email: "عنوان البريد الإلكتروني:"
+      password: "كلمة المرور:"
+      remember_me: "تذكرني"
+      submit: "تسجيل الدخول"

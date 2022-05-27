@@ -1,0 +1,1 @@
+export * from "test/lib/components/modal/behaves_like_modal";

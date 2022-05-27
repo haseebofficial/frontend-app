@@ -1,0 +1,168 @@
+.datetime-selector {
+  width: 231px;
+  margin: 17px 0 0 37px;
+  padding: 0;
+  display: block;
+
+  .datetime-header {
+    font: 14px helveticaltstdbold;
+    color: #fff;
+    background: #30480a;
+    padding: 3px 0 5px;
+    position: relative;
+    text-align: center;
+
+    .next-month, .prev-month, .prev-month-placeholder {
+      width: 1.8em;
+      height: 1.8em;
+      cursor: pointer;
+      margin-top: -2px;
+    }
+
+    .next-month {
+      background: asset_url("calendar_ar_next.png") no-repeat center center;
+      float: right;
+    }
+
+    .prev-month-placeholder {
+      cursor: auto;
+      float: left;
+    }
+
+    .prev-month {
+      background: asset_url("calendar_ar_prev.png") no-repeat center center;
+      float: left;
+    }
+
+    .title {
+      display: inline-block;
+      margin: 0 2.3em;
+      line-height: 1.8em;
+      text-align: center;
+    }
+  }
+
+  .datetime-calendar {
+    border-bottom: 1px solid #e2e2e2;
+    margin: 0;
+    width: 100%;
+    font-size: .9em;
+    border-collapse: collapse;
+    margin: 0 0 .4em;
+
+    thead {    
+      th {
+        font: 10px helveticaltstdroman;
+        line-height: 10px;
+        padding: 5px 0 4px;
+        background: #4c5d17;
+        color: #fff;
+        border-right: 1px solid #818d5b;
+        text-align: center;
+      }
+    }
+
+    tbody {
+      td:first-child {
+        border-left: 1px solid #eaeaea;
+      }
+
+      td {
+        cursor: pointer;
+        border-right: 1px solid #eaeaea;
+        border-top: 1px solid #eaeaea;
+        font: 13px helveticaltstdbold;
+        line-height: 14px;
+        background: #fbfbfb;
+        height: 26px;
+        padding: 0;
+
+        color: #434446;
+        text-align: center;
+        text-decoration: none;
+      }
+
+      td.selected {
+        background-color: #ffc702;
+      }
+
+      td.week-end {
+        color: #be394c;
+      }
+
+      td.other-month {
+        background: #eee;
+        cursor: auto;
+        text-align: center;
+        color: #b8b9bd;
+        text-shadow: 1px 1px 2px #fff;
+      }
+    }
+  }
+}
+
+.timepicker-wrapper {
+  .timepicker {
+    float: none;
+
+    .time-wrapper {
+      float: none;
+      height: auto;
+      width: auto;
+    }
+
+    input {
+      width: 33px;
+      height: 27px;
+      background: #ffc702;
+      font: 14px robotobold;
+      color: #444549;
+      padding: 0;
+      text-align: center;
+      float: left;
+      margin: 0;
+      line-height: 100%;
+      vertical-align: middle;
+    }
+
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    input[type="number"] {
+        -moz-appearance: textfield;
+    }
+
+    .arrows {
+      width: 17px;
+      float: left;
+      background: #304908;
+
+      .arrow {
+        display: block;
+        height: 13px;
+        line-height: 13px;
+        cursor: pointer;
+      }
+
+      .arrow-up {
+        background: asset_url("timepicker_arrows_top.png") no-repeat center center;
+      }
+
+      .arrow-down {
+        margin-top: 4px;
+        background: asset_url("timepicker_arrows_bottom.png") no-repeat center center;
+      }
+    }
+
+    .delimeter {
+      padding-right: 0;
+      width: 8px;
+      margin-top: 5px;
+      font: 14px robotobold;
+      line-height: 18px;
+      float: left;
+    }
+  }
+}

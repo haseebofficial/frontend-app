@@ -1,0 +1,183 @@
+.link {
+  float: right;
+}
+
+.info-link-wrapper {
+  display: inline-block;
+  float: right;
+}
+
+.info-link-wrapper.stars-wrapper {
+  display: block;
+  float: left;
+}
+
+.interpreter-info-wrapper .info_wrapper .info-link-wrapper {
+  display: block;
+  float: none;
+}
+
+.info_link {
+  padding: 0px 0px 3px 25px;
+  font: 15px 'robotomedium';
+  line-height: 15px;
+  color: #32480A;
+  margin: 5px 0px 5px 0px;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#body.ru .details-links-block .info_link {
+  font-size: 13px;
+}
+
+.info_link:hover {
+  text-decoration: underline;
+}
+
+.info_link.diplom, .info_link.education, .info_link.education-remote {
+  background: asset-url('link/diplom.png') no-repeat left center;
+}
+
+.info_link.cert {
+  background: asset-url('link/cert.png') no-repeat left center;
+}
+
+.info_link.youtube-link {
+  background: asset-url('link/yt_icon.png') no-repeat left center; 
+}
+
+.info_link.level {
+  height: 20px;
+  background: asset-url('link/q_level.png') no-repeat left center;
+  .questionnaire-stars {
+    margin: 3px 0px 5px 0px;
+  }
+
+  .client-reviews-count {
+    margin-top: -3px;
+    float: right;
+    margin-right: -30px;
+  }
+}
+
+.questionnaire-stars {
+  height: 8px;
+  width: 40px;
+  padding: 3px 0px 3px 25px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: -5px;
+  font: 15px 'robotomedium';
+  line-height: 15px;
+  display: inline-block;
+}
+
+.questionnaire-stars.stars_2 {  
+  background: asset-url('link/2-stars.png') no-repeat right center;
+}
+.questionnaire-stars.stars_3 {
+  background: asset-url('link/3-stars.png') no-repeat right center;
+}
+.questionnaire-stars.stars_325 {
+  background: asset-url('link/325-stars.png') no-repeat right center;
+}
+.questionnaire-stars.stars_35 {
+  background: asset-url('link/35-stars.png') no-repeat right center;
+}
+.questionnaire-stars.stars_375 {
+  background: asset-url('link/375-stars.png') no-repeat right center;
+}
+.questionnaire-stars.stars_4 {
+  background: asset-url('link/4-stars.png') no-repeat right center; 
+}
+.questionnaire-stars.stars_425 {
+  background: asset-url('link/425-stars.png') no-repeat right center; 
+}
+.questionnaire-stars.stars_45 {
+  background: asset-url('link/45-stars.png') no-repeat right center; 
+}
+.questionnaire-stars.stars_475 {
+  background: asset-url('link/475-stars.png') no-repeat right center; 
+}
+.questionnaire-stars.stars_5 {
+  background: asset-url('link/5-stars.png') no-repeat right center;
+}
+
+.client-review {
+  padding: 10px 15px 0 15px;
+  border-top: 1px solid #d0d0d0;
+  border-bottom: 1px solid #d0d0d0;
+  .questionnaire-stars {
+    margin-right: 10px;
+  }
+
+  .review-comment {
+    margin: 15px 0;
+    font-style: cursive;
+  }
+}
+
+.client-review:last-child {
+  border-bottom: none;
+}
+
+
+.info_link.verified_contacts, .info_link.verified_profile {
+   background: asset-url('link/verified.png') no-repeat left center;
+}
+
+.info_link.experience {
+  background: asset-url('link/experience.png') no-repeat left center;
+}
+
+.info_link.experience_event {
+  background: asset-url('link/exp_event.png') no-repeat left center;
+}
+
+.info_link.recommendations {
+  background: asset-url('link/recommendations.png') no-repeat left center;
+}
+
+.info_text {
+  font: 15px 'robotomedium';
+  line-height: 15px;
+  color: #32480A;
+  float: left;
+}
+
+.response-stats {
+  font: 14px/17px "robotomedium";
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.green-text {
+  color: #30880a;
+}
+
+#body.fr {
+  .result_trans_wrapper .details-links-block .info_link {
+    font-size: 12px;
+
+  }
+
+  .interpreter-button {
+    margin-left: 20px;
+  }
+
+  .info_wrapper_no_cart {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 767px) { 
+  .link {
+    float: left;
+  }
+  
+  .info_link.diplom {
+    padding-bottom: 0px;
+  }
+}

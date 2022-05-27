@@ -1,0 +1,44 @@
+@use "layout/_styles/utils/layout_properties";
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.hero .hero-body {
+  align-items: stretch !important;
+  min-height: auto !important;
+  padding: 0.5rem layout_properties.$left-right-padding;
+}
+
+.hero .hero-body {
+  padding: 0rem layout_properties.$left-right-padding;
+}
+
+.page-header {
+  .container {  
+    padding-top: 1rem;
+    padding-bottom: 1.3rem;
+    justify-content: space-between;
+    display: flex;
+
+    .page-header-slogan {
+      font: 1.5rem robotoregular;
+      color: c.$interpreters-green;
+      line-height: 1.5rem;
+      margin-left: auto;
+    }
+
+    .page-header-logo {
+      width: 270px;
+      height: 31px;
+    }
+  }
+
+  &.has-green-line {
+    border-bottom: 6px solid c.$interpreters-green;
+  }
+}
+
+@include r.touch {
+  .hero .hero-body {
+    overflow: hidden;
+  }
+}

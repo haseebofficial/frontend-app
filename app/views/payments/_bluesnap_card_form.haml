@@ -1,0 +1,24 @@
+.panel.panel-bluesnap-order-form
+  = form_tag bluesnap_sale_path(order.id), id: "bluesnap_complete_sale", method: :get do
+    = hidden_field_tag "bluesnap_token", bluesnap_token
+    = hidden_field_tag "full_name", nil, class: "cardholder-name"
+  .panel-heading
+    .heading-title 
+      %span.title-content= t("card_checkout_form.title", amount: "#{payment_amount} #{payment_currency}")
+    .card-types
+    .clear
+  .panel-body
+    = form_tag '', id: "bluesnap_checkout", class: "bluesnap-card-form" do
+      .bluesnap-field-wrapper
+        %input.bluesnap-hosted-field.cardholder-name{placeholder: t("card_checkout_form.name")}
+      .bluesnap-field-wrapper
+        .bluesnap-hosted-field#card-number{"data-bluesnap" => "ccn"}
+        %span.helper-text#card-help.bluesnap-field-error.bluesnap-field-error--ccn
+      .bluesnap-field-wrapper.exp-wrapper
+        .bluesnap-hosted-field#exp-date{"data-bluesnap" => "exp"}
+        %span.helper-text.bluesnap-field-error
+      .bluesnap-field-wrapper.cvv-wrapper
+        .bluesnap-hosted-field#cvv{"data-bluesnap" => "cvv"}
+        %span.helper-text.bluesnap-field-error
+      %input.bluesnap-submit{type: "submit", value: t("card_checkout_form.submit"), data: {bluesnap: "submitButton"}}
+      .personal-info-disclaimer * #{t("card_checkout_form.text")}

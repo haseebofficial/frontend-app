@@ -1,0 +1,8 @@
+pt: 
+  js: 
+    validator: 
+      required: 'É necessário preencher este campo.'
+      email: 'Por favor, insira um e-mail válido.'
+      uniq_email: 'Este e-mail já está sendo usado, use outro.'
+      phone_format: "Insira no formato +35724343118"
+      city_select: "Enter correct city name and select from list"

@@ -1,0 +1,1 @@
+export { default as default } from "./rails_assets";

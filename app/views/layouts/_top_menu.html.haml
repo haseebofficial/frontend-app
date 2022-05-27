@@ -1,0 +1,53 @@
+- if @city_name && I18n.locale == :en
+  - calls_link_text = t("top_menu.calls_to_city", city: @city_name)
+- else
+  - calls_link_text = t("top_menu.calls")
+
+= content_for :top_menu_links do
+  - if user_signed_in?
+    %li.mobile-show.cabinet_sidebar_menu1= link_to t("order_pages_sidebar.orders"), personal_account_path
+    %li.mobile-show.cabinet_sidebar_menu2= link_to t("order_pages_sidebar.searches"), searches_personal_account_path
+    %li.mobile-show.cabinet_sidebar_menu_calls= link_to t("order_pages_sidebar.calls"), interpretation_calls_path
+  - else 
+    %li.mobile-show.cabinet_sidebar_menu_calls= link_to calls_link_text, phone_path
+%ul.top_menu
+  - if content_for?(:back_link)
+    %li.back-link.back-link-desktop= yield :back_link
+  - if user_signed_in?
+    %li.account-link
+      = link_to edit_user_registration_path do
+        %span.user-icon= current_user.name
+    %li.personal-account.mobile-hide
+      = link_to t('top_menu.dashboard_link'), personal_account_path
+  - else
+    %li.account-link
+      = link_to new_user_session_path do
+        %span.user-icon= t('top_menu.login_link')
+    %li.mobile-hide= link_to t('top_menu.interpreter_login_link'), ENV['BACKEND_URL']
+    %li.mobile-hide= link_to calls_link_text, phone_path
+  %li.support-link= link_to t('footer.support'), support_path
+  - if content_for?(:top_menu_links)
+    = yield :top_menu_links
+
+  %li.locales-link
+    = link_to "#", "data-jq-dropdown" => ".locales-dropdown" do
+      = t("locales.#{I18n.locale}")
+      %b.caret
+    %div.locales-dropdown.jq-dropdown
+      %ul.jq-dropdown-menu
+        - available_page_locales.each do |l|
+          - next if l == I18n.locale.to_s
+          %li= link_to t("locales.#{l}"), current_url_with_locale(l)
+  - if @show_currency_select
+    %li.currencies-link
+      = link_to "#", "data-jq-dropdown" => ".currencies-dropdown" do
+        = session[:current_currency]
+        %b.caret
+      %div.currencies-dropdown.jq-dropdown
+        %ul.jq-dropdown-menu
+          - available_currencies.each do |l|
+            - next if session[:current_currency] == l
+            %li= link_to l, set_current_currency_path(l)
+  - if user_signed_in?
+    %li.logout-link= link_to t('top_menu.logout_link'), destroy_user_session_path, method: :delete
+.clear

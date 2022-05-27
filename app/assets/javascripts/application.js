@@ -1,0 +1,41 @@
+//= require api_options
+//= require jquery.min.js
+//= require jquery.bxslider.min
+//= require jquery_ujs
+//= require jquery.remotipart
+//= require jquery-ui-1.10.3.custom
+//= require jquery-ui/dialog
+//= require jquery.formstyler.min
+//= require jquery-validate.min
+//= require jquery.dropdown.min
+
+//= require i18n/translations
+
+//= require localization
+//= require dialog
+//= require base_input
+//= require my
+//= require GoogleAnalytics
+//= require Metrika
+/// require my_gmap
+//= require search
+//= require date_selector.js.coffee
+//= require slider
+//= require interpreters_details
+//= require help_pages
+//= require turbolinks
+//= require nprogress
+//= require nprogress-turbolinks
+//= require grayscale
+//= require personal_accounts
+//= require order
+//= require jgrowl.min
+//= require jquery.match-height.min
+//= require mobile_layout
+//= require jquery.raty.min
+//= require chosen-jquery
+//= require submit_color
+
+//= require leaflet
+//= require leaflet_custom
+//= require search_address

@@ -1,0 +1,17 @@
+%table.order_details
+  %tr
+    %td.first= t("details", @scope)
+    %td
+      .id.red= @order.id
+      .from 
+        = t("from", @scope)
+        .red= @order.from_date
+      = link_to t("get_voucher", @scope), voucher_personal_account_path(@order, format: :pdf), 
+                class: ("not_ready" unless @order.ready_for_presentation?), 'data-target' => "#voucher_not_ready_modal"
+      #voucher_not_ready_modal
+        - if @order.contacts_available_after_confirmation?
+          %p= t("personal_account.voucher_ready_after_confirmation")
+        - else 
+          %p= t("voucher_not_ready", scope: :personal_account)
+- if @order.canceled?
+  %h3.red= t("cancelled", @scope)

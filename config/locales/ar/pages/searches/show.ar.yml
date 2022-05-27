@@ -1,0 +1,55 @@
+ar: 
+  # search_form: searches/_search_form
+  search_page: 
+    window_title: 
+      zero: "لا يوجد مترجمون شفويون في%{city}"
+      one: "%{count} مترجم في%{city}"
+      few: "%{count} مترجم شفوي في%{city}"
+      other: "%{count} مترجمين شفويين في%{city}"
+    title: 
+      zero: "لا يوجد مترجمون شفويون في%{city}"
+      one: "المترجمين في %{city}"
+      few: "المترجمين في %{city}"
+      other: "المترجمين في %{city}"
+    keywords: "المترجمين في %{city}, خدمات المترجمين في%{city}, المترجمون الخاصون في%{city}, المترجمون العرب في%{city}, مترجمون شفويون في%{city}"
+    meta_description: "مترجمون محترفون في%{city} للمرافقة والمفاوضات والمعارض والمؤتمرات. اتصل بالمترجم أو قم بتعبئة طلب على الموقع دون عمولة أو دفع مسبق."
+    free_cancellation: "احجز الآن وأدفع لاحقا، إلغاء مجاني! دون رسوم إضافية."
+    one_available_interpreter: "يتوفر مترجم واحد في%{city} لهذا الطلب"
+    one_from_few_available_interpreter: "يتوفر %{free} من %{count} مترجما في%{city} لهذا الطلب"
+    available_interpreters: 
+      zero: "لا يتوفر مترجمون متاحون في%{city} للخيارات المحددة"
+      one: "يتوفر %{free} من %{count} مترجما في%{city} لهذا الطلب"
+      few: "يتوفر %{free} من %{count} مترجما في%{city} لهذا الطلب"
+      other: "يتوفر %{free} من %{count} مترجما في%{city} لهذا الطلب"
+    duration_text: "التكلفة لمدة %{duration} (%{intervals})، بما في ذلك التخفيضات."
+    back_link: "إلى الصفحة الرئيسية"
+    price: "أسعار المترجمين في %{city}"
+    services: "خدمات الترجمة في %{city}:"
+    specializations: "تخصص الترجمة:"
+    fold: إخفاء
+    unfold: عرض المزيد 
+    city_desc: "حول المترجمين في %{city}"
+    sort: 
+      title: "Сортировка:"
+      price: "Цена"
+      updated_at: "Дата обновления"
+      level: "Оценка резюме"
+    change_date: "هل تريد تغيير التاريخ والوقت؟"
+    learn_more: "معرفة المزيد"
+    result: "النتائج"
+    filter: "فلترة النتائج"
+    search: "البحث"
+    map_link: "عرض على الخريطة"
+    minimum_volume_message: "%{hours} - الحد الأدنى لطلب المترجمين في %{city}. زيادة وقت الاجتماع."
+    busy_interpreters_message: "%{count} недоступных переводчиков в выбранное время"
+    minimum_advance_message: "لا يمكن إتمام طلبك الخاص بمترجمين من %{city} قبل %{advance}. تغيير التاريخ والوقت."
+    time_in_past: "يرجى إدخال تاريخ لاحق"
+    another_price_interpreters: 
+      one: "هناك أيضا %{count} مترجم شفوي في %{city}, ة مطابق لطلبك، ولكن متوفرة في نطاق سعر مختلف."
+      few: "هناك أيضا %{count} مترجم شفوي في %{city}, ة مطابق لطلبك، ولكن متوفرة في نطاق سعر مختلف."
+      other: "هناك أيضا %{count} مترجم شفوي في %{city}, ة مطابق لطلبك، ولكن متوفرة في نطاق سعر مختلف."
+    busy_interpreters: 
+      one: "هناك أيضا %{count} مترجم شفوي في %{city}, مطابقين لطلبك، ولكن متاحين في وقت اخر."
+      few: "هناك أيضا %{count} مترجم شفوي في %{city}, مطابقين لطلبك، ولكن متاحين في وقت اخر."
+      other: "هناك أيضا %{count} مترجم شفوي في %{city}, مطابقين لطلبك، ولكن متاحين في وقت اخر."
+    show_more: "إظهار المزيد"

@@ -1,0 +1,49 @@
+- content_for :head do
+  = render "layouts/react_app"
+  %script{src: "https://www.google.com/recaptcha/api.js", async: true, defer: true}
+
+- content_for :description do
+  = t("support_page.title")
+
+- content_for :back_link do
+  = link_to t("help_menu.back_link"), root_path, class: 'back_link'
+
+- content_for :body do
+  .main_content
+    .about_sidebar
+      = render partial: 'home/help_menu'
+    .about_content
+      .about_article
+        = render partial: 'shared/help'
+        .about_contact
+          - if @error_alert
+            %p.alert.alert-danger= @error_alert
+          - elsif notice = flash[:notice]
+            %p.alert.alert-success= notice
+          = raw t("support_page.header_text")
+          .base-form
+            = simple_form_for @ticket do |f|
+              - unless current_user
+                = f.input :name, label: false, input_html: {placeholder: t('contact_form.name'), class: 'base-input'}
+                = f.input :phone,   label: false, input_html: {placeholder: t('contact_form.phone'), class: 'base-input'}, as: :string
+                = f.input :email,   label: false, input_html: {placeholder: t('contact_form.email'), class: 'base-input'}, as: :string
+                = f.input :city_name,   label: false, input_html: {placeholder: t('contact_form.city'), class: 'base-input'}, as: :string
+              = f.simple_fields_for :messages do |f|
+                = f.input :content, label: false, input_html: {placeholder: t('contact_form.content'), class: 'base-input'}, as: :text
+              %div{style: "width: 100%; float: right; margin-top: 1rem; display: flex; justify-content: center;"}
+                .g-recaptcha{data: { sitekey: RecaptchaValidator::Config[:site_key] }}
+              .clear
+              = f.submit t('contact_form.button'), class: 'base-input-submit'
+          = raw t("support_page.footer_text")
+
+          - if current_user
+            #new-support-call-container
+            #support-call-modal-container
+          - else 
+            %p= link_to(t("support_page.login_to_call"), new_user_session_path(redirect_url: support_path))
+  :javascript
+    $("#new_client_support_ticket").on('submit', function(e) {
+      if (!grecaptcha.getResponse()) {
+        e.preventDefault();
+      }
+    });

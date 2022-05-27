@@ -1,0 +1,45 @@
+layout:
+  header:
+    sign_in: 'Login'
+    help_link: 'Help'
+    sign_out: 'Logout'
+    personal_account: 'Personal account'
+    welcome: 'Welcome, %{user}'
+    interpreters_sign_in: 'Login for interpreters'
+    interpretation_calls: "Calls with interpreters"
+    calls_to_city: "Call to %{city} with interpreter"
+    support: 'Support 24/7'
+    orders: "Orders"
+    calls: "Calls"
+    searches: "Searches"
+  footer:
+    about: 'About interpreters.travel'
+    support: 'Support 24/7'
+    for_interpreters: For interpreters
+    for_interpreters_in_city: 'For interpreters in %{city}'
+    for_affiliates: "For affiliates"
+    terms: 'Terms and conditions'
+    privacy_policy: 'Privacy policy'
+  tabs:
+    interpreter_in: "Interpreter in"
+    interpreters_in: "Interpreters in"
+    countries: "%{country_count} countries"
+    international_calls_with_interpreters:
+      desktop: "International calls with interpreters"
+      mobile: "International calls <br/> with interpreters"
+      desktop_city_selected: "Calls to %{city} with interpreters"
+      mobile_city_selected: "Calls to %{city} <br/> with interpreters"
+    texts_docs_translations:
+      desktop: "Texts/docs translations"
+      mobile: "Texts/docs <br/> translations"
+  search:
+    start_search: "Start your search"
+    button: "Search"
+    download_cv: "Download CV (resume)"
+  date:
+    hour: "hour"
+    hours: "hours"
+    minute: "minute"
+    minutes: "minutes"
+    from: "from"
+    to: "to"

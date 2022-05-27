@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="<%= @locale %>">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="/favicon.png" rel="icon" type="image/png">
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin="" ></script>
+    <meta content="Interpreters Travel" property="og:site_name">
+    <meta content="100008790183428" property="fb:admins">
+    <meta content="xKAjRicGHfjBlUQw28eS0fKTkagME4WEXDzTabSrwpU" name="google-site-verification">
+    <%= render "react_helmet_defaults" %>
+    <link href="<%= asset_url('spa_assets/app.en.css') %>" media="all" rel="stylesheet" />
+    <%= javascript_include_tag "spa_assets/app.#{@locale}" %>
+    <%= render "trackers" %>
+  </head>
+  <body>
+    <noscript>
+      <iframe height='0' src='https://www.googletagmanager.com/ns.html?id=GTM-MKXTKHB' style='display:none;visibility:hidden' width='0'></iframe>
+    </noscript>
+
+    <div id="react-root"></div>
+  </body>
+</html>

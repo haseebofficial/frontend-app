@@ -1,0 +1,28 @@
+%p#notice= @notice
+
+%p
+  %b Interpreter:
+  = @order.interpreter.full_name
+%p
+  %b Client:
+  = @order.client.full_name
+%p
+  %b Address:
+  = @order.meeting_address
+
+- @order.intervals.each do |interval|
+  %p
+    %b Since:
+    = l interval.since
+  %p
+    %b To:
+    = l interval.to
+%p
+  %b Phone:
+  = @order.phone
+%p
+  %b Email:
+  = @order.client.email
+
+= link_to 'Back', order_complete_path(@order.id), class: 'btn btn-sm'
+

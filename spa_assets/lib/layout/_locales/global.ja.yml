@@ -1,0 +1,523 @@
+global:
+  locales:
+    ru: "Русский"
+    en: "English"
+    de: "Deutsch"
+    es: "Español"
+    fr: "Français"
+    it: "Italiano"
+    tr: "Türkçe"
+    pt: "Português"
+    vi: "Tiếng Việt"
+    ar: "العربية"
+    ja: "日本語"
+    zh: "中文"
+    ko: "한국의"
+
+  your_language_selector: "リストから選択する"
+  for: "にとって"
+  flash_messages:
+    new_interpreter: "interpreters.travelの登録が完了しました!ログインのためのパスワードが%{email}へ送信されました。"
+    new_partner: "interpreters.travelのパートナー登録が完了しました!ログインのためのパスワードが%{email}へ送信されました。"
+    ticket_created: "お問い合わせありがとうございます。サポート・サービスの返事が届くまでしばらくお待ちください。"
+    interpreter_message_created: "お客様のメッセージが送信されました。お返事はお客様のメールアドレスに届くまでしばらくお待ちください。"
+    paypal_payment_declined: "お支払いはPayPalによって拒否されました。 サポートにお問い合わせください。"
+    braintree_payment_declined: "Braintreeによって支払いが拒否されました。 サポートにお問い合わせください。"
+    payment_success: "ご予約は登録されました。"
+    order_not_paid: "お知らせいたします!お客様の予約は支払い方法が選択されていません。支払い方法は予約内容の下に選択できます。支払い後もこのメッセージが残る場合はサポート・サービスにご連絡ください。予約番号%{id}."
+    contacts_requested: "通訳者の連絡先は数分後利用できるようになります。お知らせとバウチャーはお客様のメールアドレスにお送りいたします。"
+    payment_declined: "入力されたカードでお支払いできませ"
+    invalid_captcha: "あなたがロボットではないことを確認してください。"
+
+  forms:
+    email: "メールアドレス:"
+    name: "お名前:"
+    phone: "電話番号:"
+    message: "メッセージ："
+    send_message_to_int: "通訳者に連絡する"
+    send_button: "送信する"
+    send_to_all: "似ている通訳者のすべてにこのメッセージを送信する"
+    order_message: "お客様のイベント、場所、日時、参加者数、対応分野、対応言語、他の特徴や条件を書いてください。"
+  meta_desc:
+    phone: "遠隔通訳を通した又は通訳者との通話料金なしの国際電話。180外国語を対応できる数千人の専門家通訳者が週7日、24時間、お通話をオンラインで通訳し又は遠隔通訳ができます"
+    main: "承認された２万人以上の通訳者は、180の外国語に早期にお手頃で質の高い通訳を提供できます。"
+    about: "2013年に設立されたI.W. Interpreters Worldwide有限会社はInterpreters.travelという通訳者検索と通訳サービスのオンライン予約サービスの排他的な権利のすべてを持ちます。"
+    for_clients: "「Interpreters.travelは世界の多数の国・都市で専門家の通訳を探し、通訳サービスを簡単で、急に予約できるオンラインサービスです！」"
+    help_interpreter: "Interpreters.travel - это удобный и безопасный сайт для получения новых заказов на услуги устного перевода. Простые в использовании функции позволяют гибко настроить сервис под мою занятость и получать заказы только на то время, на которое мне удобно. Даже имея всего несколько свободных часов в своем рабочем календаре, я получаю заказы на interpreters.travel и использую свое время максимально выгодно."
+    info: "interpreters.travelはパソコン又はスマホで通訳者を探し、世界のどこでも通訳サービスを急に予約できる安全で、使いやすいオンラインサービスです。"
+    for_affiliates: "Interpreters.travel Affiliate Program. You use a direct link or a simple search form to integrate our searches within your website. Any website user interested in interpretation services can find a suitable interpreter and place an order. You receive 5% payment for each successfully completed order."
+  top_menu:
+    login_link: 'ログイン'
+    sign_up_link: '新登録'
+    help_link: 'Помощь'
+    logout_link: 'ログアウト'
+    dashboard_link: 'アカウント'
+    welcome: 'Добро пожаловать, %{user}'
+    interpreter_login_link: '通訳者のログイン'
+    calls: "通訳者との国際電話"
+    calls_to_city: "通訳者と%{city}へ電話する"
+
+  card_checkout_form:
+    title: "%{amount}を支払う"
+    name: "カードホルダーの名前"
+    submit: "支払う"
+    cnn_error: '入力されたカードが正'
+    exp_error: '将来の日付を入力して'
+    cvv_error: 'カードの裏側にある'
+    3ds_error: '3Dセキュア認証に失敗しました。 もう一度お試しいただくか、別のお支払い方法を選択してください。'
+    text: "我々はカード追加とカード利用プロセス中、カード番号やCVV番号などの個人支"
+
+  interpretation_call:
+    completed_text: "通訳コールが完了しました："
+    datetime: "リクエストの日付、時刻："
+    language_pair: "対応言語ペア："
+    date_start: "通話の日時:"
+    duration: "通話の長さ："
+    price_minute: "１分当たりの値段:"
+    total_amount: "合計で："
+    paid: "支払済："
+    state: "の状況："
+    pay_button: "支払う"
+    awaiting_payment: "支払い"
+    completed: "完了済"
+    my_calls: "私の通話："
+    request_sent: "リクエストが予約し可能な通訳者に送信されました。"
+    no_interpreters: "通話検索に利用できる通訳者はいません"
+    submit: "通訳者を探す"
+    add_time: "追加する"
+    language: "サービスの言語"
+    your_language: "お客様の言語は"
+    immediate_call: "Call now"
+    choose_time: "Choose time"
+    new_text: "新しい通話："
+    scheduled_at: "予定："
+    new: "新しい"
+    new_call_explanation: "通訳サービスの予約に成功しました。 開始の30分前にメール通知を使用して電話について通知します。 指定された時間に、このページを開き、指示に従ってこの通話を完了します。"
+    help_link: "使い方について"
+    about_service: "使い方について"
+    app_store_link1: "interpreters.travelモバイルアプリ"
+    app_store_link2: "通訳者との国際電話"
+    enter_phone_number: "電話番号を入力してください"
+    connecting: "接続中"
+    interpreter_connected: "通訳者が接続されました"
+    payment_detail: "お支払情報"
+
+  footer:
+    info: 'interpreters.travelとは'
+    support: '24/7のサポート・サービス'
+    help_inter: 通訳者へ
+    help_inter_in_city: '%{city}の通訳者へ'
+    for_affiliates: "パートナーへ"
+    terms_conditions: '条件'
+    privacy_policy: 'プライバシーポリシー'
+    copyright_html: '&copy; Copyright 2013 - %{year}. interpreters.travel. All rights reserved.'
+
+  description_index: '世界中の通訳者'
+
+  search_form:
+    title: '通訳者を探す'
+    where: '地域：'
+    when: 'いつ：'
+    language: 'サービスの言語：'
+    your_language: 'お客様の言語は：'
+    button: '検索'
+    city: '例 ： ベルリン、上海、ニューヨーク'
+    date_time: '日時を選んでください'
+    timepicker:
+      title: 'ミーティングの時間(現地の）'
+      total: '間隔の総合時間'
+      from: 'から'
+      till: 'まで'
+      buttons:
+        add_day: '追加する'
+        clear: '削除する'
+        clear_intervals: '間隔を削除する'
+        choose: '選択'
+    language_selector:
+      no_result: '只今この都市には予約できる通訳者はいません'
+      list_select: 'リストから選択する'
+      blank_city: "先ず、市を選んでください"
+    city_selector:
+      no_result: "只今この都市には予約できる通訳者はいませんこの都市にいる通訳者を後ほど/別の期間に予約して、又は、別の都市を選んでください"
+  partner_search_form:
+    title: '172ヶ国における通訳者'
+    desc: '展示会、会議、商談会のための専門家通訳者'
+    show: 通訳者を探す
+  contact_form:
+    name: "氏名:"
+    phone: "電話番号:"
+    email: "メールアドレス:"
+    city: "都市:"
+    content: "メッセージ:"
+    button: "送信"
+
+  counts:
+    cities:
+      one: '%{count}市に'
+      other: '%{count}市に'
+    countries:
+      one: '%{count}に'
+      other: '%{count}に'
+
+  client_reviews:
+    leave_review: "レビューを書く"
+    score: "総合評点"
+    interpretation_score: "通訳のスピード及び精度"
+    punctuality_score: "時間厳守及び自己規律"
+    consultation_score: "イベント中の手伝いとコンサルテーション"
+    comment: "通訳者の仕事に関する全体的な印象、その他のコメント"
+    updated: "レビューが送信されました。お時間頂き、ご意見をシェアして頂きありがとうございました。"
+    about_review: "通訳サービスうぃ予約して、支払いしたお客様のレビュー"
+    client_reviews_title: "承認された通訳者、お客様の実際のレビュー"
+    why_inter:
+      title: 'interpreters.travelを使用する理由'
+      block1:
+        link: '簡単で、安全!'
+        text_html: '予約を今、支払いを後でします！ <br/> 予約キャンセル料は無料 <br/> 支払いの安全性が保障されます'
+      block2:
+        link: '値段が低い'
+        text_html: '代理店の値上げなく、予約のすべては通 <br/> 訳者の値段でします。 <br/> 予約値段の計算は割引も含みます'
+      block3:
+        link: 'たくさんの選択肢'
+        text_html: '世界の%{countries}ヶ国、%{cities}市に通訳者がいます'
+      block4:
+        link: '便利'
+        text_html: '支払いしやすい:VISA,MasterCard,<br/> 送金、通訳者へ直接に現金<br/>24/7のサポート・サービス'
+  search_page:
+    window_title:
+      zero: "%{city}には通訳者はいません。"
+      one: "%{city}には通訳者は%{count}人います"
+      few: "%{city}には通訳者は%{count}人います"
+      other: "%{city}には通訳者は%{count}人います"
+    title:
+      zero: "%{city}には通訳者はいません。"
+      one: "にいる通訳者 %{city}"
+      few: "にいる通訳者 %{city}"
+      other: "にいる通訳者 %{city}"
+    keywords: "%{city}にいる通訳者, %{city}にいる通訳者のサービス, %{city}にいる日本語の通訳者, %{city}にいる英語の通訳者, %{city}にいる私的な通訳者, %{city}にいる通訳者"
+    meta_description: "%{city}にいる商談・交渉、展示会、会議の専門家の通訳者。通訳者に連絡し、又はウェブサイトでは前払いや値上げなしでご予約下さい。"
+    free_cancellation: "予約は今、支払は後！予約キャンセル料は無料値上げなし！"
+    one_available_interpreter: "%{city}にいる通訳者は一人を予約できます"
+    one_from_few_available_interpreter: "%{city}にいる%{count}人通訳者の中、%{free}人を予約できます"
+    need_translation: "Need %{source_lang}-%{target_lang} professional translation?"
+    get_quote: "GET QUOTE"
+    available_interpreters:
+      zero: "お客様が入力された条件に当たる通訳者は%{city}にいません。"
+      one: "%{city}にいる%{count}人通訳者の中、%{free}人を予約できます"
+      few: "%{city}にいる%{count}人通訳者の中、%{free}人を予約できます"
+      other: "%{city}にいる%{count}人通訳者の中、%{free}人を予約できます"
+    duration_text: "%{duration}時間の値段(%{intervals})、割引を含む"
+    back_link: "ホームページへ"
+    price: "%{city}にいる通訳者の値段"
+    services: "%{city}にいる通訳者のサービス"
+    specializations: "通訳対応分野"
+    fold: 隠す
+    unfold: もっと見る
+    city_desc: "%{city}にいる通訳者について"
+    change_date: "日時を変更しますか？"
+    sort:
+      title: "Сортировка:"
+      price: "Цена"
+      updated_at: "Дата обновления"
+      level: "Оценка резюме"
+    learn_more: "もっと詳しく"
+    result: "結果"
+    filter: "フィルター"
+    search: "検索"
+    map_link: "地図で見る"
+    minimum_volume_message: "%{city}にいる通訳者の最短勤務時間は%{hours}です。ミーティング時間を増加してください。"
+    busy_interpreters_message: "%{count} 選択した時間に利用できない通訳"
+    minimum_advance_message: "%{city}にいる通訳者はご予約を実行できるのはこれから%{advance}以降となります。日時を変更してください。"
+    time_in_past: "未来の日付を入力してください"
+    another_price_interpreters:
+      one: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の値段間隔を選んでください"
+      few: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の値段間隔を選んでください"
+      other: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の値段間隔を選んでください"
+    busy_interpreters:
+      one: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の期間を入力してください"
+      few: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の期間を入力してください"
+      other: "入力された条件に当たる通訳者はもう一人いますが、予約できるようになるため、別の期間を入力してください"
+    show_more: "もっと見る"
+    show_result: "検索結果を見る"
+  interpreter:
+    diplomas: "卒業証明書"
+    certificates: "教育"
+    experience: "経歴"
+    recommendations: "推薦"
+    level: "Уровень"
+    rating: "ランキング"
+    reviews: "お客様の声"
+    education: 教育
+    reviews_text: "サービスを予約し、支払いしたお客様の声のみ"
+    rating_text: "ランキングは20項目以上(経歴、教育、お客様の声、推薦、履歴書の性質等)から作成されました"
+    events: "イベント"
+    resume_level: "Уровень <span class='mobile-hide'> резюме:</span>"
+    title: "にいる専門家の通訳者"
+    title_city: "%{city}にいる専門家の通訳者"
+    verified_contacts: "連絡先が保証されました"
+    verified_profile: "プロファイルが保証されました"
+    in_city: "%{city}にいる通訳者 - %{name}"
+
+  show_interpreter:
+    translation: "文書・書類の翻訳"
+    get_quote: "値段に関する情報を申し込む"
+    order_now: "予約する"
+    title: "%{city}にいる通訳者(%{langs}) - %{interpreter}"
+    meta_description: "%{city}にいる商談・交渉、展示会、会議の専門家の通訳者のサービス"
+    desc_addition: "%{city}に%{langs}通訳サービスを提供します"
+    keywords: "%{city}にいる通訳者, %{city}にいる通訳者のサービス, %{city}にいる日本語の通訳者, %{city}にいる私的な通訳者, %{city}にいる通訳者, %{city}での通訳サービス"
+    service_select: "%{city}にいる通訳者"
+    similar_interpreters: "似ている通訳者"
+    experience: "経歴"
+    youtube_link: 自己紹介ビデオ
+    verified_contacts_text: "パスポート(又はI身分証明書や免許証)と教育証明書がチェックされました。"
+    ticket_text: '予約する前、事前リクエストを送信して又は、適当なサービスの「予約」ボタンを押して、選択された日付をすぐに予約してください。'
+    why_itravel_block: |
+      <h3> interpreters.travelを利用する理由 </h3>
+      <p> 値上げなく通訳者の値段でサービスを予約できる </p>
+      <p> オンライン支払いも現金の支払いも可能 </p>
+      <p> 予約キャンセル料は無料!支払い戻しが保証される</p>
+      <p> 登録せずに予約できる</p>
+      <p> オンライン支払は安全で、個人データが保障される </p>
+    why_itravel_title: "interpreters.travelを利用する理由"
+    why_itravel_1: "値上げなく通訳者の値段でサービスを予約できる"
+    why_itravel_2: "オンライン支払いも現金の支払いも可能"
+    why_itravel_3: "予約キャンセル料は無料!支払い戻しが保証される"
+    why_itravel_4: "登録せずに予約できる"
+    why_itravel_6: "オンライン支払は安全で、個人データが保障される"
+    learn_more: "もっと詳しくこちら"
+    back_link: "%{city}にいる通訳者の全て"
+    load_more: "もっと見る"
+    selected_period: "選択された期間: %{intervals}"
+    specializations: "通訳対応分野"
+    language_pairs: "通訳の対応言語ペア"
+    unavailable: "通訳者のサービスを予約できません。"
+    edit_search: "予約の時間を変更してください。"
+    available_services: "%{period}予約可能なサービス"
+    price: "%{hours}の値段*"
+    order: "予約"
+    person_count:  '(%{count}人)'
+    additional_services: "追加サービス"
+    free_cancellation_text: "%{hours}で無料で予約をキャンセルできます。その後のキャンセルは可能ですが、通訳者の二時間代を払えなければならなくなります。"
+    free_cancellation: "無料のキャンセル"
+    discount: "割引"
+    order_button: "予約する"
+    star_text: "*割引を含む予約の合計額"
+    avg_response_time:
+      title: "返事時間:"
+      hour: "一時間以内"
+      few_hours: "数時間以内"
+      day: "一日中"
+      few_days: "数日中"
+    response_rate: "返事頻繁さ:"
+    how_to_order:
+      title: "%{city}にいる通訳者を予約するため:"
+      text: |
+        －選択されたサービスの「予約」ボタンを押す
+        <br>
+        －クレジットカードで予約を保証し、又は送金するため会計を受ける。通訳者に現金でもお支払いできます。
+        <br>
+        －予約の確認と通訳者の連絡先があるバウチャーを受ける
+    confirm_modal:
+      date: "予約の日時:"
+      service: "%{city}に%{service}"
+      languages: "対応言語:"
+      price: "予約合計額:"
+    reviews_from: サービスを予約し、支払いしたお客様の声のみ
+    dialogs:
+      checked_and_confirmed: 'チャックされ、確認されました:'
+      email_full: "メールアドレス%{email}"
+      phone_full: "携帯電話番号%{phone}"
+      email_address: "メールアドレス ▒▒▒▒▒▒@▒▒▒▒.%{domain}"
+      phone: "携帯電話番号: ▒▒▒▒▒▒%{last_two}"
+      contacts_available: "連絡先は%{confirmation}取得できます"
+      order_confirmation: "ご確認後"
+      passport: 'パスポート/身分証明書/免許証'
+      documents: 教育証明書
+      contacts_title: 連絡先が保証されました
+      profile_title: プロファイルが保証されました
+      education_title: "教育"
+      youtube_title: "自己紹介ビデオ"
+    500_page:
+      title: 通訳者が見つけていません
+      title_text: 只今この通訳者は忙しく又はプロファイルを中止しました。
+      similar_ints_title: "%{city}にいる他の通訳者をご覧ください"
+      to_search: "予約できる%{city}にいる%{link}通訳者をご覧ください"
+      search: 検索へ
+    viewers_count:
+      one: "只今子の通訳者のプロファイルは %{count}人が閲覧中です"
+      few: "只今子の通訳者のプロファイルは %{count}人が閲覧中です"
+      other: "只今子の通訳者のプロファイルは %{count}人が閲覧中です"
+
+  order_page:
+    description: "予約する"
+    back_link: 'サービス選択へ'
+    stage1: "通訳者を選択する"
+    stage2: "サービスを選択する"
+    stage3: "予約する"
+    order_info: "予約情報"
+    services_info: "__市における通訳サービス: %{city}."
+    selected_period: "選択された期間:"
+    language_pairs: "対応言語ペア:"
+    selected_services: "選択されたサービス:"
+    additional_services: "追加サービス:"
+    order_cancellation: "無料の予約キャンセル:"
+    cancellation_possible: "%{date}で可能"
+    no_cancellation: "不可能"
+    service_types: "選択されたサービス:"
+    order_price: "予約の合計額と貨弊単位:"
+    discount: "割引を含む"
+    personal_form_tab: "Оформить заказ на частное лицо"
+    confirmation_code: "番号に送信された確認コードを入力してください:"
+    login_button: "ログインする"
+    enter_your_details: "連絡先を入力する"
+    login_password_info: "(パスワードは %{mail} へ送信されました)"
+    login: "ログイン"
+    password: "パスワード"
+    forgot_password_success: "数分でをパスワード再設定を説明するメールが届きます。"
+    forgot_password: "パスワードを忘れた場合"
+    forgot_title: "パスワードをリセット"
+    new_password: "新しいパスワードを作る"
+    client_currency: "Валюта для оплаты"
+    payment:
+      choice: "以下の支払い方法が利用できます:"
+      choice_paypal: "PayPal"
+      choice_invoice: "銀行口座への送金"
+      choice_cash: "現金"
+      choice_card: "VISA/MasterCard"
+      info: "現金で支払う場合は、予約のキャンセル条件は通訳者と調和しなければなりません"
+      cash_text: '「現金」を選択する場合、予約するときの為替レートに沿って通訳者の貨幣単位 (%{amount}) で通訳者に直接に支払いします。合計額は通訳者の貨幣単位で領収書に入力されます。'
+      invoice_text1: "勘定書類のコピーはpdfファイルとしてメールで送信されます。"
+      invoice_text2: "勘定は送金としてどの銀行であっても支払いできます。勘定に記述された支払い締め切りの三日間前にお支払いください。"
+      invoice_text_eur: "注意を払う！ 請求書の支払い金額は、選択した通貨と一致しない可能性のある使用可能な通貨（EUR）の1つで指定されています。"
+      invoice_text_secure_deal: "安全な取引サービスをご利用となります。通訳者への支払いは、ご予約の完了後のみに送信いたします。 <br/> 勘定書類のコピーはpdfファイルとしてメールで送信されます。"
+      paypal: 'PayPalの支払いページへ移動させます。「PayPal」をクリックしてください。'
+      select: "支払い方法:"
+      invoice: "勘定(送金)"
+      cash: "現金"
+      order_button: "通訳者サービスを予約する"
+      card_secure: "安全な取引サービスをご利用となります。通訳者への支払いは、ご予約の完了後のみに送信いたします。"
+    personal_form:
+      title: "予約したクライアント情報:"
+      surname: "苗字:"
+      name: "氏名:"
+      sms_phone: "電話番号 (+35733...):"
+      city: "Город:"
+      address: "Адрес:"
+      email: "メールアドレス:"
+      info_for_interpreter: "通訳者のための情報:(必須ではありません。後ほど送信できます)"
+      meeting_address: "待ち合わせ場所: "
+      map_link: "地図を表示"
+      detail_information: "ミーティングのテーマや話題、プレスリリースなどを入力してください(1200字以内)。それは通訳者のミーティング準備にとってとても大事です。"
+      file_field: "ファイルを添付する"
+      submit: "支払い方法を選択する"
+      agreement_text: "「支払方法を選択する」ボタンを押すことで%{policy}そして%{terms}を読んで、同意することを確認します。"
+      agreement_calls_text: "「次へ」ボタンを押すことで%{policy}そして%{terms}を読んで、同意することを確認します。"
+      policy: "「プライバシーポリシー」"
+      terms: "「条件」"
+  order_complete:
+    title: "予約の登録"
+    back_link: "ホームページへ"
+    for_client: "%{client}様!"
+    order_registered: "ご予約は登録されました。"
+    text: |
+      入力されたメールアドレスにご予約の内容、そして次のステップの説明メールが送信されました。
+      <br>
+    link: "ウェブサイトで"
+    after_link: "もご予約の内容が見れます"
+  personal_account:
+    voucher_not_ready: "バウチャーに予約確認後そして無調キャンセル期間後アクセスができるようになります"
+    voucher_ready_after_confirmation: "バウチャーに予約確認後そして無調キャンセル期間後アクセスができるようになります"
+    receipt_not_ready: "領収書に支払い後アクセスができるようになります"
+  show_order_page:
+    title: "予約を見る"
+    details: "予約の内容:"
+    from: "の"
+    get_voucher: "予約バウチャーを受ける"
+    cancelled: "予約はキャンセルされました"
+    period: "選択された期間:"
+    contact_details: "通訳者の連絡先:"
+    email: "メールアドレス:"
+    phone: "電話番号:"
+    service_info: "サービスの追加情報"
+    languages: "対応言語ペア:"
+    address: "待ち合わせ場所:"
+    additional_services: "サービスの内容:"
+    not_available: "追加のサービスはございません。"
+    cancellation_conditions: "予約キャンセルの条件:"
+    payment_info: "支払い情報"
+    payment: "支払い:"
+    payment_date: "支払い日付:"
+    get_receipt: "支払い領収書を取得"
+    pay_with_card: "支払う (VISA/MasterCard)"
+    pay_with_card_2: "interpreters.travelを通して支払い(VISA/MasterCard)"
+    pay_invoice: "interpreters.travelを通して支払い(電信送金)"
+    download_invoice: "インボイスをダウンロードする"
+    payment_receipt: "領収書に支払い後アクセスができるようになります"
+    client_info:
+      title: "予約者のデータ:"
+      name: "氏名:"
+      city: "都市:"
+      phone: "電話番号:"
+      email: "メールアドレス:"
+    confirm_order_changes: "予約変更を確認する"
+    cancel_order: "予約をキャンセルする"
+    cancel_warning: "キャンセルされた予約を元に戻ることができません"
+    continue: "続けますか?"
+    continue2: "次へ"
+    details_available_after_confirmation: "通訳者が予約を確認する後見れるようになります。"
+    details_not_available: "バウチャーに予約確認後そして無調キャンセル期間後はアクセスできるようになります"
+    details_will_be_displayed: "予約の受け入れ、支払い後に表示されます(現金の支払いではない場合)"
+    request_contacts: "今すぐ連絡先を見る"
+    request_contacts_text: "通訳者の連絡先を受けることによって、予約キャンセル条件を変更します。キャンセル場合は通訳者の二時間代を払わなければなりません。 速めに連絡先の取得、そして予約キャンセル条件の変更をご確認ください。"
+    upon_agreement: "合意に基づき"
+  order_pages_sidebar:
+    menu: "Меню"
+    orders: "お客様の予約"
+    calls: "私の通話"
+    searches: "過去のサーチ"
+    logout: "ログアウト"
+    from: "の"
+  searches_index_page:
+    title: "お客様のサーチ"
+    created_at: "サーチ日付"
+    city: "都市"
+    languages: "対応言語ペア"
+    intervals: "日時"
+    show_search_form: "通訳者を見つける"
+  translation_orders:
+    text_docs_translation: "文書・書類の翻訳"
+    word_count: "単語数:"
+    view_file: "ファイルを見る"
+    specialisation: "専門分野:"
+    due_date_time: "締め切りの日時:"
+    interpreter_role: "通訳者"
+    years: "年間"
+  validator:
+    required: 'この事項は記入が必要です'
+    remote: 'Пожалуйста, введите правильное значение.'
+    email: '正しいメールアドレスをご記入ください。'
+    url: 'Пожалуйста, введите корректный URL.'
+    date: 'Пожалуйста, введите корректную дату.'
+    dateISO: 'Пожалуйста, введите корректную дату в формате ISO.'
+    number: 'Пожалуйста, введите число.'
+    digits: 'Пожалуйста, вводите только цифры.'
+    creditcard: 'Пожалуйста, введите правильный номер кредитной карты.'
+    equalTo: 'Пожалуйста, введите такое же значение ещё раз.'
+    accept: 'Пожалуйста, выберите файл с правильным расширением.'
+    maxlength: 'Please enter no more than {0} characters.'
+    minlength: 'Пожалуйста, введите не меньше {0} символов.'
+    rangelength: 'Пожалуйста, введите значение длиной от {0} до {1} символов.'
+    range: 'Пожалуйста, введите число от {0} до {1}.'
+    max: 'Пожалуйста, введите число, меньшее или равное {0}.'
+    min: 'Пожалуйста, введите число, большее или равное {0}.'
+    uniq_email: 'このメールアドレスはもう既に利用されています。どの他のメールアドレスをご利用ください。'
+    phone_format: "＋３５７...フォーマットでご記入ください"
+    city_select: "Enter correct city name and select from list"
+    minlength_error: "間違った長さ"
+    maxlength_error: "Too long text"
+    interval_exists: 'この期間がもう入力され、別の期間を入力してください'
+    invalid_interval: '選択された期間は間違っています'
+  phone:
+    terms_link: "条件"
+    waiting_interpreter: "リクエストが予約し可能な通訳者に送信されました。平均の返事時間は3分です。"

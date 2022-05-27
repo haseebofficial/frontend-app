@@ -1,0 +1,76 @@
+# Add account credentials and API keys here.
+# See http://railsapps.github.io/rails-environment-variables.html
+# This file should be listed in .gitignore to keep your settings secret!
+# Each entry sets a local environment variable and overrides ENV variables in the Unix shell.
+# For example, setting:
+# GMAIL_USERNAME: Your_Gmail_Username
+# makes 'Your_Gmail_Username' available as ENV["GMAIL_USERNAME"]
+# Add application configuration variables here, as shown below.
+#
+RAILS_ENV: development
+ROLES: [admin, client, interpreter, senior_manager, manager, operator, expert, financial_controller, account_manager, promo_manager]
+DEFAULT_PASSWORD: Tr4v3l
+
+APP_NAME: Interpreters.travel
+
+# FRONTEND_DOMAIN: frontend.interpreters.travel <= Check is it exists on Backend (vitalyp)
+
+# API_BASE_URL: http://interpreters-local.t.proxylocal.com/api
+#API_BASE_URL: https://backend-dev.interpreters.travel/api
+API_BASE_URL: https://backend.interpreters.travel/api
+BACKEND_URL: https://backend.interpreters.travel
+ASSETS_HOST: http://localhost:3000
+
+#PostgreSQL Testing host readonly
+PGHOST: 176.9.60.244
+PGUSER: interpreters_ro
+PGPASSWD: 66MBa738Vh
+PGPORT: 6432
+PGDB: backend
+#GCP
+GCP_PROJECT: interpreters-travel
+GCP_BUCKET: docker-test-uploads
+GCP_ACCESS_KEY_ID: GOOGD72L32BDHPJSRQ2V2AO6
+GCP_SECRET_ACCESS_KEY: MhLw3/emMPkJWTg34Zk/7MLjKBqNVe/TXWjOlv+p
+
+#SMTP
+SMTP_SERVER: smtp.mandrillapp.com
+SMTP_PORT: 587
+MAIL_DOMAIN: interpreters.travel
+MAIL_USER: no-reply@interpreters.travel
+MAIL_PASSWORD: y4gT7n7rNP4JPi6zPLiTdg
+#Paypal Production
+PAYPAL_USER: interpretersworldwide_api1.gmail.com
+PAYPAL_PWD:  MAAY6LW34U88376X
+PAYPAL_SIGN: AXVtb8qGZYhrXClqm4V0-17mE.baAOSrJktMKnDixkq-Ue6GHENfFOt3
+
+BRAINTREE_MERCHANT_ID: g5t9xq738dyv939x
+BRAINTREE_PUBLIC_KEY: jfw3vy76t3rs2njr
+BRAINTREE_PRIVATE_KEY: e22fef9414aa0dca1d970fd6f57c5c74
+
+BRAINTREE_RUB_MERCHANT: interpreters_payments_rub
+BRAINTREE_USD_MERCHANT: interpreters_payments_usd
+BRAINTREE_EUR_MERCHANT: iwinterpretersworldwideltd
+
+INTERNAL_API_TOKEN: aljffny1i83efold8dch
+
+# localhost
+RECAPTCHA_SITE_KEY: 6Lc_qQkdAAAAAKQQnWFQCxbyUUG2KnamI68iZ8S4
+RECAPTCHA_SECRET_KEY: 6Lc_qQkdAAAAAF9KB5y33JMxK3HDhhBSCM5u3rLS
+
+production:
+  PAYPAL_USER: interpretersworldwide_api1.gmail.com
+  PAYPAL_PWD:  MAAY6LW34U88376X
+  PAYPAL_SIGN: AXVtb8qGZYhrXClqm4V0-17mE.baAOSrJktMKnDixkq-Ue6GHENfFOt3
+
+  DEFAULT_PASSWORD: Int3rp3t3rsTr4v3l
+  API_BASE_URL: https://backend.interpreters.travel/api # base url of the API
+  BACKEND_URL: https://backend.interpreters.travel
+
+  BRAINTREE_MERCHANT_ID: np2b733cp9wpbyjt
+  BRAINTREE_PUBLIC_KEY: j368hsyzrfdmvvzd
+  BRAINTREE_PRIVATE_KEY: c43019df387358ee333a655280fe5f35
+
+  BRAINTREE_RUB_MERCHANT: interpreters_payments_rub
+  BRAINTREE_USD_MERCHANT: interpreters_payments_usd
+  BRAINTREE_EUR_MERCHANT: kochkurovinterpreterstravel

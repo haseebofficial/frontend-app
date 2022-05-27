@@ -1,0 +1,9 @@
+ar:
+  top_menu:
+     login_link: 'الدخول'
+     sign_up_link: 'التسجيل'
+     help_link: 'مساعدة'
+     logout_link: 'خروج'
+     dashboard_link: 'حسابك الشخصي'
+     welcome: 'مرحبا%{user}'
+     interpreter_login_link: 'الدخول للمترجمين'

@@ -1,0 +1,14 @@
+login_page: 
+  page_slogan: "Вход"
+  form: 
+    email: "Email:"
+    password: "Пароль:"
+    remember_me: "Запомнить меня"
+    submit: "Вход"
+    error: "Неверный адрес email или пароль."
+  links:
+    sign_in_for_interpreters: "Вход для переводчиков" 
+    sign_in: "Вход"
+    sign_up: "Регистрация"
+    restore_password: "Забыли пароль?"
+    sign_up_for_interpreters: "Регистрация для переводчиков"

@@ -1,0 +1,21 @@
+ar:
+  interpreter:
+    diplomas: "الدبلومات"
+    certificates: "الشهادات"
+    experience: "الخبرة"
+    level: "المستوى"
+    rating: "التقييم"
+    reviews: "تعليقات"
+    education: التعليم
+    reviews_text: "فقط للعملاء الذين قاموا بالطلب ودفعوا ثمن خدمة المترجم"
+    rating_text: "يتكون التقييم من أكثر من 20 عنصر: الخبرة في العمل، والتعليم، وتعليقات العملاء، والتوصيات، وجودة الملف الشخصي وغيرهم"
+    recommendations: "توصيات"
+    events: "الأنشطة"
+    resume_level: "Уровень <span class='mobile-hide'> резюме:</span>"
+    title: "مترجم محترف"
+    title_city: "مترجم شفوي محترف في %{city}"
+    verified_contacts: "تم التحقق من جهات الاتصال"
+    verified_profile: "تم تأكيد الملف الشخصي"
+    in_city: "مترجم في %{city} - %{name}"
+  translate: "ترجمة"
+  show_original: "اظهار النسخة الأصلية"

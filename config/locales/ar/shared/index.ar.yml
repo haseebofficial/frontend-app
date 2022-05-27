@@ -1,0 +1,39 @@
+ar:
+  registration_notify_subject: "Вы зарегистрированы в interpreters.travel"
+  hello: "Hello world"
+  TrueClass: "Yes"
+  FalseClass: "No"
+
+  errors:
+    messages:
+      wrong_size: "is the wrong size (should be %{file_size})"
+      size_too_small: "is too small (should be at least %{file_size})"
+      size_too_big: "is too big (should be at most %{file_size})"
+
+  years:
+    one: '%{count} سنة'
+    few: '%{count} سنة'
+    other: '%{count} سنوات'
+  hours: 
+    one: "%{count} ساعة"
+    few: "%{count} ساعات"
+    other: "%{count} ساعات"
+  minutes: 
+    one: "%{count} دقيقة"
+    few: "%{count} دقائق"
+    other: "%{count} دقائق"
+  counts: 
+    cities: 
+      one: '%{count} مدينة'
+      few: '%{count} مدن'
+      other: '%{count} مدن'
+    countries: 
+      one: '%{count} بلد'
+      few: '%{count} بلدان'
+      other: '%{count} بلدان'
+
+  date:
+    month_names: [~, يناير،, فبراير،, مارس،, أبريل،, مايو،, يونيو،, يوليو،, أغسطس،, سبتمبر،, أكتوبر،, نوفمبر،, ديسمبر]
+  order: 
+    cancellation_possible: "متاح حتى"
+    no_cancellation: 'لا يوجد'

@@ -1,0 +1,31 @@
+.page-header
+  %h1 Listing orders
+
+.table-responsive
+  %table.table.table-bordered.table-hover
+    %thead
+      %tr
+        - if current_user.is_client?
+          %th Interpreter
+        - elsif current_user.is_interpreter?
+          %th Client
+        %th Address
+        %th Since
+        %th To
+        %th Phone
+        %th
+    %tbody
+      - @orders.each do |order|
+        %tr
+          - if current_user.is_client?
+            %td= order.interpreter.full_name
+          - elsif current_user.is_interpreter?
+            %td= order.client.full_name
+          %td= order.address
+          %td= l order.since
+          %td= l order.to
+          %td= order.phone
+          %td
+            .btn-group
+              = link_to order, class: "btn btn-xs btn-info" do
+                %i.icon-eye-open.bigger-120

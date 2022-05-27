@@ -1,0 +1,529 @@
+global:
+  locales:
+    ru: "Русский"
+    en: "English"
+    de: "Deutsch"
+    es: "Español"
+    fr: "Français"
+    it: "Italiano"
+    tr: "Türkçe"
+    pt: "Português"
+    vi: "Tiếng Việt"
+    ar: "العربية"
+    ja: "日本語"
+    zh: "中文"
+    ko: "한국의"
+
+  your_language_selector: "Scegli la lingua"
+  for: "per"
+  flash_messages:
+    new_interpreter: "Voi siete registrati con successo sul sito interpreters.travel! la parola chiave per il vostro profilo è stata inviata sull’indirizzo e-mail (%{email}) segnato da voi prima."
+    new_partner: "Lei è registrato con successo Su Interpreters.travel come un affiliato! Una Password per il collegamento allo spazio personale è stato inviato sull’Indirizzo di posta elettronica da Lei indicato: %{email}."
+    ticket_created: "La ringraziamo per essere collegato all’assistenza. Lei riceverà una risposta in breve."
+    interpreter_message_created: "Il Messaggio è stato inviato. In breve Lei riceverà una risposta sul Suo e-mail."
+    paypal_payment_declined: "PayPal declinò il Suo pagamento. La preghiamo di rivolgersi all’assistenza"
+    braintree_payment_declined: "Braintree declinò il Suo pagamento. La preghiamo di rivolgersi all’assistenza"
+    payment_success: "Il Suo ordine è stato registrato!"
+    order_not_paid: "N.B.: Il Suo pagamento sull’ordine non aveva il successo! Lei potrebbe Scelga un’altra modalità di pagamento sotto l’informazione d’ordine. Se l’oridne sia già pagato, ma il messaggio sempre sia presente, le preghiamo di rivolgersi all’assistenza. Numero d’ordine: %{id}."
+    contacts_requested: "Contatti del traduttore diventeranno accessibili dopo qualche istante. Lei riceverà un avviso ed una ricevuta sul Suo indirizzo e-mail."
+    payment_declined: "Il pagamento negato. Contattare il servizio clienti"
+    invalid_captcha: "Conferma di non essere un robot."
+
+  forms:
+    email: "E-mail:"
+    name: "Suo nome:"
+    phone: "Telefono:"
+    message: "Messaggio:"
+    send_message_to_int: "Contatti l’interprete"
+    send_button: "Invii"
+    send_to_all: "Inviare un messaggio a tutti degli interpreti simili"
+    order_message: "Segni il Suo evento, luogo, data, ora d’avvenimento, quantità di partecipanti, tematica, Combinazione linguistica, altre particularità e delle esegenze."
+  meta_desc:
+    phone: "Interpreters.travel fornisce chiamate internazionali con interpreti o interpretariato da remoto. Accesso 24/7, 180 lingue, Oltre 20.000 interpreti professionisti"
+    main: "Interpreti. In tutto il mondo. Perché Scelga Interpreters.travel? Interpreti verificati e sicuri e inserzioni dei clienti reali"
+    about: "La compagnia Interpreters.travel OÜ, creata nel 2013, possiede in pieno volume dei diritti esclusivi per interpreters.travel - un servizio di ricerca degli interpreti ed di riservazione in linea dei servizi d’interpretazione su tutto il mondo."
+    for_clients: "Interpreters.travel è un servizio online che permettere facilmente e velocemente di trovare interpreti professionisti e prenotare i loro servizi di interpretazione, in molte città in tutto il mondo!"
+    help_interpreter: "Interpreters.travel è un sito sicuro e comodo per la ricezione delle richieste di lavoro per i servizi di interpretazione consecutiva e simultanea. Il sito mi permette di impostare in pochi semplici passaggi i miei servizi in modo abbastanza flessibile, tenendo in considerazione i miei impegni, così da ricevere richieste soltanto nel tempo in cui sono disponibile. Anche avendo poche ore libere nella mia agenda, ricevo richieste dal sito Interpreters.travel e posso utilizzare il mio tempo in modo più vantaggioso."
+    info: "Interpreters.travel - è un servizio semplice, sicuro e affidabile, che permette direttamente sul sito o mediante un dispositivo mobile, in un manera rapida, Trovi un interprete conveniente e Prenoti dei servizi d’interpretazione su tutto il mondo."
+    for_affiliates: "Programma per i soci di Interpreters.travel. Inserisca un modulo di ricerca degli interpreti o un collegamento ipertestuale sul Suo sito. Un utente del Suo sito, interessato ai servizi d’interpretazione, trova un interprete che fa al caso suo e lo contatta per un servizio. Lei riceve una commissione pari al 5% della somma di ogni servizio eseguito."
+  top_menu:
+      login_link: 'Accesso'
+      sign_up_link: 'Registrazione'
+      help_link: 'Aiuto'
+      logout_link: 'Uscita'
+      dashboard_link: 'Spazio personale'
+      welcome: 'Benvenuto, %{user}'
+      interpreter_login_link: 'Accesso per gli interpreti'
+      calls: "Chiamate con interpreti"
+      calls_to_city: "Chiamate a %{city} con interpreti"
+
+  card_checkout_form:
+    title: "Pagare %{amount}"
+    name: "Nome del titolare carta"
+    submit: "Pagare"
+    cnn_error: 'Numero della carta digitato errato'
+    exp_error: 'Digitare  la data futura in formato mm/aa'
+    cvv_error: 'Digitare CVV, indicato sul retro della carta'
+    3ds_error: 'Autenticazione 3-D Secure non riuscita. Riprova o seleziona un altro metodo di pagamento.'
+    text: "Non abbiamo accesso ai vostri dati personali (numero della carta di credito o codice CVV) né durante il pagamento né durante l’aggiunta di una nuova carta di credito"
+
+  interpretation_call:
+    completed_text: "Chiamata di interpretazione completata:"
+    datetime: "Data, ora della richiesta:"
+    language_pair: "Combinazione linguistica:"
+    date_start: "Data, ora di inizio della chiamata:"
+    duration: "Durata della chiamata:"
+    price_minute: "Tariffa al minuto:"
+    total_amount: "Totale:"
+    paid: "Pagato:"
+    state: "Stato:"
+    pay_button: "Paga"
+    awaiting_payment: "In attesa di pagamento"
+    completed: "Completato"
+    my_calls: "Le mie chiamate:"
+    request_sent: "La richiesta è stata inviata agli interpreti disponibili."
+    no_interpreters: "Non sono disponibili interpreti per la ricerca delle chiamate"
+    submit: "Trovi un interprete"
+    add_time: "Aggiungi tempo"
+    language: "Lingua"
+    your_language: "La La Sua lingua è"
+    immediate_call: "Chiamare ora"
+    choose_time: "Scegli un orario"
+    new_text: "Nuova chiamata:"
+    scheduled_at: "In programma a:"
+    new: "Nuova"
+    new_call_explanation: "Hai prenotato con successo i servizi di interprete. Ti ricorderemo della chiamata 30 minuti prima dell'inizio tramite una notifica via e-mail. All'ora specificata, apri questa pagina e segui le istruzioni per completare questa chiamata."
+    help_link: "Come funziona"
+    about_service: "Su servizio"
+    app_store_link1: "app mobile interpreters.travel"
+    app_store_link2: "per le chiamate con interpreti"
+    enter_phone_number: "Inserisci il numero di telefono"
+    connecting: "Сonnessione in corso…"
+    interpreter_connected: "L'interprete è connesso"
+    payment_detail: "Dettagli del pagamento"
+
+  footer:
+    info: 'Su Interpreters.travel'
+    support: 'Assistenza 24/7'
+    for_interpreters: Agli interpreti
+    for_interpreters_in_city: 'Agli interpreti a %{city}'
+    for_affiliates: "Ai soci"
+    terms: 'Termini e condizioni'
+    privacy_policy: 'Politica di riservatezza'
+    copyright_html: '&copy; Copyright 2013 - %{year}. interpreters.travel. All rights reserved.'
+
+  description_index: 'Interpreti. In tutto il mondo'
+
+  search_form:
+    title: 'Trovi un interprete'
+    where: 'Dove:'
+    when: 'Quando:'
+    language: 'Quale lingua occorre:'
+    your_language: 'La La Sua lingua è:'
+    button: 'Cerchi'
+    city: 'Esempio: Berlino, Mosca, New York'
+    date_time: 'Scelga la data, ora'
+    timepicker:
+      title: 'ora d’incontro (locale):'
+      total: 'Durata totale degli intervalli'
+      from: 'Da'
+      till: 'A'
+      buttons:
+        add_day: 'Aggiunga'
+        clear: 'Cancelli'
+        clear_intervals: 'Cancelli gli intervalli'
+        choose: 'SCELGA'
+    language_selector:
+      no_result: 'Non ci sono interpreti per questa città'
+      list_select: 'Scelga dalla lista'
+      blank_city: "Prima scelga la città"
+    city_selector:
+      no_result: "Nella città scelta ora non ci sono degli interpreti accessibili. Prova Trovi un interprete in questa città più tardi o scelga un’altra città"
+  partner_search_form:
+    title: 'Interpreti in 151 paesi in tutto il mondo!'
+    desc: 'per dei negoziazioni, conferenze, esposizioni, cliniche'
+    show: Mostrare
+  contact_form:
+    name: "Nome, Cognome:"
+    phone: "Telefono:"
+    email: "E-mail:"
+    content: "Messaggio:"
+    button: "Inviare"
+    city: "Città:"
+
+  counts:
+    cities:
+      one: '%{count} città'
+      few: '%{count} città'
+      other: '%{count} città'
+    countries:
+      one: '%{count} paese'
+      few: '%{count} paesi'
+      other: '%{count} paesi'
+
+  client_reviews:
+    leave_review: Lasciare un avviso
+    score: Un voto generale
+    interpretation_score: Velocità e precisione di traduzione
+    punctuality_score: Puntualità ed organizzazione
+    consultation_score: "Consultazioni e l’aiuto durante un accompagnamento"
+    comment: "Le Sue impressioni sul lavoro con il traduttore, valutazione del professionalità, organizzazione e soddisfazione dell’aiuto del traduttore."
+    updated: "L’avviso è stato salvato. La ringraziamo per il Suo tempo e del Suo parere."
+    about_review: "Recensioni dei clienti che hanno ordinato e pagato il servizio di interprete"
+    client_reviews_title: "Interpreti verificati e recensioni dei clienti reali"
+    why_inter:
+      title: 'Perché Scelga Interpreters.travel?'
+      block1:
+        link: 'Semplice e sicuro'
+        text_html: 'Prenoti ora, paghi dopo! <br/> Annullamento gratuito della richiesta. <br/> Sicurezza dei pagamenti garantita.'
+      block2:
+        link: 'Prezzi bassi'
+        text_html: 'Tutti i servizi ai prezzi degli interpreti <br/> senza sovrapprezzi d’agenzia. <br/> Sconti inclusi nella fattura del servizio.'
+      block3:
+        link: 'Ampia scelta'
+        text_html: 'Interpreti in %{cities} città, <br/> nei %{countries} paesi di tutto il mondo'
+      block4:
+        link: 'Comodo'
+        text_html: 'Pagamento comodo: VISA, MasterCard,<br/> vaglia bancario, pagamento in contanti <br/>ASSISTENZA 24/7'
+  search_page:
+    window_title:
+      zero: "Non ci sono interpreti a %{city}"
+      one: "%{count} interprete a %{city}"
+      few: "%{count} interpreti a %{city}"
+      other: "%{count} interpreti a %{city}"
+    title:
+      zero: "Non ci sono interpreti a %{city}"
+      one: "Interpreti a %{city}"
+      few: "Interpreti a %{city}"
+      other: "Interpreti a %{city}"
+    keywords: "traduttori a %{city}, servizi interpreti a %{city}, interpreti italiano a %{city}, interpreti personali a %{city}, interpreti a %{city}"
+    meta_description: "Interpreti professionisti a %{city} per dei servizi di accompagnamento, negoziazioni, esposizioni, conferenze. Contatti ad un interprete o effettui un ordine sul sito senza delle commissioni e prepagato."
+    free_cancellation: "Prenoti ora, paghi dopo. Annullamento gratuito della richiesta! Senza supplementi."
+    one_available_interpreter: "Un interprete a %{city} è disponibile per la Sua richiesta"
+    one_from_few_available_interpreter: "%{free} dei %{count} interpreti a %{city} è disponibile per la Sua richiesta"
+    available_interpreters:
+      zero: "Non ci sono interpreti a %{city} per dei parametri scelti"
+      one: "%{free} dei %{count} interpreti a %{city} sono accessibili per un ordine"
+      few: "%{free} dei %{count} interpreti a %{city} sono accessibili per un ordine"
+      other: "%{free} dei %{count} interpreti a %{city} sono accessibili per un ordine"
+    duration_text: "Costo per %{duration} (%{intervals}), sconto compreso."
+    back_link: "Torni alla pagina principale"
+    price: "Prezzo del servizio interpreti a %{city}"
+    services: "Servizi interpreti a %{city}:"
+    specializations: "Specializzazione della traduzione:"
+    fold: Nascondere
+    unfold: Mostrare ancora
+    city_desc: "Su interpreti a %{city}"
+    change_date: "Cambi la data, ora?"
+    sort:
+      title: "Ordina per:"
+      price: "Prezzo"
+      updated_at: "Data di aggiornamento"
+      level: "Valutazione di sintesi"
+    learn_more: "DETTAGLIATO"
+    result: "Risultato"
+    filter: "Filtro"
+    search: "Ricerca"
+    map_link: "Vedere sulla mapa"
+    minimum_volume_message: "%{hours} - è una quantità minima d’un ordine dagli interpreti a %{city}. Aumentate il tempo del Suo incontro."
+    busy_interpreters_message: "%{count} interpreti che non ci sono accessibili per il tempo scelto"
+    minimum_advance_message: "Non prima delle %{advance}  il Suo ordine potrebbe essere eseguito per degli interpreti dal %{city}. Cambi la data e ora."
+    time_in_past: "Indicate una data a venire"
+    another_price_interpreters:
+      one: "Ancora %{count} interprete a %{city}, che corrisponde alla Sua richiesta, ma sono accessibili in un altro margine di prezzo"
+      few: "Ancora %{count} interpreti a %{city}, che corrispondono alla Sua richiesta, ma sono accessibili in un altro margine di prezzo"
+      other: "Ancora %{count} interpreti a %{city}, che corrispondono alla Sua richiesta, ma sono accessibili in un altro margine di prezzo"
+    busy_interpreters:
+      one: "Ancora %{count} interprete a %{city}, che corrisponde alla Sua richiesta, ma sono accessibili in un altro tempo"
+      few: "Ancora %{count} interpreti a %{city}, che corrispondono alla Sua richiesta, ma sono accessibili in un altro tempo"
+      other: "Ancora %{count} interpreti a %{city}, che corrispondono alla Sua richiesta, ma sono accessibili in un altro tempo"
+    show_more: "Mostrare ancora"
+    show_result: "Mostra risultato"
+  interpreter:
+    diplomas: "Diplomi"
+    certificates: "Certificazioni"
+    experience: "Esperienza"
+    recommendations: "Raccomandazioni"
+    level: "Livello"
+    rating: "Classifica"
+    reviews: "Recensioni"
+    education: Istruzione
+    reviews_text: "Solamente dei clienti chi abbia ordinato e abbia pagato del servizio d’interprete"
+    rating_text: "Classifica è composta da più di 20 parametri: esperienza nella prattica, istruzione, avvisi dei clienti, raccomandazioni, qualità del questionario ed altri"
+    events: "Eventi"
+    resume_level: "Livello <span class='mobile-hide'> di curriculum:</span>"
+    title: "Interprete professionista"
+    title_city: "Interprete professionista a %{city}"
+    verified_contacts: "Contatti verificati"
+    verified_profile: "Profilo confermato"
+    in_city: "Interprete a %{city} - %{name}"
+
+  show_interpreter:
+    title: "Interprete a %{city} (%{langs}) - %{interpreter}"
+    meta_description: "Servizio d’un interprete professionista a %{city} per i negoziazioni, esposizioni, conferenze, accompagnamento"
+    desc_addition: "Offro servizio d’interpretazione (%{langs}) a %{city}."
+    keywords: "Interprete a %{city}, servizi d’interpretazione a %{city}, interprete italiano a %{city}, interprete personale a %{city}, interprete a %{city}, servizio d’interpretazione a %{city}"
+    service_select: "Interprete a %{city}"
+    experience: "Esperienza"
+    youtube_link: Referenza video
+    similar_interpreters: "Interpreti simili"
+    verified_contacts_text: "Confermati del passaporto (carta d'identità, patente di guida) e dei documenti in materia di istruzione."
+    ticket_text: 'Invii all’interprete una richiesta preventiva o prenoti la data e ora direttamente premendo il tasto “Prenoti” di fianco ai servizi elencati in basso.'
+    why_itravel_block: |
+      <h3> Perché scegliere Interpreters.travel? </h3>
+      <p> Prezzi per i servizi degli interpreti senza dei sovrapprezzi d’agenzia </p>
+      <p> Pagamento in linea o in contanti all’interprete </p>
+      <p> Annullamento gratuito d’ordine, garanzia del rimborso di pagamento</p>
+      <p> Prenotazione del servizio senza una procedura di registrazione</p>
+      <p> Sicurezza dei pagamenti in linea, protezione dei dati </p>
+    why_itravel_title: "Perché Interpreters.travel:"
+    why_itravel_1: "Prezzi degli interpreti <br/> senza dei sovrapprezzi d’agenzia"
+    why_itravel_2: "Pagamento in linea o <br/> in contanti all’interprete"
+    why_itravel_3: "Annullamento gratuito d’ordine, <br/> garanzia del rimborso di pagamento"
+    why_itravel_4: "Prenotazione del servizio <br/> senza una procedura di registrazione"
+    why_itravel_5: "Possibilità di ordinare <br/> come azienda"
+    why_itravel_6: "Sicurezza dei <br/> pagamenti in linea, <br/> protezione dei dati"
+    learn_more: "Per saperne di più"
+    back_link: "Tutti gli interpreti a %{city}"
+    load_more: "Mostrare di più"
+    selected_period: "Periodo scelto: %{intervals}"
+    specializations: "Specializzazione in traduzione:"
+    language_pairs: "Lingue di traduzione:"
+    unavailable: "Servizio dell’interprete sono inaccessibili per la riservazione per ora scelta,"
+    edit_search: "cambi, per favore, ora d’ordine"
+    available_services: "Servizi disponibili per un servizio il %{period}:"
+    price: "Costo*"
+    order: "Ordine"
+    person_count:  '(%{count} persone)'
+    additional_services: "Servizi supplementari"
+    free_cancellation_text: "E’ possibile l’Annullamento gratuito entro e non oltre del %{hours} prima dell’inizio d’incontro. L’annullazione più tardi di questo limite e prima dell’inizio d’incontro, è possibile solamente lasciando il pagamento per le prime due ore del servizio dell’interprete."
+    free_cancellation: "Annullamento gratuito"
+    discount: "Sconto"
+    order_button: "Prenoti"
+    star_text: "*Costo di prenotazione per la durata scelta, sconto compreso"
+    avg_response_time:
+      title: "Tempo di risposta"
+      hour: "Entro un’ora"
+      few_ore: "Durante qualche ora"
+      day: "Durante un giorno"
+      few_days: "Durante qualche giorno"
+    response_rate: "Frequenza delle risposte"
+    how_to_order:
+      title: "Come Prenoti un servizion d’un interprete a %{city}:"
+      text: |
+        - premere “Prenoti” di fronte al servizio scelto
+        <br>
+        - effettuare l’ordine mediante la carta di credito o ricevere una fattura per pagamento mediante vaglia bancario.
+        <br>
+        - ricevere la ricevuta d’ordine ed una Ricevuta contenente dei dati per Contatti l’interprete
+    confirm_modal:
+      date: "Data e ora della Sua prenotazione:"
+      service: "%{service} a %{city}"
+      languages: "Lingue:"
+      price: "Somma totale:"
+    reviews_from: Solamente dei clienti chi abbia ordinato e abbia pagato del servizio d’interprete
+    dialogs:
+      checked_and_confirmed: 'Verificati e confermati:'
+      email_full: "Indirizzo di posta elettronica: %{email}"
+      phone_full: "Numero di Telefono cellulare: %{phone}"
+      email_address: "Indirizzo di posta elettronica: ▒▒▒▒▒▒@▒▒▒▒.%{domain}"
+      phone: "Numero di Telefono cellulare: ▒▒▒▒▒▒%{last_two}"
+      contacts_available: "Contatti saranno a disposizione dopo la"
+      order_confirmation: "confermazione d’ordine"
+      passport: 'Pasaporto/carta d’identità/patente'
+      documents: Certificati d’istruzione
+      contacts_title: Verificazione dei contatti
+      profile_title: Confermazione del profilo
+      education_title: "Istruzione"
+      youtube_title: "Referenza video"
+    500_page:
+      title: Interprete non è stato trovato
+      title_text: Questo interprete ora irraggiungibile o sospese di pubblicare il suo profilo
+      similar_ints_title: "Vedi degli interpreti simili a %{city}"
+      to_search: "Provi %{link} altri interpreti accessibili a %{city}"
+      search: PASSARE ALLA RICERCA
+    viewers_count:
+      one: "Ora di questo interprete sono interessati %{count} persone"
+      few: "Ora di questo interprete sono interessati %{count} persone"
+      other: "Ora di questo interprete sono interessati %{count} persone"
+
+  order_page:
+    description: "Prenotazione del servizio"
+    back_link: 'Alla scelta dei servizi'
+    stage1: "Scelta del traduttore"
+    stage2: "Scelta del servizio"
+    stage3: "Prenotazione del servizio"
+    order_info: "Informazioni sul servizio:"
+    services_info: "Luogo di lavoro: %{city}."
+    selected_period: "Periodo scelto:"
+    language_pairs: "Combinazione linguistica:"
+    selected_services: "Servizi scelti:"
+    additional_services: "Servizi supplementari:"
+    order_cancellation: "Annullamento gratuito della richiesta:"
+    cancellation_possible: "accessibile fino al %{date}"
+    no_cancellation: "non viene prevista"
+    service_types: "Servizi scelti:"
+    order_price: "Costo del servizio e valuta di pagamento:"
+    discount: "sconto compreso."
+    personal_form_tab: "Reservare d’ordine a nome d’una persona privata"
+    confirmation_code: "Inserisci il codice di conferma inviato al tuo numero:"
+    login_button: "Acceda all’area personale"
+    enter_your_details: "Visualizza i dettagli del tuo ordine"
+    login_password_info: "(la Password è stata inviata all’indirizzo %{mail})"
+    login: "Connessione"
+    password: "Password"
+    forgot_password_success: "Tra qualche istante riceverà una e-mail con le istruzioni per il ripristino della password."
+    forgot_password: "Password smarrita?"
+    forgot_title: "Ripristino della password"
+    new_password: "Creare una Password nuova"
+    client_currency: "Valuta di pagamento"
+    payment:
+      choice: "Può scegliere tra le seguenti modalità di pagamento:"
+      choice_paypal: "PayPal"
+      choice_invoice: "Vaglia bancario"
+      choice_cash: "Contanti all’interprete"
+      choice_card: "VISA/MasterCard"
+      info: "Scegliendo la modalità di pagamento in contanti, le condizioni di annullamento vengono accordate con l’interprete."
+      cash_text: 'Scegliendo la modalità “Contanti” Lei effettua il pagamento d’ordine a contanti immediatamente al traduttore, in valuta di traduttore (%{amount}) sul corso che è in attività per il momento di Prenotazione del servizio. Lei riceverà la ricevuta di pagamento in valuta di traduttore'
+      invoice_text1: "Copia di fattura Le sarà inviata tramite posta elettronica nel formato pdf"
+      invoice_text2: "Pagare la fattura Lei potrà in qualsiasi banca, tramite vaglia bancario non più tardi dei 3 giorni bancari prima della data di pagamento indicata nella fattura."
+      invoice_text_eur: "L'importo del pagamento delle fatture è specificato in una delle valute disponibili (EUR) che potrebbe non corrispondere alla valuta selezionata."
+      invoice_text_secure_deal: "Stai usando una transazione sicura. Il pagamento all'interprete sarà inviato solo dopo il completamento dell'ordine. <br/> Copia di fattura Le sarà inviata tramite posta elettronica nel formato pdf"
+      paypal: 'Lei sarà reindirizzato sulla pagina del fornitore dei servizi di pagamento PayPal. Prema “PayPal”'
+      select: "Modalità di pagamento:"
+      invoice: "Fattura"
+      cash: "Contanti"
+      order_button: "Prenoti IL SERVIZIO D’INTERPRETE"
+      card_secure: "Stai usando una transazione sicura. Il pagamento all'interprete sarà inviato solo dopo il completamento dell'ordine."
+    personal_form:
+      title: "Informazioni sul cliente dei servizi:"
+      surname: "Cognome:"
+      name: "Nome, Cognome:"
+      sms_phone: "Telefono cellullare (+35733...)"
+      city: "Città:"
+      address: "Indirizzo:"
+      email: "E-mail:"
+      info_for_interpreter: "Un’informazione per l’interprete (non è obbligatorio e potrebbe essere prestata più tardi):"
+      meeting_address: "Indirizzo dell’incontro con l’interprete: "
+      map_link: "Indicare sulla mappa"
+      detail_information: "Descriva il tema o le questione dell’incontro, copi qui il testo della brochure o fornisca altre informazioni (non più di 1200 caratteri). Questo aiuta un interprete a prepararsi meglio alla traduzione ad un incontro o un evento."
+      file_field: "Aggiunga in file con le informazioni"
+      submit: "Scelga la modalità di pagamento"
+      agreement_text: "Premendo “Scelga la modalità di pagamento del servizio”, dichiaro di essere a conoscenza e di accettare la %{policy} servizio, i %{terms}."
+      agreement_calls_text: "Premendo “Continua”, dichiaro di essere a conoscenza e di accettare la %{policy} servizio, i %{terms}."
+      policy: "Politica di riservatezza"
+      terms: "Termini e condizioni"
+  order_complete:
+    title: "Prenotazione del servizio"
+    back_link: "Torni alla pagina principale"
+    for_client: "Caro(a) %{client}!"
+    order_registered: "Il Suo ordine è stato registrato."
+    text: |
+      Sull’Indirizzo di posta elettronica da Lei indicato, è stata inviata una lettera dettagliata con la descrizione d’ordine,
+      <br>
+      ed in più istruzioni per i passi successivi.
+      <br>
+      Dei dettagli
+    link: "d’ordine è possibile anche vedere"
+    after_link: "sul sito."
+  personal_account:
+    voucher_not_ready: "Ricevuta d’ordine sarà accessibile dopo l’accettazione dell’ordine da parte dell'interprete, pagamento dell’ordine (se il pagamento non è in contanti)"
+    voucher_ready_after_confirmation: "Ricevuta d’ordine sarà accessibile dopo l’accettazione dell’ordine da parte dell'interprete"
+    receipt_not_ready: "Ricevuta di pagamento sarà accessibile dopo la ricezione di Suo pagamento d’ordine."
+  show_order_page:
+    title: "Visualizzazione d’ordine"
+    details: "Dettagli d’ordine:"
+    from: "del"
+    get_voucher: "ottenere la Ricevuta d’ordine"
+    cancelled: "L’ordine è annullato"
+    period: "Periodo scelto:"
+    contact_details: "Dati per un contatt al traduttore"
+    email: "Indirizzo di posta elettronica:"
+    phone: "Telefono:"
+    service_info: "Informazione supplementare sul servizio"
+    languages: "Lingue:"
+    address: "Indirizzo d’incontro:"
+    additional_services: "Servizio comprende:"
+    not_available: "non è prevista"
+    cancellation_conditions: "Condizioni d’Annullamento gratuito:"
+    payment_info: "Informazione sul pagamento"
+    payment: "Pagamento:"
+    payment_date: "Data del pagamento:"
+    get_receipt: "Ottenere la ricevuta di pagamento"
+    pay_with_card: "Pagamento attraverso carta (VISA/MasterCard)"
+    pay_with_card_2: "Pagamento attraverso interpreters.travel (VISA/MasterCard)"
+    pay_invoice: "Pagamento attraverso interpreters.travel (vaglia bancaria)"
+    download_invoice: "Scarica fattura"
+    payment_receipt: "Ricevuta di pagamento sarà accessibile dopo la ricezione di Suo pagamento d’ordine."
+    client_info:
+      title: "Informazioni sul cliente del servizio"
+      name: "Cognome, Nome:"
+      city: "Città:"
+      phone: "Telefono:"
+      email: "E-mail:"
+    confirm_order_changes: "Confermi degli aggiornamenti nell’ordine"
+    cancel_order: "Annullare l’ordine"
+    cancel_warning: "Un ordine, una volta venuto annullato non è più possibile restituire."
+    continue: "Continuare?"
+    continue2: "Continua"
+    details_available_after_confirmation: "sarà accessibile dopo la conferma"
+    details_not_available: "sarà accessibile dopo la conferma, pagamento dell’ordine (se il pagamento non è in contanti)"
+    details_will_be_displayed: "sarà accessibile dopo la conferma, pagamento dell’ordine (se il pagamento non è in contanti)"
+    request_contacts: "Mostra i contatti ora"
+    request_contacts_text: "Le condizioni di annullamento dell'ordine verranno modificate se ricevi i contatti dell'interprete prima della scadenza della data di annullamento gratuito. L'annullamento dell'ordine sarà possibile solo con detrazione del pagamento delle prime due ore del servizio di interpretariato. Conferma di accettare questi termini."
+    upon_agreement: "Previo accordo"
+  order_pages_sidebar:
+    menu: "Menu"
+    orders: "Ordini"
+    calls: "Chiamate"
+    searches: "Ricerche"
+    logout: "Uscita"
+  searches_index_page:
+    title: "Miei ricerche"
+    created_at: "Quando è stato eseguito"
+    city: "Città"
+    languages: "Lingue"
+    intervals: "Data, ora"
+    show_search_form: "Cerca interpreti"
+  translation_orders:
+    text_docs_translation: "Traduzioni di testi/documenti"
+    word_count: "Conteggio parole:"
+    view_file: "Visualizza file"
+    specialisation: "Specializzazione:"
+    due_date_time: "Data e ora di consegna:"
+    interpreter_role: "Interprete"
+    years: "anni"
+  validator:
+    required: 'Questo campo deve essere riempito.'
+    remote: 'Пожалуйста, введите правильное значение.'
+    email: 'Per favore, digiti un indirizzo corretto di posta elettronica.'
+    url: 'Пожалуйста, введите корректный URL.'
+    date: 'Пожалуйста, введите корректную дату.'
+    dateISO: 'Пожалуйста, введите корректную дату в формате ISO.'
+    number: 'Пожалуйста, введите число.'
+    digits: 'Пожалуйста, вводите только цифры.'
+    creditcard: 'Пожалуйста, введите правильный номер кредитной карты.'
+    equalTo: 'Пожалуйста, введите такое же значение ещё раз.'
+    accept: 'Пожалуйста, выберите файл с правильным расширением.'
+    maxlength: 'Пожалуйста, введите не больше {0} символов.'
+    minlength: 'Пожалуйста, введите не меньше {0} символов.'
+    rangelength: 'Пожалуйста, введите значение длиной от {0} до {1} символов.'
+    range: 'Пожалуйста, введите число от {0} до {1}.'
+    max: 'Пожалуйста, введите число, меньшее или равное {0}.'
+    min: 'Пожалуйста, введите число, большее или равное {0}.'
+    uniq_email: 'Questo l’email è stato utilizzato prima, utilizi un altro o si autorizzi'
+    phone_format: "segni nel formato +357..."
+    city_select: "Indicate correttamente e scelga dalla lista"
+    minlength_error: "Lunghezza errata"
+    maxlength_error: "Too long text"
+    interval_exists: 'Questo periodo è stato già assegnato, scelga un altro, per favore'
+    invalid_interval: 'Non è corretto scelto l’intervallo del tempo'
+  phone:
+    terms_link: "Termini e condizioni"
+    waiting_interpreter: "La richiesta è stata inviata agli interpreti disponibili. Tempo medio di risposta - 3 minuti"
+  passwords:
+    no_token: "Эта страница доступна только при переходе с email для сброса пароля. Если вы перешли по ссылке из письма, пожалуйста, убедитесь, что вы использовали полный URL."
+    send_instructions: "Tra qualche istante riceverà una e-mail con le istruzioni per il ripristino della password."
+    send_paranoid_instructions: "Если ваш адрес email есть в нашей базе данных, то в течение нескольких минут вы получите письмо с инструкциями по восстановлению вашего пароля."
+    updated: "La password è stata modificata. Si è ora collegato."
+    updated_not_active: "Пароль успешно изменён."

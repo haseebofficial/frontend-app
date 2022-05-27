@@ -1,0 +1,82 @@
+.ui-widget-overlay{
+  background-color: #010101;
+  opacity: .3;
+  filter: Alpha(Opacity=30);
+}
+
+.ui-dialog.ui-corner-all {
+  border-radius: 0px;
+  border: 2px solid #30480A;
+  background-color: #ffffff;
+}
+
+.ui-dialog-buttonpane {
+  border-top: 1px solid #D0D0D0;
+  padding: 5px;
+  background: #30480A;
+}
+
+.ui-button {
+  float: right;
+  background-color: #FFC602;
+  padding: 5px;
+  border: 0px;
+  font: 18px 'robotobold';
+  line-height: 20px;
+  color: #2F4908;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.ui-button.ui-state-hover {
+  background-color: #ffde25;
+}
+
+.ui-dialog-titlebar.ui-widget-header.ui-corner-all {
+  background: #30480A;
+  color: #FFC500;
+  font: 20px 'robotobold';
+  padding: 5px;
+  text-align: center;
+}
+
+.ui-dialog-content.ui-widget-content {
+  margin: 10px;
+  overflow-y: auto;
+
+  p:first-child {
+    border: none;
+  }
+
+  p.normal {
+    border: none;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  p{
+    border-top: 1px solid #D0D0D0;
+    margin: 5px;
+    padding: 10px 0 0 0;
+    font: 12px 'robotolight';
+
+    b {
+      font: 15px 'robotomedium';
+      line-height: 15px;
+      color: #32480A;
+    }
+  }
+
+  .check-text {
+    font-size: 15px;
+    border: none;
+    padding-left: 40px;
+    background: asset_url('order_stage_list_bg.png') no-repeat left 9px;
+  }
+
+  .dialog-header {
+    font-size: 17px;
+    font-weight: normal;
+    padding-left: 40px;
+  }
+}

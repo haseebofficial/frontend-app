@@ -1,0 +1,529 @@
+global:
+  locales:
+    ru: "Русский"
+    en: "English"
+    de: "Deutsch"
+    es: "Español"
+    fr: "Français"
+    it: "Italiano"
+    tr: "Türkçe"
+    pt: "Português"
+    vi: "Tiếng Việt"
+    ar: "العربية"
+    ja: "日本語"
+    zh: "中文"
+    ko: "한국의"
+
+  your_language_selector: "حدد من القائمة"
+  for: "ل"
+  flash_messages:
+    new_interpreter: "لقد قمت بالتسجيل بنجاح في Translres.travel! تم إرسال كلمة المرور الخاصة بإدخال حسابك الشخصي إلى عنوان البريد الإلكتروني الذي حددته: %{email}"
+    new_partner: "Вы успешно зарегистрированы в interpretres.travel как партнер! Пароль для входа в личный кабинет отправлен на указанный вами электронный адрес: %{email}."
+    ticket_created: "نشكرك على الاتصال بخدمة الدعم. سوف تتلقي رد في أقرب وقت."
+    interpreter_message_created: "تم إرسال رسالتك. ستتلقى ردا على رسالتك الإلكترونية قريبا."
+    paypal_payment_declined: "PayPal отклонил ваш платеж. Пожалуйста, свяжитесь с поддержкой"
+    braintree_payment_declined: "Braintree отклонил ваш платеж. Пожалуйста, свяжитесь с поддержкой"
+    payment_success: "تم تسجيل طلبك!"
+    contacts_requested: "ستكون جهات اتصال المترجم متاحة في بضع دقائق. ستتلقى إشعارا والقسيمة على عنوان بريدك الإلكتروني."
+    payment_declined: "تتم رفض دفعتك. يرجى الاتصالبالدعم."
+    order_not_paid: "انتبه! لم يكتمل الدفع لطلبك بعد! يمكنك تحديد طريقة الدفع في أسفل هذه الصفحة. إذا كنت قد دفعت مقابل هذا الطلب ولكن لا تزال ترى هذه الرسالة ، فيرجى الاتصال بالدعم. رقم الطلب الخاص بك: %{id}."
+    invalid_captcha: "يرجى تأكيد أنك لست روبوتًا"
+
+  forms:
+    email: "البريد الإلكتروني:"
+    name: "اسمك:"
+    phone: "الهاتف:"
+    message: "رسالتك:"
+    send_message_to_int: "اتصل بالمترجم"
+    send_button: "إرسال"
+    send_to_all: "إرسال رسالة إلى جميع المترجمين المشابهين"
+    order_message: "حدد الحدث الخاص بك، ومكان، والتاريخ، والوقت، وعدد المشاركين، والموضوعات، ولغات الترجمة، وغيرها من الميزات والمتطلبات"
+  meta_desc:
+    phone: "نوفر أكثر من 20000 مترجم مثبت في أكثر من 170 دولة ترجمة سريعة وبأسعار معقولة وعالية الجودة إلى 180 لغة"
+    main: "مترجمون محترفون للمعارض، المؤتمرات والمفاوضات"
+    about: "تأسست شركةInterpreters.travel OÜ, عام 2013، وتمتلك تماما حقوق حصرية ل Interpreters.travel  وهي خدمة البحث عن المترجمين وحجز خدمات الترجمة الفورية عبر الإنترنت في جميع أنحاء العالم."
+    for_clients: "Interpreters.travel خدمة عبر الإنترنت تسمح لك بسهولة العثور على المترجمين المحترفين وترجمة خدمات الترجمة في العديد من المدن والبلدان حول العالم!"
+    help_interpreter: "Interpreters.travel is a convenient and safe site for obtaining new orders for interpretation services. Easy in use functions allow to adjust service flexibly to my employment and receive orders only for that time which is convenient to me. Even having only several free hours in the working calendar, I receive orders at interpreters.travel and I use my working time most profitably"
+    info: "يقدم موقع Interpreters.travel خدمة بسيطة وآمنة وموثوق بها تسمح لك بالعثور على مترجم مناسب على الموقع أو باستخدام الجهاز المحمول بسرعة ومن ثم حجز خدمات الترجمة الشفوية في جميع أنحاء العالم."
+    for_affiliates: "Interpreters.travel Affiliate Program. You use a direct link or a simple search form to integrate our searches within your website. Any website user interested in interpretation services can find a suitable interpreter and place an order. You receive 5% payment for each successfully completed order."
+  top_menu:
+    login_link: 'الدخول'
+    sign_up_link: 'التسجيل'
+    help_link: 'مساعدة'
+    logout_link: 'خروج'
+    dashboard_link: 'حسابك الشخصي'
+    welcome: 'مرحبا%{user}'
+    interpreter_login_link: 'الدخول للمترجمين'
+    calls: "مكالمات دولية مع مترجمين"
+    calls_to_city: "مكالمات إلى ٪ {city} برفقة مترجمين فوريين"
+
+  card_checkout_form:
+    title: "دفع %{amount}"
+    name: "الاسم المدون علىالبطاقة"
+    submit: "دفع"
+    cnn_error: 'تم إدخال رقمالبطاقة بشكل غيرصحيح'
+    exp_error: 'قم بإدخال التاريخالقام بصيغةشهر/سنة'
+    cvv_error: 'أدخل رقم الأمانالثلاثي المدرج فيالجزء الخلفي منالبطاقة'
+    3ds_error: 'فشلت المصادقة الآمنة ثلاثية الأبعاد. يرجى المحاولة مرة أخرى أو تحديد طريقة دفع مختلفة.'
+    text: "لا نصل إلى معلومات الفوترة الشخصيةالخاصة بك مثل رقم بطاقة الائتمان أو رقمالأمان الثلاثي في أي وقت أثناء عملية إضافةأو استخدام بطاقة"
+
+  interpretation_call:
+    completed_text: "مكالمة ترجمة مكتملة:"
+    datetime: "تاريخ ووقت الطلب:"
+    language_pair: "'ما هي اللغة المطلوبة:"
+    date_start: "تاريخ المكالمة ، وقتها:"
+    duration: "مدة المكالمة:"
+    price_minute: "سعر الدقيقة:"
+    total_amount: "المجموع:"
+    paid: "مدفوع:"
+    state: "حالة:"
+    pay_button: "ادفع"
+    awaiting_payment: "في انتظار الدفع"
+    completed: "مكتملة"
+    my_calls: "مكالماتي:"
+    request_sent: "تم إرسال الطلب إلى المترجمين المتاحين"
+    no_interpreters: "لا يوجد مترجمون متاحون للبحث عن المكالمات"
+    submit: "البحث عن المترجمين"
+    add_time: "إضافة"
+    language: "حدد اللغة"
+    your_language: "لغتك"
+    immediate_call: "Call now"
+    choose_time: "Choose time"
+    new_text: "مكالمة جديدة:"
+    scheduled_at: "مجدولة في:"
+    new: "جديد"
+    new_call_explanation: "لقد نجحت في حجز خدمات المترجم الفوري. سنذكرك بالمكالمة قبل 30 دقيقة من بدئها باستخدام إشعار بالبريد الإلكتروني. في الوقت المحدد ، افتح هذه الصفحة واتبع التعليمات لإتمام هذه المكالمة."
+    help_link: "آلية العمل"
+    about_service: "آلية العمل"
+    app_store_link1: "interpreters.travel mobile app"
+    app_store_link2: "for calls with interpreters"
+    enter_phone_number: "أدخل معلومات الاتصال الخاصة بك"
+    connecting: "جارٍ الربط ..."
+    interpreter_connected: "المترجم متصل"
+    payment_detail: "تفاصيل الدفع"
+
+  footer:
+    info: 'عن interpreters.travel'
+    support: 'الدعم 24/7'
+    help_inter: للمترجمين
+    help_inter_in_city: 'مترجمون في %{city}'
+    for_affiliates: "للشركاء"
+    terms_conditions: 'الشروط والأحكام'
+    privacy_policy: 'سياسة الخصوصية'
+    copyright_html: '&copy; Copyright 2013 - %{year}. interpreters.travel. All rights reserved.'
+
+  description_index: 'مترجمون في 172 دولة'
+
+  search_form:
+    title: 'البحث عن المترجمين'
+    where: 'أين:'
+    when: 'متى:'
+    language: 'ما هي اللغة المطلوبة:'
+    your_language: 'لغتك:'
+    button: 'بحث'
+    city: 'على سبيل المثال: برلين، شنغهاي، نيويورك'
+    date_time: 'حدد التاريخ والوقت'
+    timepicker:
+      title: 'وقت الاجتماع (بالتوقيت المحلي):'
+      total: 'مجموع الفترات الزمنية'
+      from: 'من'
+      till: 'إلى'
+      buttons:
+        add_day: 'إضافة'
+        clear: 'مسح'
+        clear_intervals: 'مسح الفترات الزمنية'
+        choose: 'أختر'
+    language_selector:
+      no_result: 'لا يوجد مترجمون لهذه المدينة'
+      list_select: 'حدد من القائمة'
+      blank_city: "أولا اختر المدينة"
+    city_selector:
+      no_result: "لا يوجد حاليا مترجمون متاحون في هذه المدينة. حاول العثور على مترجم في هذه المدينة لاحقا أو اختيار مدينة أخرى"
+  partner_search_form:
+    title: 'مترجمون في 172 دولة'
+    desc: 'للمعارض، المؤتمرات والمفاوضات'
+    show: البحث
+  contact_form:
+    name: "الاسم، اللقب:"
+    phone: "رقم الهاتف:"
+    email: "عنوان البريد الإلكتروني:"
+    content: "مدينتك:"
+    city: "رسالتك:"
+    button: "إرسال"
+
+  counts:
+    cities:
+      one: '%{count} مدينة'
+      other: '%{count} مدن'
+    countries:
+      one: '%{count} بل'
+      other: '%{count} بلدان'
+
+  client_reviews:
+    leave_review: "اترك تعليقا"
+    score: "النتيجة الإجمالية"
+    interpretation_score: "سرعة ودقة الترجمة"
+    punctuality_score: "الالتزام بالمواعيد والانضباط"
+    consultation_score: "المساعدة والمشورة خلال الحدث"
+    comment: "الانطباع العام على عمل المترجم وأي تعليقات أخرى"
+    updated: "تم إرسال تعليقك. شكرا لك على وقتك ورأيك"
+    about_review: "تقييمات العملاء الذين طلبوا خدمة الترجمة ودفعوا مقابلها"
+    client_reviews_title: "التحقق من المترجمين وشهادات العملاء الحقيقية"
+    why_inter:
+      title: 'لماذا interpreters.travel؟'
+      block1:
+        link: 'بسيط وآمن'
+        text_html: 'احجز الآن وادفع لاحقا! <br/> إلغاء الحجز مجانا. <br/> ضمان الدفع الأمن.'
+      block2:
+        link: 'أسعار منخفضة'
+        text_html: 'جميع الطلبات وفقا لأسعار المترجمين <br/> دون هامش إضافي. <br/> حساب التخفيضات عند حساب الطلب.'
+      block3:
+        link: 'الحد الأقصى للاختيار'
+        text_html: 'مترجمون في %{cities} مدينة، <br/> %{countries} بلدا في جميع أنحاء العالم'
+      block4:
+        link: 'مريح'
+        text_html: 'سهولة الدفع: فيزا، ماستركارد، <br/> التحويل المصرفي، نقدا في الاجتماع<br/>الدعم 24/7'
+  search_page:
+    window_title:
+      zero: "لا يوجد مترجمون شفويون في%{city}"
+      one: "%{count} مترجم في%{city}"
+      few: "%{count} مترجم شفوي في%{city}"
+      other: "%{count} مترجمين شفويين في%{city}"
+    title:
+      zero: "لا يوجد مترجمون شفويون في%{city}"
+      one: "المترجمين في %{city}"
+      few: "المترجمين في %{city}"
+      other: "المترجمين في %{city}"
+    keywords: "المترجمين في %{city}, خدمات المترجمين في%{city}, المترجمون الخاصون في%{city}, المترجمون العرب في%{city}, مترجمون شفويون في%{city}"
+    meta_description: "مترجمون محترفون في%{city} للمرافقة والمفاوضات والمعارض والمؤتمرات. اتصل بالمترجم أو قم بتعبئة طلب على الموقع دون عمولة أو دفع مسبق."
+    free_cancellation: "احجز الآن وأدفع لاحقا، إلغاء مجاني! دون رسوم إضافية."
+    one_available_interpreter: "يتوفر مترجم واحد في%{city} لهذا الطلب"
+    one_from_few_available_interpreter: "يتوفر %{free} من %{count} مترجما في%{city} لهذا الطلب"
+    need_translation: "Need %{source_lang}-%{target_lang} professional translation?"
+    get_quote: "GET QUOTE"
+    available_interpreters:
+      zero: "لا يتوفر مترجمون متاحون في%{city} للخيارات المحددة"
+      one: "يتوفر %{free} من %{count} مترجما في%{city} لهذا الطلب"
+      few: "يتوفر %{free} من %{count} مترجما في%{city} لهذا الطلب"
+      other: "يتوفر %{free} من %{count} مترجما في%{city} لهذا الطلب"
+    duration_text: "التكلفة لمدة %{duration} (%{intervals})، بما في ذلك التخفيضات."
+    back_link: "إلى الصفحة الرئيسية"
+    price: "أسعار المترجمين في %{city}"
+    services: "خدمات الترجمة في %{city}:"
+    specializations: "تخصص الترجمة:"
+    fold: إخفاء
+    unfold: عرض المزيد
+    city_desc: "حول المترجمين في %{city}"
+    sort:
+      title: "Sort by:"
+      price: "Price"
+      updated_at: "Updating date"
+      level: "Summary assessment"
+    change_date: "هل تريد تغيير التاريخ والوقت؟"
+    learn_more: "معرفة المزيد"
+    result: "النتائج"
+    filter: "فلترة النتائج"
+    search: "البحث"
+    map_link: "عرض على الخريطة"
+    minimum_volume_message: "%{hours} - الحد الأدنى لطلب المترجمين في %{city}. زيادة وقت الاجتماع."
+    busy_interpreters_message: "لا يتوفر مترجمون متاحون في%{city} للخيارات المحددة"
+    minimum_advance_message: "لا يمكن إتمام طلبك الخاص بمترجمين من %{city} قبل %{advance}. تغيير التاريخ والوقت."
+    time_in_past: "يرجى إدخال تاريخ لاحق"
+    another_price_interpreters:
+      one: "هناك أيضا %{count} مترجم شفوي في %{city}, ة مطابق لطلبك، ولكن متوفرة في نطاق سعر مختلف."
+      few: "هناك أيضا %{count} مترجم شفوي في %{city}, ة مطابق لطلبك، ولكن متوفرة في نطاق سعر مختلف."
+      other: "هناك أيضا %{count} مترجم شفوي في %{city}, ة مطابق لطلبك، ولكن متوفرة في نطاق سعر مختلف."
+    busy_interpreters:
+      one: "هناك أيضا %{count} مترجم شفوي في %{city}, مطابقين لطلبك، ولكن متاحين في وقت اخر."
+      few: "هناك أيضا %{count} مترجم شفوي في %{city}, مطابقين لطلبك، ولكن متاحين في وقت اخر."
+      other: "هناك أيضا %{count} مترجم شفوي في %{city}, مطابقين لطلبك، ولكن متاحين في وقت اخر."
+    show_more: "إظهار المزيد"
+    show_result: "إظهار النتيجة"
+  interpreter:
+    diplomas: "الدبلومات"
+    certificates: "الشهادات"
+    experience: "الخبرة"
+    recommendations: "توصيات"
+    level: "المستوى"
+    rating: "التقييم"
+    reviews: "تعليقات"
+    education: التعليم
+    reviews_text: "فقط للعملاء الذين قاموا بالطلب ودفعوا ثمن خدمة المترجم"
+    rating_text: "يتكون التقييم من أكثر من 20 عنصر: الخبرة في العمل، والتعليم، وتعليقات العملاء، والتوصيات، وجودة الملف الشخصي وغيرهم"
+    events: "الأنشطة"
+    resume_level: "Уровень <span class='mobile-hide'> резюме:</span>"
+    title: "مترجم محترف"
+    title_city: "مترجم شفوي محترف في %{city}"
+    verified_contacts: "تم التحقق من جهات الاتصال"
+    verified_profile: "تم تأكيد الملف الشخصي"
+    in_city: "مترجم في %{city} - %{name}"
+
+  show_interpreter:
+    translation: "ترجمة النصوص/المستندات"
+    get_quote: "احصل على الأسعار"
+    order_now: "اطلب الآن"
+    title: "مترجم في%{city} (%{langs}) - %{interpreter}"
+    meta_description: "خدمات مترجم محترف في%{city} للمفاوضات والمعارض والمؤتمرات والمرافقة"
+    desc_addition: "أقدم خدمات الترجمة الشفوية (%{langs}) в %{city}."
+    keywords: "مترجم في%{city}, خدمات الترجمة الفورية في%{city}, مترجم لغة عربية في%{city}, مترجم خاص في%{city}, مترجم شفوي في%{city}, خدمة الترجمة في%{city}"
+    service_select: "مترجم في%{city}"
+    experience: "الخبرة"
+    youtube_link: مكالمة فيديو
+    similar_interpreters: "مترجمون مماثلون"
+    verified_contacts_text: "تم فحص جواز السفر (بطاقة الهوية، رخصة القيادة) والوثائق الخاصة بالتعليم."
+    ticket_text: 'قم بإرسال طلب مترجم فوري طلب أولي أو أحجز على الفور في التاريخ والوقت المحدد باستخدام زر " اطلب الآن" الموجود أدناه تحت الخدمات.'
+    why_itravel_block: |
+      <h3> لماذا Interpret.travel: </h3>
+      <p> أسعار المترجمين بدون إضافات </p>
+      <p> الدفع عبر الإنترنت أو نقدا إلى مترجم </p>
+      <p> إلغاء مجاني للضمان، ضمان الاسترداد</p>
+      <p> القيام بالطلب دون إجراء التسجيل</p>
+      <p> إمكانية الطلب في الشركة </p>
+      <p> الدفع الأمن عبر الإنترنت، وحماية البيانات </p>
+    why_itravel_title: "لماذا Interpret.travel:"
+    why_itravel_1: "أسعار المترجمين بدون إضافات"
+    why_itravel_2: "الدفع عبر الإنترنت أو نقدا إلى مترج"
+    why_itravel_3: "إلغاء مجاني للضمان، ضمان الاستردا"
+    why_itravel_4: "القيام بالطلب دون إجراء التسجي"
+    why_itravel_5: "إمكانية الطلب في الشركة"
+    why_itravel_6: "الدفع الأمن عبر الإنترنت، وحماية البيانا"
+    learn_more: "معرفة المزيد"
+    back_link: "كل المترجمين في %{city}"
+    load_more: "عرض المزيد"
+    selected_period: "الفترة المحددة: %{intervals}"
+    specializations: "تخصص الترجمة:"
+    language_pairs: "أزواج لغات الترجمة:"
+    unavailable: "خدمات المترجم الشفهي غير متاحة لأمر للوقت المحدد،"
+    edit_search: "وتغيير وقت النظام"
+    available_services: "الخدمات المتاحة للطلب %{period}:"
+    price: "السعر*"
+    order: "طلب"
+    person_count:  '(%{count} أشخاص)'
+    additional_services: "خدمات إضافية"
+    free_cancellation_text: "يمكن إلغاء الطلب مجانا في موعد أقصاه %{hours} قبل الاجتماع. إلغاء أمر في وقت لاحق من هذا الوقت وقبل بدء الاجتماع متاح فقط مع خصم قيمة أول ساعتين من خدمات الترجمة الفورية."
+    free_cancellation: "الإلغاء المجاني"
+    discount: "خصم"
+    order_button: "اطلب الآن"
+    star_text: "*تكلفة الطلب للوقت المحدد، بما في ذلك التخفيضات"
+    avg_response_time:
+      title: "وقت الاستجابة"
+      hour: "في غضون ساعة"
+      few_hours: "في غضون بعض ساعات"
+      day: "خلال يوم"
+      few_days: "خلال بضعة أيام"
+    response_rate: "معدل الاستجابة"
+    how_to_order:
+      title: "كيفية طلب مترجم في %{city}:"
+      text: |
+        - انقر فوق "طلب" أمام الخدمة المحددة
+        <br>
+        - أعد الطلب مع بيانات بطاقة الائتمان أو فاتورة الدفع عن طريق التحويل المصرفي. كما يمكنك اختيار خيار الدفع نقدا إلى مترجم.
+        <br>
+        - تلقي تأكيد الطلب وقسيمة مع بيانات الاتصال بالمترجم
+    confirm_modal:
+      date: "تاريخ ووقت الحجز:"
+      service: "%{service} في %{city}"
+      languages: "لغات الترجمة:"
+      price: "قيمة الطلب:"
+    reviews_from: فقط للعملاء الذين قاموا بالطلب ودفعوا ثمن خدمة المترجم
+    dialogs:
+      checked_and_confirmed: 'تم التحقق والتأكد من:'
+      email_full: "عنوان البريد الإلكتروني: %{email}"
+      phone_full: "رقم الهاتف المحمول: %{phone}"
+      email_address: "عنوان البريد الإلكتروني: ▒▒▒▒▒▒@▒▒▒▒.%{domain}"
+      phone: "رقم الهاتف المحمول: ▒▒▒▒▒▒%{last_two}"
+      contacts_available_: "جهات الاتصال ستكون متاحة بعد %{confirmation}"
+      contacts_available: "جهات الاتصال ستكون متاحة بعد"
+      order_confirmation: "تأكيد الطلب"
+      passport: 'جواز السفر / بطاقة الهوية / رخصة القيادة'
+      documents: الوثائق الخاصة بالتعليم
+      contacts_title: التحقق من جهات الاتصال
+      profile_title: تأكيد الملف الشخصي
+      education_title: "التعليم"
+      youtube_title: "مكالمة فيديو"
+    500_page:
+      title: لم يتم العثور على المترجم
+      title_text: هذا المترجم غير متاح حاليا أو أوقف نشر ملفه الشخصي
+      similar_ints_title: "مشاهدة مترجمين مشابهين في %{city}"
+      to_search: "قم %{link} للمترجمين الآخرين المتوفرين في%{city}"
+      search: بالانتقال إلى البحث
+    viewers_count:
+      one: "يتم الآن عرض هذا المترجم من قبل %{count} شخص"
+      few: "يتم الآن عرض هذا المترجم من قبل %{count} أشخاص"
+      other: "يتم الآن عرض هذا المترجم من قبل %{count} أشخاص"
+
+  order_page:
+    description: "إعداد الطلب"
+    back_link: 'اختيار الخدمات'
+    stage1: "اختيار مترجم"
+    stage2: "اختيار الخدمة"
+    stage3: "إعداد الطلب"
+    order_info: "طلب المعلومات"
+    services_info: "خدمات الترجمة الفورية في المدينة: %{city}."
+    selected_period: "الفترة المحددة:"
+    language_pairs: "أزواج اللغات:"
+    selected_services: "الخدمات المحددة:"
+    additional_services: "خدمات إضافية:"
+    order_cancellation: "إلغاء الطلب مجانا:"
+    cancellation_possible: "متاح حتى %{date}"
+    no_cancellation: "لا يوجد"
+    service_types: "الخدمات المحددة:"
+    order_price: "قيمة الطلب والعملة:"
+    discount: "بما في ذلك التخفيضات."
+    personal_form_tab: "Оформить заказ на частное лицо"
+    confirmation_code: "أدخل رمز التأكيد المرسل إلى رقمك"
+    login_button: "سجل الدخول إلى حسابك"
+    login_password_info: "(تم إرسال كلمة المرور إلى %{mail})"
+    login: "الدخول"
+    password: "كلمة المرور"
+    forgot_password_success: "في غضون بضع دقائق سوف تتلقى رسالة بريد إلكتروني شاملة تعليمات بشأن استعادة كلمة المرور الخاصة بك."
+    forgot_password: "هل نسيت كلمة المرور؟"
+    forgot_title: "أعد تعيين كلمة المرور"
+    new_password: "إنشاء كلمة مرور جديدة"
+    client_currency: "Валюта для оплаты"
+    enter_your_details: "أدخل التفاصيل الخاصة بك"
+    payment:
+      choice: "سيتم تقديم خيارات الدفع:"
+      choice_paypal: "باي بال"
+      choice_invoice: "حساب للتحويل المصرفي"
+      choice_cash: "نقدا للمترجم"
+      choice_card: "فيزا / ماستركارد"
+      info: "عند اختيار الدفع نقدا، يتم الاتفاق على شروط الإلغاء مع المترجم."
+      cash_text: ' بسعر الصرف الحالي وقت تقديم طلبك. سوف تتلقى إيصالا للدفع بعملة المترجم (%{amount}) إذا قمت بتحديد كاش، فإنك تدفع المبلغ نقدا مباشرة إلى المترجم، بعملة المترجم الفوري'
+      invoice_text1: "سيتم إرسال نسخة من الفاتورة إليك عن طريق البريد الإلكتروني بصيغة pdf"
+      invoice_text2: "يمكنك دفع الفاتورة في أي بنك، بعد إجراء التحويل المصرفي في موعد أقصاه 3 أيام عمل قبل تاريخ الدفع المحدد في الفاتورة."
+      invoice_text_eur: "يُرجي الانتباه! مبلغ الفاتورة المُشار إليه بإحدى العملات المتاحة (اليورو)، والتي قد لا تتطابق مع العملة التي حددتها."
+      invoice_text_secure_deal: "أنت تستخدم طريقة دفع آمنة. سيتم إرسال المبلغ المدفوع إلى المترجم فور إكتمال الطلب. <br/> سيتم إرسال نسخة من الفاتورة إليك عن طريق البريد الإلكتروني بصيغة pdf"
+      paypal: 'ستتم إعادة توجيهك إلى صفحة موفر الدفع في بايبال. انقر على "بايبال"'
+      select: "طريقة الدفع:"
+      invoice: "الحساب"
+      cash: "نقدا للمترجم"
+      order_button: "طلب خدمات مترجم"
+      card_secure: "أنت تستخدم طريقة دفع آمنة. سيتم إرسال المبلغ المدفوع إلى المترجم فور إكتمال الطلب."
+    personal_form:
+      title: "معلومات عن طالب الخدمة:"
+      surname: "اللقب:"
+      name: "الاسم، اللقب:"
+      sms_phone: "رقم الهاتف (+35733...)"
+      city: "المدينة:"
+      address: "العنوان:"
+      email: "عنوان البريد الإلكتروني:"
+      info_for_interpreter: "معلومات للمترجم الشفهي (اختياري ويمكن تقديمها لاحقا):"
+      meeting_address: "عنوان الاجتماع مع المترجم: "
+      map_link: "إظهار على الخريطة"
+      detail_information: "أوصف الموضوع أو أسئلة الاجتماع، أنسخ نص بيان أو معلومات أخرى (لا يزيد عن 1200 حرف). سيتيح ذلك للمترجم التحضير بشكل أفضل للترجمة في اجتماع أو الحدث المرتقب."
+      file_field: "إضافة ملف المعلومات"
+      submit: "اختيار طريقة الدفع"
+      agreement_text: 'بالنقر على "اختيار طريقة دفع الحجز"، أقر بأنني قرأت وأوافق على %{policy} و %{terms}.'
+      agreement_calls_text: 'بالنقر على "متابعة"، أقر بأنني قرأت وأوافق على %{policy} و %{terms}.'
+      policy: "سياسة الخصوصية"
+      terms: "البنود والشروط"
+  order_complete:
+    title: "تسجيل الطلب"
+    back_link: "إلى الصفحة الرئيسية"
+    for_client: "عزيزي (عزيزتي) %{client}!"
+    order_registered: "تم تسجيل طلبك."
+    text: |
+      وقد تم إرسال وصف تفصيلي إلى عنوان البريد الإلكتروني،
+      <br>
+      فضلا عن وصف الإجراءات الأخرى.
+      <br>
+      يمكنك أيضا
+    link: "مراجعة تفاصيل الطلب"
+    after_link: "على الموقع."
+  personal_account:
+    voucher_not_ready: "سوف تكون قسيمة الطلب متاحة بعد قبول الطلب من قبل المترجم، ودفع قيمة الطلب وانتهاء فترة الإلغاء المجاني الخاصة به."
+    voucher_ready_after_confirmation: "سوف تكون قسيمة الطلب متاحة بعد قبول الطلب من قبل المترجم"
+    receipt_not_ready: "إيصال الدفع سوف يكون متاح عند استلام دفع قيمة الطلب"
+  show_order_page:
+    title: "عرض الطلب"
+    details: "تفاصيل الطلب:"
+    from: "بتاريخ"
+    get_voucher: "تلقي قسيمة الطلب"
+    cancelled: "تم إلغاء الطلب"
+    period: "الفترة المحددة:"
+    contact_details: "بيانات التواصل مع المترجم"
+    email: "عنوان البريد الإلكتروني:"
+    phone: "الهاتف:"
+    service_info: "معلومات إضافية عن الخدمة"
+    languages: "أزواج اللغات:"
+    address: "عنوان الاجتماع:"
+    additional_services: "تشمل الخدمة أيضا:"
+    not_available: "لم يتم"
+    cancellation_conditions: "سياسة الإلغاء:"
+    payment_info: "معلومات الدفع"
+    payment: "الدفع:"
+    payment_date: "تاريخ الدفع:"
+    get_receipt: "تلقي إيصال الدفع"
+    pay_with_card: "ادفع بالبطاقة (فيزا / ماستركارد)"
+    pay_with_card_2: "الدفع من خلال interpreters.travel  (فيزا / ماستركارد)"
+    pay_invoice: "الدفع من خلال interpreters.travel  (حوالة مصرفية)"
+    download_invoice: "تنزيل الفاتورة"
+    payment_receipt: "إيصال الدفع سوف يكون متاح عند استلام دفع قيمة الطلب"
+    client_info:
+      title: "معلومات عن طالب الخدمات"
+      name: اللقب والاسم:"
+      city: "المدينة:"
+      phone: "الهاتف:"
+      email: "البريد الإلكتروني:"
+    confirm_order_changes: "تأكيد التغييرات على الطلب"
+    cancel_order: "إلغاء الطلب"
+    cancel_warning: "لا يمكن استعادة الطلب الملغى."
+    continue: "هل تريد المتابعة؟"
+    continue2: "متابعة"
+    details_available_after_confirmation: "سوف تكون متاحة بعد التأكد من الطلب"
+    details_not_available: "سوف تكون متاحة بعد التأكد من الطلب ونهاية فترة الإلغاء المجاني للطلب"
+    details_will_be_displayed: "سيتم عرضها بعد قبول الطلب والدفع (إذا لم يكن الدفع نقدا)"
+    request_contacts: "عرض جهات الاتصال الآن"
+    request_contacts_text: "من خلال تلقي بيانات الاتصال بالمترجم قبل الموعد المحدد، يمكنك تغيير شروط الإلغاء. لن يكون الإلغاء ممكنا إلا بخصم / دفع تكلفة ساعتين من خدمات الترجمة الشفوية. تأكد من الحصول على بيانات الاتصال بشكل مبكر وتغيير شروط الإلغاء"
+    upon_agreement: "حسب الاتفاق"
+  order_pages_sidebar:
+    menu: "القائمة"
+    orders: "حجوزاتي"
+    calls: "Calls"
+    searches: "البحث الخاصة بي"
+    logout: "خروج"
+    from: "بتاريخ"
+  searches_index_page:
+    title: "البحث الخاصة بي"
+    created_at: "متى كان بحث"
+    city: "المدينة"
+    languages: "أزواج اللغات"
+    intervals: "التاريخ والوقت"
+    show_search_form: "العثور على مترجم"
+  translation_orders:
+    text_docs_translation: "ترجمة النصوص/المستندات"
+    word_count: "عدد الكلمات:"
+    view_file: "عرض الملف"
+    specialisation: "التخصص:"
+    due_date_time: "تاريخ الاستحقاق ، الوقت:"
+    interpreter_role: "المؤدي ل"
+    years: "سنوات"
+  validator:
+    required: 'يجب تعبئة هذا الحقل.'
+    remote: 'الرجاء إدخال قيمة صالحة.'
+    email: 'الرجاء إدخال عنوان بريد إلكتروني صالح.'
+    url: 'Пожалуйста, введите корректный URL.'
+    date: 'Пожалуйста, введите корректную дату.'
+    dateISO: 'Пожалуйста, введите корректную дату в формате ISO.'
+    number: 'Пожалуйста, введите число.'
+    digits: 'Пожалуйста, вводите только цифры.'
+    creditcard: 'Пожалуйста, введите правильный номер кредитной карты.'
+    equalTo: 'Пожалуйста, введите такое же значение ещё раз.'
+    accept: 'Пожалуйста, выберите файл с правильным расширением.'
+    maxlength: 'Please enter no more than {0} characters.'
+    minlength: 'Пожалуйста, введите не меньше {0} символов.'
+    rangelength: 'Пожалуйста, введите значение длиной от {0} до {1} символов.'
+    range: 'Пожалуйста, введите число от {0} до {1}.'
+    max: 'Пожалуйста, введите число, меньшее или равное {0}.'
+    min: 'Пожалуйста, введите число, большее или равное {0}.'
+    uniq_email: 'هذا البريد الإلكتروني مستخدم. استخدم واحد آخر أو قم بتسجيل الدخول.'
+    phone_format: "حدده بالصيغة +3577...."
+    city_select: "حدد بشكل صحيح وأختر من القائمة"
+    minlength_error: "الطول غير صحيح"
+    maxlength_error: "Too long text"
+    interval_exists: 'تم تحديد هذه الفترة بالفعل، حدد آخرى'
+    invalid_interval: 'لم يتم اختيار الفاصل الزمني بشكل صحيح'
+  phone:
+    terms_link: "البنود والشروط"
+    waiting_interpreter: "تم إرسال الطلب إلى المترجمين المتاحين. متوسط وقت الاستجابة - 3 دقائق"

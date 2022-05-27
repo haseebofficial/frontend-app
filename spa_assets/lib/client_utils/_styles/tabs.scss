@@ -1,0 +1,56 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.client-tabs {
+  display: flex;
+  justify-content: center;
+
+  & li:not(:first-child) {
+    margin-left: 45px;
+  }
+
+  .client-tabs-link:before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    width: 0;
+    height: 4px;
+    background-color: c.$interpreters-yellow;
+    transition: width 0.8s ease;
+  }
+
+  .client-tabs-link {
+    cursor: pointer;
+    padding: 3px 0;
+    position: relative;
+  }
+
+  .client-tabs-link.active {
+    color: c.$interpreters-green;
+    font-weight: 700;
+
+    &:before {
+      width: 100%;
+    }
+  }
+
+  .client-tabs-link:hover {
+    font-weight: 700;
+    text-decoration: none;
+
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+@include r.touch {
+  .client-tabs {
+    font-size: 14px;
+  }
+}
+.lang-ar {
+  .client-tabs .client-tabs-link {
+    margin-left: 2em;
+  }
+}

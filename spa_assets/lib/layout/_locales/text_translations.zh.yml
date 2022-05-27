@@ -1,0 +1,93 @@
+text_translations:
+  head:
+    title: "文件和文本的专业翻译服务"
+    description: "20000多个来自全球170多个国家的翻译可以提供180个语言的快速，实惠和高质量翻译服务"
+    keywords: "翻譯、專業翻譯、譯員、專業譯員、語言翻譯服務、翻譯機構、自由譯員、翻譯"
+  header: "文件和文本的专业翻译服务"
+  description: "20000多个来自全球170多个国家的翻译可以提供180个语言的快速，实惠和高质量翻译服务"
+  why:
+    header: "为什么 interpreters.travel？"
+    quality: "质量"
+    quality_desc: "96%的客户满意度证明了我们的优质服务"
+    price: "价格"
+    price_desc: "您可以直接与翻译合作，无需支付任何中介费"
+    time: "期限"
+    time_desc: "现代的翻译推荐和订单完成的管理系统"
+  form:
+    languages:
+      sourceLanguage: "原语言"
+      targetLanguage: "目标语言"
+    specialization: "专业"
+    word_count: "词数"
+    attachments:
+      label: "附件"
+      or: "或者"
+      upload: "上传文件"
+      dropzone_text: "把你的文件放在這裡"
+    due_date:
+      label: "日期和时间"
+      auto: "自动模式 (价格优势)"
+      select: "选择"
+      reset: "清除"
+    name: "名"
+    email: "邮箱 (获取报价)"
+    phone: "电话"
+    description: "订单说明"
+    submit: "获取价格"
+    privacy:
+      text: '通过单击"获取价格"，并确认，已阅读并同意'
+      privacy_policy: "隐私政策"
+      terms_conditions: "条款和条件"
+      and: "和"
+    add_contact_info: "填写您的联系方式"
+    footer: "您的文件翻译询价已成功发送给翻译。 翻译将向您发送报价"
+  show:
+    guest_description: "您的文件翻译询价已成功发送给翻译。 翻译将向您发送报价"
+    create_new: "重新发送询价"
+  why_inter:
+    title: "为什么 interpreters.travel？"
+    block1:
+      link: "方便安全"
+      text_html: "您只需要支付实际产生的时费。 <br/> 无需任何预付款。保证付款安全"
+    block2:
+      link: "价格优惠"
+      text_html: "按分钟结算翻译费。 <br/> 无需支付话费和手续费"
+    block3:
+      link: "最大化选择"
+      text_html: "20000多个专业翻译。180种语言。 <br/> 150个可呼叫国家。24/7 在线"
+    block4:
+      link: "便利"
+      text_html: "通过价格和等级快速寻找合适的翻译。 <br/> 翻译的快速链接。 <br/> 使用维萨和万事达卡进行支付"
+  why_inter_spa:
+    title: "为什么 interpreters.travel？"
+    block1:
+      link: "方便安全"
+      text_html: "现在就预定，稍后付款 <br/> 免费取消订单 <br/> 保证安全支付"
+    block2:
+      link: "价格优惠"
+      text_html: "所有订单都市译员价， <br/> 没有中介费 <br/> 订单折扣"
+    block3:
+      link: "最大化选择"
+      text_html: "%{cities}个城市的译员, <br/> 全世界%{countries}个国家"
+    block4:
+      link: "便利"
+      text_html: "便利支付：VISA，Mastercard,<br/> 银行转账，现金支付 <br/>24/7全天候支持"
+  hero:
+    professional_interpreters: "参加展会，会议，谈判的高级翻译"
+    vetted_interpreters: "20000多个来自170多个国家的翻译可以提供180个语言的快速，实惠和高质量翻译服务"
+    international_calls: "有翻译陪同并不需要花长途费的国际长途电话"
+    thousands_of_professional: "上千名专业翻译全天为您提供180种语言的电话翻译服务"
+    connect_an_interpreter: "链接翻译后您可以在线向世界150个国家拨打电话"
+  how_it_works:
+    title: "它是如何工作的"
+    text1: '选择语言并点击 “链接翻译”'
+    text2: "可以提供翻译服务的翻译与服务价格将显示在屏幕上"
+    text3: "点击绿色按键链接翻译"
+    text4: "请告知翻译你需要什么，通话国家，通话对象和通话原因"
+    text5: "拨打电话，等待回复，拨通后您可以以电话会议模式进行沟通"
+    text6: " 翻译会听到双方的对话，并进行翻译工作"
+    text7: "费用会自动从您的账号扣除。您只需要支付翻译费，电话费全免。"
+    press: "点击"
+    to_call_interpreter: "绿色按键链接翻译"
+    to_end_the_phone_call: "号码下方的红色按键结束通话。翻译会保持在线模式"
+    to_end_the_conversation: "红色按键结束与翻译的对话"

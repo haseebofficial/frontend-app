@@ -1,0 +1,13 @@
+.date-text-right {
+  display: none;
+}
+
+#body.ja {
+  .date-text-right {
+    display: inline-block
+  }
+
+  .date-text-left {
+    display: none;
+  }
+}

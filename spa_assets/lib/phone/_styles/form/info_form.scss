@@ -1,0 +1,144 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.client-info-fields {
+    margin-bottom: 10px;
+    @include r.touch {
+        margin-bottom: 0px;
+    }
+    .order-tabs {
+        padding-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 47px;
+    
+        .tab-name {
+            padding-left: 24px;
+            padding-right: 24px;
+            &.is-active:before {
+                left: 0px;
+            }
+        }
+
+        .tab-name:last-child {
+            margin-left: 0;
+        }
+
+        li {
+            padding-bottom: 5px;
+        }
+
+
+
+        @include r.touch {
+            padding-left: 0;
+            margin-top: 10px;
+            margin-bottom: 20px;
+
+            .tab-name {
+                padding-left: 2px;
+                padding-right: 2px;
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-left: 5px;
+                }
+                &.is-active:before {
+                    left: 0px;
+                }
+            }
+            
+            li {
+                font-size: 14px;
+                padding-bottom: 5px;
+            }
+            & li:not(:first-child) {
+                margin-left: 15px;
+            }
+        }
+    }
+    @include r.desktop {
+        .columns {
+            .column {
+                padding-bottom: 0;
+            }
+        }
+    }
+    @include r.touch {
+        .columns {
+            .column {
+                padding: 11px 0;
+                //padding-bottom: 10px;
+                &:last-child {
+                    padding-bottom: 0;
+                }
+            }
+        }
+        .columns.tab-names-columns {
+            display: flex;
+            margin-bottom: 1px;
+        }
+    }
+}
+
+.info-data {
+    .button {
+        height: 40px;
+        display: block;
+        border: none;
+        font: 18px "robotoregular";
+        background-color: c.$interpreters-yellow;
+        color: c.$interpreters-green;
+        text-decoration: none;
+    }
+    .button:hover, .button:focus {
+        color: c.$interpreters-green;
+    }
+    .footer-description-desktop {
+        padding-left: 18px;
+    }
+    .footer-description-touch {
+        display: none;
+    }
+    @include r.mobile {
+        .column {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .footer-description {
+            font-size: 9px;
+            line-height: 11px;
+            &.footer-description-desktop {
+                display: none;
+            }
+            &.footer-description-touch {
+                display: block;
+            }
+        }
+    }
+}
+.inline-login-form {
+    .restore-password-link {
+        display: block;
+        margin-top: 10px;
+        text-decoration-line: underline;
+        color: c.$bulma-black;
+
+        @include r.touch {
+        font-size: 14px;
+        }
+    }
+    @include r.touch {
+        .button:hover, .button:focus {
+            color: c.$interpreters-green;
+        }
+    }
+}
+
+
+
+.footer-description {
+    font-size: 12px;
+    line-height: 14px;
+    .has-text-underline {
+        text-decoration: underline;
+    }
+}

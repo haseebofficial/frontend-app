@@ -1,0 +1,178 @@
+- q_name = "#{l_questionnaire(:name)} #{shorten_surname(@questionnaire.surname)}"
+- langs = "#{@search.language.locale}-#{@search.your_language.locale}"
+.cart_block
+  .interpreter-info-wrapper
+
+    = image_tag @questionnaire.photo_url, class: 'cart_photo', alt: t("interpreter.in_city", city: @in_city, name: q_name)
+    .info_wrapper
+      %meta{content: t("show_interpreter.title", city: @in_city, interpreter: q_name, langs: langs)}
+      .name= q_name
+      %h2.prof{style: "margin:0;padding:0"}=  t("interpreter.title_city", city: @in_city)
+
+      .left-right-wrapper
+        .right
+          %span.info-link-wrapper
+            %a.experience_event.info_link{href: '#', 'data-id' => @questionnaire.id}
+              #{t("interpreter.events")} (#{@questionnaire.experience_event_count})
+              %i.sort-right-arrow
+          %span.info-link-wrapper
+            %a.experience.info_link{href: '#', 'data-id' => @questionnaire.id}
+              #{t("interpreter.experience")} (#{t('years', count:  @questionnaire.experience_years)})
+              %i.sort-right-arrow
+          %span.info-link-wrapper
+            %a.recommendations.info_link{href: "#", 'data-id' => @questionnaire.id}
+              #{t("interpreter.recommendations")}
+              %i.sort-right-arrow
+          - if @questionnaire.video_yt_id
+            %span.info-link-wrapper
+              %a.youtube-link.info_link.show_dialog{data: {dialog_id: "video_dialog", dialog_title: t("show_interpreter.dialogs.youtube_title")}}
+                = t("show_interpreter.youtube_link")
+                %i.sort-right-arrow
+            #video_dialog.my_dialog{style: "display: none;"}
+              %iframe{title: "Interpreter Video", class: "youtube-player", type: "text/html", width: 460, height: 240, src: "https://www.youtube.com/embed/#{@questionnaire.video_yt_id}", frameborder: 0, allowFullScreen: ''}
+        .left
+          %span.info-link-wrapper
+            %a.level.info_link{href: "#", 'data-id' => @questionnaire.id}
+              %span.questionnaire-stars{class: questionnaire_stars_class(@questionnaire.score)}
+                - if @questionnaire.client_reviews_count > 0
+                  %span.client-reviews-count (#{@questionnaire.client_reviews_count})
+              %i.sort-right-arrow
+          %span.info-link-wrapper
+            %a.education.info_link.show_dialog{data: {dialog_id: "education_dialog", dialog_title: t("show_interpreter.dialogs.education_title")}}
+              = t("interpreter.education")
+              = "(#{@questionnaire.educations.count})"
+              %i.sort-right-arrow
+          #education_dialog.my_dialog{style: "display:none;"}
+            - @questionnaire.educations.each do |e|
+              %p
+                %b #{e.name}:
+                %br
+                = t("time.since_word")
+                %u= e.begin_date
+                = t("time.to_word")
+                %u= e.end_date
+                %br
+                - if e.verification_image
+                  = image_tag e.verification_image
+          - if @questionnaire.verified
+            %span.info-link-wrapper
+              %a.verified_profile.info_link.show_dialog{data: {dialog_id: "verified_contacts_dialog", dialog_title: t("show_interpreter.dialogs.profile_title")}}
+                = t("interpreter.verified_profile")
+                %i.sort-right-arrow
+            #verified_contacts_dialog.my_dialog{style: "display:none;"}
+              %h3.dialog-header= t("show_interpreter.dialogs.checked_and_confirmed")
+              %p.check-text= t("show_interpreter.dialogs.passport")
+              %p.check-text= link_to t("show_interpreter.dialogs.documents"), "#", class: "close-dialog show_dialog", data: {"dialog-id" => "education_dialog", "close-dialog-id" => "verified_contacts_dialog", dialog_title: t("show_interpreter.dialogs.education_title")}
+          %span.info-link-wrapper
+            %a.verified_contacts.info_link.show_dialog{data: {dialog_id: "verified_profile_dialog", dialog_title: t("show_interpreter.dialogs.contacts_title")}}
+              = t("interpreter.verified_contacts")
+              %i.sort-right-arrow
+          #verified_profile_dialog.my_dialog{style: "display:none;"}
+            %h3.dialog-header= t("show_interpreter.dialogs.checked_and_confirmed")
+            %p.check-text
+              - if @contacts_available
+                = t("show_interpreter.dialogs.email_full", email: @questionnaire.email)
+              - else
+                = t("show_interpreter.dialogs.email_address", domain: @questionnaire.email.split('.').last)
+            %p.check-text
+              - if @contacts_available
+                = t("show_interpreter.dialogs.phone_full", phone: @questionnaire.mobile_phone)
+              - else
+                = t("show_interpreter.dialogs.phone", last_two: @questionnaire.mobile_phone.last(2))
+            - unless @contacts_available
+              %p
+                - confirmation = link_to(t("show_interpreter.dialogs.order_confirmation"), "#available-serivces", class: "close-dialog", "data-close-dialog-id" => "verified_profile_dialog")
+                = raw t("show_interpreter.dialogs.contacts_available", confirmation: confirmation)
+    .clear
+  .photo-border
+  .clear
+  - if @questionnaire.response_rate > 0
+    %span.response-stats
+      #{t("show_interpreter.response_rate")}:
+      %span.green-text #{@questionnaire.response_rate}%
+    %span.response-stats
+      #{t("show_interpreter.avg_response_time.title")}:
+      %span.green-text= t("show_interpreter.avg_response_time.#{@questionnaire.avg_response_time}")
+  .clear
+  = render "interpreter_client_tickets/new", ticket: @ticket, interpreter_id: @questionnaire.user_id, additional_text: t("show_interpreter.ticket_text"), on_search_page: true
+  .clear
+  .desc
+    = l_questionnaire(:short_summary)
+  .desc
+    = l_questionnaire(:summary)
+.info_block
+  .title= t("show_interpreter.specializations")
+  = @questionnaire.specializations_to_sentence
+.info_block
+  .title= t("show_interpreter.language_pairs")
+  = @questionnaire.language_pairs_to_sentence
+
+- if @search.busy_interpreters_ids.include? @questionnaire.user_id
+  .result_trans_wrapper
+    .more_results
+      = t("show_interpreter.unavailable")
+      = link_to t("show_interpreter.edit_search"), search_path(@search.id)
+- else
+  - clear_date_path = search_city_path(@search.url_city_name_escaped, @search.id, clear_date: true)
+  %table.service_table#available-serivces
+    %thead
+      %tr
+        %td
+          = t("show_interpreter.available_services", period: @search.selected_period)
+          = link_to t("search_page.change_date"), clear_date_path, data: {"no-turbolink" => true}, class: "change-date-link"
+        %td
+          - hours = t("hours", count: @search.duration_int)
+          - if I18n.locale == :ja
+            = t("show_interpreter.price", hours: hours)
+          - else
+            = t("show_interpreter.price")
+            %br
+            = t("for")
+            = hours
+        %td
+          %span= t("show_interpreter.order")
+    %tbody
+      - @services.each do |service|
+        - service_price = convert_to_current_currency(service.calculated_price, @questionnaire.currency_code)
+        %tr
+          %td
+            %span{style: "text-decoration:none; font-family: 'robotobold'; display: inline-block"}= service_link(service.service_type)
+            = t("show_interpreter.person_count", count: service.group_size) unless service.group_size.blank?
+            .service-links
+              - unless service.additional_cost.blank?
+                .service-link.additional-cost{"data-text" => service.additional_cost}= t("show_interpreter.additional_services")
+              - if service.cancellation
+                .service-link.cancellation{"data-text" => t("show_interpreter.free_cancellation_text", hours: service.cancellation)}= t('show_interpreter.free_cancellation')
+              - if service.discount
+                .discount
+                  = t("show_interpreter.discount")
+                  = service.discount
+                  \%
+          %td.pr
+            %span.price
+              = service_price
+            = link_to t("show_interpreter.order_button"), new_order_path(order: {interpreter_id: @interpreter.user_id, search_id: @search.id, service_id: service.id}), method: :post, class: "mob-link new-order-button", "data-clear-date-path" => clear_date_path,  "data-modal-content" => "#service-confirm-modal-#{service.id}"
+          %td
+            = simple_form_for :order, url: new_order_path(order: {interpreter_id: @interpreter.user_id, search_id: @search.id, service_id: service.id}) do |f|
+              = f.button :submit, t("show_interpreter.order_button"), class: 'link pull-right new-order-button', "data-clear-date-path" => clear_date_path, "data-modal-content" => "#service-confirm-modal-#{service.id}"
+        .hidden{id: "service-confirm-modal-#{service.id}"}
+          %p
+            = t("show_interpreter.confirm_modal.date")
+            %b= @search.selected_period
+          %br
+          %p= t("show_interpreter.confirm_modal.service", service: l_object(:name, service.service_type), city: @in_city)
+          %p
+            = t("show_interpreter.confirm_modal.languages")
+            #{@search.language.name} - #{@search.your_language.name}
+          %p
+            = t("show_interpreter.confirm_modal.price")
+            %b= service_price
+        -# TODO: dynamic pair of languages; translations (i18n)
+      %tr
+        %td
+          %span.blue_text= t("show_interpreter.translation")
+        %td{colspan: "2"}
+          = link_to t("show_interpreter.get_quote"), translation_path(source_language: @search.your_language.locale, target_language: @search.language.locale), class: 'btn link get_quote'
+
+  .star_text
+    = t("show_interpreter.star_text")

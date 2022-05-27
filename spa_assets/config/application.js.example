@@ -1,0 +1,14 @@
+/*
+  THIS FILE IS AN EXAMPLE OF SOME ACTUAL FILE 
+  THAT CONTAINS SYSTEM-SPECIFIC SETTINGS OR SENSITIVE INFORMATION
+  TO USE IT, COPY THE FILE REMOVING .example EXTENSION
+*/
+
+export default {
+  api_base_url:  "https://cp.dev.interpreters.travel/api",
+  api_version: "v1",
+  ws_url: "wss://dev.interpreters.travel/wss/",
+  backendUrl: "https://cp.dev.interpreters.travel/",
+  apiRoutesHost: "https://dev.interpreters.travel/",
+  useRailsAssetPipeline: false
+};

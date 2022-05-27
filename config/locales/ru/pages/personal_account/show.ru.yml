@@ -1,0 +1,6 @@
+ru:
+  orders_index_page: 
+    title: "Мои заказы"
+    load_more: "Показать еще"
+    cancelled: "Заказ отменен"
+    from: "С"

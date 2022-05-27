@@ -1,0 +1,11 @@
+%ul.accordion_list
+  - help_page_images.each do |name, images|
+    - scope = "help_page.#{name}" 
+    %li
+      .title
+        %span= t("#{scope}.title")
+      .block
+        - images.each_with_index do |image, i|
+          %p= raw t("#{scope}.block#{i}")
+          %p= image_tag image
+        %p= raw t("#{scope}.block#{images.length}")

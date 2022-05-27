@@ -1,0 +1,396 @@
+zh:
+  locales: 
+    ru: "Русский"
+    en: "English"
+    de: "Deutsch"
+    es: "Español"
+    fr: "Français"
+    it: "Italiano"
+    tr: "Türkçe"
+    pt: "Português"
+    vi: "Tiếng Việt"
+    ar: "العربية"
+    ja: "日本語"
+    zh: "中文"
+    ko: "한국의"
+  your_language_selector: "选择语言"
+  for: "за"
+  flash_messages: 
+    new_interpreter: "您通过了 interpreters travel 注册，您的用户的密码已发到您的邮箱: %{email}."
+    new_partner: "您已成功注册 interpreters.travel，成为我们的合作伙伴！请输入电子邮件地址： %{email}"
+    ticket_created: "感谢您的支持，您很快会收到回复"
+    interpreter_message_created: "您的消息已发送。您将在近期内收到回复"
+    paypal_payment_declined: "PayPal拒绝您的支付。请联系我们客服人员"
+    payment_success: "您的订单已注册"
+    order_not_paid: "请注意！您的支付未被证实！您可以选择以下支付方式查看订单信息。如果已经支付，但是仍未收到信息，请联系我们工作人员： %{id}."
+    contacts_requested: "几分钟之后您将收到一个通知和凭证 "
+    payment_declined: "您的付款已被拒收。 请联系支持。"
+
+  forms: 
+    email: "邮箱"
+    name: "您的名字"
+    phone: "电话"
+    message: "Сообщение:"
+    send_message_to_int: "与译员联系"
+    send_button: "发送"
+    send_to_all: "发送消息给所有类似译员"
+    order_message: "说明你参与的活动，地点，日期，举行时间，参与人数，主题，翻译语言，其他特色和要求"
+  meta_desc: 
+    main: "全球的口译工作者。为什么选择 interpreters.travel? 客户关于翻译的真实评论"
+    about: "Interpreters.travel OÜ成立于2013年，完全拥有Interpreters.travel 独家权利 -全球范围内 搜索翻译者服务和在线订购口译服务"
+    for_clients: "Interpreters.travel －是一个在线预定口译服务平台，在这里你可以在世界范围内很多国家和城市轻松，快速找到专业的译员！"
+    help_interpreter: "«Interpreters travel是专门提供各样口译订单的网上翻译平台，以方便易用和安全著称。提供的订单与我的时间配合，方便我只会收到对我来说时间方便的订单，即使我可工作的时间只有几个小时，也可以找到合适的订单，使得我的时间得到最高效的利用»"
+    info: "Interpreters.travel－－提供简单的，安全的和可靠的服务，可以在网站上或者在移动设备上快捷地在全球范围内找到合适的译员，预定口译服务。"
+    for_affiliates: "Interpreters.travel 会员计划。 你把搜索表单翻译或超链接设置在自己的网站上。 您网站的用户对口译服务感兴趣并找到合适的翻译者且下单。 您会收到的每一个完成的订单额的5％的佣金。"
+  top_menu:
+     login_link: '入口'
+     sign_up_link: '注册'
+     help_link: '帮助'
+     logout_link: '出口'
+     dashboard_link: '个人账户'
+     welcome: '您好， %{user}'
+     interpreter_login_link: '译员入口'
+
+  footer:
+    info: '关于interpreters.travel'
+    support: '24/7支持'
+    help_inter: 致译员
+    help_inter_in_city: '%{city}译员'
+    for_affiliates: "致合作伙伴"
+    terms_conditions: '规则与条件'
+    privacy_policy: '隐私政策'
+    copyright_html: '&copy; Copyright 2013 - %{year}. interpreters.travel. All rights reserved.'
+
+  description_index: '口语译员，全世界'
+
+  slider: 
+    slide1: "美国洛杉矶商业会面"
+    price_slide1: "译员-125美金/3小时"
+    slide2: "红酒展会译员"
+    price_slide2: "西班牙巴塞罗那-115美金/5小时"
+    slide3: "香港研讨会随身"
+    price_slide3: "翻-250美金/2天"
+    slide4: "德国科里纳诊所会诊"
+    price_slide4: "翻译-75美金/3小时а"
+
+  card_checkout_form: 
+    title: "支付 %{amount}"
+    name: "名，姓"
+    submit: "使用借记卡或信用卡支付"
+    cnn_error: '请输入有效的卡号'
+    exp_error: '请输入有效的有效期限'
+    cvv_error: '请输入有效的CSC'
+    text: "在添加或使用该卡的过程中, 我们不会访问您的个人付款信息, 例如您的信用卡号或CVV信息"
+
+  search_form:
+    title: '寻找译员'
+    where: '地点'
+    when: '时间'
+    language: '需要的语言'
+    your_language: '您的语言：'
+    button: '搜索'
+    city: '例：柏林，米兰，纽约'
+    date_time: '选择日期，时间'
+    timepicker:
+      title: '见面时间（地点）'
+      total: '总时间'
+      from: '自'
+      till: '到'
+      buttons:
+        add_day: '增加'
+        clear: '清除'
+        clear_intervals: '清除间隔'
+        choose: '选择'
+    language_selector: 
+      no_result: '该城市无翻译'
+      list_select: '从表格选择'
+      blank_city: "首先选择城市"
+    city_selector: 
+      no_result: "在指定的城市没有可用的译员。请稍后再尝试寻找译员或者选择其他城市"
+  partner_search_form:
+    title: '130个国家的翻译人员'
+    desc: '谈判，会议，展览，诊所'
+    show: 继续浏览
+  contact_form:
+    name: "名，姓"
+    phone: "电话"
+    email: "邮箱"
+    content: "您的消息"
+    button: "发送"
+    city: "您的城市"
+
+  counts: 
+    cities: 
+      one: '%{count} 城市'
+      few: '%{count} 几个城市'
+      other: '%{count} 几个城市'
+    countries: 
+      one: '%{count} 城市'
+      few: '%{count} 几个城市'
+      other: '%{count} 几个城市'
+
+  client_reviews: 
+    leave_review: 编写评论
+    score: 总分
+    interpretation_score: 翻译的准确性与速度
+    punctuality_score: 守时和自律
+    consultation_score: "维护期间咨询和帮助"
+    comment: "关于您的翻译、满意程度的评价"
+    updated: "已保存的反馈。感谢您的时间和意见。"
+
+  main:
+    header: '口译服务类型'
+    header_description: '不知道选择什么服务？请看口译服务清单'
+    block_img1: '商谈翻译'
+    block_img2: '介绍翻译'
+    block_img3: '协议翻译'
+
+    block_img4: '展会翻译'
+    block_img5: '研讨会或会议翻译'
+    block_img6: '陪同代表团'
+    all_type: '口译的所有服务'
+    client_reviews_title: "客户关于翻译的真实评论"
+    why_inter:
+      title: '为什么 interpreters.travel？'
+      block1:
+        link: '方便安全'
+        text_html: '现在就预定，稍后付款 <br/> 免费取消订单 <br/> 保证安全支付'
+      block2:
+        link: '价格优惠'
+        text_html: '所有订单都市译员价， <br/> 没有中介费 <br/> 订单折扣'
+      block3:
+        link: '最大化选择'
+        text_html: '2198个城市的译员, <br/> 全世界137个国家'
+      block4:
+        link: '便利'
+        text_html: '便利支付：VISA，Mastercard,<br/> 银行转账，现金支付 <br/>24/7全天候支持'
+  search_page: 
+    window_title: 
+      zero: "无可用翻译在%{city}"
+      one: "%{count}可用翻译在%{city}"
+      few: "%{count}可用翻译在%{city}"
+      other: "%{count}可用翻译在%{city}"
+    title: 
+      zero: "无可用翻译在%{city}"
+      one: "%{city}的译员"
+      few: "%{city}的译员"
+      other: "%{city}的译员"
+    keywords: "翻译%{city}, 口译员%{city}, 译者%{city}, 私人翻译%{city}, 口译员%{city}"
+    meta_description: "专业翻译%{city}陪同，讲座、 展览、 会议，请联系译者或订购网站，无预付佣金和预付款。 "
+    free_cancellation: "现在预定，然后支付，免费取消，免手续费"
+    one_available_interpreter: "一名翻译，%{city}可用于订单"
+    one_from_few_available_interpreter: "%{count}个译员中有%{free}个译员%{city}订单可用"
+    available_interpreters: 
+      zero: "无可用翻译在%{city}所选的设置"
+      one: "%{count}个译员中有%{free}个译员%{city}订单可用"
+      few: "%{count}个译员中有%{free}个译员%{city}订单可用"
+      other: "%{count}个译员中有%{free}个译员%{city}订单可用"
+    duration_text: "%{duration}总价 (%{intervals})，包含折扣"
+    back_link: "主页"
+    price: "%{city}译员的价格"
+    services: "%{city}译员的服务"
+    specializations: "翻译的专业性"
+    fold: 关闭
+    unfold: 继续浏览 
+    city_desc: "关于%{city}译员"
+    sort: 
+      title: "Сортировка:"
+      price: "Цена"
+      updated_at: "Дата обновления"
+      level: "Оценка резюме"
+    change_date: "修改日期，时间"
+    learn_more: "详情"
+    result: "Результат"
+    filter: "Фильтр"
+    search: "Поиск"
+    map_link: "Посмотреть на карте"
+    minimum_volume_message: "%{hours}小时%{city}市预定译员的最小时间额度，增加您的会面时间"
+    busy_interpreters_message: "%{count}在所选时间的无可用翻译"
+    minimum_advance_message: "不早于%{advance}个小时在%{city}译员可以完成您的订单。修改日期和时间"
+    time_in_past: "指定未来日期"
+    another_price_interpreters: 
+      one: "在%{city}还有一个%{count}口译译员满足您的要求，但是在其他的价格区间可用"
+      few: "在%{city}还有一个%{count}口译译员满足您的要求，但是在其他的价格区间可用"
+      other: "在%{city}还有一个%{count}口译译员满足您的要求，但是在其他的价格区间可用"
+    busy_interpreters: 
+      one: "%{city}还有%{count}个译员满足您的要求，但是别的时间可用"
+      few: "%{city}还有%{count}个译员满足您的要求，但是别的时间可用"
+      other: "%{city}还有%{count}个译员满足您的要求，但是别的时间可用"
+    show_more: "继续浏览"
+  interpreter: 
+    diplomas: "教育"
+    certificates: "教育"
+    experience: "经验"
+    level: "Уровень"
+    rating: "排行"
+    reviews: "评价"
+    education: 教育
+    reviews_text: "只有客户预定和支付译员的服务"
+    rating_text: "排行由20个参数组成：工作经验，教育，客户评价，推荐，简历质量等"
+    recommendations: "推荐"
+    events: "活动"
+    resume_level: "Уровень <span class='mobile-hide'> резюме:</span>"
+    title: "专业翻译"
+    title_city: "%{city}专业口译译员"
+    verified_contacts: "联系方式证实"
+    verified_profile: "基本情况确认"
+    in_city: "%{city}译员 - %{name}"
+
+  show_interpreter: 
+    title: "%{city}译员 (%{langs}) - %{interpreter}"
+    meta_description: "为%{city}提供专业翻译服务，包括谈判、 展览、 会议"
+    desc_addition: "为%{city}提供专业翻译服务(%{langs})"
+    keywords: "翻译%{city}, 口译员%{city}, 译者%{city}, 私人翻译%{city}, 口译员%{city}"
+    service_select: "%{city}译员"
+    experience: "经验"
+    youtube_link: 视频
+    similar_interpreters: "类似的译员"
+    verified_contacts_text: "Проверены паспорт (удостоверение личности, водительское удостоверение) и документы об образовании."
+    ticket_text: '向译员提前发问或者通过下方服务对面的预定按钮立即预定选择的日期和时间'
+    why_itravel_block: |
+      <h3> 为什么选择interpreters travel？ </h3>
+      <p> 译员价格不含中介费 </p>
+      <p> 在线支付或者现金支付译员 </p>
+      <p> 免费取消订单，保证返还金额</p> 
+      <p> 无需注册预定</p>
+      <p> 企业订单 </p>
+      <p> 在线支付安全，数据保护 </p>
+    learn_more: "了解详情"
+    back_link: "%{city}的所有译员"
+    load_more: "浏览更多"
+    selected_period: "选择日期： %{intervals}"
+    specializations: "翻译的专业性："
+    language_pairs: "互译语言："
+    unavailable: "在选择的时间里译员服务不可用，"
+    edit_search: "请更换订单时间"
+    available_services: "订单服务在%{period}:"
+    price: "总费用*"
+    order: "订单"
+    person_count:  '(%{count}人)'
+    additional_services: "补充服务"
+    free_cancellation_text: "订单在会面前不晚于%{hours}可免费取消。订单晚于这个期限，在会面前取消应支付译员两小时的服务费。"
+    free_cancellation: "免费取消"
+    discount: "折扣"
+    order_button: "预定"
+    star_text: "*选择时间的订单费用，包含折扣"
+    avg_response_time: 
+      title: "回复时间"
+      hour: "一小时内"
+      few_hours: "若干小时内"
+      day: "一天内"
+      few_days: "若干天内"
+    response_rate: "回复率："
+    how_to_order: 
+      title: "如何在%{city}预定译员："
+      text: |
+        - 点击预定按钮选中服务
+        <br>
+        - 使用信用卡或通过银行转账来生成订单，同时您可以选择直接用现金支付译员
+        <br>
+        - 收到订单确认和附有译员联系方式的订单凭证
+    confirm_modal:
+      date: "您的预定日期和时间：" 
+      service: "%{service}在%{city}"
+      languages: "互译语言："
+      price: "订单总额："
+    reviews_from: 只有客户预定和支付译员的服务
+    dialogs: 
+      checked_and_confirmed: '证实和确认'
+      email_full: "邮箱地址 %{email}"
+      phone_full: "手机号码 %{phone}"
+      email_address: "邮箱地址 ▒▒▒▒▒▒@▒▒▒▒.%{domain}"
+      phone: "手机号码 ▒▒▒▒▒▒%{last_two}"
+      contacts_available: "%{confirmation}联系方式可用"
+      order_confirmation: 订单确认后
+      passport: '护照/身份证/驾照'
+      documents: 教育文件
+      contacts_title: 联系方式证实
+      profile_title: 基本情况确认
+      education_title: "教育"
+      youtube_title: "视频"
+    500_page: 
+      title: 未找到译者
+      title_text: 该译者当前不可提供服务
+      similar_ints_title: "在%{city}查看类似服务"
+      to_search: "在%{city}查看可用服务链接%{link}"
+      search: 跳转到搜索
+    viewers_count: 
+      one: "该翻译目前搜索到%{count}人"
+      few: "该翻译目前搜索到%{count}人"
+      other: "该翻译目前搜索到 %{count}人"
+
+  order_page: 
+    description: "生成订单"
+    back_link: '服务选择'
+    stage1: "译员选择"
+    stage2: "服务选择"
+    stage3: "生成订单"
+    order_info: "订单信息："
+    services_info: "当前城市的口译服务：%{city}."
+    selected_period: "选择的期限："
+    language_pairs: "互译语言："
+    selected_services: "选择的服务："
+    additional_services: "补充服务："
+    order_cancellation: "免费取消订单："
+    cancellation_possible: "%{date}之前"
+    no_cancellation: "不可行"
+    service_types: "选择的服务："
+    order_price: "订单金额和货币:"
+    discount: "包含折扣"
+    personal_form_tab: "个人订单"
+    confirmation_code: "Введите код подтверждения, высланный на ваш номер:"
+    login_button: "进入自己的账户"
+    login_password_info: "，密码发送到您的邮箱%{mail}"
+    login: "入口"
+    password: "密码"
+    forgot_password_success: "在若干分钟内您将收到重置密码的说明信"
+    forgot_password: "忘记密码"
+    forgot_title: "重置密码"
+    new_password: "创建新密码"
+    client_currency: "支付货币"
+    payment: 
+      choice: "提供付款选项:"
+      choice_paypal: "PayPal"
+      choice_invoice: "银行转账"
+      choice_cash: "现金支付"
+      choice_card: "Visa/Mastercard"
+      info: "当支付或者取消订单时要与译者协商一致"
+      cash_text: '选择现金支付方案，您将直接现金支付给译员，支付译员的货币 (%{amount}) ，汇率按照当前订单生成时为准。您将收到译员货币的支付账单'
+      invoice_text1: "账号的副本以pdf格式将发送到您的邮箱"
+      invoice_text2: "您可以在任意银行支付到账号，银行转账不晚于账号规定的支付日期的3个银行日内"
+      paypal: '您将跳转到paypal支付页面'
+      select: "支付方式："
+      invoice: "账号"
+      cash: "现金"
+      order_button: "预定译员服务"
+
+    personal_form: 
+      title: "服务预约人的信息"
+      surname: "姓"
+      name: "名"
+      sms_phone: "手机号(+35733...)"
+      city: "城市"
+      address: "地址"
+      email: "电子邮箱"
+      info_for_interpreter: "译员的信息 (可选，也可稍后提供)"
+      meeting_address: "和译员会面的地址"
+      map_link: "地图标明"
+      detail_information: "描述主题或者会面的问题，复制文本或者其他信息（不多于1200个字符）。可以允许译员在会面或者活动时能更好的准备翻译" 
+      file_field: "增加信息文件"
+      submit: "选择订单支付方式"
+      agreement_text: '通过单击"选择支付方法"，并确认，已阅读并同意%{policy}和%{terms}'
+      policy: "隐私政策"
+      terms: "条款和条件"
+  order_complete: 
+    title: "订单注册"
+    back_link: "主页"
+    for_client: "尊敬的 %{client}!"
+    order_registered: "您的订单已注册"
+    text: | 
+      订单的详情将发送都指定的邮箱地址，
+      <br>
+      同时下一步操作的描述
+      <br> 
+      同时您可以
+    link: "在网站上浏览"
+    after_link: "订单详情"

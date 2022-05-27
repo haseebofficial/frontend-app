@@ -1,0 +1,80 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.order-tabs {
+  margin-top: 70px;
+  display: flex;
+  li {
+    cursor: pointer;
+    padding-bottom: 10px;
+    position: relative;
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  li:not(:first-child) {
+    margin-left: 45px;
+  }
+
+  .is-active {
+    font-weight: 700;
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: -7px;
+      width: 100%;
+      height: 4px;
+      background-color: c.$interpreters-yellow;
+      transition: width 0.8s ease;
+    }
+  }
+
+  @include r.touch {
+    &.mobile-full {
+      width: 100vw;
+      height: 40px;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-top: 20px;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      padding: 0 15px;
+      background-color: c.$interpreters-green;
+      align-items: center;
+      border: none;
+
+      li {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        width: 50%;
+        padding: 6px;
+        font-size: 12px;
+        height: 100%;
+        color: c.$interpreters-yellow;
+      }
+
+      li:not(:first-child) {
+        margin-left: 5px;
+      }
+
+      .is-active {
+        height: 100%;
+        color: #000000;
+        background-color: c.$interpreters-yellow;
+        &:before {
+          width: 0;
+        }
+      }
+    }
+  }
+}
+// changes
+.lang-ar {
+  .client-info-fields .order-tabs li {
+    margin-left: 1em;
+  }
+}

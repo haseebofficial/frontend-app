@@ -1,0 +1,4 @@
+- policy_link = link_to t("order_page.personal_form.policy"), privacy_policy_path, target: "_blank"
+- terms_link = link_to t("order_page.personal_form.terms"), terms_conditions_path, target: "_blank"
+.order_agreement_link 
+  = raw t("order_page.personal_form.agreement_text", policy: policy_link, terms: terms_link)

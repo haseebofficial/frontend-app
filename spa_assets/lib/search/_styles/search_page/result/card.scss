@@ -1,0 +1,147 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.result-block {
+  margin-top: 30px;
+
+  .block-body {
+    display: flex;
+  }
+
+  .avatar {
+    min-width: 120px;
+    max-width: 120px;
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .info {
+    padding-left: 20px;
+    width: 100%;
+
+    &-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      .info-name {
+        font: 24px "robotomedium";
+      }
+
+      .info-price {
+        font-family: "robotomedium", sans-serif;
+        padding: 5px 25px;
+        background: c.$interpreters-yellow;
+        color: c.$interpreters-green;
+
+        span {
+          font-family: "robotolight", sans-serif;
+          color: c.$bulma-grey;
+        }
+      }
+    }
+
+    &-description {
+      margin-top: 20px;
+    }
+  }
+
+  .rating {
+    display: flex;
+    justify-content: center;
+  }
+
+  .result-block-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+
+    .rating-block {
+      text-decoration: none;
+    }
+
+    .result-block-link {
+      font-family: "robotoregular", sans-serif;
+      color: #000000;
+    }
+
+    .button {
+      display: block;
+      text-decoration: none;
+      height: auto;
+      padding: 2px 4px;
+      font: 16px "robotoregular";
+      color: #383737;
+
+      &:hover {
+        background-color: c.$interpreters-yellow-light;
+      }
+    }
+  }
+}
+
+@include r.touch {
+  .result-block {
+    .avatar {
+      float: left;
+    }
+
+    .info {
+      padding-left: 0;
+
+      &-header {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .info-name {
+        margin-bottom: 17px;
+        font-size: 24px;
+      }
+
+      .info-price {
+        font-size: 14px;
+        margin-top: 17px;
+        background: transparent;
+      }
+
+      &-description {
+        font-size: 10px;
+      }
+    }
+
+    .result-block-footer {
+      flex-direction: column;
+      align-items: flex-start;
+
+      .result-block-link {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgba(229, 229, 229, 0.69);
+        font-size: 16px;
+      }
+
+      .button {
+        padding: 10px 0;
+        width: 100%;
+        background-color: c.$interpreters-yellow;
+        color: c.$interpreters-green;
+        border: none;
+        font-size: 17px;
+      }
+    }
+  }
+}
+
+// Changes
+.lang-ar {
+  .result-block .avatar {
+    margin-left: 1em;
+  }
+}

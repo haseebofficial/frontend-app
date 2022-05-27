@@ -1,0 +1,14 @@
+@use "app/_styles/utils/text";
+@use "app/_styles/utils/icon_placeholders";
+
+label.checkbox {
+  @include text.unselectable;
+
+  input[type="checkbox"] {
+    margin-right: 0.6rem;
+  }
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  @include icon_placeholders.thin-arrow;
+}

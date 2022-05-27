@@ -1,0 +1,64 @@
+search_form:
+  title: 'Trovi un interprete'
+  where: 'Dove:'
+  when: 'Quando:'
+  language: 'Quale lingua occorre:'
+  your_language: 'La La Sua lingua è:'
+  button: 'Cerchi'
+  city: 'Esempio: Berlino, Mosca, New York'
+  date_time: 'Scelga la data, ora'
+  timepicker:
+    title: 'ora d’incontro (locale):'
+    total: 'Durata totale degli intervalli'
+    from: 'Da'
+    till: 'A'
+    buttons:
+      add_day: 'Aggiunga'
+      clear: 'Cancelli'
+      clear_intervals: 'Cancelli gli intervalli'
+      choose: 'SCELGA'
+  language_selector:
+    no_result: 'Non ci sono interpreti per questa città'
+    list_select: 'Scelga dalla lista'
+    blank_city: "Prima scelga la città"
+  city_selector:
+    no_result: "Nella città scelta ora non ci sono degli interpreti accessibili. Prova Trovi un interprete in questa città più tardi o scelga un’altra città"
+  js:
+    select: "OK"
+    time:
+      since_word: "dalle"
+      to_word: "alle"
+      select: "Consento"
+      cancel: "Negare"
+      browser_outdated: "Il Suo navigatore è venuto obsoleto ed alcuni funzionalità possono non andare più corretto. Per favore, mettasi un navigatore più moderno e sicuro."
+    date_selector:
+      dialog:
+        title: "Periodi scelti"
+        confirm: "Confermi"
+        change: "Cambi"
+      errors:
+        no_periods_selected: 'Scelga ora e fare clic su "Aggiunga"'
+        invalid_interval: 'Non è corretto scelto l’intervallo del tempo'
+        interval_exists: 'Questo periodo è stato già assegnato, scelga un altro, per favore'
+        interval_passed: "L'intervallo di tempo selezionato è già trascorso"
+      total_time: 'Durata totale - '
+      from: ' - dalle '
+      to: ' alle '
+      select: "Scelga"
+    search:
+      file_select: "Scelga..."
+      errors:
+        blank_city: 'Scelga la città.'
+        blank_intervals: 'Scelga la data, ora.'
+        blank_language: 'Scelga la lingua.'
+    buttons:
+      change_order_date: "Cambi la data"
+      confirm_order_date: "Confermi"
+    titles:
+      confirm_order_date: "Confermi i dati della prenotazione"
+  filter:
+    show_result: "Mostrare ancora"
+    interpreters_are_not_available: "Non ci sono interpreti disponibili in questa città per la data e le lingue selezionate. Scegli un’altra città"
+  now: "ora"
+  or_choose_a_time: "o scegli un orario"
+  connect_an_interpreter: "Connetti un interprete"

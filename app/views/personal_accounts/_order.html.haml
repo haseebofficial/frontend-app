@@ -1,0 +1,20 @@
+.my_view_block
+  - questionnaire = order.interpreter.questionnaire
+  = link_to order_personal_account_path(order) do
+    = image_tag questionnaire.photo_url(:thumb), class: "img"
+  .desc
+    .order_info
+      .price
+        = order.payment.amount 
+        = order.payment.currency.code
+      .clearfix
+      .number ##{order.id}
+      .from #{t("orders_index_page.from")} #{order.from_date}
+    = link_to "#{l_questionnaire(:name, questionnaire)} #{l_questionnaire(:surname, questionnaire)}", order_personal_account_path(order), class: "name"
+    .details
+      .info= order.service_type.to_s
+      .time-range= order.selected_period
+      .address= order.meeting_address 
+      - if order.canceled?
+        .red= t("orders_index_page.cancelled")
+  .clear

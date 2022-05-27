@@ -1,0 +1,332 @@
+.translation-wrapper {
+  .find_translator_wrapper {
+    padding: 20px 0 !important;
+    width: 100%;
+    box-shadow: none !important;
+  }
+
+  .one-third {
+    box-sizing: border-box;
+    display: inline-block !important;
+    float: left;
+    padding: 0 20px;
+    position: relative;
+    width: 33.333%;
+  }
+
+  .jq-selectbox {
+    width: 100%;
+  }
+
+  .jq-selectbox__select {
+    height: 50px !important;
+    padding: 4px 10px !important;
+  }
+
+  .jq-selectbox__trigger {
+    height: 38px !important;
+    top: 14px !important;
+  }
+
+  .jq-selectbox__select-text {
+    line-height: 42px !important;
+  }
+
+  #empty_label {
+    display: inline-block;
+    height: 22px;
+  }
+
+  .sub_bot {
+    box-sizing: border-box !important;
+    font: 22px 'robotobold' !important;
+    height: 50px !important;
+    margin: 0 !important;
+    width: 100% !important;
+  }
+
+  .page_header_wrapper {
+    color: #32480A;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .page_header_wrapper h1 {
+    font-family: 'robotobold';
+  }
+
+  .page_header_wrapper span {
+    display: block;
+    font-family: 'robotolight';
+    margin: 0 auto;
+    max-width: 470px;
+  }
+
+  .why_inter_wrapper {
+    margin-bottom: 100px;
+    text-align: center;
+  }
+
+  .why_inter_wrapper h2 {
+    margin: 80px 0 !important;
+  }
+
+  .why_block h3 {
+    font-family: 'robotolight';
+    font-size: 26px;
+    margin-bottom: 5px;
+  }
+
+  .why_block p {
+    font-family: 'robotolight';
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 180px;
+  }
+
+  .word_count {
+    height: 32px!important;
+    line-height: 32px !important;
+    max-width: 100% !important;
+  }
+
+  .word_count {
+    box-sizing: border-box !important;
+    height: 50px!important;
+  }
+
+  #translation-file,
+  #translation-file-styler {
+    height: 0.1px !important;
+    opacity: 0 !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    width: 0.1px !important;
+    z-index: -1 !important;
+  }
+
+  #translation-file + label {
+    background-color: black !important;
+    color: white !important;
+    display: inline-block !important;
+    font-size: 1.25em !important;
+    font-weight: 700 !important;
+  }
+
+  #translation-file:focus + label,
+  #translation-file + label:hover {
+    background-color: red !important;
+  }
+
+  #translation-file + label {
+    cursor: pointer !important;
+  }
+
+  .or-file {
+    position: absolute;
+    right: 30px;
+    top: 40px;
+  }
+
+  .or-file label {
+    border-radius: 8px;
+    border: solid 1px #ececec;
+    color: #555;
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+
+  .or-file span {
+    border-left: 1px solid #C5C2BB;
+    color: #C5C2BB;
+    font-size: 12px;
+    padding-left: 15px;
+  }
+
+  .data_cloud {
+    left: auto !important;
+    top: auto !important;
+    width: 285px !important;
+    z-index: 10;
+  }
+
+  .ui-datepicker-inline {
+    float: none !important;
+    margin: 15px !important;
+    width: 253px !important;
+  }
+
+  .timepicker {
+    float: none !important;
+    margin: 0 0 30px 0 !important;
+    text-align: center;
+    width: 100% !important;
+  }
+
+  .from {
+    margin: 0 auto !important;
+    width: 136px !important;
+  }
+
+  .timepicker .text {
+    padding: 5px 5px 0 0 !important;
+  }
+
+  .ui-dialog-title {
+    font-family: 'robotolight' !important;
+  }
+
+  label.note-label {
+    box-sizing: border-box;
+    color: #FFC701;
+    display: inline-block;
+    font: 18px 'robotolight';
+    line-height: 18px;
+    margin-top: 20px;
+    padding: 0px 30px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .mobile-block {
+    display: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    .content {
+      display: inline-block;
+    }
+
+    .find_translator_wrapper {
+      display: inline-block;
+    }
+
+    .one-third {
+      margin-bottom: 20px;
+      width: 100% !important;
+    }
+
+    .why_inter {
+      margin: 0 !important;
+      width: 100% !important;
+    }
+
+    .why_inter_wrapper h2 {
+      margin: 30px 0 !important;
+    }
+
+    .page_header_wrapper {
+      padding-top: 0 !important
+    }
+
+    .why_inter_wrapper {
+      margin-bottom: 20px !important;
+    }
+
+    .mobile-block {
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+    }
+
+    .hide-block {
+      display: none;
+    }
+
+    .client_reviews_slider_wrapper {
+      img {
+        display: none !important;
+      }
+      .content {
+        .text {
+          margin-left: 0 !important;
+          width: 100% !important;
+        }
+      }
+    }
+    .data_cloud {
+      position: fixed!important;
+      z-index: 99999999!important;
+      top: 0!important;
+      left: 0!important;
+      right: 0!important;
+      bottom: 0!important;
+      width: 100%!important;
+      overflow: scroll;
+    }
+    .ui-datepicker-inline {
+      width: 100%!important;
+      margin: 0 auto!important;
+      padding: 5px 20px!important;
+      box-sizing: border-box;
+    }
+  }
+}
+
+// Styles outside translation-wrapper
+
+  #get_quotes_modal {
+  	display: none;
+  	.one-third {
+  		padding: 5px !important;
+      box-sizing: border-box;
+      display: inline-block !important;
+      float: left;
+      position: relative;
+      width: 33.333%;
+  	}
+  	input {
+  		border: 1px solid #d2d2d2;
+  		box-sizing: border-box;
+  		height: 30px;
+  		margin: 10px 0;
+  		padding: 0 5px;
+  		width: 100%;
+  	}
+  	textarea {
+  		border: 1px solid #d2d2d2;
+  		box-sizing: border-box;
+  		height: 80px;
+  		padding: 5px;
+  		width: 100%;
+  	}
+  	.full-width {
+  		box-sizing: border-box;
+  		display: inline-block;
+  		padding: 5px;
+  		width: 100%;
+  	}
+  }
+
+
+@media screen and (max-width: 767px) {
+  #get_quotes_modal {
+    box-sizing: border-box !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    max-height: 500px !important;
+    min-height: auto !important;
+    width: 100% !important;
+    .one-third {
+      width: 100% !important;
+    }
+  }
+  textarea,
+  input {
+    font-size: 16px;
+  }
+}
+
+button {
+  &.ui-dialog-titlebar-close {
+    display: none !important;
+  }
+}
+
+#close_quotes_modal {
+  position: absolute;
+  color: white;
+  top: 0px;
+  left: 10px;
+  font-size: 30px;
+}

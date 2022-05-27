@@ -1,0 +1,27 @@
+- @scope = {scope: :show_order_page}
+- provide :description, t("title", @scope)
+- content_for :head do
+  = javascript_include_tag "https://bluesnap.com/source/web-sdk/bluesnap.js"
+- content_for :body do
+  .green_line
+  .main_content
+    = render 'shared/flash_messages'
+    = render "sidebar"
+    .cart_content
+      = render "order_details"
+      .cart_country_wrapper
+        .country #{@search.city.country.to_s}, #{@search.city.name}
+        #{t("period", @scope)} #{@order.selected_period}
+
+      = render 'interpreter_detail'
+      - if current_user.is_client? && @order.awaiting_client_confirmation?
+        = link_to confirm_replacement_order_path(@order), class: "load-more", method: :post do 
+          .loading-bar= t("confirm_order_changes", @scope)
+      - if @order.cancellation_possible?
+        = link_to "#", class: "load-more", id: "order_cancel" do
+          .loading-bar.bg-danger= t("cancel_order", @scope)
+
+        #order_cancel_modal
+          %p 
+            %b= t("cancel_warning", @scope)
+          %p= link_to t("continue", @scope), cancel_order_path(@order), class: "btn", method: :post

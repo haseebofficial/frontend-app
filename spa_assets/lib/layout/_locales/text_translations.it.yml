@@ -1,0 +1,93 @@
+text_translations:
+  head:
+    title: "Traduzioni di testi/documenti da parte di traduttori esperti"
+    description: "Servizi di traduzione veloci, convenienti e di qualità in 180 lingue. Richiedi un preventivo e assumi direttamente il tuo miglior traduttore professionista controllato"
+    keywords: "Translation, Professional Translations, Translators, Professional Translators, language translations services, Translation agency, Freelance translator, Translate"
+  header: "Traduzioni di testi/documenti da parte di traduttori esperti"
+  description: "Oltre 20 000 traduttori certificati madrelingua, residenti in più di 170 paesi, forniscono traduzioni veloci, convenienti e di qualità di testi e documenti in 180 lingue"
+  why:
+    header: "Perché Scelga Interpreters.travel?"
+    quality: "Qualità confermata"
+    quality_desc: "Il 96% dei clienti dà recensioni positive e conferma l'alta qualità del servizio"
+    price: "Miglior prezzo"
+    price_desc: "Lavori direttamente con i traduttori, senza commissioni delle agenzie e costi aggiuntivi"
+    time: "Consegna"
+    time_desc: "Sistema avanzato di referenze dei traduttori e sistema di controllo della lavorazione"
+  form:
+    languages:
+      sourceLanguage: "LINGUA ORIGINALE"
+      targetLanguage: "LINGUA DI TRADUZIONE"
+    specialization: "SPECIALIZZAZIONE"
+    word_count: "CONTEGGIO PAROLE"
+    attachments:
+      label: "Allegati"
+      or: "Oppure"
+      upload: "Oppure"
+      dropzone_text: "Trascina i tuoi file qui"
+    due_date:
+      label: "Data e ora di consegna"
+      auto: "Auto (miglior prezzo)"
+      select: "Scelga"
+      reset: "Ripristina"
+    name: "Nome"
+    email: "Email (per ricevere preventivi)"
+    phone: "Telefono"
+    description: "Aggiungi alcune note per i traduttori"
+    submit: "Ricevi le tariffe"
+    privacy:
+      text: 'Premendo “Ricevi le tariffe”, dichiaro di essere a conoscenza e di accettare la'
+      privacy_policy: "Politica di riservatezza servizio"
+      terms_conditions: "Termini e condizioni."
+      and: "e"
+    add_contact_info: "Aggiungi le tue informazioni di contatto"
+    footer: "Riceverai preventivi dai traduttori più adatti, scegli e assumi i migliori"
+  show:
+    guest_description: "La tua richiesta di traduzione del testo %{languages} è stata inviata con successo ai traduttori. Presto riceverai alcune offerte tra cui scegliere."
+    create_new: "Invia un'altra richiesta"
+  why_inter:
+    title: "Perché Scelga Interpreters.travel?"
+    block1:
+      link: "Semplice e sicuro"
+      text_html: "Paga solo per il tempo effettivo. <br/> SENZA PAGAMENTO ANTICIPATO <br/> La sicurezza del pagamento è garantita."
+    block2:
+      link: "Prezzi bassi"
+      text_html: "PAGAMENTO AL MINUTO solo per i servizi di interpretariato <br/> SENZA COSTI AGGIUNTIVI per il <br/> collegamento telefonico, senza commissioni"
+    block3:
+      link: "Ampia scelta"
+      text_html: "Oltre 20.000 interpreti professionisti <br/> Oltre 180 lingue. Chiamate verso 150 paesi <br/> Accesso 24/7"
+    block4:
+      link: "Comodo"
+      text_html: "SCELTA DEGLI INTERPRETI in base alle tariffe e alla valutazione ricevuta <br/> Collegamento istantaneo con un interprete <br/> Pagamento comodo con VISA, MasterCard"
+  why_inter_spa:
+    title: "Perché Scelga Interpreters.travel?"
+    block1:
+      link: "Semplice e sicuro"
+      text_html: "Prenoti ora, paghi dopo! <br/> Annullamento gratuito della richiesta. <br/> Sicurezza dei pagamenti garantita."
+    block2:
+      link: "Prezzi bassi"
+      text_html: "Tutti i servizi ai prezzi degli interpreti <br/> senza sovrapprezzi d’agenzia. <br/> Sconti inclusi nella fattura del servizio."
+    block3:
+      link: "Ampia scelta"
+      text_html: "Interpreti a %{cities} città, <br/> nei %{countries} paesi di tutto il mondo"
+    block4:
+      link: "Comodo"
+      text_html: "Pagamento comodo: VISA, MasterCard,<br/> vaglia bancario, pagamento in contanti <br/>ASSISTENZA 24/7"
+  hero:
+    professional_interpreters: "Interpreti professionisti <br/> per fiere, conferenze, trattative"
+    vetted_interpreters: "Oltre 20.000 interpreti certificati in più di 170 paesi forniscono un servizio rapido, economico e di alta qualità in 180 lingue"
+    international_calls: "Chiamate internazionali con interpreti o interpretariato da remoto <br/> senza costi aggiuntivi per la connessione telefonica"
+    thousands_of_professional: "Migliaia di interpreti professionisti in 180 lingue sono disponibili <br/> 24 ore su 24, 7 giorni su 7 e pronti a interpretare la conversazione telefonica o interpretare da remoto"
+    connect_an_interpreter: "Connetti un interprete per l'interpretariato da remoto o chiama online a tutti i numeri di telefono in 150 paesi"
+  how_it_works:
+    title: "Come funziona"
+    text1: 'Scegli una lingua e fai clic su "Connetti un interprete'
+    text2: "Gli interpreti disponibili saranno visualizzati sulla pagina insieme alle tariffe"
+    text3: "Premi il pulsante verde per chiamare l'interprete"
+    text4: "Spiega all'interprete di che cosa hai bisogno, dove stai chiamando, con chi vuoi parlare e perché"
+    text5: "Componi il numero di telefono, attendi una risposta e continua la conversazione in modalità di teleconferenza di gruppo"
+    text6: "L'interprete ascolterà la tua conversazione e interpreterà in entrambe le direzioni"
+    text7: "Il pagamento sarà addebitato automaticamente. Paghi solo la tariffa al minuto dell'interprete, la telefonata è gratuita."
+    press: "Premi"
+    to_call_interpreter: "per chiamare l'interprete"
+    to_end_the_phone_call: "sotto il numero di telefono per terminare la telefonata. L'interprete rimarrà connesso"
+    to_end_the_conversation: "per terminare la conversazione con l'interprete"

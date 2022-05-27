@@ -1,0 +1,105 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.additional-fields {
+  margin: 0 auto;
+  margin-top: 25px;
+  max-width: 904px;
+
+  .info-form-tab {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .buttons-submit {
+    text-align: center;
+    .button {
+      font: 16px "robotoregular";
+      margin-top: 10px;
+      width: 250px;
+    }
+  }
+  .footer-description {
+    font-size: 12px;
+    line-height: 14px;
+    color: #000;
+    .has-text-underline {
+      font-size: 12px;
+      line-height: 14px;
+      color: #000;
+    }
+  }
+}
+
+.additional-fields-modal {
+  .field {
+    .control {  
+      input, textarea {
+        &::placeholder {
+          color: c.$bulma-black;
+        }
+      }
+    }
+  }
+}
+
+
+
+@include r.desktop {
+  .additional-fields {
+    .info-form-tab {
+      position: relative;
+      text-align: center;
+      font-weight: 700;
+      width: 200px;
+      //width: 100%;
+      margin-bottom: 30px;
+      // padding-left: 19px;
+      // padding-right: 19px;
+      &::before {
+        content: "";
+        position: absolute;
+        left: 0px;
+        bottom: -7px;
+        width: 100%;
+        height: 4px;
+        background-color: #FFC700;;
+      }
+    }
+    .footer-description {
+      text-align: center;
+    }
+  }
+}
+
+@include r.touch {
+  .additional-fields {
+    .columns {
+      .column {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+    .column-textarea {
+      // margin-left: -11px;
+      // width: calc(100% + 24px);
+      // margin-right: 12px;
+    }
+    .buttons {
+      .button {
+        margin-top: 20px;
+        width: 250px;
+      }
+    }
+    button[type="submit"] {
+      width: 100%;
+    }
+    .footer-description {
+      font-size: 9px;
+      line-height: 11px;
+      .has-text-underline {
+        font-size: 9px;
+        line-height: 11px;
+      }
+    }
+  }
+}

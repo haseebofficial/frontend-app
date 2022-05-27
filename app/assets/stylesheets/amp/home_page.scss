@@ -1,0 +1,110 @@
+
+.type_trans_wrapper {
+  margin: 20px 0px 0px 0px;
+}
+
+.type_trans_wrapper .text {
+  font: 17.5px 'robotolight';
+  line-height: 20px;
+  color: #777777;
+  padding: 7px 0px 0px 18px;
+}
+
+.type_trans_wrapper .type_trans {
+  margin: 25px 0px 0px 0px;
+}
+
+.type_trans_wrapper .type_trans .type_trans_block {
+  float: left;
+  width: 308px;
+  height: 108px;
+  position: relative;
+  margin: 0px 28px 29px 0px;
+  text-decoration: none;
+}
+
+.type_trans_wrapper .type_trans .no_mrg {
+  margin-right: 0px;
+}
+
+.type_trans_wrapper .type_trans .type_trans_block .link {
+  position: absolute;
+  z-index: 10;
+  bottom: 0px;
+  left: 0px;
+  background: asset_url('type_trans_link_bg_hov.png');
+  font: 18px 'robotolight';
+  line-height: 20px;
+  text-align: center;
+  padding: 6px 0px;
+  width: 308px;
+  color: #fff;
+  letter-spacing: -1px;
+}
+
+.type_trans_wrapper .all_link {
+  float: right;
+  font: 13px 'robotobold';
+  line-height: 14px;
+  color: #FFC501;
+  padding: 7px;
+  background: asset_url('type_travel_all_link.png') no-repeat right center;
+  margin: 8px 0 0;
+  text-decoration: none;
+}
+
+.type_trans_wrapper .all_link:hover {
+  text-decoration: underline;
+}
+
+
+.type_trans_wrapper .type_trans {
+  padding: 0px 0px 0px 62px;
+}
+.type_trans_wrapper .type_trans .no_mrg {
+  margin-right: 28px
+}
+
+.type_trans_wrapper .type_trans {
+  padding: 0px 0px 0px 5px;
+  margin: 7px 0px 0px 0px;
+  height: 245px;
+  overflow: hidden;
+}
+.type_trans_wrapper .type_trans .no_mrg {
+  margin-right: 28px
+}
+.type_trans_wrapper .type_trans .type_trans_block {
+  margin-right: 0px;
+}
+.type_trans_wrapper .text {
+  font: 14px 'robotolight';
+  line-height: 18px;
+}
+
+.why_inter_wrapper {
+  padding: 0;
+  margin: 20px 0 0;
+}
+
+.why_inter_wrapper {
+  margin: 20px 0 0;
+  padding: 0;
+  .why_inter {
+    width: 320px;
+    margin: 19px 0 0;
+    .why_inter_block {
+      width: 300px;
+      height: auto;
+      padding: 10px;
+      float: left;
+      overflow: hidden;
+      .name {
+        font: 18px/18px "robotolight";
+        padding: 10px;
+        color: #696a6e;
+        text-decoration: none;
+      }
+    }
+  }
+}

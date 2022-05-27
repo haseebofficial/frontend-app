@@ -1,0 +1,122 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+@include r.desktop {
+  .layout-service_fix {
+    position: absolute;
+    z-index: 102;
+    top: 25px;
+    left: 300px;
+    right: 180px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1296px) {
+  .layout-service_fix {
+    position: fixed;
+    top: 5px;
+    left: 340px;
+    right: 180px;
+    text-align: center;
+  }
+}
+
+.service {
+  margin-top: 10px;
+  .service_list {
+    display: flex;
+    justify-content: center;
+
+    & li:not(:first-child) {
+      margin-left: 45px;
+    }
+
+    li {
+      padding: 3px 0;
+      position: relative;
+    }
+
+    .service_link:before {
+      content: "";
+      position: absolute;
+      bottom: -7px;
+      width: 0;
+      height: 4px;
+      background-color: c.$interpreters-yellow;
+      transition: width 0.8s ease;
+    }
+
+    .service_link {
+      display: block;
+      height: 100%;
+    }
+
+    .service_link.active {
+      font-weight: 700;
+
+      &:before {
+        width: 100%;
+      }
+    }
+
+    .service_link:hover {
+      font-weight: 700;
+      text-decoration: none;
+
+      &:before {
+        width: 100%;
+      }
+    }
+  }
+}
+
+// Changes
+.lang-ar {
+  .service_list li {
+    margin-left: 2em;
+  }
+}
+@include r.touch {
+  .service {
+    padding: 0 10px;
+    background-color: c.$interpreters-green;
+    li {
+      width: 30%;
+    }
+    .service_list {
+      justify-content: space-between;
+      text-align: center;
+
+      .service_link {
+        padding: 7px;
+        color: c.$interpreters-yellow;
+        font-size: 13px;
+      }
+
+      & li:not(:first-child) {
+        margin-left: 10px;
+      }
+
+      li {
+        padding: 0;
+      }
+
+      .service_link.active {
+        text-align: center;
+        font: 10px "robotomedium";
+        color: c.$interpreters-green;
+        background-color: c.$interpreters-yellow;
+
+        &:before {
+          width: 0;
+        }
+      }
+
+      .service_link:hover {
+        &:before {
+          width: 0;
+        }
+      }
+    }
+  }
+}

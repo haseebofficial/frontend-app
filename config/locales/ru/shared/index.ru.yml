@@ -1,0 +1,39 @@
+ru:
+  registration_notify_subject: "Вы зарегистрированы в interpreters.travel"
+  hello: "Hello world"
+  TrueClass: "Yes"
+  FalseClass: "No"
+
+  errors:
+    messages:
+      wrong_size: "is the wrong size (should be %{file_size})"
+      size_too_small: "is too small (should be at least %{file_size})"
+      size_too_big: "is too big (should be at most %{file_size})"
+
+  years:
+    one: '%{count} год'
+    few: '%{count} года'
+    other: '%{count} лет'
+  hours: 
+    one: "%{count} час"
+    few: "%{count} часа"
+    other: "%{count} часов"
+  minutes: 
+    one: "%{count} минута"
+    few: "%{count} минуты"
+    other: "%{count} минут"
+  counts: 
+    cities: 
+      one: '%{count} городе'
+      few: '%{count} городах'
+      other: '%{count} городах'
+    countries: 
+      one: '%{count} стране'
+      few: '%{count} странах'
+      other: '%{count} странах'
+
+  date:
+    month_names: [~, января, февраля, мартa, апреля, мая, июня, июля, августa, сентября, октября, ноября, декабря]
+  order: 
+    cancellation_possible: "возможна до"
+    no_cancellation: 'не предусмотрена'

@@ -1,0 +1,34 @@
+.cart_block
+  .photo-wrapper
+    = image_tag @questionnaire.photo_url, class: 'cart_photo'
+  .info_wrapper
+    .name= @questionnaire.t_full_name
+    .prof
+      = t("interpreter.title")
+      %br
+      %a.level.info_link.mobile-show{'data-id' => @questionnaire.id}
+        %span.questionnaire-stars{class: questionnaire_stars_class(@questionnaire.score)}
+    .right
+      %a.experience_event.info_link{'data-id' => @questionnaire.id} #{t("interpreter.events")} (#{@questionnaire.experience_event_count})
+      %br
+      %a.recommendations.info_link{'data-id' => @questionnaire.id} #{t("interpreter.recommendations")}
+      %br
+      %a.experience.info_link{'data-id' => @questionnaire.id} #{t("interpreter.experience")} (#{t('years', count:  @questionnaire.experience_years)})
+      %br
+      - if @questionnaire.verified?
+        %a.verified_profile.info_link.link-with-text{"data-text" => t("show_interpreter.verified_contacts_text")}
+          = t("interpreter.verified_profile")
+    .left
+      %a.level.info_link.mobile-hide{'data-id' => @questionnaire.id}
+        %span.questionnaire-stars{class: questionnaire_stars_class(@questionnaire.score)}
+      %br
+      %a.diplom.info_link{'data-id' => @questionnaire.id} #{t("interpreter.diplomas")} (#{@questionnaire.diplomas_count})
+      %br
+      %a.cert.info_link{'data-id' => @questionnaire.id} #{t("interpreter.certificates")} (#{@questionnaire.certificates_count})
+  .clear.text-center
+    = form_tag interpretation_calls_path do |f| 
+      = hidden_field_tag "interpretation_call[interpreter_id]", @questionnaire.id
+      = hidden_field_tag "interpretation_call[call_search_id]", @search.id
+      = submit_tag "Send request", class: "intranet-button button-pretty"
+  .clear
+    

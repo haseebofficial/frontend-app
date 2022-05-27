@@ -1,0 +1,49 @@
+- provide :description, t("searches_index_page.title")
+- content_for :body do
+  .main_content
+    = render "sidebar"
+    .cabinet_content
+      .mob_title
+        = t("searches_index_page.title")
+      .search-form-container{style: "text-align: left; margin-top: 15px; margin-bottom: 15px;"}
+        .search-form-link
+          = link_to "#search-form", "data-replace-with" => ".call-search-form", style: "text-decoration: none;" do
+            .loading-bar= t("searches_index_page.show_search_form")
+          .call-search-form{style: "display:none"}= render 'searches/search_form'
+      .clear
+      .my_view_wrapper
+        - if @searches.present?
+          .is_cont
+            %table.searches
+              %thead
+                %tr
+                  %th.created_at= t("searches_index_page.created_at")
+                  %th.city= t("searches_index_page.city")
+                  %th.language_pair= t("searches_index_page.languages")
+                  %th.intervals= t("searches_index_page.intervals")
+              %tbody
+                - @searches.each do |search|
+                  %tr{onclick: "Turbolinks.visit('#{search_path(search.id)}')"}
+                    %td= search.created_at.strftime("%d.%m, %m:%H")
+                    %td= search.city.to_s
+                    %td= search.language_pair_text
+                    %td= search.intervals_text.split(",").map(&:strip).join("<br>").html_safe
+
+    .clear
+  :scss
+    #search_language_id-styler .jq-selectbox__select {
+      line-height: 34px !important;
+      height: 50px !important;
+    }
+    #search_language_id-styler .jq-selectbox__trigger-arrow {
+      top: 21px !important;
+    }
+    @media screen and (min-width: 768px) {
+      .result {
+        margin: 10px 10px 5px -27px !important;
+        width: 225px !important;
+      }
+      .find_translator_wrapper .form_wrapper .label input.find_translator_city {
+        height: 32px !important;
+      }
+    }

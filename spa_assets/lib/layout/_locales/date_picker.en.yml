@@ -1,0 +1,6 @@
+date_picker:
+  day_names: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+  day_names_short: ["Su","Mo","Tu","We","Th","Fr","Sa"]
+  month_names: ["January","February","March","April","May","June","July","August","September","October","November","December"]
+  prev_month: "Prev"
+  next_month: "Next"

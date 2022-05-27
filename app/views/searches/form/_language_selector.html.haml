@@ -1,0 +1,26 @@
+#language_selector
+  - meth = localized_method(:name)
+  -if defined?(blank_languages) and blank_languages
+    = select_tag 'search_language_id', '', prompt: t('search_form.language_selector.no_result'), name: 'search[language_id]', disabled: true    
+  - elsif @search.blank?
+    -if @available_languages.blank?
+      = select_tag 'search_language_id', '', prompt: t('search_form.language_selector.no_result'), name: 'search[language_id]', disabled: true
+    -else
+      = select_tag 'search_language_id', options_from_collection_for_select(@available_languages, 'id', meth), name: 'search[language_id]'
+  - elsif @search.city.blank?
+    = select_tag 'search_language_id', '', prompt: t('search_form.language_selector.list_select'), name: 'search[language_id]', disabled: true
+  - else
+    - if @available_languages.blank?
+      = select_tag 'search_language_id', '', prompt: t('search_form.language_selector.no_result'), name: 'search[language_id]', disabled: true
+    -else
+      = select_tag 'search_language_id', options_from_collection_for_select(@available_languages, 'id', meth, @search.language.id), name: 'search[language_id]'
+
+  :coffee
+    $(document).ready (e) ->
+      $("#language_selector select").styler()
+
+      $(".jq-selectbox__select").on 'click', (e) ->
+        if $('input#search_city_id').attr('value') == ''
+          alert '#{t('search_form.language_selector.blank_city')}'
+        else
+          $(this).addClass('act')

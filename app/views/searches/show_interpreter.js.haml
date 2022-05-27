@@ -1,0 +1,19 @@
+
+-#$('.is_cont').append("#{ escape_javascript(render partial: 'searches/questionnaire_mini', collection: @search_results) }")
+-#
+-#displayed = $(".search_result").length
+-#if (displayed == #{@all_results_count}) {
+-#$('.show-more-mini').hide()
+-#}
+-#
+-#
+-#accurate_results_count = accurate_results_to_exclude.length
+-#
+-#- if @search_results.empty?
+-#  $('.show-more-mini').hide()
+
+var text_html = '';
+- @interpreters.each do |interpreter|
+  text_html += "#{escape_javascript(render(partial: 'searches/questionnaire_mini', object: interpreter))}";
+
+$('.loading-bar.show-more-mini').before(text_html);

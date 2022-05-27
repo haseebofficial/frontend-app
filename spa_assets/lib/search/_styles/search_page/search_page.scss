@@ -1,0 +1,70 @@
+@use "app/_styles/utils/responsiveness" as r;
+@use "search/_styles/form/utils" as form-utils;
+@use "app/_styles/utils/colors" as c;
+@use "./mobile_tabs";
+.search-page {
+    @include r.desktop {
+        .fullwidth-form-wrapper {
+            width: 100vw;
+            position: relative;
+            left: 50%;
+            right: 50%;
+            margin-left: -50vw;
+            margin-right: -50vw;
+            background-color: form-utils.$background-color;
+            margin-top: 12px;
+            margin-bottom: 20px;
+        }
+    }
+    .search-form {
+        .main-field {
+            margin-bottom: 0px;
+            @include form-utils.field-height(40px);
+            select {
+                font-size: 1rem;
+            }
+        }
+        @include r.desktop {
+            .datetime-field-container .datetime-field-dropdown {
+                top: -62px;
+                z-index: 999;
+                .triangle-icon {
+                    top: 90px;
+                }
+                .triangle {
+                    top: 96px;
+                }
+                .triangle-quadrat {
+                    top: 80px;
+                    width: 21px;
+                }
+            }
+        }
+    }
+    .search-map {
+        height: 190px;
+        margin-top: 2px;
+        margin-bottom: 20px;
+    }
+    .leaflet-tooltip-pane .texttooltip {
+        color: white;
+        font-weight: bold;
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+        font-size: 2em;
+        text-align: center;
+    }
+}
+
+@include r.touch {
+    .search-page {
+        .search-form {
+            margin-top: 30px;
+            padding-bottom: 20px;
+            .main-field {
+                @include form-utils.field-height(45px);
+            }
+        }
+    }
+}

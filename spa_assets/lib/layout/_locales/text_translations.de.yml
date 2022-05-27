@@ -1,0 +1,93 @@
+text_translations:
+  head:
+    title: "Professionelle Übersetzung von Texten und Dokumenten"
+    description: "Schnelle, erschwingliche und hochwertige Übersetzungsdienste in 180 Sprachen. Fordern Sie ein Angebot an und beauftragen Sie direkt Ihren bestgeprüften professionellen Übersetzer"
+    keywords: "Übersetzung, Professionelle Übersetzungen, Übersetzer, Professionelle Übersetzer, Sprachübersetzungsdienste, Übersetzungsagentur, Freiberuflicher Übersetzer, Übersetzen"
+  header: "Professionelle Übersetzung von Texten und Dokumenten"
+  description: "Über 20.000 verifizierte Übersetzer in über 170 Ländern bieten schnelle, erschwingliche und qualitativ hochwertige Übersetzungen von Texten und Dokumenten aus 180 Sprachen"
+  why:
+    header: "Warum interpreters.travel?"
+    quality: "Qualität"
+    quality_desc: "Positive Bewertungen von 96 % unserer Kunden bestätigen die hohe Qualität der Dienstleistungen"
+    price: "Preis"
+    price_desc: "Arbeiten Sie direkt mit Übersetzern, ohne Agenturaufpreise und Überzahlungen"
+    time: "Dauer"
+    time_desc: "Fortschrittliches Übersetzer-Empfehlungssystem und Auftragserfüllungs-Kontrollsystem"
+  form:
+    languages:
+      sourceLanguage: "ÜBERSETZUNG VON"
+      targetLanguage: "ÜBERSETZUNG NACH"
+    specialization: "SPEZIALISIERUNG"
+    word_count: "ANZAHL DER WÖRTER"
+    attachments:
+      label: "Anhänge"
+      or: "Oder"
+      upload: "Datei herunterladen"
+      dropzone_text: "Legen Sie Ihre Dateien hier ab"
+    due_date:
+      label: "DATUM, UHRZEIT"
+      auto: "Nach Vereinbarung (bester Preis)"
+      select: "Auswählen"
+      reset: "Reset"
+    name: "Vorname"
+    email: "E-Mail (für Angebote)"
+    phone: "Mobil"
+    description: "Auftragsbeschreibung für Übersetzer"
+    submit: "Preise anfragen"
+    privacy:
+      text: 'Drückend auf "Preise anfragen" bestätige ich, dass ich mit dem'
+      privacy_policy: "Datenschutzrichtlinien"
+      terms_conditions: "Regelung und den Bedingungen"
+      and: ", der"
+    add_contact_info: "Geben Sie Ihre Kontakte an"
+    footer: "Die Übersetzer werden Ihnen in Kürze ihre Vorschläge zusenden."
+  show:
+    guest_description: "Ihre Anfrage zur Textübersetzung %{languages} wurde erfolgreich an Übersetzer gesendet. Die Übersetzer werden Ihnen in Kürze ihre Vorschläge zusenden."
+    create_new: "Neue Anfrage senden"
+  why_inter:
+    title: "Warum interpreters.travel?"
+    block1:
+      link: "Einfach und sicher"
+      text_html: "Bezahlen Sie nur  tatsächlich verbrachte Zeit. <br/> OHNE VORAUSZAHLUNG <br/> Zahlungssicherheitsgarantie."
+    block2:
+      link: "niedrige Preise"
+      text_html: "PRO-MINUTE-ZAHLUNG für Dolmetscherdienste <br/> OHNE ZUSÄTZLICHE KOSTEN für <br/> Telefonanschluss und Provisionen"
+    block3:
+      link: "Große Auswahl"
+      text_html: "Über 20.000 professionelle Dolmetscher. <br/> Über 180 Sprachen. Anrufe in 150 Länder. <br/> Zugang rund um die Uhr"
+    block4:
+      link: "komfortabel"
+      text_html: "AUSWAHL DER DOLMETSCHER nach Preis und Bewertung.<br/> Schnelle Zuschaltung eines Dolmetschers <br/> Bequeme Bezahlung VISA, MasterCard"
+  why_inter_spa:
+    title: "Warum interpreters.travel?"
+    block1:
+      link: "Einfach und sicher"
+      text_html: "Jetzt buchen und später zahlen! <br/> KOSTENLOSE Auftragsstornierung. <br/> Garantierte sichere Zahlungen."
+    block2:
+      link: "niedrige Preise"
+      text_html: "Alle Preise sind direkt von Dolmetscher <br/> ohne Vermittlungsprovisionen. <br/> RABATT whärend der Buchung."
+    block3:
+      link: "Große Auswahl"
+      text_html: "Dolmetscher in %{cities} Städten, <br/> %{countries} Ländern weltweit"
+    block4:
+      link: "komfortabel"
+      text_html: "Alle Zahlungsarten: VISA, MasterCard,<br/> Banküberweisung, Barzahlung<br/>SUPPORT 24/7 in deutsche Sprache"
+  hero:
+    professional_interpreters: "Professionelle Dolmetscher <br/> bei Messen, Konferenzen, Verhandlungen"
+    vetted_interpreters: "Über 20.000 verifizierte Dolmetscher in über 170 Ländern bieten schnelle, erschwingliche und qualitativ hochwertige Übersetzungen in 180 Sprachen"
+    international_calls: "Internationale Gespräche mit Dolmetscher <br/> oder aus der Ferne zu dolmetschen ohne Telefonkosten"
+    thousands_of_professional: "Tausende von professionellen Dolmetscher in 180 Sprachen <br/> sind rund um die Uhr verfügbar und bereit, Ihr Telefongespräch zu dolmetschen oder aus der Ferne zu dolmetschen"
+    connect_an_interpreter: "Schließen Sie einen Dolmetscher für das Ferndolmetschen oder rufen Sie jede Telefonnummer in 150 Ländern online an"
+  how_it_works:
+    title: "Wie es funktioniert"
+    text1: 'Wählen Sie die Sprache aus und klicken Sie auf "Dolmetscher verbinden"'
+    text2: "Dolmetscher, die zum Dolmetschen bereit sind, werden zusammen mit den Preisen auf der Seite angezeigt"
+    text3: "Drücken Sie die grüne Taste, um den Dolmetscher zu kontaktieren."
+    text4: "Erklären Sie dem Dolmetscher, was Sie brauchen, wo Sie anrufen, mit wem Sie sprechen und warum."
+    text5: "Wählen Sie die Telefonnummer, warten Sie auf eine Antwort und setzen Sie das Gespräch im Gruppen-Telekonferenzmodus fort."
+    text6: "Der Dolmetscher hört Ihr Gespräch und dolmetscht in beide Richtungen."
+    text7: "Zahlung wird automatisch abgezogen. Sie zahlen nur den Minutenpreis des Dolmetschers, das Telefonat ist kostenlos."
+    press: "Drücken"
+    to_call_interpreter: "um den Dolmetscher zu kontaktieren."
+    to_end_the_phone_call: "unter der Telefonnummer, um den Anruf zu beenden. Der Dolmetscher bleibt im Kontakt."
+    to_end_the_conversation: "um das Gespräch mit dem Dolmetscher zu beenden."

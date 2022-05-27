@@ -1,0 +1,53 @@
+- message_style = ("display:none;visibility:none;" unless params[:show_contact_form] )
+- review_style = ("display:none;visibility:none;" unless params[:show_review_form] )
+.info_wrapper_no_cart{style: "margin-top: 35px;"}
+  - if defined?(additional_text)
+    .wrap
+      %span.mobile-hide= additional_text
+  = link_to t("forms.send_message_to_int"), "#", class: "intranet-button fleft-button", "data-tab-target" => "#send-message-form"
+  - if @client_review
+    = link_to t("client_reviews.leave_review"), "#", class: "intranet-button leave-review",  "data-tab-target" => "#review-form"
+  .clear
+  .tabs 
+    #send-message-form.base-form.tab{style: "width: 100%; #{message_style}"}
+      = simple_form_for @ticket, as: :ticket, remote: true do |f|
+        = f.input :search_id, as: :hidden
+        = hidden_field_tag :recipient_id, @interpreter.id
+        - unless user_signed_in?
+          = f.input :name, label: false, input_html: {placeholder: t("forms.name"), class: 'base-input'}
+          = f.input :email, label: false, input_html: {placeholder: t("forms.email"), class: 'base-input'}
+          = f.input :phone, label: false, input_html: {placeholder: t("forms.phone"), class: 'base-input'}
+        = f.simple_fields_for :messages do |f|
+          = f.input :message, label: false, autofocus: true, input_html: {placeholder: t("forms.order_message"), class: 'base-input'}, as: :text
+        .clear
+        - unless user_signed_in?
+          %label{style: "margin-top: 30px;"}
+            = check_box_tag :send_to_all
+            = t("forms.send_to_all")
+        .clear
+        = f.submit t("forms.send_button"), class: 'base-input-submit'
+    - if @client_review
+
+      #review-form.base-form.tab{style: "width: 100%; #{review_style}"}
+        = simple_form_for @client_review, remote: true do |f|
+          = f.input :score, label: false, input_html: {class: 'base-input', "data-connected-elem" => "#client-review-score-stars .raty-text"}, as: :hidden
+          = f.input :interpretation_score, label: false, input_html: {class: 'base-input'}, as: :hidden
+          = f.input :punctuality_score, label: false, input_html: {class: 'base-input'}, as: :hidden
+          = f.input :consultation_score, label: false, input_html: {class: 'base-input'}, as: :hidden
+
+          .raty-input-container#client-review-score-stars
+            .raty-stars{"data-target" => "#client_review_score", "data-score" => @client_review.score}
+            .raty-text= t("client_reviews.score")
+          .raty-input-container
+            .raty-stars{"data-target" => "#client_review_interpretation_score"}
+            .raty-text= t("client_reviews.interpretation_score")
+          .raty-input-container
+            .raty-stars{"data-target" => "#client_review_punctuality_score"}
+            .raty-text= t("client_reviews.punctuality_score")
+          .raty-input-container
+            .raty-stars{"data-target" => "#client_review_consultation_score"}
+            .raty-text= t("client_reviews.consultation_score")
+
+          = f.input :comment, label: false, autofocus: true, input_html: {placeholder: t("client_reviews.comment"), class: 'base-input'}, as: :text
+          .clear
+          = f.submit t("forms.send_button"), class: 'base-input-submit'

@@ -1,0 +1,4 @@
+%div{style: "width: 100%; text-align: center; margin-top: 50px;", class: "mobile-show"}
+  = link_to "https://itunes.apple.com/app/interpreters-travel/id1418934374", target: "_blank" do
+    - l = I18n.locale.to_s == "ru" ? "ru" : "en" 
+    = image_tag "calls/app_store_#{l}.svg"

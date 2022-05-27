@@ -1,0 +1,46 @@
+zh:
+  personal_account:
+    voucher_not_ready:
+      "译员收到订单后才有订单凭证，订单支付和免费取消订单"
+    receipt_not_ready: "您支付订单费用后才有订单收据"
+  registration_notify_subject: "您在 interpreters.travel上注册"
+  hello: "Hello world"
+  TrueClass: "Yes"
+  FalseClass: "No"
+  time:
+    formats:
+      default:           "%Y/%m/%d %H:%M"
+      long:              "%Y/%m/%d %H:%M"
+      short:             "%H:%M"
+      simple:            "%B%e %-k:%M"
+    since_word: "自"
+    to_word: "到"
+  date:
+    month_names: [~, 一月, 二月, 三月, 四月, 五月, 六月, 七月, 八月, 九月, 十月, 十一月, 十二月]
+    formats:
+      default:           "%Y/%m/%d"
+      month_day:         '%B%e'
+      long:              "%A, %B %e of %Y"
+  errors:
+    messages:
+      wrong_size: "is the wrong size (should be %{file_size})"
+      size_too_small: "is too small (should be at least %{file_size})"
+      size_too_big: "is too big (should be at most %{file_size})"
+
+  years:
+    one: '%{count}年'
+    few: '%{count}年'
+    other: '%{count}年'
+  hours:
+    one: "%{count}小时"
+    few: "%{count}小时"
+    other: "%{count}小时"
+  minutes:
+    one: "%{count}分钟"
+    few: "%{count}分钟"
+    other: "%{count}分钟"
+  order:
+    cancellation_possible: "之前"
+    no_cancellation: '不可行'
+  translate: "翻譯评价"
+  show_original: "顯示原創"

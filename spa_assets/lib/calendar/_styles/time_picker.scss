@@ -1,0 +1,126 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.timepicker {
+  display: flex;
+  //align-items: center;
+  // justify-content: space-between;
+
+  .timepicker-for-touch {
+    display: none;
+    // align-items: center;
+  }
+
+  .timepicker-input {
+    flex: 1 1 auto;
+
+    $field-margin: 10px;
+    &:first-child {
+      margin-right: $field-margin;
+    }
+
+    &:last-child {
+      margin-left: $field-margin;
+    }
+
+    input {
+      width: 4.125em;
+      height: 2.1875em;
+      padding-right: 1.5em !important;
+      box-shadow: none;
+      // background-color: #F4EDE3;
+    }
+
+    .timepicker-input-buttons {
+      width: 1.5em;
+      font: 0.9em "robotolight";
+      color: rgb(72,72,72);
+      // background-color: #4C5D17;
+      // color: c.$bulma-white !important;
+      display: flex;
+      flex-direction: column;
+      pointer-events: initial;
+
+      .timepicker-input-button {
+        width: 100%;      
+        text-align: center;
+        cursor: pointer;
+      }
+    }
+    .timepicker-for-touch {
+      display: flex;
+      flex-direction: column;
+      .timepicker-input-touch {
+        text-align: center;
+        border-right: 0;
+        border-left: 0;
+        &::placeholder {
+          align-items: center;
+        }
+        &:focus {
+          text-decoration: none;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .timepicker-time-delimiter {
+    max-width: 50px;
+    text-align: center;
+  }
+  .time-delimiter {
+    color: c.$interpreters-green;
+    font: 1.5rem robotobold;
+    font-size: 1rem;
+    font-weight: 1.2rem;
+    max-width: 50px;
+    padding-right: 9px;
+    height: 15px;
+    padding-top: 5px;
+    flex-grow: 1;
+  }
+}
+
+
+// Для мобильной версии 
+@include r.touch {
+  .timepicker {
+    align-items: center;
+    .timepicker-for-desktop {
+      display: none;
+    }
+    .timepicker-for-touch {
+      display: flex;
+      flex-direction: column;
+      .input {
+        width: 1.5625em;
+        height: 1.8125em;
+        font-size: 16px;
+        padding: 0;
+        border: none;
+        border-bottom: 1px solid #dbdbdb;
+        border-top: 1px solid #dbdbdb;
+        box-shadow: none;
+      }
+      .timepicker-input-button-touch {
+        color: rgb(72,72,72);
+        // color: #dbdbdb;
+        // font-size: 40px;
+        font-size: 0.8em;
+        line-height: 0.6em;
+        // line-height: 40px;
+      }
+    }
+      
+    .timepicker-time-delimiter {
+      max-width: 42px;
+      text-align: center;
+      .time-delimiter {
+        font-size: 1rem;
+        line-height: 1.2rem;
+        padding: 0 3px 20px 3px;
+      }
+    }
+  }
+}

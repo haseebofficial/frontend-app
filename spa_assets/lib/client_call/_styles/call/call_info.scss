@@ -1,0 +1,153 @@
+@use "app/_styles/utils/responsiveness" as r;
+@use "app/_styles/utils/colors" as c;
+
+.call-info {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  .call-cancel {
+    max-width: 60px;
+    transform: rotate(135deg);
+  }
+  .call-microphone {
+    max-width: 60px;
+  }
+  .list-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    font-size: 18px;
+    color: #000000;
+
+    .name {
+      font: 24px "robotomedium";
+      color: c.$interpreters-green;
+    }
+
+    .is-regular {
+      font-family: "robotoregular", sans-serif;
+    }
+
+    ul:first-child {
+      margin-bottom: 20px;
+    }
+
+    .time {
+      margin-right: 20px;
+    }
+  }
+
+  .avatar {
+    .avatar-circle {
+      max-width: 126px;
+    }
+  }
+
+  .btn-control {
+    flex: 1;
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: flex-end;
+
+    .call-cancel:hover {
+      // filter: invert(19%) sepia(84%) saturate(2168%) hue-rotate(342deg) brightness(91%) contrast(83%);
+      filter: invert(29%) sepia(89%) saturate(2168%) hue-rotate(342deg)
+        brightness(74%) contrast(83%);
+    }
+
+    a:first-child {
+      margin-right: 70px;
+    }
+  }
+}
+
+@include r.touch {
+  .call-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    margin-top: 8px;
+    .call-cancel {
+      max-width: 50px;
+    }
+    .call-microphone {
+      max-width: 50px;
+    }
+    .avatar {
+      text-align: center;
+      width: 30%;
+      order: 1;
+
+      .avatar-circle {
+        max-width: 80px;
+      }
+    }
+
+    .btn-control {
+      width: 70%;
+      order: 1;
+      a:first-child {
+        margin-right: 40px;
+      }
+    }
+
+    .list-wrapper {
+      width: 100%;
+      order: 4;
+      font-size: 14px;
+      margin-top: 10px;
+      margin-left: 0;
+      flex-direction: row;
+      text-align: center;
+      align-items: center;
+      justify-content: space-between;
+
+      ul:first-child {
+        width: 30%;
+        margin-bottom: 0;
+        margin-right: 25px;
+      }
+
+      ul {
+        width: 70%;
+      }
+
+      .name {
+        font: 16px "robotomedium";
+        color: c.$interpreters-green;
+      }
+
+      .is-regular {
+        font-family: "robotolight", sans-serif;
+      }
+
+      .time {
+        margin-right: 40px;
+      }
+    }
+  }
+  .lang-ar {
+    .avatar {
+      width: 40%;
+    }
+  }
+}
+
+// Changes
+.lang-ar {
+  .result-block .avatar {
+    margin-left: 1em;
+  }
+  .call-info .avatar {
+    margin-left: 1.5em;
+  }
+  .call-info .btn-control {
+    justify-content: center;
+  }
+  .client-orders .order-card .avatar .avatar-circle {
+    margin-left: 1em;
+  }
+}

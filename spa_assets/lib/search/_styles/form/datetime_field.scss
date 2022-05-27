@@ -1,0 +1,383 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/z_index";
+@use "app/_styles/utils/text";
+@use "app/_styles/utils/responsiveness" as r;
+
+// (.new-search-page) относится к странице en/spa
+.new-search-page {
+  .search-form {
+    .columns {
+      .your-lang,
+      .your-lang-link {
+        margin-top: 0;
+        line-height: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
+
+// (.search-page) относится к странице en/spa/searches, фаил: search/form/datetime_field.jsx
+.search-form {
+  @include r.desktop {
+    .datetime-field-container .datetime-field-dropdown {
+      top: -51px;
+    }
+  }
+  .datetime-field-container {
+    position: relative;
+    .triangle {
+      position: absolute;
+      top: 95px;
+      left: -8px;
+      width: 18px;
+      height: 18px;
+      background-color: #fff;
+      filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+      transform: rotate(45deg);
+    }
+    .triangle-quadrat {
+      position: absolute;
+      top: 85px;
+      left: 0;
+      width: 20px;
+      height: 42px;
+      background-color: #fff;
+    }
+
+    .main-field {
+      margin-bottom: 0;
+
+      .icon {
+        color: c.$interpreters-green;
+      }
+
+      input {
+        cursor: pointer;
+        @include text.unselectable;
+      }
+    }
+
+    .datetime-field-dropdown {
+      background-color: white;
+      padding: 12px 29px 0px 15px;
+      // border: 1px solid black;
+      filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+      position: absolute;
+      left: 102%;
+      width: 193.79775%;
+      z-index: z_index.$dropdown-z-index;
+
+      .close-me {
+        display: none;
+        color: #555;
+        margin: 0 10px 20px 20px;
+        font-size: 35px;
+        line-height: 35px;
+        text-decoration: none;
+      }
+
+      .triangle-icon {
+        position: absolute;
+        color: #fff;
+        left: -18px;
+        //left: -11.5px;
+        font-size: 48px !important;
+        filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+        z-index: -1;
+      }
+
+      .timepicker {
+        margin: 7px 15px 15px;
+      }
+
+      .datetime-control {
+        //margin-bottom: 10px;
+        //padding: 5px;
+        text-align: center;
+        // border: 1px solid #DBDBDB;
+      }
+
+      .datetime-control-title {
+        font: 14px "robotobold";
+        line-height: 20px;
+      }
+
+      .datetime-result {
+        position: relative;
+        max-width: 320px;
+        margin: 0 auto;
+        padding: 3px;
+        // background-color: c.$interpreters-yellow;
+        text-align: center;
+
+        .datetime-result-delete {
+          position: absolute;
+          right: 14px;
+          top: -7px;
+          color: #555;
+          font: 30px "robotolight";
+          line-height: 35px;
+          text-decoration: none;
+        }
+
+        span {
+          display: block;
+          font: 12px "robotoregular";
+        }
+
+        &-title {
+          color: #000000;
+        }
+        &-subtitle {
+          color: #888787;
+        }
+      }
+
+      .time-container-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }
+
+      .time-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        &-from,
+        &-to {
+          padding-bottom: 7px;
+          font-size: 0.875em;
+          line-height: 0.875em;
+        }
+      }
+      &_bottom {
+        border-top: 1px solid #dbdbdb;
+        padding-top: 10px;
+        .button {
+          font: 18px "robotolight";
+          font-weight: 300;
+          color: #30480a;
+          padding: 5px;
+          max-width: 320px;
+          margin: 0 auto;
+          margin-top: 15px;
+          margin-bottom: 18px;
+          height: 40px;
+          &:hover,
+          &:focus {
+            color: #30480a;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include r.desktop {
+  .datetime-field-dropdown {
+    .datetime-field-fon {
+      display: none;
+    }
+    .datetime-control {
+      margin-bottom: 10px;
+      padding-top: 5px;
+      text-align: center;
+      .buttons {
+        .button {
+          margin-top: 7px;
+          font: 16px "robotolight";
+          font-size: 0.875em;
+          font-weight: 300;
+          height: 36px;
+        }
+      }
+      .datetime-control-title {
+        margin-bottom: 15px;
+      }
+      .time-container {
+        .timepicker {
+          margin-right: 0;
+          &.timepicker-1 {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+    &_body {
+      display: flex;
+      justify-content: space-between;
+    }
+    &_right {
+      width: 42%;
+    }
+    &_left {
+      width: 53.5%;
+      .datetime-result {
+        flex-basis: auto;
+        flex-grow: 1;
+      }
+    }
+    &_right {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+@include r.touch {
+  .search-form {
+    .datetime-field-container {
+      .triangle {
+        display: none;
+      }
+      .triangle-quadrat {
+        display: none;
+      }
+      .datetime-field-fon {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 120;
+      }
+      .datetime-field-dropdown {
+        position: fixed;
+        z-index: 999;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100% !important;
+        max-height: 85vh;
+        // overflow-y: auto;
+        padding-right: 18px;
+        padding-left: 18px;
+        padding-top: 6px;
+
+        .timepicker {
+          margin-top: 2px;
+        }
+
+        .datetime-field-dropdown_top {
+          position: absolute;
+          right: -26px;
+          top: 4px;
+          .close-me {
+            font-size: 26px;
+          }
+        }
+
+        .time-buttons {
+          display: flex;
+          justify-content: space-between;
+          border: none;
+          .time-button {
+            width: 47%;
+          }
+        }
+
+        .datetime-control {
+          margin: 10px 0px;
+          // display: flex;
+          .datetime-control-title {
+            width: 240px;
+            //padding-left: 0px;
+            text-align-last: left;
+            margin: 0 auto;
+          }
+          .time-container {
+            display: inline-flex;
+            // flex-basis: 100%;
+            width: 112px;
+            .time-container-from,
+            .time-container-to {
+              margin-right: 20px;
+            }
+          }
+          .buttons {
+            .button {
+              width: 42.6%;
+              margin-bottom: 15px;
+            }
+          }
+        }
+
+        .close-me {
+          display: inline-block !important;
+          margin-right: 45px;
+        }
+
+        .datetime-field-dropdown_bottom {
+          margin: 10px 5px 0px 5px;
+          // ============== SCROLL =======================
+          .datetime-result-wrapper {
+            overflow-y: auto;
+            .datetime-result-scroll {
+              max-height: calc(85vh - 384px - 11px - 65px - 15px);
+              // max-height: 200px;
+            }
+          }
+          // =============================================
+          .datetime-result-delete {
+            font-size: 26px;
+            top: -7px;
+          }
+          .button {
+            margin-bottom: 12px;
+            margin-top: 12px;
+            height: 35px;
+          }
+        }
+
+        .triangle-icon {
+          display: none;
+        }
+        .time-container {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &-from,
+          &-to {
+            padding-top: 0px;
+            max-width: 32px;
+          }
+        }
+        .time-container-first {
+          margin-left: 15px;
+          margin-right: 32px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 769px) and (max-width: 864px) {
+  .search-form {
+    .main-field {
+      .label {
+        font-size: 9.6px;
+        margin-left: 0.3em;
+      }
+    }
+  }
+}
+
+.lang-ar {
+  .call-form .datetime-field-container .datetime-field-dropdown {
+    left: -90%;
+  }
+  .search-form .datetime-field-container .datetime-field-dropdown {
+    left: -202%;
+  }
+  .search-form .datetime-field-container .datetime-field-dropdown .triangle {
+    right: -8px;
+    filter: unset;
+  }
+  .call-form .datetime-field-container .datetime-field-dropdown .triangle {
+    right: -9px;
+    filter: none;
+    left: unset;
+  }
+}

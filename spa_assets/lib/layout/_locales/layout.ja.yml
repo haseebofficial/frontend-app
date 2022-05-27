@@ -1,0 +1,45 @@
+layout:
+  header:
+    sign_in: 'ログイン'
+    help_link: 'Help'
+    sign_out: 'ログアウト'
+    personal_account: 'アカウント'
+    welcome: 'Welcome, %{user}'
+    interpreters_sign_in: '通訳者のログイン'
+    interpretation_calls: "通訳者との国際電話"
+    calls_to_city: "通訳者と%{city}へ電話する"
+    support: '24/7のサポート・サービス'
+    orders: "お客様の予約"
+    calls: "私の通話"
+    searches: "過去のサーチ"
+  footer:
+    about: 'interpreters.travelとは'
+    support: '24/7のサポート・サービス'
+    for_interpreters: 通訳者へ
+    for_interpreters_in_city: '%{city}の通訳者へ'
+    for_affiliates: "パートナーへ"
+    terms: '条件'
+    privacy_policy: 'プライバシーポリシー'
+  tabs:
+    interpreter_in: "にいる通訳者"
+    interpreters_in: "にいる通訳者"
+    countries: "%{country_count}に"
+    international_calls_with_interpreters:
+      desktop: "通訳者との国際電話"
+      mobile: "通訳者との国際電話"
+      desktop_city_selected: "通訳者と%{city}へ電話する"
+      mobile_city_selected: "通訳者と%{city}へ電話する"
+    texts_docs_translations:
+      desktop: "文書・書類の翻訳"
+      mobile: "文書・書類の翻訳"
+  search:
+    start_search: "検索をスタートする"
+    button: "検索"
+    download_cv: "履歴書をダウンロードする"
+  date:
+    hour: "時間当たり"
+    hours: "時間当たり"
+    minute: "分"
+    minutes: "分"
+    from: "から"
+    to: "まで"

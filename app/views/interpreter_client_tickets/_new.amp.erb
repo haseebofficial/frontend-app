@@ -1,0 +1,8 @@
+<% on_search_page ||= false %>
+<div class="info_wrapper_no_cart" >
+  <h5 class="intranet-button send-message">
+    <%= link_to search_interpreter_city_path(search_id: params[:search_id], interpreter_id: params[:interpreter_id], show_contact_form: "true") do %>
+      <%= t("forms.send_message_to_int") %>
+    <% end %>
+  </h5>
+</div>

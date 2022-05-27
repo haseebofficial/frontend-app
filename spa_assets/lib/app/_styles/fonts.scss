@@ -1,0 +1,41 @@
+// https://gist.github.com/jonathantneal/d0460e5c2d5d7f9bc5e6
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff ttf svg) {
+  $src: null;
+
+  $extmods: (
+    eot: "?",
+    svg: "#" + $name
+  );
+
+  $formats: (
+    otf: "opentype",
+    ttf: "truetype"
+  );
+
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    font-display: swap;
+    src: $src;
+  }
+}
+
+@mixin legacy-font-face($name, $path) {
+  @include font-face($name, $path, normal, normal)
+};
+
+@include legacy-font-face("robotothin", '~vendor/fonts/roboto/roboto-thin');
+@include legacy-font-face("robotolight", '~vendor/fonts/roboto/roboto-light');
+@include legacy-font-face("robotomedium", '~vendor/fonts/roboto/roboto-medium');
+@include legacy-font-face("robotobold", '~vendor/fonts/roboto/roboto-bold');
+@include legacy-font-face("robotoblack", '~vendor/fonts/roboto/roboto-black');
+@include legacy-font-face("robotoregular", '~vendor/fonts/roboto/roboto-regular');
+@include legacy-font-face("HelveticaLTStdRoman", '~vendor/fonts/helvetica/helvetica_lt_std_regular');
+@include legacy-font-face("HelveticaLTStdBold", '~vendor/fonts/helvetica/helvetica_lt_std_bold');

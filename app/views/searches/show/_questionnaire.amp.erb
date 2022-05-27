@@ -1,0 +1,162 @@
+<% @questionnaire = questionnaire %>
+<% q_name = "#{questionnaire.name} #{shorten_surname(questionnaire.surname)}" %>
+<div class="result_trans_block search_result">
+  <%= link_to search_interpreter_path(@search.id, questionnaire.user_id, format: :amp), rel: "next" do %>
+    <div class="photo-wrapper">
+      <%= amp_image_tag questionnaire.photo_url, class: 'photo', alt: t("interpreter.in_city", city: @in_city, name: q_name), width: 100, height: 100 %>
+    </div>
+  <% end %>
+  <div class="desc">
+    <%= link_to q_name, search_interpreter_path(@search.id, questionnaire.user_id, format: :amp), class: 'name', rel: "next" %>
+    <div class="price"><%= "#{convert_to_current_currency(questionnaire.price.to_i, questionnaire.currency_code, true, symbolize_currency: true)}" %><span class="grey-light">/</span><span class="duration-hours-grey"><%= t("hours", count: @search.duration_hours) %></span>
+    </div>
+    <% if questionnaire.discount %>
+      <div class="discount">
+        <span class='discount-arrow-wrapper'><%= amp_image_tag("discount_arrow.png", width: 15, height: 16)  %></span>
+        <span class='discount-wrapper'><%= @questionnaire.discount %>%</span>
+      </div>
+    <% end %>
+    <%= link_to t("search_page.learn_more"), search_interpreter_path(@search.id, questionnaire.user_id, format: :amp), class: 'interpreter-button mobile-show', rel: "next" %>
+    <div class="clear"></div>
+    <div class="text">
+      <%= l_questionnaire(:short_summary) %>
+    </div>
+  </div>
+  <div class="link details-links-block">
+    <amp-accordion disable-session-states>
+      <section class="link">
+        <h5 class="info-link-wrapper">
+          <a class="level info_link">
+            <span class="<%= questionnaire_stars_class(questionnaire.score) %> questionnaire-stars"></span>
+            <i class="sort-right-arrow unfold"></i>
+            <i class="sort-down-arrow fold"></i>
+          </a>
+        </h5>
+        <label>
+          <input type="checkbox" class="reveal-info" role="button">
+          <span class="n-show-more">Show more</span>
+        <div class='info-link-desc info-link-desc-show-more'>
+          <%= t("interpreter.rating_text") %>
+          <br/>
+          <br/>
+          <b><%= t('interpreter.reviews') %>*:</b>
+          <amp-list layout=fixed-height width=auto height=0 items="." src="<%= interpreters_api_url('client_reviews', questionnaire: @questionnaire.id) %>">
+            <template type="amp-mustache">
+              <div class='desc-item client-review'>
+                <div class='questionnaire-stars stars_{{score}}'></div>
+                <b>&laquo;{{comment}}&raquo;</b>
+                <br/>
+                {{client}}
+              </div>
+            </template>
+            <div>
+            </div>
+            <div class="space-filler"></div>
+          </amp-list>
+          <i>*<%= t('interpreter.reviews_text') %></i>
+        </div>
+      </label>
+      </section>
+    </amp-accordion>
+
+    <amp-accordion disable-session-states>
+      <section>
+        <h5 class="info-link-wrapper">
+          <a class="experience info_link">
+            <%= "#{t("interpreter.experience")} (#{t('years', count: questionnaire.experience_years)})" %>
+            <i class="sort-right-arrow unfold"></i>
+            <i class="sort-down-arrow fold"></i>
+          </a>
+        </h5>
+        <label>
+          <input type="checkbox" class="reveal-info" role="button">
+          <span class="n-show-more">Show more</span>
+        <div class='info-link-desc info-link-desc-show-more'>
+          <amp-list layout=fixed-height width=auto height=0 items="." src="<%= interpreters_api_url('experience_info', questionnaire: @questionnaire.id) %>">
+            <template type="amp-mustache">
+              <div class="desc-item">
+                <p>
+                  <b>{{company}}</b>:
+                  <br/>
+                  {{speciality}}
+                  <br/>
+                  {{begin_date}} - {{end_date}}
+                </p>
+              </div>
+            </template>
+            <div>
+            </div>
+            <div class="space-filler"></div>
+          </amp-list>
+        </div>
+      </label>
+      </section>
+    </amp-accordion>
+
+    <amp-accordion disable-session-states>
+      <section>
+        <h5 class="info-link-wrapper">
+          <a class="education info_link">
+            <%= "#{t("interpreter.education")} (#{questionnaire.educations_count})" %>
+            <i class="sort-right-arrow unfold"></i>
+            <i class="sort-down-arrow fold"></i>
+          </a>
+        </h5>
+        <label>
+          <input type="checkbox" class="reveal-info" role="button">
+          <span class="n-show-more">Show more</span>
+        <div class='info-link-desc info-link-desc-show-more'>
+          <amp-list layout=fixed-height width=auto height=0 items="." src="<%= interpreters_api_url('educations', questionnaire: @questionnaire.id) %>">
+            <template type="amp-mustache">
+              <div class="desc-item">
+                <p>
+                  <b>{{name}}</b>
+                  <br/>
+                  {{begin_date}} - {{end_date}}
+                </p>
+              </div>
+            </template>
+            <div>
+            </div>
+            <div class="space-filler"></div>
+          </amp-list>
+        </div>
+      </label>
+      </section>
+    </amp-accordion>
+
+    <amp-accordion disable-session-states>
+      <section>
+        <h5 class="info-link-wrapper">
+          <a class="experience_event info_link">
+            <%= "#{t("interpreter.events")} (#{questionnaire.experience_event_count})" %>
+            <i class="sort-right-arrow unfold"></i>
+            <i class="sort-down-arrow fold"></i>
+          </a>
+        </h5>
+        <label>
+          <input type="checkbox" class="reveal-info" role="button">
+          <span class="n-show-more">Show more</span>
+        <div class='info-link-desc info-link-desc-show-more'>
+          <amp-list layout=fixed-height width=auto height=0 items="." src="<%= interpreters_api_url('experience_event_info', questionnaire: @questionnaire.id) %>">
+            <template type="amp-mustache">
+              <div class="desc-item">
+                <p>
+                  <b>{{action}}</b>:
+                  <br/>
+                  {{organizer}}
+                  <br/>
+                  {{begin_date}} - {{end_date}}
+                </p>
+              </div>
+            </template>
+            <div>
+            </div>
+            <div class="space-filler"></div>
+          </amp-list>
+        </div>
+      </label>
+      </section>
+    </amp-accordion>
+  </div>
+</div>

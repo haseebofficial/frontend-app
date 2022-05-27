@@ -1,0 +1,82 @@
+it: 
+  sign_in_page: 
+    title: "Accesso"
+    form: 
+      email: "E-mail:"
+      password: "Password:"
+      remember_me: "Ricordati di me"
+      submit: "Accesso"
+  shared_links:
+    interpreters_login: "Accesso per gli interpreti" 
+    sign_in: "Accesso"
+    sign_up: "Registrazione"
+    new_password: "Ha dimenticato la password?"
+    interpreters_sign_up: "Registrazione per interpreti"
+  sign_up_page:
+    title: "Registrazione"
+    interpreters_question: "Vuole iscriversi come interprete?"
+    yess: "Sì"
+    nno: "No"
+    form:
+     name: "* Nome"
+     surname: "* Cognome"
+     email: "* E-mail"
+     password: "* Password"
+     password_confirmation: "* Conferma di Password"
+     submit: 'Registrazione'
+  new_password_page:
+    title: "Ripristino della password"
+    form: 
+      email: 'E-mail'
+      submit: "Imposti una nuova password" 
+  orders_index_page: 
+    title: "Miei ordini"
+    load_more: "Mostrare ancora"
+    cancelled: "L’ordine annullato"
+  order_pages_sidebar: 
+    menu: "Menu"
+    orders: "Miei ordini"
+    searches: "Miei ricerche"
+    logout: "Uscita"
+    from: "del"
+  searches_index_page: 
+    title: "Miei ricerche"
+    created_at: "Quando è stato eseguito"
+    city: "Città"
+    languages: "Lingue"
+    intervals: "Data, ora"
+  show_order_page: 
+    title: "Visualizzazione d’ordine"
+    details: "Dettagli d’ordine:"
+    from: "del"
+    get_voucher: "ottenere la Ricevuta d’ordine"
+    cancelled: "L’ordine è annullato"
+    period: "Periodo scelto:"
+    contact_details: "Dati per un contatt al traduttore"
+    email: "Indirizzo di posta elettronica:"
+    phone: "Telefono:"
+    service_info: "Informazione supplementare sul servizio"
+    languages: "Lingue:"
+    address: "Indirizzo d’incontro:"
+    additional_services: "Servizio comprende:"
+    not_available: "non è prevista"
+    cancellation_conditions: "Condizioni d’Annullamento gratuito:"
+    payment_info: "Informazione sul pagamento"
+    payment: "Pagamento:"
+    payment_date: "Data del pagamento:"
+    get_receipt: "Ottenere la ricevuta di pagamento"
+    pay_with_card: "Pagamento attraverso carta (VISA/MasterCard)"
+    client_info: 
+      title: "Informazioni sul cliente del servizio"
+      name: "Cognome, Nome:"
+      city: "Città:"
+      phone: "Telefono:"
+      email: "E-mail:"
+    confirm_order_changes: "Confermi degli aggiornamenti nell’ordine"
+    cancel_order: "Annullare l’ordine"
+    cancel_warning: "Un ordine, una volta venuto annullato non è più possibile restituire."
+    continue: "Continuare?"
+    details_available_after_confirmation: sarà accessibile dopo la conferma
+    details_not_available: "sarà accessibile dopo la conferma e scadenza del periodo dell’Annullamento gratuito d’ordine"
+    request_contacts: "Mostrare dei contatti ora"
+    request_contacts_text: "Ricevendo dei contatti dell’interprete in anticipo, Lei cambia delle condizioni d’annullazione dell’ordine. Annullazione sarà possibile solamente con una deduzione/pagamento del consto di due ore del servizion dell’interprete. Confermi di ricevere in anticipo dei contatti e aggiornamento delle condizioni d’annullazione."

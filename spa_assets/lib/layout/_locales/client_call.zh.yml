@@ -1,0 +1,4 @@
+client_call:
+  tab:
+    my_calls: "我的来电"
+    new_call: "新的呼叫"

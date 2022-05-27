@@ -1,0 +1,2 @@
+<% lang = (@search.your_language || @your_language) %>
+<%= select_tag 'search_your_language_id', languages_select_options(lang), name: 'search[your_language_id]' %>

@@ -1,0 +1,53 @@
+ar:
+  search_form:
+    title: 'البحث عن المترجمين'
+    where: 'أين:'
+    when: 'متى:'
+    language: 'ما هي اللغة المطلوبة:'
+    your_language: 'لغتك:'
+    button: 'بحث'
+    city: 'على سبيل المثال: برلين، شنغهاي، نيويورك'
+    date_time: 'حدد التاريخ والوقت'
+    timepicker:
+      title: 'وقت الاجتماع (بالتوقيت المحلي):'
+      total: 'مجموع الفترات الزمنية'
+      from: 'من'
+      till: 'إلى'
+      buttons:
+        add_day: 'إضافة'
+        clear: 'مسح'
+        clear_intervals: 'مسح الفترات الزمنية'
+        choose: 'أختر'
+    language_selector: 
+      no_result: 'لا يوجد مترجمون لهذه المدينة'
+      list_select: 'حدد من القائمة'
+      blank_city: "أولا اختر المدينة"
+    city_selector: 
+      no_result: "لا يوجد حاليا مترجمون متاحون في هذه المدينة. حاول العثور على مترجم في هذه المدينة لاحقا أو اختيار مدينة أخرى"
+
+  js:
+    select: "أختــر"
+    date_selector: 
+      dialog: 
+        title: "فترات محددة"
+        confirm: "تأكيد"
+        change: "تعديل"
+      errors: 
+        no_periods_selected: 'حدد الوقت وانقر على "إضافة"'
+        invalid_interval: 'لم يتم اختيار الفاصل الزمني بشكل صحيح'
+        interval_exists: 'تم تحديد هذه الفترة بالفعل، حدد آخرى'
+      total_time: 'إجمالي الوقت - '
+      from: ' - من '
+      to: ' حتي '
+      select: "أختــر"
+    search: 
+      file_select: "أختــر..." 
+      errors: 
+        blank_city: 'حدد المدينة.'
+        blank_intervals: 'حدد التاريخ والوقت.'
+        blank_language: 'حدد اللغة.'
+    buttons: 
+      change_order_date: "تاريخ التغيير"
+      confirm_order_date: "تأكيد"
+    titles: 
+      confirm_order_date: "تأكيد تفاصيل الحجز"

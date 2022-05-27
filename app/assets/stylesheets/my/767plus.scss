@@ -1,0 +1,22 @@
+@import 'my/mixins';
+@media screen and (min-width: 767px) {
+  #body.de .order_stage_wrapper .order_stage li:not(:last-child) {
+    margin: 0px 169px 0px 0px;
+  }
+
+  #body.es .order_stage_wrapper .order_stage li:not(:last-child) {
+    margin: 0px 195px 0px 0px;
+  }
+
+
+  #body.fr .order_stage_wrapper .order_stage li:not(:last-child) {
+    margin: 0px 164px 0px 0px;
+  }
+
+  #body.es .order_stage_wrapper .order_stage li:not(:last-child) {
+    margin: 0px 190px 0px 0px;
+  }
+  #body.it .order_stage_wrapper .order_stage li:not(:last-child) {
+    margin: 0px  190px 0px 0px;
+  }
+}

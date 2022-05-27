@@ -1,0 +1,69 @@
+@use "app/_styles/utils/responsiveness" as r;
+
+.navbar {
+  .mobile-burger {
+    @include r.desktop {
+      display: none;
+    }
+
+    width: 25px;
+    height: 25px;
+    position: relative;
+    transform: rotate(0deg);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+
+    span {
+      display: block;
+      position: absolute;
+      height: 2px;
+      width: 100%;
+      background: #383737;
+      border-radius: 9px;
+      opacity: 1;
+      left: 0;
+      transform: rotate(0deg);
+      transition: .25s ease-in-out;
+
+      &:nth-child(1) {
+        top: 0;
+      }
+
+      &:nth-child(2) {
+        top: 8px;
+      }
+
+      &:nth-child(3) {
+        top: 8px;
+      }
+
+      &:nth-child(4) {
+        top: 16px;
+      }
+    }
+  }
+
+  .mobile-burger.is-active {
+    span {
+      &:nth-child(1) {
+        top: 18px;
+        width: 0;
+        left: 50%;
+      }
+
+      &:nth-child(2) {
+        transform: rotate(45deg);
+      }
+
+      &:nth-child(3) {
+        transform: rotate(-45deg);
+      }
+
+      &:nth-child(4) {
+        top: 18px;
+        width: 0;
+        left: 50%;;
+      }
+    }
+  }
+}

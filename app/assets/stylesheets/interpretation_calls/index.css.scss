@@ -1,0 +1,51 @@
+.calls-list {
+  .interpretation-call:first-child {
+    border-top: 1px solid grey;
+  }
+  .interpretation-call {
+    text-align: left;
+    display: inline-block;
+    text-decoration: none;
+    overflow: hidden;
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding: 12px 0;
+
+    .desc-header {
+      font-size: 17px;
+      text-align: left;
+      margin-bottom: 5px;
+      color: #FFC602;
+      font-weight: bold;
+    }
+
+    .desc-body {
+      color: grey;
+      text-align: left;
+    }
+  }
+
+  .interpretation-call:last-child {
+    border-bottom: none;
+  }
+}
+
+.app-store-link {
+  font-size: 16px;
+  line-height: 16px;
+  display: inline-block;
+
+  a {
+    text-decoration: none;
+    color: grey;
+    float: left;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  .image-link {
+    margin-left: 10px;
+  }
+}

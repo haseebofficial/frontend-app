@@ -1,0 +1,23 @@
+- content_for :head do
+  = render "layouts/react_app"
+- content_for :description do
+  = render "interpretation_calls/app_store_link"
+- content_for :body do
+  .green_line
+  .main_content
+    = render 'shared/flash_messages'
+    = render "personal_accounts/sidebar"
+    .cabinet_content
+      .mob_title
+      .my_view_wrapper
+        .search-form-container
+          .call-search-form= render 'interpretation_call_searches/form', search: @search
+        #client-balance-container
+        - if @search
+          %span= t("interpretation_call.request_sent")
+          %br
+          %br
+          #call-search-offers-container{data: {search_id: @search.id}}
+    #client-balance-popup
+    .clear
+    = render "interpretation_calls/app_store_footer"

@@ -1,0 +1,62 @@
+@media screen and (min-width: 768px) {
+  .result_trans_wrapper {
+    .details-links-block {
+      background-color: #e4e4e4;
+      // padding: 2px 0;
+      width: 100%;
+      .info_link {
+        float: right;
+        padding: 3px 8px 3px 25px;
+      }
+      .info_link.level {
+        float: left;
+        margin-left: 3px;
+      }
+      .interpreter-button {
+        float: right;
+      }
+    }
+  }
+
+  .interpreter-info-wrapper {
+    // min-height: 100%;
+    .photo-wrapper {
+      float: none !important;
+    }
+  }
+
+  .photo-border {
+    // position: relative;
+    // top: -1px;
+    border-top: 1px solid #d0d0d0;
+    padding-bottom: 15px;
+  }
+  .interpreter-register-link {
+    position: absolute;
+    top: 130px;
+    left: 600px;
+  }
+  .translator_block_wrapper .photo-wrapper {
+  	float: left;
+  	overflow: hidden;
+  	position: relative;
+  	display: inline-block;
+  	width: 164px;
+  	height: 164px;
+  }
+
+  .order_agreement {
+    margin: 13px 0px 0px 30px;
+  }
+
+  .mobile-show {
+    display: none !important;
+  }
+  .service-links {
+    width: 400px;
+    .service-link:not(:first-child)::before, .discount:not(:first-child)::before {
+      white-space: pre;
+      content: " | ";
+    }
+  }
+}

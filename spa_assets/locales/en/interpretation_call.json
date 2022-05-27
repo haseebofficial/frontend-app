@@ -1,0 +1,18 @@
+{
+  "template": {
+    "modal": {
+      "interpreter_role": "Interpreter",
+
+      "status_texts": {
+        "ringing": "Connecting...",
+        "connected": "Connected"
+      },
+
+      "finished_call": {
+        "question": "Was the call completed?",
+        "answer_yes": "Yes",
+        "answer_no": "No, continue"
+      }
+    }
+  }
+}

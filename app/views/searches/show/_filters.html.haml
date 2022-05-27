@@ -1,0 +1,96 @@
+- current_currency = @current_currency || 'USD'
+.result_filter_wrapper
+  - unless (filter = @search.filter).nil?
+    :coffee
+      ready = ->
+        current_curr = ' #{session[:current_currency]}'
+        exchange_rate = parseFloat(#{get_exchange_rate(session[:current_currency], current_currency)})
+        $("#slider-range").slider
+          range: true
+          min: #{@search.min_price_range.to_i}
+          max: #{@search.max_price_range.to_i}
+          values: [
+            #{@search.filter.price_min.to_i}
+            #{@search.filter.price_max.to_i}
+          ]
+          slide: (event, ui) ->
+            $('.slider-range-text .min').text Math.round(ui.values[0] * exchange_rate) + current_curr
+            $('.slider-range-text .max').text Math.round(ui.values[1] * exchange_rate) + current_curr
+            return
+
+        price_min_in_curr = #{convert_to_current_currency(filter.price_min.to_i, current_currency, false)}
+        price_max_in_curr = #{convert_to_current_currency(filter.price_max.to_i, current_currency, false)}
+        $('#slider-range').slider('values', [#{filter.price_min.to_i}, #{filter.price_max.to_i}]);
+        $('.slider-range-text .min').text(price_min_in_curr + current_curr)
+        $('.slider-range-text .max').text(price_max_in_curr + current_curr)
+
+        return
+
+      $(document).ready(ready)
+      $(document).on('page:load', ready)
+
+  - unless (filter = @search.filter).nil?
+    - if filter.services_ids_array
+      - filter.services_ids_array.each do |s|
+        :coffee
+          $(document).on "ready page:change", ->
+            $(".service_filter input:checkbox[service_id='#{s}']").attr('checked', true)
+            $(".service_filter input:checkbox[service_id='#{s}']").next().addClass("checked")
+    - if filter.specializations_ids_array
+      - filter.specializations_ids_array.each do |s|
+        :coffee
+          $(document).on "ready page:change", ->
+            $(".specialization_filter input:checkbox[specialization_id='#{s}']").attr('checked', true)
+            $(".specialization_filter input:checkbox[specialization_id='#{s}']").next().addClass("checked")
+            .info_block
+
+  %form{action: "#"}
+    .result_filter_block
+      .title
+        %h3{style: "font: inherit; margin: 0"}= t("search_page.price", city: @in_city)
+      .block
+        - if @minimum_volume.blank? and @minimum_advance.blank?
+          #slider-range
+          .slider-range-text
+            %span.min
+            %span.max
+        .clear
+    %br
+    .result_filter_block.service_filter
+      .title
+        %h2{style: "font: inherit; margin: 0; color: inherit; padding: 0"}= t("search_page.services", city: @in_city)
+      .block
+        - if @service_types
+          - @service_types.each do |service_type|
+            %label
+              %input{type: 'checkbox', service_id: service_type.id}
+              %span.text #{l_object(:name, service_type)}
+              %span.clear
+      .get_quote_widget
+        - source_lang = t("common.languages.#{@search.your_language.locale}")
+        - target_lang =t("common.languages.#{@search.language.locale}")
+        %p= t("search_page.need_translation", source_lang: source_lang, target_lang: target_lang)
+        = link_to t("search_page.get_quote"), translation_path(source_language: @search.your_language.locale, target_language: @search.language.locale), class: 'intranet-button get_quote'
+    .result_filter_block.specialization_filter
+      .title
+        = t("search_page.specializations")
+      - if @specializations
+        .block
+          .specs.folded
+            - @specializations.each do |specialization|
+              %label
+                %input{type: 'checkbox', specialization_id: specialization.id}
+                %span.text #{l_object(:name, specialization)}
+                %span.clear
+        .text-center.fold-toggle
+          %span.unfold
+            %i
+            = t("search_page.unfold")
+          %span.fold
+            %i
+            = t("search_page.fold")
+          .fader
+    .result_filter_block
+      - unless @search.city.description.blank?
+        .title= t("search_page.city_desc", city: @in_city)
+        .block.city-desc= raw @search.city.description

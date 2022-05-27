@@ -1,0 +1,14 @@
+login_page:
+  page_slogan: "Anmelden"
+  form:
+    email: "E-Mail:"
+    password: "Passwort:"
+    remember_me: "Angemeldet bleiben"
+    submit: "Anmelden"
+    error: "Ungültige E-Mail oder Passwort"
+  links:
+    sign_in_for_interpreters: "Login für Dolmetscher"
+    sign_in: "Anmelden"
+    sign_up: "Anmeldung"
+    restore_password: "Passwort vergessen?"
+    sign_up_for_interpreters: "Anmeldung für Dolmetscher"

@@ -1,0 +1,146 @@
+.cart_block
+  - questionnaire = @interpreter.questionnaire
+  - @questionnaire = questionnaire
+  .photo-wrapper
+    = image_tag questionnaire.photo_url, class: 'cart_photo'
+  .info_wrapper
+    .name #{l_questionnaire(:name)} #{l_questionnaire(:surname)}
+    .prof
+      = t("interpreter.title")
+      %br
+      %a.level.info_link.mobile-show{'data-id' => @questionnaire.id}
+        %span.questionnaire-stars{class: questionnaire_stars_class(@questionnaire.score)}
+    .right
+      %a.experience_event.info_link{'data-id' => @questionnaire.id} #{t("interpreter.events")} (#{@questionnaire.experience_event_count})
+      %br
+      %a.recommendations.info_link{'data-id' => @questionnaire.id} #{t("interpreter.recommendations")}
+      %br
+      %a.experience.info_link{'data-id' => @questionnaire.id} #{t("interpreter.experience")} (#{t('years', count:  @questionnaire.experience_years)})
+      %br
+      - if @questionnaire.verified?
+        %a.verified_profile.info_link.link-with-text{"data-text" => t("show_interpreter.verified_contacts_text")}
+          = t("interpreter.verified_profile")
+    .left
+      %a.level.info_link.mobile-hide{'data-id' => @questionnaire.id}
+        %span.questionnaire-stars{class: questionnaire_stars_class(@questionnaire.score)}
+      %br
+      %a.diplom.info_link{'data-id' => @questionnaire.id} #{t("interpreter.diplomas")} (#{@questionnaire.diplomas_count})
+      %br
+      %a.cert.info_link{'data-id' => @questionnaire.id} #{t("interpreter.certificates")} (#{@questionnaire.certificates_count})
+      %br
+      %a.verified_contacts.info_link.show_dialog{data: {dialog_id: "verified_contacts_dialog", dialog_title: t("show_interpreter.dialogs.profile_title")}}
+        = t("interpreter.verified_contacts")
+      #verified_contacts_dialog.my_dialog{style: "display:none;"}
+        %h3.dialog-header= t("show_interpreter.dialogs.checked_and_confirmed")
+        %p.check-text
+          - if @contacts_available
+            = t("show_interpreter.dialogs.email_full", email: @order.interpreter_email)
+          - else 
+            = t("show_interpreter.dialogs.email_address", domain: @order.interpreter_email.split('.').last)
+        %p.check-text
+          - if @contacts_available
+            = t("show_interpreter.dialogs.phone_full", phone: @order.interpreter_phone)
+          - else 
+            = t("show_interpreter.dialogs.phone", last_two: @order.interpreter_phone.last(2))
+        - unless @contacts_available
+          %p
+            - confirmation = link_to(t("show_interpreter.dialogs.order_confirmation"), "#available-serivces", class: "close-dialog", "data-close-dialog-id" => "verified_profile_dialog")
+            = raw t("show_interpreter.dialogs.contacts_available", confirmation: confirmation)
+  .clear
+  = render "show_order_forms"
+  .clear
+  .desc
+    = l_questionnaire :short_summary
+  .desc
+    = l_questionnaire :summary
+.info_block
+  .title= t("contact_details", @scope)
+  %table
+    %tr.email
+      %td= t("email", @scope)
+      %td
+        - if @order.contacts_available_after_confirmation?
+          = t("details_available_after_confirmation", @scope)
+        - elsif @order.ready_for_presentation?
+          = @order.interpreter_email
+        - else
+          = t("details_not_available", @scope)
+          - if @order.can_request_contacts?
+            %a.request_contacts{href: "#", data: {dialog_title: t("request_contacts", @scope), confirm_url: request_contacts_personal_account_path(@order)}}= t("request_contacts", @scope)
+    %tr.phone
+      %td= t("phone", @scope) 
+      %td
+        - if @order.contacts_available_after_confirmation?
+          = t("details_available_after_confirmation", @scope)
+        - elsif @order.ready_for_presentation?
+          = @order.interpreter_phone
+        - else 
+          = t("details_not_available", @scope)
+          - if @order.can_request_contacts?
+            %a.request_contacts{href: "#", data: {dialog_title: t("request_contacts", @scope), confirm_url: request_contacts_personal_account_path(@order)}}= t("request_contacts", @scope)
+- if @order.can_request_contacts?
+  #request_contacts_dialog.my_dialog{style: "display:none;"}
+    = t("request_contacts_text", @scope)
+.info_block
+  .title= t("service_info", @scope)
+  %table
+    %tr.languages
+      %td= t("languages", @scope)
+      %td= @order.language_pairs
+    %tr.meeting_address
+      %td= t("address", @scope)
+      %td= @order.meeting_address
+    %tr.additional_service
+      %td= t("additional_services", @scope)
+      %td= @order.additional_services || t("not_available", @scope)
+    %tr
+      %td= t("cancellation_conditions", @scope) 
+      %td= raw @order.cancellation_conditions
+- if @order.payment.present?
+  .info_block
+    .title= t("payment_info", @scope)
+    %table
+      %tr
+        %td= t("payment", @scope)
+        - if !@order.invoice_payment?
+          %td= @order.payment_type(humanize: true)
+      - if @order.invoice_payment?
+        %tr
+          %td= link_to @order.payment_type(humanize: true), invoice_personal_account_path(@order, format: :pdf), target: "_blank"
+      %tr
+        - if !@order.invoice_payment? and !@order.cash_payment?
+          %td= t("payment_date", @scope)
+          %td= @order.payment.formatted_created_at
+      %tr
+        %td
+          = link_to t("get_receipt", @scope), receipt_personal_account_path(@order, format: :pdf), class: ("not_ready" if !@order.receipt_available?), 'data-target' => "#receipt_not_ready_modal"
+          #receipt_not_ready_modal
+            %p= t("receipt_not_ready", scope: :personal_account)
+      - if @order.can_change_payment_method?
+        %tr
+          %td
+            %span#load-payment-container= t("show_order_page.pay_with_card");
+    #payment-container.payment-container-wide
+.info_block
+  .title= t("client_info.title", @scope)
+  %table
+    %tr.name
+      %td= t("client_info.name", @scope)
+      %td #{@order.client.name} #{@order.client.surname}
+    %tr.phone
+      %td= t("client_info.phone", @scope) 
+      %td= @order.phone
+    %tr.email
+      %td= t("client_info.email", @scope) 
+      %td= @order.client.email
+
+:javascript
+  $("body").on("click", "#load-payment-container", function() {
+    $.get("/payments/new", {payment_type: "card", order_id: #{@order.id}, locale: "#{params[:locale]}"})
+  });
+
+- if params[:show_card_form]
+  :javascript
+    $(document).on('ready page:load', function() {
+      $("#load-payment-container").click();
+    });

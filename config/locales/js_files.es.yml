@@ -1,0 +1,53 @@
+es: 
+  js: 
+    time:  
+      since_word: "De"
+      to_word: "a"
+    select: "ОК"
+    cancel: "Отмена"
+    validator: 
+      required: 'Este campo es obligatorio.'
+      remote: 'Пожалуйста, введите правильное значение.'
+      email: 'Por favor, indique el adecuado correo electrónico'
+      url: 'Пожалуйста, введите корректный URL.'
+      date: 'Пожалуйста, введите корректную дату.'
+      dateISO: 'Пожалуйста, введите корректную дату в формате ISO.'
+      number: 'Пожалуйста, введите число.'
+      digits: 'Пожалуйста, вводите только цифры.'
+      creditcard: 'Пожалуйста, введите правильный номер кредитной карты.'
+      equalTo: 'Пожалуйста, введите такое же значение ещё раз.'
+      accept: 'Пожалуйста, выберите файл с правильным расширением.'
+      maxlength: 'Пожалуйста, введите не больше {0} символов.'
+      minlength: 'Пожалуйста, введите не меньше {0} символов.'
+      rangelength: 'Пожалуйста, введите значение длиной от {0} до {1} символов.'
+      range: 'Пожалуйста, введите число от {0} до {1}.'
+      max: 'Пожалуйста, введите число, меньшее или равное {0}.'
+      min: 'Пожалуйста, введите число, большее или равное {0}.'
+      uniq_email: 'Este correo electrónico ha sido usado antes, utilice otro o inicie sesión'
+      phone_format: "Indique en el formato +35724343118"
+      city_select: "Especificar la derecha o elejir de la lista"
+    browser_outdated: "Su navegador no está actualizado y algunas opciones de la página no funccionan correctamente. Por favor, instale un navegador actual y seguro"
+    date_selector: 
+      dialog: 
+        title: "Períodos seleccionados"
+        confirm: "CONFIRMAR"
+        change: "CAMBIAR"
+      errors: 
+        no_periods_selected: 'Seleccione la hora y haga clic en "Añadir"'
+        invalid_interval: 'El período está seleccionado incorrectamente'
+        interval_exists: 'Este período ya está seleccionado, elija otro'
+      total_time: 'El tiempo total - '
+      from: ' - desde: '
+      to: ' hasta: '
+      select: "ELEGIR"
+    search: 
+      file_select: "Elegir..." 
+      errors: 
+        blank_city: 'Seleccione el ciudad.'
+        blank_intervals: 'Seleccione la fecha y la hora.'
+        blank_language: 'Seleccione la lengua.'
+    buttons: 
+      change_order_date: "Cambiar la fecha"
+      confirm_order_date: "CONFIRMAR"
+    titles: 
+      confirm_order_date: "Confirmar los datos de reserva"

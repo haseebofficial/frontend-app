@@ -1,0 +1,15 @@
+.payment-information {
+  font-family: robotolight;
+  margin-bottom: 10px;
+
+  .show-credit-card {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration-style: dashed;
+    text-decoration-line: underline;
+  }
+
+  .show-credit-card:hover {
+    text-decoration:none;
+  }
+}

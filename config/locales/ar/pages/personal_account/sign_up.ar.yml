@@ -1,0 +1,13 @@
+ar:
+  sign_up_page:
+    title: "التسجيل"
+    interpreters_question: "هل تريد التسجيل كمترجم؟"
+    yess: "نعم"
+    nno: "لا"
+    form:
+     name: "* اسم"
+     surname: "* اسم العائلة"
+     email: "* عنوان البريد الإلكتروني"
+     password: "* كلمة المرور"
+     password_confirmation: "* تأكيد كلمة المرور"
+     submit: 'التسجيل'

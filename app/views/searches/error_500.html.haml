@@ -1,0 +1,29 @@
+- city_name = @city.t(:name)
+- @in_city = city_name_in_loct_case(@city, city_name)
+- scope = {scope: 'show_interpreter.500_page'}
+
+- @add_h1_to_description = true
+- content_for :description do
+  = t("show_interpreter.service_select", city: @in_city)
+
+- content_for :body do
+  .green_line
+  .main_content{style: "text-align: center; font: 17px/13px 'robotobold'; width: 100%;"}
+    %p.red= t("title_text", scope)
+    %p{style: "margin-top: 100px;"}= t("similar_ints_title", scope.merge(city: @in_city))
+    - if @questionnaires.any?
+      .cart_sidebar{style: "width: 100%; margin-bottom: 40px;"}
+        .alike_trans_wrapper{style: "padding-bottom: 17px;"}
+          .alike_trans_inner{style: "display: inline-block; overflow: hidden;"}
+            - @questionnaires.each do |questionnaire|
+              .alike_trans_block.search_result{'data-interpreter-id' => questionnaire.id, style: "float: left; margin-right: 15px; border: none;"}
+                / .photo-wrapper
+                .desc{style: "float: none; margin-bottom: 15px;"}
+                  = link_to "#{l_questionnaire(:name, questionnaire)} #{shorten_surname(l_questionnaire(:surname, questionnaire))}", search_interpreter_path(@search.id, questionnaire.user_id), class: 'name'
+                  %span
+                    .price
+                      = convert_to_current_currency(questionnaire.min_price_available_service(@search).to_i, questionnaire.currency.code)
+                = link_to search_interpreter_path(@search.id, questionnaire.user_id) do 
+                  = image_tag questionnaire.photo_url(:thumb), class: 'img', style: "margin-right: 10px; float: none; padding-top: 0;"
+                .clear
+    %p{style: "margin-top: 30px;"}= raw t("to_search", scope.merge(link: link_to(t("search", scope), search_path(@search)), city: @in_city))

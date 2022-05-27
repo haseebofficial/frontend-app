@@ -1,0 +1,61 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+.client-search-table {
+  margin-top: 30px;
+  padding-bottom: 4em;
+  table {
+    width: 100%;
+  }
+  .table-header {
+    font-size: 18px;
+    background-color: c.$interpreters-yellow;
+    th {
+      vertical-align: middle;
+      text-align: center;
+      padding: 5px;
+    }
+  }
+  .table-text:not(:first-child) {
+    display: block;
+    margin-top: 10px;
+  }
+  .table-row {
+    td {
+      text-align: center;
+      padding: 10px 0;
+      border-bottom: 1px solid #c0c0c0;
+    }
+  }
+  .table-row:hover {
+    cursor: pointer;
+  }
+}
+
+@include r.touch {
+  .client-search-table {
+    table {
+      width: 100vw;
+      position: relative;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+    }
+    .table-header {
+      font-size: 13px;
+      th {
+        padding: 5px 10px;
+        font-weight: normal;
+      }
+    }
+    .table-row {
+      td {
+        padding: 5px 10px;
+        font-size: 13px;
+      }
+    }
+  }
+}
+.client-search-table .pagination {
+  display: none;
+}

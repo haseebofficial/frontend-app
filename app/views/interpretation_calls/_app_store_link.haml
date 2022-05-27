@@ -1,0 +1,8 @@
+.app-store-link.mobile-hide
+  = link_to "https://itunes.apple.com/app/interpreters-travel/id1418934374", target: "_blank", class: "text-link mobile-hide" do
+    %span= t("interpretation_call.app_store_link1")
+    %br
+    %span= t("interpretation_call.app_store_link2")
+  = link_to "https://itunes.apple.com/app/interpreters-travel/id1418934374", target: "_blank", class: "image-link" do
+    - l = I18n.locale.to_s == "ru" ? "ru" : "en" 
+    = image_tag "calls/app_store_#{l}.svg"

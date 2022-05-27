@@ -1,0 +1,202 @@
+.call-search-form {
+  margin-bottom: 15px;
+  .search-form-submit {
+    display: block;
+    background: #ffc602;
+    border: 0;
+    font: 18px robotobold;
+    height: 38px;
+    line-height: 38px;
+    color: #2f4908;
+    margin: 20px auto 0;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 100%;
+
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .search-form-submit:hover {
+    background: #2f4908;
+    color: white;
+  }
+}
+
+.toggle-call-date {
+  display: block; 
+  height: 28px;
+  width: 100%;
+  background: #30480A;
+  font: 13px 'robotolight';
+  line-height: 14px;
+  color: #fff;
+}
+.toggle-call-date ul {
+  width: 100%;
+  margin: 0px auto;
+  padding: 0px;
+  list-style: none;
+}
+.toggle-call-date ul li {
+  float: left;
+  width: 50%;
+}
+.toggle-call-date ul li .toggle-item {
+  display: block;
+  width: 100%;
+  padding: 7px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+.toggle-call-date ul .act .toggle-item {
+  background: #FFC602;
+  color: #2F490A;
+  font: 13px 'robotomedium';
+  line-height: 14px;
+}
+
+.search-form-loading {
+  width: 100%;
+  height: 200px;
+  background: asset_url("loading.gif") center center no-repeat;
+}
+
+.language-select-wrapper {
+  text-align: left;
+  font-family: 'robotolight';
+  margin-top: 10px;
+  .label-text {
+    margin-bottom: 8px;
+    font-size: 13px;
+
+    .unfold-lang {
+      cursor: pointer;
+      text-decoration: underline;
+      text-decoration-style: dashed;
+    }
+  }
+
+  .chosen-container {
+    width: 50%;
+  }
+}
+
+.language-selector-container {
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 13px;
+
+  .dropdown-toggle {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 4px 0 0 8px;
+    height: 34px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    background-clip: padding-box;
+    color: #444;
+    text-decoration: none;
+    white-space: nowrap;
+    line-height: 24px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+    .selected-text {
+      display: block;
+      overflow: hidden;
+      margin-right: 26px;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .arrow-wrapper {
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: block;
+      width: 18px;
+      height: 100%;
+
+      .arrow {
+        display: block;
+        width: 8px;
+        height: 8px;
+        background: asset_url("utils/select_arrow_down.png") center center no-repeat;
+        background-size: contain;
+
+        margin-top: 13px;
+      }
+    }
+  }
+
+  .dropdown {
+    margin-top: -1px;
+    border-radius: 0 0 4px 4px;
+    background-clip: padding-box;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1010;
+    width: 100%;
+    border: 1px solid #aaa;
+    border-top: 0;
+    background: #fff;
+    box-shadow: 0 4px 5px rgba(0,0,0,.15);
+    box-sizing: border-box;
+
+    .dropdown-search-wrapper {
+      position: relative;
+      z-index: 1010;
+      margin: 0;
+      padding: 3px 4px;
+      white-space: nowrap;
+      box-sizing: border-box;
+
+      input {
+        margin: 1px 0;
+        padding: 4px 20px 4px 5px;
+        width: 100%;
+        height: auto;
+        border: 1px solid #aaa;
+        font-size: 1em;
+        font-family: sans-serif;
+        line-height: normal;
+        border-radius: 0;
+        box-sizing: border-box;
+      }
+    }
+
+    .dropdown-results {
+      color: #444;
+      position: relative;
+      overflow-x: hidden;
+      overflow-y: auto;
+      margin: 0 4px 4px 0;
+      padding: 0 0 0 4px;
+      max-height: 240px;
+      -webkit-overflow-scrolling: touch;
+      box-sizing: border-box;
+
+      .dropdown-result {
+        display: list-item;
+        cursor: pointer;
+        margin: 0;
+        padding: 5px 6px;
+        list-style: none;
+        line-height: 15px;
+        word-wrap: break-word;
+        -webkit-touch-callout: none;
+        box-sizing: border-box;
+      }
+
+      .dropdown-result:hover {
+        background-color: #3875d7;
+        color: #fff;
+      }
+    }
+  }
+}

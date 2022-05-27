@@ -1,0 +1,13 @@
+.get_quote_widget {
+  color: #2E4807;
+  font: 20px 'robotobold';
+  line-height: 18px;
+  text-align: center;
+
+  .get_quote {
+    width: 180px;
+    float: none !important;
+    margin: 0 auto 10px auto;
+    display: block;
+  }
+}

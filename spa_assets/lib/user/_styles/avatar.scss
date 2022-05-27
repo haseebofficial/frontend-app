@@ -1,0 +1,14 @@
+@use "app/_styles/utils/responsiveness" as r;
+.avatar-circle {
+  max-width: 165px;
+  border-radius: 100%;
+  @include r.touch {
+    max-width: 100px;
+  }
+}
+// changes
+.lang-ar {
+  .client-orders .order-card .avatar .avatar-circle {
+    margin-left: 1em;
+  }
+}

@@ -1,0 +1,40 @@
+@use "app/_styles/utils/responsiveness" as r;
+
+@include r.touch {
+  .interpretation-order-summary {
+    margin-top: 40px;
+    font: 9px "robotoregular";
+
+    .order-info-avatar {
+      float: left;
+      margin-right: 20px;
+    }
+
+    .order-description {
+      font-size: 12px;
+    }
+
+    .order-list {
+      font-size: 13px;
+      margin-top: 42px;
+    }
+
+    .order-title {
+      margin-top: -20px;
+      margin-bottom: 10px;
+      font: 18px "robotomedium";
+    }
+    .order-price {
+      margin-top: 10px;
+
+      .label {
+        font: 12px "robotoregular";
+      }
+
+      select {
+        font-size: 12px;
+        padding-right: 40px;
+      }
+    }
+  }
+}

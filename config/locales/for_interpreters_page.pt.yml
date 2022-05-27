@@ -1,0 +1,141 @@
+pt:
+  locales: 
+    ru: "Русский"
+    en: "English"
+    de: "Deutsch"
+    es: "Español"
+    fr: "Français"
+    it: "Italiano"
+    tr: "Türkçe"
+    pt: "Português"
+    vi: "Tiếng Việt"
+    ar: "العربية"
+    ja: "日本語"
+    zh: "中文"
+    ko: "한국의"
+
+  top_menu:
+     login_link: 'Login'
+     sign_up_link: 'Sign up'
+     help_link: 'Help'
+     logout_link: 'Logout'
+     dashboard_link: 'Personal account'
+     welcome: 'Welcome, %{user}'
+     interpreter_login_link: 'Login for interpreters'
+
+  service_types: 
+    title: "Types of Interpretation services"
+    conversation: 'Interpretation at negotiations'
+    exhibition: 'Interpretation at an exhibition'
+    seminar: 'Interpretation at a seminar or conference'
+    presentation: 'Interpretation at presentation'
+    clinic: 'Interpretation of a consultation in a clinic'
+    celebration: 'Interpretation at celebrations'
+    guide: 'Interpretation of excursions, tour guide services'
+    delegations_escort: 'Escort of delegations'
+    individuals: 'Escort of individuals'
+    phone_talking: 'Interpretation of a phone conversation'
+    interview: 'Interview interpretation'
+    press_conference: 'Interpretation at press conferences'
+    protocol_translation: 'Protocol interpretation'
+    judicial_translation: 'Judicial interpretation'
+
+  help_menu: 
+    back_link: 'To main page'
+    info: 'About interpreters.travel'
+    for_clients: 'For clients'
+    for_interpreters: 'Aos tradutores'
+    for_affiliates: 'For affiliates'
+    service_types: "Types of Interpretation services"
+    help: 'Help'
+    support: 'Support 24/7'
+    terms: 'Terms and conditions'
+    privacy_policy: 'Privacy policy' 
+    about: 'About the company'
+
+  meta_desc: 
+    help_interpreter: "Interpreters.travel – este é um site seguro e fácil de usar para recebimento de novas encomendas de serviço de intérprete. As funções simples permitem o ajuste flexível do serviço de acordo com minha disponibilidade e o recebimento de pedidos apenas nos horários mais adequados para mim. Mesmo tendo apenas algumas horas livres no meu gráfico de trabalho, eu recebo encomendas pelo interpreters.travel e aproveito o máximo do meu tempo."
+
+  for_interpreters_page:
+    title: "Aos tradutores"
+    signup_link: "Registrar-se"
+    quote: "«Interpreters.travel – este é um site seguro e fácil de usar para recebimento de novas encomendas de serviço de intérprete. As funções simples permitem o ajuste flexível do serviço de acordo com minha disponibilidade e o recebimento de pedidos apenas nos horários mais adequados para mim. Mesmo tendo apenas algumas horas livres no meu gráfico de trabalho, eu recebo encomendas pelo interpreters.travel e aproveito o máximo do meu tempo.»"
+    quote_author: "Elena Right, tradutora. Londres."
+    interpreter_reviews: "Opiniões dos tradutores"
+    block1:
+      title: "Como funciona?"
+      step1: "No seu perfil no site você define o serviço, condições, preço e horário de trabalho desejado"
+      step2: "Essas informações são levadas em conta nas buscas dos clientes e você recebe novos pedidos"
+      step3: "Você proporciona interpretação no local designado pelo cliente, de acordo com os parâmetros do pedido"
+      step4: "Você recebe o pagamento em dinheiro no local ou por meio de transação bancária"
+    block2: 
+      title: "Quanto custa?"
+      text: "A disponibilização de informação no site <strong>por você é absolutamente gratuita!</strong> Apenas de pedidos reais, interpreters.travel recebe comissão no valor que você mesmo define."
+    why_inter: 
+      title: "Por que Interpreters.travel?"
+      block1: 
+        title: "Calendário"
+        text: "Você controla o gráfico de trabalho e recebe pedidos apenas nos horários adequados para Você"
+      block2: 
+        title: "Preços flexíveis"
+        text: "Você define os seus preços dependendo do tipo e volume de trabalho"
+      block3: 
+        title: "Disponibilização de informação gratuita"
+        text: "Você disponibiliza informação sobre serviços por quanto tempo quiser"
+      block4: 
+        title: "Google & Яндекс & Yahoo"
+        text: "Milhares de novos visitantes do site  vêm os seus serviços porque nós trabalhamos diretamente com Google, Yandex e Yahoo"
+      block5: 
+        title: "Métodos de pagamento"
+        text: "Você recebe o pagamento através de um dos meios mais adequados para você: VISA, MasterCard, PayPal, transferência bancária ou em espécie"
+      block6: 
+        title: "Avisos SMS"
+        text: "Você recebe avisos imediatos sobre os pedidos diretamente no celular em horário comercial"
+      block7: 
+        title: "Sua proteção"
+        text: "Você tem a garantia de receber o pagamento pelo tempo dedicado, mesmo se o cliente não for ao encontro ou atrasar-se"
+      block8: 
+        title: "Operações de pagamento"
+        text: "Você recebe o pagamento na hora combinada, interpreters.travel se responsabiliza por todas as operações de pagamento"
+      block9: 
+        title: "Certificado de segurança SSL"
+        text: "Seus dados são protegidos pelo protocolo de segurança de conexão SSL"
+      block10: 
+        title: "iMac/iPad/iPhone"
+        text: "Você gerencia os serviços a partir do computador ou dispositivos móveis"
+      block11: 
+        title: "Apoio 24 horas/7 dias por semana"
+        text: "Você recebe apoio a qualquer momento em qualquer lugar"
+      block12: 
+        title: "Opiniões dos clientes"
+        text: "Você recebe referências dos cientes satisfeitos"
+    block3: 
+      title: "Como começar a trabalhar?"
+      step1: "1º passo. Registre-se no site"
+      step2: "2º passo. Disponibilize informações sobre você"
+      step3: "3º passo. Crie e publique no site serviços de intérprete"
+    after_reg: 
+      text: "Antes de começar a trabalhar com interpreters.travel entre na sua conta pessoal e insira informações sobre você. Depois de preencher o formulário, você poderá publicar o seu anúncio com os serviços, condições, preços, ajustar o seu gráfico de trabalho. A partir deste momento o seu perfil e serviços estarão disponíveis no site."
+      link: "Entrar e preencher o formulário"
+    form: 
+      name: "Nome:"
+      surname: "Sobrenome:"
+      email: 'E-mail:'
+      phone: 'Telefone celular:'
+      russian: "Я говорю по-русски"
+      city: 'Cidade:'
+      submit: 'REGISTRAR-SE'
+
+  flash_messages: 
+    new_interpreter: "Você se registrou com sucesso no interpreters.travel! A senha para a entrada na sua conta pessoal foi enviada para o seu endereço eletrônico: %{email}."
+
+  footer:
+    info: 'About interpreters.travel'
+    support: 'Support 24/7'
+    help_inter: 'Aos tradutores'
+    help_inter_in_city: 'For interpreters in %{city}'
+    for_affiliates: "For affiliates"
+    terms_conditions: 'Terms and conditions'
+    privacy_policy: 'Privacy policy'
+    copyright_html: '&copy; Copyright 2013 - %{year}. interpreters.travel. All rights reserved.'
+

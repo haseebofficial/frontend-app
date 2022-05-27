@@ -1,0 +1,53 @@
+de: 
+  js: 
+    time:  
+      since_word: "Von"
+      to_word: "bis"
+    select: "ОК"
+    cancel: "Absagen"
+    validator: 
+      required: 'Dieses Feld muss ausgefült sein.'
+      remote: 'Bitte geben Sie eine richtigen Wert ein.'
+      email: 'Bitte geben Sie eine korrekte Emailadresse ein.'
+      url: 'Bitte geben Sie einen korrekten URL ein.'
+      date: 'Bitte geben Sie eine korrekte Datum ein.'
+      dateISO: 'Bitte geben Sie eine korrekte Datum im ISO Format ein.'
+      number: 'Bitte geben Sie einen Nummer ein.'
+      digits: 'Bitte geben Sie nur die Nummern ein.'
+      creditcard: 'Bitte geben Sie ein korrekte Kreditkartennummer ein.'
+      equalTo: 'Bitte geben Sie die gleichen Wert noch mal ein.'
+      accept: 'Bitte wählen Sie ein File mit richtige Erweiterung.'
+      maxlength: 'Bitte geben Sie nicht mehr als {0} Simbolen ein.'
+      minlength: 'Bitte geben Sie mindestens {0} Simbolen ein.'
+      rangelength: 'Bitte geben Sie einen Wert von {0} bis {1} Simbolen ein.'
+      range: 'Bitte geben Sie hier einen Nummer von {0} bis {1} ein.'
+      max: 'Bitte geben Sie hier einen Nummer die nicht grösser oder gleich {0} ist ein.'
+      min: 'Bitte geben Sie hier einen Nummer die grösser oder gleich {0} ist ein.'
+      uniq_email: 'Diese Email wurde bereits verwendet. Bitte verwenden Sie eine andere Email oder melden Sie sich an'
+      phone_format: "Bitte geben im Format +35724343118"
+      city_select: "richtig angeben oder von die Liste auswählen"
+    browser_outdated: "Ihr Browser ist veraltet und einige Fuktionen können nicht richtig funktionieren. Bitte installieren Sie eine neue und sichere Browser"
+    date_selector: 
+      dialog: 
+        title: "Ausgewählte Periode"
+        confirm: "Bestätigen"
+        change: "Ändern"
+      errors: 
+        no_periods_selected: 'Wählen Sie die Zeit aus und drücken Sie "Hinzufügen"'
+        invalid_interval: 'Sie haben einen falschen Zeitinterval ausgewählt'
+        interval_exists: 'Diese Periode ist bereit ausgewählt, bitte wählen Sie anderen'
+      total_time: 'Gesate Zeit ­ '
+      from: ' ­ von '
+      to: ' bis '
+      select: "Auswählen"
+    search: 
+      file_select: "Auswählen..." 
+      errors: 
+        blank_city: 'Stadt auswählen.'
+        blank_intervals: 'Datum und Zeit auswählen.'
+        blank_language: 'Sprache auswählen.'
+    buttons: 
+      change_order_date: "Datum ändern"
+      confirm_order_date: "Bestätigen"
+    titles: 
+      confirm_order_date: "Bestätigen Sie Ihre Buchungsdaten"

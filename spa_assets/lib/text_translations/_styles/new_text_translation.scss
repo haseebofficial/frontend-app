@@ -1,0 +1,57 @@
+@use "app/_styles/utils/responsiveness" as r;
+
+@mixin description-header-text {
+ font: 1.7rem "robotoregular";
+  color: #383737;
+}
+
+.translation-page {
+  .description-container {
+    margin-top: 90px;
+    margin-bottom: 7rem;
+
+    .description-columns {
+      margin-top: 80px;
+      .description-column {
+        .icon {
+          margin-bottom: 2rem;
+        }
+
+        .description-header {
+          @include description-header-text;
+          display: block;
+          margin-bottom: 0.4rem;
+        }
+      }
+    }
+  }
+
+  .reviews-container {
+    margin-bottom: 30px;
+  }
+}
+
+@include r.touch {
+  .translation-page {
+    .description-container {
+      margin-top: 50px;
+      margin-bottom: 1.7rem;
+
+      .description-columns {
+        margin-top: 0;
+        .description-column{
+          margin-top: 20px;
+        }
+      }
+    }
+
+    .reviews-container {
+      margin-top: 50px;
+      .best-reviews-widget {
+        .reviews-title {
+          @include description-header-text;
+        }
+      }
+    }
+  }
+}

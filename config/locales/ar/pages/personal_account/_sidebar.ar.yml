@@ -1,0 +1,7 @@
+ar:
+  order_pages_sidebar: 
+    menu: "القائمة"
+    orders: "حجوزاتي"
+    searches: "البحث الخاصة بي"
+    logout: "خروج"
+    from: "بتاريخ"

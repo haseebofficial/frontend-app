@@ -1,0 +1,131 @@
+- content_for :description do
+  %h1 View order
+- content_for :body do
+  .green_line
+  .main_content
+    = render "personal_accounts/sidebar"
+    .cart_content
+      %table.order_details
+        %tbody
+          %tr
+            %td.first Order details:
+            %td
+              .id.red 439
+              .from
+                from
+                .red 07.08.2019
+      .block
+        %span.red The order is cancelled
+      .cart_block
+        .photo-wrapper
+          %img.cart_photo{width: '164', height: '164', src: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80"}
+        .info-wrapper
+          %p.info-item
+            %strong Translator:
+            Full Name
+          %p.info-item
+            %strong The chosen services:
+            Translation
+          %p.info-item
+            %strong Language pair(s):
+            Russian - English
+          %p.info-item
+            %strong Word count:
+            = link_to 'view file(s)', '#'
+          %p.info-item
+            %strong Subject:
+            Some Subject
+          %p.info-item
+            %strong Delivery date, time:
+            August 23; 10:00 (UTC + 4)
+          %p.info-item
+            %strong Total Order Cost:
+            25$ (including discounts)
+
+        .clear
+          %a.intranet-button.fleft-button{"data-tab-target": "#send-message-form", href: "#"} Contact Translator
+          .tabs
+            #send-message-form.base-form.tab{style: "width: 100%; display:none;visibility:none;"}
+              %form#new_ticket.simple_form.new_ticket{"accept-charset": "UTF-8", action: "/en/interpreter_client_tickets", "data-remote": "true", method: "post", novalidate: "novalidate"}
+                %div{style: "margin:0;padding:0;display:inline"}
+                  %input{name: "utf8", type: "hidden", value: "✓"}
+                .control-group.hidden.ticket_search_id
+                  .controls
+                    %input#ticket_search_id.hidden{name: "ticket[search_id]", type: "hidden", value: "1365"}
+                %input#recipient_id{name: "recipient_id", type: "hidden", value: "38"}
+                .control-group.text.required.ticket_messages_message
+                  .controls
+                    %textarea#ticket_messages_attributes_0_message.text.required.base-input{autofocus: "autofocus", name: "ticket[messages_attributes][0][message]", placeholder: ""}
+                .clear
+                .clear
+                %input.base-input-submit{name: "commit", type: "submit", value: "Send"}
+        .clear
+      .info_block
+        .title The translator’s contact details
+        %table
+          %tbody
+            %tr.email
+              %td Email:
+              %td
+                will be displayed after acceptance of the order and expiration of the free cancellation date
+            %tr.phone
+              %td Phone:
+              %td
+                will be displayed after acceptance of the order and expiration of the free cancellation date
+      .info_block
+        .title Payment information
+        %table
+          %tbody
+            %tr
+              %td Payment:
+            %tr
+              %td
+                %a{href: "#", target: "_blank"} Payment through interpreters.travel (Wire transfer)
+            %tr
+            %tr
+              %td
+                %a.not_ready{"data-target": "#receipt_not_ready_modal", href: "#"} receive payment receipt
+                #receipt_not_ready_modal
+                  %p The payment receipt becomes available after your payment of the order.
+            %tr
+              %td
+                %span#load-payment-container Pay with card (VISA/MasterCard)
+        #payment-container.payment-container-wide
+      .info_block
+        .title Information about the customer
+        %table
+          %tbody
+            %tr.name
+              %td Surname, name:
+              %td Дмитрий Кочкуров
+            %tr.phone
+              %td Phone:
+              %td +24234
+            %tr.email
+              %td Email:
+              %td dkochkurov@gmail.com
+  :css
+    .info-item {
+      margin: 0 0 5px 0;
+      padding: 0 10px;
+      display: inline-block;
+      width: calc(100% - 185px);
+    }
+
+    .fleft-button {
+      margin: 35px 0 0 0;
+      float: left;
+      text-decoration: none;
+    }
+
+    .cart_content {
+      font-family: 'robotomedium';
+    }
+
+    .info-item {
+     color: grey;
+    }
+
+    .info-item strong {
+      color: black;
+    }

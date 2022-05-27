@@ -1,0 +1,38 @@
+ru:
+  about_page:
+    title: "О компании"
+    text: |
+      <div itemscope itemtype="http://schema.org/Organization">
+      <p>
+        Компания
+        <b><span itemprop="name">Interpreters.travel OÜ</span>,</b>
+        основанная в 2013 году, в полном объеме владеет исключительными правами на Interpreters.travel – сервис поиска переводчиков и онлайн заказа услуг устного перевода по всему миру.
+      </p>
+      <p>Компания Interpreters.travel OÜ зарегистрирована Регистрационным отделением Тартуского уездного суда Эстонской Республики под номером 16422855.</p>
+      <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Главный офис компании Interpreters.travel OÜ расположен по адресу:
+        <br/>
+        <b><span itemprop="streetAddress">Vesivärava tn 50-201</span>, <span itemprop="postalCode">10152</span> - <span itemprop="addressLocality">Tallinn, Estonia</span></b>
+      </p>
+      <p>
+        Телефон офиса:
+        <b><span itemprop="telephone">+357 22 008 050</span></b>
+        (на английском и русском) с 9:00 до 17:00 (GMT + 2 часа)
+        <br/>
+        Email:
+        <a href="mailto:office@interpreters.travel"><span itemprop="email">office@interpreters.travel</span></a>
+      </p>
+      </div>
+    addresses:
+      title: |
+        Компания <b>Interpreters.travel OÜ</b>, основанная в 2013 году, в полном объеме владеет исключительными правами на Interpreters.travel – сервис поиска переводчиков и онлайн заказа услуг устного перевода по всему миру.
+        <br/>
+        Компания Interpreters.travel OÜ зарегистрирована Регистрационным отделением Тартуского уездного суда Эстонской Республики под номером 16422855
+      estonia: |
+        <b>Главный офис компании Interpreters.travel OÜ в Таллине (Эстония)</b>
+        <br/>
+        <b>Email:</b> office@interpreters.travel
+        <br/>
+        <b>Телефон:</b> +357 22 008 050 (на английском и русском) с 9:00 до 17:00 (GMT + 2 часа)
+        <br/>
+        <b>Адрес:</b> Vesivärava tn 50-201, 10152, Tallinn, Estonia

@@ -1,0 +1,9 @@
+de:
+  simple_form:
+    "yes": 'Ja'
+    "no": 'Nein'
+    required:
+      text: 'pflichtangabe'
+      mark: '*'
+    error_notification:
+      default_message: "Korriegieren Sie bitte folgende Fehler:"

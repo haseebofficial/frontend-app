@@ -1,0 +1,58 @@
+search_form:
+  title: 'Найти переводчиков'
+  where: 'Где:'
+  when: 'Когда:'
+  language: 'Какой язык нужен:'
+  your_language: 'Ваш язык:'
+  button: 'Найти'
+  city: 'например: Милан, Нью-Йорк, Гонконг'
+  date_time: 'выберите дату, время'
+  timepicker:
+    title: 'Время встречи (местное):'
+    total: 'Общее время интервалов'
+    from: 'C'
+    till: 'До'
+    buttons:
+      add_day: 'добавить'
+      clear: 'очистить'
+      clear_intervals: 'очистить интервалы'
+      choose: 'выбрать'
+  language_selector: 
+    no_result: 'нет переводчиков для этого города'
+    list_select: 'выбрать из списка'
+    blank_city: "Выберите город."
+  city_selector: 
+    no_result: "В указанном городе сейчас нет доступных переводчиков. Попробуйте найти переводчика в этом городе позже или выберите другой город"
+  js:
+    select: "ОК"
+    date_selector: 
+      dialog: 
+        title: "Выбранные периоды"
+        confirm: "Подтвердить"
+        change: "Изменить"
+      errors: 
+        no_periods_selected: 'Выберите время и нажмите "Добавить"'
+        invalid_interval: 'Вы неверно выбрали временной интервал'
+        interval_exists: 'Этот период уже указан, выберите другой'
+        interval_passed: 'Выбранный интервал времени уже прошел'
+      total_time: 'Общее время - '
+      from: ' - с '
+      to: ' до '
+      select: "Выбрать"
+    search: 
+      file_select: "Выбрать..." 
+      errors: 
+        blank_city: 'Выберите город.'
+        blank_intervals: 'Выберите дату и время.'
+        blank_language: 'Выберите язык.'
+    buttons: 
+      change_order_date: "Изменить дату"
+      confirm_order_date: "Подтвердить"
+    titles: 
+      confirm_order_date: "Подтвердите данные бронирования"
+  filter:
+    show_result: "Показать еще"
+    interpreters_are_not_available: "В этом городе переводчики не доступны на выбранные дату и языки. Выберите другой город"
+  now: "сейчас"
+  or_choose_a_time: "или выберите время"
+  connect_an_interpreter: "Подключить переводчика"

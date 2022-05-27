@@ -1,0 +1,64 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+fr:
+  devise:
+    confirmations:
+      confirmed: "Ваша учётная запись подтверждена. Теперь вы вошли в систему."
+      confirmed_and_signed_in: "В течение нескольких минут вы получите письмо с инструкциями по подтверждению вашей учётной записи."
+      send_instructions: "You will receive an email with instructions about how to confirm your account in a few minutes."
+      send_paranoid_instructions: "Если ваш адрес email есть в нашей базе данных, то в течение нескольких минут вы получите письмо с инструкциями по подтверждению вашей учётной записи."
+    failure:
+      already_authenticated: "Vous êtes déjà connecté."
+      inactive: "Ваша учётная запись ещё не активирована."
+      invalid: "Adresse e-mail ou mot de passe non valides."
+      invalid_token: "Неверный ключ аутентификации."
+      locked: "Votre compte est verrouillé."
+      not_found_in_database: "Adresse e-mail ou mot de passe non valides."
+      timeout: "Ваш сеанс закончился. Пожалуйста, войдите в систему снова."
+      unauthenticated: "Вам необходимо войти в систему или зарегистрироваться."
+      unconfirmed: "Вы должны подтвердить вашу учётную запись."
+    mailer:
+      confirmation_instructions:
+        subject: "Инструкции по подтверждению учётной записи"
+      reset_password_instructions:
+        subject: "Les instructions sur la récupération de mot de passe"
+        hello: "Bonjour"
+        someone_has_requested: "Nous avons reçu la demande pour obtention le lien pour la changement de votre mot de passe:"
+        link: "Changer le mot de passe"
+        footer: "<p>Si la demande a été faite pas par vous, s'il vous plaît ne pas tenir compte de cette lettre</p><p>Votre mot de passe ne changera pas jusqu'à que vous cliquez sur le lien et le changerez</p>"
+      unlock_instructions:
+        subject: "Инструкции по разблокировке учётной записи"
+    omniauth_callbacks:
+      failure: "Вы не можете войти в систему с учётной записью из %{kind}б так как \"%{reason}\"."
+      success: "Вход в систему выполнен с учётной записью из %{kind}."
+    passwords:
+      no_token: "Эта страница доступна только при переходе с email для сброса пароля. Если вы перешли по ссылке из письма, пожалуйста, убедитесь, что вы использовали полный URL."
+      send_instructions: "En quelques minutes, vous recevrez un e-mail avec des instructions pour réinitialiser votre mot de passe."
+      send_paranoid_instructions: "Если ваш адрес email есть в нашей базе данных, то в течение нескольких минут вы получите письмо с инструкциями по восстановлению вашего пароля."
+      updated: "Votre mot de passe est modifié. Vous êtes maintenant connecté."
+      updated_not_active: "Пароль успешно изменён."
+    registrations:
+      destroyed: "До свидания! Ваша учётная запись удалена. Надеемся снова увидеть вас."
+      signed_up: "Добро пожаловать! Вы успешно зарегистрировались."
+      signed_up_but_inactive: "Вы успешно зарегистрировались. Тем не менее, вы не можете войти, потому что ваша учетная запись не активирована."
+      signed_up_but_locked: "Вы успешно зарегистрировались. Тем не менее, вы не можете войти, потому что ваша учетная запись заблокирована."
+      signed_up_but_unconfirmed: "В течение нескольких минут вы получите письмо с инструкциями по подтверждению вашей учётной записи."
+      update_needs_confirmation: "Ваш аккаунт успешно обновлен, нонеобходимо подтвердить ваш новый адрес email. Пожалуйста, проверьте свою электронную почту и нажмите на ссылку \"Подтвердить\", чтобы завершить обновления email."
+      updated: "Ваша учётная запись изменена."
+    sessions:
+      signed_in: "Connexion exécutée."
+      signed_out: "Déconnexion exécutée."
+    unlocks:
+      send_instructions: "В течение нескольких минут вы получите письмо с инструкциями по разблокировке вашей учётной записи."
+      send_paranoid_instructions: "Если ваша учётная запись существует, то в течение нескольких минут вы получите письмо с инструкциями по её разблокировке."
+      unlocked: "Ваша учётная запись разблокирована. Теперь вы вошли в систему."
+  errors:
+    messages:
+      already_confirmed: "уже подтверждена. Пожалуйста, попробуйте войти в систему"
+      confirmation_period_expired: "должен быть подтвержден в течении %{period}, пожалуйста, запросите подтверждение аккаунта завтра"
+      expired: "устарела. Пожалуйста, запросите новую"
+      not_found: "n'est pas trouvé"
+      not_locked: "не заблокирована"
+      not_saved:
+        one: "N'est pas réussi à terminer la votre demande à cause de 1 erreur"
+        other: "N'est pas réussi à terminer la votre demande à cause de %{count} erreurs"

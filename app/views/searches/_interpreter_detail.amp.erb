@@ -1,0 +1,360 @@
+<% q_name = "#{l_questionnaire(:name)} #{shorten_surname(@questionnaire.surname)}" %>
+<% langs = "#{@search.language.locale}-#{@search.your_language.locale}" %>
+<div class="cart_block">
+  <div class="interpreter-info-wrapper">
+    <amp-img src="<%= @questionnaire.photo_url %>" class="cart_photo" width="164" height="164" ></amp-img>
+    <div class="info_wrapper">
+      <meta content="<%= t("show_interpreter.title", city: @in_city, interpreter: q_name, langs: langs) %>"/>
+      <div class="name">
+        <%= q_name %>
+      </div>
+      <span class="prof">
+        <%= t("interpreter.title_city", city: @in_city) %>
+      </span>
+      <div class="link details-links-block">
+        <amp-accordion disable-session-states>
+          <section class="link">
+            <h5 class="info-link-wrapper">
+              <a class="level info_link">
+                <span class="<%= questionnaire_stars_class(@questionnaire.score) %> questionnaire-stars"></span>
+                <i class="sort-right-arrow unfold"></i>
+                <i class="sort-down-arrow fold"></i>
+              </a>
+            </h5>
+            <label>
+              <input type="checkbox" class="reveal-info" role="button">
+              <span class="n-show-more">Show more</span>
+            <div class='info-link-desc info-link-desc-show-more'>
+              <%= t("interpreter.rating_text") %>
+              <br/>
+              <br/>
+              <b><%= t('interpreter.reviews') %>*:</b>
+              <amp-list layout=fixed-height width=auto height=0 items="." src="<%= interpreters_api_url('client_reviews', questionnaire: @questionnaire.id) %>">
+                <template type="amp-mustache">
+                  <div class='desc-item client-review'>
+                    <div class='questionnaire-stars stars_{{score}}'></div>
+                    <b>&laquo;{{comment}}&raquo;</b>
+                    <br/>
+                    {{client}}
+                  </div>
+                </template>
+                <div>
+                </div>
+                <div class="space-filler"></div>
+              </amp-list>
+              <i>*<%= t('interpreter.reviews_text') %></i>
+            </div>
+          </label>
+          </section>
+        </amp-accordion>
+
+        <amp-accordion disable-session-states>
+          <section>
+            <h5 class="info-link-wrapper">
+              <a class="experience_event info_link">
+                <%= "#{t("interpreter.events")} (#{@questionnaire.experience_event_count})" %>
+                <i class="sort-right-arrow unfold"></i>
+                <i class="sort-down-arrow fold"></i>
+              </a>
+            </h5>
+            <label>
+              <input type="checkbox" class="reveal-info" role="button">
+              <span class="n-show-more">Show more</span>
+              <div class='info-link-desc info-link-desc-show-more'>
+                <amp-list layout=fixed-height width=auto height=0 items="." src="<%= interpreters_api_url('experience_event_info', questionnaire: @questionnaire.id) %>">
+                  <template type="amp-mustache">
+                    <div class="desc-item">
+                      <p>
+                        <b>{{action}}</b>:
+                        <br/>
+                        {{organizer}}
+                        <br/>
+                        {{begin_date}} - {{end_date}}
+                      </p>
+                    </div>
+                  </template>
+                  <div>
+                  </div>
+                  <div class="space-filler"></div>
+                </amp-list>
+              </div>
+            </label>
+          </section>
+        </amp-accordion>
+
+        <amp-accordion disable-session-states>
+          <section>
+            <h5 class="info-link-wrapper">
+              <a class="experience info_link">
+                <%= "#{t("interpreter.experience")} (#{t('years', count: @questionnaire.experience_years)})" %>
+                <i class="sort-right-arrow unfold"></i>
+                <i class="sort-down-arrow fold"></i>
+              </a>
+            </h5>
+            <label>
+              <input type="checkbox" class="reveal-info" role="button">
+              <span class="n-show-more">Show more</span>
+            <div class='info-link-desc info-link-desc-show-more'>
+              <amp-list layout=fixed-height width=auto height=0 items="." src="<%= interpreters_api_url('experience_info', questionnaire: @questionnaire.id) %>">
+                <template type="amp-mustache">
+                  <div class="desc-item">
+                    <p>
+                      <b>{{company}}</b>:
+                      <br/>
+                      {{speciality}}
+                      <br/>
+                      {{begin_date}} - {{end_date}}
+                    </p>
+                  </div>
+                </template>
+                <div>
+                </div>
+                <div class="space-filler"></div>
+              </amp-list>
+
+            </div>
+          </label>
+          </section>
+        </amp-accordion>
+
+        <amp-accordion disable-session-states>
+          <section>
+            <h5 class="info-link-wrapper">
+              <a class="recommendations info_link">
+                <%= "#{t('interpreter.recommendations')}" %>
+                <i class="sort-right-arrow unfold"></i>
+                <i class="sort-down-arrow fold"></i>
+              </a>
+            </h5>
+            <div class='info-link-desc'>
+              <%= @questionnaire.recommendations %>
+            </div>
+          </section>
+        </amp-accordion>
+
+
+        <% if @questionnaire.video_yt_id.present? %>
+        <amp-accordion disable-session-states>
+          <section>
+            <h5 class="info-link-wrapper">
+              <a class="youtube info_link">
+                <%= "#{t("show_interpreter.youtube_link")}" %>
+                <i class="sort-right-arrow unfold"></i>
+                <i class="sort-down-arrow fold"></i>
+              </a>
+            </h5>
+            <div class='info-link-desc'>
+              <%= @questionnaire.recommendations %>
+              <amp-youtube
+                data-videoid="<%= @questionnaire.video_yt_id %>"
+                layout="responsive"
+                width="480" height="270">
+              </amp-youtube>
+            </div>
+          </section>
+        </amp-accordion>
+        <% end %>
+
+        <amp-accordion disable-session-states>
+          <section>
+            <h5 class="info-link-wrapper">
+              <a class="education info_link">
+                <%= "#{t("interpreter.education")} (#{@questionnaire.educations.count})" %>
+                <i class="sort-right-arrow unfold"></i>
+                <i class="sort-down-arrow fold"></i>
+              </a>
+            </h5>
+            <label>
+              <input type="checkbox" class="reveal-info" role="button">
+              <span class="n-show-more">Show more</span>
+            <div class='info-link-desc info-link-desc-show-more'>
+              <amp-list layout=fixed-height width=auto height=0 items="." src="<%= interpreters_api_url('educations', questionnaire: @questionnaire.id) %>">
+                <template type="amp-mustache">
+                  <div class="desc-item">
+                    <p>
+                      <b>{{name}}</b>
+                      <br/>
+                      {{begin_date}} - {{end_date}}
+                    </p>
+                  </div>
+                </template>
+                <div>
+                </div>
+                <div class="space-filler"></div>
+              </amp-list>
+            </div>
+          </label>
+          </section>
+        </amp-accordion>
+
+        <% if @questionnaire.verified %>
+          <amp-accordion disable-session-states>
+            <section>
+              <h5 class="info-link-wrapper">
+                <a class="verified_profile info_link">
+                  <%= t("interpreter.verified_profile") %>
+                  <i class="sort-right-arrow unfold"></i>
+                  <i class="sort-down-arrow fold"></i>
+                </a>
+              </h5>
+              <div class='info-link-desc'>
+                <b><%= t("show_interpreter.dialogs.checked_and_confirmed") %></b>
+                <br/>
+                <span class="check-text">
+                  <%= t("show_interpreter.dialogs.passport") %>
+                </span>
+                <span class="check-text">
+                  <%= t("show_interpreter.dialogs.documents") %>
+                </span>
+              </div>
+            </section>
+          </amp-accordion>
+        <% end %>
+
+        <amp-accordion disable-session-states>
+          <section>
+            <h5 class="info-link-wrapper">
+              <a class="verified_contacts info_link">
+                <%= t("interpreter.verified_contacts") %>
+                <i class="sort-right-arrow unfold"></i>
+                <i class="sort-down-arrow fold"></i>
+              </a>
+            </h5>
+            <div class='info-link-desc'>
+              <b><%= t("show_interpreter.dialogs.checked_and_confirmed") %></b>
+              <br/>
+              <span class="check-text">
+                <% if @contacts_available %>
+                  <%= t("show_interpreter.dialogs.email_full", email: @questionnaire.email) %>
+                <% else  %>
+                  <%= t("show_interpreter.dialogs.email_address", domain: @questionnaire.email.split('.').last) %>
+                <% end %>
+              </span>
+              <span class="check-text">
+                <% if @contacts_available %>
+                  <%= t("show_interpreter.dialogs.phone_full", phone: @questionnaire.mobile_phone) %>
+                <% else  %>
+                  <%= t("show_interpreter.dialogs.phone", last_two: @questionnaire.mobile_phone.last(2)) %>
+                <% end %>
+              </span>
+              <% unless @contacts_available %>
+                <br/>
+                <%= t("show_interpreter.dialogs.contacts_available", confirmation: t("show_interpreter.dialogs.order_confirmation")) %>
+              <% end %>
+            </div>
+          </section>
+        </amp-accordion>
+
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <div class="photo-border"></div>
+  <div class="clear"></div>
+  <% if @questionnaire.response_rate > 0 %>
+    <span class="response-stats">
+      <%= "#{t('show_interpreter.response_rate')}:" %>
+      <span class="green-text"><%= "#{@questionnaire.response_rate}%" %></span>
+    </span>
+    <span class="response-stats">
+      <%= "#{t('show_interpreter.avg_response_time.title')}:" %>
+      <span class="green-text">
+        <%= t("show_interpreter.avg_response_time.#{@questionnaire.avg_response_time}") %>
+      </span>
+    </span>
+  <% end %>
+  <div class="clear"></div>
+  <%= render "interpreter_client_tickets/new", ticket: @ticket, interpreter_id: @questionnaire.user_id, additional_text: t("show_interpreter.ticket_text"), on_search_page: true %>
+  <div class="clear"></div>
+  <div class="desc">
+    <%= l_questionnaire(:short_summary) %>
+  </div>
+  <amp-accordion disable-session-states>
+    <section>
+      <h5 class="unfold-button">
+        <span class="unfold"><%= t("search_page.unfold") %></span>
+        <span class="fold"><%= t("search_page.fold") %></span>
+      </h5>
+      <div class='desc'><%= l_questionnaire(:summary) %></div>
+    </section>
+  </amp-accordion>
+</div>
+<div class="info_block">
+  <div class="title">
+    <%= t("show_interpreter.specializations") %>
+  </div>
+  <%= @questionnaire.specializations_to_sentence %>
+</div>
+<div class="info_block">
+  <div class="title">
+    <%= t("show_interpreter.language_pairs") %>
+  </div>
+  <%= @questionnaire.language_pairs_to_sentence %>
+</div>
+<% if @search.busy_interpreters_ids.include? @questionnaire.user_id %>
+  <div class="result_trans_wrapper">
+    <div class="more_results">
+      <%= t("show_interpreter.unavailable") %>
+      <%= link_to t("show_interpreter.edit_search"), search_path(@search.id), rel: "prev" %>
+    </div>
+  </div>
+<% else %>
+  <% clear_date_path = search_city_path(@search.url_city_name_escaped, @search.id, clear_date: true) %>
+  <table class="service_table" id="available-serivces">
+    <thead>
+      <tr>
+        <td>
+          <%= t("show_interpreter.available_services", period: @search.selected_period) %>
+          <%= link_to t("search_page.change_date"), clear_date_path, data: {"no-turbolink" => true}, class: "change-date-link", rel: "prev" %>
+        </td>
+        <td>
+          <%= t("show_interpreter.price") %>
+          <br/>
+          <%= t("for") %>
+          <%= t("hours", count: @search.duration_int) %>
+        </td>
+      </tr>
+    </thead>
+    <tbody>
+      <% @services.each do |service| %>
+        <% service_price = convert_to_current_currency(service.calculated_price, @questionnaire.currency_code) %>
+        <tr>
+          <td>
+            <span>
+              <%= service_link(service.service_type) %>
+            </span>
+            <%= t("show_interpreter.person_count", count: service.group_size) unless service.group_size.blank? %>
+            <div class="service-links">
+              <% unless service.additional_cost.blank? %>
+                <div class="service-link additional-cost" data-text="<%= service.additional_cost %>">
+                  <%= t("show_interpreter.additional_services") %>
+                </div>
+              <% end %>
+              <% if service.cancellation %>
+                <div class="service-link cancellation" data-text="<%= t("show_interpreter.free_cancellation_text", hours: service.cancellation) %>">
+                  <%= t('show_interpreter.free_cancellation') %>
+                </div>
+              <% end %>
+              <% if service.discount %>
+                <div class="discount">
+                  <%= t("show_interpreter.discount") %>
+                  <%= service.discount %>
+                  %
+                </div>
+              <% end %>
+            </div>
+          </td>
+          <td class="pr">
+            <span class="price">
+              <%= service_price %>
+            </span>
+            <%= link_to t("show_interpreter.order_button"), new_order_path(order: {interpreter_id: @interpreter.user_id, search_id: @search.id, service_id: service.id}), method: :post, class: "new-order-button", rel: "next" %>
+          </td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+  <div class="star-text">
+    <%= t("show_interpreter.star_text") %>
+  </div>
+<% end %>

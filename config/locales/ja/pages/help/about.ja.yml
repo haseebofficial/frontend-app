@@ -1,0 +1,35 @@
+ja:
+  about_page:
+    title: "本社について"
+    text: |
+      <div itemscope itemtype="http://schema.org/Organization">
+      <p>
+        2013年に設立されたInterpreters.travel有限会社はInterpreters.travelという通訳者検索と通訳サービスのオンライン予約サービスの排他的な権利のすべてを持ちます。
+      <p>Interpreters.travel 有限会社はエストニアTartu郡裁判所登録部門省による登録され、16422855の番号を受けました。</p>
+      <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Interpreters.travel OÜ有限会社の本部ータリン　(エストニア共和国)
+        <br/>
+        <b><span itemprop="streetAddress">Vesivärava tn 50-201</span>, <span itemprop="postalCode">10152</span> - <span itemprop="addressLocality">Tallinn, Estonia</span></b>
+      </p>
+      <p>
+        電話番号:
+        <b><span itemprop="telephone">+357 22 008 050</span></b>
+        (ロシア語と英語のみ) с 9:00 до 17:00 (GMT + 2 часа)
+        <br/>
+        メールアドレス:
+        <a href="mailto:office@interpreters.travel"><span itemprop="email">office@interpreters.travel</span></a>
+      </p>
+      </div>
+    addresses:
+      title: |
+        2013年に設立されたInterpreters.travel有限会社はInterpreters.travelという通訳者検索と通訳サービスのオンライン予約サービスの排他的な権利のすべてを持ちます。
+        <br/>
+        Interpreters.travel有限会社はエストニアTartu郡裁判所登録部登録され、16422855の番号を受けました。
+      estonia: |
+        <b>Interpreters.travel有限会社の本部ータリン　(エストニア共和国)</b>
+        <br/>
+        <b>メールアドレス:</b> office@interpreters.travel
+        <br/>
+        <b>電話番号:</b> +357 22 008 050 (ロシア語と英語のみ) 午前9時から午後5時まで(時間帯GMT+2)
+        <br/>
+        <b>所在地:</b> Vesivärava tn 50-201, 10152, Tallinn, Estonia - ラルナカ、キプロス共和国

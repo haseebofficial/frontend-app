@@ -1,0 +1,44 @@
+layout:
+  header:
+    sign_in: 'Вход'
+    help_link: 'Помощь'
+    sign_out: 'Выход'
+    personal_account: 'Личный кабинет'
+    welcome: 'Добро пожаловать, %{user}'
+    interpreters_sign_in: 'Вход для переводчиков'
+    interpretation_calls: 'Звонки с переводчиками'
+    support: 'Поддержка 24/7'
+    orders: "Мои заказы"
+    calls: "Мои звонки"
+    searches: "Мои поиски"
+  footer:
+    about: 'Об interpreters.travel'
+    support: 'Поддержка 24/7'
+    for_interpreters: Переводчикам
+    for_interpreters_in_city: 'Переводчикам в %{city}'
+    for_affiliates: "Партнерам"
+    terms: 'Правила и условия'
+    privacy_policy: 'Политика конфиденциальности'
+  tabs:
+    interpreter_in: "Переводчик в"
+    interpreters_in: "Переводчики в"
+    countries: "%{country_count} странах"
+    international_calls_with_interpreters:
+      desktop: "Международные звонки с переводчиками"
+      mobile: "Международные звонки <br/> с переводчиками"
+      desktop_city_selected: "Звонки в %{city} с переводчиками"
+      mobile_city_selected: "Звонки в %{city} <br/> с переводчиками"
+    texts_docs_translations:
+      desktop: "Перевод текстов и документов"
+      mobile: "Перевод текстов <br/> и документов"
+  search:
+    start_search: "Начать поиск"
+    button: "Поиск"
+    download_cv: "Скачать CV (резюме)"
+  date:
+    hour: "час"
+    hours: "часов"
+    minute: "минута"
+    minutes: "минут"
+    from: "c"
+    to: "до"

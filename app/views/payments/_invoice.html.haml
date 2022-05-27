@@ -1,0 +1,15 @@
+%h3= t("order_page.payment.invoice_text1")
+- if @currency_changed_to_eur
+  %h3= t("order_page.payment.invoice_text_eur")
+
+%iframe#invoice{frameBorder: 0, width: 700, height: 700}
+.text-center
+  = form_tag payments_path, method: :post do 
+    = hidden_field_tag :order_id, @order.id 
+    = hidden_field_tag :payment_type, "invoice"
+    = submit_tag t("order_page.payment.order_button"), class: "intranet-button"
+%br
+= t("order_page.payment.invoice_text2")
+
+:coffee
+  $("#invoice").get()[0].contentWindow.document.write('#{j render 'common_pdf_templates/invoice', order: order}')

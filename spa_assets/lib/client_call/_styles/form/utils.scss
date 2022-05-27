@@ -1,0 +1,24 @@
+@use "app/_styles/utils/colors" as c;
+
+@mixin field-height($height) {
+  .control,
+  input,
+  select,
+  .select,
+  .button {
+    height: $height;
+  }
+
+  .control.has-icons-right .icon {
+    height: $height;
+  }
+}
+
+.lang-ar {
+  .control.has-icons-right .icon.is-right {
+    left: 0;
+    right: unset;
+  }
+}
+
+$background-color: c.$interpreters-green;

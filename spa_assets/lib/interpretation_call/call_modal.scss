@@ -1,0 +1,216 @@
+#call-modal {
+  border: none;
+  display: contents;
+  pointer-events: all;
+  
+  .status.status-disconnected {
+    display: inline-block;
+  }
+
+  .modal-header {
+    display: none;
+  }
+
+  .modal-footer {
+    background-color: white;
+  }
+
+  .status-container {
+    margin-top: 20px;
+    .status {
+      font-family: robotobold;
+      color: #30480a;
+    }
+  }
+
+  .call-completed {
+    margin-top: 10px;
+    .question {
+      display: inline-block;
+      font-size: 19px;
+    }
+
+    .actions {    
+      margin-top: 5px;
+      .continue-call {
+        color: grey;
+        border-bottom: 1px dashed grey;
+        text-decoration: none; 
+        cursor: pointer;
+      }
+
+      .btn {
+        padding: 1px 12px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  .call-participant {
+    margin-top: 30px;
+    width: 190px; 
+    display: inline-block;
+    vertical-align: top;
+    .photo {
+      width: 164px;
+      height: 164px;
+      display: inline-block;
+      border-radius: 50%;
+    }
+
+    .default-photo {
+      width: 164px;
+      height: 164px;
+      display: inline-block;
+      border-radius: 50%;
+      background: asset-url("default.png") no-repeat right center;
+      background-size: cover;
+    }
+
+    .photo-squared {
+      border-radius: 0;
+    }
+
+    .name {
+      display: block;
+      color: #30480a;
+      font-size: 20px;
+      font-family: "robotomedium";
+      text-decoration: none;
+    }
+
+    .role {
+      display: block;
+      margin-top: 10px;
+      font-size: 14px;
+      font-family: "robotolight";
+      text-decoration: none;
+    }
+  }
+
+  .call-participant.external-number {
+    .dial-wrapper {
+      width: 165px;
+
+      .n-input-wrapper {
+        padding-bottom: 10px;
+  
+        input.n-number {
+          width: 125px;
+          line-height: 25px;
+          vertical-align: bottom;
+          padding: 0 5px;
+          box-sizing: border-box;
+          border: 1px solid #30480A;
+          font-size: 12px;
+          font-family: robotolight;
+        }
+  
+        .call-button {
+          width: 25px;
+          height: 25px;
+          margin-bottom: -3px;
+          margin-left: 5px;
+          background: asset-url("call.png") no-repeat right center;
+          background-size: cover;
+          display: inline-block;
+          cursor: pointer;
+        }
+
+        .remove-participant {
+          background: asset-url("finish_call.png") no-repeat right center;
+          background-size: cover;
+          margin-bottom: -3px;
+          margin-left: 5px;
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          cursor: pointer;
+        }
+      }
+  
+      .dial-container {
+        .dial-row .dial-button {
+          cursor: pointer;
+          display:inline-block;
+          text-align:center;
+          width: 50px;
+          line-height: 44px;
+          margin: 1px;
+          font-size: 20px;
+          text-decoration: none;
+          background: #f2f2f2;
+          -webkit-touch-callout: none; /* iOS Safari */
+          -webkit-user-select: none; /* Safari */
+           -khtml-user-select: none; /* Konqueror HTML */
+             -moz-user-select: none; /* Firefox */
+              -ms-user-select: none; /* Internet Explorer/Edge */
+                  user-select: none; /* Non-prefixed version, currently
+                                        supported by Chrome and Opera */
+        }
+    
+        .dial-row .dial-button:active,
+        .dial-row .dial-button:hover {
+          box-shadow:inset 0 0 2px rgba(0, 0, 0, 1);
+        }
+      }
+    }
+
+  }
+
+  .call-duration {
+    margin-top: 20px;
+  }
+
+  .connection-display {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    background: asset-url("loading.gif") no-repeat right center;
+    background-size: cover;
+  }
+
+  .modal-footer {
+    margin-top: 5px;
+  }
+
+  .call-actions {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+
+    .actions {
+      display: inline-block;
+    }
+    
+    .actions.call-connected {
+      float: left;
+      width: 55%;
+      .disconnect {
+        float: right;
+      }
+    }
+
+    .connect {
+      background: asset-url("call.png") no-repeat right center;
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      cursor: pointer;
+    }
+    
+    .disconnect {
+      background: asset-url("finish_call.png") no-repeat right center;
+      background-size: cover;
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .mute, .unmute {
+      font-size: 46px;
+      cursor: pointer;
+    }
+  }
+}

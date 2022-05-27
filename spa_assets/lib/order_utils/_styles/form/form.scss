@@ -1,0 +1,98 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+@mixin field-height($height) {
+  .control,
+  input,
+  select,
+  .select,
+  .button {
+    height: $height;
+  }
+
+  .control.has-icons-right .icon {
+    height: $height;
+  }
+}
+
+.order-form {
+  margin-top: 30px;
+  border: 1px solid #dbdbdb;
+  padding: 0;
+
+  .section-form {
+    padding: 30px 20px;
+    border-top: 1px solid #dbdbdb;
+  }
+
+  .field-label {
+    text-align: left;
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .border-none {
+    border-top: none;
+  }
+
+  .button {
+    font: 16px "robotoregular";
+    border: none;
+    color: c.$interpreters-green;
+    background-color: c.$interpreters-yellow;
+  }
+}
+
+@include r.touch {
+  .order-form {
+    margin-top: 0;
+    border: none;
+    padding: 0;
+
+    .section-form {
+      padding: 10px 0;
+      border-top: none;
+      @include field-height(40px);
+      .column {
+        padding-top: 20px;
+        padding-bottom: 0;
+      }
+
+      .field-title {
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+      .textarea {
+        min-height: 140px;
+        margin-top: 20px;
+      }
+    }
+
+    .input {
+      font-size: 14px;
+    }
+
+    .field-label {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .map-link {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .button {
+      font: 16px "robotoregular";
+      border: none;
+      color: c.$interpreters-green;
+      background-color: c.$interpreters-yellow;
+    }
+  }
+}
+.lang-ar {
+  .control.has-icons-right .icon.is-right {
+    left: 0;
+    right: unset;
+  }
+}

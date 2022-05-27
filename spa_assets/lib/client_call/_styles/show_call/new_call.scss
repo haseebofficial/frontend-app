@@ -1,0 +1,55 @@
+@use "app/_styles/utils/responsiveness" as r;
+.new-call {
+  .description {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .button-wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    .button {
+      display: flex;
+      align-items: center;
+      font: 16px "robotolight";
+      padding: 0 10px;
+      height: 50px;
+      color: #000000;
+      border: 1px solid #000000;
+      border-radius: 10px;
+    }
+
+    .btn-apple {
+      margin-left: 20px;
+      height: 50px;
+
+      img {
+        max-width: 150px;
+      }
+    }
+  }
+}
+// changes
+.lang-ar {
+  .phone-page .phone-info-form .button-wrapper {
+    top: unset;
+    right: unset;
+  }
+}
+@include r.touch {
+  .new-call {
+    .description {
+      font-size: 14px;
+    }
+
+    .button-wrapper {
+      justify-content: space-between;
+
+      .btn-apple {
+        margin-left: 10px;
+      }
+    }
+  }
+}

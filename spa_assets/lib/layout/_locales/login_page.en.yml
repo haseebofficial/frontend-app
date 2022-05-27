@@ -1,0 +1,14 @@
+login_page:
+  page_slogan: "Log in"
+  form: 
+    email: "Email:"
+    password: "Password:"
+    remember_me: "Remember me"
+    submit: "Log in"
+    error: "Invalid email or password"
+  links:
+    sign_in_for_interpreters: "Log in for interpreters" 
+    sign_in: "Log in"
+    sign_up: "Sign up"
+    restore_password: "Forgot password?"
+    sign_up_for_interpreters: "Sign up for interpreters"

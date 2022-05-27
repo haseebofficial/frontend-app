@@ -1,0 +1,25 @@
+@use "app/_styles/utils/responsiveness" as r;
+@use "app/_styles/utils/colors" as c;
+
+.show-translation-order-page {
+  .is-yellow-button {
+    display: block;
+    height: 40px;
+    width: 100%;
+    border: none;
+    font: 18px "robotoregular";
+    background-color: c.$interpreters-yellow;
+    color: c.$interpreters-green
+  }
+  .is-yellow-button:hover {
+    cursor: pointer;
+    background-color: #f4bd00;
+  }
+
+  @include r.touch {
+    .is-yellow {
+      // font-size: 14px;
+      margin-bottom: 20px;
+    }
+  }
+}

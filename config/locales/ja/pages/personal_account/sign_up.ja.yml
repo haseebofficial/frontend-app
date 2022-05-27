@@ -1,0 +1,13 @@
+ja:
+  sign_up_page:
+    title: "新登録"
+    interpreters_question: "通訳者として登録しますか？"
+    yess: "はい"
+    nno: "いいえ"
+    form:
+     name: "* 名前"
+     surname: "* 苗字"
+     email: "* メールアドレス"
+     password: "* パスワード"
+     password_confirmation: "* パスワード再入力"
+     submit: '登録'

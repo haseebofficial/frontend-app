@@ -1,0 +1,21 @@
+ja:
+  interpreter:
+    diplomas: "卒業証明書"
+    certificates: "教育"
+    experience: "経歴"
+    level: "Уровень"
+    rating: "ランキング"
+    reviews: "お客様の声"
+    education: 教育
+    reviews_text: "サービスを予約し、支払いしたお客様の声のみ"
+    rating_text: "ランキングは20項目以上(経歴、教育、お客様の声、推薦、履歴書の性質等)から作成されました"
+    recommendations: "推薦"
+    events: "イベント"
+    resume_level: "Уровень <span class='mobile-hide'> резюме:</span>"
+    title: "にいる専門家の通訳者"
+    title_city: "%{city}にいる専門家の通訳者"
+    verified_contacts: "連絡先が保証されました"
+    verified_profile: "プロファイルが保証されました"
+    in_city: "%{city}にいる通訳者 - %{name}"
+  translate: "翻訳レビュー"
+  show_original: "オリジナルを表示見る"

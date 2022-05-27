@@ -1,0 +1,6 @@
+ja:
+  orders_index_page: 
+    title: "お客様の予約"
+    load_more: "もっと見る"
+    cancelled: "この予約はキャンセルされました"
+    from: "の"

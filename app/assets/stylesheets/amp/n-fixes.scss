@@ -1,0 +1,160 @@
+
+.info-link-wrapper {
+  position: relative;
+  z-index: 1;
+}
+.info_link {
+  position: relative;
+  z-index: -1;
+}
+
+
+
+input.reveal-info[type=checkbox]{
+  display: none;
+}
+input.reveal-info[type=checkbox]:checked ~ .remove-check{
+    display: none;
+}
+input.reveal-info[type=checkbox]:checked ~ .info-link-desc{
+    height: auto;
+}
+.info-link-desc-show-more {
+  height: 50px;
+}
+.n-show-more {
+  width: 100%;
+  display: block;
+  padding: 10px 10px;
+  box-sizing: border-box;
+  text-align: right;
+  background: rgba(228, 228, 215, 0.6);
+}
+a.new-order-button {
+  display: inline-block;
+  width: 110px;
+  height: 23px;
+  font: 16px robotomedium;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #2f4709;
+  background: #ffc602;
+  text-align: center;
+  padding: 8px 0 0;
+  text-decoration: none;
+  margin-top: 5px;
+}
+.show-reviews-block .title {
+color: #fdc703;
+font: 28px/25px "robotoblack";
+margin: 40px 0 15px;
+}
+.show-reviews-block .review {
+padding: 15px 0;
+position: relative;
+border-top: 1px solid #d0d0d0;
+}
+.show-reviews-block .review .questionnaire-stars {
+float: left;
+/* width: 100%;
+height: 50px; */
+}
+.show-reviews-block .review .text {
+margin-left: 80px;
+}
+.show-reviews-block .review .text .comment {
+font-style: italic;
+}
+.show-reviews-block .review .text .client {
+margin-top: 10px;
+font-weight: bold;
+}
+.info-link-wrapper {
+  position: relative;
+  z-index: 1;
+}
+.info_link {
+  position: relative;
+  z-index: -1;
+}
+
+  input.reveal-info[type=checkbox]{
+    display: none;
+  }
+  input.reveal-info[type=checkbox]:checked ~ .remove-check{
+      display: none;
+  }
+  input.reveal-info[type=checkbox]:checked ~ .info-link-desc{
+      height: auto;
+  }
+  .info-link-desc-show-more {
+    height: 50px;
+  }
+  .n-show-more {
+    width: 100%;
+    display: block;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    text-align: right;
+    background: rgba(228, 228, 215, 0.6);
+  }
+
+  a.new-order-button {
+    display: inline-block;
+    width: 110px;
+    height: 23px;
+    font: 16px robotomedium;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #2f4709;
+    background: #ffc602;
+    text-align: center;
+    padding: 8px 0 0;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+
+  a.new-order-button:hover {
+    background-color: #2f4709;
+    color: #ffc602;
+  }
+  input[type="checkbox"]#send_to_all {
+     -webkit-appearance: checkbox;
+     -moz-appearance: checkbox;
+     -ms-appearance: checkbox;
+     -o-appearance: checkbox;
+     appearance: checkbox;
+  }
+  .n-pagination,
+  .n-pagination:visited,
+  .n-pagination:hover,
+  .n-pagination:active,
+  .n-pagination:focus {
+    color: #30480A;
+    text-decoration: none;
+  }
+  a.new-order-button {
+    display: inline-block;
+    width: 110px;
+    height: 23px;
+    font: 16px robotomedium;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #2f4709;
+    background: #ffc602;
+    text-align: center;
+    padding: 8px 0 0;
+    text-decoration: none;
+    margin-top: 5px;
+  }
+  a h4.show-search{
+    text-decoration: none;
+    color: #304908;
+  }
+  .n-title-wrapper {
+    margin-bottom: 30px;
+  }
+  .n-review-block-desc {
+    font: 14px/17px 'robotomedium';
+    color: #939393;
+  }

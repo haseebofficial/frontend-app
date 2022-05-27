@@ -1,0 +1,11 @@
+ja:
+  order_complete: 
+    title: "予約の登録"
+    back_link: "ホームページへ"
+    for_client: "%{client}様!"
+    order_registered: "ご予約は登録されました。"
+    text: | 
+      入力されたメールアドレスにご予約の内容、そして次のステップの説明メールが送信されました。
+      <br> 
+    link: "ウェブサイトで"
+    after_link: "もご予約の内容が見れます"

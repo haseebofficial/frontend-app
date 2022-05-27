@@ -1,0 +1,1366 @@
+de:
+  service_types:
+    title: "Arten des Dolmetschens"
+    conversation: 'Verhandlungsdolmetschen'
+    exhibition: 'Messedolmetschen'
+    seminar: 'Seminar- Konferenzolmetschen'
+    presentation: 'Verdolmetschen einer Presentation'
+    clinic: 'Verdolmetschen einer ärztlichen Beratung'
+    celebration: 'Dolmetschen bei einem Feier'
+    guide: 'Dolmetschen einer Exkursion, Fremdenführer '
+    delegations_escort: 'Begleitung der Delegationen'
+    individuals: 'Begleitung der Privatpersonen'
+    phone_talking: 'Dolmetschen der Telefongespräche'
+    interview: 'Dolmetscher für ein Interview'
+    press_conference: 'Dolmetscher für eine Pressekonferenz'
+    protocol_translation: 'Dolmetschen bei eiem offiziellen Anlass, Staatsbesuch'
+    judicial_translation: 'Gerichtsdolmetschen'
+  help_menu:
+    back_link: 'zur Homepage'
+    find_interpreter: "Dolmetscher suchen"
+    info: 'Über interpreters.travel'
+    for_affiliates: "Аn unsere Partnern"
+    for_clients: 'Für unseren Kunden'
+    for_interpreters: 'Für unseren Dolmetscher'
+    service_types: "Arten des Dolmetschens"
+    help: 'Hilfe'
+    support: 'Support 24/7'
+    terms: 'Bedingungen'
+    privacy_policy: 'Datenschutzrichtlinien'
+    about: 'Über uns'
+  info_page:
+    title: "Über interpreters.travel"
+    site_description: "— es ist ein einfaches und sicheres Service, das es Ihnen erlaubt, sehr schnell und sicher einen passenden Dolmetscher direkt auf der Webseite und über Ihr mobiles Gerät überall auf der Welt zu finden und bestellen."
+    main_content: "Haben Sie ein Geschäftstreffen mit Ihren ausländischen Partnern oder eine Auslandsreise geplant, soll ein Messebesuch, ein Seminar oder eine ärztliche Beratung stattfinden, hier finden Sie einen passenden Dolmetscher für Ihre Bedürfnisse und das Budget in mehr als in %{cities} und %{countries} überall auf der Welt."
+  for_clients_page:
+    title: 'Für unsere Kunden'
+    client_reviews: "Kundenbewertungen"
+    quote: "«Interpreters.travel ist ein online Service, das es Ihnen erlaubt, schnell und einfach professionelle Dolmetscher in vielen Städten und Ländern der Welt zu finden und deren Dienstleistungen zu buchen!»"
+    quote_author: "Oleg Kovalev, Kasan."
+    description: "Einen Dolmetscher zu finden und deren Dienstleistungen zu buchen ist genau so einfach, wie ein Hotelzimmer oder ein Flugticket zu buchen. Planen Sie"
+    link1:
+      text: 'ein Geschäftstreffen'
+      after_text:  "mit Ihren ausländischen Partnern oder "
+    link2:
+      text: 'eine Exkursion'
+      after_text: ", ein Messebesuch"
+    link3:
+      text: ', ein Seminar'
+      after_text:  "oder"
+    link4:
+      text: 'soll eine ärztliche Beratung im Klinikum im Ausland stattfinden,'
+      after_text:  "hier finden Sie einen passenden Dolmetscher für Ihre Bedürfnisse und das Budget."
+    steps:
+      title: "Wie funktioniert es?"
+      step1: |
+        <b>Sie suchen einen Dolmetscher aus und geben Ihre Bestellung ab.</b>
+        <br/>
+        Sie suchen einen Dolmetscher aus in der Stadt, in der seine Dienste benötigt werden, zum Beispiel für Verhandlungen mit Ihren Geschäftspartnern. Sie geben Ihre Bestellung für das gewünschte Datum mit Hilfe Ihrer Kreditkarte ab. Sie können auch eine Firmenbestellung abgeben, dann bekommen Sie eine Rechnung und werden aufgefordert diese zu überweisen.
+      step2: |
+        <b> Sie bekommen ein Voucher mit der Bestätigung per E-Mail.</b>
+        <br/>
+        Sie bekommen ein Voucher mit Ihrer Bestellungsinformationen und Kontakten des Dolmetschers. Die Einzelheiten (das Thema des Gesprächs, Anzahl der Beteiligten usw.) besprechen Sie ggf. mit dem Dolmetscher persönlich am Telefon oder per E-Mail.
+      step3: |
+        <b> Sie treffen sich mit Ihren Geschäftspartnern und Ihre Gespräche werden vom Dolmetscher in die Fremdsprache übertragen.</b>
+        <br>
+        Sie treffen sich, wie ausgemacht, mit dem Dolmetscher und fahren zusammen zum ausgemachten Treffpunkt. Führen Sie Ihre Verhandlungen erfolgreich und der Dolmetscher hilft Ihnen, Ihre Rede in die Fremdsprache zu übertragen.
+    why_inter:
+      title: "Warum interpreters.travel?"
+      block1:
+        title: "Einfach suchen, schnell und bequem bestellen"
+        text:  "Einfache Suche und einfache Bestellung der Dolmetscherdienste. KOSTENFREIE Stornierung."
+      block2:
+        title: "Es lohnt sich!"
+        text: "Alle Angebote ohne Vermittlungsgebühren, direkte Dolmetscherpreise. Preisnachlässe werden berechnet. Keine zusätzlichen Kosten."
+      block3:
+        title: "Eine große Auswahl"
+        text: "Dolmetscher in %{cities}, %{countries} überall auf der Welt"
+      block4:
+        title: "Sicher"
+        text: "Garantiert sichere Zahlungsmöglichkeiten. Datenschutz durch SSL Verbindung."
+      block5:
+        title: "Ersatzdolmetscher"
+        text: "Falls der von Ihnen ausgesuchte Dolmetscher durch etwas gehindert wird, und nicht mehr in der Lage ist, den Termin wahrzunehmen, suchen wir für Sie schnellstmöglich einen Ersatz."
+      block6:
+        title: "Bequem zahlen"
+        text: "Suchen Sie eine Zahlungsart aus, die für Sie bequem ist: VISA, MasterCard, Banküberweisung, Barzahlung."
+      block7:
+        title: "Firmenbestellung"
+        text: "Hier können Sie Ihre Firmenbestellung abgeben."
+      block8:
+        title: "Support 24/7"
+        text: "Sie bekommen unsere Unterstützung jede Zeit, egal wo Sie sind."
+  for_interpreters_page:
+    title: "Für Dolmetscher"
+    interpreter_reviews: "Dolmetscherbewertungen"
+    signup_link: "Registrieren"
+    quote: "««Interpreters.travel ist eine bequeme und sichere Webseite, wo man durch eine direkte Kontaktaufnahme neue Aufträge von Kunden bekommen kann. Einfache Nutzung der Funktionen erlaubt es den Service flexibel einzustellen und an mich anzupassen, somit kann ich die Aufträge annehmen so wie es mir passt. Selbst mit nur wenigen freien Stunden in meinem Kalender, bekomme ich die Aufträge auf interpreters.travel und kann meine Zeit maximal nutzen.»"
+    quote_author: "Helene Right, Dolmetscher. London."
+    block1:
+      title: "Wie funktioniert es?"
+      step1: "In Ihrem Profil auf der Webseite geben Sie Dienstleistungen, die Sie anbieten, Bedienungen, Ihre Preise und die Zeit, in der Sie arbeiten können."
+      step2: "Ihre Dienstleistungen werden in den Kundenanfragen berücksichtigt und Sie bekommen neue Aufträge"
+      step3: "Sie erbringen Ihre Dienstleistung gemäß dem Auftrag"
+      step4: "Sie bekommen Ihre Entlohnung in bar oder überwiesen auf Ihr Konto"
+    block2:
+      title: "Was kostet es?"
+      text: "Sie bringen Ihre Informationen auf der Webseite <strong>völlig  kostenfrei an!</strong> Nur von den tatsächlich durchgeführten Aufträgen behält Interpreters.travel eine Kommission. Die Höhe der Kommission wird von Ihnen persönlich bestimmt."
+    why_inter:
+      title: "Warum interpreters.travel?"
+      block1:
+        title: "Kalender"
+        text: "Sie regeln Ihre Arbeitszeiten selber und bekommen Aufträge nur wenn Sie Zeit haben."
+      block2:
+        title: "Flexible Preise"
+        text: "Sie bestimmen Ihre Preise bezogen auf den Service und den Umfang der Bestellung."
+      block3:
+        title: "Kostenfreie Anbringung Ihrer Informationen auf der Webseite"
+        text: "Sie bringen Informationen über Ihre Dienstleistungen auf der Webseite kostenfrei und für beliebig lange an"
+      block4:
+        title: "Google & Yandex & Yahoo"
+        text: "Tausende neuer Besucher sehen Ihren Profil und Ihre Dienstleistungen, da wir direct mit Google, Яндекс и Yahoo arbeiten"
+      block5:
+        title: "Zahnungsmethoden"
+        text: "Aus folgenden Zahlungsmethoden können Sie die auswählen, die Ihnen am besten passt: VISA, MasterCard, PayPal, Banküberweisung, Bahrzahlung"
+      block6:
+        title: "SMS-Benachrichtigung"
+        text: "Während der Arbeitszeiten werden sofort über Ihre Aufträge direkt per sms benachrichtigt"
+      block7:
+        title: "Ihre Sicherheit"
+        text: "Sie werden garantiert für Ihre Zeit bezahlt, selbst wenn der Kunde sich verspätet oder gar nicht kommt"
+      block8:
+        title: "Geldtransaktionen"
+        text: "Sie werden rechtzeitig entlohnt. Interpreters.travel kümmert sich darum und übernimmt für Sie alle Geldtransaktionen."
+      block9:
+        title: "Sicherheitszertifikat SSL"
+        text: "Datenschutz durch SSL Verbindung."
+      block10:
+        title: "iMac/iPad/iPhone"
+        text: "Sie steuern Ihre Services über Ihren Rechner, Tablet oder Smartphone."
+      block11:
+        title: "Support 24/7"
+        text: "Sie bekommen unsere Unterstützung jede Zeit, egal wo Sie sind."
+      block12:
+        title: "Feedback"
+        text: "Sie bekommen Feedback von Ihren zufriedenen Kunden"
+    block3:
+      title: "Wie fange ich an?"
+      step1: "Schritt 1. Registrieren Sie sich"
+      step2: "Schritt 2. Füllen Sie den Fragebogen mit Ihren persönlichen Informationen aus."
+      step3: "Schritt 3. Erstellen Sie Ihr Profil als Dolmetscher und stellen Sie es ins Netz"
+    after_reg:
+      text: "Bevor Sie die Arbeit mit interpreters.travel beginnen, melden Sie sich mit Ihrem Login an und füllen Sie den Fragebogen mit den Informationen zu Ihrer Person aus. Danach können Sie eine Anzeige über Ihre Dienstleistungen, Preise und Bedingungen ins Netz stellen und Ihre Arbeitszeiten im Kalender einstellen. Sie haben Ihr Profil angelegt und sind somit für die Kunden sichtbar und erreichbar."
+      link: "Einloggen und Fragebogen ausfüllen"
+    form:
+      name: "Vorname:"
+      surname: "Name:"
+      email: 'E-Mail:'
+      phone: 'Mobil:'
+      russian: "Ich spreche Russisch"
+      city: 'Stadt:'
+      submit: 'Neuanmeldung starten'
+
+  for_affiliates_page:
+    title: "Аn unsere Partnern"
+    page_title: "Partnerprogramm Interpreters.travel"
+    signup_link: "REIGIESTRIEREN"
+    login: "Anmelden"
+    description: ""
+    block1:
+      title: "Wie funktioniert es?"
+      step1: "Platzieren Sie ein Dolmetschersuchfeld oder einen Link auf Ihrer Webseite."
+      step2: "Der Benutzer Ihrer Webseite, welche sich an die Dolmetscherdienste interessiert, findet einen geeigneten Dolmetscher und tätigt die Bestellung."
+      step3: "Sie erhalten eine Provision in Höhe von 5% von jedem abgeschlossenen Bestellung."
+    block2:
+      title: "Wie werden die Bestellungen gezählt?"
+      text: "Um die Buchungen zählen zu können, verwenden wir Partner-IDs und Cookies. Wir behalten Cookie des Benutzers für drei Monate, so dass, wenn der Benutzer eine Bestellung nicht sofort platziert, sondern innerhalb von drei Monaten nach der ersten Besuch von Ihrer Website auf c interpreters.travel, den Auftrag wird auch gezählt wir Sie bekommen einen Provision."
+    block3:
+      title: "Wie kann ich die Bestellstatistik einsehen?"
+      text: "Statistik für alle Besuche und Buchungen können Sie online in Ihren Partnerkonto einsehen. Sie werden in der Lage sein, die Anzahl der Suchanfragen und Buchungen und den Status der Auftragssumme zu analysieren"
+    block4:
+      title: "Wie kann ich teilnehmen?"
+      step1: "Schritt 1: Melden Sie sich in interpreters.travel an."
+      step2: "Schritt 2. Tragen Sie Ihre persönliche Daten in Partnerfragebogen ein."
+      step3: "Schritt 3. Kopieren Sie den HTML-Code und platzieren Sie die Suchform oder Hyperlink auf Ihrer Website."
+    after_reg:
+      text: "Bevor Sie die Arbeit mit interpreters.travel beginnen, melden Sie sich mit Ihrem Login an und füllen Sie den Fragebogen mit den Informationen zu Ihrer Person aus. Danach können Sie eine Anzeige über Ihre Dienstleistungen, Preise und Bedingungen ins Netz stellen und Ihre Arbeitszeiten im Kalender einstellen. Sie haben Ihr Profil angelegt und sind somit für die Kunden sichtbar und erreichbar."
+      link: "Einloggen und Fragebogen ausfüllen"
+    form:
+      name: "Vorname:"
+      surname: "Name:"
+      email: 'E-Mail:'
+      phone: 'Mobil:'
+      russian: "Ich spreche Russisch"
+      city: 'Stadt:'
+      submit: 'Neuanmeldung starten'
+
+  service_pages:
+    conversation:
+      title: "Dolmetscher für Verhandlungen"
+      text: |
+        <p>
+          Ihnen stehen Geschäftsverhandlungen mit Ihren ausländischen Geschäftspartnern bevor, und Sie benötigen Dienste eines qualifizierten Dolmetschers, da nicht alle Ihre Mitarbeiter, die an der Verhandlungen teilnehmen werden, die entsprechende Fremdsprache beherrschen. Von der Wahl des Dolmetschers und der Genauigkeit seiner Übersetzung in die Fremdsprache kann auch der Erfolg Ihrer Verhandlungen abhängen.
+        </p>
+        <p>
+          Bei der Dolmetscherauswahl ist es wichtig, die Art der geplanten Gespräche, und die dafür notwendigen zusätzlichen Informationen und Kenntnisse zu berücksichtigen, die der Dolmetscher gebrauchen könnte. Damit Ihre Zusammenarbeit mit dem Dolmetscher reibungslos abläuft, ist es empfehlenswert den Dolmetscher rechtzeitig über das Thema der Gespräche zu unterrichten, und die für die Vorbereitung notwendigen Informationen bereitzustellen. Ausschlaggebend für den Erfolg Ihrer Verhandlungen ist sowohl die Erfahrung eines Dolmetschers, als auch die Vorbereitungszeit, die für eine gründliche Einarbeitung in das Thema unabdingbar ist.
+        </p>
+        <p>
+          <b>Es gibt unterschiedliche Arten von Verhandlungen: </b>
+        </p>
+        <ul>
+          <li>Vorgespräche – Besprechungen der möglichen zukünftigen gemeinsamen Projekte oder Angebote Ihrer Produkte und Dienstleistungen;</li>
+          <li>Gespräche mit dem Ziel Verträge zu unterzeichnen (Protokoll Ihrer Pläne, Vereinbarungen über die Zusammenarbeit usw.);</li>
+          <li>Besprechung der Realisierung der einzelnen Stadien der gemeinsamen Projekte;</li>
+          <li>vorgerichtliche Verhandlungen.</li>
+        </ul>
+        <p>
+          <b>Verhandlungen können unterschiedlich lang andauern:</b>
+        </p>
+        <ul>
+          <li>kurzandauernde Verhandlungen, von 30 Minuten bis 1-2 Stunden</li>
+          <li>langandauernde Verhandlungen, von einem bis mehreren Tagen</li>
+          <p>
+            <b>Verhandlungen können an verschiedenen Orten stattfinden:</b>
+          </p>
+          <li>im Büro einer der teilnehmenden Parteien;</li>
+          <li>im Konferenzraum eines Hotels oder am Flughafen;</li>
+          <li>in Couloirs eines Konferenzraums oder Forums.</li>
+        </ul>
+        <p>
+          <b>Verhandlungen können in verschiedenen Ländern stattfinden:</b>
+        </p>
+        <ul>
+          <li>in Ihrem Land - somit wird Ihre Firma zu der einladenden Seite ;</li>
+          <li>Verhandlungen während Ihrer Auslandsreise.</li>
+        </ul>
+        <p>
+          Das Gesprächsdolmetschen hat in jeder Situation eigene Besonderheiten. Für die Qualität der Übersetzung ist allerdings ausschlaggebend, wie die Verhandlungen organisiert sind, und somit auch wie eine Übertragung in die Fremdsprache stattfinden soll.
+          In der Regel verwendet man während der Verhandlungen das konsekutive Dolmetschen.
+          Es ist einfach zu erklären:
+          <ul>
+            <li>nicht jeder erfahrener Dolmetscher hat die Fertigkeiten eines professionellen simultan Dolmetschers;</li>
+            <li>Simultandolmetschen wird mit Hilfe der transportablen (Personenführungsanlagen) oder stationären technischen Hilfsmittel (Kabinendolmetschen) gewährleistet;</li>
+            <li>Sehr oft werden die Verhandlungen in einem engen Kreis abgehalten. In diesem Fall erweckt das Konsekutivdolmetschen den Eindruck einer direkten Kommunikation zwischen den Parteien.</li>
+          </ul>
+        </p>
+    exhibition:
+      title: "Messedolmetscher"
+      text: |
+        <p>Sie planen Ihren Besuch einer Fachausstellung im Ausland, und möchten Dienste eines Dolmetschers vor Ort nutzen.</p>
+        <p>Besuch einer Fachausstellung im Ausland ist immer ein besonderes Ereignis. Um Ihren Messebesuch maximal effektiv zu gestalten, ist es wichtig die Sprachbarriere zu überwinden und die gemeinsame Sprache mit Ihren potenziellen Geschäftspartnern zu finden. Ein erfahrener Dolmetscher kann Ihnen dabei eine große Hilfe sein. Das Messedolmetschen hat eigene Besonderheiten und ist nicht mit den anderen Arten des Dolmetschens zu verwechseln. Es ist empfehlenswert, den passenden Dolmetscher nach folgenden Kriterien auszusuchen:</p>
+        <ul>
+          <li>Fachkenntnisse in beiden Sprachen знанием соответствующей терминологии на двух языках;</li>
+          <li>Übersetzungsfertigkeiten;</li>
+          <li>laute Stimme und deutliche Aussprache;</li>
+          <li>schnelle Auffassungsgabe und Konzentrationsfähigkeit</li>
+          <li>Anpassungsfähigkeit auch in einer ungewöhnlichen Situation;</li>
+          <li>sympathische Ausstrahlung und Kommunikationsstärke;</li>
+          <li>Mobilität und Belastbarkeit.</li>
+        </ul>
+        <p>Einen zusätzlichen Vorteil bringt der Dolmetscher mit, wenn er nicht nur eine, sondern mehrere Fremdsprachen beherrscht. Zum Beispiel, nicht nur Deutsch, sondern auch Englisch, wenn es um ein Messebesuch in Deutschland geht. Sehr oft trifft man auf andere Messebesucher, oder Aussteller, die selber nur wenig Deutsch können.</p>
+        <p>Ein Messebesuch ist ein Auftritt in der Öffentlichkeit, dabei spielt auch das äußere Erscheinungsbild des Dolmetschers eine große Rolle.</p>
+        <p>Man bestellt in der Regel nur einen Dolmetscher für die Gesamtdauer Ihres geplanten Auslandsaufenthalts. Ein erfahrener Dolmetscher kann in der Lage sein, seine Dolmetscherdienste Ihnen auch außerhalb der Messe anzubieten, und Sie auch bei den Geschäftstreffen mit Ihren Partnern oder an einem Tagesausflug zu begleiten, vorausgesetzt, Sie haben das gesamte Programm mit ihm im Vorfeld besprochen.</p>
+        <p>Eine komplett andere Situation ist, wenn Sie und Ihre Kollegen oder Mitarbeiter an einer Fachmesse im Ausland teilnehmen. In diesem Falle brauchen Sie einen oder zwei Stand-Dolmetscher für die Betreuung Ihrer Kunden und Mitarbeiter.</p>
+        <p>Bei der Kundenbetreuung am Stand wird vom Dolmetscher zusätzlich zu seiner sprachlichen Qualifikation auch Disziplin, Kommunikationsstärke und Belastbarkeit erwartet. Während der ganzen Messezeit muss er freundlich und hilfsbereit sein und den Mitarbeitern in der Kommunikation mit Ihren Kunden oder mit den Messemitarbeitern zur Seite stehen.</p>
+        <p>
+          Es ist empfehlenswert, alle notwendigen Informationsbroschüren und Werbeprospekte, die auf der Messe behandelt werden, dem (oder den) Dolmetscher/n rechtzeitig zur Vorbereitung zukommen zu lassen.
+          Die Qualität der Leistung eines Dolmetschers steigt, wenn er im Vorfeld klar und deutlich über seine Aufgaben und den Ablauf mit den Zeitangaben zu den wichtigen Terminen (Präsentationen) informiert ist.
+        </p>
+    seminar:
+      title: "Seminar oder Konferenzdolmetschen"
+      text: |
+        <p>
+          Planen Sie an einem Seminar oder einer Konferenz im Ausland teil zu nehmen? Die Arbeitssprache des Seminars ist Englisch, Deutsch oder Französisch und Sie sind keiner dieser Sprachen mächtig und somit auf die Dienste eines Dolmetschers angewiesen?
+        </p>
+        <p>
+          <b>Die erste Variante:</b>
+          Sie nehmen an einem Seminar oder Konferenz als Zuhörer teil und benötigen die Dienste eines Dolmetschers.
+          Falls Sie es nicht vorhaben einen Vortrag zu halten, und nehmen an der Konferenz als Zuhörer teil, wir die Konferenz von einem Fachspezialist für Sie persönlich verdolmetscht (von den Fällen abzusehen, wenn Sie eine Frage an den Redner stellen, oder ein Kommentar abgeben wollen).         .
+        </p>
+        <p>
+          Um die anderen Konferenzteilnehmer nicht zu stören, wird der Dolmetscher die aus der Fremdsprache übertragene Rede Ihnen ins Ohr flüstern. Diese Art des Dolmetschens nennt sich Chuchotage oder auch Flüsterdolmetschen.
+        </p>
+        <p>
+          <b>Die zweite Variante:</b>
+          Sie nehmen an einem Seminar oder Konferenz als Redner teil, um eine Presentation oder Rede abzuhalten.
+        </p>
+        <p>
+          Der Dolmetscher, den Sie engagieren, wird die meiste Zeit die Reden anderer für Sie flüsternd aus der Fremdsprache übertragen.
+        </p>
+        <p>
+          In diesem Fall ist das wichtigste Teil – die Übertragung Ihrer Rede in die Fremdsprache an die Zuhörer. Je nach Größe der Konferenzräume, Raumakustik und Teilnehmerzahl können Sie entweder von der  Rednertribüne mit Mikrofon oder einfach mit lauter Stimme ohne auf jegliche technische Hilfsmittel zuzugreifen Ihre Rede halten.
+          In der Regel steht der Dolmetscher neben Ihnen, damit er nicht nur gut hören, sondern auch, falls notwendig, eine Verständnisfrage stellen kann.
+          Im Idealfall haben Sie ein Mikrofon, selbst wenn der Raum nicht sehr groß ist. Dann müssen weder Sie, noch der Dolmetscher Ihre Stimme erheben, und die Zuhörer werden Sie selbst in der letzten Reihe gut hören können.
+        </p>
+        <p>
+          Für eine erfolgreiche Dolmetschen bei Seminare oder Konferenzen eine kompetente konsekutiv Dolmetscher wird völlig ausreichend. Eine nicht kompetente oder nicht erfahrene Dolmetscher wird viel mehr Zeit gebraucht. Das ist  bei der Konferenzen nicht erwünscht, da zu wenig Zeit verfügbar ist.
+        </p>
+        <p>
+         Für eine reine Simultandolmetscher, welche sehr selten konsekutiv dolmetscht, wird es schwierig die größere Sätze zu erinnern und dolmetschen.           </p>
+        <p>
+          In jeden Fall, bei der Seminar- oder Konferenzdolmetschen mit sehr spezialisierte Themen, eine erfolgreiche mündliche Übersetzung ist in der Regel, ohne eine gute Sprach- und Themenkenntnisse in beide Sprachkombinationen, nicht möglich. Wenn die Thematik ist nicht bekannt, dann braucht Dolmetscher mehr Tage Zeit für die Vorbereitung.
+        </p>
+        <p>
+          Wenn die Rede von Bühne oder Tribune übersetzt werden soll, es ist auch wichtig, dass der Dolmetscher entsprechend gut aussehen muss. Hier gibt es Ähnlichkeiten mit Übersetzung von Vorträge.
+        </p>
+    presentation:
+      title: "Verdolmetschen einer Presentation"
+      text: |
+          <p>
+            Sie fliegen nach Ausland einen Vortrag zu halten, wie etwa neue Geräte zu presentieren oder als Teilnehmer und Sie benötigen einen Dolmetscher.
+          </p>
+          <p>
+            In diesem Fall ist das Dolmetschen nicht viel anders als die Dolmetschen in alle sonstigen Veranstaltungen (Konferenzen, Tagungen, runden Tisch). Sie brauchen eine erfahrene Dolmetscher, die sich schnell in einer fremden Umgebung orientieren kann und, natürlich, ist gut informiert und in diesen Thematik Dolmetschenerfahrung hat.
+          </p>
+          <p>
+            Vorraussetzungen und Qualität des Dolmetschens hängt weitgehend von Ihren Status an diesem Vortrag ab und Ihrer Sitzplatz von dem Sie den Vortrag folgen. Wenn Sie einer der Ehrengäste sind und sitzen auf dem Podium, das ist eine Situation. Wenn Sie ein gewöhnlicher Besucher sind und sitzen irgendwo im Raum weit genug von der Szene, es ist eine andere Situation. Es ist schwierig eine perfekte Dolmetschen ohne spezielle Ausrüstung zu gewährleisten. Daher ist die geeignetste wäre Flüsterdolmetschen, also Dolmetscher flüstert direkt in Ihre Ohr. Daher ist es sehr wichtig, so einen Ort auswählen zu können, wo alles gut hörbar ist und gleichzeitig das Dolmetschen nicht die anderen Teilnehmern stört.
+          </p>
+          <p>
+            Wenn Sie selbst der Veranstalter und Hauptredner sind, und einen Vortrag über Ihre neuen Produkten oder Dienstleistungen zu potenziellen ausländischen Partnern (ob in Russland oder im Ausland) halten wollen, dann je nach Veranstaltungsort, Teilnehmerzahl und zur Verfügung stehende technische Ausrüstung, wird Konsekutiv- oder Simultandolmetschen verwedet.
+          </p>
+          <p>
+            Für die Präsentation mit einer kleinen Teilnehmerzahl und einem Paar von Arbeitssprachen oft wird eine Konsekutivdolmetschen (Phrasendolmetschen) eingesetzt.
+          </p>
+          <p>
+            Eine Simultandolmetschen wird mehr für offiziellen und mehrstündige Vorträge mit grossen Teilnehmerzahl eingesetzt, wo den Vortrag gleichzeitig auf mehrere Sprachen übersetzt werden soll (z.B. nicht nur ins Englische, sondern auch ins Russische und Chinesische).
+          </p>
+          <p>
+           Simultandolmetschen ist besser geeignet für mehrstundige formalen Präsentationen mit einer großen Teilnehmerzahl, wo Dolmetschenbedarf in mehrere Sprachen besteht (z.B. nicht nur in Englisch, sondern auch in Deutsch oder Chinesisch).
+          </p>
+          <p>
+            Im Gegensatz zu anderen Arten von Konsekutivdolmetschen, die Übersetzung der Vorträge besondere Aufmerksamkeit widmen, Aussehen, Business-Stil Kleidung und angemessenen Gesten eines Dolmetschers, und manchmal sogar Faktoren, wie Alter und Geschlecht des Dolmetschers. Letztendlich entscheiden Sie, welche Art von Übersetzungs am besten geeignet, um die Präsentation zu übersetzen.
+          </p>
+          <p>
+            Bei der Übersetzung von Präsentationen ist besonders wichtig, die Klarheit der Darstellung, eine genaue Übersetzung der Begriffe richtig platziert Akzente. Daher ist es wünschenswert, dass der Übersetzer nicht nur im Fach gut orientiert, aber hatten auch die Gelegenheit, um den vollständigen Text der Präsentation ein paar Tage vor ihrer Umsetzung zu überprüfen.
+          </p>
+          <p>
+            Für eine hochwertige Vortragsdolmetschen ist es wichtig, dass der Dolmetscher eine klare Diktion und eine laute Stimme hat. Selbst in einem kleinen Raum, die Dolmetschen wirkungsvoll zu machen, werden zusätzliche Mikrofone für den Dolmetscher und für die Fragen aus dem Publikum eingesetzt. Die Mikrofone müssen auch im Voraus bestellt werden.
+          </p>
+    clinic:
+      title: Dolmetschen im Klinikum
+      text: |
+        <p>Sie haben es vor, sich von Ärzten im Klinikum im Ausland beraten zu lassen, und benötigen dafür die Dienstleistungen eines Dolmetschers mit medizinischem Hintergrund?</p>
+        <p>Dolmetschen im Klinikum ist eine der schwierigsten Dolmetscher Arten. Besonders wichtig ist es die Diagnose in oder von der fremden Sprache richtig wiederzugeben. Ein Dolmetscher, der das Leber vom Milz nicht unterscheiden kann, ist hier fehl am Platze!</p>
+        <p>Um eine fachkundige Übersetzung im Klinikum oder beim Arzt zu leisten, muss der Dolmetscher sich gut in dem medizinischen Bereich auskennen, aus welchen Ihre Diagnose stammt. Ein Dolmetscher mit allgemeinmedizinischen Kenntnissen kann leider nicht immer ein Gespräch beim Urologen oder einem Frauenarzt fachgerecht zu wiedergeben. Eine der für die Übersetzung schwierigsten medizinischen Gebiete ist Zahnarztmedizin. Bei der Auswahl eines Dolmetschers denken Sie bitte auch daran, was Sie von dem Arztgespräch erwarten, wie tief wird das Gespräch gehen? Werden dabei die Einzelheiten einer Diagnose erläutert, und die speziellen Therapiemethoden diskutiert? Oder werden lediglich organisatorische Fragen und die stationäre Aufnahme des Patienten besprochen? </p>
+        <p>Falls Sie die früheren Arztbriefe und Befunde haben, die für das Gespräch mit dem Arzt relevant sein können, empfehlen wir Ihnen diese schon im Vorfeld ins Deutsche oder Englische übersetzen zu lassen. Lassen Sie auch Ihren Dolmetscher diese einmal vor dem Gespräch mit dem Arzt durchzulesen. Falls Sie keine Übersetzungen mitbringen, wird der Dolmetscher höchstwahrscheinlich Ihre Befunde dem Arzt „vom Blatt“ übersetzen müssen, was sich auch als kompliziert erweisen kann. Was wiederum dazu führen kann, dass die Qualität des Gesprächs vernachlässigt wird.</p>
+        <p>Nicht minder wichtig sind auch die Fähigkeiten Ihres Dolmetschers sich mit dem „bürokratischen Berg“ auseinander setzen zu können. Sehr oft erfährt der Patient nur im Nachhinein, wie hoch die Behandlungskosten für seinen stationären Aufenthalt tatsächlich waren.</p>
+    celebration:
+      title: "Dolmetscher bei einem Feier"
+      text: |
+        <p>
+          Sie sind zu einer Feier bei Ihren ausländischen Geschäftspartnern oder Freunden eingeladen und brauchen einen Dolmetscher vor Ort, der Sie bei dieser Gelegenheit begleiten würde und somit es Ihnen ermöglichen wird der Feier nicht nur als ein passiver Zuschauer beiwohnen, sondern auch aktiv daran teilzunehmen.
+        </p>
+        <p>Dienste eines Dolmetschers können Sie bei folgenden Events gebrauchen: ein Tag zur Feier einer Stadt, ein Firmenjubiläum, eine Firmenfeier, Silvester, Hochzeit usw.
+          Die Anforderungen an Dolmetscher werden sich je nach Anlass, Größe der Festlichkeit (Teilnehmerzahl) und je nachdem, wo die Veranstaltung stattfinden soll, ob in Ihren Geschäftsräumen, im Theater, Im Restaurant oder auch im Freien, variieren. Darüber hinaus ist es auch von Bedeutung, welchen Status Sie selber bei dieser Festlichkeit haben. Sind Sie ein VIP-Gast, Veranstalter oder wurden Sie zur Feier eingeladen?
+        </p>
+        <p>
+          Ein Dolmetscher muss für die Festlichkeit auch einiges mitbringen. Zusätzlich zu seiner Fachkompetenz und sprachlichen Gewandtheit muss er kommunikativ und anpassungsfähig sein, über ein gepflegtes Äußeres und eine souveräne Ausstrahlung verfügen, und beim Alkoholkonsum eher zurückhaltend sein.
+        </p>
+        <p>
+          Was seine fachlichen Kompetenzen angeht, gefragt in solcher Situation sind vor allem die Fähigkeiten und Fertigkeiten im fachgerechten Übersetzen der feierliche Reden, Witzen oder Redewendungen und Sprüchen.
+        </p>
+        <p>
+          Falls Sie selber vorhaben, eine Rede zu halten, empfahlen wir Ihnen diese 1 oder 2 Tage vor der Veranstaltung dem Dolmetscher zur Vorbereitung zukommen zu lassen. Idealerweise sollte man die Rede schon im Vorfeld in die Fremdsprache übersetzt haben.
+        </p>
+        <p>
+          Falls Sie keine Rede vorbereitet haben, möchten aber einige Worte zum Anlass sagen, geben Sie dem Dolmetscher Bescheid, um was es in Ihrer Ansprache sich handeln wird. Gehen Sie mit dem Dolmetscher kurz Ihre improvisierte Rede stichwortartig durch.
+          Bei der Auswahl Ihres Dolmetschers fragen Sie nach, ob der Dolmetscher schon in solch einer Situation Erfahrungen gesammelt hat. Gehen Sie mit dem Dolmetscher das geplante Programm durch und besprechen Sie mit ihm genau seine Rolle.
+        </p>
+    guide:
+      title: "Ein Dolmetscher bei der Fremdenführung, oder als Fremdenführer"
+      text: |
+        <p>
+          Sie planen eine Reise ins Ausland und suchen einen Fremdenführer, der Ihnen die Stadt zeigen könnte und darüber auf Russisch etwas erzählen könnte?
+          Welche Anforderungen sollen Sie an solchen Fremdenführer stellen?
+        </p>
+        <p>
+          Zum einen, muss er oder sie gut Russisch können. Zum Glück leben viele unserer ehemaligen Landsleute im Ausland. Sie erweisen Ihnen gerne Ihre Dienste als Fremdenführer.
+        </p>
+        <p>
+          Insbesondere, wenn es sich um eine bekannte Stadt oder um ein Urlaubszentrum handelt.
+          Zum anderen, wichtig ist natürlich seine Erfahrung als Fremdenführer und ob er oder sie sich mit dem für Sie interessanten Thema auskennt.
+        </p>
+        <p>
+          Es hängt hauptsächlich davon ab, ob Sie sich für einen Stadtrundgang mit einem besonderen Thema, z.B. Literatur, Musik, oder auch Wein und Bier, interessieren oder nicht.
+        </p>
+        <p>Jedenfalls ist es wichtig alle Ihre Wünsche und sogar die Dauer der Führung schon im Vorfeld mit dem Fremdenführer zu besprechen. </p>
+        <p>Oder Sie planen Ihre Auslandsreise und wollen an einer Exkursion teilnehmen, die leider nicht in Ihrer Sprache angeboten wird. Und dafür brauchen Sie einen Dolmetscher vor Ort.</p>
+        <p>Was die Organisation solcher Exkursionen für eine Person oder für eine kleine Gruppe angeht, gibt es viele verschieden Varianten, je nach Land und Ortschaft. </p>
+        <p>Die Anwesenheit eines Dolmetschers bei der Führung kann für den Fremdenführer sowohl eine Belastung sein, als auch eine Möglichkeit sich eine kleine Pause zu nehmen, während der Dolmetscher seine Rede übersetzt.</p>
+        <p>Allerdings sind nicht alle Fremdenführer der Zusammenarbeit mit einem Dolmetscher gewöhnt     </p>
+        <p>
+          Was den Dolmetscher angeht, in dieser Variante muss er kein perfekter Stadt- (oder Werk-) Kenner sein. Er muss lediglich genau, ohne Verzehrung und ohne Informationen rauszulassen, alles was der Fremdenführer erzählt auf Russisch wiedergeben können.
+        </p>
+        <p>
+          Man muss bedenken, dass durch die Übertragung der Exkursion in andere Sprache und die im Laufe der Übersetzung entstehende Fragen kann die Dauer der Führung sich um 1,5 bis 2 Mal verlängern. Wenn die Dauer der Führung festgelegt wird, kann es für Sie bedeuten, dass der Fremdenführer möglicherweise seine Informationen verkürzt selbst wenn der Dolmetscher hoch professionell arbeitet.
+        </p>
+    delegations:
+      title: "Begleitung einer Delegation "
+      text: |
+        <p>
+          Sie planen mit Ihren Geschäftspartnern oder Kollegen eine Geschäftsreise ins Ausland und brauche einen Dolmetscher, der Sie auf der gesamten Strecke begleitet.
+        </p>
+        <p>
+          In diesem Fall die Wahl des Dolmetschers hängt davon ab, welches Programm geplant ist und welche Gäste (Führungskräfte oder Kollegen) anreisen, und welche Ziele sie verfolgen.
+        </p>
+        <p>
+          In jedem Fall ist es anzunehmen, dass der Dolmetscher schon gewisse Erfahrungen auf dem Feld der Geschäftsverhandlungen und Delegationsbegleitung gesammelt hat. Am besten würde ein universeller Dolmetscher passen, der sich gut mit dem Thema Ihres Besuches mit mit den Realien vor Ort auskennt.
+        </p>
+        <p>
+          Es muss kein Synchrondolmetscher sein, da die Übertragung von und in die Fremdsprache eher konsekutiv stattfinden wird.
+        </p>
+        <p>
+          Das Dolmetschen für eine Delegation ist eine besondere Verantwortung. Der Dolmetscher erfühlt nicht nur seine direkte Funktion, nämlich Verdolmetschen der Verhandlungen oder einer Rede, einer Exkursion, er begleitet die Delegation durch deren ganzen Aufenthalt im Ausland. In diesem Kontext muss er auch ein gewisses Ausdauer beweisen können, da die Arbeitszeiten nicht selten 15-16 Stunden betragen können.
+        </p>
+        <p>
+          Diese Aufgabe bewältigt eine aktive, kommunikative und junge Person, oder Person mittleren Alters, die auch außerhalb des offiziellen Teils des geplanten Programms dem Geschäftsführer und seinen Kollegen bereit sein wird, zur Hilfe zu stehen.
+        </p>
+        <p>
+          Es kann ein Dolmetscher sein für den Russisch eine Fremdsprache ist, oder es kann auch einer der ehemaligen Landsleute sein, die in England, USA oder Deutschland leben und auch als professionelle Übersetzer und Dolmetscher tätig sind.
+        </p>
+        <p>
+          Mit anderen Worten, Sie haben die Wahl! Wählen Sie jemanden, mit dem Sie sich auf Ihrer Auslandsreise wohlfühlen werden.
+        </p>
+    individuals:
+      title: "Begleitung von Privatpersonen"
+      text: |
+        <p>
+          Sie planen Ihre Auslandsreise und benötigen Dienste eines Dolmetschers, der Sie auf der Strecke begleiten wird.
+        </p>
+        <p>
+          Vieles hängt natürlich von der Dauer Ihrer Reise und Ihren Zielen ab. Im Falle, wenn nur ein Tourist vom Dolmetscher begleitet wird, kommt es nicht nur die fachliche Kompetenz eines Dolmetschers, sondern auch an die persönliche Kompatibilität zwischen dem Touristen und dem Dolmetscher.
+        </p>
+        <p>
+          Die Wahl des Dolmetschers hängt im Großen von dem von Ihnen geplanten Programm. Ob zu Ihnen dieser oder ein anderer Dolmetscher passen würde? Auf diese Frage können Sie schnell eine Antwort finden, wenn Sie die Angaben in seinem Lebenslauf überprüfen. Manchmal sind auch zusätzliche Fragen notwendig, um es herauszufinden, ob der Dolmetscher genügend Erfahrung im für Sie interessanten Bereich hat.
+        </p>
+        <p>
+          Falls Sie es vorhaben, die meiste Zeit dem Shopping zu widmen, Restaurants, Beachclubs oder Strände, Schönheitssalons und andere Unterhaltungsorte zu besuchen, brauchen Sie als Dolmetscher jemanden, der sich in dieser Szene auskennt und auch mitmacht. Im Prinzip, verfügen die meisten Dolmetscher, die auch als Fremdenführer arbeiten über solche „Geheim-Tipps“, da sie von vorn herein sich darin spezialisieren. Falls Sie es vorhaben eine Sportveranstaltung oder eine Rennbahn zu besuchen, wäre es für Sie von Interesse, dass der Dolmetscher, der Sie begleitet, vielleicht auch selber Interesse an der gleichen Sportart hat wie Sie. Somit würden Sie eventuell zu einer guten Übersetzung auch Insiderinformationen dazu bekommen. Falls der Dolmetscher in seinem Lebenslauf „Sport“ als eine der Kategorien angegeben hat, in denen er sich spezialisiert, ist es genau das, was Sie suchen. Aber es ist immer besser, man fragt nach.
+        </p>
+        <p>
+          Falls auf Ihrem Besuchsprogramm im Großen nur Museen stehen, ist es sinnvoll auch jemanden als Begleiter und Dolmetscher auszusuchen, der sich für Kunst, Geschichte, Technik begeistert und wird auch in der Lage sein wird, zusätzlich zu einer qualitativen Übersetzung Ihnen auch die Stadt mit ihren Sehenswürdigkeiten zu zeigen. Für die Rolle Ihres Begleiters in diesem Fall wird sich ein Dolmetscher eignen, der unter anderen Qualifikationsbereichen „Kunst“ angegeben hat, oder auch eine Person, die lange vor Ort lebt und ein Fremdenführer sein kann.
+        </p>
+        <p>
+          In jedem Fall ist es wichtig schon im Vorfeld sich für eine Kandidatur zu entscheiden und es auch schon mit dem Dolmetscher im Vorfeld seine Einsatzzeiten zu besprechen. Soll er Sie den ganzen Tag begleiten oder soll er nur sporadisch zur Übersetzung wichtiger Treffen, Verhandlungen, Exkursionen zur Verfügung stehen?
+    phone_talking:
+      title: "Telefondolmetschen"
+      text: |
+        <p>
+          Mit der Entwicklung der Kommunikationsmittel und damit verbundenen Steigerung der Verbindungsqualität wird unter anderen Dolmetscherarten immer häufiger auch das Dolmetschen am Telefon gefragt.
+        </p>
+        <p>
+          Angenommen, Sie sind im Ausland und Ihnen steht ein Telefonat (z.B. vom Hotel aus, oder vom Verhandlungsraum eines Business-Zentrums, von einem Café etc.) bevor und Sie brauchen Dienste eines Dolmetschers vor Ort.
+        </p>
+        <p>
+          Auf was sollen Sie bei der Auswahl eines Dolmetschers für solche Zwecke achten?
+          Zum einen, erlauben die herkömmlichen Kommunikationsmitteln auch eine Fernübertragung. Man verwendet dafür die Konferenzfunktion, wobei mehrere Sprecher gleichzeitig mit einer Telefonnummer verbunden werden können. So können alle drei Parteien (der Anrufer, der Angerufene und der Dolmetscher) an drei unterschiedlichen Orten sein. Der Preis für eine solche Verbindung bei einer sündigen Unterhaltung könnte erheblich sein.
+        </p>
+        <p>
+          Eine andere Variante ist ein gewöhnlicher Lautsprecher. In diesem Fall befindet sich der Dolmetscher in einem Raum mit dem Anrufer und verdolmetschet das Gesagte in eine oder andere Richtung. Bei Bedarf kann er auch zusätzliche Fragen stellen.
+          Die Anforderungen an den Dolmetscher beim Telefondolmetschen:
+        </p>
+        <ul>
+          <li>
+            Das fachliche Verständnis und Kenntnisse relevanter Begriffe;
+            gutes Hörverständnis;
+          </li>
+          <li>
+            Die Fähigkeit das Gesagte, bzw. das Gehörte, schnell und genau in beide Richtungen zu Übersetzen. Kurze präzise Sätze und einfache Formulierungen sind von Vorteil;
+          </li>
+          <li>klare und deutliche Aussprache der fremden Sprache.</li>
+        </ul>
+        <p>
+          Um diese Aufgabe zu lösen, können Sie sowohl einen Konsekutiv- als auch einen Simultandolmetscher engagieren. Diese Entscheidung hängt vor allem von der Situation und auch von der Organisation sehr stark ab. Wir empfahlen Ihnen es schon im Vorfeld mit dem Dolmetscher zu besprechen, wie und was er zu übersetzen hat. Informieren Sie ihn oder sie rechtzeitig über das Thema des Gesprächs, es wird dem Dolmetscher helfen, sich auf das Gespräch einzustellen.
+        </p>
+        <p>
+          Treffen Sie keine voreiligen Entscheidungen bei der Auswahl Ihres Dolmetschers. Es muss ein Profi sein, der selbst bei der schlechten Verbindungsqualität in der Lage sein wird aus den abgerissenen Phrasen den Sinn zu erschließen und den auch richtig wiederzugeben.
+        </p>
+        <p>
+          Man muss auch mitbedenken, dass selbst wenn der Dolmetscher zu einer bestimmten Uhrzeit ins Büro, Hotel oder Business-Zentrum zum Telefondolmetschen bestellt wird, kann der Angerufene gerade nicht am Platz sein, weil etwas dazwischen gekommen ist. So kann dann auch das geplante Telefonat nicht stattfinden. Um solche Unannehmlichkeiten zu vermeiden, muss die genaue Uhrzeit und die Dauer des Gesprächs im Vorfeld festgelegt werden. Beim Konsekutivdolmetschen muss man eine etwas längere Zeit einplanen.
+        </p>
+    interview:
+      title: "Dolmetschen beim Interview"
+      text: |
+        <p>
+          Steht auf dem Programm Ihrer Auslandsreise ein Interview mit den Massenmedien, so brauchen Sie unbedingt die Dienste eines qualifizierten Dolmetschers.
+        </p>
+        <p>
+          Vieles hängt mit der Organisation des Interviews zusammen. Mehrere Varianten sind möglich:
+        </p>
+        <p>
+          <strong>1.</strong>
+          Der Dolmetscher übersetzt aus dem Stegreif sowohl die Ihnen gestellten Fragen, als auch Ihre Antworten. Das Gespräch wird mit einem Diktiergerät aufgezeichnet und wird dann später ganz oder in Abschnitten gesendet.
+        </p>
+        <p>
+          Da diese Art des Dolmetschens in gewisser Hinsicht um einiges anspruchsvoller ist, als das Simultandolmetschen, sind damit auch die höheren Anforderungen verbunden.
+          Am besten eignet sich für solche Aufgabe ein hochqualifizierter Konsekutivdolmetscher, der in der Lage ist, sich längere Textabschnitte zu merken und im Idealfall auch schnellschreiben kann.
+        </p>
+        <p>
+          Ein Simultandolmetscher wird bei dieser Aufgabe gewisse Schwierigkeiten haben, da er in diesem Falle konsekutiv dolmetschen müsste, was aber nicht jeder Simultandolmetscher kann.
+        </p>
+        <p>
+          <strong>2.</strong>
+          Das Interview wird live gesendet oder, was fast das Gleiche wäre, wird für eine Live Sendung aufgezeichnet. In diesem Falle gelten gewisse Regelungen, die die ohnehin komplizierte Aufgabe für en Dolmetscher noch zusätzlich erschweren. In der Regel wird der Dolmetscher genau eingewiesen, wo er zu stehen hat (im Bild oder außerhalb) und wann er sprechen bzw. übersetzen darf, wie laut seine Stimme sein soll usw.
+        </p>
+        <p>
+          <strong>3.</strong>
+          Eine einfachere Variante, die aber weniger oft vorkommt ist wenn der von Ihnen eingeladene und bezahlte Dolmetscher ein Satz nach dem anderen die an Sie gestellten Frage und Ihre Antworten darauf übersetzt. Die Fragen und Ihre Antworten werden mit Hilfe eines Diktiergerätes Aufgezeichnet. Ein paar Tage später bekommen Sie ein Stenogramm Ihres Gespräches übersetzt in die Fremdsprache, das für die Veröffentlichung in einem Verlag geplant ist. Sie können den Übersetzer beauftragen Ihnen das Gegenübersetzung in Ihre Muttersprache anzufertigen und so auch gewisse Veränderungen einbringen, falls solche notwendig sind.
+        </p>
+        <p>
+          Wir empfahlen Ihnen in jedem Fall den gefragten Dolmetscher über das Format und die Länge des Interviews im Vorfeld zu informieren. So kann er immer noch seine eigenen Fähigkeiten und Kräfte einschätzen. Von großer Bedeutung ist die Sprachkompetenz eines Dolmetschers, seine Aussprache und zum Teil auch sein Äußeres.
+        </p>
+        <p>
+          Die Übersetzung gelingt besser, wenn der Dolmetscher sich mit den Fragen im Vorfeld vertraut gemacht hat und es mit Ihnen besprochen hat, wie die Schlüsselbegriffe oder Personennamen und Posten richtig zu übersetzen und auszusprechen sind.
+        </p>
+    press_conference:
+      title: "Verdolmetschung einer Pressekonferenz"
+      text: |
+        <p>
+          Sie nehmen an einer Pressekonferenz teil und beantworten die Fragen der Journalisten.
+          Die Aufgabe eines Dolmetschers bei der Pressekonferenz ist eine die mit der größten Verantwortung verbunden ist und somit auch sehr intensiv. Die verlangt vom Dolmetscher Konzentration höchsten Grades.
+        </p>
+        <p>
+          Das Dolmetschen an einer Pressekonferenz hat im Grunde vieles mit dem Verdolmetschen eines Interview mit dem Unterschied, dass der Ablauf einer Pressekonferenz noch förmlicher ist und die Fragen werden gleich von mehreren Personen, Repräsentanten der Massenmedien gestellt. Im Gegenteil zu Interview werden diese sehr selten im Vorfeld bekannt gegeben und sind recht spontan.
+        </p>
+        <p>
+          Um bei einer Pressekonferenz zu dolmetschen, werden eher erfahrene Dolmetscher eingeladen, die sowohl simultan, als auch konsekutiv dolmetschen. Für einen rein Simultandolmetscher könnte diese Aufgabe schwierig fallen, die längeren Passagen zu übertragen.
+        </p>
+        <p>
+          Der Dolmetscher muss straff und stramm sein, souverän auftreten und maximal präzise von und in die Fremdsprache übersetzen. Falls er ein Teil der Antwort akustisch nicht verstanden hat, ist es immer besser nachzufragen, als die Antwort selber zusammen zu reimen.
+        </p>
+        <p>
+          Es ist nahe zu legen, den Dolmetscher schon im Vorfeld über das Thema der Pressekonferenz zu informieren und auch über die Fragen oder Angelegenheiten, die dabei behandelt werden können. Dann hat der Dolmetscher die Möglichkeit, sich auf seine Aufgabe vorzubereiten. Somit steigt auch die Qualität der Übersetzung. Falls Sie eine vorbereitete Préssemitteilung schon haben, dann ist es sinnvoll die dem Dolmetscher schon vor der Pressekonferenz zu zeigen. Und noch besser wäre den Übersetzer damit zu beauftragen die Texte in die Fremdsprache zu übersetzen.
+          Eine große Hilfe für den Dolmetscher wird auch die Liste aller Teilnehmer der Pressekonferenz in beiden Sprachen.
+        </p>
+
+    protocol_translation:
+      title: "Dolmetscher bei der diplomatischen Anläßen"
+      text: |
+        <p>
+          Das Dolmetschen bei einem diplomatischen Anlass hat vieles mit dem Dolmetschen bei den Verhandlungen gemeinsam. Mit einem kleinen Unterschied, dass in diesem Fall das Treffen einen offiziellen Charakter hat und nach Protokoll verläuft.
+          Dementsprechend wird es von Dolmetscher nicht nur eine klasse Leistung erwartet. Auch das Verhalten und Aussehen eines Dolmetschers muss einem gewissen Protokoll entsprechen. Ein Anzug und eine Krawatte sind hier unabdingbar!
+        </p>
+        <p>
+          Der Dolmetscher soll Verschwiegenheit über alle ihm zur Vorbereitung gestellten Informationen, oder die Themen, die bei dem Treffen behandelt werden bewahren.
+        </p>
+        <p>
+          Bei der diplomatischen Anlässen ist die Sitzordnung der Teilnehmer, einschließend den Platz für den Dolmetscher festgelegt. In der Regel sitzt der Dolmetscher zu der Rechten oder der Linken des Delegationsführers. Allerdings, es gibt auch Ausnahmen.
+        </p>
+        <p>
+          Wichtig ist, dass der Dolmetscher während der Vorstellung und auch im Laufe des Treffens alle Namen, Titel und Organisationen richtig benennt. Um sich die Peinlichkeiten zu ersparen, empfehlen wir Ihnen, dem Dolmetscher schon im Vorfeld alle notwendigen Informationen (Namen, Titel und Organisationen) zukommen zu lassen und auf die richtige Aussprache deren hinzuweisen.
+        </p>
+        <p>
+          Im Gegensatz zu dem in Europa geltenden Prinzip „nur in die Muttersprache übersetzen“, bei einem diplomatischen Treffen gilt die umgekehrte Regelung. Nämlich, die Rede eines Repräsentanten der Russischen Föderation wird von „seinem“ Dolmetscher in die Fremdsprache (Englisch, Deutsch usw.) überragen und umgekehrt. Spricht der Sprecher der ausländischen Delegation, wird seine Rede von „seinem“ Dolmetscher ins Russische übertragen.
+        </p>
+        <p>
+          Man glaubt, der „eigene“ Dolmetscher ist mit allen Einzelheiten der Angelegenheit vertraut und – WIHTIG! – wird keine ideologische Verzerrung der Information bei der Verdolmetschung der Rede seines Vorgesetzten zulassen, und alles so übertragen, „wie es sich gehört“. Kleine stilistische Ungenauigkeiten sind an der Stelle nicht von Belangen.
+        </p>
+        <p>
+          Darüber hinaus, kann man seinen eigenen Dolmetscher für eine ungenaue oder nicht komplette Übersetzung auch bestraffen. Man kann ihn während der Übersetzung berichtigen oder ihm ein Hinweis zur Übersetzung geben, falls er damit Schwierigkeiten hat. Das wird auch nicht als Verstoß gegen das Etikett gelten.
+        </p>
+
+    judicial_translation:
+      title: "Gerichtsdolmetscher"
+      text: |
+        <p>
+          Angenommen, Sie als Klägerin, die Beklagte oder als Vertreter müssen nach Ausland für einen Gerichtverhandlung kommen - und da benötigen Sie eine lokale Gerichtsdolmetscher.
+        </p>
+        <p>
+          In vielen Ländern gibt es einen speziellen privilegierten Kategorie der sogenannten "vereidigte Dolmetscher", manchmal heissen sie als "Gerichtsdolmetscher".
+        </p>
+        <p>
+          In der Regel die Mitarbeiter des beklagtes oder klagendes Unternehmen ist nicht berechtigt als Dolmetscher bei der Gerichtsverhandlung teilzunehmen, weil in diesem Fall, die Objektivität von Dolmetschen kann nicht garantiert werden.
+        </p>
+        <p>
+          Wenn die russischsprachige Touristen oder Geschäftsleute im Ausland, sagen wir, in Deutschland oder Frankreich, für Ordnungswidrigkeiten oder wegen des Verdachts auf jede Straftat zu begehen haben, dann, natürlich, muss er nicht selbst ein Dolmetscher suchen. Diese Aufgabe ubernimmt die örtliche Polizei und Justizbehörden. Aber wenn Sie in dem Verfahren in  Schiedsgericht oder im Zivillprozess der Kläger oder der Beklagte sind, dann können Sie es versuchen selbs eine unabhängige Dolmetscher Ihre Wahl anzubieten. Das Gericht hat die Rechte dieses zu akzeptieren abzulehnen.
+        </p>
+        <p>
+          Für eine erfolgreiche Dolmetschen im Gericht, neben guten Fähigkeiten in Konsekutivdolmetschen, es ist sehr nützlich wenn Dolmetscher auch die Rechtsterminologie im Bereich dieses Gerichtsverhandlung beherrscht. Zum Beispiel, Zivilrecht, Handelsrecht, oder das Seerecht - diese sind sehr unterschiedliche Bereiche wo viele spezifische Terminologie benutyt wird. Wenn alles anderes gleich ist, es ist immer besser, so einen Dolmetscher auszusuchen, der Erfahrung in der erfolgreichen Dolmetschen von ähnlichen Gerichtverhandlungen hat. Es ist wichtig, dass der Dolmetscher das ganzen mündlichen Verhandlungen versteht, und in erster Linie, die Verfahrenssprache, als auch die Fähigkeiten hat, schnell und präzis alle Fragen und Antworten für beide Seiten zu dolmetschen.
+        </p>
+        <p>
+          Es wird angenommen, dass jeder zertifizierte "vereidigten Dolmetscher" per Definition diese Voraussetzungen erfüllt. Aber wenn in diesem Land keine institutionalisierten Kategorien von Vereidigte- oder Gerichtsdolmetscher gibt, dann es ist besser, im Voraus zu klären, welche formelle Anforderungen die Justizbehörden dieses Landes an die Gerichtdolmetscher die bei die Verhandlungen tätig sind, inkl. Befragung von Zeugen usw. haben.
+        </p>
+        <p>
+          In jedem Fall die erste Vorrausetzung ist, dass der Dolmetscher seine Qualifikation bescheinigen kann (Universitätsdiplom eines Dolmetschers oder eine Bescheinigung über die Hinterlegung der entsprechenden Eignungsprüfung) und - als zweiter wichtiger Faktor - (nicht für den Gericht, aber für den Kunden), dass der Dolmetscher die ensprechenden professionellen Erfahrung bei Gerichtdolmetschen hat.
+        </p>
+        <p>
+          Unabhängig davon, ob es sich um eine offiziell vereidigten Dolmetscher handelt oder einfach nur um einen erfahrenen Dolmetscher der in den rechtlichen Bereichen versteht, es ist immer wünschenswert, dass Sie zumindest in allgemeiner Form den Dolmetscher in Ihre Situation einführen und ihn mit gerichtliche Unterlagen und Rechtstreitproblemathik bekannt machen.
+        </p>
+  help_page:
+    search:
+      title: "Dolmetscher suchen"
+      block0: 'Geben Sie die Suchparameter an . <br> Geben Sie die Stadt an, wo Sie den Dolmetscher brauchen im Feld „WO“.'
+      block1: |
+        Drücken Sie auf Feld „Wann“. Das Datum-Fenster wird geöffnet, wählen Sie das Datum und die Uhrzeit aus.
+        <br>
+        Wählen Sie das Datum aus, wann Sie Dienste eines Dolmetschers benötigen. Geben Sie den Zeitraum an. Um die ausgewählten hinzufügen, drücken Sie den Button „Hinzufügen“. Sie können mehrere Tage und Zeitabschnitte definieren.
+        <br>
+        Bestätigen Sie Ihr Datum und Zeitauswahl mit dem Button „Bestätigen“.
+      block2: "Geben Sie im Feld «WELCHE SPRACHE WIRD BENÖTIGT» die benötigte Sprachenkombination. Wählen Sie aus der Liste der in dieser Stadt vorhandenen Sprachen aus."
+      block3: "Nachdem Sie alle Suchkriterien bestimmt haben, drücken Sie «SUCHEN». Unser Such-Roboter wird umgehend Ihre Anfrage bearbeiten und in einigen Sekunden wird sich die Seite mit den Suchergebnissen öffnen."
+    filter:
+      title: 'Suchergebnisse werden sortiert, Dolmetscher werden ausgesucht'
+      block0: 'Die Liste der Dolmetscher in der von Ihnen angefragte Stadt, kann bis zu einigen Duzende enthalten. Sich aus der Menge den Passenden auszusuchen wird Ihnen die Filter-Funktion helfen. <br> Sie können, zum Beispiel, Dolmetscher nach dem «Preis» filtern.'
+      block1: 'Um Dolmetscher nach Dienstleistung zu sortieren, geben Sie ein oder mehrere Kriterien. In Ergebnissen werden nur diejenigen bleiben, die die angefragte Dienstleistung anbieten.'
+      block2: 'Wählen Sie Bereiche des Dolmetschens, die am besten zu Ihrer Situation passen. Unter den Ergebnissen werden nur die Dolmetscher bleiben, die nur in diesen Bereichen tätig sind.'
+      block3: 'Die vom System angeboten Suchergebnisse können somit nach dem für Sie wichtigsten Parameter sortiert werden. Falls Sie hauptsächlich an günstigen Dienstleistungen interessiert sind, sortieren Sie die Ergebnisse nach Preis. Die ersten Positionen auf der Ergebnisliste werden die „günstigen“ Dolmetscher erscheinen. Drücken Sie das zweite Mal auf „Preis“-Button, werden die Ergebnisse in der umgekehrten Reihenfolge angezeigt – die „teuren“ zu erst. Diese Funktion gibt Ihnen die Möglichkeit als erstes die hochklassigen Übersetzer als erstes in Betracht zu ziehen, die in der Regel auch etwas mehr kosten. <br> Sie können auch Dolmetscher nach deren Lebensläufen oder nach dem Datum der Profilaktualisierung sortieren.'
+      block4: 'Bei Bedarf können Sie auch eine neue Dolmetscher-Liste erstellen. Ändern Sie dafür die Such-Kriterien auf dieser Seite und drücken Sie auf "Suchen". Das System wird Ihnen neue Suchergebnisse vorschlagen. '
+      block5: 'Um sich das Profil des von Ihnen ausgewählten Dolmetschers anzuschauen, seine Angebote und seine Dienstleistungen, klicken Sie auf sein Bild oder seinen Namen. Sein Profil-Fenster wird geöffnet.'
+    view:
+      title: "Dolmetschers Profil anschauen, Dienstleistung auswählen"
+      block0: 'Die Seite zeigt Ihnen die wichtigsten Informationen über den Dolmetscher an: Beschreibung, Fremdsprachenkombinationen, Fachbereiche und Arte des Dolmetschens. Informationen über seine Abschlüsse, Zertifikate, Erfahrung, Referenzen und Veranstaltungen werden in separaten Fenstern mit dem Mausklick geöffnet.'
+      block1: 'Im Abschnitt "Änliche Dolmetscher" werden auch die restlichen Dolmetscher angezeigt, die in der gefragten Stadt gefunden wurden. Mit einem Mausklick auf den Namen können Sie sich die Information über den Dolmetscher ansehen.'
+      block2: 'Die Dolmetscher bieten Ihre Sprachdienste an. Wählen Sie sich die für Sie interessante Dienstleistung aus und drücken Sie auf "Bestellen" gegenüber dieser Dienstleistung.'
+      block3: 'Direkt nachdem Sie die Sprachdienstleistung ausgesucht haben öffnet sich das Fenster mit dem Bestellformular.'
+    order:
+      title: "Bestellung abgeben"
+      block0: "Bevor Sie Ihre Bestellung abgeben, gehen Sie Ihre Bestellung sorgfältig noch Mal durch."
+      block1: "Falls Sie auf der Seite schon registriert sin oder schon Mal bestellt haben, können Sie Ihre Bestellung schneller abgeben. Autorisieren Sie sich mit Ihrem Login und Passwort. Falls Sie noch nicht registriert sind, können Sie auch ohne Registrierung weiterfahren. Nach der Abgabe Ihrer Bestellung werden Ihre Daten automatisch gespeichert."
+      block2: |
+        Um die von Ihnen ausgesuchte Dienstleistung zu bestellen, füllen Sie den Bestellformular aus:
+        <br>
+        <strong> 1.</strong> Geben Sie Ihre Personaldaten im Bereich «Informationen über den Besteller»
+      block3: "<strong> 2.</strong> Geben Sie Personaldaten des Benutzers, falls nicht Sie persönlich Dienste des Dolmetschers nutzen werden (falls Sie die Dienste des Dolmetschers persönlich nutzen werden, geben Sie die gleichen Daten, wie in der «Informationen über den Besteller» an.) Beachten Sie, dass die Telefonnummer, die Sie angegeben haben der Kommunikation mit dem Dolmetscher dienen sollte, deswegen geben Sie diese mit dem internationale Vorwahl, z.B. «+7...» für die Nummer aus Russland. Zum Beispiel, Ihre Telefonnummer lautet 89023150000, dann müssen Sie +79023150000 angeben. Um Ihre Daten zu überprüfen, wird Ihnen eine sms mit dem Code zugeschickt."
+      block4: '<strong>3.</strong> Geben Sie die genaue Adresse des Treffpunkts mit dem Dolmetscher, nutzen Sie dafür das Feld für die Adressenangabe oder die Karte der ausgesuchten Stadt'
+      block5: "<strong> 4. </strong> Bei der Abgabe Ihrer Bestellung können Sie alle Informationen angeben die für den Dolmetscher für die Vorbereitung von Nutzen sein können: Tagesordnung des geplanten Treffs, Themen usw. Sie können auch den File mit der Präsentation oder anderen Informationen als Anhang beifügen. Dieser wird dem Dolmetscher mit der Bestätigung des Auftrages zugesandt."
+      # block6: 'Im Falle einer Firmenbestellung, wählen Sie «Eine Firmenbestellung abgeben», und füllen Sie den Bestellformular aus. Im Übrigen unterscheidet sich die Firmenbestellung keineswegs von einer privaten Bestellung.'
+      # block7: "Nachdem Sie den Bestellformular ausgefüllt haben, wählen Sie die Zahlungsart."
+    payment:
+      title: "Zahlungsart"
+      block0: |
+        <p>Wählen Sie eine Zahlungsart, nachdem Sie den Bestellformular ausgefüllt haben:</p>
+        <ul>
+          <li>Zahlung mit der Karte; </li>
+          <li>Zahlung per Überweisung;</li>
+          <li>Zahlung bar; </li>
+        </ul>
+      block1: |
+        <br>
+        Falls Sie sich für die Zahlung mit der Karte entschieden haben, müssen Sie folgendes tun:
+        <br>
+      Geben Sie die Karte an: |
+        VISA oder Master Card
+        <br>
+        2. Geben Sie die Kartennummer an (die 16 stellige Zahl auf der Rückseite der Karte)
+        <br>
+        3. Gültigkeitsdatum der Karte
+        <br>
+        4. Geben Sie den Vor- und Nachnamen des Kartenbesitzers, so wie es auf der Karte steht
+        <br>
+        5. Geben Sie den Sicherheits-Code ein (CVC/CVV) – der zusätzliche Code auf der Rückseite Ihrer Karte
+        <br>
+        6. Bestätigen Sie, dass Sie die Regeln und Bedingungen gelesen haben und damit einverstanden sind
+        <br>
+        7. Drücken Sie «Dolmetscher bestellen»
+      block2: |
+        <p>
+          Es wird etwa eine Minute dauern um Ihre Bestellung aufzunehmen und die Zahlung durchzuführen. Bitte gehen Sie nicht auf „Seite erneut laden“ und schließen Sie das Fenster nicht bevor alle Vorgänge nicht abgeschlossen sind
+          <br/>
+          Nachdem Sie Ihre Bestellung aufgenommen haben und die Zahlung durchgeführt haben, wird die Summe Ihrer Bestellung sofort auf Ihrer Karte gesperrt. Das Fenster mit den Details zu Ihrer Bestellung und derer Bestätigung wird geöffnet. Das Geld wird entweder sofort oder in wenigen Tagen von der Kreditkarte abgezogen. Das hängt von den Bedingungen der kostenfreien Stornierung ab.
+        </p>
+        <p>Einige Minuten nachdem die Zahlung abgeschlossen ist, erhalten Sie eine E-Mail mit den Details Ihrer Bestellung, Zahlungsbestätigung und Ihren Bestellungs-Voucher. Der Voucher ist ein einheitliches Dokument, das Ihre Bestellung der Dolmetscher Dienstleistungen und Bezahlung bestätigt. Wir raten Ihnen dazu, der Voucher auszudrücken oder auf Ihrem mobilen Gerät zu speichern und auf Ihre Reise mitzunehmen.</p>
+        <p>
+          Falls Sie keine E-Mail mit Voucher und Ihrer Bestellungs- und Zahlungsbestätigung erhalten haben, schauen Sie bitte in Ihrem SPAM-Ordner nach. Die E-Mail könnte wegen falscher Einstellungen in SPAM geraten. Finden Sie dennoch keine E-Mail von uns, rufen Sie unseren kostenfreien rund-um-die Uhr- Service an:
+          <br/>
+          +7 (495) 374-59-47
+        </p>
+        <p>Bei der Stornierung Ihrer Bestellung, wird die Summe Ihrer Bestellung zurück auf die  Kreditkarte gebucht, mit der Sie die Bestellung bezahlt haben. In manchen Fällen, die schon im Vorfeld festgelegt werden, darf der Service ein Teil oder die Gesamte Summe der stornierten Bestellung einbehalten. Bestellung- und Stornierungsbedingungen sind immer neben der Preise angegeben so wie in den Allgemeinen Geschäftsbedingungen der interpreters.travel. Lesen Sie diese unbedingt durch, bevor Sie Ihre Bestellung abgeben.</p>
+      block3: 'Falls Sie Ihre Bestellung per Banküberweisung bezahlen wollen, wählen Sie "Banküberweisung" aus.'
+      block4: |
+        <p>
+          Die zu bezahlende Rechnung können Sie sich direkt auf dieser Seite einsehen. Nachdem Sie Ihre Bestellung abgegeben haben, wird Ihnen die Rechnung zusammen mit der Bestellungsbestätigung per E-Mail zugesandt. Die Rechnung können Sie auf jede für Sie bequeme Art bezahlen: über Ihr online-banking System oder in dem Filiale Ihrer Bank.
+          <br/>
+          Die Zahlungsfrist muss eingehalten werden. Sonst wird Ihre Bestellung automatisch storniert. Da die Überweisung manchmal bis zu drei Arbeitstagen dauern kann, empfehlen wir Ihnen diese rechtzeitig vorzunehmen.
+          <br/>
+          Nachdem Ihre Zahlung bei uns eingegangen ist, wird Ihnen die Zahlungsbestätigung und der Bestellungs-Voucher per E-Mail an Ihre E-Mail Adresse zugesandt. Der Voucher ist ein einheitliches Dokument, das Ihre Bestellung der Dolmetscher Dienstleistungen und Bezahlung bestätigt. Wir raten Ihnen dazu, der Voucher auszudrücken oder auf Ihrem mobilen Gerät zu speichern und auf Ihre Reise mitzunehmen.
+        </p>
+        <p>
+          Falls Sie keine E-Mail mit Voucher und Ihrer Bestellungs- und Zahlungsbestätigung erhalten haben, schauen Sie bitte in Ihrem SPAM-Ordner nach. Die E-Mail könnte wegen falscher Einstellungen in SPAM geraten. Finden Sie dennoch keine E-Mail von uns, rufen Sie unseren kostenfreien rund-um-die Uhr- Service an:
+          <br/>
+          +7 (495) 374-59-47
+        </p>
+        <p>Im Falle einer Stornierung Ihrer Bestellung, das Geld wird auf das Konto zurückgebucht, von dem Sie Ihre Bestellung bezahlt haben. In manchen Fällen, die schon im Vorfeld festgelegt werden, darf der Service ein Teil oder die Gesamte Summe der stornierten Bestellung einbehalten. Bestellung- und Stornierungsbedingungen sind immer neben der Preise angegeben so wie in den Allgemeinen Geschäftsbedingungen der interpreters.travel. Lesen Sie diese unbedingt durch, bevor Sie Ihre Bestellung abgeben.</p>
+      block5: ""
+      block6: |
+        <p>
+        Haben Sie als Zahlungsmöglichkeit „Bar“ angegeben, müssen Sie die Dolmetscherdienste direkt beim Dolmetscher bezahlen, direkt nachdem die Leistungen erbracht sind. Über die Währung müssen Sie sich schon im Vorfeld mit dem Dolmetscher einigen. </p>
+        <p>Achten Sie darauf, dass bei Barzahlungen kann die Summe Ihrer Bestellung je nach Wechselkurs sich ändern.”</p>
+      block7: |
+        <p>Sie können Ihre Bestellung in Bar über QIWI bezahlen. Dafür müssen Sie folgendes angeben:</p>
+        <ul>
+          <li>Die Telefonnummer, die Sie benutzt haben um Ihre Bestellung abzugeben </li>
+          <li>Bestellungsnummer</li>
+        </ul>
+        <p>Diese Informationen finden Sie in Ihrem Account auf unserer Webseite, im Bereich „Meine Bestellungen“ oder in der Bestätigung Ihrer Bestellung. </p>
+        <p>
+          Mit diesen Parametern können Sie Ihre Bestellung mittels QIWI (QIWI Wallet) bezahlen. Dafür:
+          <br/>
+          <strong>1.</strong>
+          Wählen Sie im Zahlungsterminal QIWI den Bereich QIWI Wallet
+        </p>
+      block8: '<strong> 2.</strong> Geben Sie die Telefonnummer, die Sie bei Ihrer Bestellung angegeben haben'
+      block9: |
+        <strong>3.
+          Falls Sie im QIWI System registriert sind, geben Sie Ihr Pin an. Falls Sie nicht registriert sind, reicht Ihre Telefonnummer vollkommen aus. Um die Zahlung zu vollenden, ist keine Registrierung notwendig.
+        </strong>
+        <p>
+          <strong>4.</strong>
+          Wählen Sie den Bereich «Die zuzahlende Rechnungen».
+        </p>
+      block10: |
+        <p>Die zuzahlende Rechnungen sind in eine Liste «Reserviert von interpreters.travel» mit den Bestellungsnummern aufgestellt.</p>
+        <p>
+          <strong>5.</strong>
+          Finden Sie die Nummer Ihrer Bestellung und klicken Sie auf «Zahlen».
+          <br/>
+          Achten Sie darauf, dass die QIWI Zahlungsterminale kein Wechselgeld rausgeben. Falls Sie eine höhere Summe als Ihre Bestellung einzahlen, wird der Rest auf Ihr QIWI Account gutgeschrieben. Diese Summe können Sie später, zum Beispiel auf Ihr Prepaid-Handy-Konto überweisen.
+        </p>
+        <p>
+          <strong>
+            Noch mal zusammenfassend:
+            <br/>
+            QIWI Wallet → Ihre Telefonnummer → Die zuzahlende Rechnungen → Bestellungsnummer → Bezahlen
+          </strong>
+        </p>
+        <p>Nachdem das Geld bei uns auf dem Konto erschein, schicken wir Ihnen eine E-Mail mit der Bestätigung Ihrer Zahlung, einer Quittung und Ihrem Bestellungsvoucher. Der Voucher ist ein einheitliches Dokument, das Ihre Bestellung der Dolmetscher Dienstleistungen und Bezahlung bestätigt. Wir raten Ihnen dazu, der Voucher auszudrücken oder auf Ihrem mobilen Gerät zu speichern und auf Ihre Reise mitzunehmen.</p>
+        <p>
+          Falls Sie keine E-Mail mit Voucher und Ihrer Bestellungs- und Zahlungsbestätigung erhalten haben, schauen Sie bitte in Ihrem SPAM-Ordner nach. Die E-Mail könnte wegen falscher Einstellungen in SPAM geraten. Finden Sie dennoch keine E-Mail von uns, rufen Sie unseren kostenfreien rund-um-die Uhr- Service an:
+          <br/>
+          +7 (495) 374-59-47
+          <br/>
+          Im Falle einer Stornierung Ihrer Bestellung, wird das Geld auf das von Ihnen gewünschte Konto über das Übersweisungssystem Contact überwiesen. Unsere Mitarbeiter werden Sie kontaktieren um mit Ihnen die Rückzahlung Ihres Geldes zu organisieren. In manchen Fällen, die schon im Vorfeld festgelegt werden, darf der Service ein Teil oder die Gesamte Summe der stornierten Bestellung einbehalten. Bestellung- und Stornierungsbedingungen sind immer neben der Preise angegeben so wie in den Allgemeinen Geschäftsbedingungen der interpreters.travel. Lesen Sie diese unbedingt durch, bevor Sie Ihre Bestellung abgeben.</
+        </p>
+    cabinet:
+      title: "Personal Account"
+      block0: |
+        <p>In Ihrem Personal Account können Sie alle Ihre Bestellungen sehen und den Verlauf Ihrer Gesuche verfolgen. Um Ihr Personal Account zu betreten benutzen Sie Ihr eigenen Login und Passwort, die Sie per E-Mail bei Ihrer Anmeldung erhalten haben. </p>
+        <p> Im Bereich «Meine Bestellungen» sehen Sie alle Ihre Bestellungen. Mit einem Klick auf die Bestellung, öffnet sich das Fenster mit Ihrer Bestellung. Falls die Bestellung noch nicht vollbracht ist, können Sie diese stornieren. Drücken Sie dafür auf «Bestellung stornieren». </p>
+      block1: "Im Bereich «Meine Gesuche» sehen Sie den Verlauf Ihrer Gesuche. Mit einem Klick auf das Gesuch, öffnet sich das Fenster mit den Suchergebnissen."
+      block2: ''
+  support_page:
+    title: "Support 24/7"
+    header_text: |
+      <h2> Wir sind für Sie da. 24 Stunden am Tag 7 Tage in der Woche.</h2>
+      <p> Jeder, sowohl ein Dolmetscher, als auch ein Kunde kann unser Support-Team aufsuchen. Wir helfen Ihnen jede Zeit wo immer Sie sind.</p>
+    help_link: "Hilfe"
+    footer_text: |
+      <p></p>
+  terms_page:
+    title: "Regeln und Bedingungen"
+    text: |
+      <p>
+        Gesellschaft  Interpreters.travel OÜ (weiter
+        <strong>«Interpreters.travel»</strong>
+        ,
+        <strong>«wir»</strong>
+        ,
+        <strong>«uns»</strong>
+        ,
+        <strong>«uns»</strong>
+        ,
+        <strong>«durch uns»</strong>
+        или
+        <strong>«unser»</strong>
+        ), ist registriert gemäß der Gesetzgebung der Republik Estland, ist eine Online-Plattform, die einen Kunden (weiter
+        <strong>«Kunde»</strong>
+        )
+        Dolmetscherdienstleistungen (weiter
+        <strong>«Dienstleistungen»</strong>
+        )
+        Mit einem Dolmetscher (weiter
+        <strong>«Dolmetscher»</strong>
+        )
+        Und solche Dienstleistungen werden über die Aushänge vom Dolmetscher (weiter
+        <strong>«Aushänge»</strong>
+        ) auf der Webseite
+        %{root_link}
+        (weiter
+        <strong>Webseite</strong>
+        ).
+      </p>
+      <p>
+        Mit dem Nutzen der Webseite erklären Sie sich mit allen Bedingungen und Bestimmungen der benannten Regeln und Bedingungen einverstanden. (weiter
+        <strong>«Regeln und Bedingungen»</strong>
+        ),
+        unabhängig davon, ob Sie zu einem registrierten Benutzer der Webseite werden.
+        Die vorliegenden Regeln und Bedingungen legen Ihr Zugang und Benutzung der Webseite und des gesamten Contents fest (weiter
+        <strong>«Content»</strong>
+        ),
+        und sind ein verbindliches Dokument zwischen Ihnen und der Gesellschaft Interpreters.travel.
+        Lesen Sie bitte aufmerksam unsere Geschäftsbedingungen und die Datenschutzerklärung unter:
+        %{privacy_policy_link}
+        Die Datenschutzerklärung ist ein Teil der vorliegenden Allgemeinen Geschäftsbedingungen und ist davon nicht zu trennen.
+      </p>
+      <p>
+        Mit Erhalt des Zuganges und mit der Nutzung der Webseite, mit jedem Download Ihres Contents bestätigen Sie und erklären sich für einverstanden
+        Mit jedem Up- und Download Ihres Contents auf und von der Webseite erklären Sie, dass Sie die vorliegenden Allgemeinen Geschäftsbedingungen gelesen und verstanden haben,
+        unabhängig davon, ob Sie ein registrierter Nutzer sind oder nicht. Falls Sie den vorliegenden Geschäftsbedingungen nicht zustimmen,
+        bekommen Sie keinen Zugang und kein Rech die Webseite oder das Content zu nutzen.
+      </p>
+      <p>
+        Falls Sie den vorliegenden Allgemeinen Geschäftsbedingungen als eine Firma zustimmen, oder als eine juristische Person,
+        erklären Sie, das Sie das Recht haben diese Firma an die vorliegenden Geschäftsbedingungen zu binden,
+        und in diesem Fall, die Wörter „wir“ und „unser“ beziehen sich
+        auf die Firma oder auf die juristische Person.
+      </p>
+      <p>
+        <strong>Schlüsselbegriffe</strong>
+      </p>
+      <p>
+        «Interpreters.travel» - ist eine Gesellschaft  Interpreters.travel OÜ, Informationen über die Gesellschaft finden Sie unter:
+        %{about_link}
+      </p>
+      <p>
+        <strong>«Webseite»</strong>
+        Ist eine Onlineplattform, mit Hilfe derer
+        Dolmetscher können Informationen über Ihre Dienstleistungen veröffentlichen,
+        und die Kunden können diese Informationen empfangen und Dienstleistungen der Dolmetscher bestellen.
+      </p>
+      <p>
+        <strong>«Content»</strong>
+        Bedeutet Text oder graphische Elemente, Informationen und anderes,
+        die die Gesellschaft Interpreters.travel auf der Webseite veröffentlicht, inklusive jegliches Content,
+        das über Lizenz von einem Dritten erworben ist, inklusive das Content, das an die Gesellschaft weitergegeben wurde
+        oder, das von den Dolmetschern und Kunden veröffentlicht wurde.
+      </p>
+      <p>
+        <strong>«Kunde»</strong>
+        Bedeutet ein registrierter Nutzer, der eine Bestellung über die Webseite abgibt.
+      </p>
+      <p>
+        <strong>«Dolmetscher»</strong>
+        Bedeutet ein registrierter Nutzer, der seine Informationen/Angebote uber die Webseite veröffentlicht und die Dienstleistungen direkt liefert.
+      </p>
+      <p>
+        <strong>«Veröffentlichte Informationen/Aushänge»</strong>
+        Bedeutet die vom Dolmetscher veröffentlichte Informationen über seine Dolmetscherdienste, die über die Webseite angeboten werden.
+      </p>
+      <p>
+        <strong>«Bestellungs-Voucher»</strong>
+        - ein wichtiges Dokument, das die Bestellung bestätigt.
+      </p>
+      <p>
+        <strong>«Gesamtsumme»</strong>
+        - ist die Summe einer Bestellung, die der Kunde zu zahlen hat, miteinberechnet sind alle Preisnachlässe, die vom Dolmetscher festgelegt werden und Steuern, falls anwendbar.
+      </p>
+      <p>
+        <strong>Wie funktioniert die Webseite</strong>
+      </p>
+      <p>
+        Die Webseite kann zwecks der Veröffentlichung der Informationen über Dolmetscherdienste und Bestellung dieser Dienste benutzt werden.
+        Die Informationen über solche Dienstleistungen werden vom Dolmetscher auf der Webseite veröffentlicht.
+        Sie können sich die Anzeigen als nicht registrierter Besucher der Webseite ansehen;
+        allerdings, falls Sie eine Dienstleistung bestellen wollen oder eine Anzeige abgeben wollen,
+        müssen Sie sich erst registrieren und Ihren Account anlegen (weiter
+        <strong>«Account»</strong>
+        ), so, wie es oben im Kapitel «Registrieren und Account anlegen» beschrieben ist.
+      </p>
+      <p>
+        Wie oben erklärt, stellt die Gesellschaft Interpreters.travel eine Onlineplattform zur Verfügung
+        sowie alle notwendigen Technologien, damit Kunden einen passenden Dolmetscher mit der passenden Sprachenkombination
+        in der ausgewählten Stadt finden können und die Dolmetscherdienstleistungen für die besagte Zeit am besagten Ort bestellen können.
+        Die Gesellschaft Interpreters.travel ist selbst kein Dolmetscher, kein Vertreter des Dolmetschers,
+        engagiert den Dolmetscher nicht und ist kein Arbeitgeber für den Dolmetscher, ist auch kein Übersetzungsbüro, das die Dolmetscherdienste
+        und andere Dienste, die in den Anzeigen angegeben sind, direkt anbietet.
+        Die Verantwortung der Gesellschaft Interpreters.travel ist lediglich auf die Gewährleistung des Zugangs zu der Webseite
+        Und ihre Rolle für jeden Dolmetscher als Vermittler mit eingeschränkten Befugnissen eingeschränkt, dessen Aufgabe in Zahlungsabwicklung zwischen dem Kunden und dem Dolmetscher besteht.
+      </p>
+      <p>
+        Die Gesellschaft Interpreters.travel kann nicht und kontrolliert auch nicht den Inhalt/Content jeder Anzeige,
+        Bedingungen und Rechtmäßigkeit jeglicher vom Dolmetscher angebotener Dienstleistungen.
+        Die Gesellschaft Interpreters.travel trägt keine Verantwortung für die Anzeigen und die Dolmetscherdienstleistungen und verzichtet auf jegliche Verantwortung,
+        die mit Anzeigen, Content eines Dolmetschers und den Dolmetscherdienstleistungen verbunden ist.
+        Dementsprechend, trägt der Kunde selber die Verantwortung für alle mit der Bestellung einer Dienstleistung verbundenen Operationen.
+      </p>
+      <p>
+        <strong>Das Anlegen eines Accounts</strong>
+      </p>
+      <p>
+        Einige Funktionen auf der Webseite, z.B. einen Dolmetscher finden, die Anzeigen anschauen können Sie auch als nicht registrierter Nutzer nutzen.
+        Allerdings, um die Dolmetscherdienstleistungen zu bestellen, müssen Sie sich registrieren und ein eigenes Account anlegen.
+        Die ausgefallene Registrierung haben wir in den Bestellungsvorgang reinkonzipiert.
+        Ihre Registrierung und das Anlegen von Ihrem Account werden automatisch bei der Abgabe Ihrer Bestellung vollzogen.
+      </p>
+      <p>
+        Falls Sie als Dolmetscher Ihr Account anlegen und eine Anzeige veröffentlichen wollen,
+        müssen Sie erst ein Account auf unserer Webseite beantragen
+        %{help_interpreter_link}
+        und weiter den Anweisungen in der E-Mail folgen. Wir legen Ihr Account und Ihr Profil
+        mit Informationen zu Ihrer Person, die Sie an uns übergeben an.
+      </p>
+      <p>
+        <strong>Anzeigen veröffentlichen</strong>
+      </p>
+      <p>
+        Alle Anzeigen über die Dolmetscherdienstleistungen werden gemäß der vorliegenden Allgemeinen Geschäftsbedingungen
+        sowie Regeln für Dolmetscher veröffentlicht (weiter
+        <strong>«Regeln für Dolmetscher»</strong>
+        ). Regeln für Dolmetscher, sind im Bereich «Help» des Dolmetscher Accounts jedes Dolmetschers,
+        der sich in seinem Account mit Login und Passwort autorisiert, zugänglich.
+      </p>
+      <p>
+        Als registrierter Dolmetscher mit einem angelegtem Account und dem Zugang für die Veröffentlichungen der Anzeigen auf der Webseite,
+        bestätigen Sie und erklären sich für einverstanden, dass mit dem Erhalt des Zugangs für die Veröffentlichungen der Anzeigen erklären Sie,
+        dass Sie es verstehen und damit einverstanden sind, dass Ihr Recht, Ihre Anzeigen zu veröffentlichen, Sie erst dann erhalten, nachdem Sie die Regeln für Dolmetscher
+        sowie die vorliegenden Allgemeinen Geschäftsbedingungen und die Datenschutzrichtlinie gelesen und akzeptiert haben. Falls Sie die Regeln für Dolmetscher, die vorliegenden Allgemeinen Geschäftsbedingungen
+         und die Datenschutzrichtlinie nicht akzeptieren, dann haben Sie auch kein Recht auf die Veröffentlichungen der Anzeigen auf der Webseite.
+      </p>
+      <p>
+        <strong>Eine Bestellung abgeben und die Vorkasse leisten </strong>
+      </p>
+      <p>
+        Wie oben erklärt, stellt die Webseite eine Onlineplattform sowie alle notwendigen Technologien zur Verfügung, damit der Kunde einen passenden Dolmetscher mit der passenden Sprachenkombination
+        in der ausgesuchten Stadt finden können. Um den Dolmetscher zu finden und zu bestellen, benutzt der Kunde Funktionen
+        und Technologien auf der Webseite, die es ihm erlauben, die Anzeigen der Dolmetscher zu durchsuchen und die Dienstleistungen
+        über einen speziellen Bestellformular zu bestellen.
+      </p>
+      <p>
+        Mit einem Deal mit dem Dolmetscher, mit einer Bestellung der Dolmetscherdienste
+        erklären Sie sich damit einverstanden, dass Sie eine Vereinbarung mit dem Dolmetscher schließen müssen. Sie bestätigen und erklären sich damit einverstanden,
+        dass die Gesellschaft Interpreters.travel an keiner solchen Vereinbarungen teilnimmt. Ausgenommen sind die Zahlungen,
+        die im vorliegenden Dokument erwähnt sind. Die Gesellschaft Interpreters.travel teilt keine Verantwortung,
+        die aus besagten Vereinbarungen ausgeht oder mit denen verbunden ist. Sie bestätigen und erklären sich damit einverstanden, dass trotz der Tatsache, dass
+        die Gesellschaft Interpreters.travel nicht an solchen Vereinbarungen teilnimmt,
+        agiert die Gesellschaft Interpreters.travel als ein Vermittler/Zahlungsagent, dessen Aufgabe darauf eingeschränkt ist, die Zahlungen von Kunden an die Dolmetscher anzunehmen.
+        Nachdem das Geld für Ihre Bestellung zugunsten des Dolmetschers auf unserem Konto eingegangen ist, werden Ihre Verpflichtungen dem Dolmetscher gegenüber erloschen.
+        Die Gesellschaft Interpreters.travel übernimmt jetzt die Verantwortung den Dolmetscher für seine Leistungen, nachdem diese erbracht sind, zu bezahlen.
+        Falls die Gesellschaft Interpreters.travel die Zahlung an den Dolmetscher versäumt,
+        darf der Dolmetscher das Geld nur von der Gesellschaft Interpreters.travel fordern.
+        Sie erklären sich damit einverstanden, die Gesamtsumme Ihrer Bestellung an die Gesellschaft Interpreters.travel zu zahlen
+        und die Gesellschaft Interpreters.travel, im Namen des Dolmetschers behält das Recht:
+      <p>
+        <ul>
+          <li>
+            das Vorrecht zu bekommen, das Geld von Ihrer Kreditkarte oder von Ihrem PayPal Konto in Höhe
+            der Summe der Gesamtbestellung abzubuchen, falls zum Zeitpunkt der Bestellung für die ausgesuchte Dienstleistung
+            die kostenfreien Stornobedingungen nicht gelten;
+          </li>
+          <li>
+            Oder das Recht von Ihrer Kreditkarte den Nominalbetrag, der nicht höher als ein Euro beträgt (€1), im Gleichwert zu Rubel abzubuchen,
+             mit dem Zweck, nachzuprüfen, ob die Karte echt ist, falls für den Zeitpunkt der Bestellungsabgabe
+            noch die kostenfreien Stornobedingungen gelten. Nach dem Ablauf der Frist für die kostenfreie Stornierung bucht die Gesellschaft Interpreters.travel
+            die Gesamtsumme Ihrer Bestellung von Ihrem PayPal Konto ab, oder die Gesamtsumme mit dem Abzug der schon vorher zwecks Prüfung Ihrer Kreditkarte abgezogenen Summe
+            – im Falle einer Zahlung per Kreditkarte. <br/>
+            Bitte beachten Sie, dass die Gesellschaft Interpreters.travel nicht in der Lage ist, jegliche Kommissionen und Abbuchungsgebühre zu überprüfen.
+            Die Gesellschaft Interpreters.travel verzichtet auf jegliche Verantwortung diesbezüglich.
+            Mir Ihrer Bestellung erklären Sie sich mit der Abbuchung der Bestellungssummen von Ihrer Kreditkarte
+            oder Ihres PayPal Kontos durch den dritten/die Zahlungsbearbeitungsgesellschaft einverstanden.
+            Falls Sie auf die Seite der unabhängigen Zahlungsbearbeitungsgesellschaft übergehen,
+            können Sie unter den Geltungsbereich der AGB und der Datenschutzbedingungen dieser Gesellschaft fallen.
+            Bitte lesen Sie die AGB und die Datenschutzbedingungen sorgfältig durch
+            Bevor Sie die Dienste dieser Gesellschaft nutzen.<br/>
+            Nachdem Sie Ihre Bestellung abgegeben haben, erhalten Sie eine E-Mail:
+            <li>
+              entweder mit Bestellungsdetails sowie mit kostenfreie Stornobedingungen, falls zum Zeitpunkt der Bestellungsabgabe keine kostenfreie Stornobedingungen mehr gelten und die Bestellung bereits bezahlt ist,
+            </li>
+            <li>
+              oder erst nur mit den Bestellungsdetails ohne Kontaktdaten des Dolmetschers, falls die kostenfreie Stornobedingungen zum Zeitpunkt der Bestellungsabgabe noch gelten. Die entsprechenden Angaben finden Sie in der Anzeige, falls die Bestellung noch nicht bezahlt ist. Und erst später, wenn der Frist für die kostenfreie Stornierung verstrichen ist, und das Geld für Ihre Bestellung auf unser Konto eingegangen ist, erhalten Sie eine E-Mail mit den Details Ihrer Bestellung, den Kontaktdaten des Dolmetschers sowie Ihrem Bestellungs-Voucher.
+            </li>
+          </li>
+        </ul>
+      </p>
+      <p>
+        <strong>Zahlungsbedingungen im Falle einer Barzahlung direkt an den Dolmetscher</strong>
+      </p>
+      <p>
+        Falls Sie bei der Bestellungsabgabe „Barzahlung“ als die gewünschte Zahlungsart angeben, bezahlen Sie den Dolmetscher für seine Dienste direkt in bar. In diesem Fall erfüllt die Gesellschaft Interpreters.travel nicht Ihre Rolle als Zahlungsagent zwischen dem Kunden und dem Dolmetscher und übernimmt keine Verantwortung für die Zahlung. Falls der Kunde dem Dolmetscher nicht zahlt, darf der Dolmetscher die nicht zustande gekommene Zahlung nur vom Kunden verlangen und nicht von der Gesellschaft Interpreters.travel.
+      </p>
+      <p>
+        Bei der Bestellungsabgabe bestätigen Sie als Kunde, und erklären sich damit einverstanden, dass im Falle einer Barzahlung, als einer angegebenen Wunsch-Zahlungsart, verpflichten Sie sich, die Zahlung  der Gesamtsumme Ihrer Bestellung in Bar direkt an den Dolmetscher zu leisten. Sie tragen die Verantwortung vor dem Dolmetscher für die Zahlung von ihm erbrachten Dolmetscherdienstleistungen.
+      </p>
+      <p>
+        <strong>Allgemeine Bedingungen der Stornierung einer Bestellung und Gelderstattung <br/></strong>
+        Bedingungen und Friste einer kostenfreien Stornierung der Bestellung werden vom Dolmetscher in der Anzeige angegeben.
+        Falls Sie, als Kunde, Ihre Bestellung innerhalb der Frist für die kostenfreie Stornierung stornieren,
+        erhalten Sie 100% der Gesamtsumme Ihrer gezahlten Bestellung von der Gesellschaft Interpreters.travel zurückerstattet. Falls Sie Ihre Bestellung erst nach der Ablauf der Frist für eine kostenfreie Stornierung
+        und vor dem Einsatz des Dolmetschers stornieren wollen, die Gesellschaft Interpreters.travel erstattet Ihnen
+        die Gesamtsumme Ihrer Bestellung abgezogen die 2 (zwei) Stunden der in der Bestellung angegebenen Arbeitszeit.
+        Falls Ihre Gesamtbestellung die 2 (zwei) Stunden nicht übersteigt, es folgt keine Rückerstattung Ihrer Kosten.
+        Falls Sie Ihre Bestellung erst nach dem Anfang der ausgemachten Einsatzzeiten des Dolmetschers stornieren wollen, es folgt keine Rückerstattung Ihrer Kosten.
+        Falls der Dolmetscher ersetzt werden muss, oder die Bestellung storniert werden muss, weil der Ersatz eines Dolmetschers nicht zustande gekommen ist, oder vom Kunden nicht bestätigt worden ist,
+        die Gesellschaft Interpreters.travel erstattet Ihnen 100% Ihrer Gesamtbestellung.
+      </p>
+      <p>
+        <strong>Stornierung einer Bestellung, gewünschte Zahlungsart – Barzahlung direkt an den Dolmetscher.</strong>
+      </p>
+      <p>
+        Falls Sie bei der Abgabe Ihrer Bestellung „Barzahlung“ als die gewünschte Zahlungsart angeben, und Ihre Bestellung erst nach der Ablauf der Frist für eine kostenfreie Stornierung stornieren wollen, sind Sie verpflichtet, dem Dolmetscher die 2 (zwei) Stunden seiner in der Bestellung angegebenen Arbeitszeit zu erstatten. Stornieren Sie Ihrer Bestellung erst nach dem Anfang der ausgemachten Einsatzzeiten des Dolmetschers, sind Sie dazu verpflichtet, 100% der Gesamtsumme Ihrer Bestellung dem Dolmetscher zu erstatten. Falls Sie Ihre Bestellung noch vor dem Ablauf der Frist zur kostenfreien Stornierung stornieren, sind Sie von der Zahlung befreit.
+      </p>
+      <p>
+        Falls der Dolmetscher ersetzt werden muss, oder die Bestellung, bei der die Barzahlung als eine gewünschte Zahlungsart angegeben ist, storniert wird, weil der Ersatz eines Dolmetschers nicht zustande gekommen ist, oder vom Kunden nicht bestätigt worden ist, die Gesellschaft Interpreters wird zu 100% von der Notwendigkeit jeglicher Kompensation oder einer Rückzahlung verbunden mit der Bestellung an Kunden oder den Dolmetscher befreit und trägt keine Verantwortung für jegliche Konsequenzen solch einer Stornierung.
+      </p>
+      <p>
+        <strong>Account blockieren / Löschen </strong>
+      </p>
+      <p>
+        Die Gesellschaft Interpreters.travel behält das Recht nach eigenem Ermessen, ohne jegliche Verantwortung vor Ihnen, mit oder ohne Grund, nach einer Vorankündigung oder ohne jegliche
+        jede Zeit die besagten AGBs aufzuheben und Ihnen den Zugang zu unserer Webseite zu entziehen,
+        Ihr Account zu deaktivieren, zu blockieren oder Ihr Account zu löschen. Nach der Aufhebung des Vertrages sehen wir uns verpflichtet, alle ausstehenden Zahlungen im Rahmen unserer Verpflichtungen an Sie zu leisten.
+         Falls die Gesellschaft Interpreters.travel die besagten AGBs aufhebt,
+        oder Ihnen den Zugang zu unserer Webseite verweigert oder Ihr Account annulliert, tragen Sie die Verantwortung
+        für alle ausstehenden Summen.
+      </p>
+      <p>
+        Sie können auch selber jede Zeit Ihr Account löschen, indem Sie eine Anfrage per E-Mail an die unten stehende Adresse schicken:
+        <a href="mailto:support@interpreters.travel">support@interpreters.travel</a>. Bitte beachten Sie, dass auch wenn Sie Ihr Account gelöscht haben, sin wir nicht dazu verpflichtet Ihnen jegliche die von Ihnen benutzte und veröffentlichte Contents zurückzugeben,
+        inklusive, unter anderem, jegliche Feedbacks.
+      </p>
+      <p>
+        <strong>Nutzungsbedingungen</strong>
+      </p>
+      <p>
+        Sie verstehen es und sind damit einverstanden, dass Sie die volle Verantwortung dafür übernehmen, allen und jeglichen Gesetzen in Verbindung mit der Nutzung der Webseite folgen,
+        allen Bestimmungen und Steuerpflichten, die an Sie in Verbindung mit der Nutzung der Webseite angewendet werden können.
+        In Verbindung mit der Nutzung der Webseite haben Sie kein Recht und erklären sich damit einverstanden, Folgendes zu unterlassen:
+      </p>
+      <p>
+        <ul>
+          <li>
+            Manuelle oder automatisierte Programmen zu benutzen, Anlagen, Cookies/Sucharbeiten, und andere Mitteln und Prozesse,
+            die es erlauben, den Zugang zu anderen Webseiten und Webservices auf unserer Webseite oder in dem Content zu bekommen,
+            diese in Bezug auf "скрейперы", "пауки" или "боты" zu nutzen. Die Webseite zu jeglichen kommerziellen oder anderen Zwecken zu benutzen,
+            die nicht direkt mit vorliegenden AGBs erlaubt sind;
+          </li>
+          <li>
+            die Funktionalität unserer Webseite zu stören oder zu hindern, inklusive, unter anderem durch die Nutzung der Viren, Agent-Roboten,
+            Trojan-Viren, der schädigenden Codes, Attacken wie Absagen zu bedienen, Spoofing IP, des falschen Routing oder Informationen
+            über die E-Mail Adresse und durch anderen ähnlichen Methoden und Technologien;
+          </li>
+          <li>
+           die Nutzung unserer Webseite zur Distribution, Veröffentlichung oder Versendung der Informationen über die anderen Personen,
+            sowie juristische Personen, inklusive, unter anderem, Bilder anderer Personen ohne deren Erlaubnis, persönliche Kontaktdaten
+            oder Kreditkartennummern, Telefonkartennummern oder Kontonummern;
+          </li>
+          <li>
+            die Nutzung unserer Webseite zwecks Spam-Versendung ;
+          </li>
+          <li>
+            jeglichen anderen Nutzer unserer Webseite zu „verfolgen“ oder zu belästigen, Informationen zu sammeln und zu bewahren,
+            die zum Feststellen der Person des anderen Nutzers dienen, und zu anderen Zwecken verwendet werden können, als die
+            vom Kunden oder Dolmetscher;
+          </li>
+          <li>
+            jegliche Dolmetscherdienstleistungen anzubieten, die Sie nicht erbringen können;
+          </li>
+          <li>
+            mehr als ein Account anzumelden oder ein Account im Namen vom anderen anzumelden;
+          </li>
+          <li>
+            sich mit dem Dolmetscher in Verbindung setzen, bezüglich der Angelegenheiten, die nicht mit der abgegebenen Bestellung in Verbindung stehen;
+          </li>
+          <li>
+            Sich mit dem Kunden in Verbindung zu setzen, bezüglich der Angelegenheiten, die nicht bit der abgegebenen Bestellung in Verbindung stehen;
+          </li>
+          <li>
+            als Kunde oder anders, sich an die weiteren Dolmetscher und anderen registrierten Nutzer mit der Bitte wenden,
+            die Dienste der Dritten Seite zu nutzen oder sich auf anderen Webseiten anzumelden, die im Wettbewerb mit der Gesellschaft Interpreters.travel stehen,
+            ohne sich im Vorfeld ein Erlaubnis von der Gesellschaft Interpreters.travel zu holen;
+          </li>
+          <li>
+            eine natürliche oder juristische Person zu verkörpern, eigene Identität zu fälschen oder auf andere Art und Weise falsche Informationen über sich,
+            oder bezüglich anderen natürlichen oder juristischen Personen geben;
+          </li>
+          <li>
+            automatische Skripten zu nutzen, um die Informationen anzusammeln, oder auch anders in eine Wechselwirkung mit der Webseite zu treten;
+          </li>
+          <li>
+            Die Webseite zu nutzen, um den Kunden oder den Dolmetscher zu finden, und danach die Bestellung außerhalb der Webseite abgeben;
+          </li>
+          <li>
+            als Übersetzer die falschen oder verwirrenden Informationen über die Preise in der Anzeige anzugeben, oder gar die Preise angeben,
+            die Sie gar nicht vorhaben einzuhalten;
+          </li>
+          <li>
+            das Veröffentlichen, Uploaden, Veröffentlichen oder Weitergeben vom jeglichen Content, das unrechtmäßig zuweist oder gegen das Patentrecht,
+            das Urheberrecht verstößt, die Trademarke, das Betriebsgeheimnis, das moralische Recht und andere Rechte auf das intellektuelle Eigentum verletzt,
+            oder das Recht sich zu veröffentlichen, das Recht auf die Privatsphäre des ritten verletzt; oder jegliche Aktivitäten zu begünstigen,
+            die gegen das geltende Recht oder Bestimmungen verstoßen, oder die eine zivilrechtliche Haftung nach sich ziehen können;
+            ist falsch oder verwirrend; ist unehrenhaft, obszön,
+            oder vom pornographischen Charakter, vulgär oder beleidigend; diskriminierend, intolerant, rassistisch, Hass fördernd,
+            als Beihilfe zum Missbrauch oder Benachteiligung/Beschädigung eines jeden Menschen oder einer Gruppe von Menschen; trägt einen gewaltsamen Charakter,
+            oder bedroht mit Gewalt oder Aktivitäten, die einer Person drohen; oder als Beihilfe zu unrechtmäßigen oder schädigenden Tätigkeit
+            oder Konsum von illegalen Stoffen; или употреблению нелегальных веществ;
+          </li>
+          <li>
+            systematisch die Daten oder anderes Content von der Webseite rausziehen, mit dem Zweck direkt oder indirekt
+            mittels einmaligen oder mehrmaligen Downloads eine Kollektion, eine Ansammlung, eine Datenbank, ein Nachschlagwerk zu erstellen, manuell oder
+            mittels Agent-Roboten, Suchagenten, Spidern aller art und so weiter;
+          </li>
+          <li>
+            den Zugang erhalten, fälschen oder nutzen die die Daten, die nicht für den öffentlichen Gebrauch der Webseite gedacht sind;
+            rechnerunterstützte Systeme der Gesellschaft Interpreters.travel oder Übertragungssysteme der Anbieter der der Gesellschaft Interpreters.travel;
+          </li>
+          <li>
+            versuchen die Test-Textnachrichten zu schicken, die Anfälligkeit der System und des Netzwerkes der Gesellschaft Interpreters.travel zu scannen und zu prüfen,
+            oder gegen jegliche Sicherheits- und Authentifizierungsvorschriften vorzugehen;
+          </li>
+          <li>
+            vermeiden, umgehen, entfernen, deaktivieren, schädigen, entziffern oder anderweitig die technischen Maßnahmen zu vermeiden,
+            die die Gesellschaft Interpreters.travel, Ihre Anbieter oder jegliche andere
+            dritte Seite (inklusive andere Nutzer) unternimmt, um die Webseite oder das Content zu schützen;
+          </li>
+          <li>
+            jegliche Überschrift des Pakets TCP/IP oder jegliches Informationsteil der Überschrift in jeglicher elektronischen Mitteilung oder
+            Gruppenpublikation zu fälschen, oder die Webseite oder das Gesamtcontent zu nutzen, um die falschen Informationen,
+            die es erlauben die Quelle zu identifizieren;
+          </li>
+          <li>
+            versuchen zu entziffern, auseinander zu nehmen, demontieren oder eine Rückengeneering eines jeglichen Softwares durchzuführen,
+            das benutzt wird, um die Webseite oder das Content zur Verfügung zu stellen;
+          </li>
+          <li>
+            helfen, stimulieren oder beihelfen einer jeglichen dritten Partei im Durchführen einer der o.g. Aktionen.
+          </li>
+        </ul>
+      </p>
+      <p>
+        <strong>Urheberrechte</strong>
+      </p>
+      <p>
+        Sie bestätigen und erklären sich damit einverstanden, dass die Webseite und das Content, inklusive aller damit verbundenen Rechte des intellektuellen Eigentums,
+        sind exklusiv und Eigentum der Gesellschaft Interpreters.travel.
+      </p>
+      <p>
+        <strong>Das Content</strong>
+      </p>
+      <p>
+        Wir behalten das Recht nach unserem exklusiven Ermessen den registrierten Nutzern das Content auf der Webseite zu platzieren, uploaden, veröffentlichen,
+        versenden oder weiterleiten. Mit der Veröffentlichung Ihres Contents auf der Webseite, erteilen Sie der Gesellschaft Interpreters.travel
+        eine unwiderrufliche, unbefristete, nichtausschließliche, übertragbare und Royalty freie Lizenz
+        mit dem Recht auf Unterlizenz, dem Recht, zu nutzen, durchschauen, kopieren, anpassen, modifizieren, verteilen, eine Lizenz erteilen,
+        verkaufen, weiterverkaufen, veröffentlichen, weitergeben, streamen, den Zugang erhalten,
+        durchschauen und auf andere Art und Weise den Content auf der oder durch die Webseite nutzen. Die Gesellschaft Interpreters.travel setzt keine Eigentumsrechte auf jegliches Content durch,
+        und keine der Bestimmungen der vorliegenden AGBs grenzt Ihre Rechte, die Sie auf haben,
+        das jegliche Content zu benutzen.
+      </p>
+      <p>
+        Sie bestätigen und erklären sich damit einverstanden, dass Sie und nur Sie allein die Verantwortung für das gesamte Content, das Sie auf der Webseite präsentieren, tragen.
+        Dementsprechend, Sie erklären und garantieren, dass:
+        <li>
+          Sie der einzige und exklusive Inhaber Ihres Contents sind, das Sie auf der Webseite veröffentlichen, oder Sie verfügen über alle Rechte, Lizenzen, Erlaubnisse und das Rechtverzicht, die Voraussatzung dafür sind, der Gesellschaft Interpreters.travel das Recht auf Nutzung dieses Contents zu erteilen, wie die vorliegenden AGBs vorschreiben,
+        </li>
+        <li>
+          weder das Content, noch Ihre Platzierung, Upload der Veröffentlichung, das Versenden des Contents, noch die Nutzung des Contents
+        (oder seines Teils) von der Gesellschaft Interpreters.travel über die Webseite, schadet oder gegen das Patentrecht,
+        das Urheberrecht, das Trade Mark Recht, das Betriebsgeheimnis, die moralischen oder andere Rechte auf das intellektuelle Eigentum verstoßt,
+        oder gegen das Recht auf Veröffentlichung, auf die Unverletzbarkeit des privaten Lebens einer dritten Partei vorgehen und gegen die bestehende Gesetzgebung und Bestimmungen verstößt.
+        </li>
+      </p>
+      <p>
+        <strong>Lizenz auf Content</strong>
+      </p>
+      <p>
+        Unter Annahme, Ihrer Anhaltung der vorliegenden AGBs, die Gesellschaft Interpreters.travel erteilt Ihnen eine begrenzte, nicht exklusive,
+        nicht übertragbare Lizenz auf Zugang zum Content, auf das Durchschauen des Contents, Zugang zu welchem Sie erhielten. Sie haben kein Recht eine Neben Lizenz zu erteilen
+        auf die Rechte beschriebene im vorliegenden Paragraph. Sie haben kein Recht zu nutzen, kopieren, anpassen, modifizieren,
+        verteilen, eine Lizenz erteilen, verkaufen, weiterverkaufen, veröffentlichen, weitergeben, streamen,
+        oder auf eine andere Art und Weise den Content zu benutzen, abgesehen von den Fällen, die in der vorliegenden AGBs vorgesehen sind.
+      </p>
+      <p>
+        <strong>Nutzungsrecht</strong>
+      </p>
+      <p>
+        Die Webseite kann ausgeschlossen von Personen genutzt werden, die Ihr 18. Lebensjahr erreicht haben. Die Nutzung der Webseite von einer Person, die Ihr 18. Lebensjahr noch nicht erreicht hat,
+        ist ausdrücklich verboten. Mit der Nutzung der Webseite und dem Erhalt eines Zugangs zur Webseite, erklären Sie, dass Sie Ihr 18. Lebensjahr erreicht haben.
+      </p>
+      <p>
+        <strong>Gerichtsbarkeit</strong>
+      </p>
+      <p>
+        Die vorliegenden AGBs unterliegen der Gerichtsbarkeit der Republik Estland. Wir und Sie stimmen dem zu, der Personen Gerichtsbarkeit der Republik Estland zu unterliegen,
+        im Kontext jeglicher Gerichtsverhandlungen, wobei die Parteien das Recht behalten, die Anwendung der einstweiligen,
+        prohibitiven Maßnahmen oder anderen Mitteln Verteidigung vor Gericht zu erzielen, nach dem Recht auf Gerechtigkeit im ordentlichen Gericht mit dem Zweck,
+        existierende oder potentielle Verstöße, unregelmäßige Aneignungen oder Verstöße gegen das Eigentumsrecht,
+        das Trade Mark Recht, das Betriebsgeheimnis, das Patentrecht oder andere Rechte des intellektuellen Eigentums einer der Parteien vorzubeugen.
+      </p>
+      <p>
+        <strong>Allgemeine Bestimmungen</strong>
+      </p>
+      <p>
+        Das Nichtinkraftsetzen einer beliebigen Regelung oder Bestimmung der vorliegenden Regeln und Bestimmungen der Gesellschaft Interpreters.travel bedeutet nicht
+        ihr Verzicht auf das Durchführen von dieser Regel oder Bestimmung in der Zukunft. Verzicht auf das jegliche solche Recht oder auf solche Bestimmung tritt in Kraft
+        nur in dem Fall, wenn es schriftlich festgehalten ist und durch einen Vertretungsberechtigten seitens der Gesellschaft Interpreters.travel unterzeichnet ist.
+        Abgesehen von den Fällen, die direkt in der vorliegenden AGBs angesprochen sind, wird eine der Parteien, gemäß der vorliegenden AGBs, beliebige Mitteln zur Schutz vor Gericht anwenden dürfen,
+        ohne.
+      </p>
+      <p>
+        <strong>Veränderungen </strong>
+      </p>
+      <p>
+        Die Gesellschaft Interpreters.travel behält das Recht, nach eigenem Ermessen, ab und zu und ohne Vorankündigung
+        Veränderungen in der Webseite oder in die vorliegenden AGBs einzubringen. Im Falle einer Veränderung der vorliegenden AGBs
+        verpflichten wir uns diese auf der Webseite zu veröffentlichen oder Sie über diese zu informieren.
+        Wir werden auch „Das Datum der letzten Veränderung des Dokuments“, das in der vorliegenden AGBs angegeben ist ändern. Diese Änderungen sind nicht an die
+        Bestellungsabgabebestimmungen, die vor dem Zeitpunkt der Veränderung akzeptiert wurden, und/oder an die Anzeigen der Dolmetscher, die vor dem Zeitpunkt der Veränderung veröffentlicht wurden.
+        Mit Ihrer weiteren Nutzung der Webseite, nachdem die Änderungen der Webseite, oder der vorliegenden AGBs vollzogen sind, und Sie darüber informiert wurden,
+        Erklären Sie sich mit den geänderten AGBs einverstanden.
+      </p>
+      <p>
+        <strong>Wie kann ich die Gesellschaft Interpreters.travel kontaktieren?</strong>
+      </p>
+      <p>
+        Falls Sie Fragen zu der vorliegenden AGBs haben, wenden Sie sich an die Gesellschaft Interpreters.travel
+        unter der im Bereich „Über uns“ angegebenen Adresse
+        %{about_link}.
+      </p>
+      <p>
+        <strong>Das Datum der letzten Änderung des Dokuments:</strong>
+        12. Oktober 2015
+      </p>
+  privacy_policy_page:
+    title: "Datenschutzrichtlinie"
+    text: |
+      <p>
+        <strong>Datenschutzrichtlinie und Cookie-Files.</strong>
+      </p>
+      <p>
+        Wir legen großen Wert auf Diskretion. Wir wissen Ihr Vertrauen an uns zu schätzen, und nehmen auf uns die Verantwortung die an uns freigegebene Informationen zu Ihrer Person zu schützen. Die vorliegende Datenschutzrichtlinie reglementiert, wie die Gesellschaft Interpreters.travel OÜ die von Nutzern (weiter Nutzer) erhaltene Informationen auf der Webseite (weiter Webseite) sammelt, nutzt, aufbewahrt und preisgibt. Die vorliegende Datenschutzrichtlinie bezieht sich auf die Webseite und alle Produkte, die von Interpreters.travel OÜ angeboten werden.
+        Wir geben Ihnen die Kontakte, damit Sie sich, falls Sie Fragen zu Ihren persönlichen Daten haben, an uns wenden können.
+      </p>
+      <p>
+        <strong>Persönliche Daten, die von interpreters.travel benutzt werden</strong>
+      </p>
+      <p>
+        Wir können die persönlichen Daten und die Daten zur Identifikation der Nutzer in unterschiedlichen Formaten sammeln, inklusive jedoch nicht ausschließlich, wenn die Nutzer unsere Webseite besuchen, sich auf der Webseite registrieren, Ihre Bestellung abgeben, und auch im Kontext von anderen Aktivitäten, Dienstleistungen, Möglichkeiten und Ressourcen, die wir erbringen und die man auf unserer Webseite finden kann. Wir können bei den Nutzern in entsprechenden Fällen den Namen, E-Mail Adresse, Adresse, Telefonnummer anfragen. Allerdings, die Nutzer können unsere Webseite auch anonym besuchen. Wir sammeln die persönlichen Daten und die Daten zur Identifikation der Nutzer nur in dem Fall, wenn die Nutzer diese an uns freiwillig weitergegeben haben. Die Nutzer können immer die Angabe der persönlichen Daten und die Daten zur Identifikation der Nutzer verweigern, abgesehen von dem Fall, wenn dies sie daran hindert eine bestimmte Tätigkeit auf unserer Webseite auszuführen.
+      </p>
+      <p>
+        <strong>Unpersönliche Informationen</strong>
+      </p>
+      <p>
+        Wir können unpersönliche Informationen zur Identifikation der Nutzer sammeln, wenn Sie in eine Interaktion mit unserer Webseite treten. Unpersönliche Informationen zur Identifikation des Nutzers können den Browsernamen, Rechnertypus und technische Informationen über die Kommunikationsmittel enthalten. Zum Beispiel, Betriebssystem und Internetanbieter und andere Informationen.
+      </p>
+      <p>
+        <strong>Cookie-Files, die von interpreters.travel benutzt werden</strong>
+      </p>
+      <p>
+        Unsere Webseite kann Cookie-Files benutzen, um die Erfahrung des Nutzers zu steigern. Web-Browser platziert Cookies zwecks einer Erfassung auf der Hardware, und manchmal verfolgt Informationen darüber zurück. Der Nutzer kann die Einstellungen seines Browsers ändern und auf die Aufbewahrung von Cookies verzichten oder sich über die Cookies informieren lassen. In diesem Fall, achten Sie bitte darauf, dass einige Teile der Webseite nicht ordentlich funktionieren werden.
+      </p>
+      <p>
+        <strong>Wie benutzt interpreters.travel die gesammelten Informationen?</strong>
+      </p>
+      <p>
+        Interpreters.travel OÜ kann persönliche Benutzerdaten sammeln und für folgende Zwecke benutzen:
+      </p>
+      <ul>
+        <li>
+          <p>Steigerung der Qualität der Kundenbetreuung</p>
+          <p>
+            Informationen, die Sie an uns preisgeben, helfen uns
+            Ihre Bedürfnisse zu erfüllen und die Serviceanfragen beim Support schneller zu bearbeiten.
+          </p>
+        </li>
+        <li>
+          <p> Personalisierung der Nutzererfahrung</p>
+          <p>
+            Wir können Informationen in deren Gesamtheit auswerten, um zu verstehen, wie unsere Nutzer,
+            als Gruppe Dienstleistungen und Ressourcen auf unserer Webseite benutzen.
+          </p>
+        </li>
+        <li>
+          <p>Verbesserungen unserer Webseite</p>
+          <p>
+            Wir könne Ihr Feedback nutzen, um unsere Produkte
+            und Dienstleistungen zu verbessern
+          </p>
+        </li>
+        <li>
+          <p>Zahlungsbearbeitung</p>
+        </li>
+      </ul>
+      <p>
+        Wir können die Informationen, die die Nutzer über sich hinterlassen, könne wir nutzen um die Dienstleistungen entsprechend zu erbringen. Wir geben diese Informationen nicht weiter, abgesehen davon, was für das Erbringen einer Leistung unbedingt notwendig ist.
+      </p>
+      <ul>
+        <li>
+          <p>Promo-Wettbewerbe, Untersuchungen und andere Funktionen der Webseite</p>
+          <p>
+            Wir schicken Informationen an die Nutzer, die mit dem Erhalt der Informationen einverstanden sind,
+            die für Sie von Interesse sind.
+          </p>
+        </li>
+        <li>
+          <p>Newsletterversand</p>
+        </li>
+      </ul>
+      <p>
+        Wir können Benutzers E-Mail Adresse dazu nutzen, um ihm die Informationen bezüglich der Bestellung zu schicken. Die E-Mail Adresse kann auch dafür benutzt werden um auf die Fragen und Anfragen zu antworten. Falls der Benutzer auf der Verteiler Liste steht, kann Mitteilungen, Neuigkeiten, Informationen über Änderungen und betriebliche Informationen per E-Mail erhalten. Falls Sie sich vom Verteiler rausnehmen wollen, können Sie dies jede Zeit tun, indem Sie die Anweisungen am Ende jeden Briefes folgen.
+      </p>
+      <p>
+        <strong>Wie schützt  interpreters.travel Ihre Daten?</strong>
+      </p>
+      <p>
+        Wir verwenden gewisse Regeln der Ansammlung, Aufbewahrung und Bearbeitung der Informationen und Sicherheitsmaßnamen gegen den unerlaubten Zugang, Veränderungen, Preisgeben oder Löschen Ihrer persönlichen Daten, Benutzer Namen, Ihres Passworts, Informationen über die Transaktionen, die auf unserer Webseite aufbewahrt werden.
+      </p>
+      <p>
+        Informationsaustausch zwischen der Webseite und dem Nutzer kommt über den sicheren Kommunikationskanal SSL, verschlüsselt.
+      </p>
+      <p>
+        <strong>Übergabe der persönlichen Daten an die Dritte </strong>
+      </p>
+      <p>
+        Wir verkaufen nicht, verleihen nicht persönlichen Daten der Nutzer oder Informationen zur Identifizierung der Person der Nutzer. Wir können allgemeine aggregierten demographischen Informationen, und keine persönlichen Daten unserer Nutzer an unsere Geschäftspartner, Vertreter der Filialen für die o. g. Zwecke weitergeben. Wir können die dritten Lieferanten engagieren, die uns helfen können das Geschäft und die Webseite zu leiten sowie für die administrative Tätigkeiten in unserem Namen, z.B. Newsletter Versand oder Studien. Wir können die Informationen für die eingegrenzte Zwecke, vorausgesetzt Sie haben Ihr Erlaubnis erteilt, mit den Dritten teilen.
+      </p>
+      <p>
+        <strong>Änderungen der Datenschutzrichtlinie </strong>
+      </p>
+      <p>
+        Interpreters.travel OÜ hat das Recht, nach eigenem Ermessen die Datenschutzrichtlinie jede Zeit zu verändern. Falls dies geschieht, wird auch das Datum auf der Seite unten geändert und / oder Sie werden über die Änderungen per E-Mail informiert. Wir raten unseren Nutzern diese Seite regelmäßig zu überprüfen, um zu wissen, wie wir Ihre privaten Informationen ansammeln und schützen. Sie akzeptieren und erklären sich damit einverstanden, dass es in Ihrer Verantwortung liegt, die vorliegende Datenschutzrichtlinie regelmäßig durchlesen und sich die Änderungen merken.
+      </p>
+      <p>
+        <strong>Ihre Zustimmung der Datenschutzrichtlinie </strong>
+      </p>
+      <p>
+        Mit dem Nutzen dieser Webseite erklären Sie sich mit der vorliegenden Datenschutzrichtlinie einverstanden. Falls Sie mit der Datenschutzrichtlinie nicht einverstanden sind, dürfen Sie unsere Webseite nicht benutzen. Falls Sie unsere Webseite auch nach der Änderungen in der Datenschutzrichtlinie weiterhin benutzen, erklären Sie sich damit mit den Änderungen einverstanden.
+      </p>
+      <p>
+        <strong>Wie können Sie sich mit uns in Verbindung setzen?</strong>
+      </p>
+      <p>
+        Falls Sie irgendwelche Fragen bezüglich der vorliegenden Datenschutzrichtlinie, der Nutzung der Webseite oder Ihrer Interaktion mit der Webseite haben, kontaktieren Sie uns unter:
+        <p itemscope itemtype="http://schema.org/Organization">
+          <strong><span itemprop="name">Interpreters.travel OÜ</span></strong>
+          <br/>
+          <strong>interpreters.travel</strong>
+          <br/>
+          <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+          <strong><span itemprop="streetAddress">Vesivärava tn 50-201</span>, <span itemprop="postalCode">10152</span> - <span itemprop="addressLocality">Tallinn, Estonia</span></strong>
+          </span>
+          <br/>
+          <strong><span itemprop="email">info@interpreters.travel</span></strong>
+        </p>
+      </p>
+  about_page:
+    title: "Über die Gesellschaft"
+    text: |
+      <div itemscope itemtype="http://schema.org/Organization">
+      <p>
+        Gesellschaft
+        <b><span itemprop="name">Interpreters.travel OÜ</span>,</b>
+        Gegründet im 2013, verfügt im vollen Umfang über die exklusive Rechte über Interpreters.travel – ein Online Dolmetschersuchservice, Online Bestellungsservice über der ganzen Welt.
+      </p>
+      <p>Die Gesellschaft  Interpreters.travel OÜ durch Registrierungsabteilung des Bezirksgerichts Tartu unter der Nummer 16422855 registriert. </p>
+      <p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        Zentrale Geschäftsstelle der Gesellschaft Interpreters.travel OÜ befindet sich:
+        <br/>
+        <b><span itemprop="streetAddress">Vesivärava tn 50-201</span>, <span itemprop="postalCode">10152</span> - <span itemprop="addressLocality">Tallinn, Estonia</span></b>
+      </p>
+      <p>
+        Büro Telefone:
+        <b><span itemprop="telephone">+357 22 008 050</span></b>
+        (auf Englisch und Russisch) von 9:00 bis 17:00 (GMT + 2 Stunden)
+        <br/>
+        Email:
+        <a href="mailto:office@interpreters.travel"><span itemprop="email">office@interpreters.travel</span></a>
+      </p>
+      </div>
+    addresses:
+      title: |
+        Gesellschaft <b>Interpreters.travel OÜ</b>, Gegründet im 2013, verfügt im vollen Umfang über die exklusive Rechte über Interpreters.travel – ein Online Dolmetschersuchservice, Online Bestellungsservice über der ganzen Welt.
+        Die Gesellschaft Interpreters.travel OÜ durch Registrierungsabteilung des Bezirksgerichts Tartu unter der Nummer 16422855 registriert.
+      estonia: |
+        <b>Zentrale Geschäftsstelle der Gesellschaft Interpreters.travel OÜ in Tallinn (Estland)</b>
+        <br/>
+        <b>Email:</b> office@interpreters.travel
+        <br/>
+        <b>Telefone:</b> +357 22 008 050  (auf Englisch und Russisch) von 9:00 bis 17:00 (GMT + 2 Stunden)
+        <br/>
+        <b>Adresse:</b> Vesivärava tn 50-201, 10152, Tallinn, Estonia

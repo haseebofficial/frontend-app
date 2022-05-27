@@ -1,0 +1,16 @@
+ja:
+  support_page: 
+    title: "お客様サポート24/7"
+    header_text: |
+      <h2> お客様のために休日なし24時間営業しています。</h2>
+      <p> サポート・サービスは通訳者からもお客様からもお問い合わせに答えます。どこにいても、私たちはいつでも助けになるため努めます。</p>
+    help_link: "Помощь"
+    footer_text: 
+
+  contact_form:
+    name: "氏名:"
+    phone: "電話番号:"
+    email: "メールアドレス:"
+    city: "都市:"
+    content: "メッセージ:"
+    button: "送信"

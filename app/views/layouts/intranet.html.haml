@@ -1,0 +1,22 @@
+- content_for :body do
+  .main_content
+    .cabinet_sidebar
+      %a.mob_menu Menu
+      %ul.cabinet_sidebar_menu
+        %li
+          = link_to orders_path, class: "cabinet_sidebar_menu1" do
+            My orders
+        %li
+          %a.cabinet_sidebar_menu2{href: "#"} My searches
+        %li
+          %a.cabinet_sidebar_menu3{href: "#"} My viewings
+        %li
+          %a.cabinet_sidebar_menu4{href: "#"} Settings
+        %li
+          = link_to destroy_user_session_path, method: :delete, class: "cabinet_sidebar_menu5" do
+            Exit
+
+
+    .cabinet_content
+      = yield
+= render template: "layouts/application"

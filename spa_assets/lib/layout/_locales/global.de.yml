@@ -1,0 +1,529 @@
+global:
+  locales:
+    ru: "Русский"
+    en: "English"
+    de: "Deutsch"
+    es: "Español"
+    fr: "Français"
+    it: "Italiano"
+    tr: "Türkçe"
+    pt: "Português"
+    vi: "Tiếng Việt"
+    ar: "العربية"
+    ja: "日本語"
+    zh: "中文"
+    ko: "한국의"
+
+  your_language_selector: "Sprache auswählen"
+  for: "für"
+  flash_messages:
+    new_interpreter: "Sie haben sich in interpretres.travel erfolgreich regisitriert! Das Passwort für Ihre Konto wurde Ihnen per Email an: %{email} gesednet."
+    new_partner: "Sie haben sich bei interpretres.travel erfolgreich als Partner registriert! Das Passwort für Ihre Konto wurde Ihnen per Email an: %{email} gesednet."
+    ticket_created: "Vielen Dank, dass Sie an unsere Support angewendet haben. Sie werden bald einen Antwort von uns bekommen"
+    interpreter_message_created: "Ihre Nachricht wurde versendet. Sie werden bald von uns einen Antwort per Email erhalten."
+    paypal_payment_declined: "PayPal hat Ihre Zahlung abgelehnt. Bitte wenden Sie sich an den Support"
+    braintree_payment_declined: "Braintree hat Ihre Zahlung abgelehnt. Bitte wenden Sie sich an den Support"
+    payment_declined: "Ihre Zahlung wurde abgelehnt. Wenden Sie sich bitte an das Support."
+    payment_success: "Ihre Auftrag wurde registriert!"
+    order_not_paid: "Bitte beachten Sie! Ihre Auftragszahlung wurde nicht durchgeführt! Sie können die Zahlungsart unter den Auftragsinformation auswählen. Falls das Auftrag wurde bereits bezahlt und Sie sehen diese Nachricht nicht, bitte wenden Sie sich an den Support. Auftragsnummer: %{id}."
+    contacts_requested: "Die Kontakte des Dolmetschers werden in wenigen Minuten verfügbar sein und Sie erhalten eine Benachrichtigung an Ihre E-Mail-Adresse zusammen mit einem Gutschein."
+    invalid_captcha: "Bitte bestätigen Sie, dass Sie kein Roboter sind."
+
+  forms:
+    email: "Email:"
+    name: "Ihre Name:"
+    phone: "Telefonnummer:"
+    message: "Nachricht:"
+    send_message_to_int: "Dolmetscher kontaktieren"
+    send_button: "Senden"
+    send_to_all: "Die Nachricht an alle ähnliche Dolmetscher senden"
+    order_message: "Bitte nennen Sie Ihre Anlass, Adresse, Datum, genaue Zeiten, Teilnehmerzahl, Thematik, Sprachen, andere Eigenschaften und Vorraussetzungen"
+  meta_desc:
+    phone: "Interpreters.travel provides international calls with interpreters and phone interpretation services. 24/7 access, 180 languages, 10000 professional interpreters"
+    main: "Dolmetscher. Weltweit. Warum interpreters.travel? Geprüfte Dolmetschern und echte Kundenbewertungen"
+    about: "Interpreters.travel OÜ, wurde im Jahr 2013 gegründet und hat volle und exklusive Rechte auf die Interpreters.travel – eine Service für weltweite Dolmetschersuchen und Online-Bestellung."
+    for_clients: "Interpreters.travel bietet Ihnen einen einfache und schnelle Suche nach professionelle Dolmetschern und Online-Bestellung in viele Städten und Ländern weltweit an!"
+    help_interpreter: "Interpreters.travel ist eine komfortabele und sichere Webseite durch welchen Sie neue Aufträge für Ihre Dolmetscherleistungen bekommen. Einfach bedienende Funktionen erlauben flexibele Serviceeinstellungen nur für meine Beschäftigungszeiten und erlauben nur solche Aufträge zu bekommen, für welche ich Zeit habe. Auch wenn ich nur ein Paar verfügbare Stunden habe, ich bekomme die Aufträge im interpreters.travel und ich kann diese Zeiten maximal effektiv nutzen."
+    info: "Interpreters.travel ist eine einfache, sichere und zuverlässige Service, welche erlaubt Ihnen direkt auf der Webseite oder auf Ihren Handy eine passende Dolmetscher weltweit zu finden und buchen."
+    for_affiliates: "Das Partnerprogramm von Interpreters.travel. Mit dem Such-Widget können Sie die Dolmetscher-Suchfunktionalität auf Ihrer Website einbinden oder einen Link platzieren. Die Nutzern von Ihre Webseite, welche die Interesse an die Dolmetscherleistungen haben, finden und buchen eine passende Dolmetscher. Sie bekommen dann einen Partnerprovision in Höhe von 5% von jeden erledigten Auftrag."
+  top_menu:
+      login_link: 'Anmelden'
+      sign_up_link: 'Registrieren'
+      help_link: 'Hilfe'
+      logout_link: 'Abmelden'
+      dashboard_link: 'persönliche Konto'
+      welcome: 'Herzlich Wilkommen, %{user}'
+      interpreter_login_link: 'Login für Dolmetscher'
+      calls: "Auslandsgespräche mit Dolmetscher"
+      calls_to_city: "%{city} mit Dolmetscher anrufen"
+
+  card_checkout_form:
+    title: "%{amount} bezahlen"
+    name: "Name auf der Karte"
+    submit: "Bezahlen"
+    cnn_error: 'Kartennummer ist falsch eingegeben'
+    exp_error: 'Geben sie eine zukunftige Datum im Format MM/JJ'
+    cvv_error: 'CVV von Kartenrückseite eingeben'
+    3ds_error: '3-D Secure-Authentifizierung fehlgeschlagen. Bitte versuchen Sie es erneut oder wählen Sie eine andere Zahlungsmethode.'
+    text: "Während der Karteneinfügungsprozess wir haben keinelei Zugriff auf Ihre persönlichen Zahlungsdaten, wie Kreditkartennummer oder CVV"
+
+  interpretation_call:
+    completed_text: "Abgeschlossener Dolmetschaufruf:"
+    datetime: "Datum, Uhrzeit des Gesprächsbeginns:"
+    language_pair: "Sprachpaar:"
+    date_start: "Datum, Uhrzeit des Gesprächsbeginns:"
+    duration: "Gesprächsdauer:"
+    price_minute: "Preis pro Minute:"
+    total_amount: "Gesamt:"
+    paid: "Bezahlt:"
+    state: "Status:"
+    pay_button: "Zahlen"
+    awaiting_payment: "Die Zahlung wird erwartet"
+    completed: "Abgeschlossen"
+    my_calls: "Meine Anrufe:"
+    request_sent: "Die Anfrage wurde an verfügbare Dolmetscher gesendet. Durchschnittliche Antwortzeit - 3 Minuten"
+    no_interpreters: "Für die Anrufsuche sind keine Dolmetscher verfügbar"
+    submit: "Dolmetscher finden"
+    add_time: "Zeit hinzufügen"
+    language: "Sprache"
+    your_language: "Ihre Sprache:"
+    immediate_call: "Jetzt anrufen"
+    choose_time: "Zeit wählen"
+    new_text: "Neuer Anruf:"
+    scheduled_at: "Geplant um:"
+    new: "Neuer"
+    new_call_explanation: "Sie haben erfolgreich Dolmetscherdienste gebucht. Wir erinnern Sie 30 Minuten vor Beginn per E-Mail-Benachrichtigung an den Anruf. Öffnen Sie zum angegebenen Zeitpunkt diese Seite und befolgen Sie die Anweisungen, um diesen Anruf abzuschließen."
+    help_link: "Wie es funktioniert"
+    about_service: "Über den Dienst"
+    app_store_link1: "interpreters.travel mobile App"
+    app_store_link2: "für Gespräche mit Dolmetschern"
+    enter_phone_number: "Telefonnummer eingeben"
+    connecting: "Verbindung…"
+    interpreter_connected: "Verbindung hergestellt"
+    payment_detail: "Zahlungsinformationen"
+
+  footer:
+    info: 'Über interpreters.travel'
+    support: 'Support 24/7'
+    help_inter: Für Dolmetscher
+    help_inter_in_city: 'Für Dolmetscher in %{city}'
+    for_affiliates: "Für Partner"
+    terms_conditions: 'Allgemeine Geschäftsbedienungen '
+    privacy_policy: 'Datenschutz'
+    copyright_html: '&copy; Copyright %{year}. interpreters.travel. All rights reserved.'
+
+  description_index: 'Dolmetscher Weltweit'
+
+  slider:
+    slide1: "Interpreting a business meeting"
+    price_slide1: "in Los Angeles, the USA - 115 USD / 3 hours"
+    slide2: "Interpreting at a wine exhibition"
+    price_slide2: "in Barcelona, Spain - 160 EUR / 5 hours"
+    slide3: "Whisper interpretation at a seminar"
+    price_slide3: "in Hong Kong - 185 USD / 2 days"
+    slide4: "Interpreting  consultations in a clinic"
+    price_slide4: "of Cologne, Germany - 95 EUR / 2 hours"
+
+  search_form:
+    title: 'Dolmetscher finden'
+    where: 'Wo:'
+    when: 'Wann:'
+    language: 'Sprachkombinationen:'
+    your_language: 'Ihre Sprache:'
+    button: 'suchen'
+    city: 'z.B.: Milan, New York, HongKong'
+    date_time: 'Datum und Zeit auswählen'
+    timepicker:
+      title: 'Treffzeit (Ortszeit):'
+      total: 'Gesamtzeit alle Intervale'
+      from: 'Von'
+      till: 'Bis'
+      buttons:
+        add_day: 'einsetzen'
+        clear: 'löschen'
+        clear_intervals: 'Intervale löschen'
+        choose: 'auswählen'
+    language_selector:
+      no_result: 'keine Dolmetscher in diesem Stadt'
+      list_select: 'von Liste auswählen'
+      blank_city: "Erst den Stadt auswählen"
+    city_selector:
+      no_result: "In diesem Stadt gibt es momentan keine verfügbare Dolmetscher. Versuchen die Suche zum eine spätere Zeitpunkt oder wählen Sie einen anderen Stadt"
+
+  counts:
+    cities:
+      one: '%{count} Stadt'
+      other: '%{count} Städten'
+    countries:
+      one: '%{count} Land'
+      other: '%{count} Ländern'
+
+  client_reviews:
+    leave_review: "Eine Rezension hinterlassen"
+    score: "Gesamtpunktzahl"
+    interpretation_score: "Interpretationsgeschwindigkeit und Genauigkeit"
+    punctuality_score: "Pünktlichkeit und Selbstdisziplin"
+    consultation_score: "Betreuung und Beratung während der Veranstaltung"
+    comment: "Gesamteindruck der Arbeit des Dolmetschers, sonstige Anmerkungen"
+    updated: "Ihre Bewertung wurde gesendet. Vielen Dank für Ihre Zeit und Meinung"
+    about_review: "Bewertungen von Kunden, die den Dolmetscherdienst bestellt und bezahlt haben"
+    client_reviews_title: "Verified interpreters and actual client reviews"
+    why_inter:
+      title: 'Warum interpreters.travel?'
+      block1:
+        link: 'Einfach und sicher'
+        text_html: 'Jetzt buchen und später zahlen! <br/> KOSTENLOSE Auftragsstornierung. <br/> Garantierte sichere Zahlungen.'
+      block2:
+        link: 'niedrige Preise'
+        text_html: 'Alle Preise sind direkt von Dolmetscher <br/> ohne Vermittlungsprovisionen. <br/> RABATT whärend der Buchung.'
+      block3:
+        link: 'Große Auswahl'
+        text_html: 'Dolmetscher in %{cities}, <br/> %{countries} weltweit'
+      block4:
+        link: 'komfortabel'
+        text_html: 'Alle Zahlungsarten: VISA, MasterCard, <br/> Banküberweisung, Barzahlung<br/>SUPPORT 24/7 in deutsche Sprache'
+  search_page:
+    window_title:
+      one: "%{count} Dolmetscher in %{city}"
+      other: "%{count} Dolmetscher in %{city}"
+    title:
+      zero: "Keine Dolmetscher in %{city}"
+      one: "Dolmetscher in %{city}"
+      other: "Dolmetscher in %{city}"
+    meta_description: "professionelle Dolmetscher in  %{city} für die Begleitung, Verhandlungen, Messen, Konferenzen. Nehmen Sie den Kontakt mit Dolmetscher oder Buchen Sie direkt auf der Webseite ohne Provisionen und Vorzahlungen."
+    keywords: "Dolmetscher in %{city}, Dolmetscherleistungen in %{city}, russische Dolmetscher in %{city}, private Dolmetscher in %{city}, Dolmetscher in %{city}"
+    free_cancellation: "Jetzt buchen, später zahlen, KOSTENLOSE Stornierung! Ohne zusatzkosten."
+    one_available_interpreter: "Ein Dolmetscher in %{city} ist für die Buchung verfügbar"
+    one_from_few_available_interpreter: "%{free} von %{count} Dolmetschern in %{city} ist für die Buchung verfügbar"
+    available_interpreters:
+      zero: "Keine verfügbare Dolmetschern in %{city} für ausgewählte Einstellungen"
+      one: "%{free} von %{count} Dolmetscher in %{city} ist für die Buchung verfügbar"
+      other: "%{free} von %{count} Dolmetschern in %{city} sind für die Buchung verfügbar"
+    duration_text: "Gesamtpreis für %{duration} (%{intervals}), inklusive Rabatt."
+    back_link: "Auf die Homepage"
+    price: "Dolmetscherpreise in %{city}"
+    services: "Dolmetscherleistungen in %{city}:"
+    specializations: "Dolmetscherthematik:"
+    fold: Ausblenden
+    unfold: Mehr anzeigen
+    city_desc: "Über die Dolmetschern in %{city}"
+    change_date: "Datum, Zeit ändern?"
+    sort:
+      title: "Sortieren:"
+      price: "Preis"
+      updated_at: "Aktualisierungsdatum"
+      level: "Lebenslaufbewertung"
+    learn_more: "Mehr Info"
+    result: "Ergebniss"
+    filter: "Filter"
+    search: "Suche"
+    map_link: "Auf die Karte anschauen"
+    minimum_volume_message: "%{hours} - Mindestbestellung bei Dolmetschern in %{city}. Erhöhen Sie die Stundenzahl."
+    busy_interpreters_message: "%{count} nicht verfügbare Dolmetschern für ausgewählte Zeitraum"
+    minimum_advance_message: "Ihre Auftrag kann nicht frühe als %{advance} bei der Dolmetschern aus %{city} erledigt werden. Ändern Sie die Datum und Zeit."
+    time_in_past: "Wählen Sie eine Datum in Zukunft"
+    another_price_interpreters:
+      one: "Noch %{count} Dolmetscher in %{city}, welche Ihre Anfrage enspricht, aber in einen anderen Preisniveau"
+      few: "Noch %{count} Dolmetschern in %{city}, welche Ihre Anfrage enspricht, aber in einen anderen Preisniveau"
+      other: "Noch %{count} Dolmetschern in %{city}, welche Ihre Anfrage enspricht, aber in einen anderen Preisniveau"
+    busy_interpreters:
+      one: "Noch %{count} Dolmetscher in %{city}, welche Ihre Anfrage enspricht, aber in einen anderen Zeitpunkt verfügbar ist"
+      few: "Noch %{count} Dolmetschern in %{city}, welche Ihre Anfrage enspricht, aber in einen anderen Zeitpunkt verfügbar sind"
+      other: "Noch %{count} Dolmetschern in %{city}, welche Ihre Anfrage enspricht, aber in einen anderen Zeitpunkt verfügbar sind"
+    show_more: "Mehr anzeigen"
+    show_result: "Zeige Ergebnis"
+  interpreter:
+    diplomas: "Diplome"
+    certificates: "Zertifikate"
+    experience: "Erfahrung"
+    level: "Nieveau"
+    rating: "Rating"
+    reviews: "Bewertungen"
+    education: Ausbildung
+    reviews_text: "Nur von Kunden welche die Dienstleistungen bezahlt und benutzt haben"
+    rating_text: "Bewertung besteht von mehr als 20 Parametern: Erfahrung, Ausbildung, Kundenrezensionen, Empfelungen, Fragebogenqualität und anderen"
+    recommendations: "Empfelungen"
+    events: "Events"
+    resume_level: "Lebenslaufqualität <span class='mobile-hide'>:</span>"
+    title: "professionelle Dolmetscher"
+    title_city: "Professionelle Dolmetscher in %{city}"
+    verified_contacts: "Geprüfte Kontaktdaten"
+    verified_profile: "Profil ist verifiziert"
+    in_city: "Dolmetscher in %{city} - %{name}"
+    order_now: "BUCHEN"
+
+  show_interpreter:
+    translation: "Professional translation"
+    get_quote: "GET QUOTE"
+    order_now: "Buchen"
+    title: "Dolmetscher in %{city} (%{langs}) - %{interpreter}"
+    meta_description: "Professionelle Dolmetscherleistungen in %{city} für die Verhandlungen, Messen, Konferenzen, Begleitungen"
+    desc_addition: "Ich biete dolmetscherdienstleistungen (%{langs}) in %{city}."
+    keywords: "Dolmetscher in %{city}, Dolmetscherleistungen in %{city}, russischer Dolmetscher in %{city}, private Dolmetscher in %{city}, Dolmetscher in %{city}, Dolmetscherleistung in %{city}"
+    service_select: "Dolmetscher in %{city}"
+    experience: "Erfahrung"
+    youtube_link: Videonachricht
+    similar_interpreters: "ähnliche Dolmetscher"
+    verified_contacts_text: "Virifizierte Unterlagen - Reisepass (Ausweiss, Führerschein) und Ausbildungszeugnisse."
+    ticket_text: 'Senden Sie an der Dolmetscher eine Anfrage oder buchen Sie gleich für die ausgewählte Zeitraum mit einem Klick auf "Buchen" gegenüber die Leistung unten.'
+    why_itravel_block: |
+      <h3> Warum interpreters.travel: </h3>
+      <p> Die Preise ohne Vermittlungsgebühren</p>
+      <p> Onlinezahlung oder Bar an Dolmetscher</p>
+      <p> Kostenlose Stornierung, Rückzahlungsgarantie</p>
+      <p> Buchung ohne Anmeldung</p>
+      <p> Buchung auf das Unternehmen</p>
+      <p> Sichere Onlinezahlungen, Datenschutz</p>
+    why_itravel_title: "Warum interpreters.travel:"
+    why_itravel_1: "Die Preise <br/> ohne Vermittlungsgebühren"
+    why_itravel_2: "Onlinezahlung oder <br/> Bar an Dolmetscher"
+    why_itravel_3: "Kostenlose Stornierung, <br/> Rückzahlungsgarantie"
+    why_itravel_4: "Buchung ohne Anmeldung"
+    why_itravel_5: "Buchung auf <br/> das Unternehmen"
+    why_itravel_6: "Sichere Onlinezahlungen,<br/> Datenschutz"
+    learn_more: "Mehr erfahren"
+    back_link: "Alle Dolmetscher in %{city}"
+    load_more: "Mehr anzeigen"
+    selected_period: "Ausgewählte Periode: %{intervals}"
+    specializations: "Dolmetschenthematik:"
+    language_pairs: "Sprachkombination:"
+    unavailable: "Dolmetscherleistungen sind für die Ausgewählte Zeitraum nicht verfügbar,"
+    edit_search: "ändern Sie den Zeitraum"
+    available_services: "Dienstleistungen, welche für Buchung verfügbar %{period}:"
+    price: "Preise*"
+    order: "Auftrag"
+    person_count:  '(%{count} Personen)'
+    additional_services: "Zusatzleistungen"
+    free_cancellation_text: "Eine kostenlose Stornierung ist bis %{hours} Stunden vor dem Termin möglich. Im Falle eine Stornierung nach diesem Zeitpunt fallen die Storogebühren in Höhe von ersten zwei Dolmetscherstunden."
+    free_cancellation: "Kostenlose Stornierung"
+    discount: "Rabatt"
+    order_button: "Buchen"
+    star_text: "*Gesamtpreis für die ausgewählte Zeitraum, inkl. Rabatt"
+    avg_response_time:
+      title: "Antwortdauer"
+      hour: "innerhalb eine Stunde"
+      few_hours: "in einige Stunden"
+      day: "im Laufe des Tages"
+      few_days: "in einige Tagen"
+    response_rate: "Antwortfrequenz"
+    how_to_order:
+      title: "Wie buche ich einen Dolmetscher in %{city}:"
+      text: |
+        - klicken Sie auf "Buchen" gegenüber ausgewählten Dienstleistung
+        <br>
+        - Zahlen Sie mit Kreditkarte oder Rechnung  erhalten und mit einen Banküberweisung zahlen. Auch können Sie gerne Barzahlung an Dolmetscher auswählen.
+        <br>
+        - Sie bekommen einen Auftragsbestätigung und Voucher mit Kontaktdaten Ihres Dolmetschers
+    confirm_modal:
+      date: "Datum und Zeit der Buchung:"
+      service: "%{service} in %{city}"
+      languages: "Sprachkombinationen:"
+      price: "Auftragssumme:"
+    reviews_from: Nur von Kunden welche die Dienstleistungen bezahlt und benutzt haben
+    dialogs:
+      checked_and_confirmed: 'Geprüft und bestätigt:'
+      email_full: "Email: %{email}"
+      phone_full: "Telefonnummer: %{phone}"
+      email_address: "Email: ▒▒▒▒▒▒@▒▒▒▒.%{domain}"
+      phone: "Telefonnummer: ▒▒▒▒▒▒%{last_two}"
+      contacts_available_: "Kontakte werden nach verfügbar %{confirmation}"
+      contacts_available: "Kontakte werden nach verfügbar"
+      order_confirmation: "Auftragsbestätigung"
+      passport: 'Reisepass/Ausweis/Führerschein'
+      documents: Ausbildungszeugnisse
+      contacts_title: Kontaktdatenverifizierung
+      profile_title: Profilbestätigung
+      education_title: "Ausbildung"
+      youtube_title: "Videonachricht"
+    500_page:
+      title: Dolmetscher wurde nicht gefunden
+      title_text: Diese Dolmetscher ist nicht verfügbar oder hat seinen Profil von Veröffentlichung weg genommen
+      similar_ints_title: "Schauen Sie ähnlichen Dolmetschern in %{city}"
+      to_search: "Versuchen %{link} Sie anderen verfügbaren Dolmetschern in %{city}"
+      search: Zur Suche gehen
+    viewers_count:
+      one: "Diese Dolmetscher wird gerade beim %{count} Kunde angeschaut"
+      few: "Diese Dolmetscher wird gerade beim %{count} Kunden angeschaut"
+      other: "Diese Dolmetscher wird gerade beim %{count} Kunden angeschaut"
+
+  order_page:
+    description: "Dolmetscher buchen"
+    back_link: 'Zum Leistungsauswahl'
+    stage1: "Dolmetscher auswählen"
+    stage2: "Dienstleistung auswählen"
+    stage3: "Dolmetscher buchen"
+    order_info: "Auftragsinfo"
+    services_info: "Dolmetschrdienstleistungen in: %{city}."
+    selected_period: "Ausgewählte Periode:"
+    language_pairs: "Sprachkombinationen:"
+    selected_services: "Ausgewählte Dienstleistungen:"
+    additional_services: "Zusatzleistungen:"
+    order_cancellation: "Kostenlose Auftragsstornierung:"
+    cancellation_possible: "ist bis %{date} möglich"
+    no_cancellation: "nicht vorgesehen"
+    service_types: "Ausgewählte Dienstleistungen:"
+    order_price: "Bestellungssumme und Devisen:"
+    discount: "inkl. Rabatt."
+    personal_form_tab: "als Privatperson buchen"
+    confirmation_code: "Bitte tragen Sie hier einen Verifizierungskode, welche Sie per Handy erhalten haben:"
+    login_button: "Melden Sie in Ihre Konto an"
+    enter_your_details: "Geben Sie ihre Details ein"
+    login_password_info: "(das Passwort wurde an %{mail} zugeschickt)"
+    login: "Anmelden"
+    password: "Passwort"
+    forgot_password_success: "In wenige Minuten erhalten Sie einen Email mit die Beschreibung über Passwortrücksetzung."
+    forgot_password: "Passwort vergessen?"
+    forgot_title: "Passwort zurücksetzen"
+    new_password: "neue Passwort erstellen"
+    client_currency: "Währung"
+    payment:
+      choice: "Die Bezahlungsvarianten werden Ihnen angeboten:"
+      choice_paypal: "PayPal"
+      choice_invoice: "Rechnung für die Bankanweisung"
+      choice_cash: "dem Dolmetscher bar"
+      choice_card: "VISA/MasterCard"
+      info: "Wenn Sie die Barbezahlung wählen, werden die Abschaffungsbedingungen der Buchung mit dem Dolmetscher gestimmt."
+      cash_text: 'Wenn Sie als Zahlungsmethode "Barzahlung" auswählen, Sie zahlen bar direkt an der Dolmetscher in Dolmetscherwährung (%{amount}) nach aktuellen Währungskurs am Tag der Buchung. Sie erhalten einen Zahlungsquittung in Dolmetscherwährung.'
+      invoice_text1: "Eine Rechnugnskopie bekommen Sie in PDF Format per Email"
+      invoice_text2: "Die Rechnung können Sie in jeden Bank drei Tage vor dem Zahlungstermin (steht in Rechnung) zahlen."
+      invoice_text_eur: "Passt auf! Der Rechnungsbetrag wird in einer der verfügbaren Währungen (EUR) angegeben, die möglicherweise nicht mit der von Ihnen ausgewählten Währung übereinstimmen."
+      invoice_text_secure_deal: "Sie verwenden ein sicheres Geschäft. Die Zahlung an den Dolmetscher erfolgt erst nach Abschluss des Auftrags. <br/> Eine Rechnugnskopie bekommen Sie in PDF Format per Email"
+      paypal: 'Sie werden auf PayPal weitergeleitet. Klicken Sie auf "PayPal"'
+      select: "Zahlungsarten:"
+      invoice: "Rechnung"
+      cash: "Bar"
+      order_button: "Dolmetscherleistungen buchen"
+      card_secure: "Sie verwenden ein sicheres Geschäft. Die Zahlung an den Dolmetscher erfolgt erst nach Abschluss des Auftrags"
+    personal_form:
+      title: "Kundeninformation:"
+      surname: "Nachname:"
+      name: "Name, Nachname:"
+      sms_phone: "Handynummer (+35733...)"
+      city: "Stadt:"
+      address: "Adresse:"
+      email: "Email:"
+      info_for_interpreter: "die Information für den Dolmetscher (ist nicht obligatorisch und kann später zur Verfügung gestellt werden):"
+      meeting_address: "Treffadresse: "
+      map_link: "Auf dem Karte zeigen"
+      detail_information: "Beschreiben Sie die Tematik und Fragen, welche bei der Termin diskutiert werden müssen. Sie können auch z.B. Infotext oder andere Info hier hinzufügen (bis 3000 Simbolen). Das ermöglicht Dolmetscher eine bessere Vorbereitung zur den Termin oder Anlass"
+      file_field: "Ein File als Anlage hinzufügen"
+      submit: "Zahlungsart auswählen"
+      agreement_text: 'Drückend auf "Zahlungsart auswählen" bestätige ich, dass ich mit %{policy} %{terms} wohlunterrichtet und einverstanden bin.'
+      agreement_calls_text: 'Drückend auf "Fortfahren" bestätige ich, dass ich mit %{policy}, %{terms} wohlunterrichtet und einverstanden bin.'
+      policy: "dem Datenschutzrichtlinien"
+      terms: "der Regelung und den Bedingungen"
+  order_complete:
+    title: "Auftrag erteilen"
+    back_link: "Auf der Homepage"
+    for_client: "Sehr gehrte(r) %{client}!"
+    order_registered: "Ihr Auftrag ist bei uns eingegangen."
+    text: |
+      Eine Nachricht mit Auftragsdaten
+      <br>
+      und Ihre wetere Schritten wurde Ihnen per Email versand.
+      <br>
+      Sie können auch
+    link: "Ihre Auftragsdaten anschauen"
+    after_link: "auf der Webseite."
+  personal_account:
+    voucher_not_ready: "Das Voucher über Ihre Bestellung erhalten Sie nachdem Ihre Bestellung vom Übersetzer/Dolmetscher angenommen und bestätigt wurde, und der Auftrag (falls nicht in bar) bezahlt wurde."
+    voucher_ready_after_confirmation: "Das Voucher über Ihre Bestellung erhalten Sie nachdem Ihre Bestellung vom Übersetzer/Dolmetscher angenommen und bestätigt wurde"
+    receipt_not_ready: "Ihre Quittung erhalten Sie nachdem Ihre Zahlung eingegangen ist."
+  show_order_page:
+    title: "Bestellungsvorschau"
+    details: "Bestellungsdetails:"
+    from: "von"
+    get_voucher: "Bestellung Voucher erhalten"
+    cancelled: "Die Bestellung ist storniert"
+    period: "Ausgewählter Zeitraum:"
+    contact_details: "Kontaktdaten:"
+    email: "E-Mail Adresse:"
+    phone: "Telefon:"
+    service_info: "Zusätzliche Informationen über den benötigten Service"
+    languages: "Sprachenkombination:"
+    address: "Adresse des Treffpunkts:"
+    additional_services: "Im Service inbegriffen:"
+    not_available: "nicht vorgesehen"
+    cancellation_conditions: "Stornobedingungen:"
+    payment_info: "Zahlungsinformationen"
+    payment: "Zahlung:"
+    payment_date: "Zahlungsfrist:"
+    get_receipt: "Eine Quittung erhalten"
+    pay_with_card: "Bezahlen (VISA/MasterCard)"
+    pay_with_card_2: "Zahlung über interpreters.travel (VISA/MasterCard)"
+    pay_invoice: "Zahlung über interpreters.travel (Überweisung)"
+    download_invoice: "Download Rechnung"
+    payment_receipt: "Ihre Quittung erhalten Sie nachdem Ihre Zahlung eingegangen ist."
+    client_info:
+      title: "Informationen über den Besteller"
+      name: "Nachname, Name:"
+      city: "Stadt:"
+      phone: "Telefon:"
+      email: "E-Mail:"
+    confirm_order_changes: "Bestellungsänderungen bestätigen"
+    cancel_order: "Bestellung stornieren"
+    cancel_warning: "Stornierte Bestellung kann nicht wiederhergestellt werden."
+    continue: "Weiterfahren?"
+    continue2: "Fortfahren"
+    details_available_after_confirmation: "Das Voucher über Ihre Bestellung erhalten Sie nachdem Ihre Bestellung vom Übersetzer/Dolmetscher angenommen und bestätigt wurde"
+    details_not_available: "Erhalten Sie nachdem Ihre Bestellung bestätigt wird, und die gebührenfreie Bestellungswiederrufsfrist abgelaufen ist."
+    details_will_be_displayed: "wird nach Annahme der Bestellung und Zahlung angezeigt (falls nicht in bar)"
+    request_contacts: "die Kontakte jetzt aufzeigen"
+    request_contacts_text: "Wenn Sie die Kontakte vom Dolmetscher vorzeitig bekommen, ändern Sie die  Abschaffungsbedingungen der Buchung. Die Abschaffung wird nur mit der Abrechnung/  Zahlung des 2-Stunden der Dienstleistungen des Dolmetschers Preises möglich. Bestätigen Sie die vorzeitige Datengewinnung und die Änderung der Abschaffungsbedingungen der Buchung."
+    upon_agreement: "Nach Vereinbarung"
+  order_pages_sidebar:
+    menu: "Menu"
+    orders: "Bestellungen"
+    calls: "Anrufe"
+    searches: "Suchen"
+    logout: "Abmelden"
+  searches_index_page:
+    title: "Meine Suche"
+    created_at: "Wann war die Suche"
+    city: "Stadt"
+    languages: "Sprachen"
+    intervals: "Datum, Uhrzeit"
+    show_search_form: "Suche nach Dolmetschern"
+  translation_orders:
+    text_docs_translation: "Übersetzung von Texten und Dokumenten"
+    word_count: "Zeichen:"
+    view_file: "Datei ansehen"
+    specialisation: "Spezialisierung:"
+    due_date_time: "Datum, Vorlaufzeit:"
+    interpreter_role: "Dolmetscher"
+    years: "Jahre"
+  validator:
+    required: 'Dieses Feld muss ausgefült sein.'
+    remote: 'Bitte geben Sie eine richtigen Wert ein.'
+    email: 'Bitte geben Sie eine korrekte Emailadresse ein.'
+    url: 'Bitte geben Sie einen korrekten URL ein.'
+    date: 'Bitte geben Sie eine korrekte Datum ein.'
+    dateISO: 'Bitte geben Sie eine korrekte Datum im ISO Format ein.'
+    number: 'Bitte geben Sie einen Nummer ein.'
+    digits: 'Bitte geben Sie nur die Nummern ein.'
+    creditcard: 'Bitte geben Sie ein korrekte Kreditkartennummer ein.'
+    equalTo: 'Bitte geben Sie die gleichen Wert noch mal ein.'
+    accept: 'Bitte wählen Sie ein File mit richtige Erweiterung.'
+    maxlength: 'Bitte geben Sie nicht mehr als {0} Simbolen ein.'
+    minlength: 'Bitte geben Sie mindestens {0} Simbolen ein.'
+    rangelength: 'Bitte geben Sie einen Wert von {0} bis {1} Simbolen ein.'
+    range: 'Bitte geben Sie hier einen Nummer von {0} bis {1} ein.'
+    max: 'Bitte geben Sie hier einen Nummer die nicht grösser oder gleich {0} ist ein.'
+    min: 'Bitte geben Sie hier einen Nummer die grösser oder gleich {0} ist ein.'
+    uniq_email: 'Diese Email wurde bereits verwendet. Bitte verwenden Sie eine andere Email oder melden Sie sich an'
+    phone_format: "Bitte geben im Format +357..."
+    city_select: "richtig angeben oder von die Liste auswählen"
+    browser_outdated: "Ihr Browser ist veraltet und einige Fuktionen können nicht richtig funktionieren. Bitte installieren Sie eine neue und sichere Browser"
+    minlength_error: "Falsche Länge"
+    maxlength_error: "Text zu lang"
+    interval_exists: 'Diese Periode ist bereit ausgewählt, bitte wählen Sie anderen'
+    invalid_interval: 'Sie haben einen falschen Zeitinterval ausgewählt'
+  phone:
+    terms_link: "Tder Regelung und den Bedingungen"
+    waiting_interpreter: "Die Anfrage wurde an verfügbare Dolmetscher gesendet. Durchschnittliche Antwortzeit - 3 Minuten"
+  passwords:
+    no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."
+    send_instructions: "You will receive an email with instructions about how to reset your password in a few minutes."
+    send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."
+    updated: "Your password was changed successfully. You are now signed in."
+    updated_not_active: "Your password was changed successfully."

@@ -1,0 +1,27 @@
+- content_for :description do
+  .mobile-hide= t("info_page.title")
+
+- content_for :title do
+  = t("info_page.title")
+
+- content_for :meta_description do 
+  = t("meta_desc.info")
+
+- content_for :back_link do
+  = link_to t("help_menu.back_link"), root_path, class: 'back_link'
+
+- content_for :body do
+  .main_content
+    .about_sidebar
+      = render partial: 'home/help_menu'
+    .cabinet_content
+      .about_content
+        .about_article
+          %p
+            %strong
+              = link_to 'Interpreters.travel', root_path
+              = t("info_page.site_description")
+          = t("info_page.main_content", cities: t("counts.cities", count: @cities_count), countries: t("counts.countries", count: @countries_count))
+        .about_type_img_wrapper
+          = image_tag 'help/karta.png', class: 'img', alt: ''
+      .clear

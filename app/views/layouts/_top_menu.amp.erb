@@ -1,0 +1,116 @@
+<ul class="top_menu">
+  <% if content_for?(:back_link) %>
+    <li class="back-link back-link-desktop">
+      <%= yield :back_link %>
+    </li>
+  <% end %>
+  <% if user_signed_in? %>
+    <li class="account-link">
+      <%= link_to edit_user_registration_path do  %>
+        <span class="user-icon">
+          <%= current_user.name %>
+        </span>
+      <% end %>
+    </li>
+    <li class="personal-account">
+      <%= link_to t('top_menu.dashboard_link'), personal_account_path %>
+    </li>
+  <% else %>
+    <li class="account-link">
+      <%= link_to new_user_session_path do  %>
+        <span class="user-icon">
+          <%= t('top_menu.login_link') %>
+        </span>
+      <% end %>
+    </li>
+    <li class="signup-link">
+      <%= link_to t('top_menu.sign_up_link'), new_user_registration_path %>
+    </li>
+  <% end %>
+  <li class="support-link">
+    <%= link_to t('footer.support'), support_path %>
+  </li>
+  <% if content_for?(:top_menu_links) %>
+    <%= yield :top_menu_links %>
+  <% end %>
+  <amp-accordion>
+    <section>
+      <h4 class="menu-link locales-link">
+        <a>
+          <span><%= t("locales.#{I18n.locale}") %></span>
+          <b class="caret"></b>
+        </a>
+      </h4>
+      <div class="locales-dropdown header-dropdown">
+        <ul class="header-dropdown-menu">
+          <% available_page_locales.each do |l| %>
+            <% next if l == I18n.locale.to_s %>
+            <li>
+              <%= link_to t("locales.#{l}"), current_url_with_locale(l) %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </section>
+  </amp-accordion>
+<!--   <li class="locales-link">
+    <%= link_to "#", "data-jq-dropdown" => ".locales-dropdown" do  %>
+      <%= t("locales.#{I18n.locale}") %>
+      <b class="caret"></b>
+    <% end %>
+    <div class="locales-dropdown jq-dropdown">
+      <ul class="jq-dropdown-menu">
+        <% available_page_locales.each do |l| %>
+          <% next if l == I18n.locale.to_s %>
+          <li>
+            <%= link_to t("locales.#{l}"), current_url_with_locale(l) %>
+          </li>
+        <% end %>
+      </ul>
+    </div>
+  </li> -->
+  <% if @show_currency_select %>
+    <amp-accordion>
+      <section>
+        <h4 class="menu-link currencies-link">
+          <a>
+            <%= session[:current_currency] %>
+            <b class="caret"></b>
+          </a>
+        </h4>
+        <div class="locales-dropdown header-dropdown">
+          <ul class="header-dropdown-menu">
+            <% available_currencies.each do |l| %>
+              <% next if session[:current_currency] == l %>
+              <li>
+                <%= link_to l, set_current_currency_path(l) %>
+              </li>
+            <% end %>
+          </ul>
+        </div>
+      </section>
+    </amp-accordion>
+<!--     <li class="currencies-link">
+      <%= link_to "#", "data-jq-dropdown" => ".currencies-dropdown" do  %>
+        <%= session[:current_currency] %>
+        <b class="caret"></b>
+      <% end %>
+      <div class="currencies-dropdown jq-dropdown">
+        <ul class="jq-dropdown-menu">
+          <% available_currencies.each do |l| %>
+            <% next if session[:current_currency] == l %>
+            <li>
+              <%= link_to l, set_current_currency_path(l) %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </li> -->
+  <% end %>
+  <% if user_signed_in? %>
+    <li class="logout-link">
+      <%= link_to t('top_menu.logout_link'), destroy_user_session_path, method: :delete %>
+    </li>
+  <% end %>
+</ul>
+<div class="clear"></div>

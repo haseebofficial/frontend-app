@@ -1,0 +1,7 @@
+- default_locale = search.try(:your_language) || @languages.find {|l| l.locale.to_sym == I18n.locale }.try(:locale) || @languages[1].try(:locale) || "en"
+- options = options_from_collection_for_select(@languages, "locale", "name", default_locale)
+.language-select-wrapper
+  .label-text
+    #{t("interpretation_call.your_language")}:
+    = link_to t("common.languages.#{default_locale}"), "#", class: "change-your-language"
+  = select_tag "call_search[your_language]", options, class: "chosen-select chosen-your-lang", style: "display: none;"

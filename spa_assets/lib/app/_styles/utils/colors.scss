@@ -1,0 +1,9 @@
+$interpreters-green: #30480A;
+$interpreters-green-light: #30590a;
+$chalet-green: #5B6F3E;
+$interpreters-black:  #383737;
+$interpreters-yellow: #FFC602;
+$interpreters-yellow-light: #FED33C;
+$mercury: #E5E5E5;
+
+@forward "app/_styles/bulma/colors" as bulma-*;

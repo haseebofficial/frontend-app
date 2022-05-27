@@ -1,0 +1,82 @@
+es: 
+  sign_in_page: 
+    title: "Iniciar sesión"
+    form: 
+      email: "Correo electrónico:"
+      password: "Contraseña:"
+      remember_me: "Guardar contraseña"
+      submit: "Iniciar sesión"
+  shared_links:
+    interpreters_login: "Iniciar sesión como intérprete" 
+    sign_in: "Iniciar sesión"
+    sign_up: "Registrarse"
+    new_password: "¿Olvidó su contraseña?"
+    interpreters_sign_up: "Registrarse como intérprete"
+  sign_up_page:
+    title: "Registrarse"
+    interpreters_question: "Usted quiere registrarse como intérprete?"
+    yess: "Sí"
+    nno: "No"
+    form:
+     name: "* Nombre"
+     surname: "* Apellidos"
+     email: "* Correo electrónico"
+     password: "* Contraseña"
+     password_confirmation: "* Confirme la contraseña"
+     submit: 'Registrarse'
+  new_password_page:
+    title: "Restablecer contraseña"
+    form: 
+      email: 'Correo electrónico'
+      submit: "Crear nueva contraseña" 
+  orders_index_page: 
+    title: "Mis encargos"
+    load_more: "VER MÁS"
+    cancelled: "El encargo está cancelado"
+  order_pages_sidebar: 
+    menu: "Меню"
+    orders: "Mis encargos"
+    searches: "Mis búsquedas"
+    logout: "Salir"
+    from: "de"
+  searches_index_page: 
+    title: "Mis búsquedas"
+    created_at: "Cuándo fue la búsqueda"
+    city: "Ciudad"
+    languages: "Idiomas de la interpretación"
+    intervals: "La fecha y la hora"
+  show_order_page: 
+    title: "Ver el encargo"
+    details: "Detalles del encargo:"
+    from: "de"
+    get_voucher: "Obtener сarta de pago"
+    cancelled: "El encargo está cancelado"
+    period: "Período seleccionado:"
+    contact_details: "Los datos para ponerse en contacto con intérprete"
+    email: "Correo electrónico:"
+    phone: "Teléfono:"
+    service_info: "Información adicional sobre el servicio"
+    languages: "Idiomas:"
+    address: "Dirección de la reunión:"
+    additional_services: "El servicio también incluye:"
+    not_available: "не предусмотрено"
+    cancellation_conditions: "Condiciones de la cancelación:"
+    payment_info: "Información sobre el pago"
+    payment: "El pago:"
+    payment_date: "Fecha del pago:"
+    get_receipt: "Obtener recibo del pago"
+    pay_with_card: "El pago a través de tarjeta (VISA/MasterCard)"
+    client_info: 
+      title: "Información sobre el cliente"
+      name: "Apellido, Nombre:"
+      city: "Ciudad:"
+      phone: "Teléfono:"
+      email: "Correo electrónico:"
+    confirm_order_changes: "Suma y valuta del encargo:"
+    cancel_order: "Cancelar el encargo"
+    cancel_warning: "Cancelling order is PERMANENT."
+    continue: "Continue?"
+    details_available_after_confirmation: "Estará disponible después de la confirmación del encargo"
+    details_not_available: "Estará disponible después de la confirmación del encargo y la expiración de cancelación gratis"
+    request_contacts: "Enseñar ahora los contactos"
+    request_contacts_text: "Recibiendo los contactos anticipadamente del intérprete, Usted cambia los términos de la cancelación de encargo. Cancelación será posible sólo con deducción/desembolso de costo de dos horas de servicios de intérprete. Confirme la recepción anticipado de los contactos y cambio de las condiciones de cancelación"

@@ -1,0 +1,38 @@
+<div class="form_wrapper" id="search_form_wrapper">
+  <form id="base_form_search" class="new_search" method="GET" action="<%= amp_update_search_url(@search) %>" target="_top">
+    <input name="format" value="amp" type="hidden">
+    <% if current_user %>
+      <input class="hidden" id="search_user_id" name="search[user_id]" value="<%= current_user.id %>" type="hidden">
+    <% end %>
+
+    <div class="label">
+      <span class="lab">
+        <%= t('search_form.where') %>
+      </span>
+      <span class="error"><%= "City not found" if @errors and @errors["city"] %></span>
+      <%= render partial: 'searches/form/city_selector' %>
+    </div>
+
+    <div class="label">
+      <span class="lab">
+        <%= t('search_form.when') %>
+      </span>
+      <span class="error"><%= "Date is invalid" if @errors and @errors["simple_intervals"] %></span>
+      <%= render partial: 'searches/form/date_selector' %>
+    </div>
+
+    <div class="label">
+      <span class="lab">
+        <%= t('search_form.language') %>
+      </span>
+      <span class="error"><%= "Select another language" if @errors and @errors["languages"] %></span>
+      <%= render partial: 'searches/form/language_selector' %>
+    </div>
+
+    <div class="your_lang">
+      <%= t('search_form.your_language') %>
+      <%= render partial: 'searches/form/your_language_selector' %>
+    </div>
+    <input class="sub_bot" name="commit" value="search" type="submit">
+  </form>
+</div>

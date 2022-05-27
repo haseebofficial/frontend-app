@@ -1,0 +1,80 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+
+.order-progress {
+  justify-content: center;
+  display: flex;
+
+  // .order-progress-link:hover {
+  //   font-weight: 700;
+  //   transition: all ease .5s;
+  // }
+
+  .order-progress-link::before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    width: 0;
+    height: 4px;
+    background-color: c.$interpreters-yellow;
+    transition: width 0.8s ease;
+  }
+  .order-progress-link:hover {
+    font-weight: 700;
+    text-decoration: none;
+
+    &:before {
+      width: calc(100% - 26px);
+    }
+  }
+
+  li {
+    display: block;
+    position: relative;
+
+    i {
+      margin-right: 10px;
+    }
+  }
+
+  & li:not(:first-child) {
+    margin-left: 105px;
+  }
+
+  .is-active {
+    font-weight: 700;
+    color: c.$interpreters-green;
+
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: -7px;
+      width: 100%;
+      height: 4px;
+      background-color: c.$interpreters-yellow;
+      transition: width 0.8s ease;
+    }
+  }
+}
+
+@include r.mobile {
+  .order-progress {
+    li {
+      font-size: 10px;
+
+      i {
+        margin-right: 2px;
+      }
+    }
+
+    & li:not(:first-child) {
+      margin-left: 5px;
+    }
+  }
+}
+.lang-ar {
+  .order-progress i {
+    margin-right: 0;
+    margin-left: 10px;
+  }
+}

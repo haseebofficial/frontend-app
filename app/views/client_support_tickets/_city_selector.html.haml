@@ -1,0 +1,43 @@
+%input.string.required.base-input.find_city{type: 'text', placeholder: t('contact_form.city')}
+%input#client_support_ticket_city_id.hidden{name: 'client_support_ticket[city_id]', type: 'hidden', value: "#{@ticket.city.id unless @ticket.city.nil?}"}
+:javascript
+  var API_BASE_URL = "#{ENV['API_BASE_URL']}"
+  $(document).on('ready page:change', function(e) {
+      $('.find_city').val("#{"#{@ticket.city.name} - #{@ticket.city.country}" unless @ticket.city.nil?}").removeClass('act');
+      var cache = {};
+      $('.find_city').autocomplete({
+        minLength: 2,
+        source: function(request, response){
+          var term = request.term;
+          if (term in cache){
+            response(cache[term]);
+            return;
+          }
+
+          $.ajax({
+                type: 'GET',
+                url: API_BASE_URL+"/cities",
+                dataType: 'jsonp',
+                crossDomain: true,
+                data: request,
+                success:function(data){
+                  cache[ term ] = data;
+                  response( data );
+                },
+                error:function(jq, st, error){
+                  alert(error);
+                }
+          });
+
+        },
+        focus: function(event, ui){
+          $('.find_city').val(ui.item.label);
+          return false;
+        },
+        select: function(event, ui){
+          $('.find_city').val(ui.item.label);
+          $('#client_support_ticket_city_id').val(ui.item.value);
+          return false;
+        }
+    });
+  });

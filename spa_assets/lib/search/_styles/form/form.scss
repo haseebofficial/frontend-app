@@ -1,0 +1,217 @@
+@use "app/_styles/utils/colors" as c;
+@use "layout/_styles/utils/layout_properties";
+@use "app/_styles/utils/responsiveness" as r;
+@use "app/_styles/utils/text";
+@use "search/_styles/form/utils" as form-utils;
+
+.search-form {
+  background-color: form-utils.$background-color;
+  .your-lang_pos {
+    height: 20px;
+    line-height: 1rem;
+    .select:not(.is-multiple):not(.is-loading)::after {
+      display: none;
+    }
+    .select {
+      .select-header {
+        height: auto;
+        padding-top: 3px;
+      }
+      .select-current {
+        color: #fff;
+        text-decoration: underline;
+      }
+      .select-body_wrapper {
+        width: auto;
+        margin-top: 5px;
+        .select-list {
+          // padding: 5px;
+          .select-item {
+              padding: 3px;
+          }
+      }
+      }
+    }
+  }
+  .main-field {
+    .cities-list_wrapper {
+      position: relative;
+      z-index: 14;
+      // background-color: #fff;
+      width: calc(100% + 12px);
+      // padding: 6px;
+      left: -6px;
+      .cities-list {
+        margin: 2px 6px 6px 6px;
+        border-top: #000;
+        background-color: #fff;
+        
+        filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.6));
+        .city-item {
+          padding: 6px;
+          padding-left: 12px;
+          cursor: pointer;
+        }
+      }
+    }
+    .control {
+      font-size: 1.2rem;
+    }
+
+    .label {
+      color: c.$interpreters-yellow;
+      text-transform: uppercase;
+      font-size: 10px;
+      line-height: 1.2rem;
+      margin-bottom: 0.3em;
+      margin-left: 1em;
+      font-weight: normal;
+      font-family: "robotomedium", sans-serif;
+      .label-error {
+        color: red;
+      }
+    }
+
+    .label-empty {
+      @include text.unselectable;
+      opacity: 0.0;
+    }
+
+    .input-label-error {
+      margin-left: 50px;
+    }
+
+    select, input, .select {
+      width: 100%;
+      color: black;
+      padding-left: 0.3em;
+      border: none;
+      background-color: #F4EDE3;
+    }
+
+    select, input, .button, .select {
+      box-shadow: none;
+      font-family: "robotolight", sans-serif;
+    }
+    .select-language {
+      // padding-left: 10px;
+      select {
+        padding-left: 0;
+      }
+      .select-header {
+        padding-left: 0;
+      }
+   }
+
+    .button {
+      font: 18px 'robotolight';
+      font-weight: 300;
+      color: #30480A;
+      padding: 5px;
+      font-size: 1.4rem;
+    }
+  }
+
+  .your-lang_wrapper {
+    display: flex;
+    align-items: center;
+    .your-lang {
+      color: #fff;
+      margin-left: 0.6em;
+      margin-top: 0.4em;
+      margin-bottom: 0;
+      padding-bottom: 0;
+      margin-right: 0.4em;
+  
+    }
+    .your-lang-link {
+      font: 16px 'robotomedium';
+      text-decoration-line: underline;
+      color: #fff;
+      cursor: pointer;
+    }
+    .your-lang_pos {
+      position: relative;
+    }
+    .your-langs_list {
+      position: absolute;
+      z-index: 12;
+      top: 36px;
+      left: -10px;
+      background-color: #A3ABB1;
+      border-radius: 5px;
+      .your-lang-item {
+        font: 16px 'robotomedium';
+        text-decoration-line: none;
+        color: #fff;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      .your-lang-item:first-child {
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+      }
+      .your-lang-item:last-child {
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+      }
+      .your-lang-active {
+        background-color: #30480A;
+      }
+    }
+  }
+}
+
+@include r.desktop {
+  .search-form {
+    .column .is-one-quarter {
+      padding-bottom: 0;
+    }
+    .select-language {
+      .select-body_wrapper {
+        margin-left: 1px;
+      }
+   }
+  }
+}
+
+@include r.touch {
+  .search-form {
+    margin: 0 (- layout_properties.$left-right-padding);
+    padding: 0 10px 20px 10px;
+    .column{
+  padding: 5px 0;
+
+    }
+    .your-lang {
+     margin-top: 10px;
+    }
+    .main-field {
+      .control {
+        font-size: 1.2rem;
+        input, select, .select{
+          padding-left: 15px;
+        }
+        .select-language {
+          padding-left: 0;
+          select {
+            padding-left: 0;
+          }
+          .select-list {
+            padding-left: 10px;
+          }
+       }
+      }
+
+      // .label-empty {
+      //   display: none;
+      // }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .label-empty {
+    display: none;
+  }
+}

@@ -1,0 +1,91 @@
+- @questionnaire = @interpreter
+- city_name = l_object(:name, @search.city)
+- @city_name = city_name
+- @in_city = city_name_in_loct_case(@search.city, city_name)
+- name = "#{l_questionnaire(:name)} #{shorten_surname(@questionnaire.surname)}"
+- langs = "#{@search.language.locale}-#{@search.your_language.locale}"
+
+- title = t("show_interpreter.title", city: @in_city, interpreter: name, langs: langs)
+
+- content_for :amp_link do
+  %link{rel: "amphtml", href: url_for(format: :amp, only_path: false)}
+
+- content_for(:title){ title }
+
+- content_for(:og_title) { title }
+
+- content_for(:og_description){ title }
+
+- @mobile_hide_description = true
+- content_for :description do
+  = t("show_interpreter.service_select", city: @in_city)
+- content_for :meta_description do
+  #{t("show_interpreter.desc_addition", langs: langs, city: @in_city)} #{l_questionnaire(:short_summary)}
+
+- content_for :keywords do
+  = t("show_interpreter.keywords", city: @in_city)
+
+- content_for :back_link do
+  = link_to t("show_interpreter.back_link", city: @in_city), search_path(@search.id), class: 'back_link'
+
+- content_for :body do
+  %input{type: 'hidden', value: @search.id, id: 'search_id'}
+  %input{type: 'hidden', value: @interpreter.id, id: 'interpreter_id'}
+  .result_mob_menu
+    %ul.show-inter-mob-tabs{style: "display: table;"}
+      %li.act
+        %a{tabindex: 0}= t("show_interpreter.service_select", city: @in_city)
+      %li 
+        %a{tabindex: 1}= t("show_interpreter.similar_interpreters") 
+  .green_line
+  .main_content
+    .cart_sidebar.tab-toggle.similar-interpreters{"data-tabindex" => 1}
+      .alike_trans_wrapper
+        .alike_trans_title
+          = t("show_interpreter.similar_interpreters")
+        .alike_trans_inner
+          .is_cont
+            - unless @similar_interpreters.blank?
+              = render partial: 'questionnaire_mini', collection: @similar_interpreters
+              - if @min_page_count and @min_page_count.to_i > 1
+                .loading-bar.show-more-mini{'data-page_count' => @min_page_count, 'data-current_page' => 1, 'data-current_id' => @interpreter.id, 'data-url' => search_mini_more_interpreters_path(@search.id)}
+                  = t("show_interpreter.load_more")
+      .why-interpreters.mobile-hide
+        = raw t("show_interpreter.why_itravel_block") 
+
+        = link_to t("show_interpreter.learn_more"), for_clients_path, class: "more-info-link", target: "_blank"
+
+    .cart_content.tab-toggle{"data-tabindex" => 0}
+      
+      %br
+      .cart_country_wrapper
+        .country #{@search.city.country}, #{l_object :name, @search.city}
+        #{t("show_interpreter.selected_period", intervals: helper_intervals_text(@search))}
+
+      = render partial: 'interpreter_detail'
+
+      .how_order_block
+        %h3.title{style: "margin:0; padding: 0;"}
+          = t("show_interpreter.how_to_order.title", city: @in_city)
+        = raw t("show_interpreter.how_to_order.text")
+      .cart_sidebar.mobile-show
+        .why-interpreters
+          = raw t("show_interpreter.why_itravel_block")
+          = link_to t("show_interpreter.learn_more"), for_clients_path, class: "more-info-link", target: "_blank"
+
+      .client-reviews-wrapper
+
+    .clear
+  %span.viewers-count-message{style: "display: none;"}= t("show_interpreter.viewers_count", count: rand(1..5))
+
+  :javascript
+    $.get("#{client_reviews_path(questionnaire_id: @questionnaire.id)}");
+
+  / = render "searches/google_product_info", services: @services, questionnaire: @questionnaire, in_city: @in_city, interpreter_name: name, langs: langs
+
+  - if @services.any?
+    - product_info = generate_google_product_info(services: @services, questionnaire: @questionnaire, in_city: @in_city, interpreter_name: name, langs: langs)
+
+    %script{type: "application/ld+json"}
+      :plain
+        #{raw JSON.generate(product_info)}

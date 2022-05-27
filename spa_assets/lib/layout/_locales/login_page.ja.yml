@@ -1,0 +1,14 @@
+login_page:
+  page_slogan: "ログイン"
+  form:
+    email: "Eメールアドレス"
+    password: "パスワード"
+    remember_me: "ログインのままに"
+    submit: "ログイン"
+    error: "無効なメールアドレスまたはパスワード"
+  links:
+    sign_in_for_interpreters: "通訳者の新登録"
+    sign_in: "ログイン"
+    sign_up: "新登録"
+    restore_password: "パスワードを忘れた方はこちら"
+    sign_up_for_interpreters: "通訳者の新登録"

@@ -1,0 +1,45 @@
+layout:
+  header:
+    sign_in: '入口'
+    help_link: '帮助'
+    sign_out: '出口'
+    personal_account: '个人账户'
+    welcome: '您好， %{user}'
+    interpreters_sign_in: '译员入口'
+    interpretation_calls: "国际电话翻译"
+    calls_to_city: "带翻译往%{city}打电话"
+    support: '24/7支持'
+    orders: "我的订单"
+    calls: "我的来电"
+    searches: "我的搜索"
+  footer:
+    about: '关于interpreters.travel'
+    support: '24/7支持'
+    for_interpreters: 致译员
+    for_interpreters_in_city: '%{city}译员'
+    for_affiliates: "致合作伙伴"
+    terms: '规则与条件'
+    privacy_policy: '隐私政策'
+  tabs:
+    interpreter_in: "译员"
+    interpreters_in: "的译员"
+    countries: "%{country_count}个国家"
+    international_calls_with_interpreters:
+      desktop: "国际电话翻译"
+      mobile: "国际电话翻译"
+      desktop_city_selected: "带着翻译呼叫%{city}"
+      mobile_city_selected: "带着翻译呼叫%{city}"
+    texts_docs_translations:
+      desktop: "文件与文本的翻译"
+      mobile: "文件与文本的翻译"
+  search:
+    start_search: "开始搜索"
+    button: "搜索"
+    download_cv: "下载CV (简历)"
+  date:
+    hour: "小时"
+    hours: "小时"
+    minute: "分钟"
+    minutes: "分钟"
+    from: "自"
+    to: "到"

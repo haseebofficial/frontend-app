@@ -1,0 +1,9 @@
+ja:
+  card_checkout_form: 
+    title: "%{amount}を支払う"
+    name: "カードホルダーの名前"
+    submit: "支払う"
+    cnn_error: '入力されたカードが正'
+    exp_error: '将来の日付を入力して'
+    cvv_error: 'カードの裏側にある'
+    text: "我々はカード追加とカード利用プロセス中、カード番号やCVV番号などの個人支"

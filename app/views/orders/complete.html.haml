@@ -1,0 +1,85 @@
+- content_for :description do
+  = t("order_complete.title")
+  
+- content_for :head do
+  = javascript_include_tag "https://bluesnap.com/source/web-sdk/bluesnap.js"
+
+- content_for :back_link do
+  = link_to t("order_complete.back_link"), root_path, class: 'back_link'
+
+- content_for :body do
+  .green_line
+  .main_content
+    = render 'shared/flash_messages'
+    - unless @payment
+      %div{:class => "alert alert-danger"}= t("flash_messages.order_not_paid", id: @order.id)
+    .order_stage_wrapper
+      %ul.order_stage
+        %li= t("order_page.stage1")
+        %li= t("order_page.stage2")
+        %li= t("order_page.stage3")
+      .clear
+    .translator_block_wrapper
+      .title
+        = t("order_page.order_info")
+      = image_tag @questionnaire.photo, class: 'photo cart_photo'
+      .desc
+        .name
+          #{l_questionnaire(:name)} #{l_questionnaire(:surname)}
+        .post
+          = t("interpreter.title")
+        .info
+          %span= t("order_page.services_info", city: @city_and_country)
+          %br
+          %span= t("order_page.selected_period")
+          #{@order.selected_period}
+          %br
+          %span= t("order_page.language_pairs")
+          = @language_pair
+          %br
+          %span= t("order_page.service_types")
+          = @order.service_type
+          %br
+          %span= t("order_page.order_cancellation") 
+          = @order.cancellation_date_to_s
+        .price
+          %span= t("order_page.order_price")
+          %strong 
+            - if @payment
+              #{@payment.amount} #{@payment.currency.code}
+            - else
+              = convert_to_current_currency(@order.amount, @questionnaire.currency.code)
+          = t("order_page.discount")
+      .clear
+    - if @payment
+      .order_complite_wrapper
+        .title1= t("order_complete.for_client", client: @order.client.full_name)
+        .title2= t("order_complete.order_registered")
+        .text1
+          = raw t("order_complete.text")
+          #{link_to t("order_complete.link"), order_personal_account_path(@order)}
+          = t("order_complete.after_link")
+    - else
+      #payment-block{style: "font-family:robotolight"}= render('orders/new/payment_block')
+      .clear
+      #payment-container
+      .clear
+
+      :javascript
+        $(document).on("ready page:load", function() {
+          $('html,body').animate({scrollTop: $('#payment-tabs').offset().top},'slow');
+        });
+    .clear
+    %br
+    %br
+    %script{charset: "utf-8", src: "//www.travelpayouts.com/widgets/#{aviasales_script_id}.js?v=488", async: ''}
+
+    %ins.bookingaff{data: {:aid => "843517", "target_aid" => "842817", "prod" => "nsb", :width => "305", :height => "290", :lang => (params[:locale] || :en)}, style: "float:left; margin-left: 15px;"}
+    :javascript 
+      (function(d, sc, u) {
+        var s = d.createElement(sc), p = d.getElementsByTagName(sc)[0];
+        s.type = 'text/javascript';
+        s.async = true;
+        s.src = u + '?v=' + (+new Date());
+        p.parentNode.insertBefore(s,p);
+        })(document, 'script', '//aff.bstatic.com/static/affiliate_base/js/flexiproduct.js');

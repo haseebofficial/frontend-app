@@ -1,0 +1,196 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+@use "search/_styles/form/utils" as form-utils;
+
+// (.new-search-page) относится к странице en/spa
+.new-search-page {
+  .search-form {
+    margin-top: 23px;
+    padding: 15px 10px 20px 10px;
+
+    .main-field {
+      @include form-utils.field-height(60px);
+    }
+
+    @include r.desktop {
+      padding: 0px 25px 0px 25px;
+
+      .datetime-field-container .datetime-field-dropdown {
+        top: -52px;
+
+        .triangle {
+          top: 96px;
+        }
+        .triangle-quadrat {
+          top: 88px;
+        }
+      }
+    }
+  }
+
+  .mb-is-desktop {
+    padding-bottom: 60px;
+  }
+
+  .main-description {
+    margin-top: 35px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .description-container {
+    margin-top: 266px;
+  }
+
+  .why-header {
+    margin-bottom: 76px;
+    font: 30px "robotobold";
+    text-align: center;
+    color: c.$interpreters-yellow;
+  }
+
+  .root-description {
+    max-width: 1040px;
+    margin: 266px auto 0 auto;
+
+    .description-title {
+      display: block;
+      margin-bottom: 75px;
+    }
+  }
+
+  .description-indent {
+    padding-left: 70px;
+  }
+
+  .reviews-container {
+    margin: 70px 0 50px 0;
+  }
+
+  .why-block {
+    color: #888787;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
+    .why-block-text {
+      .root-description {
+        max-width: 987px;
+      }
+
+      h4 {
+        font-weight: 700;
+        font-size: 24px;
+        margin-bottom: 10px;
+        color: c.$interpreters-black;
+      }
+
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+      }
+    }
+
+    .why-block-media {
+      margin-left: 20px;
+      min-width: 90px;
+
+      i {
+        font-size: 100px;
+      }
+    }
+  }
+
+  @include r.tablet-only {
+    .why-block-media {
+      display: none;
+    }
+    .description-indent {
+      padding-left: 0;
+    }
+    .why-block {
+      justify-content: center;
+      text-align: center;
+
+      .why-block-text {
+        margin-right: 0;
+        max-width: 400px;
+      }
+    }
+    .mb-is-desktop {
+      padding-bottom: 0;
+    }
+  }
+
+  @include r.mobile {
+    .search-form {
+      margin-top: 25px;
+
+      .main-field {
+        @include form-utils.field-height(45px);
+      }
+    }
+
+    .main-title {
+      margin-top: 18px;
+      font: 22px "robotolight";
+      font-weight: 700;
+      color: c.$interpreters-black;
+    }
+
+    .main-description {
+      margin-top: 0;
+    }
+    .root-description {
+      width: 100%;
+      margin: 31px auto 0 auto;
+
+      .description-title {
+        display: block;
+        font: 28px "robotoblack";
+        margin-bottom: 10px;
+      }
+
+      .description-indent {
+        padding-left: 0;
+      }
+    }
+    .why-block {
+      justify-content: center;
+      text-align: center;
+
+      .why-block-text {
+        margin-right: 0;
+        max-width: 300px;
+        p {
+          font-size: 14px;
+        }
+      }
+
+      .why-block-media {
+        display: none;
+      }
+    }
+    .mb-is-desktop {
+      padding-bottom: 0;
+    }
+  }
+}
+.lang-ar {
+  .call-form .datetime-field-container .datetime-field-dropdown {
+    left: -90%;
+  }
+  .search-form .datetime-field-container .datetime-field-dropdown {
+    left: -202%;
+  }
+  .search-form .datetime-field-container .datetime-field-dropdown .triangle {
+    right: -8px;
+    filter: unset;
+  }
+  .call-form .datetime-field-container .datetime-field-dropdown .triangle {
+    right: -9px;
+    filter: none;
+    left: unset;
+  }
+}

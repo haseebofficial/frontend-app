@@ -1,0 +1,26 @@
+.balance-status {
+  font-family: robotolight;
+  margin-bottom: 10px;
+
+  .refresh-amount {
+    background: asset_url("refresh.png") center center no-repeat;
+    background-size: cover;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    cursor: pointer;
+    margin-bottom: -2px;
+    margin-left: 5px;
+  }
+
+  .top-up-link {
+    display: inline-block;
+    cursor: pointer;
+    text-decoration-style: dashed;
+    text-decoration-line: underline;
+  }
+
+  .top-up-link:hover {
+    text-decoration:none;
+  }
+}

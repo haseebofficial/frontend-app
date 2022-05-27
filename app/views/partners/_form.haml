@@ -1,0 +1,12 @@
+%form#create_new_partner{action: partners_url, method: :post}
+  .controls
+    = text_field_tag('user[name]', '', placeholder: t("for_affiliates_page.form.name"), class: "base-input")
+  .controls
+    %input{name: 'user[surname]', placeholder: t("for_affiliates_page.form.surname"), type: 'text', class: 'base-input'}
+  .controls
+    %input{name: 'user[email]', placeholder: t("for_affiliates_page.form.email"), type: 'text', class: 'base-input'}
+  .controls
+    %input{name: 'user[phone]', placeholder: t("for_affiliates_page.form.phone"), type: 'text', class: 'base-input'}
+
+  .clear
+  = submit_tag t("for_affiliates_page.form.submit"), class: 'base-input-submit'

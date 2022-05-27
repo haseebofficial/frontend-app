@@ -1,0 +1,14 @@
+login_page:
+  page_slogan: "الدخول"
+  form:
+    email: "عنوان البريد الإلكتروني"
+    password: "كلمة المرور"
+    remember_me: "تذكرني"
+    submit: "تسجيل الدخول"
+    error: "البريد إلكتروني أو كلمة مرور غير صحيحة"
+  links:
+    sign_in_for_interpreters: "تسجيل الدخول للمترجمين"
+    sign_in: "الدخول"
+    sign_up: "التسجيل"
+    restore_password: "هل نسيت كلمة المرور؟"
+    sign_up_for_interpreters: "التسجيل للمترجمين"

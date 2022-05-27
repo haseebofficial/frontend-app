@@ -1,0 +1,30 @@
+@media screen and (max-width: 767px) {
+  .interpretation-call-interpreter {
+    .call-button {
+      margin: 0;
+    }
+    .desc {
+      width: auto;
+      float: none;
+      .price {
+        width: 116px;
+        display: inline-block;
+      }
+    }
+
+    .photo-wrapper {
+      overflow: hidden;
+      position: relative;
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      float: left;
+
+      img {
+        width: 82px;
+        height: auto;
+        margin: 0px 5px 5px 0px;
+      }
+    }
+  }
+}

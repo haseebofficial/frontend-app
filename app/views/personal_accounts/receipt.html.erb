@@ -1,0 +1,82 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <style>
+      .colored{
+        background: #FFC602;
+        border: 1px solid;
+        text-align: center;
+      }
+      .info{
+        float: right;
+        margin-top: 10px;
+      }
+      .title{
+        font-size: 30px;
+        margin: 0 30px;
+        text-align: center;
+        display: inline-block;
+      }
+      .header{
+        margin: 10px 0;
+      }
+      .header{
+        text-align: center;
+      }
+      .text{
+        margin: 10px 0; 
+      }
+      .address{
+        border-top: 1px solid; 
+        margin: 10px 0;
+        padding: 10px 0;
+      }
+      .reg-num{
+        float: right;
+      }
+      .stamp{
+        position: absolute;
+        left: 50%;
+        top: -70px;
+      }
+      .footer{
+        position: relative;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="colored">interpreters.travel</div>
+      <div class="info">
+        <b>Receipt No:</b><%= @order.receipt_id %><br/>
+        <b>DATE:</b> <%= @order.payment.created_at %>
+      </div>
+      <div class="header">
+        <h1 class="title">Payment Receipt</h1>
+      </div>
+      <div class="text">
+        <b>Received from:</b> 
+        <% if @order.legal_form? %>
+          <%= "#{@order.legal_form} #{@order.name}" %>
+        <% else %>
+          <%= "#{@order.name} #{@order.surname}" %>
+        <% end %>
+        <br/>
+        <b>the amount of:</b> 
+        <%= "#{@order.payment.amount}" "#{@order.payment.currency.code}" %> 
+      </div>
+      <div class="footer">
+        <div class="stamp">
+          <%= wicked_pdf_image_tag "stamp.png" %>
+        </div>
+        <span class="name">INTERPRETERS.TRAVEL OÜ</span>
+        <span class="reg-num">Registration number: 16422855</span>    
+        <div class="address">
+          Registred office: Harju maakond, Tallinn, Kesklinna linnaosa, Vesivärava tn 50-201, 10152. Office phone: +357 22 008 050. Email: office@interpreters.travel
+       </div>
+      </div>
+    </div>
+</body>

@@ -1,0 +1,3 @@
+translations:
+- file: 'vendor/assets/javascripts/translations.js'
+  only: ['*.js', '*.hours', '*.minutes', '*.interpreter', '*.time', "*.date"]

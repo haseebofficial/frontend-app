@@ -1,0 +1,13 @@
+ru:
+  sign_up_page:
+    title: "Регистрация"
+    interpreters_question: "Вы хотите зарегистрироваться как переводчик?"
+    yess: "Да"
+    nno: "Нет"
+    form:
+     name: "* Имя"
+     surname: "* Фамилия"
+     email: "* Email"
+     password: "* Пароль"
+     password_confirmation: "* Подтверждение пароля"
+     submit: 'Регистрация'

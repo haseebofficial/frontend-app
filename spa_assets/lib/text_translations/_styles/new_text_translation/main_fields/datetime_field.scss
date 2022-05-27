@@ -1,0 +1,168 @@
+@use "app/_styles/utils/colors" as c;
+@use "app/_styles/utils/responsiveness" as r;
+@use "app/_styles/utils/z_index";
+@use "app/_styles/utils/text";
+
+.translation-request-form .main-fields {
+  .datetime-field-container {
+    position: relative;
+    .datetime-field-fon {
+      display: none;
+    }
+    @include r.desktop {
+      .datetime-field-dropdown {
+        position: absolute;
+        // width: 300px;
+        left: 100%;
+        top: -180px;
+        .close-me {
+          display: none;
+        }
+      }
+    }
+    .datetime-field-dropdown {
+      .triangle {
+        position: absolute;
+        top: 222px;
+        left: -9px;
+        width: 18px;
+        height: 18px;
+        background-color: #fff;
+        filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+        transform: rotate(45deg);
+      }
+      .triangle-quadrat {
+        position: absolute;
+        top: 212px;
+        left: 0;
+        width: 20px;
+        height: 36px;
+        background-color: #fff;
+      }
+    }
+    .main-field {
+      margin-bottom: 0;
+      .icon {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: c.$interpreters-green;
+      }
+
+      input {
+        cursor: pointer;
+        @include text.unselectable;
+      }
+    }
+
+    .datetime-field-dropdown {
+      background-color: white;
+      padding: 15px 15px 20px;
+      // border: 1px solid black;
+      position: absolute;
+      filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.25));
+      // width: 100%;
+      width: 300px;
+      z-index: z_index.$dropdown-z-index;
+
+      .time-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .timepicker {
+        margin: 20px 15px 15px;
+      }
+
+      .buttons {
+        // border-top: 1px solid #DBDBDB;
+        padding-top: 8px;
+        .button {
+          font: 18px "robotolight";
+          font-weight: 300;
+          color: #30480a;
+          //padding: 5px;
+          // max-width: 320px;
+          width: calc(100% - 30px);
+          margin: 0 auto;
+          margin-bottom: 8px;
+          // margin-top: 15px;
+          // margin-bottom: 18px;
+          height: 40px;
+          &:hover,
+          &:focus {
+            color: #30480a;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include r.touch {
+  .translation-request-form .main-fields {
+    .datetime-field-container {
+      position: relative;
+      .triangle {
+        display: none;
+      }
+      .triangle-quadrat {
+        display: none;
+      }
+      .datetime-field-fon {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.7);
+        z-index: 120;
+      }
+      .datetime-field-dropdown {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: auto;
+        z-index: 999;
+        .close-me {
+          display: block;
+          position: absolute;
+          font-size: 36px;
+          top: 6px;
+          right: 24px;
+          text-decoration: none;
+        }
+        .timepicker-for-touch {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        .buttons {
+          padding-top: 22px;
+          border-top: 1px solid #dbdbdb;
+        }
+      }
+    }
+  }
+}
+
+.lang-ar {
+  .call-form .datetime-field-container .datetime-field-dropdown {
+    left: -90%;
+  }
+  .search-form .datetime-field-container .datetime-field-dropdown {
+    left: -202%;
+  }
+  .search-form .datetime-field-container .datetime-field-dropdown .triangle {
+    right: -8px;
+    filter: unset;
+  }
+  .call-form .datetime-field-container .datetime-field-dropdown .triangle {
+    right: -9px;
+    filter: none;
+    left: unset;
+  }
+}

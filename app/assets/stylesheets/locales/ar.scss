@@ -1,0 +1,133 @@
+body.locale-ar {
+  .top_menu > li.back-link .back_link {
+    background: asset_url('back_link_flipped.png') no-repeat right center;
+    padding-left: 0;
+    padding-right: 15px;
+  }
+
+  .footer_menu li {
+    border-left: none;
+    border-right: 1px solid #fff;
+  }
+
+  .footer_menu li:first-child {
+    border-right: none;
+  }
+
+  .find_translator_wrapper .form_wrapper .label .full_date_text {
+    background-position-x: 10px;
+  }
+
+  .green_line .content .full_date_text {
+    background-position-x: 5px;
+  }
+
+  #language_selector .jq-selectbox__trigger {
+    right: 310px;
+  }
+
+  .green_line #language_selector .jq-selectbox__trigger {
+    right: 155px;
+  }
+
+
+  .data_cloud .timepicker { 
+    .text {
+      float: right;
+      padding-right: 4px;
+      padding-left: 5px;
+    }
+
+    .time {
+      float: right;
+    }
+  }
+
+  .green_line .content {
+    .data_cloud .timepicker { 
+      .text {
+        float: right;
+        padding-right: 4px;
+        padding-left: 5px;
+      }
+
+      .time {
+        float: right;
+      }
+    }
+  }
+
+  .info_link {
+    background-position-x: right;
+    padding-right: 25px;
+    padding-left: 0px;
+  }
+
+  .result_trans_wrapper .details-links-block .info_link {
+    padding: 3px 25px 3px 8px;
+  }
+
+  .result_trans_wrapper .details-links-block .info_link.level {
+    margin-right: 8px;
+    padding: 0 25px 3px 0;
+  }
+
+  .type_trans_wrapper .all_link {
+    background: none;
+  }
+
+  .order_stage_wrapper .order_stage li {
+    float: right;
+  }
+
+  .order_stage_wrapper .order_stage li:last-child {
+    float: left;
+  }
+
+  .data_cloud .ui-datepicker .ui-datepicker-header .ui-datepicker-prev {
+    background: asset_url('calendar_ar_next.png') no-repeat center center;
+  }
+
+  .data_cloud .ui-datepicker .ui-datepicker-header .ui-datepicker-next {
+    background: asset_url('calendar_ar_prev.png') no-repeat center center;
+  }
+
+  .green_line {
+    .data_cloud .ui-datepicker .ui-datepicker-header .ui-datepicker-prev {
+      background: asset_url('calendar_ar_next.png') no-repeat center center;
+    }
+
+    .data_cloud .ui-datepicker .ui-datepicker-header .ui-datepicker-next {
+      background: asset_url('calendar_ar_prev.png') no-repeat center center;
+    }
+  }
+
+  .payment_tabs .text {
+    float: right;
+  }
+
+  .info_link.level .client-reviews-count {
+    float: left;
+    margin-left: -54px;
+  }
+
+  input[type="checkbox"], input[type="radio"], select:not(.chosen-select) {
+    left: 9999px !important;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1000px) {
+    .cart_block .info_wrapper .right {
+      margin: 0;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .find_translator_wrapper .form_wrapper .data_cloud .ui-datepicker {
+      float: left;
+    }
+
+    .result_trans_wrapper .details-links-block .info_link.level {
+      float: right;
+    }
+  }
+}
